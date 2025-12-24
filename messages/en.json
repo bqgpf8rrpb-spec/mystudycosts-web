@@ -1,6 +1,20 @@
 {
   "Index": {
     "title": "MyStudyCosts",
-    "start": "Get started"
+    "start": "Get started",
+    "subtitle": "Calculate your monthly and semester study costs"
+  },
+  "Calculator": {
+    "rent": "Rent",
+    "semesterFee": "Semester Fee",
+    "food": "Food",
+    "learningMaterials": "Learning Materials",
+    "insurance": "Insurance",
+    "leisure": "Leisure",
+    "monthlyTotal": "Monthly Total",
+    "semesterTotal": "Semester Total",
+    "perMonth": "per month",
+    "oneTime": "one-time (6 months)",
+    "semesterDescription": "(6 months + semester fee)"
   }
 }

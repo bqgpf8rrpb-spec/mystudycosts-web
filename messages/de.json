@@ -1,6 +1,20 @@
 {
   "Index": {
     "title": "MyStudyCosts",
-    "start": "Jetzt starten"
+    "start": "Jetzt starten",
+    "subtitle": "Berechne deine monatlichen und semesterweisen Studienkosten"
+  },
+  "Calculator": {
+    "rent": "Miete",
+    "semesterFee": "Semesterbeitrag",
+    "food": "Verpflegung",
+    "learningMaterials": "Lernmittel",
+    "insurance": "Versicherung",
+    "leisure": "Freizeit",
+    "monthlyTotal": "Monatliche Gesamtkosten",
+    "semesterTotal": "Semester-Gesamtkosten",
+    "perMonth": "pro Monat",
+    "oneTime": "einmalig (6 Monate)",
+    "semesterDescription": "(6 Monate + Semesterbeitrag)"
   }
 }
