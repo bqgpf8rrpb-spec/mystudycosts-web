@@ -15,7 +15,16 @@
     "semesterTotal": "Semester Total",
     "perMonth": "per month",
     "oneTime": "one-time (6 months)",
-    "semesterDescription": "(6 months + semester fee)"
+    "semesterDescription": "(6 months + semester fee)",
+    "visaNoteService": "Includes estimated service provider fees (VFS/Visametric).",
+    "visaNoteFree": "Citizens of your country can enter visa-free but pay for the residence permit in Germany (~110€).",
+    "scholarshipCheckbox": "I have a public scholarship/stipend (Erasmus, DAAD, etc.) - Visa fee exempt",
+    "minijobInfo": "Current limit for 2025 is approx. 556€/month. Usually tax-free and minimal social contributions.",
+    "werkstudentInfo": "Max. 20 hours/week during the semester. You pay into pension insurance but are exempt from other social contributions.",
+    "dayRule140": "Non-EU students are allowed to work 140 full days or 280 half days per year (new 2025 regulation).",
+    "hoursWarning": "Working more than 20h/week during the semester may affect your student status and insurance.",
+    "selfEmploymentWarning": "IMPORTANT: Self-employment (Freelancing/Gewerbe) is generally NOT allowed for international students unless explicitly approved by the Foreigners' Authority (Ausländerbehörde).",
+    "disclaimer": "Note: All calculated costs are estimates for guidance only. Visa fees, insurance premiums, and living costs are subject to change. No liability is assumed for the accuracy of this data. Status: December 2025."
   },
   "Imprint": {
     "title": "Imprint",
@@ -80,5 +89,30 @@
     "and": "and",
     "accept": "Accept All",
     "decline": "Decline Essential Only"
+  },
+  "Timeline": {
+    "title": "Road to Germany Timeline",
+    "subtitle": "Your personalized journey to studying in Germany. Click on each step to learn more.",
+    "semesterStartLabel": "Planned Semester Start Date",
+    "semesterStartNote": "Adjust this date to see when you should complete each step.",
+    "current": "Current",
+    "completed": "Completed",
+    "month0": "Arrival month",
+    "monthsBefore": "{months} months before",
+    "universityTitle": "University Application",
+    "universityDesc": "Start your application process through uni-assist or directly to your chosen university. Prepare all required documents (transcripts, language certificates, motivation letter). Deadlines vary by university and program.",
+    "admissionTitle": "Admission Letter & Blocked Account",
+    "admissionDesc": "Once you receive your admission letter, immediately start the blocked account process (Fintiba, Expatrio, or Coracle). You'll need the Confirmation of Financial Resources (06 Confirmation) for your visa application.",
+    "visaAppointmentTitle": "Book Visa Appointment & Health Insurance",
+    "visaAppointmentDesc": "Book your visa appointment at the German consulate in your country. You need this for your visa application. We recommend TK (public) or a private 'Incoming' insurance for language students.",
+    "visaApplicationTitle": "Visa Application",
+    "visaApplicationDesc": "Submit your complete visa application with all required documents: admission letter, blocked account confirmation, health insurance certificate, passport, and visa fee payment receipt.",
+    "accommodationTitle": "Find Accommodation & Book Flight",
+    "accommodationDesc": "Start searching for accommodation early! Use Studentenwerk, WG-Gesucht, or university housing services. Book your flight once you have your visa approved. Housing in major cities (Munich, Berlin, Hamburg) is extremely competitive.",
+    "arrivalTitle": "Arrival in Germany & Enrollment",
+    "arrivalDesc": "Arrive in Germany, register at the local registration office (Einwohnermeldeamt), open a bank account, and complete your university enrollment. Don't forget to apply for your residence permit at the Foreigners' Authority (Ausländerbehörde) within 90 days.",
+    "progress": "{completed} of {total} steps completed",
+    "done": "Done",
+    "timelineDisclaimer": "Important Note: This timeline is for guidance only and is non-binding. Deadlines for visa applications, university admissions, and insurance can change depending on your country of origin and institution. Always verify official deadlines with the relevant authorities. Status: December 2025."
   }
 }

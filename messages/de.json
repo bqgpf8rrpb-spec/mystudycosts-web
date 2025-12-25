@@ -15,7 +15,16 @@
     "semesterTotal": "Semester-Gesamtkosten",
     "perMonth": "pro Monat",
     "oneTime": "einmalig (6 Monate)",
-    "semesterDescription": "(6 Monate + Semesterbeitrag)"
+    "semesterDescription": "(6 Monate + Semesterbeitrag)",
+    "visaNoteService": "Enthält geschätzte Servicegebühren (VFS/Visametric).",
+    "visaNoteFree": "Bürger Ihres Landes können visumfrei einreisen, zahlen aber für die Aufenthaltserlaubnis in Deutschland (~110€).",
+    "scholarshipCheckbox": "Ich habe ein öffentliches Stipendium (Erasmus, DAAD, etc.) - Visumgebühr befreit",
+    "minijobInfo": "Aktuelles Limit für 2025 beträgt ca. 556€/Monat. Meist steuerfrei und minimale Sozialabgaben.",
+    "werkstudentInfo": "Max. 20 Stunden/Woche während des Semesters. Sie zahlen in die Rentenversicherung ein, sind aber von anderen Sozialabgaben befreit.",
+    "dayRule140": "Nicht-EU-Studierende dürfen 140 volle Tage oder 280 halbe Tage pro Jahr arbeiten (neue Regelung 2025).",
+    "hoursWarning": "Mehr als 20 Stunden/Woche während des Semesters können Ihren Studentenstatus und Ihre Versicherung beeinträchtigen.",
+    "selfEmploymentWarning": "WICHTIG: Selbstständigkeit (Freelancing/Gewerbe) ist für internationale Studierende grundsätzlich NICHT erlaubt, es sei denn, sie wird ausdrücklich von der Ausländerbehörde genehmigt.",
+    "disclaimer": "Hinweis: Alle berechneten Kosten sind Schätzwerte und dienen der Orientierung. Visagebühren, Versicherungsprämien und Lebenshaltungskosten können sich jederzeit ändern. Angaben ohne Gewähr. Stand: Dezember 2025."
   },
   "Imprint": {
     "title": "Impressum",
@@ -80,5 +89,30 @@
     "and": "und",
     "accept": "Alle akzeptieren",
     "decline": "Nur notwendige"
+  },
+  "Timeline": {
+    "title": "Zeitplan bis Deutschland",
+    "subtitle": "Ihre personalisierte Reise zum Studium in Deutschland. Klicken Sie auf jeden Schritt, um mehr zu erfahren.",
+    "semesterStartLabel": "Geplantes Semesterstartdatum",
+    "semesterStartNote": "Passen Sie dieses Datum an, um zu sehen, wann Sie jeden Schritt abschließen sollten.",
+    "current": "Aktuell",
+    "completed": "Abgeschlossen",
+    "month0": "Ankunftsmonat",
+    "monthsBefore": "{months} Monate vorher",
+    "universityTitle": "Universitätsbewerbung",
+    "universityDesc": "Starten Sie Ihren Bewerbungsprozess über uni-assist oder direkt bei Ihrer gewählten Universität. Bereiten Sie alle erforderlichen Dokumente vor (Zeugnisse, Sprachzertifikate, Motivationsschreiben). Fristen variieren je nach Universität und Studiengang.",
+    "admissionTitle": "Zulassungsbescheid & Blockkonto",
+    "admissionDesc": "Sobald Sie Ihren Zulassungsbescheid erhalten, beginnen Sie sofort mit dem Blockkonto-Prozess (Fintiba, Expatrio oder Coracle). Sie benötigen die Bestätigung der Finanzierung (06-Bestätigung) für Ihren Visumantrag.",
+    "visaAppointmentTitle": "Visumtermin buchen & Krankenversicherung",
+    "visaAppointmentDesc": "Buchen Sie Ihren Visumtermin bei der deutschen Botschaft in Ihrem Land. Sie benötigen dies für Ihren Visumantrag. Wir empfehlen TK (öffentlich) oder eine private 'Incoming'-Versicherung für Sprachstudenten.",
+    "visaApplicationTitle": "Visumantrag",
+    "visaApplicationDesc": "Reichen Sie Ihren vollständigen Visumantrag mit allen erforderlichen Dokumenten ein: Zulassungsbescheid, Blockkonto-Bestätigung, Krankenversicherungszertifikat, Reisepass und Visumgebührenzahlungsbeleg.",
+    "accommodationTitle": "Unterkunft finden & Flug buchen",
+    "accommodationDesc": "Beginnen Sie frühzeitig mit der Wohnungssuche! Nutzen Sie Studentenwerk, WG-Gesucht oder Universitätswohnheime. Buchen Sie Ihren Flug, sobald Ihr Visum genehmigt wurde. Wohnraum in Großstädten (München, Berlin, Hamburg) ist extrem umkämpft.",
+    "arrivalTitle": "Ankunft in Deutschland & Immatrikulation",
+    "arrivalDesc": "Kommen Sie in Deutschland an, melden Sie sich beim örtlichen Einwohnermeldeamt an, eröffnen Sie ein Bankkonto und schließen Sie Ihre Universitätsimmatrikulation ab. Vergessen Sie nicht, innerhalb von 90 Tagen Ihren Aufenthaltstitel bei der Ausländerbehörde zu beantragen.",
+    "progress": "{completed} von {total} Schritten abgeschlossen",
+    "done": "Erledigt",
+    "timelineDisclaimer": "Wichtiger Hinweis: Dieser Zeitplan ist eine unverbindliche Orientierungshilfe. Fristen für Visumanträge, Universitätsbewerbungen und Versicherungen können sich je nach Herkunftsland und Hochschule kurzfristig ändern. Bitte prüfen Sie immer die offiziellen Fristen der jeweiligen Behörden. Stand: Dezember 2025."
   }
 }

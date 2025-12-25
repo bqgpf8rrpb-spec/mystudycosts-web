@@ -3,9 +3,39 @@
 import { useState, useRef, useEffect, useMemo } from 'react';
 import { createPortal } from 'react-dom';
 import { usePathname } from 'next/navigation';
-import { MapPin, Plane, Shield, Building, Euro, Info, Search, ChevronDown, Loader2, ExternalLink, GraduationCap, Download, Wallet, GitCompare, Lock, ArrowRight, CheckCircle2, Circle, AlertTriangle, Database, Briefcase, Coins } from 'lucide-react';
+// Import icons from lucide-react - Next.js 15 will optimize these automatically via optimizePackageImports
+import {
+  MapPin,
+  Plane,
+  Shield,
+  Building,
+  Euro,
+  Info,
+  Search,
+  ChevronDown,
+  Loader2,
+  ExternalLink,
+  GraduationCap,
+  Download,
+  Wallet,
+  GitCompare,
+  Lock,
+  ArrowRight,
+  CheckCircle2,
+  Circle,
+  AlertTriangle,
+  Database,
+  Briefcase,
+  Coins,
+  Scale,
+  Book,
+  Landmark,
+  Calendar,
+  Home,
+} from 'lucide-react';
 import { useCurrency, type CurrencyCode } from '@/contexts/CurrencyContext';
 import { trackEvent } from '@/lib/analytics';
+import { useTranslations } from 'next-intl';
 
 interface ExchangeRates {
   USD: number;
@@ -255,6 +285,110 @@ const UNIVERSITIES: University[] = [
   { name: 'University of Regensburg', city: 'Regensburg', semesterFee: 165 },
 ];
 
+// Visa fee structure: base fee + optional service fee
+interface VisaFeeInfo {
+  baseFee: number; // Embassy/Consulate fee (usually 75€)
+  serviceFee?: number; // VFS/Visametric service fee (e.g., 40€ for India, Turkey)
+  visaFree?: boolean; // True if visa-free entry (pay residence permit in Germany)
+  note?: string; // Special note for this country
+}
+
+// VISA_DATA: Maps countries to their visa fee structure
+const VISA_DATA: Record<string, VisaFeeInfo> = {
+  // High service fee countries (VFS/Visametric required)
+  'India': { baseFee: 75, serviceFee: 40 },
+  'Turkey': { baseFee: 75, serviceFee: 40 },
+  'Bangladesh': { baseFee: 75, serviceFee: 40 },
+  'Pakistan': { baseFee: 75, serviceFee: 40 },
+  'Nepal': { baseFee: 75, serviceFee: 40 },
+  'Sri Lanka': { baseFee: 75, serviceFee: 40 },
+  
+  // Visa-free entry countries (pay residence permit in Germany ~110€)
+  'United States': { baseFee: 0, visaFree: true },
+  'USA': { baseFee: 0, visaFree: true },
+  'Brazil': { baseFee: 0, visaFree: true },
+  'South Korea': { baseFee: 0, visaFree: true },
+  'Japan': { baseFee: 0, visaFree: true },
+  'Canada': { baseFee: 0, visaFree: true },
+  'Australia': { baseFee: 0, visaFree: true },
+  'New Zealand': { baseFee: 0, visaFree: true },
+  'Singapore': { baseFee: 0, visaFree: true },
+  'Israel': { baseFee: 0, visaFree: true },
+  'Chile': { baseFee: 0, visaFree: true },
+  'Argentina': { baseFee: 0, visaFree: true },
+  'Uruguay': { baseFee: 0, visaFree: true },
+  
+  // EU/EEA countries (no visa needed)
+  'Austria': { baseFee: 0 },
+  'Belgium': { baseFee: 0 },
+  'Bulgaria': { baseFee: 0 },
+  'Croatia': { baseFee: 0 },
+  'Czech Republic': { baseFee: 0 },
+  'Denmark': { baseFee: 0 },
+  'Estonia': { baseFee: 0 },
+  'Finland': { baseFee: 0 },
+  'France': { baseFee: 0 },
+  'Germany': { baseFee: 0 },
+  'Greece': { baseFee: 0 },
+  'Hungary': { baseFee: 0 },
+  'Ireland': { baseFee: 0 },
+  'Italy': { baseFee: 0 },
+  'Latvia': { baseFee: 0 },
+  'Lithuania': { baseFee: 0 },
+  'Luxembourg': { baseFee: 0 },
+  'Malta': { baseFee: 0 },
+  'Netherlands': { baseFee: 0 },
+  'Poland': { baseFee: 0 },
+  'Portugal': { baseFee: 0 },
+  'Romania': { baseFee: 0 },
+  'Slovakia': { baseFee: 0 },
+  'Slovenia': { baseFee: 0 },
+  'Spain': { baseFee: 0 },
+  'Sweden': { baseFee: 0 },
+  'Iceland': { baseFee: 0 },
+  'Norway': { baseFee: 0 },
+  'Switzerland': { baseFee: 0 },
+  
+  // Default: Base fee only (75€)
+};
+
+// Helper function to get visa fee for a country
+function getVisaFee(country: string, hasScholarship: boolean = false): { total: number; breakdown: string; note?: string } {
+  if (hasScholarship) {
+    return { total: 0, breakdown: '0€ (Scholarship exemption)' };
+  }
+  
+  const visaInfo = VISA_DATA[country];
+  if (!visaInfo) {
+    // Default: base fee only
+    return { total: 75, breakdown: '75€ (Embassy fee)' };
+  }
+  
+  if (visaInfo.baseFee === 0 && visaInfo.visaFree) {
+    return { 
+      total: 0, 
+      breakdown: '0€ (Visa-free entry)',
+      note: 'residence_permit'
+    };
+  }
+  
+  if (visaInfo.baseFee === 0) {
+    // EU/EEA - no visa needed
+    return { total: 0, breakdown: '0€ (EU/EEA citizen)' };
+  }
+  
+  const total = visaInfo.baseFee + (visaInfo.serviceFee || 0);
+  const breakdown = visaInfo.serviceFee 
+    ? `${visaInfo.baseFee}€ Embassy + ${visaInfo.serviceFee}€ Service Fee`
+    : `${visaInfo.baseFee}€ (Embassy fee)`;
+  
+  return { 
+    total, 
+    breakdown,
+    note: visaInfo.serviceFee ? 'service_fee' : undefined
+  };
+}
+
 const STUDY_DATA = {
   CITIES: UNIVERSITY_CITIES,
   ORIGIN_COUNTRIES: COUNTRIES,
@@ -287,11 +421,15 @@ interface Scenario {
   jobType: JobType;
   hoursPerWeek: number;
   hourlyWage: number;
+  hasScholarship: boolean; // Stipend/Erasmus scholarship exemption
+  plannedSemesterStart: string; // ISO date string (YYYY-MM-DD)
 }
 
 // Calculated values interface
 interface CalculatedValues {
   visaFee: number;
+  visaFeeBreakdown: string;
+  visaFeeNote?: string;
   monthlyRent: number;
   monthlyInsurance: number;
   semesterFeeMonthly: number;
@@ -659,9 +797,25 @@ export default function StudyCostCalculator() {
   const pathname = usePathname();
   const locale = pathname?.split('/')[1] || 'en';
   
+  // Translations
+  const t = useTranslations('Calculator');
+  
   // Comparison mode state
   const [isComparisonMode, setIsComparisonMode] = useState(false);
   
+  // UI state for info boxes
+  const [showVisaInfo, setShowVisaInfo] = useState(false);
+  const [openVisaInfo, setOpenVisaInfo] = useState(false);
+  const [showMinijobInfo, setShowMinijobInfo] = useState(false);
+  const [showWerkstudentInfo, setShowWerkstudentInfo] = useState(false);
+  
+  // Calculate default semester start (6 months from now)
+  const getDefaultSemesterStart = (): string => {
+    const date = new Date();
+    date.setMonth(date.getMonth() + 6);
+    return date.toISOString().split('T')[0];
+  };
+
   // Primary scenario state
   const [primaryScenario, setPrimaryScenario] = useState<Scenario>({
     originCountry: '',
@@ -671,6 +825,8 @@ export default function StudyCostCalculator() {
     jobType: 'minijob',
     hoursPerWeek: 0,
     hourlyWage: 12.41,
+    hasScholarship: false,
+    plannedSemesterStart: getDefaultSemesterStart(),
   });
   
   // Comparison scenario state
@@ -682,6 +838,8 @@ export default function StudyCostCalculator() {
     jobType: 'minijob',
     hoursPerWeek: 0,
     hourlyWage: 12.41,
+    hasScholarship: false,
+    plannedSemesterStart: getDefaultSemesterStart(),
   });
   
   // Currency from context (shared with Navbar)
@@ -868,7 +1026,11 @@ export default function StudyCostCalculator() {
   // Calculate function - takes a scenario and returns calculated values
   const calculateScenario = useMemo(() => {
     return (scenario: Scenario): CalculatedValues => {
-      const visaFee = scenario.originCountry ? STUDY_DATA.ORIGIN_COUNTRIES[scenario.originCountry] : 0;
+      // Get dynamic visa fee based on country and scholarship status
+      const visaFeeInfo = scenario.originCountry 
+        ? getVisaFee(scenario.originCountry, scenario.hasScholarship)
+        : { total: 0, breakdown: '0€', note: undefined };
+      const visaFee = visaFeeInfo.total;
       const monthlyRent = scenario.targetCity ? STUDY_DATA.CITIES[scenario.targetCity] : 0;
       const monthlyInsurance = scenario.insuranceType === 'public' 
         ? STUDY_DATA.FIXED_COSTS.healthInsurancePublic 
@@ -925,6 +1087,8 @@ export default function StudyCostCalculator() {
 
       return {
         visaFee,
+        visaFeeBreakdown: visaFeeInfo.breakdown,
+        visaFeeNote: visaFeeInfo.note,
         monthlyRent,
         monthlyInsurance,
         semesterFeeMonthly,
@@ -1091,6 +1255,8 @@ export default function StudyCostCalculator() {
   // Use calculated values from primary scenario
   const {
     visaFee,
+    visaFeeBreakdown,
+    visaFeeNote,
     monthlyRent,
     monthlyInsurance,
     semesterFeeMonthly,
@@ -1322,6 +1488,24 @@ export default function StudyCostCalculator() {
             cardZIndex={100}
           />
 
+          {/* Scholarship Checkbox */}
+          {primaryScenario.originCountry && (
+            <div className="backdrop-blur-sm bg-slate-950/80 border border-white/10 rounded-xl p-4 hover:bg-slate-950/90 transition-all duration-200 relative z-[10]">
+              <label className="flex items-center gap-3 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={primaryScenario.hasScholarship}
+                  onChange={(e) => setPrimaryScenario(prev => ({ ...prev, hasScholarship: e.target.checked }))}
+                  className="w-4 h-4 text-blue-600 bg-black/40 border-white/20 rounded focus:ring-blue-500 focus:ring-2"
+                />
+                <span className="text-white/80 text-sm flex items-center gap-2">
+                  <Lock className="w-4 h-4" />
+                  I have a public scholarship/stipend (Erasmus, DAAD, etc.) - Visa fee exempt
+                </span>
+              </label>
+            </div>
+          )}
+
           {/* Target City Combobox */}
           <SearchableCombobox
             options={CITY_OPTIONS}
@@ -1359,6 +1543,25 @@ export default function StudyCostCalculator() {
               label="Which university do you want to attend?"
               cardZIndex={80}
             />
+          )}
+
+          {/* Planned Semester Start Date Input */}
+          {primaryScenario.targetCity && (
+            <div className="backdrop-blur-sm bg-slate-950/80 border border-white/10 rounded-xl p-4 hover:bg-slate-950/90 transition-all duration-200 relative z-[10]">
+              <label className="block text-sm font-medium text-white/80 mb-3 flex items-center gap-2">
+                <Calendar className="w-4 h-4" />
+                Planned Semester Start
+              </label>
+              <input
+                type="date"
+                value={primaryScenario.plannedSemesterStart}
+                onChange={(e) => setPrimaryScenario(prev => ({ ...prev, plannedSemesterStart: e.target.value }))}
+                className="w-full bg-black/40 border border-white/10 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              />
+              <p className="text-white/50 text-xs mt-2">
+                Select when you plan to start your studies in Germany. The timeline below will adjust automatically.
+              </p>
+            </div>
           )}
 
           {/* Health Insurance Type Radio */}
@@ -1489,10 +1692,69 @@ export default function StudyCostCalculator() {
                 Upfront Costs (One-Time)
               </h3>
               <div className="space-y-3">
-                <div className="flex justify-between items-center">
+                <div className="flex justify-between items-center group relative">
                   <span className="text-white/70 text-sm flex items-center gap-1">
                     <Plane className="w-3 h-3" />
                     Visa Fee
+                    {primaryScenario.originCountry && visaFeeBreakdown && (
+                      <div className="relative">
+                        <Info 
+                          className="w-3 h-3 text-blue-400 cursor-help ml-1" 
+                          onMouseEnter={() => {
+                            setShowVisaInfo(true);
+                            setOpenVisaInfo(true);
+                          }}
+                          onMouseLeave={() => {
+                            setShowVisaInfo(false);
+                            if (typeof window !== 'undefined' && window.innerWidth >= 768) {
+                              setOpenVisaInfo(false);
+                            }
+                          }}
+                          onClick={() => {
+                            setOpenVisaInfo(!openVisaInfo);
+                            setShowVisaInfo(!openVisaInfo);
+                          }}
+                        />
+                        {(showVisaInfo || openVisaInfo) && (
+                          <div 
+                            className="absolute left-0 bottom-full mb-2 w-64 p-3 bg-slate-900/95 border border-white/20 rounded-lg shadow-xl z-50 backdrop-blur-md"
+                            onMouseEnter={() => {
+                              setShowVisaInfo(true);
+                              setOpenVisaInfo(true);
+                            }}
+                            onMouseLeave={() => {
+                              setShowVisaInfo(false);
+                              if (typeof window !== 'undefined' && window.innerWidth >= 768) {
+                                setOpenVisaInfo(false);
+                              }
+                            }}
+                          >
+                            <p className="text-white text-xs mb-1 font-semibold">Breakdown:</p>
+                            <p className="text-white/80 text-xs mb-2">{visaFeeBreakdown}</p>
+                            {visaFeeNote === 'service_fee' && (
+                              <p className="text-blue-300/80 text-xs italic">
+                                Includes estimated service provider fees (VFS/Visametric).
+                              </p>
+                            )}
+                            {visaFeeNote === 'residence_permit' && (
+                              <p className="text-blue-300/80 text-xs italic">
+                                Citizens of your country can enter visa-free but pay for the residence permit in Germany (~110€).
+                              </p>
+                            )}
+                            <button
+                              type="button"
+                              className="mt-2 text-xs text-blue-400 hover:text-blue-300 underline"
+                              onClick={() => {
+                                setShowVisaInfo(false);
+                                setOpenVisaInfo(false);
+                              }}
+                            >
+                              Close
+                            </button>
+                          </div>
+                        )}
+                      </div>
+                    )}
                   </span>
                   <span className="text-white font-semibold">
                     {primaryScenario.originCountry ? formatCurrency(visaFee * conversionRate, selectedCurrency) : '—'}
@@ -1686,6 +1948,16 @@ export default function StudyCostCalculator() {
               </div>
             )}
 
+            {/* Legal Disclaimer */}
+            <div className="mt-6 pt-4 border-t border-white/10">
+              <div className="flex items-start gap-2 text-slate-400 text-xs leading-relaxed">
+                <Scale className="w-4 h-4 mt-0.5 flex-shrink-0" />
+                <p>
+                  {t('disclaimer')}
+                </p>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
@@ -1766,13 +2038,37 @@ export default function StudyCostCalculator() {
                     hoursPerWeek: prev.hoursPerWeek || 0,
                   }));
                 }}
-                className={`flex-1 px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 ${
+                className={`flex-1 px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 relative ${
                   primaryScenario.jobType === 'minijob'
                     ? 'bg-blue-600 text-white shadow-lg'
                     : 'text-white/70 hover:text-white/90 hover:bg-white/5'
                 }`}
               >
-                Minijob
+                <span className="flex items-center justify-center gap-2">
+                  Minijob
+                  <div className="relative group">
+                    <Info 
+                      className="w-3.5 h-3.5 text-blue-300 cursor-help" 
+                      onMouseEnter={() => setShowMinijobInfo(true)}
+                      onMouseLeave={() => setShowMinijobInfo(false)}
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        setShowMinijobInfo(!showMinijobInfo);
+                      }}
+                    />
+                    {showMinijobInfo && (
+                      <div 
+                        className="absolute left-0 bottom-full mb-2 w-72 p-3 bg-slate-900/95 border border-white/20 rounded-lg shadow-xl z-50 backdrop-blur-md"
+                        onMouseEnter={() => setShowMinijobInfo(true)}
+                        onMouseLeave={() => setShowMinijobInfo(false)}
+                      >
+                        <p className="text-white text-xs leading-relaxed">
+                          Current limit for 2025 is approx. 556€/month. Usually tax-free and minimal social contributions.
+                        </p>
+                      </div>
+                    )}
+                  </div>
+                </span>
               </button>
               <button
                 type="button"
@@ -1783,37 +2079,48 @@ export default function StudyCostCalculator() {
                     hoursPerWeek: prev.hoursPerWeek || 10,
                   }));
                 }}
-                className={`flex-1 px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 ${
+                className={`flex-1 px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 relative ${
                   primaryScenario.jobType === 'working_student'
                     ? 'bg-blue-600 text-white shadow-lg'
                     : 'text-white/70 hover:text-white/90 hover:bg-white/5'
                 }`}
               >
-                Working Student
+                <span className="flex items-center justify-center gap-2">
+                  Working Student
+                  <div className="relative group">
+                    <Info 
+                      className="w-3.5 h-3.5 text-blue-300 cursor-help" 
+                      onMouseEnter={() => setShowWerkstudentInfo(true)}
+                      onMouseLeave={() => setShowWerkstudentInfo(false)}
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        setShowWerkstudentInfo(!showWerkstudentInfo);
+                      }}
+                    />
+                    {showWerkstudentInfo && (
+                      <div 
+                        className="absolute right-0 bottom-full mb-2 w-72 p-3 bg-slate-900/95 border border-white/20 rounded-lg shadow-xl z-50 backdrop-blur-md"
+                        onMouseEnter={() => setShowWerkstudentInfo(true)}
+                        onMouseLeave={() => setShowWerkstudentInfo(false)}
+                      >
+                        <p className="text-white text-xs leading-relaxed">
+                          Max. 20 hours/week during the semester. You pay into pension insurance but are exempt from other social contributions.
+                        </p>
+                      </div>
+                    )}
+                  </div>
+                </span>
               </button>
             </div>
           </div>
 
-          {/* Job Rules Info Box */}
+          {/* 140-Day Rule Info Note */}
           <div className="mb-6 backdrop-blur-sm bg-blue-950/30 border border-blue-500/30 rounded-lg p-4">
             <div className="flex items-start gap-3">
               <Info className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" />
-              <div className="space-y-2">
-                <h4 className="text-sm font-semibold text-blue-200">Job Rules & Limits</h4>
-                {primaryScenario.jobType === 'minijob' ? (
-                  <ul className="text-xs text-blue-200/90 space-y-1 leading-relaxed">
-                    <li>• <strong>Minijob:</strong> Up to €538/month (hard cap). Usually tax-free with no social security deductions.</li>
-                    <li>• Perfect for students who want simple, tax-free income.</li>
-                  </ul>
-                ) : (
-                  <ul className="text-xs text-blue-200/90 space-y-1 leading-relaxed">
-                    <li>• <strong>Working Student:</strong> Up to 20 hours/week during semester. Default minimum wage: €12.41/hour.</li>
-                    <li>• Approx. 10% deduction for pension insurance. Health insurance paid separately at student rate.</li>
-                    <li>• May affect tax-free allowance (Grundfreibetrag).</li>
-                  </ul>
-                )}
-                <p className="text-xs text-blue-200/80 pt-2 border-t border-blue-500/20">
-                  <strong>Legal Limit for International Students:</strong> 140 full days or 280 half-days per year.
+              <div>
+                <p className="text-xs text-blue-200/90 leading-relaxed">
+                  <strong className="text-blue-200">140-Day Rule (2025):</strong> Non-EU students are allowed to work 140 full days or 280 half days per year (new 2025 regulation).
                 </p>
               </div>
             </div>
@@ -1851,6 +2158,12 @@ export default function StudyCostCalculator() {
                     <span>0h</span>
                     <span>20h</span>
                   </div>
+                  {primaryScenario.hoursPerWeek > 20 && (
+                    <p className="text-xs text-yellow-400/90 mt-2 flex items-start gap-1.5">
+                      <AlertTriangle className="w-3.5 h-3.5 mt-0.5 flex-shrink-0" />
+                      <span>Working more than 20h/week during the semester may affect your student status and insurance.</span>
+                    </p>
+                  )}
                 </>
               )}
               {primaryScenario.jobType === 'minijob' && (
@@ -1911,6 +2224,18 @@ export default function StudyCostCalculator() {
                   <span className="text-white font-bold">
                     {formatCurrency(convertedNetMonthlyIncome, selectedCurrency)}
                   </span>
+                </div>
+              </div>
+            </div>
+
+            {/* Legal Warning Box - Self-Employment */}
+            <div className="mt-6 backdrop-blur-sm bg-yellow-500/10 border border-yellow-500/50 rounded-lg p-4">
+              <div className="flex items-start gap-3">
+                <AlertTriangle className="w-5 h-5 text-yellow-400 flex-shrink-0 mt-0.5" />
+                <div>
+                  <p className="text-xs text-yellow-200/90 leading-relaxed font-medium">
+                    <strong className="text-yellow-200">IMPORTANT:</strong> Self-employment (Freelancing/Gewerbe) is generally NOT allowed for international students unless explicitly approved by the Foreigners' Authority (Ausländerbehörde).
+                  </p>
                 </div>
               </div>
             </div>
@@ -1993,13 +2318,37 @@ export default function StudyCostCalculator() {
                     hoursPerWeek: prev.hoursPerWeek || 0,
                   }));
                 }}
-                className={`flex-1 px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 ${
+                className={`flex-1 px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 relative ${
                   primaryScenario.jobType === 'minijob'
                     ? 'bg-blue-600 text-white shadow-lg'
                     : 'text-white/70 hover:text-white/90 hover:bg-white/5'
                 }`}
               >
-                Minijob
+                <span className="flex items-center justify-center gap-2">
+                  Minijob
+                  <div className="relative group">
+                    <Info 
+                      className="w-3.5 h-3.5 text-blue-300 cursor-help" 
+                      onMouseEnter={() => setShowMinijobInfo(true)}
+                      onMouseLeave={() => setShowMinijobInfo(false)}
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        setShowMinijobInfo(!showMinijobInfo);
+                      }}
+                    />
+                    {showMinijobInfo && (
+                      <div 
+                        className="absolute left-0 bottom-full mb-2 w-72 p-3 bg-slate-900/95 border border-white/20 rounded-lg shadow-xl z-50 backdrop-blur-md"
+                        onMouseEnter={() => setShowMinijobInfo(true)}
+                        onMouseLeave={() => setShowMinijobInfo(false)}
+                      >
+                        <p className="text-white text-xs leading-relaxed">
+                          Current limit for 2025 is approx. 556€/month. Usually tax-free and minimal social contributions.
+                        </p>
+                      </div>
+                    )}
+                  </div>
+                </span>
               </button>
               <button
                 type="button"
@@ -2010,37 +2359,48 @@ export default function StudyCostCalculator() {
                     hoursPerWeek: prev.hoursPerWeek || 10,
                   }));
                 }}
-                className={`flex-1 px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 ${
+                className={`flex-1 px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 relative ${
                   primaryScenario.jobType === 'working_student'
                     ? 'bg-blue-600 text-white shadow-lg'
                     : 'text-white/70 hover:text-white/90 hover:bg-white/5'
                 }`}
               >
-                Working Student
+                <span className="flex items-center justify-center gap-2">
+                  Working Student
+                  <div className="relative group">
+                    <Info 
+                      className="w-3.5 h-3.5 text-blue-300 cursor-help" 
+                      onMouseEnter={() => setShowWerkstudentInfo(true)}
+                      onMouseLeave={() => setShowWerkstudentInfo(false)}
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        setShowWerkstudentInfo(!showWerkstudentInfo);
+                      }}
+                    />
+                    {showWerkstudentInfo && (
+                      <div 
+                        className="absolute right-0 bottom-full mb-2 w-72 p-3 bg-slate-900/95 border border-white/20 rounded-lg shadow-xl z-50 backdrop-blur-md"
+                        onMouseEnter={() => setShowWerkstudentInfo(true)}
+                        onMouseLeave={() => setShowWerkstudentInfo(false)}
+                      >
+                        <p className="text-white text-xs leading-relaxed">
+                          Max. 20 hours/week during the semester. You pay into pension insurance but are exempt from other social contributions.
+                        </p>
+                      </div>
+                    )}
+                  </div>
+                </span>
               </button>
             </div>
           </div>
 
-          {/* Job Rules Info Box */}
+          {/* 140-Day Rule Info Note */}
           <div className="mb-6 backdrop-blur-sm bg-blue-950/30 border border-blue-500/30 rounded-lg p-4">
             <div className="flex items-start gap-3">
               <Info className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" />
-              <div className="space-y-2">
-                <h4 className="text-sm font-semibold text-blue-200">Job Rules & Limits</h4>
-                {primaryScenario.jobType === 'minijob' ? (
-                  <ul className="text-xs text-blue-200/90 space-y-1 leading-relaxed">
-                    <li>• <strong>Minijob:</strong> Up to €538/month (hard cap). Usually tax-free with no social security deductions.</li>
-                    <li>• Perfect for students who want simple, tax-free income.</li>
-                  </ul>
-                ) : (
-                  <ul className="text-xs text-blue-200/90 space-y-1 leading-relaxed">
-                    <li>• <strong>Working Student:</strong> Up to 20 hours/week during semester. Default minimum wage: €12.41/hour.</li>
-                    <li>• Approx. 10% deduction for pension insurance. Health insurance paid separately at student rate.</li>
-                    <li>• May affect tax-free allowance (Grundfreibetrag).</li>
-                  </ul>
-                )}
-                <p className="text-xs text-blue-200/80 pt-2 border-t border-blue-500/20">
-                  <strong>Legal Limit for International Students:</strong> 140 full days or 280 half-days per year.
+              <div>
+                <p className="text-xs text-blue-200/90 leading-relaxed">
+                  <strong className="text-blue-200">140-Day Rule (2025):</strong> Non-EU students are allowed to work 140 full days or 280 half days per year (new 2025 regulation).
                 </p>
               </div>
             </div>
@@ -2078,6 +2438,12 @@ export default function StudyCostCalculator() {
                     <span>0h</span>
                     <span>20h</span>
                   </div>
+                  {primaryScenario.hoursPerWeek > 20 && (
+                    <p className="text-xs text-yellow-400/90 mt-2 flex items-start gap-1.5">
+                      <AlertTriangle className="w-3.5 h-3.5 mt-0.5 flex-shrink-0" />
+                      <span>Working more than 20h/week during the semester may affect your student status and insurance.</span>
+                    </p>
+                  )}
                 </>
               )}
               {primaryScenario.jobType === 'minijob' && (
@@ -2138,6 +2504,18 @@ export default function StudyCostCalculator() {
                   <span className="text-white font-bold">
                     {formatCurrency(convertedNetMonthlyIncome, selectedCurrency)}
                   </span>
+                </div>
+              </div>
+            </div>
+
+            {/* Legal Warning Box - Self-Employment */}
+            <div className="mt-6 backdrop-blur-sm bg-yellow-500/10 border border-yellow-500/50 rounded-lg p-4">
+              <div className="flex items-start gap-3">
+                <AlertTriangle className="w-5 h-5 text-yellow-400 flex-shrink-0 mt-0.5" />
+                <div>
+                  <p className="text-xs text-yellow-200/90 leading-relaxed font-medium">
+                    <strong className="text-yellow-200">IMPORTANT:</strong> Self-employment (Freelancing/Gewerbe) is generally NOT allowed for international students unless explicitly approved by the Foreigners' Authority (Ausländerbehörde).
+                  </p>
                 </div>
               </div>
             </div>
@@ -2220,13 +2598,37 @@ export default function StudyCostCalculator() {
                     hoursPerWeek: prev.hoursPerWeek || 0,
                   }));
                 }}
-                className={`flex-1 px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 ${
+                className={`flex-1 px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 relative ${
                   primaryScenario.jobType === 'minijob'
                     ? 'bg-blue-600 text-white shadow-lg'
                     : 'text-white/70 hover:text-white/90 hover:bg-white/5'
                 }`}
               >
-                Minijob
+                <span className="flex items-center justify-center gap-2">
+                  Minijob
+                  <div className="relative group">
+                    <Info 
+                      className="w-3.5 h-3.5 text-blue-300 cursor-help" 
+                      onMouseEnter={() => setShowMinijobInfo(true)}
+                      onMouseLeave={() => setShowMinijobInfo(false)}
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        setShowMinijobInfo(!showMinijobInfo);
+                      }}
+                    />
+                    {showMinijobInfo && (
+                      <div 
+                        className="absolute left-0 bottom-full mb-2 w-72 p-3 bg-slate-900/95 border border-white/20 rounded-lg shadow-xl z-50 backdrop-blur-md"
+                        onMouseEnter={() => setShowMinijobInfo(true)}
+                        onMouseLeave={() => setShowMinijobInfo(false)}
+                      >
+                        <p className="text-white text-xs leading-relaxed">
+                          Current limit for 2025 is approx. 556€/month. Usually tax-free and minimal social contributions.
+                        </p>
+                      </div>
+                    )}
+                  </div>
+                </span>
               </button>
               <button
                 type="button"
@@ -2237,37 +2639,48 @@ export default function StudyCostCalculator() {
                     hoursPerWeek: prev.hoursPerWeek || 10,
                   }));
                 }}
-                className={`flex-1 px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 ${
+                className={`flex-1 px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 relative ${
                   primaryScenario.jobType === 'working_student'
                     ? 'bg-blue-600 text-white shadow-lg'
                     : 'text-white/70 hover:text-white/90 hover:bg-white/5'
                 }`}
               >
-                Working Student
+                <span className="flex items-center justify-center gap-2">
+                  Working Student
+                  <div className="relative group">
+                    <Info 
+                      className="w-3.5 h-3.5 text-blue-300 cursor-help" 
+                      onMouseEnter={() => setShowWerkstudentInfo(true)}
+                      onMouseLeave={() => setShowWerkstudentInfo(false)}
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        setShowWerkstudentInfo(!showWerkstudentInfo);
+                      }}
+                    />
+                    {showWerkstudentInfo && (
+                      <div 
+                        className="absolute right-0 bottom-full mb-2 w-72 p-3 bg-slate-900/95 border border-white/20 rounded-lg shadow-xl z-50 backdrop-blur-md"
+                        onMouseEnter={() => setShowWerkstudentInfo(true)}
+                        onMouseLeave={() => setShowWerkstudentInfo(false)}
+                      >
+                        <p className="text-white text-xs leading-relaxed">
+                          Max. 20 hours/week during the semester. You pay into pension insurance but are exempt from other social contributions.
+                        </p>
+                      </div>
+                    )}
+                  </div>
+                </span>
               </button>
             </div>
           </div>
 
-          {/* Job Rules Info Box */}
+          {/* 140-Day Rule Info Note */}
           <div className="mb-6 backdrop-blur-sm bg-blue-950/30 border border-blue-500/30 rounded-lg p-4">
             <div className="flex items-start gap-3">
               <Info className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" />
-              <div className="space-y-2">
-                <h4 className="text-sm font-semibold text-blue-200">Job Rules & Limits</h4>
-                {primaryScenario.jobType === 'minijob' ? (
-                  <ul className="text-xs text-blue-200/90 space-y-1 leading-relaxed">
-                    <li>• <strong>Minijob:</strong> Up to €538/month (hard cap). Usually tax-free with no social security deductions.</li>
-                    <li>• Perfect for students who want simple, tax-free income.</li>
-                  </ul>
-                ) : (
-                  <ul className="text-xs text-blue-200/90 space-y-1 leading-relaxed">
-                    <li>• <strong>Working Student:</strong> Up to 20 hours/week during semester. Default minimum wage: €12.41/hour.</li>
-                    <li>• Approx. 10% deduction for pension insurance. Health insurance paid separately at student rate.</li>
-                    <li>• May affect tax-free allowance (Grundfreibetrag).</li>
-                  </ul>
-                )}
-                <p className="text-xs text-blue-200/80 pt-2 border-t border-blue-500/20">
-                  <strong>Legal Limit for International Students:</strong> 140 full days or 280 half-days per year.
+              <div>
+                <p className="text-xs text-blue-200/90 leading-relaxed">
+                  <strong className="text-blue-200">140-Day Rule (2025):</strong> Non-EU students are allowed to work 140 full days or 280 half days per year (new 2025 regulation).
                 </p>
               </div>
             </div>
@@ -2305,6 +2718,12 @@ export default function StudyCostCalculator() {
                     <span>0h</span>
                     <span>20h</span>
                   </div>
+                  {primaryScenario.hoursPerWeek > 20 && (
+                    <p className="text-xs text-yellow-400/90 mt-2 flex items-start gap-1.5">
+                      <AlertTriangle className="w-3.5 h-3.5 mt-0.5 flex-shrink-0" />
+                      <span>Working more than 20h/week during the semester may affect your student status and insurance.</span>
+                    </p>
+                  )}
                 </>
               )}
               {primaryScenario.jobType === 'minijob' && (
@@ -2365,6 +2784,18 @@ export default function StudyCostCalculator() {
                   <span className="text-white font-bold">
                     {formatCurrency(convertedNetMonthlyIncome, selectedCurrency)}
                   </span>
+                </div>
+              </div>
+            </div>
+
+            {/* Legal Warning Box - Self-Employment */}
+            <div className="mt-6 backdrop-blur-sm bg-yellow-500/10 border border-yellow-500/50 rounded-lg p-4">
+              <div className="flex items-start gap-3">
+                <AlertTriangle className="w-5 h-5 text-yellow-400 flex-shrink-0 mt-0.5" />
+                <div>
+                  <p className="text-xs text-yellow-200/90 leading-relaxed font-medium">
+                    <strong className="text-yellow-200">IMPORTANT:</strong> Self-employment (Freelancing/Gewerbe) is generally NOT allowed for international students unless explicitly approved by the Foreigners' Authority (Ausländerbehörde).
+                  </p>
                 </div>
               </div>
             </div>
@@ -2851,6 +3282,283 @@ export default function StudyCostCalculator() {
               </button>
             </div>
           )}
+        </div>
+      </div>
+
+      {/* Road to Germany Timeline */}
+      {!isComparisonMode && primaryScenario.targetCity && (
+        <RoadToGermanyTimeline 
+          semesterStartDate={primaryScenario.plannedSemesterStart}
+          onDateChange={(date) => setPrimaryScenario(prev => ({ ...prev, plannedSemesterStart: date }))}
+          locale={locale}
+        />
+      )}
+    </div>
+  );
+}
+
+// Road to Germany Timeline Component
+interface RoadToGermanyTimelineProps {
+  semesterStartDate: string;
+  onDateChange: (date: string) => void;
+  locale: string;
+}
+
+interface TimelineMilestone {
+  id: string;
+  monthsBefore: number;
+  title: string;
+  description: string;
+  icon: React.ReactNode;
+  date: Date;
+  isPast: boolean;
+  isCurrent: boolean;
+}
+
+function RoadToGermanyTimeline({ semesterStartDate, onDateChange, locale }: RoadToGermanyTimelineProps) {
+  const t = useTranslations('Timeline');
+  const [expandedStep, setExpandedStep] = useState<string | null>(null);
+  
+  // Timeline progress state with localStorage sync
+  const [completedSteps, setCompletedSteps] = useState<Record<string, boolean>>(() => {
+    if (typeof window === 'undefined') return {};
+    const saved = localStorage.getItem('timelineProgress');
+    return saved ? JSON.parse(saved) : {};
+  });
+
+  // Sync completed steps to localStorage
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      localStorage.setItem('timelineProgress', JSON.stringify(completedSteps));
+    }
+  }, [completedSteps]);
+
+  // Toggle step completion
+  const toggleStep = (stepId: string) => {
+    setCompletedSteps(prev => ({
+      ...prev,
+      [stepId]: !prev[stepId],
+    }));
+  };
+  
+  // Get today's date (stable reference)
+  const today = useMemo(() => {
+    const date = new Date();
+    date.setHours(0, 0, 0, 0);
+    return date;
+  }, []);
+
+  // Parse semester start date
+  const semesterStart = useMemo(() => {
+    const date = new Date(semesterStartDate);
+    date.setHours(0, 0, 0, 0);
+    return date;
+  }, [semesterStartDate]);
+
+  // Calculate milestones
+  const milestones: TimelineMilestone[] = useMemo(() => {
+    const steps = [
+      { id: 'university', monthsBefore: 6, icon: Book, titleKey: 'universityTitle', descKey: 'universityDesc' },
+      { id: 'admission', monthsBefore: 4, icon: GraduationCap, titleKey: 'admissionTitle', descKey: 'admissionDesc' },
+      { id: 'visaAppointment', monthsBefore: 3, icon: Calendar, titleKey: 'visaAppointmentTitle', descKey: 'visaAppointmentDesc' },
+      { id: 'visaApplication', monthsBefore: 2, icon: Landmark, titleKey: 'visaApplicationTitle', descKey: 'visaApplicationDesc' },
+      { id: 'accommodation', monthsBefore: 1, icon: Home, titleKey: 'accommodationTitle', descKey: 'accommodationDesc' },
+      { id: 'arrival', monthsBefore: 0, icon: Plane, titleKey: 'arrivalTitle', descKey: 'arrivalDesc' },
+    ];
+
+    return steps.map((step) => {
+      const milestoneDate = new Date(semesterStart);
+      milestoneDate.setMonth(milestoneDate.getMonth() - step.monthsBefore);
+      milestoneDate.setHours(0, 0, 0, 0);
+
+      const isPast = milestoneDate < today;
+      const isCurrent = milestoneDate.getTime() === today.getTime() || 
+        (milestoneDate < today && milestoneDate.getTime() >= today.getTime() - 7 * 24 * 60 * 60 * 1000); // Within last week
+
+      return {
+        id: step.id,
+        monthsBefore: step.monthsBefore,
+        title: t(step.titleKey),
+        description: t(step.descKey),
+        icon: <step.icon className="w-5 h-5" />,
+        date: milestoneDate,
+        isPast,
+        isCurrent,
+      };
+    });
+  }, [semesterStartDate, today, t]);
+
+  // Format date for display
+  const formatDate = (date: Date): string => {
+    return new Intl.DateTimeFormat(locale === 'de' ? 'de-DE' : 'en-US', {
+      month: 'short',
+      day: 'numeric',
+      year: 'numeric',
+    }).format(date);
+  };
+
+  // Calculate progress
+  const totalSteps = milestones.length;
+  const completedCount = Object.values(completedSteps).filter(Boolean).length;
+  const progressPercentage = totalSteps > 0 ? (completedCount / totalSteps) * 100 : 0;
+
+  return (
+    <div className="mt-12 backdrop-blur-sm bg-slate-950/80 border border-white/10 rounded-xl p-6">
+      <div className="mb-6">
+        <div className="flex items-center justify-between mb-4">
+          <div>
+            <h2 className="text-2xl font-bold text-white mb-2 flex items-center gap-2">
+              <MapPin className="w-6 h-6" />
+              {t('title')}
+            </h2>
+            <p className="text-white/70 text-sm">
+              {t('subtitle')}
+            </p>
+          </div>
+        </div>
+
+        {/* Progress Bar */}
+        <div className="mb-6">
+          <div className="flex items-center justify-between mb-2">
+            <span className="text-white/80 text-sm font-medium">
+              {t('progress', { completed: completedCount, total: totalSteps })}
+            </span>
+            <span className="text-white/60 text-xs">
+              {Math.round(progressPercentage)}%
+            </span>
+          </div>
+          <div className="w-full h-2 bg-slate-800/50 rounded-full overflow-hidden">
+            <div
+              className="h-full bg-gradient-to-r from-blue-600 to-purple-600 transition-all duration-500 ease-out"
+              style={{ width: `${progressPercentage}%` }}
+            />
+          </div>
+        </div>
+      </div>
+
+      {/* Timeline */}
+      <div className="relative">
+        {/* Vertical Line */}
+        <div className="absolute left-6 top-0 bottom-0 w-0.5 bg-white/20" />
+
+        {/* Milestones */}
+        <div className="space-y-6">
+          {milestones.map((milestone) => {
+            const isChecked = completedSteps[milestone.id] || false;
+            return (
+              <div
+                key={milestone.id}
+                className="relative pl-14"
+              >
+                {/* Icon Circle */}
+                <div
+                  className={`absolute left-0 top-0 w-12 h-12 rounded-full flex items-center justify-center border-2 transition-all ${
+                    isChecked
+                      ? 'bg-green-600 border-green-400 shadow-lg shadow-green-500/50'
+                      : milestone.isCurrent
+                      ? 'bg-blue-600 border-blue-400 shadow-lg shadow-blue-500/50'
+                      : milestone.isPast
+                      ? 'bg-green-600/20 border-green-500/50'
+                      : 'bg-slate-800/50 border-white/30'
+                  }`}
+                >
+                  <div className={isChecked ? 'text-white' : 'text-white'}>
+                    {milestone.icon}
+                  </div>
+                </div>
+
+                {/* Content Card */}
+                <div
+                  className={`backdrop-blur-sm rounded-lg p-4 border transition-all cursor-pointer hover:border-white/30 ${
+                    isChecked
+                      ? 'bg-green-950/20 border-green-500/30 opacity-75'
+                      : milestone.isCurrent
+                      ? 'bg-blue-950/30 border-blue-500/50'
+                      : milestone.isPast
+                      ? 'bg-green-950/20 border-green-500/30'
+                      : 'bg-slate-900/50 border-white/10'
+                  }`}
+                  onClick={(e) => {
+                    // Don't toggle expansion if clicking the checkbox
+                    if ((e.target as HTMLElement).closest('input[type="checkbox"]')) {
+                      return;
+                    }
+                    setExpandedStep(expandedStep === milestone.id ? null : milestone.id);
+                  }}
+                >
+                  <div className="flex items-start justify-between gap-4">
+                    <div className="flex-1">
+                      <div className="flex items-center gap-3 mb-1">
+                        {/* Checkbox */}
+                        <label
+                          className="flex items-center cursor-pointer"
+                          onClick={(e) => e.stopPropagation()}
+                        >
+                          <input
+                            type="checkbox"
+                            checked={isChecked}
+                            onChange={(e) => {
+                              e.stopPropagation();
+                              toggleStep(milestone.id);
+                            }}
+                            className="w-4 h-4 text-green-600 bg-black/40 border-white/20 rounded focus:ring-2 focus:ring-green-500 focus:ring-offset-2 focus:ring-offset-slate-900 cursor-pointer"
+                          />
+                        </label>
+                        <h3 className={`font-semibold text-sm flex-1 ${
+                          isChecked 
+                            ? 'text-white/50 line-through' 
+                            : 'text-white'
+                        }`}>
+                          {milestone.title}
+                        </h3>
+                        {!isChecked && milestone.isCurrent && (
+                          <span className="px-2 py-0.5 bg-blue-600 text-white text-xs rounded-full">
+                            {t('current')}
+                          </span>
+                        )}
+                        {!isChecked && milestone.isPast && !milestone.isCurrent && (
+                          <span className="px-2 py-0.5 bg-green-600/20 text-green-300 text-xs rounded-full border border-green-500/30">
+                            {t('completed')}
+                          </span>
+                        )}
+                        {isChecked && (
+                          <span className="px-2 py-0.5 bg-green-600 text-white text-xs rounded-full flex items-center gap-1">
+                            <CheckCircle2 className="w-3 h-3" />
+                            {t('done')}
+                          </span>
+                        )}
+                      </div>
+                      <p className={`text-xs mb-2 ${
+                        isChecked 
+                          ? 'text-white/40 line-through' 
+                          : 'text-white/60'
+                      }`}>
+                        {formatDate(milestone.date)} • {milestone.monthsBefore === 0 ? t('month0') : t('monthsBefore', { months: milestone.monthsBefore })}
+                      </p>
+                      {expandedStep === milestone.id && (
+                        <div className="mt-3 pt-3 border-t border-white/10">
+                          <p className="text-white/80 text-xs leading-relaxed">
+                            {milestone.description}
+                          </p>
+                        </div>
+                      )}
+                    </div>
+                    <Info className="w-4 h-4 text-white/40 flex-shrink-0 mt-0.5" />
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+
+      {/* Legal Disclaimer for Timeline */}
+      <div className="mt-6 pt-4 border-t border-white/10">
+        <div className="flex items-start gap-2 text-slate-400 text-xs italic leading-relaxed">
+          <AlertTriangle className="w-4 h-4 mt-0.5 flex-shrink-0 text-yellow-400/70" />
+          <p>
+            {t('timelineDisclaimer')}
+          </p>
         </div>
       </div>
     </div>

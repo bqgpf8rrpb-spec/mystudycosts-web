@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Menu, X, Calculator } from 'lucide-react';
@@ -10,6 +10,7 @@ type CurrencyCode = 'EUR' | 'USD' | 'INR';
 
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
   const pathname = usePathname();
   const { selectedCurrency, setSelectedCurrency } = useCurrency();
   
@@ -30,7 +31,6 @@ export default function Navbar() {
     { href: `${basePath}/calculator`, label: 'Calculator' },
     { href: `${basePath}/about`, label: 'About' },
     { href: `${basePath}/blog`, label: 'Blog' },
-    { href: `${basePath}/imprint`, label: 'Imprint' },
   ];
 
   const isActive = (href: string) => {
@@ -45,6 +45,11 @@ export default function Navbar() {
   const closeMobileMenu = () => {
     setIsMobileMenuOpen(false);
   };
+
+  // Hydration guard: only render currency toggle after mount
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   const handleCurrencyChange = (currency: CurrencyCode) => {
     const previousCurrency = selectedCurrency;
@@ -91,33 +96,33 @@ export default function Navbar() {
                 </Link>
               );
             })}
-            <Link
-              href={`${basePath}/privacy`}
-              className={`transition-colors relative group py-2 ${
-                isActive(`${basePath}/privacy`)
-                  ? 'text-blue-400'
-                  : 'text-white/60 hover:text-blue-400 text-sm'
-              }`}
-            >
-              Privacy
-            </Link>
             
             {/* Currency Toggle */}
             <div className="flex items-center gap-1 bg-slate-900/50 border border-white/10 rounded-full p-1">
-              {currencyOptions.map((currency) => (
-                <button
-                  key={currency}
-                  type="button"
-                  onClick={() => handleCurrencyChange(currency)}
-                  className={`px-3 py-1.5 rounded-full text-xs font-medium transition-all duration-200 ${
-                    selectedCurrency === currency
-                      ? 'bg-blue-600 text-white shadow-lg'
-                      : 'text-white/70 hover:text-white/90 hover:bg-white/5'
-                  }`}
-                >
-                  {currencySymbols[currency]}
-                </button>
-              ))}
+              {!mounted ? (
+                // Skeleton placeholder - matches exact dimensions of currency buttons
+                <>
+                  <div className="px-3 py-1.5 rounded-full bg-slate-800/50 w-[36px] h-[28px]"></div>
+                  <div className="px-3 py-1.5 rounded-full bg-slate-800/50 w-[36px] h-[28px]"></div>
+                  <div className="px-3 py-1.5 rounded-full bg-slate-800/50 w-[36px] h-[28px]"></div>
+                </>
+              ) : (
+                // Real currency buttons with active state
+                currencyOptions.map((currency) => (
+                  <button
+                    key={currency}
+                    type="button"
+                    onClick={() => handleCurrencyChange(currency)}
+                    className={`px-3 py-1.5 rounded-full text-xs font-medium transition-all duration-200 ${
+                      selectedCurrency === currency
+                        ? 'bg-blue-600 text-white shadow-lg'
+                        : 'text-white/70 hover:text-white/90 hover:bg-white/5'
+                    }`}
+                  >
+                    {currencySymbols[currency]}
+                  </button>
+                ))
+              )}
             </div>
           </div>
 
@@ -157,39 +162,38 @@ export default function Navbar() {
                   </Link>
                 );
               })}
-              <Link
-                href={`${basePath}/privacy`}
-                onClick={closeMobileMenu}
-                className={`transition-colors px-2 py-2 rounded-md ${
-                  isActive(`${basePath}/privacy`)
-                    ? 'text-blue-400 bg-white/5'
-                    : 'text-white/60 hover:text-blue-400 hover:bg-white/5 text-sm'
-                }`}
-              >
-                Privacy
-              </Link>
               
               {/* Mobile Currency Toggle */}
               <div className="px-2 pt-2 border-t border-slate-800">
                 <div className="text-white/60 text-xs mb-2">Currency</div>
                 <div className="flex items-center gap-1 bg-slate-900/50 border border-white/10 rounded-full p-1 w-fit">
-                  {currencyOptions.map((currency) => (
-                    <button
-                      key={currency}
-                      type="button"
-                      onClick={() => {
-                        handleCurrencyChange(currency);
-                        closeMobileMenu();
-                      }}
-                      className={`px-3 py-1.5 rounded-full text-xs font-medium transition-all duration-200 ${
-                        selectedCurrency === currency
-                          ? 'bg-blue-600 text-white shadow-lg'
-                          : 'text-white/70 hover:text-white/90 hover:bg-white/5'
-                      }`}
-                    >
-                      {currencySymbols[currency]}
-                    </button>
-                  ))}
+                  {!mounted ? (
+                    // Skeleton placeholder - matches exact dimensions of currency buttons
+                    <>
+                      <div className="px-3 py-1.5 rounded-full bg-slate-800/50 w-[36px] h-[28px]"></div>
+                      <div className="px-3 py-1.5 rounded-full bg-slate-800/50 w-[36px] h-[28px]"></div>
+                      <div className="px-3 py-1.5 rounded-full bg-slate-800/50 w-[36px] h-[28px]"></div>
+                    </>
+                  ) : (
+                    // Real currency buttons with active state
+                    currencyOptions.map((currency) => (
+                      <button
+                        key={currency}
+                        type="button"
+                        onClick={() => {
+                          handleCurrencyChange(currency);
+                          closeMobileMenu();
+                        }}
+                        className={`px-3 py-1.5 rounded-full text-xs font-medium transition-all duration-200 ${
+                          selectedCurrency === currency
+                            ? 'bg-blue-600 text-white shadow-lg'
+                            : 'text-white/70 hover:text-white/90 hover:bg-white/5'
+                        }`}
+                      >
+                        {currencySymbols[currency]}
+                      </button>
+                    ))
+                  )}
                 </div>
               </div>
             </div>
