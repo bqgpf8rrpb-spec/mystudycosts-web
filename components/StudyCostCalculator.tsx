@@ -2,9 +2,9 @@
 
 import { useState, useRef, useEffect, useMemo } from 'react';
 import { createPortal } from 'react-dom';
-import { MapPin, Plane, Shield, Building, Euro, Info, Search, ChevronDown, Loader2, ExternalLink, GraduationCap } from 'lucide-react';
-
-type CurrencyCode = 'EUR' | 'USD' | 'INR' | 'CNY' | 'GBP';
+import { usePathname } from 'next/navigation';
+import { MapPin, Plane, Shield, Building, Euro, Info, Search, ChevronDown, Loader2, ExternalLink, GraduationCap, Download, Wallet, GitCompare, Lock, ArrowRight, CheckCircle2, Circle, AlertTriangle, Database } from 'lucide-react';
+import { useCurrency, type CurrencyCode } from '@/contexts/CurrencyContext';
 
 interface ExchangeRates {
   USD: number;
@@ -217,6 +217,7 @@ interface University {
   name: string;
   city: string;
   semesterFee: number;
+  nonEUTuitionFee?: number; // Optional: ~1,500€ per semester for non-EU students (e.g., Baden-Württemberg)
 }
 
 const UNIVERSITIES: University[] = [
@@ -225,23 +226,23 @@ const UNIVERSITIES: University[] = [
   { name: 'HU Berlin', city: 'Berlin', semesterFee: 315 },
   { name: 'FU Berlin', city: 'Berlin', semesterFee: 315 },
   { name: 'TU Berlin', city: 'Berlin', semesterFee: 314 },
-  { name: 'Heidelberg University', city: 'Heidelberg', semesterFee: 185 },
+  { name: 'Heidelberg University', city: 'Heidelberg', semesterFee: 185, nonEUTuitionFee: 1500 },
   { name: 'University of Hamburg', city: 'Hamburg', semesterFee: 335 },
   { name: 'TU Darmstadt', city: 'Darmstadt', semesterFee: 285 },
   { name: 'University of Cologne', city: 'Cologne', semesterFee: 321 },
   { name: 'RWTH Aachen', city: 'Aachen', semesterFee: 304 },
   { name: 'University of Bonn', city: 'Bonn', semesterFee: 299 },
   { name: 'TU Dresden', city: 'Dresden', semesterFee: 275 },
-  { name: 'University of Stuttgart', city: 'Stuttgart', semesterFee: 170 },
-  { name: 'KIT Karlsruhe', city: 'Karlsruhe', semesterFee: 162 },
-  { name: 'University of Tübingen', city: 'Tübingen', semesterFee: 176 },
-  { name: 'University of Freiburg', city: 'Freiburg', semesterFee: 186 },
+  { name: 'University of Stuttgart', city: 'Stuttgart', semesterFee: 170, nonEUTuitionFee: 1500 },
+  { name: 'KIT Karlsruhe', city: 'Karlsruhe', semesterFee: 162, nonEUTuitionFee: 1500 },
+  { name: 'University of Tübingen', city: 'Tübingen', semesterFee: 176, nonEUTuitionFee: 1500 },
+  { name: 'University of Freiburg', city: 'Freiburg', semesterFee: 186, nonEUTuitionFee: 1500 },
   { name: 'University of Münster', city: 'Münster', semesterFee: 311 },
   { name: 'FAU Erlangen-Nürnberg', city: 'Erlangen', semesterFee: 142 },
   { name: 'University of Göttingen', city: 'Göttingen', semesterFee: 377 },
   { name: 'TU Braunschweig', city: 'Braunschweig', semesterFee: 374 },
-  { name: 'University of Mannheim', city: 'Mannheim', semesterFee: 187 },
-  { name: 'University of Konstanz', city: 'Konstanz', semesterFee: 177 },
+  { name: 'University of Mannheim', city: 'Mannheim', semesterFee: 187, nonEUTuitionFee: 1500 },
+  { name: 'University of Konstanz', city: 'Konstanz', semesterFee: 177, nonEUTuitionFee: 1500 },
   { name: 'Leibniz University Hanover', city: 'Hanover', semesterFee: 436 },
   { name: 'University of Würzburg', city: 'Würzburg', semesterFee: 129 },
   { name: 'University of Leipzig', city: 'Leipzig', semesterFee: 223 },
@@ -258,17 +259,47 @@ const STUDY_DATA = {
   ORIGIN_COUNTRIES: COUNTRIES,
   UNIVERSITIES: UNIVERSITIES,
   FIXED_COSTS: {
-    blockedAccountMonthly: 934,
-    blockedAccountYearly: 11208,
+    blockedAccountMonthly: 992,
+    blockedAccountYearly: 11904,
     healthInsurancePublic: 120,
     healthInsurancePrivate: 80,
     livingExpenses: 400,
   },
+  BLOCKED_ACCOUNT_PROVIDERS: [
+    { name: 'Fintiba', setupFee: 89, monthlyFee: 4.9 },
+    { name: 'Expatrio', setupFee: 49, monthlyFee: 4.9 },
+    { name: 'Coracle', setupFee: 99, monthlyFee: 5.0 },
+  ],
 } as const;
 
 type City = keyof typeof STUDY_DATA.CITIES;
 type OriginCountry = keyof typeof STUDY_DATA.ORIGIN_COUNTRIES;
 type InsuranceType = 'public' | 'private';
+
+// Scenario interface for comparison mode
+interface Scenario {
+  originCountry: OriginCountry | '';
+  targetCity: City | '';
+  selectedUniversity: string;
+  insuranceType: InsuranceType;
+  hoursPerWeek: number;
+  hourlyWage: number;
+}
+
+// Calculated values interface
+interface CalculatedValues {
+  visaFee: number;
+  monthlyRent: number;
+  monthlyInsurance: number;
+  semesterFeeMonthly: number;
+  nonEUTuitionFeeMonthly: number;
+  upfrontTotal: number;
+  monthlyTotal: number;
+  annualTotal: number;
+  grossMonthlyIncome: number;
+  netMonthlyIncome: number;
+  netBalance: number;
+}
 
 // Pre-compute options outside component for performance
 const COUNTRY_OPTIONS = Object.keys(STUDY_DATA.ORIGIN_COUNTRIES) as OriginCountry[];
@@ -407,7 +438,6 @@ function SearchableCombobox<T extends string>({
 
   const toggleDropdown = () => {
     const newState = !isOpen;
-    console.log("Dropdown toggled. Current state:", !isOpen);
     setIsOpen(newState);
     if (newState) {
       inputRef.current?.focus();
@@ -423,7 +453,7 @@ function SearchableCombobox<T extends string>({
         {filteredOptions.length > 0 && (
           <ul
             ref={listRef}
-            className="bg-slate-900 backdrop-blur-md border border-white/20 rounded-lg shadow-2xl max-h-60 overflow-y-auto z-[100] pointer-events-auto"
+            className="bg-slate-900 backdrop-blur-sm border border-white/20 rounded-lg shadow-2xl max-h-60 overflow-y-auto z-[100] pointer-events-auto"
             style={{
               position: 'fixed',
               top: `${dropdownPosition.top}px`,
@@ -451,7 +481,7 @@ function SearchableCombobox<T extends string>({
 
         {searchQuery && filteredOptions.length === 0 && (
           <div 
-            className="bg-slate-900 backdrop-blur-md border border-white/20 rounded-lg shadow-2xl p-4 z-[100] pointer-events-auto"
+            className="bg-slate-900 backdrop-blur-sm border border-white/20 rounded-lg shadow-2xl p-4 z-[100] pointer-events-auto"
             style={{
               position: 'fixed',
               top: `${dropdownPosition.top}px`,
@@ -474,7 +504,7 @@ function SearchableCombobox<T extends string>({
   
   return (
     <>
-      <div className={`backdrop-blur-md bg-slate-950/80 border border-white/10 rounded-xl p-4 hover:bg-slate-950/90 transition-all duration-200 relative ${zIndexClass}`}>
+      <div className={`backdrop-blur-sm bg-slate-950/80 border border-white/10 rounded-xl p-4 hover:bg-slate-950/90 transition-all duration-200 relative ${zIndexClass}`}>
         <label className="block mb-2 text-sm font-medium text-white/80 flex items-center gap-2">
           {icon}
           {label}
@@ -531,7 +561,7 @@ function SearchableCombobox<T extends string>({
   );
 }
 
-// Currency Selector Component
+// Currency Selector Component (for Calculator - supports all currencies)
 interface CurrencySelectorProps {
   value: CurrencyCode;
   onChange: (value: CurrencyCode) => void;
@@ -566,7 +596,7 @@ function CurrencySelector({ value, onChange }: CurrencySelectorProps) {
       <button
         type="button"
         onClick={() => setIsOpen(!isOpen)}
-        className="w-full backdrop-blur-md bg-slate-950/80 border border-white/20 rounded-lg px-3 py-2 text-white/90 text-sm font-medium hover:bg-slate-950/90 transition-all duration-200 flex items-center justify-between relative z-10"
+        className="w-full backdrop-blur-sm bg-slate-950/80 border border-white/20 rounded-lg px-3 py-2 text-white/90 text-sm font-medium hover:bg-slate-950/90 transition-all duration-200 flex items-center justify-between relative z-10"
       >
         <span>{currencyLabels[value]}</span>
         <ChevronDown
@@ -577,7 +607,7 @@ function CurrencySelector({ value, onChange }: CurrencySelectorProps) {
       </button>
       {isOpen && (
         <div 
-          className="absolute top-full left-0 w-full mt-2 backdrop-blur-md bg-slate-950/95 border border-white/20 rounded-lg shadow-2xl overflow-hidden pointer-events-auto z-[9999]"
+          className="absolute top-full left-0 w-full mt-2 backdrop-blur-sm bg-slate-950/95 border border-white/20 rounded-lg shadow-2xl overflow-hidden pointer-events-auto z-[9999]"
           style={{ zIndex: 9999, position: 'absolute' }}
         >
           {currencies.map((currency) => (
@@ -603,44 +633,354 @@ function CurrencySelector({ value, onChange }: CurrencySelectorProps) {
   );
 }
 
+// Affiliate Links - Replace placeholders with actual affiliate URLs
+const AFFILIATE_LINKS = {
+  blockedAccount: 'YOUR_EXPATRIO_LINK_OR_FINTIBA_LINK', // Replace with Expatrio or Fintiba affiliate link
+  healthInsurance: 'YOUR_FEATHER_LINK_OR_DR_WALTER_LINK', // Replace with Feather or DR-Walter affiliate link
+  bankAccount: 'YOUR_BANK_ACCOUNT_LINK', // Replace with bank account affiliate link (e.g., N26, Comdirect)
+} as const;
+
+// Official Resource Links
+const OFFICIAL_LINKS = {
+  applyUniversity: 'https://www.daad.de/en/',
+  uniAssist: 'https://www.uni-assist.de/',
+  visaAppointment: 'https://service2.diplo.de/rktermin/extern/choose_realmList.do?locationCode=indi&request_locale=en',
+  accommodation: {
+    studentenwerk: 'https://www.studierendenwerk.de/',
+    wgGesucht: 'https://www.wg-gesucht.de/',
+  },
+} as const;
+
 export default function StudyCostCalculator() {
-  const [originCountry, setOriginCountry] = useState<OriginCountry | ''>('');
-  const [targetCity, setTargetCity] = useState<City | ''>('');
-  const [selectedUniversity, setSelectedUniversity] = useState<string>('');
-  const [insuranceType, setInsuranceType] = useState<InsuranceType>('public');
-  const [selectedCurrency, setSelectedCurrency] = useState<CurrencyCode>('EUR');
+  // Get current locale from pathname for locale-aware links
+  const pathname = usePathname();
+  const locale = pathname?.split('/')[1] || 'en';
+  
+  // Comparison mode state
+  const [isComparisonMode, setIsComparisonMode] = useState(false);
+  
+  // Primary scenario state
+  const [primaryScenario, setPrimaryScenario] = useState<Scenario>({
+    originCountry: '',
+    targetCity: '',
+    selectedUniversity: '',
+    insuranceType: 'public',
+    hoursPerWeek: 20,
+    hourlyWage: 12.41,
+  });
+  
+  // Comparison scenario state
+  const [comparisonScenario, setComparisonScenario] = useState<Scenario>({
+    originCountry: '',
+    targetCity: '',
+    selectedUniversity: '',
+    insuranceType: 'public',
+    hoursPerWeek: 20,
+    hourlyWage: 12.41,
+  });
+  
+  // Currency from context (shared with Navbar)
+  const { selectedCurrency, setSelectedCurrency } = useCurrency();
+  
+  // Exchange rates state
   const [exchangeRates, setExchangeRates] = useState<ExchangeRates | null>(null);
   const [isLoadingRates, setIsLoadingRates] = useState(true);
   const [apiError, setApiError] = useState(false);
   const [showInsuranceInfo, setShowInsuranceInfo] = useState(false);
+  const [isExportingPDF, setIsExportingPDF] = useState(false);
+  const resultCardRef = useRef<HTMLDivElement>(null);
+  const comparisonContainerRef = useRef<HTMLDivElement>(null);
 
-  // Filter universities based on selected city
-  const availableUniversities = useMemo(() => {
-    if (!targetCity) return [];
-    return STUDY_DATA.UNIVERSITIES
-      .filter(u => u.city === targetCity)
-      .map(u => u.name);
-  }, [targetCity]);
+  // Instructional guides for each checklist item
+  const checklistItemGuides: Record<string, string[]> = {
+    'apply-university': [
+      '1. Create an account on DAAD or uni-assist',
+      '2. Search for your desired course/program',
+      '3. Upload certified copies of your transcripts and certificates',
+      '4. Pay the application fee (if applicable)',
+      '5. Submit before the deadline',
+    ],
+    'admission-letter': [
+      'After receiving admission:',
+      '1. Download the official admission letter (Zulassungsbescheid)',
+      '2. Check that all details are correct (name, course, semester)',
+      '3. You will need this for your visa application',
+    ],
+    'blocked-account': [
+      'Choose your arrival month and deposit the required €11,904',
+      'You will receive the Confirmation of Financial Resources (06 Confirmation) for your visa within 24 hours',
+      'Keep your account details safe - you will need them to access funds in Germany',
+    ],
+    'health-insurance': [
+      '1. Compare providers and choose a plan (Public or Private)',
+      '2. Fill out the application form with your personal details',
+      '3. Upload required documents (passport, admission letter)',
+      '4. Receive your insurance certificate for visa application',
+    ],
+    'visa-appointment': [
+      '1. Select your specific consulate/embassy location',
+      '2. Choose "National Visa" category',
+      '3. Look for "Long-term stay" or "Study" option',
+      '4. Book the earliest available slot (appointments can fill up quickly!)',
+    ],
+    'accommodation': [
+      'Studentenwerk: Apply early for student dormitories (cheapest option)',
+      'WG-Gesucht: Browse shared apartments (WG). Start early - competition is high!',
+      'Tip: Have all documents ready (income proof, references) to apply quickly',
+    ],
+  };
 
-  // Get selected university data
-  const selectedUniversityData = useMemo(() => {
-    if (!selectedUniversity) return null;
-    return STUDY_DATA.UNIVERSITIES.find(u => u.name === selectedUniversity);
-  }, [selectedUniversity]);
+  // Checklist items for "Your Next Steps"
+  const checklistItems = [
+    { 
+      id: 'apply-university', 
+      label: 'Apply to University', 
+      subtext: 'Deadline check',
+      officialLink: OFFICIAL_LINKS.applyUniversity,
+      officialLinkLabel: 'DAAD',
+      guide: checklistItemGuides['apply-university'],
+    },
+    { 
+      id: 'admission-letter', 
+      label: 'Get Admission Letter',
+      guide: checklistItemGuides['admission-letter'],
+    },
+    { 
+      id: 'blocked-account', 
+      label: 'Open Blocked Account',
+      affiliateLink: AFFILIATE_LINKS.blockedAccount,
+      affiliateLinkLabel: 'Recommended Provider',
+      showIfNonEU: true,
+      guide: checklistItemGuides['blocked-account'],
+    },
+    { 
+      id: 'health-insurance', 
+      label: 'Apply for Health Insurance',
+      affiliateLink: AFFILIATE_LINKS.healthInsurance,
+      affiliateLinkLabel: 'Get Insurance',
+      guide: checklistItemGuides['health-insurance'],
+    },
+    { 
+      id: 'visa-appointment', 
+      label: 'Book Visa Appointment',
+      officialLink: OFFICIAL_LINKS.visaAppointment,
+      officialLinkLabel: 'Book Appointment',
+      showIfNonEU: true,
+      guide: checklistItemGuides['visa-appointment'],
+    },
+    { 
+      id: 'accommodation', 
+      label: 'Find Accommodation', 
+      highlight: true, 
+      highlightText: 'The hardest part!',
+      officialLinks: [
+        { url: OFFICIAL_LINKS.accommodation.studentenwerk, label: 'Studentenwerk' },
+        { url: OFFICIAL_LINKS.accommodation.wgGesucht, label: 'WG-Gesucht' },
+      ],
+      guide: checklistItemGuides['accommodation'],
+    },
+  ];
 
-  // Reset university when city changes
+  // Checklist state - load from localStorage
+  const [checklistState, setChecklistState] = useState<Record<string, boolean>>(() => {
+    if (typeof window === 'undefined') return {};
+    const saved = localStorage.getItem('studyChecklist');
+    return saved ? JSON.parse(saved) : {};
+  });
+
+  // Info box visibility state (for mobile click interaction)
+  const [openInfoBox, setOpenInfoBox] = useState<string | null>(null);
+  const infoBoxTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  // Cleanup timeout on unmount
   useEffect(() => {
-    if (targetCity && selectedUniversity) {
+    return () => {
+      if (infoBoxTimeoutRef.current) {
+        clearTimeout(infoBoxTimeoutRef.current);
+      }
+    };
+  }, []);
+
+  // Close info box when clicking outside (mobile)
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      const target = event.target as HTMLElement;
+      if (openInfoBox && !target.closest('[data-info-box]') && !target.closest('[data-info-button]')) {
+        setOpenInfoBox(null);
+      }
+    };
+
+    if (openInfoBox && typeof window !== 'undefined' && window.innerWidth < 768) {
+      document.addEventListener('mousedown', handleClickOutside);
+      return () => document.removeEventListener('mousedown', handleClickOutside);
+    }
+  }, [openInfoBox]);
+
+  // Save checklist state to localStorage whenever it changes
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      localStorage.setItem('studyChecklist', JSON.stringify(checklistState));
+    }
+  }, [checklistState]);
+
+  // Determine if user is Non-EU (requires visa)
+  const isNonEU = useMemo(() => {
+    return primaryScenario.originCountry 
+      ? STUDY_DATA.ORIGIN_COUNTRIES[primaryScenario.originCountry] > 0 
+      : false;
+  }, [primaryScenario.originCountry]);
+
+  // Filter checklist items based on Non-EU status
+  const visibleChecklistItems = useMemo(() => {
+    return checklistItems.filter(item => {
+      // Show item if it doesn't have showIfNonEU flag, or if user is Non-EU
+      return !item.showIfNonEU || isNonEU;
+    });
+  }, [checklistItems, isNonEU]);
+
+  // Calculate progress
+  const progressPercentage = useMemo(() => {
+    const checkedCount = visibleChecklistItems.filter(item => checklistState[item.id]).length;
+    return checkedCount > 0 ? (checkedCount / visibleChecklistItems.length) * 100 : 0;
+  }, [checklistState, visibleChecklistItems]);
+
+  // Toggle checklist item
+  const toggleChecklistItem = (id: string) => {
+    setChecklistState(prev => ({
+      ...prev,
+      [id]: !prev[id],
+    }));
+  };
+  
+  // Use primary scenario for backwards compatibility (will refactor calculations next)
+  const originCountry = primaryScenario.originCountry;
+  const targetCity = primaryScenario.targetCity;
+  const selectedUniversity = primaryScenario.selectedUniversity;
+  const insuranceType = primaryScenario.insuranceType;
+  const hoursPerWeek = primaryScenario.hoursPerWeek;
+  const hourlyWage = primaryScenario.hourlyWage;
+
+  // Calculate function - takes a scenario and returns calculated values
+  const calculateScenario = useMemo(() => {
+    return (scenario: Scenario): CalculatedValues => {
+      const visaFee = scenario.originCountry ? STUDY_DATA.ORIGIN_COUNTRIES[scenario.originCountry] : 0;
+      const monthlyRent = scenario.targetCity ? STUDY_DATA.CITIES[scenario.targetCity] : 0;
+      const monthlyInsurance = scenario.insuranceType === 'public' 
+        ? STUDY_DATA.FIXED_COSTS.healthInsurancePublic 
+        : STUDY_DATA.FIXED_COSTS.healthInsurancePrivate;
+      
+      // Get university data
+      const selectedUniversityData = scenario.selectedUniversity
+        ? STUDY_DATA.UNIVERSITIES.find(u => u.name === scenario.selectedUniversity)
+        : null;
+      
+      // Semester fee (monthly pro rata - divided by 6 months per semester)
+      const semesterFeeMonthly = selectedUniversityData ? selectedUniversityData.semesterFee / 6 : 0;
+      
+      // Check if origin country is non-EU (visa fee > 0 means non-EU)
+      const isNonEU = scenario.originCountry ? STUDY_DATA.ORIGIN_COUNTRIES[scenario.originCountry] > 0 : false;
+      
+      // Non-EU Tuition Fee (monthly pro rata - divided by 6 months per semester)
+      const nonEUTuitionFeeMonthly = (isNonEU && selectedUniversityData?.nonEUTuitionFee) 
+        ? selectedUniversityData.nonEUTuitionFee / 6 
+        : 0;
+      
+      // Upfront costs (one-time)
+      const blockedAccountTotal = STUDY_DATA.FIXED_COSTS.blockedAccountYearly;
+      const upfrontTotal = visaFee + blockedAccountTotal;
+
+      // Monthly costs
+      const monthlyLivingExpenses = STUDY_DATA.FIXED_COSTS.livingExpenses;
+      const monthlyTotal = monthlyRent + monthlyInsurance + monthlyLivingExpenses + semesterFeeMonthly + nonEUTuitionFeeMonthly;
+
+      // Annual costs (12 months)
+      const annualTotal = monthlyTotal * 12;
+
+      // Calculate monthly income
+      const grossMonthlyIncome = scenario.hoursPerWeek * 4.33 * scenario.hourlyWage;
+      
+      // Net monthly income: subtract social contributions (9.35% pension contribution if earning over 538€)
+      const socialContributionsRate = 0.0935; // 9.35%
+      const socialContributionsThreshold = 538; // €538 threshold
+      
+      const netMonthlyIncome = grossMonthlyIncome > socialContributionsThreshold
+        ? grossMonthlyIncome - ((grossMonthlyIncome - socialContributionsThreshold) * socialContributionsRate)
+        : grossMonthlyIncome;
+      
+      // Calculate net balance (income - expenses)
+      const netBalance = netMonthlyIncome - monthlyTotal;
+
+      return {
+        visaFee,
+        monthlyRent,
+        monthlyInsurance,
+        semesterFeeMonthly,
+        nonEUTuitionFeeMonthly,
+        upfrontTotal,
+        monthlyTotal,
+        annualTotal,
+        grossMonthlyIncome,
+        netMonthlyIncome,
+        netBalance,
+      };
+    };
+  }, []);
+
+  // Calculate values for primary scenario
+  const primaryCalculated = useMemo(() => calculateScenario(primaryScenario), [primaryScenario, calculateScenario]);
+  
+  // Calculate values for comparison scenario
+  const comparisonCalculated = useMemo(() => calculateScenario(comparisonScenario), [comparisonScenario, calculateScenario]);
+
+  // Filter universities based on selected city (primary)
+  const availableUniversities = useMemo(() => {
+    if (!primaryScenario.targetCity) return [];
+    return STUDY_DATA.UNIVERSITIES
+      .filter(u => u.city === primaryScenario.targetCity)
+      .map(u => u.name);
+  }, [primaryScenario.targetCity]);
+
+  // Filter universities for comparison scenario
+  const comparisonAvailableUniversities = useMemo(() => {
+    if (!comparisonScenario.targetCity) return [];
+    return STUDY_DATA.UNIVERSITIES
+      .filter(u => u.city === comparisonScenario.targetCity)
+      .map(u => u.name);
+  }, [comparisonScenario.targetCity]);
+
+  // Get selected university data (primary)
+  const selectedUniversityData = useMemo(() => {
+    if (!primaryScenario.selectedUniversity) return null;
+    return STUDY_DATA.UNIVERSITIES.find(u => u.name === primaryScenario.selectedUniversity);
+  }, [primaryScenario.selectedUniversity]);
+
+  // Reset university when city changes (primary)
+  useEffect(() => {
+    if (primaryScenario.targetCity && primaryScenario.selectedUniversity) {
       const universityInCity = STUDY_DATA.UNIVERSITIES.find(
-        u => u.name === selectedUniversity && u.city === targetCity
+        u => u.name === primaryScenario.selectedUniversity && u.city === primaryScenario.targetCity
       );
       if (!universityInCity) {
-        setSelectedUniversity('');
+        setPrimaryScenario(prev => ({ ...prev, selectedUniversity: '' }));
       }
-    } else if (!targetCity) {
-      setSelectedUniversity('');
+    } else if (!primaryScenario.targetCity) {
+      setPrimaryScenario(prev => ({ ...prev, selectedUniversity: '' }));
     }
-  }, [targetCity, selectedUniversity]);
+  }, [primaryScenario.targetCity, primaryScenario.selectedUniversity]);
+
+  // Reset university when city changes (comparison)
+  useEffect(() => {
+    if (comparisonScenario.targetCity && comparisonScenario.selectedUniversity) {
+      const universityInCity = STUDY_DATA.UNIVERSITIES.find(
+        u => u.name === comparisonScenario.selectedUniversity && u.city === comparisonScenario.targetCity
+      );
+      if (!universityInCity) {
+        setComparisonScenario(prev => ({ ...prev, selectedUniversity: '' }));
+      }
+    } else if (!comparisonScenario.targetCity) {
+      setComparisonScenario(prev => ({ ...prev, selectedUniversity: '' }));
+    }
+  }, [comparisonScenario.targetCity, comparisonScenario.selectedUniversity]);
 
   // Fetch exchange rates on mount
   useEffect(() => {
@@ -712,43 +1052,225 @@ export default function StudyCostCalculator() {
 
   const conversionRate = getRate(selectedCurrency);
 
-  // Calculate costs based on selections
-  const visaFee = originCountry ? STUDY_DATA.ORIGIN_COUNTRIES[originCountry] : 0;
-  const monthlyRent = targetCity ? STUDY_DATA.CITIES[targetCity] : 0;
-  const monthlyInsurance = insuranceType === 'public' 
-    ? STUDY_DATA.FIXED_COSTS.healthInsurancePublic 
-    : STUDY_DATA.FIXED_COSTS.healthInsurancePrivate;
+  // Use calculated values from primary scenario
+  const {
+    visaFee,
+    monthlyRent,
+    monthlyInsurance,
+    semesterFeeMonthly,
+    nonEUTuitionFeeMonthly,
+    upfrontTotal,
+    monthlyTotal,
+    annualTotal,
+    grossMonthlyIncome,
+    netMonthlyIncome,
+    netBalance,
+  } = primaryCalculated;
   
-  // Semester fee (monthly pro rata - divided by 6 months per semester)
-  const semesterFeeMonthly = selectedUniversityData ? selectedUniversityData.semesterFee / 6 : 0;
-  
-  // Upfront costs (one-time)
   const blockedAccountTotal = STUDY_DATA.FIXED_COSTS.blockedAccountYearly;
-  const upfrontTotal = visaFee + blockedAccountTotal;
-
-  // Monthly costs
   const monthlyLivingExpenses = STUDY_DATA.FIXED_COSTS.livingExpenses;
-  const monthlyTotal = monthlyRent + monthlyInsurance + monthlyLivingExpenses + semesterFeeMonthly;
-
-  // Annual costs (12 months)
-  const annualTotal = monthlyTotal * 12;
 
   // Convert to selected currency
   const convertedMonthlyTotal = monthlyTotal * conversionRate;
   const convertedAnnualTotal = annualTotal * conversionRate;
   const convertedUpfrontTotal = upfrontTotal * conversionRate;
   const convertedFirstYearTotal = (annualTotal + upfrontTotal) * conversionRate;
+  const convertedGrossMonthlyIncome = grossMonthlyIncome * conversionRate;
+  const convertedNetMonthlyIncome = netMonthlyIncome * conversionRate;
+  const convertedNetBalance = netBalance * conversionRate;
+
+  // PDF Export Function
+  const handleExportPDF = async () => {
+    // Determine which element to export based on mode
+    const element = isComparisonMode 
+      ? comparisonContainerRef.current 
+      : resultCardRef.current;
+
+    if (typeof window === 'undefined' || !element) {
+      return;
+    }
+
+    setIsExportingPDF(true);
+
+    try {
+      // Dynamic imports for browser-only libraries
+      const html2canvas = (await import('html2canvas')).default;
+      const { jsPDF } = await import('jspdf');
+      
+      // Store original background
+      const originalBg = element.style.backgroundColor;
+      
+      // Temporarily set white background for PDF export
+      element.style.backgroundColor = '#ffffff';
+      
+      try {
+        // Capture the element as canvas with white background for printer-friendly PDF
+        const canvas = await html2canvas(element, {
+          backgroundColor: '#ffffff',
+          scale: 2, // Higher quality for crisp text
+          logging: false,
+          useCORS: true,
+          windowWidth: element.scrollWidth,
+          windowHeight: element.scrollHeight,
+        });
+        
+        // Restore original background
+        element.style.backgroundColor = originalBg;
+
+        // Calculate dimensions
+        const imgWidth = 210; // A4 width in mm
+        const imgHeight = (canvas.height * imgWidth) / canvas.width;
+        const pdf = new jsPDF('p', 'mm', 'a4');
+        
+        // Convert canvas to image
+        const imgData = canvas.toDataURL('image/png');
+        
+        // Add image to PDF
+        pdf.addImage(imgData, 'PNG', 0, 0, imgWidth, imgHeight);
+        
+        // Generate filename
+        const cityA = primaryScenario.targetCity || 'estimate';
+        const cityB = comparisonScenario.targetCity || 'estimate';
+        const fileName = isComparisonMode
+          ? `MyStudyCosts_Comparison_${cityA}_vs_${cityB}_${new Date().toISOString().split('T')[0]}.pdf`
+          : `MyStudyCosts_Breakdown_${cityA}_${new Date().toISOString().split('T')[0]}.pdf`;
+        
+        // Save PDF
+        pdf.save(fileName);
+      } catch (captureError) {
+        // Restore background even if capture fails
+        element.style.backgroundColor = originalBg;
+        throw captureError;
+      }
+    } catch (error) {
+      console.error('Error generating PDF:', error);
+      // Show user-friendly error message
+      alert('Failed to generate PDF. Please try again or check your browser settings.');
+    } finally {
+      setIsExportingPDF(false);
+    }
+  };
+
+  // Calculate difference for comparison summary
+  const monthlyDifference = useMemo(() => {
+    if (!isComparisonMode || !primaryScenario.targetCity || !comparisonScenario.targetCity) return null;
+    return comparisonCalculated.monthlyTotal - primaryCalculated.monthlyTotal;
+  }, [isComparisonMode, primaryCalculated.monthlyTotal, comparisonCalculated.monthlyTotal, primaryScenario.targetCity, comparisonScenario.targetCity]);
+
+  // High-demand cities that need accommodation warning
+  const highDemandCities = ['Munich', 'Berlin', 'Hamburg'];
 
   return (
-    <div className="w-full max-w-6xl mx-auto p-6">
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 relative">
-        {/* Input Section */}
-        <div className="lg:col-span-2 space-y-4 relative">
+    <div className="w-full max-w-7xl mx-auto p-4 sm:p-6">
+      {/* Data Transparency Section */}
+      <div className="mb-6 backdrop-blur-sm bg-slate-950/80 border border-white/10 rounded-xl p-4">
+        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+          <div className="flex items-start gap-3">
+            <Database className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" />
+            <div>
+              <h3 className="text-sm font-semibold text-white mb-1">How we calculate</h3>
+              <p className="text-xs text-white/70 leading-relaxed">
+                Our data is sourced from official statistics (Statistisches Bundesamt), student unions (Studierendenwerke), 
+                and live currency exchange rates from{' '}
+                <a
+                  href="https://www.frankfurter.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 hover:text-blue-300 underline inline-flex items-center gap-1"
+                >
+                  Frankfurter API
+                  <ExternalLink className="w-3 h-3" />
+                </a>
+                . All costs are estimates based on average student expenses.
+              </p>
+            </div>
+          </div>
+          <div className="flex-shrink-0">
+            <span className="inline-flex items-center px-3 py-1.5 bg-blue-950/30 border border-blue-500/30 text-blue-300 text-xs font-medium rounded-full">
+              Last Updated: December 2024
+            </span>
+          </div>
+        </div>
+      </div>
+
+      {/* Comparison Mode Toggle */}
+      <div className="mb-6 flex justify-end">
+        <button
+          type="button"
+          onClick={() => {
+            setIsComparisonMode(!isComparisonMode);
+            // When enabling comparison mode, copy primary scenario if comparison is empty
+            if (!isComparisonMode && !comparisonScenario.targetCity) {
+              setComparisonScenario({
+                ...primaryScenario,
+                targetCity: '',
+                selectedUniversity: '',
+              });
+            }
+          }}
+          className={`flex items-center gap-2 px-4 py-2 rounded-lg font-medium transition-all duration-200 ${
+            isComparisonMode
+              ? 'bg-blue-600 hover:bg-blue-700 text-white'
+              : 'bg-slate-800 hover:bg-slate-700 text-white/80 border border-white/10'
+          }`}
+        >
+          <GitCompare className="w-4 h-4" />
+          <span>{isComparisonMode ? 'Exit Comparison' : 'Compare with another city'}</span>
+        </button>
+      </div>
+
+      {/* Comparison Summary Card */}
+      {isComparisonMode && primaryScenario.targetCity && comparisonScenario.targetCity && monthlyDifference !== null && (
+        <div className="mb-6 backdrop-blur-sm bg-gradient-to-r from-purple-600/20 to-blue-600/20 border border-white/20 rounded-xl p-4 sm:p-6">
+          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+            <div className="flex-1">
+              <h3 className="text-lg font-bold text-white mb-2">Comparison Summary</h3>
+              <p className="text-white/80 text-sm">
+                <span className="font-semibold">{comparisonScenario.targetCity}</span> vs <span className="font-semibold">{primaryScenario.targetCity}</span>
+              </p>
+            </div>
+            <div className={`text-right ${monthlyDifference >= 0 ? 'text-green-400' : 'text-red-400'}`}>
+              <div className="text-2xl font-bold">
+                {monthlyDifference >= 0 ? '+' : ''}{formatCurrency(Math.abs(monthlyDifference) * conversionRate, selectedCurrency)}
+              </div>
+              <div className="text-sm text-white/70">
+                {monthlyDifference >= 0 ? 'more expensive' : 'less expensive'} per month
+              </div>
+            </div>
+            <button
+              onClick={handleExportPDF}
+              disabled={!primaryScenario.targetCity || !comparisonScenario.targetCity || isExportingPDF}
+              className="flex items-center gap-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 disabled:bg-slate-700 disabled:cursor-not-allowed disabled:opacity-50 text-white text-sm font-medium rounded-lg transition-colors whitespace-nowrap"
+              aria-label="Export comparison as PDF"
+              title="Export comparison as PDF"
+            >
+              {isExportingPDF ? (
+                <>
+                  <Loader2 className="w-4 h-4 animate-spin" />
+                  <span className="hidden sm:inline">Generating...</span>
+                </>
+              ) : (
+                <>
+                  <Download className="w-4 h-4" />
+                  <span className="hidden sm:inline">Export PDF</span>
+                </>
+              )}
+            </button>
+          </div>
+        </div>
+      )}
+
+      {/* Main Calculator Layout */}
+      {!isComparisonMode ? (
+        // Single column view (original layout)
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 sm:gap-6 relative">
+          {/* Input Section */}
+          <div className="lg:col-span-2 space-y-4 relative min-w-0 z-[100]">
           {/* Origin Country Combobox */}
           <SearchableCombobox
             options={COUNTRY_OPTIONS}
-            value={originCountry}
-            onChange={(value) => setOriginCountry(value)}
+            value={primaryScenario.originCountry}
+            onChange={(value) => setPrimaryScenario(prev => ({ ...prev, originCountry: value }))}
             placeholder="Search for your country..."
             icon={<Plane className="w-4 h-4" />}
             label="Where are you coming from?"
@@ -758,20 +1280,35 @@ export default function StudyCostCalculator() {
           {/* Target City Combobox */}
           <SearchableCombobox
             options={CITY_OPTIONS}
-            value={targetCity}
-            onChange={(value) => setTargetCity(value)}
+            value={primaryScenario.targetCity}
+            onChange={(value) => setPrimaryScenario(prev => ({ ...prev, targetCity: value }))}
             placeholder="Search for a German university city..."
             icon={<MapPin className="w-4 h-4" />}
             label="Where do you want to study?"
             cardZIndex={90}
           />
 
+          {/* Accommodation Warning for High-Demand Cities */}
+          {primaryScenario.targetCity && highDemandCities.includes(primaryScenario.targetCity) && (
+            <div className="backdrop-blur-sm bg-yellow-950/30 border border-yellow-500/30 rounded-xl p-4">
+              <div className="flex items-start gap-3">
+                <AlertTriangle className="w-5 h-5 text-yellow-400 flex-shrink-0 mt-0.5" />
+                <div>
+                  <h4 className="text-sm font-semibold text-yellow-200 mb-1">Housing Warning</h4>
+                  <p className="text-xs text-yellow-200/90 leading-relaxed">
+                    Note: Housing in {primaryScenario.targetCity} is extremely scarce. We recommend starting your search 4-6 months before arrival.
+                  </p>
+                </div>
+              </div>
+            </div>
+          )}
+
           {/* University Combobox */}
-          {targetCity && (
+          {primaryScenario.targetCity && (
             <SearchableCombobox<string>
               options={availableUniversities}
-              value={selectedUniversity}
-              onChange={(value) => setSelectedUniversity(value)}
+              value={primaryScenario.selectedUniversity}
+              onChange={(value) => setPrimaryScenario(prev => ({ ...prev, selectedUniversity: value }))}
               placeholder="Search for a university..."
               icon={<GraduationCap className="w-4 h-4" />}
               label="Which university do you want to attend?"
@@ -780,7 +1317,7 @@ export default function StudyCostCalculator() {
           )}
 
           {/* Health Insurance Type Radio */}
-          <div className="backdrop-blur-md bg-slate-950/80 border border-white/10 rounded-xl p-4 hover:bg-slate-950/90 transition-all duration-200 relative z-[10]">
+          <div className="backdrop-blur-sm bg-slate-950/80 border border-white/10 rounded-xl p-4 hover:bg-slate-950/90 transition-all duration-200 relative z-[10]">
             <div className="flex items-start justify-between mb-3">
               <label className="block text-sm font-medium text-white/80 flex items-center gap-2">
                 <Shield className="w-4 h-4" />
@@ -810,42 +1347,64 @@ export default function StudyCostCalculator() {
 
             <div className="flex gap-4">
               <label className="flex items-center gap-2 cursor-pointer">
-                <input
-                  type="radio"
-                  name="insurance"
-                  value="public"
-                  checked={insuranceType === 'public'}
-                  onChange={(e) => setInsuranceType(e.target.value as InsuranceType)}
+                    <input
+                      type="radio"
+                      name="insurance"
+                      value="public"
+                      checked={primaryScenario.insuranceType === 'public'}
+                      onChange={(e) => setPrimaryScenario(prev => ({ ...prev, insuranceType: e.target.value as InsuranceType }))}
                   className="w-4 h-4 text-blue-600 bg-black/40 border-white/20 focus:ring-blue-500 focus:ring-2"
                 />
                 <span className="text-white/80">Public</span>
               </label>
               <label className="flex items-center gap-2 cursor-pointer">
-                <input
-                  type="radio"
-                  name="insurance"
-                  value="private"
-                  checked={insuranceType === 'private'}
-                  onChange={(e) => setInsuranceType(e.target.value as InsuranceType)}
+                    <input
+                      type="radio"
+                      name="insurance"
+                      value="private"
+                      checked={primaryScenario.insuranceType === 'private'}
+                      onChange={(e) => setPrimaryScenario(prev => ({ ...prev, insuranceType: e.target.value as InsuranceType }))}
                   className="w-4 h-4 text-blue-600 bg-black/40 border-white/20 focus:ring-blue-500 focus:ring-2"
                 />
                 <span className="text-white/80">Private</span>
               </label>
             </div>
             <p className="text-white/50 text-xs mt-2">
-              Average monthly price: {formatCurrency(monthlyInsurance)}
+              Average monthly price: {formatCurrency(primaryCalculated.monthlyInsurance)}
             </p>
           </div>
         </div>
 
         {/* Result Dashboard */}
-        <div className="lg:col-span-1 relative z-[10]">
-          <div className="backdrop-blur-md bg-gradient-to-br from-blue-600/20 to-purple-600/20 border border-white/20 rounded-xl p-6 sticky top-6 relative z-[10]">
+        <div className="lg:col-span-1 relative z-[10] min-w-0">
+          <div 
+            ref={resultCardRef}
+            className="backdrop-blur-sm bg-gradient-to-br from-blue-600/20 to-purple-600/20 border border-white/20 rounded-xl p-4 sm:p-6 sticky top-6 relative z-[10]"
+          >
             <div className="flex items-center justify-between mb-6">
               <h2 className="text-xl font-bold text-white flex items-center gap-2">
                 <Euro className="w-5 h-5" />
                 Cost Breakdown
               </h2>
+              <button
+                onClick={handleExportPDF}
+                disabled={!primaryScenario.targetCity || isExportingPDF}
+                className="flex items-center gap-2 px-3 py-2 bg-blue-600 hover:bg-blue-700 disabled:bg-slate-700 disabled:cursor-not-allowed disabled:opacity-50 text-white text-sm font-medium rounded-lg transition-colors"
+                aria-label="Export as PDF"
+                title={primaryScenario.targetCity ? 'Export cost breakdown as PDF' : 'Please select a city to export'}
+              >
+                {isExportingPDF ? (
+                  <>
+                    <Loader2 className="w-4 h-4 animate-spin" />
+                    <span className="hidden sm:inline">Generating...</span>
+                  </>
+                ) : (
+                  <>
+                    <Download className="w-4 h-4" />
+                    <span className="hidden sm:inline">Export PDF</span>
+                  </>
+                )}
+              </button>
             </div>
 
             {/* Currency Selector */}
@@ -891,7 +1450,7 @@ export default function StudyCostCalculator() {
                     Visa Fee
                   </span>
                   <span className="text-white font-semibold">
-                    {originCountry ? formatCurrency(visaFee * conversionRate, selectedCurrency) : '—'}
+                    {primaryScenario.originCountry ? formatCurrency(visaFee * conversionRate, selectedCurrency) : '—'}
                   </span>
                 </div>
                 <div className="flex justify-between items-center">
@@ -907,12 +1466,83 @@ export default function StudyCostCalculator() {
                   <div className="flex justify-between items-center">
                     <span className="text-white font-bold">Upfront Total</span>
                     <span className="text-white font-bold text-lg">
-                      {originCountry ? formatCurrency(convertedUpfrontTotal, selectedCurrency) : '—'}
+                      {primaryScenario.originCountry ? formatCurrency(convertedUpfrontTotal, selectedCurrency) : '—'}
                     </span>
                   </div>
                 </div>
               </div>
             </div>
+
+            {/* Blocked Account Info Section - Only show if Non-EU (requires visa) */}
+            {primaryScenario.originCountry && visaFee > 0 && (
+              <div className="mb-6 backdrop-blur-sm bg-slate-950/80 border border-white/10 rounded-xl p-4 sm:p-6">
+                <div className="flex items-center gap-2 mb-4">
+                  <Lock className="w-5 h-5 text-blue-400" />
+                  <h3 className="text-lg font-bold text-white">Blocked Account (Sperrkonto)</h3>
+                </div>
+                
+                <div className="mb-4 space-y-2">
+                  <p className="text-white/80 text-sm">
+                    As a non-EU student, you are required to open a Blocked Account (Sperrkonto) to prove you have sufficient funds for your studies in Germany.
+                  </p>
+                  <div className="bg-blue-950/30 border border-blue-500/20 rounded-lg p-3">
+                    <div className="flex justify-between items-center mb-2">
+                      <span className="text-white/80 text-sm">Required Amount (per month)</span>
+                      <span className="text-white font-bold">
+                        {formatCurrency(STUDY_DATA.FIXED_COSTS.blockedAccountMonthly * conversionRate, selectedCurrency)}
+                      </span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="text-white/80 text-sm">Required Amount (per year)</span>
+                      <span className="text-white font-bold">
+                        {formatCurrency(STUDY_DATA.FIXED_COSTS.blockedAccountYearly * conversionRate, selectedCurrency)}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Provider Comparison Table */}
+                <div className="mb-4">
+                  <h4 className="text-sm font-semibold text-white/90 mb-3">Compare Providers</h4>
+                  <div className="overflow-x-auto">
+                    <table className="w-full text-sm">
+                      <thead>
+                        <tr className="border-b border-white/10">
+                          <th className="text-left py-2 px-3 text-white/70 font-medium">Provider</th>
+                          <th className="text-right py-2 px-3 text-white/70 font-medium">Setup Fee</th>
+                          <th className="text-right py-2 px-3 text-white/70 font-medium">Monthly Fee</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {STUDY_DATA.BLOCKED_ACCOUNT_PROVIDERS.map((provider, index) => (
+                          <tr key={provider.name} className={index < STUDY_DATA.BLOCKED_ACCOUNT_PROVIDERS.length - 1 ? 'border-b border-white/5' : ''}>
+                            <td className="py-2 px-3 text-white/90 font-medium">{provider.name}</td>
+                            <td className="py-2 px-3 text-right text-white/80">
+                              {formatCurrency(provider.setupFee * conversionRate, selectedCurrency)}
+                            </td>
+                            <td className="py-2 px-3 text-right text-white/80">
+                              {formatCurrency(provider.monthlyFee * conversionRate, selectedCurrency)}
+                            </td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                  <p className="text-white/50 text-xs mt-2">
+                    Fees may vary. Please check provider websites for current rates.
+                  </p>
+                </div>
+
+                {/* CTA Button */}
+                <a
+                  href={`/${locale}/blog/blocked-account-guide`}
+                  className="inline-flex items-center gap-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium rounded-lg transition-colors w-full justify-center"
+                >
+                  <span>Learn how to open a Blocked Account</span>
+                  <ArrowRight className="w-4 h-4" />
+                </a>
+              </div>
+            )}
 
             {/* Monthly Costs Section */}
             <div className="border-t border-white/20 pt-6">
@@ -949,6 +1579,27 @@ export default function StudyCostCalculator() {
                     </span>
                   </div>
                 )}
+                {nonEUTuitionFeeMonthly > 0 && (
+                  <>
+                    <div className="flex justify-between items-center">
+                      <span className="text-white/70 text-sm flex items-center gap-1">
+                        <GraduationCap className="w-3 h-3" />
+                        Non-EU Tuition Fee (pro rata)
+                      </span>
+                      <span className="text-white font-semibold">
+                        {formatCurrency(nonEUTuitionFeeMonthly * conversionRate, selectedCurrency)}
+                      </span>
+                    </div>
+                    <div className="mt-2 p-2 bg-yellow-950/30 border border-yellow-500/20 rounded-lg">
+                      <p className="text-yellow-200/90 text-xs flex items-start gap-2">
+                        <Info className="w-3 h-3 mt-0.5 flex-shrink-0" />
+                        <span>
+                          <strong className="text-yellow-200">Note:</strong> Some German states (e.g., Baden-Württemberg) charge additional tuition fees of approximately {formatCurrency(selectedUniversityData?.nonEUTuitionFee || 1500)} per semester for non-EU students. This fee is in addition to the regular semester fee.
+                        </span>
+                      </p>
+                    </div>
+                  </>
+                )}
                 <div className="flex justify-between items-center pt-1">
                   <span className="text-slate-400 text-xs flex items-center gap-1">
                     <Info className="w-3 h-3" />
@@ -970,7 +1621,7 @@ export default function StudyCostCalculator() {
             </div>
 
             {/* Annual Total */}
-            {targetCity && (
+            {primaryScenario.targetCity && (
               <div className="border-t border-white/20 pt-6 mt-6">
                 <div className="bg-white/10 rounded-lg p-4">
                   <div className="text-white/70 text-sm mb-2">Annual Cost (12 months)</div>
@@ -989,7 +1640,543 @@ export default function StudyCostCalculator() {
                 </div>
               </div>
             )}
+
+            {/* Potential Monthly Income Section */}
+            <div className="border-t border-white/20 pt-6 mt-6">
+              <h3 className="text-sm font-semibold text-white/80 uppercase tracking-wide mb-4 flex items-center gap-2">
+                <Wallet className="w-4 h-4" />
+                Potential Monthly Income
+              </h3>
+              
+              <div className="space-y-4">
+                {/* Hours per Week Input */}
+                <div>
+                  <label className="block text-xs text-white/70 mb-2">
+                    Hours per week (Max: 20 for students)
+                  </label>
+                  <input
+                    type="number"
+                    min="0"
+                    max="20"
+                    value={primaryScenario.hoursPerWeek}
+                    onChange={(e) => {
+                      const value = Math.min(20, Math.max(0, parseFloat(e.target.value) || 0));
+                      setPrimaryScenario(prev => ({ ...prev, hoursPerWeek: value }));
+                    }}
+                    className="w-full bg-black/40 border border-white/10 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                  />
+                  <input
+                    type="range"
+                    min="0"
+                    max="20"
+                    value={primaryScenario.hoursPerWeek}
+                    onChange={(e) => setPrimaryScenario(prev => ({ ...prev, hoursPerWeek: parseFloat(e.target.value) }))}
+                    className="w-full mt-2 h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-blue-600"
+                  />
+                  <div className="flex justify-between text-xs text-white/50 mt-1">
+                    <span>0h</span>
+                    <span>20h</span>
+                  </div>
+                </div>
+
+                {/* Hourly Wage Input */}
+                <div>
+                  <label className="block text-xs text-white/70 mb-2">
+                    Hourly Wage (€)
+                  </label>
+                  <input
+                    type="number"
+                    min="0"
+                    step="0.01"
+                    value={primaryScenario.hourlyWage}
+                    onChange={(e) => {
+                      const value = Math.max(0, parseFloat(e.target.value) || 0);
+                      setPrimaryScenario(prev => ({ ...prev, hourlyWage: value }));
+                    }}
+                    className="w-full bg-black/40 border border-white/10 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                  />
+                  <p className="text-xs text-white/50 mt-1">
+                    Current German minimum wage: €12.41/hour (2024/25)
+                  </p>
+                </div>
+
+                {/* Income Breakdown */}
+                <div className="bg-white/5 rounded-lg p-4 space-y-2">
+                  <div className="flex justify-between items-center">
+                    <span className="text-white/70 text-sm">Gross Monthly Income</span>
+                    <span className="text-white font-semibold">
+                      {formatCurrency(convertedGrossMonthlyIncome, selectedCurrency)}
+                    </span>
+                  </div>
+                  {primaryCalculated.grossMonthlyIncome > 538 && (
+                    <div className="flex justify-between items-center text-xs">
+                      <span className="text-white/50">
+                        Less social contributions (9.35% on income over {formatCurrency(538 * conversionRate, selectedCurrency)})
+                      </span>
+                      <span className="text-white/50">
+                        -{formatCurrency((primaryCalculated.grossMonthlyIncome - 538) * 0.0935 * conversionRate, selectedCurrency)}
+                      </span>
+                    </div>
+                  )}
+                  <div className="border-t border-white/10 pt-2 mt-2">
+                    <div className="flex justify-between items-center">
+                      <span className="text-white/80 text-sm font-medium">Net Monthly Income</span>
+                      <span className="text-white font-bold">
+                        {formatCurrency(convertedNetMonthlyIncome, selectedCurrency)}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Net Balance */}
+                {primaryScenario.targetCity && (
+                  <div className={`rounded-lg p-4 border ${
+                    convertedNetBalance >= 0
+                      ? 'bg-green-950/30 border-green-500/30'
+                      : convertedNetBalance >= -200
+                      ? 'bg-yellow-950/30 border-yellow-500/30'
+                      : 'bg-red-950/30 border-red-500/30'
+                  }`}>
+                    <div className="flex justify-between items-center mb-1">
+                      <span className="text-white/80 text-sm font-medium">Net Monthly Balance</span>
+                      <span className={`font-bold text-lg ${
+                        convertedNetBalance >= 0
+                          ? 'text-green-400'
+                          : convertedNetBalance >= -200
+                          ? 'text-yellow-400'
+                          : 'text-red-400'
+                      }`}>
+                        {formatCurrency(convertedNetBalance, selectedCurrency)}
+                      </span>
+                    </div>
+                    <p className={`text-xs mt-2 ${
+                      convertedNetBalance >= 0
+                        ? 'text-green-300/80'
+                        : convertedNetBalance >= -200
+                        ? 'text-yellow-300/80'
+                        : 'text-red-300/80'
+                    }`}>
+                      {convertedNetBalance >= 0
+                        ? '✓ Your income covers monthly expenses'
+                        : convertedNetBalance >= -200
+                        ? '⚠ Small deficit - consider working more hours or reducing expenses'
+                        : '✗ Significant deficit - additional funding sources may be needed'}
+                    </p>
+                  </div>
+                )}
+              </div>
+            </div>
           </div>
+        </div>
+      </div>
+      ) : (
+        // Comparison mode: Side-by-side view
+        <div ref={comparisonContainerRef} className="grid grid-cols-1 md:grid-cols-2 gap-8 relative">
+          {/* Primary Scenario Column */}
+          <div className="space-y-4 relative z-[100]">
+            <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
+              <MapPin className="w-5 h-5" />
+              Scenario A: {primaryScenario.targetCity || 'Select city'}
+            </h3>
+            <div className="space-y-4">
+              <SearchableCombobox
+                options={COUNTRY_OPTIONS}
+                value={primaryScenario.originCountry}
+                onChange={(value) => setPrimaryScenario(prev => ({ ...prev, originCountry: value }))}
+                placeholder="Search for your country..."
+                icon={<Plane className="w-4 h-4" />}
+                label="Where are you coming from?"
+                cardZIndex={150}
+              />
+              <SearchableCombobox
+                options={CITY_OPTIONS}
+                value={primaryScenario.targetCity}
+                onChange={(value) => setPrimaryScenario(prev => ({ ...prev, targetCity: value }))}
+                placeholder="Search for a German university city..."
+                icon={<MapPin className="w-4 h-4" />}
+                label="Where do you want to study?"
+                cardZIndex={140}
+              />
+              {primaryScenario.targetCity && (
+                <SearchableCombobox<string>
+                  options={availableUniversities}
+                  value={primaryScenario.selectedUniversity}
+                  onChange={(value) => setPrimaryScenario(prev => ({ ...prev, selectedUniversity: value }))}
+                  placeholder="Search for a university..."
+                  icon={<GraduationCap className="w-4 h-4" />}
+                  label="Which university do you want to attend?"
+                  cardZIndex={130}
+                />
+              )}
+            </div>
+            <div className="backdrop-blur-sm bg-gradient-to-br from-blue-600/20 to-purple-600/20 border border-white/20 rounded-xl p-4 sm:p-6 relative">
+              <h4 className="text-lg font-bold text-white mb-4 flex items-center gap-2">
+                <Euro className="w-5 h-5" />
+                Cost Breakdown
+              </h4>
+              {primaryScenario.targetCity && comparisonScenario.targetCity && monthlyDifference !== null && monthlyDifference !== 0 && (
+                <div className={`absolute top-4 right-4 px-3 py-1 rounded-full text-xs font-bold ${
+                  monthlyDifference < 0 
+                    ? 'bg-green-500/20 text-green-400 border border-green-500/30' 
+                    : 'bg-red-500/20 text-red-400 border border-red-500/30'
+                }`}>
+                  {monthlyDifference < 0 ? '-' : '+'}{formatCurrency(Math.abs(monthlyDifference) * conversionRate, selectedCurrency)}
+                </div>
+              )}
+              <div className="space-y-4">
+                <div>
+                  <div className="text-white/70 text-sm mb-2">Monthly Total</div>
+                  <div className="text-2xl font-bold text-white">
+                    {formatCurrency(primaryCalculated.monthlyTotal * conversionRate, selectedCurrency)}
+                  </div>
+                </div>
+                <div>
+                  <div className="text-white/70 text-sm mb-2">Annual Total</div>
+                  <div className="text-xl font-bold text-white">
+                    {formatCurrency(primaryCalculated.annualTotal * conversionRate, selectedCurrency)}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Vertical Divider - Hidden on mobile */}
+          <div className="hidden md:block absolute left-1/2 top-0 bottom-0 w-px bg-white/10 -translate-x-1/2"></div>
+
+          {/* Comparison Scenario Column */}
+          <div className="space-y-4 relative z-[50]">
+            <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
+              <MapPin className="w-5 h-5" />
+              Scenario B: {comparisonScenario.targetCity || 'Select city'}
+            </h3>
+            <div className="space-y-4">
+              <SearchableCombobox
+                options={COUNTRY_OPTIONS}
+                value={comparisonScenario.originCountry}
+                onChange={(value) => setComparisonScenario(prev => ({ ...prev, originCountry: value }))}
+                placeholder="Search for your country..."
+                icon={<Plane className="w-4 h-4" />}
+                label="Where are you coming from?"
+                cardZIndex={100}
+              />
+              <SearchableCombobox
+                options={CITY_OPTIONS}
+                value={comparisonScenario.targetCity}
+                onChange={(value) => setComparisonScenario(prev => ({ ...prev, targetCity: value }))}
+                placeholder="Search for a German university city..."
+                icon={<MapPin className="w-4 h-4" />}
+                label="Where do you want to study?"
+                cardZIndex={90}
+              />
+              {comparisonScenario.targetCity && (
+                <SearchableCombobox<string>
+                  options={comparisonAvailableUniversities}
+                  value={comparisonScenario.selectedUniversity}
+                  onChange={(value) => setComparisonScenario(prev => ({ ...prev, selectedUniversity: value }))}
+                  placeholder="Search for a university..."
+                  icon={<GraduationCap className="w-4 h-4" />}
+                  label="Which university do you want to attend?"
+                  cardZIndex={80}
+                />
+              )}
+
+              {/* Accommodation Warning for Comparison City */}
+              {comparisonScenario.targetCity && highDemandCities.includes(comparisonScenario.targetCity) && (
+                <div className="backdrop-blur-sm bg-yellow-950/30 border border-yellow-500/30 rounded-xl p-4">
+                  <div className="flex items-start gap-3">
+                    <AlertTriangle className="w-5 h-5 text-yellow-400 flex-shrink-0 mt-0.5" />
+                    <div>
+                      <h4 className="text-sm font-semibold text-yellow-200 mb-1">Housing Warning</h4>
+                      <p className="text-xs text-yellow-200/90 leading-relaxed">
+                        Note: Housing in {comparisonScenario.targetCity} is extremely scarce. We recommend starting your search 4-6 months before arrival.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              )}
+            </div>
+            <div className="backdrop-blur-sm bg-gradient-to-br from-purple-600/20 to-blue-600/20 border border-white/20 rounded-xl p-4 sm:p-6 relative">
+              <h4 className="text-lg font-bold text-white mb-4 flex items-center gap-2">
+                <Euro className="w-5 h-5" />
+                Cost Breakdown
+              </h4>
+              {primaryScenario.targetCity && comparisonScenario.targetCity && monthlyDifference !== null && monthlyDifference !== 0 && (
+                <div className={`absolute top-4 right-4 px-3 py-1 rounded-full text-xs font-bold ${
+                  monthlyDifference > 0 
+                    ? 'bg-green-500/20 text-green-400 border border-green-500/30' 
+                    : 'bg-red-500/20 text-red-400 border border-red-500/30'
+                }`}>
+                  {monthlyDifference > 0 ? '-' : '+'}{formatCurrency(Math.abs(monthlyDifference) * conversionRate, selectedCurrency)}
+                </div>
+              )}
+              <div className="space-y-4">
+                <div>
+                  <div className="text-white/70 text-sm mb-2">Monthly Total</div>
+                  <div className="text-2xl font-bold text-white">
+                    {formatCurrency(comparisonCalculated.monthlyTotal * conversionRate, selectedCurrency)}
+                  </div>
+                </div>
+                <div>
+                  <div className="text-white/70 text-sm mb-2">Annual Total</div>
+                  <div className="text-xl font-bold text-white">
+                    {formatCurrency(comparisonCalculated.annualTotal * conversionRate, selectedCurrency)}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+      
+      {/* Currency Selector - Advanced (only show if not EUR/USD/INR, otherwise use Navbar toggle) */}
+      {!['EUR', 'USD', 'INR'].includes(selectedCurrency) && (
+        <div className="mt-6 flex justify-center">
+          <div className="backdrop-blur-sm bg-slate-950/80 border border-white/10 rounded-xl p-4">
+            <label className="block text-xs text-white/60 mb-2 text-center">Display Currency (Advanced)</label>
+            <CurrencySelector value={selectedCurrency} onChange={setSelectedCurrency} />
+          {isLoadingRates && (
+            <div className="mt-2 flex items-center gap-2 text-white/50 text-xs justify-center">
+              <Loader2 className="w-3 h-3 animate-spin" />
+              <span>Loading exchange rates...</span>
+            </div>
+          )}
+          {!isLoadingRates && !apiError && exchangeRates && (
+            <p className="mt-2 text-white/40 text-xs text-center">
+              Live rates provided by{' '}
+              <a
+                href="https://www.frankfurter.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-400 hover:text-blue-300 underline inline-flex items-center gap-1"
+              >
+                Frankfurter API
+                <ExternalLink className="w-3 h-3" />
+              </a>
+            </p>
+          )}
+          {apiError && (
+            <p className="mt-2 text-yellow-400/70 text-xs text-center">
+              Using default rates. API unavailable.
+            </p>
+          )}
+          </div>
+        </div>
+      )}
+
+      {/* Your Next Steps Checklist */}
+      <div className="mt-12 mb-6">
+        <div className="backdrop-blur-sm bg-slate-950/80 border border-white/10 rounded-xl p-6 sm:p-8">
+          <div className="mb-6">
+            <h2 className="text-2xl font-bold text-white mb-2">Your Next Steps</h2>
+            <p className="text-white/70 text-sm">
+              Track your progress as you prepare to study in Germany
+            </p>
+          </div>
+
+          {/* Progress Bar */}
+          <div className="mb-6">
+            <div className="flex justify-between items-center mb-2">
+              <span className="text-white/80 text-sm font-medium">Progress</span>
+              <span className="text-white/60 text-sm">
+                {visibleChecklistItems.filter(item => checklistState[item.id]).length} / {visibleChecklistItems.length} completed
+              </span>
+            </div>
+            <div className="w-full bg-slate-800/50 rounded-full h-3 overflow-hidden">
+              <div 
+                className="h-full bg-gradient-to-r from-blue-600 to-purple-600 transition-all duration-500 ease-out rounded-full"
+                style={{ width: `${progressPercentage}%` }}
+              />
+            </div>
+          </div>
+
+          {/* Checklist Items */}
+          <div className="space-y-3">
+            {visibleChecklistItems.map((item) => {
+              const isChecked = checklistState[item.id] || false;
+              return (
+                <div
+                  key={item.id}
+                  className={`flex flex-col gap-3 p-4 rounded-lg transition-all duration-200 ${
+                    isChecked 
+                      ? 'bg-green-950/30 border border-green-500/30' 
+                      : 'bg-white/5 border border-white/10'
+                  }`}
+                >
+                  <div className="flex items-start gap-3">
+                    <button
+                      type="button"
+                      onClick={() => toggleChecklistItem(item.id)}
+                      className="mt-0.5 flex-shrink-0 cursor-pointer"
+                    >
+                      {isChecked ? (
+                        <CheckCircle2 className="w-6 h-6 text-green-400" />
+                      ) : (
+                        <Circle className="w-6 h-6 text-white/40" />
+                      )}
+                    </button>
+                    <div className="flex-1 min-w-0">
+                      <div className="flex items-center gap-2 flex-wrap">
+                        <span className={`text-sm font-medium ${
+                          isChecked ? 'text-white/60 line-through' : 'text-white'
+                        }`}>
+                          {item.label}
+                        </span>
+                        {item.highlight && (
+                          <span className="px-2 py-0.5 bg-yellow-950/30 border border-yellow-500/30 text-yellow-400 text-xs font-medium rounded">
+                            {item.highlightText}
+                          </span>
+                        )}
+                      </div>
+                      {item.subtext && (
+                        <p className="text-xs text-white/50 mt-1">{item.subtext}</p>
+                      )}
+                    </div>
+                  </div>
+                  
+                  {/* Action Links with Info Icons */}
+                  <div className="ml-9 space-y-2">
+                    <div className="flex flex-wrap gap-2 items-center">
+                      {/* Official Link */}
+                      {item.officialLink && (
+                        <a
+                          href={item.officialLink}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-blue-600/20 hover:bg-blue-600/30 border border-blue-500/30 text-blue-400 text-xs font-medium rounded-lg transition-colors"
+                          onClick={(e) => e.stopPropagation()}
+                        >
+                          <span>{item.officialLinkLabel}</span>
+                          <ExternalLink className="w-3 h-3" />
+                        </a>
+                      )}
+                      
+                      {/* Multiple Official Links (for accommodation) */}
+                      {item.officialLinks && item.officialLinks.map((link) => (
+                        <a
+                          key={link.url}
+                          href={link.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-blue-600/20 hover:bg-blue-600/30 border border-blue-500/30 text-blue-400 text-xs font-medium rounded-lg transition-colors"
+                          onClick={(e) => e.stopPropagation()}
+                        >
+                          <span>{link.label}</span>
+                          <ExternalLink className="w-3 h-3" />
+                        </a>
+                      ))}
+                      
+                      {/* Affiliate Link (more prominent button style) */}
+                      {item.affiliateLink && !item.affiliateLink.startsWith('YOUR_') && (
+                        <a
+                          href={item.affiliateLink}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-green-600/20 hover:bg-green-600/30 border border-green-500/30 text-green-400 text-xs font-medium rounded-lg transition-colors"
+                          onClick={(e) => e.stopPropagation()}
+                        >
+                          <span>{item.affiliateLinkLabel || 'Compare & Open'}</span>
+                          <ExternalLink className="w-3 h-3" />
+                        </a>
+                      )}
+
+                      {/* Info Icon - Show guide */}
+                      {item.guide && (
+                        <div className="relative" data-info-box>
+                          <button
+                            type="button"
+                            data-info-button
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              // Toggle on click (works for mobile and as fallback for desktop)
+                              if (openInfoBox === item.id) {
+                                setOpenInfoBox(null);
+                              } else {
+                                setOpenInfoBox(item.id);
+                              }
+                            }}
+                            onMouseEnter={() => {
+                              // Show on hover for desktop (with small delay for better UX)
+                              if (typeof window !== 'undefined' && window.innerWidth >= 768) {
+                                if (infoBoxTimeoutRef.current) {
+                                  clearTimeout(infoBoxTimeoutRef.current);
+                                }
+                                infoBoxTimeoutRef.current = setTimeout(() => {
+                                  setOpenInfoBox(item.id);
+                                }, 100);
+                              }
+                            }}
+                            onMouseLeave={() => {
+                              // Delay closing on desktop to allow moving to the info box
+                              if (typeof window !== 'undefined' && window.innerWidth >= 768) {
+                                if (infoBoxTimeoutRef.current) {
+                                  clearTimeout(infoBoxTimeoutRef.current);
+                                }
+                                infoBoxTimeoutRef.current = setTimeout(() => {
+                                  setOpenInfoBox(null);
+                                }, 200);
+                              }
+                            }}
+                            className="p-1.5 rounded-lg bg-white/5 hover:bg-white/10 border border-white/10 text-white/60 hover:text-white/80 transition-colors"
+                            aria-label="Show instructions"
+                            aria-expanded={openInfoBox === item.id}
+                          >
+                            <Info className="w-4 h-4" />
+                          </button>
+
+                          {/* Info Box Tooltip/Popover - Desktop: hover shows, Mobile: click shows */}
+                          <div 
+                            className={`absolute left-0 top-full mt-2 z-[100] w-80 max-w-[calc(100vw-2rem)] backdrop-blur-md bg-slate-950/95 border border-white/30 rounded-lg shadow-2xl p-4 transition-all duration-200 ${
+                              openInfoBox === item.id 
+                                ? 'opacity-100 visible translate-y-0 pointer-events-auto' 
+                                : 'opacity-0 invisible -translate-y-1 pointer-events-none'
+                            }`}
+                            onMouseEnter={() => {
+                              // Keep open when hovering over the box (desktop)
+                              if (infoBoxTimeoutRef.current) {
+                                clearTimeout(infoBoxTimeoutRef.current);
+                              }
+                            }}
+                            onMouseLeave={() => {
+                              // Close when mouse leaves the box (desktop only)
+                              if (typeof window !== 'undefined' && window.innerWidth >= 768) {
+                                setOpenInfoBox(null);
+                              }
+                            }}
+                          >
+                            <div className="space-y-2">
+                              <h4 className="text-sm font-semibold text-white mb-2">How to:</h4>
+                              <ul className="space-y-1.5">
+                                {item.guide.map((step, index) => (
+                                  <li key={index} className="text-xs text-white/80 leading-relaxed">
+                                    {step}
+                                  </li>
+                                ))}
+                              </ul>
+                            </div>
+                            {/* Arrow pointer */}
+                            <div className="absolute -top-1.5 left-4 w-3 h-3 bg-slate-950/95 border-l border-t border-white/30 rotate-45"></div>
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+
+          {/* Reset Button */}
+          {Object.keys(checklistState).some(key => checklistState[key]) && (
+            <div className="mt-6 pt-6 border-t border-white/10">
+              <button
+                type="button"
+                onClick={() => setChecklistState({})}
+                className="text-white/60 hover:text-white/80 text-sm transition-colors"
+              >
+                Reset checklist
+              </button>
+            </div>
+          )}
         </div>
       </div>
     </div>

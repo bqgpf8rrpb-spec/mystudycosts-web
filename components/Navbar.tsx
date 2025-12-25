@@ -4,10 +4,22 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Menu, X, Calculator } from 'lucide-react';
+import { useCurrency } from '@/contexts/CurrencyContext';
+
+type CurrencyCode = 'EUR' | 'USD' | 'INR';
 
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const pathname = usePathname();
+  const { selectedCurrency, setSelectedCurrency } = useCurrency();
+  
+  // Currency toggle options (simplified for Navbar)
+  const currencyOptions: CurrencyCode[] = ['EUR', 'USD', 'INR'];
+  const currencySymbols: Record<CurrencyCode, string> = {
+    EUR: '€',
+    USD: '$',
+    INR: '₹',
+  };
 
   // Extract locale from pathname (format: /de/... or /en/...)
   const locale = pathname?.split('/')[1] || 'en';
@@ -16,6 +28,7 @@ export default function Navbar() {
   const menuItems = [
     { href: `${basePath}`, label: 'Home' },
     { href: `${basePath}/calculator`, label: 'Calculator' },
+    { href: `${basePath}/about`, label: 'About' },
     { href: `${basePath}/blog`, label: 'Blog' },
     { href: `${basePath}/imprint`, label: 'Imprint' },
   ];
@@ -38,13 +51,15 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href={basePath} className="flex items-center gap-2 text-white font-bold text-xl hover:text-blue-400 transition-colors">
-            <Calculator className="w-6 h-6" />
-            <span>MyStudyCosts</span>
+          <Link href={basePath} className="flex items-center gap-2 group transition-all duration-200">
+            <Calculator className="w-6 h-6 text-blue-400 group-hover:text-blue-300 transition-colors" />
+            <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-blue-400 bg-clip-text text-transparent font-bold text-xl hover:from-blue-300 hover:via-purple-300 hover:to-blue-300 transition-all duration-200">
+              MyStudyCosts
+            </span>
           </Link>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-6">
             {menuItems.map((item) => {
               const active = isActive(item.href);
               return (
@@ -64,6 +79,34 @@ export default function Navbar() {
                 </Link>
               );
             })}
+            <Link
+              href={`${basePath}/privacy`}
+              className={`transition-colors relative group py-2 ${
+                isActive(`${basePath}/privacy`)
+                  ? 'text-blue-400'
+                  : 'text-white/60 hover:text-blue-400 text-sm'
+              }`}
+            >
+              Privacy
+            </Link>
+            
+            {/* Currency Toggle */}
+            <div className="flex items-center gap-1 bg-slate-900/50 border border-white/10 rounded-full p-1">
+              {currencyOptions.map((currency) => (
+                <button
+                  key={currency}
+                  type="button"
+                  onClick={() => setSelectedCurrency(currency)}
+                  className={`px-3 py-1.5 rounded-full text-xs font-medium transition-all duration-200 ${
+                    selectedCurrency === currency
+                      ? 'bg-blue-600 text-white shadow-lg'
+                      : 'text-white/70 hover:text-white/90 hover:bg-white/5'
+                  }`}
+                >
+                  {currencySymbols[currency]}
+                </button>
+              ))}
+            </div>
           </div>
 
           {/* Mobile Menu Button */}
@@ -102,6 +145,41 @@ export default function Navbar() {
                   </Link>
                 );
               })}
+              <Link
+                href={`${basePath}/privacy`}
+                onClick={closeMobileMenu}
+                className={`transition-colors px-2 py-2 rounded-md ${
+                  isActive(`${basePath}/privacy`)
+                    ? 'text-blue-400 bg-white/5'
+                    : 'text-white/60 hover:text-blue-400 hover:bg-white/5 text-sm'
+                }`}
+              >
+                Privacy
+              </Link>
+              
+              {/* Mobile Currency Toggle */}
+              <div className="px-2 pt-2 border-t border-slate-800">
+                <div className="text-white/60 text-xs mb-2">Currency</div>
+                <div className="flex items-center gap-1 bg-slate-900/50 border border-white/10 rounded-full p-1 w-fit">
+                  {currencyOptions.map((currency) => (
+                    <button
+                      key={currency}
+                      type="button"
+                      onClick={() => {
+                        setSelectedCurrency(currency);
+                        closeMobileMenu();
+                      }}
+                      className={`px-3 py-1.5 rounded-full text-xs font-medium transition-all duration-200 ${
+                        selectedCurrency === currency
+                          ? 'bg-blue-600 text-white shadow-lg'
+                          : 'text-white/70 hover:text-white/90 hover:bg-white/5'
+                      }`}
+                    >
+                      {currencySymbols[currency]}
+                    </button>
+                  ))}
+                </div>
+              </div>
             </div>
           </div>
         )}
