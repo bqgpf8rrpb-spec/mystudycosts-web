@@ -32,10 +32,14 @@ import {
   Landmark,
   Calendar,
   Home,
+  Radio,
+  ShieldAlert,
+  Check,
 } from 'lucide-react';
 import { useCurrency, type CurrencyCode } from '@/contexts/CurrencyContext';
 import { trackEvent } from '@/lib/analytics';
 import { useTranslations } from 'next-intl';
+import universitiesData from '@/data/universities.json';
 
 interface ExchangeRates {
   USD: number;
@@ -243,47 +247,27 @@ const UNIVERSITY_CITIES: Record<string, number> = {
   'Wuppertal': 580,   // University of Wuppertal
 };
 
-// German Universities with Semester Fees
+// German Universities with Semester Fees - Imported from JSON database
 interface University {
   name: string;
   city: string;
+  type: 'public' | 'private';
   semesterFee: number;
+  avgRent: number;
+  tuitionFee?: number; // For private universities
   nonEUTuitionFee?: number; // Optional: ~1,500€ per semester for non-EU students (e.g., Baden-Württemberg)
 }
 
-const UNIVERSITIES: University[] = [
-  { name: 'TU Munich', city: 'Munich', semesterFee: 147 },
-  { name: 'LMU Munich', city: 'Munich', semesterFee: 142 },
-  { name: 'HU Berlin', city: 'Berlin', semesterFee: 315 },
-  { name: 'FU Berlin', city: 'Berlin', semesterFee: 315 },
-  { name: 'TU Berlin', city: 'Berlin', semesterFee: 314 },
-  { name: 'Heidelberg University', city: 'Heidelberg', semesterFee: 185, nonEUTuitionFee: 1500 },
-  { name: 'University of Hamburg', city: 'Hamburg', semesterFee: 335 },
-  { name: 'TU Darmstadt', city: 'Darmstadt', semesterFee: 285 },
-  { name: 'University of Cologne', city: 'Cologne', semesterFee: 321 },
-  { name: 'RWTH Aachen', city: 'Aachen', semesterFee: 304 },
-  { name: 'University of Bonn', city: 'Bonn', semesterFee: 299 },
-  { name: 'TU Dresden', city: 'Dresden', semesterFee: 275 },
-  { name: 'University of Stuttgart', city: 'Stuttgart', semesterFee: 170, nonEUTuitionFee: 1500 },
-  { name: 'KIT Karlsruhe', city: 'Karlsruhe', semesterFee: 162, nonEUTuitionFee: 1500 },
-  { name: 'University of Tübingen', city: 'Tübingen', semesterFee: 176, nonEUTuitionFee: 1500 },
-  { name: 'University of Freiburg', city: 'Freiburg', semesterFee: 186, nonEUTuitionFee: 1500 },
-  { name: 'University of Münster', city: 'Münster', semesterFee: 311 },
-  { name: 'FAU Erlangen-Nürnberg', city: 'Erlangen', semesterFee: 142 },
-  { name: 'University of Göttingen', city: 'Göttingen', semesterFee: 377 },
-  { name: 'TU Braunschweig', city: 'Braunschweig', semesterFee: 374 },
-  { name: 'University of Mannheim', city: 'Mannheim', semesterFee: 187, nonEUTuitionFee: 1500 },
-  { name: 'University of Konstanz', city: 'Konstanz', semesterFee: 177, nonEUTuitionFee: 1500 },
-  { name: 'Leibniz University Hanover', city: 'Hanover', semesterFee: 436 },
-  { name: 'University of Würzburg', city: 'Würzburg', semesterFee: 129 },
-  { name: 'University of Leipzig', city: 'Leipzig', semesterFee: 223 },
-  { name: 'University of Mainz', city: 'Mainz', semesterFee: 359 },
-  { name: 'Goethe University Frankfurt', city: 'Frankfurt', semesterFee: 360 },
-  { name: 'Heinrich Heine University', city: 'Düsseldorf', semesterFee: 320 },
-  { name: 'University of Marburg', city: 'Marburg', semesterFee: 339 },
-  { name: 'University of Kiel', city: 'Kiel', semesterFee: 300 },
-  { name: 'University of Regensburg', city: 'Regensburg', semesterFee: 165 },
-];
+// Use imported universities data, ensuring type safety
+const UNIVERSITIES: University[] = universitiesData.map((u: any) => ({
+  name: u.name,
+  city: u.city,
+  type: u.type || 'public',
+  semesterFee: u.semesterFee || 0,
+  avgRent: u.avgRent || 600,
+  tuitionFee: u.tuitionFee,
+  nonEUTuitionFee: u.nonEUTuitionFee,
+}));
 
 // Visa fee structure: base fee + optional service fee
 interface VisaFeeInfo {
@@ -405,18 +389,62 @@ const STUDY_DATA = {
     { name: 'Expatrio', setupFee: 49, monthlyFee: 4.9 },
     { name: 'Coracle', setupFee: 99, monthlyFee: 5.0 },
   ],
+  RUNDFUNKBEITRAG: {
+    quarterly: 55.08, // Quarterly fee (every 3 months)
+    monthly: 18.36, // Monthly equivalent (for display)
+  },
+  ARRIVAL_COSTS: {
+    securityDepositMultiplier: 3, // 3 months' rent
+    initialHouseholdSetup: 650, // Basic furniture/kitchenware
+  },
+  LANGUAGE_COURSE: {
+    monthlyCost: 550, // Estimated average per month for intensive German courses
+  },
 } as const;
 
 type City = keyof typeof STUDY_DATA.CITIES;
 type OriginCountry = keyof typeof STUDY_DATA.ORIGIN_COUNTRIES;
 type InsuranceType = 'public' | 'private';
 type JobType = 'minijob' | 'working_student';
+type HousingType = 'dorm' | 'wg' | 'private';
+
+// City name mapping for English locale (convert German names to English)
+const CITY_NAME_MAP_EN: Record<string, string> = {
+  'Düsseldorf': 'Dusseldorf',
+  'Gießen': 'Giessen',
+  'Göttingen': 'Gottingen',
+  'Lübeck': 'Luebeck',
+  'Münster': 'Muenster',
+  'Osnabrück': 'Osnabrueck',
+  'Saarbrücken': 'Saarbruecken',
+  'Tübingen': 'Tuebingen',
+  'Würzburg': 'Wuerzburg',
+  // Keep other cities as-is (they're already in English or don't need translation)
+};
+
+// Helper function to get localized city name
+function getLocalizedCityName(cityName: string, locale: string): string {
+  if (locale === 'en' && CITY_NAME_MAP_EN[cityName]) {
+    return CITY_NAME_MAP_EN[cityName];
+  }
+  return cityName;
+}
 
 // Scenario interface for comparison mode
 interface Scenario {
   originCountry: OriginCountry | '';
   targetCity: City | '';
   selectedUniversity: string;
+  isOtherUniversity: boolean; // True if "Other / Not Listed" is selected
+  manualCity?: string; // Manual city input for "Other"
+  manualRent?: number; // Manual rent input for "Other"
+  manualSemesterFee?: number; // Manual semester fee for "Other"
+  manualTuitionFee?: number; // Manual tuition fee for private universities
+  housingType: HousingType; // Type of housing: dorm, wg, or private
+  rentOverride?: number; // Manual rent override (optional)
+  rundfunkbeitragPeople: number; // Number of people sharing the broadcasting fee (1 = full amount)
+  needsLanguageCourse: boolean; // Whether the user needs a preparatory language course
+  languageCourseDuration: 3 | 6 | 12 | 0; // Duration in months (0 = not selected)
   insuranceType: InsuranceType;
   jobType: JobType;
   hoursPerWeek: number;
@@ -432,8 +460,14 @@ interface CalculatedValues {
   visaFeeNote?: string;
   monthlyRent: number;
   monthlyInsurance: number;
+  monthlyRundfunkbeitrag: number;
   semesterFeeMonthly: number;
   nonEUTuitionFeeMonthly: number;
+  privateTuitionFeeMonthly: number;
+  securityDeposit: number; // 3x monthly rent
+  initialHouseholdSetup: number; // Fixed 650€
+  arrivalCostsTotal: number; // Security deposit + household setup
+  languageCourseCost: number; // Language course cost (monthly cost * duration)
   upfrontTotal: number;
   monthlyTotal: number;
   annualTotal: number;
@@ -446,6 +480,279 @@ interface CalculatedValues {
 const COUNTRY_OPTIONS = Object.keys(STUDY_DATA.ORIGIN_COUNTRIES) as OriginCountry[];
 const CITY_OPTIONS = Object.keys(STUDY_DATA.CITIES) as City[];
 const ALL_UNIVERSITY_OPTIONS = STUDY_DATA.UNIVERSITIES.map(u => u.name);
+
+// University Search Component - Unified with SearchableCombobox behavior
+interface UniversitySearchComponentProps {
+  universities: University[];
+  value: string;
+  isOther: boolean;
+  onSelect: (universityName: string) => void;
+  cardZIndex?: number;
+  disabled?: boolean;
+}
+
+function UniversitySearchComponent({ universities, value, isOther, onSelect, cardZIndex = 90, disabled = false }: UniversitySearchComponentProps) {
+  const t = useTranslations('Calculator');
+  const [isOpen, setIsOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
+  const [focusedIndex, setFocusedIndex] = useState(-1);
+  const [dropdownPosition, setDropdownPosition] = useState({ top: 0, left: 0, width: 0 });
+  const containerRef = useRef<HTMLDivElement>(null);
+  const inputRef = useRef<HTMLInputElement>(null);
+  const inputWrapperRef = useRef<HTMLDivElement>(null);
+  const listRef = useRef<HTMLUListElement>(null);
+
+  // Get locale for city name translation
+  const pathname = usePathname();
+  const locale = pathname?.split('/')[1] || 'en';
+
+  // Filter universities based on search query
+  const filteredOptions = useMemo(() => {
+    const query = searchQuery.toLowerCase().trim();
+    if (!query) return universities;
+    
+    return universities.filter(u => 
+      u.name.toLowerCase().includes(query) ||
+      u.city.toLowerCase().includes(query)
+    );
+  }, [searchQuery, universities]);
+
+  // Add "Other / Not Listed" option and format labels
+  const allOptions = useMemo(() => {
+    const uniOptions = filteredOptions.map(u => {
+      const localizedCity = getLocalizedCityName(u.city, locale);
+      return { value: u.name, label: `${u.name} (${localizedCity})`, type: u.type };
+    });
+    return [...uniOptions, { value: 'OTHER_NOT_LISTED', label: t('otherNotListed'), type: 'other' as const }];
+  }, [filteredOptions, t, locale]);
+
+  // Calculate dropdown position when opening (same as SearchableCombobox)
+  useEffect(() => {
+    if (isOpen && inputWrapperRef.current) {
+      const updatePosition = () => {
+        if (inputWrapperRef.current) {
+          const rect = inputWrapperRef.current.getBoundingClientRect();
+          setDropdownPosition({
+            top: rect.bottom + 4,
+            left: rect.left,
+            width: rect.width,
+          });
+        }
+      };
+      
+      updatePosition();
+      
+      // Update position on scroll/resize
+      window.addEventListener('scroll', updatePosition, true);
+      window.addEventListener('resize', updatePosition);
+      
+      return () => {
+        window.removeEventListener('scroll', updatePosition, true);
+        window.removeEventListener('resize', updatePosition);
+      };
+    }
+  }, [isOpen, filteredOptions.length]);
+
+  // Handle outside click (same as SearchableCombobox)
+  useEffect(() => {
+    if (!isOpen) return;
+
+    function handleClickOutside(event: MouseEvent) {
+      const target = event.target as Node;
+      if (
+        containerRef.current && 
+        !containerRef.current.contains(target) &&
+        listRef.current &&
+        !listRef.current.contains(target)
+      ) {
+        setIsOpen(false);
+        setSearchQuery('');
+        setFocusedIndex(-1);
+      }
+    }
+
+    // Use capture phase to catch clicks before they bubble
+    document.addEventListener('mousedown', handleClickOutside, true);
+    return () => document.removeEventListener('mousedown', handleClickOutside, true);
+  }, [isOpen]);
+
+  // Handle keyboard navigation (same as SearchableCombobox)
+  const handleKeyDown = (e: React.KeyboardEvent) => {
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      setFocusedIndex((prev) => {
+        const next = prev < allOptions.length - 1 ? prev + 1 : prev;
+        // Scroll into view
+        if (listRef.current && next >= 0) {
+          const item = listRef.current.children[next] as HTMLElement;
+          item?.scrollIntoView({ block: 'nearest' });
+        }
+        return next;
+      });
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      setFocusedIndex((prev) => {
+        const next = prev > 0 ? prev - 1 : -1;
+        if (listRef.current && next >= 0) {
+          const item = listRef.current.children[next] as HTMLElement;
+          item?.scrollIntoView({ block: 'nearest' });
+        }
+        return next;
+      });
+    } else if (e.key === 'Enter' && focusedIndex >= 0 && allOptions[focusedIndex]) {
+      e.preventDefault();
+      handleSelect(allOptions[focusedIndex].value);
+    } else if (e.key === 'Escape') {
+      setIsOpen(false);
+      setSearchQuery('');
+      setFocusedIndex(-1);
+    }
+  };
+
+  const handleSelect = (universityName: string) => {
+    onSelect(universityName);
+    setIsOpen(false);
+    setSearchQuery('');
+    setFocusedIndex(-1);
+  };
+
+  // Show search query when typing, otherwise show selected value
+  const displayValue = searchQuery !== '' ? searchQuery : (isOther ? t('otherNotListed') : value || '');
+
+  const toggleDropdown = () => {
+    if (disabled) return;
+    const newState = !isOpen;
+    setIsOpen(newState);
+    if (newState) {
+      inputRef.current?.focus();
+    }
+  };
+
+  // Render dropdown via Portal (same as SearchableCombobox)
+  const renderDropdown = () => {
+    if (!isOpen) return null;
+
+    const dropdownContent = (
+      <>
+        {allOptions.length > 0 && (
+          <ul
+            ref={listRef}
+            className="bg-slate-900 backdrop-blur-sm border border-white/20 rounded-lg shadow-2xl max-h-60 overflow-y-auto z-[100] pointer-events-auto"
+            style={{
+              position: 'fixed',
+              top: `${dropdownPosition.top}px`,
+              left: `${dropdownPosition.left}px`,
+              width: `${dropdownPosition.width}px`,
+              zIndex: 100,
+            }}
+          >
+            {allOptions.map((option, index) => {
+              const isSelected = !isOther && value === option.value;
+              return (
+                <li
+                  key={option.value}
+                  onClick={() => handleSelect(option.value)}
+                  onMouseEnter={() => setFocusedIndex(index)}
+                  className={`px-4 py-2 cursor-pointer transition-colors duration-150 ${
+                    index === focusedIndex || isSelected
+                      ? 'bg-blue-600/30 text-white'
+                      : 'text-white/80 hover:bg-white/10'
+                  } ${option.type === 'other' ? 'border-t border-white/10 font-medium' : ''}`}
+                >
+                  <div className="flex items-center justify-between gap-2">
+                    <span className="flex-1">{option.label}</span>
+                    {isSelected && (
+                      <Check className="w-4 h-4 text-white flex-shrink-0" />
+                    )}
+                    {option.type === 'private' && !isSelected && (
+                      <span className="text-xs px-2 py-0.5 bg-purple-600/20 text-purple-300 rounded">Private</span>
+                    )}
+                  </div>
+                </li>
+              );
+            })}
+          </ul>
+        )}
+
+        {searchQuery && allOptions.length === 0 && (
+          <div 
+            className="bg-slate-900 backdrop-blur-sm border border-white/20 rounded-lg shadow-2xl p-4 z-[100] pointer-events-auto"
+            style={{
+              position: 'fixed',
+              top: `${dropdownPosition.top}px`,
+              left: `${dropdownPosition.left}px`,
+              width: `${dropdownPosition.width}px`,
+              zIndex: 100,
+            }}
+          >
+            <p className="text-white/60 text-sm">{t('noUniversitiesFound')}</p>
+          </div>
+        )}
+      </>
+    );
+
+    return typeof document !== 'undefined' ? createPortal(dropdownContent, document.body) : null;
+  };
+
+  // Determine z-index class based on cardZIndex prop
+  const zIndexClass = cardZIndex === 100 ? 'z-[100]' : cardZIndex === 90 ? 'z-[90]' : cardZIndex === 80 ? 'z-[80]' : 'z-[10]';
+  
+  return (
+    <>
+      <div className={`backdrop-blur-sm bg-slate-950/80 border border-white/10 rounded-xl p-4 hover:bg-slate-950/90 transition-all duration-200 relative ${zIndexClass}`}>
+        <label className="block mb-2 text-sm font-medium text-white/80 flex items-center gap-2">
+          <Search className="w-4 h-4" />
+          {t('searchUniversity')}
+        </label>
+        <div ref={containerRef} className="relative">
+          <div ref={inputWrapperRef} className="relative">
+            <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-white/40 z-10 pointer-events-none" />
+            <input
+              ref={inputRef}
+              type="text"
+              value={displayValue}
+              onChange={(e) => {
+                const newQuery = e.target.value;
+                setSearchQuery(newQuery);
+                // Clear selection if user starts typing
+                if (newQuery && value && !isOther) {
+                  onSelect('');
+                }
+                setIsOpen(true);
+                setFocusedIndex(-1);
+              }}
+              onFocus={(e) => {
+                if (disabled) return;
+                setIsOpen(true);
+                // Select all text when focused if a value is selected
+                if (value && !isOther) {
+                  e.target.select();
+                }
+              }}
+              onKeyDown={handleKeyDown}
+              placeholder={disabled ? t('selectCity') : t('searchUniversityPlaceholder')}
+              disabled={disabled}
+              className="w-full bg-black/40 border border-white/10 rounded-lg pl-10 pr-10 py-3 text-white placeholder-white/30 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 relative z-10 disabled:opacity-50 disabled:cursor-not-allowed"
+            />
+            <button
+              type="button"
+              onClick={(e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                toggleDropdown();
+              }}
+              disabled={disabled}
+              className="absolute right-3 top-1/2 -translate-y-1/2 text-white/40 hover:text-white/60 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+            >
+              <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`} />
+            </button>
+          </div>
+        </div>
+      </div>
+      {renderDropdown()}
+    </>
+  );
+}
 
 // Searchable Combobox Component
 interface SearchableComboboxProps<T extends string> {
@@ -808,6 +1115,10 @@ export default function StudyCostCalculator() {
   const [openVisaInfo, setOpenVisaInfo] = useState(false);
   const [showMinijobInfo, setShowMinijobInfo] = useState(false);
   const [showWerkstudentInfo, setShowWerkstudentInfo] = useState(false);
+  const [showHousingDormInfo, setShowHousingDormInfo] = useState(false);
+  const [showHousingWGInfo, setShowHousingWGInfo] = useState(false);
+  const [showHousingPrivateInfo, setShowHousingPrivateInfo] = useState(false);
+  const [showRundfunkbeitragInfo, setShowRundfunkbeitragInfo] = useState(false);
   
   // Calculate default semester start (6 months from now)
   const getDefaultSemesterStart = (): string => {
@@ -821,6 +1132,11 @@ export default function StudyCostCalculator() {
     originCountry: '',
     targetCity: '',
     selectedUniversity: '',
+    isOtherUniversity: false,
+    housingType: 'wg', // Default to shared flat
+    rundfunkbeitragPeople: 1, // Default: 1 person (full amount)
+    needsLanguageCourse: false,
+    languageCourseDuration: 0,
     insuranceType: 'public',
     jobType: 'minijob',
     hoursPerWeek: 0,
@@ -834,6 +1150,11 @@ export default function StudyCostCalculator() {
     originCountry: '',
     targetCity: '',
     selectedUniversity: '',
+    isOtherUniversity: false,
+    housingType: 'wg', // Default to shared flat
+    rundfunkbeitragPeople: 1, // Default: 1 person (full amount)
+    needsLanguageCourse: false,
+    languageCourseDuration: 0,
     insuranceType: 'public',
     jobType: 'minijob',
     hoursPerWeek: 0,
@@ -1015,9 +1336,15 @@ export default function StudyCostCalculator() {
     }));
   };
   
+  // Get selected university data (primary) - moved before other variables
+  const selectedUniversityData = useMemo(() => {
+    if (!primaryScenario.selectedUniversity || primaryScenario.isOtherUniversity) return null;
+    return STUDY_DATA.UNIVERSITIES.find(u => u.name === primaryScenario.selectedUniversity);
+  }, [primaryScenario.selectedUniversity, primaryScenario.isOtherUniversity]);
+
   // Use primary scenario for backwards compatibility (will refactor calculations next)
   const originCountry = primaryScenario.originCountry;
-  const targetCity = primaryScenario.targetCity;
+  const targetCity = primaryScenario.targetCity || (selectedUniversityData ? selectedUniversityData.city : '');
   const selectedUniversity = primaryScenario.selectedUniversity;
   const insuranceType = primaryScenario.insuranceType;
   const hoursPerWeek = primaryScenario.hoursPerWeek;
@@ -1031,34 +1358,100 @@ export default function StudyCostCalculator() {
         ? getVisaFee(scenario.originCountry, scenario.hasScholarship)
         : { total: 0, breakdown: '0€', note: undefined };
       const visaFee = visaFeeInfo.total;
-      const monthlyRent = scenario.targetCity ? STUDY_DATA.CITIES[scenario.targetCity] : 0;
+      
+      // Get university data
+      const selectedUniversityData = scenario.selectedUniversity && !scenario.isOtherUniversity
+        ? STUDY_DATA.UNIVERSITIES.find(u => u.name === scenario.selectedUniversity)
+        : null;
+      
+      // Determine monthly rent: from override, manual input, or calculated based on housing type
+      let monthlyRent = 0;
+      
+      // Priority 1: Manual override (user-specified rent)
+      if (scenario.rentOverride && scenario.rentOverride > 0) {
+        monthlyRent = scenario.rentOverride;
+      }
+      // Priority 2: Manual rent for "Other" university
+      else if (scenario.isOtherUniversity && scenario.manualRent) {
+        monthlyRent = scenario.manualRent;
+      }
+      // Priority 3: Calculate based on housing type and university/city data
+      else {
+        // Get base rent from university data or city average
+        let baseRent = 0;
+        if (selectedUniversityData) {
+          baseRent = selectedUniversityData.avgRent;
+        } else if (scenario.targetCity) {
+          baseRent = STUDY_DATA.CITIES[scenario.targetCity] || 0;
+        }
+        
+        // Apply housing type multiplier
+        switch (scenario.housingType) {
+          case 'dorm':
+            monthlyRent = baseRent * 0.6; // 60% of average
+            break;
+          case 'wg':
+            monthlyRent = baseRent; // 100% of average
+            break;
+          case 'private':
+            monthlyRent = baseRent * 1.5; // 150% of average
+            break;
+          default:
+            monthlyRent = baseRent;
+        }
+      }
+      
       const monthlyInsurance = scenario.insuranceType === 'public' 
         ? STUDY_DATA.FIXED_COSTS.healthInsurancePublic 
         : STUDY_DATA.FIXED_COSTS.healthInsurancePrivate;
       
-      // Get university data
-      const selectedUniversityData = scenario.selectedUniversity
-        ? STUDY_DATA.UNIVERSITIES.find(u => u.name === scenario.selectedUniversity)
-        : null;
+      // Rundfunkbeitrag (Broadcasting Fee) - mandatory for all households
+      // Quarterly billing: 55.08€ every 3 months, divided by number of people
+      const quarterlyRundfunkbeitrag = STUDY_DATA.RUNDFUNKBEITRAG.quarterly;
+      const peopleSharing = Math.max(1, scenario.rundfunkbeitragPeople); // At least 1 person
+      const monthlyRundfunkbeitrag = (quarterlyRundfunkbeitrag / 3) / peopleSharing; // Monthly equivalent per person
       
       // Semester fee (monthly pro rata - divided by 6 months per semester)
-      const semesterFeeMonthly = selectedUniversityData ? selectedUniversityData.semesterFee / 6 : 0;
+      let semesterFeeMonthly = 0;
+      if (scenario.isOtherUniversity && scenario.manualSemesterFee) {
+        semesterFeeMonthly = scenario.manualSemesterFee / 6;
+      } else if (selectedUniversityData) {
+        semesterFeeMonthly = selectedUniversityData.semesterFee / 6;
+      }
       
       // Check if origin country is non-EU (visa fee > 0 means non-EU)
       const isNonEU = scenario.originCountry ? STUDY_DATA.ORIGIN_COUNTRIES[scenario.originCountry] > 0 : false;
+      
+      // Private university tuition fee (monthly pro rata)
+      let privateTuitionFeeMonthly = 0;
+      if (selectedUniversityData?.type === 'private' && selectedUniversityData.tuitionFee) {
+        privateTuitionFeeMonthly = selectedUniversityData.tuitionFee / 6;
+      } else if (scenario.isOtherUniversity && scenario.manualTuitionFee) {
+        privateTuitionFeeMonthly = scenario.manualTuitionFee / 6;
+      }
       
       // Non-EU Tuition Fee (monthly pro rata - divided by 6 months per semester)
       const nonEUTuitionFeeMonthly = (isNonEU && selectedUniversityData?.nonEUTuitionFee) 
         ? selectedUniversityData.nonEUTuitionFee / 6 
         : 0;
       
+      // Arrival costs (one-time, excluding flights)
+      const securityDeposit = monthlyRent * STUDY_DATA.ARRIVAL_COSTS.securityDepositMultiplier; // 3 months' rent
+      const initialHouseholdSetup = STUDY_DATA.ARRIVAL_COSTS.initialHouseholdSetup; // Fixed 650€
+      const arrivalCostsTotal = securityDeposit + initialHouseholdSetup;
+      
+      // Language course cost (one-time, if needed)
+      const languageCourseCost = scenario.needsLanguageCourse && scenario.languageCourseDuration > 0
+        ? STUDY_DATA.LANGUAGE_COURSE.monthlyCost * scenario.languageCourseDuration
+        : 0;
+      
       // Upfront costs (one-time)
       const blockedAccountTotal = STUDY_DATA.FIXED_COSTS.blockedAccountYearly;
-      const upfrontTotal = visaFee + blockedAccountTotal;
+      const upfrontTotal = visaFee + blockedAccountTotal + languageCourseCost;
 
       // Monthly costs
       const monthlyLivingExpenses = STUDY_DATA.FIXED_COSTS.livingExpenses;
-      const monthlyTotal = monthlyRent + monthlyInsurance + monthlyLivingExpenses + semesterFeeMonthly + nonEUTuitionFeeMonthly;
+      const monthlyTotal = monthlyRent + monthlyInsurance + monthlyRundfunkbeitrag + monthlyLivingExpenses + semesterFeeMonthly + nonEUTuitionFeeMonthly + privateTuitionFeeMonthly;
 
       // Annual costs (12 months)
       const annualTotal = monthlyTotal * 12;
@@ -1091,8 +1484,14 @@ export default function StudyCostCalculator() {
         visaFeeNote: visaFeeInfo.note,
         monthlyRent,
         monthlyInsurance,
+        monthlyRundfunkbeitrag,
         semesterFeeMonthly,
         nonEUTuitionFeeMonthly,
+        privateTuitionFeeMonthly,
+        securityDeposit,
+        initialHouseholdSetup,
+        arrivalCostsTotal,
+        languageCourseCost,
         upfrontTotal,
         monthlyTotal,
         annualTotal,
@@ -1111,9 +1510,10 @@ export default function StudyCostCalculator() {
 
   // Track calculation events when user makes meaningful selections
   useEffect(() => {
-    if (primaryScenario.targetCity && primaryScenario.originCountry) {
+    if ((primaryScenario.selectedUniversity || primaryScenario.isOtherUniversity) && primaryScenario.originCountry) {
       // Track calculation event with scenario details
-      const calculationKey = `${primaryScenario.originCountry}-${primaryScenario.targetCity}-${primaryScenario.selectedUniversity || 'none'}`;
+      const cityName = primaryScenario.targetCity || (primaryScenario.isOtherUniversity ? primaryScenario.manualCity : '');
+      const calculationKey = `${primaryScenario.originCountry}-${cityName}-${primaryScenario.selectedUniversity || 'other'}`;
       const lastTracked = sessionStorage.getItem('lastCalculationTracked');
       
       // Only track if this is a new calculation (not already tracked)
@@ -1122,65 +1522,37 @@ export default function StudyCostCalculator() {
         // Also send GA4 event with custom parameters
         if (typeof window !== 'undefined' && window.gtag) {
           window.gtag('event', 'calculate_costs', {
-            selected_city: primaryScenario.targetCity,
-            selected_university: primaryScenario.selectedUniversity || 'none',
+            selected_city: cityName,
+            selected_university: primaryScenario.selectedUniversity || 'other',
             origin_country: primaryScenario.originCountry,
           });
         }
         sessionStorage.setItem('lastCalculationTracked', calculationKey);
       }
     }
-  }, [primaryScenario.targetCity, primaryScenario.originCountry, primaryScenario.selectedUniversity]);
+  }, [primaryScenario.targetCity, primaryScenario.originCountry, primaryScenario.selectedUniversity, primaryScenario.isOtherUniversity, primaryScenario.manualCity]);
 
-  // Filter universities based on selected city (primary)
-  const availableUniversities = useMemo(() => {
-    if (!primaryScenario.targetCity) return [];
-    return STUDY_DATA.UNIVERSITIES
-      .filter(u => u.city === primaryScenario.targetCity)
-      .map(u => u.name);
+  // Filter universities by selected city (primary)
+  const filteredUniversities = useMemo(() => {
+    if (!primaryScenario.targetCity) {
+      return []; // No universities shown until city is selected
+    }
+    // Case-insensitive city matching to handle any discrepancies
+    const cityName = primaryScenario.targetCity;
+    const filtered = STUDY_DATA.UNIVERSITIES.filter(u => 
+      u.city.toLowerCase() === cityName.toLowerCase() || 
+      u.city === cityName
+    );
+    return filtered;
   }, [primaryScenario.targetCity]);
 
-  // Filter universities for comparison scenario
-  const comparisonAvailableUniversities = useMemo(() => {
-    if (!comparisonScenario.targetCity) return [];
-    return STUDY_DATA.UNIVERSITIES
-      .filter(u => u.city === comparisonScenario.targetCity)
-      .map(u => u.name);
+  // Filter universities by selected city (comparison)
+  const comparisonFilteredUniversities = useMemo(() => {
+    if (!comparisonScenario.targetCity) {
+      return []; // No universities shown until city is selected
+    }
+    return STUDY_DATA.UNIVERSITIES.filter(u => u.city === comparisonScenario.targetCity);
   }, [comparisonScenario.targetCity]);
-
-  // Get selected university data (primary)
-  const selectedUniversityData = useMemo(() => {
-    if (!primaryScenario.selectedUniversity) return null;
-    return STUDY_DATA.UNIVERSITIES.find(u => u.name === primaryScenario.selectedUniversity);
-  }, [primaryScenario.selectedUniversity]);
-
-  // Reset university when city changes (primary)
-  useEffect(() => {
-    if (primaryScenario.targetCity && primaryScenario.selectedUniversity) {
-      const universityInCity = STUDY_DATA.UNIVERSITIES.find(
-        u => u.name === primaryScenario.selectedUniversity && u.city === primaryScenario.targetCity
-      );
-      if (!universityInCity) {
-        setPrimaryScenario(prev => ({ ...prev, selectedUniversity: '' }));
-      }
-    } else if (!primaryScenario.targetCity) {
-      setPrimaryScenario(prev => ({ ...prev, selectedUniversity: '' }));
-    }
-  }, [primaryScenario.targetCity, primaryScenario.selectedUniversity]);
-
-  // Reset university when city changes (comparison)
-  useEffect(() => {
-    if (comparisonScenario.targetCity && comparisonScenario.selectedUniversity) {
-      const universityInCity = STUDY_DATA.UNIVERSITIES.find(
-        u => u.name === comparisonScenario.selectedUniversity && u.city === comparisonScenario.targetCity
-      );
-      if (!universityInCity) {
-        setComparisonScenario(prev => ({ ...prev, selectedUniversity: '' }));
-      }
-    } else if (!comparisonScenario.targetCity) {
-      setComparisonScenario(prev => ({ ...prev, selectedUniversity: '' }));
-    }
-  }, [comparisonScenario.targetCity, comparisonScenario.selectedUniversity]);
 
   // Fetch exchange rates on mount
   useEffect(() => {
@@ -1259,8 +1631,13 @@ export default function StudyCostCalculator() {
     visaFeeNote,
     monthlyRent,
     monthlyInsurance,
+    monthlyRundfunkbeitrag,
     semesterFeeMonthly,
     nonEUTuitionFeeMonthly,
+    securityDeposit,
+    initialHouseholdSetup,
+    arrivalCostsTotal,
+    languageCourseCost,
     upfrontTotal,
     monthlyTotal,
     annualTotal,
@@ -1339,6 +1716,25 @@ export default function StudyCostCalculator() {
         // Add image to PDF
         pdf.addImage(imgData, 'PNG', 0, 0, imgWidth, imgHeight);
         
+        // Add legal disclaimer text at the bottom of the PDF
+        const disclaimerY = imgHeight + 5; // Position below the image
+        pdf.setFontSize(8);
+        pdf.setTextColor(100, 100, 100); // Gray color for disclaimer
+        pdf.setFont('helvetica', 'italic');
+        
+        // Get disclaimer text (use translation hook)
+        const disclaimerText = t('legalDisclaimer');
+        
+        // Split long text into lines that fit the page width
+        const maxWidth = imgWidth - 10; // Leave margins
+        const splitText = pdf.splitTextToSize(disclaimerText, maxWidth);
+        
+        // Add disclaimer text
+        pdf.text(splitText, 5, disclaimerY, {
+          align: 'left',
+          maxWidth: maxWidth,
+        });
+        
         // Generate filename
         const cityA = primaryScenario.targetCity || 'estimate';
         const cityB = comparisonScenario.targetCity || 'estimate';
@@ -1356,7 +1752,7 @@ export default function StudyCostCalculator() {
     } catch (error) {
       console.error('Error generating PDF:', error);
       // Show user-friendly error message
-      alert('Failed to generate PDF. Please try again or check your browser settings.');
+      alert(t('pdfExportError'));
     } finally {
       setIsExportingPDF(false);
     }
@@ -1379,26 +1775,25 @@ export default function StudyCostCalculator() {
           <div className="flex items-start gap-3">
             <Database className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" />
             <div>
-              <h3 className="text-sm font-semibold text-white mb-1">How we calculate</h3>
+              <h3 className="text-sm font-semibold text-white mb-1">{t('howWeCalculate')}</h3>
               <p className="text-xs text-white/70 leading-relaxed">
-                Our data is sourced from official statistics (Statistisches Bundesamt), student unions (Studierendenwerke), 
-                and live currency exchange rates from{' '}
+                {t('howWeCalculateText')}{' '}
                 <a
                   href="https://www.frankfurter.app"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-400 hover:text-blue-300 underline inline-flex items-center gap-1"
                 >
-                  Frankfurter API
+                  {t('frankfurterAPI')}
                   <ExternalLink className="w-3 h-3" />
                 </a>
-                . All costs are estimates based on average student expenses.
+                . {t('howWeCalculateLinkText')}
               </p>
             </div>
           </div>
           <div className="flex-shrink-0">
             <span className="inline-flex items-center px-3 py-1.5 bg-blue-950/30 border border-blue-500/30 text-blue-300 text-xs font-medium rounded-full">
-              Last Updated: December 2024
+              {t('lastUpdated')}
             </span>
           </div>
         </div>
@@ -1426,7 +1821,7 @@ export default function StudyCostCalculator() {
           }`}
         >
           <GitCompare className="w-4 h-4" />
-          <span>{isComparisonMode ? 'Exit Comparison' : 'Compare with another city'}</span>
+          <span>{isComparisonMode ? t('exitComparison') : t('compareWithAnotherCity')}</span>
         </button>
       </div>
 
@@ -1435,9 +1830,9 @@ export default function StudyCostCalculator() {
         <div className="mb-6 backdrop-blur-sm bg-gradient-to-r from-purple-600/20 to-blue-600/20 border border-white/20 rounded-xl p-4 sm:p-6">
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div className="flex-1">
-              <h3 className="text-lg font-bold text-white mb-2">Comparison Summary</h3>
+              <h3 className="text-lg font-bold text-white mb-2">{t('comparisonSummary')}</h3>
               <p className="text-white/80 text-sm">
-                <span className="font-semibold">{comparisonScenario.targetCity}</span> vs <span className="font-semibold">{primaryScenario.targetCity}</span>
+                <span className="font-semibold">{getLocalizedCityName(comparisonScenario.targetCity, locale)}</span> vs <span className="font-semibold">{getLocalizedCityName(primaryScenario.targetCity, locale)}</span>
               </p>
             </div>
             <div className={`text-right ${monthlyDifference >= 0 ? 'text-green-400' : 'text-red-400'}`}>
@@ -1445,12 +1840,12 @@ export default function StudyCostCalculator() {
                 {monthlyDifference >= 0 ? '+' : ''}{formatCurrency(Math.abs(monthlyDifference) * conversionRate, selectedCurrency)}
               </div>
               <div className="text-sm text-white/70">
-                {monthlyDifference >= 0 ? 'more expensive' : 'less expensive'} per month
+                {monthlyDifference >= 0 ? t('moreExpensive') : t('lessExpensive')} {t('perMonth')}
               </div>
             </div>
             <button
               onClick={handleExportPDF}
-              disabled={!primaryScenario.targetCity || !comparisonScenario.targetCity || isExportingPDF}
+              disabled={(!primaryScenario.selectedUniversity && !primaryScenario.isOtherUniversity) || (!comparisonScenario.selectedUniversity && !comparisonScenario.isOtherUniversity) || isExportingPDF}
               className="flex items-center gap-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 disabled:bg-slate-700 disabled:cursor-not-allowed disabled:opacity-50 text-white text-sm font-medium rounded-lg transition-colors whitespace-nowrap"
               aria-label="Export comparison as PDF"
               title="Export comparison as PDF"
@@ -1482,9 +1877,9 @@ export default function StudyCostCalculator() {
             options={COUNTRY_OPTIONS}
             value={primaryScenario.originCountry}
             onChange={(value) => setPrimaryScenario(prev => ({ ...prev, originCountry: value }))}
-            placeholder="Search for your country..."
+            placeholder={t('originCountryPlaceholder')}
             icon={<Plane className="w-4 h-4" />}
-            label="Where are you coming from?"
+            label={t('originCountryLabel')}
             cardZIndex={100}
           />
 
@@ -1500,53 +1895,319 @@ export default function StudyCostCalculator() {
                 />
                 <span className="text-white/80 text-sm flex items-center gap-2">
                   <Lock className="w-4 h-4" />
-                  I have a public scholarship/stipend (Erasmus, DAAD, etc.) - Visa fee exempt
+                  {t('scholarshipCheckbox')}
                 </span>
               </label>
             </div>
           )}
 
-          {/* Target City Combobox */}
+          {/* City Selection - Must be selected first */}
           <SearchableCombobox
             options={CITY_OPTIONS}
             value={primaryScenario.targetCity}
-            onChange={(value) => setPrimaryScenario(prev => ({ ...prev, targetCity: value }))}
-            placeholder="Search for a German university city..."
+            onChange={(value) => {
+              setPrimaryScenario(prev => ({
+                ...prev,
+                targetCity: value as City,
+                selectedUniversity: '', // Clear university when city changes
+                isOtherUniversity: false,
+                manualRent: undefined,
+                manualSemesterFee: undefined,
+                manualTuitionFee: undefined,
+              }));
+            }}
+            placeholder={t('targetCityPlaceholder')}
             icon={<MapPin className="w-4 h-4" />}
-            label="Where do you want to study?"
+            label={t('targetCityLabel')}
+            cardZIndex={95}
+          />
+
+          {/* University Search - Only shown after city is selected */}
+          <UniversitySearchComponent
+            universities={filteredUniversities}
+            value={primaryScenario.selectedUniversity}
+            isOther={primaryScenario.isOtherUniversity}
+            disabled={!primaryScenario.targetCity}
+            onSelect={(universityName) => {
+              if (universityName === 'OTHER_NOT_LISTED') {
+                setPrimaryScenario(prev => ({
+                  ...prev,
+                  selectedUniversity: '',
+                  isOtherUniversity: true,
+                }));
+              } else {
+                const university = STUDY_DATA.UNIVERSITIES.find(u => u.name === universityName);
+                if (university) {
+                  setPrimaryScenario(prev => ({
+                    ...prev,
+                    selectedUniversity: universityName,
+                    isOtherUniversity: false,
+                    manualRent: undefined,
+                    manualSemesterFee: undefined,
+                    manualTuitionFee: undefined,
+                  }));
+                }
+              }
+            }}
             cardZIndex={90}
           />
 
-          {/* Accommodation Warning for High-Demand Cities */}
-          {primaryScenario.targetCity && highDemandCities.includes(primaryScenario.targetCity) && (
-            <div className="backdrop-blur-sm bg-yellow-950/30 border border-yellow-500/30 rounded-xl p-4">
-              <div className="flex items-start gap-3">
-                <AlertTriangle className="w-5 h-5 text-yellow-400 flex-shrink-0 mt-0.5" />
-                <div>
-                  <h4 className="text-sm font-semibold text-yellow-200 mb-1">Housing Warning</h4>
-                  <p className="text-xs text-yellow-200/90 leading-relaxed">
-                    Note: Housing in {primaryScenario.targetCity} is extremely scarce. We recommend starting your search 4-6 months before arrival.
-                  </p>
-                </div>
+          {/* Manual Inputs for "Other / Not Listed" */}
+          {primaryScenario.isOtherUniversity && (
+            <div className="backdrop-blur-sm bg-slate-950/80 border border-white/10 rounded-xl p-4 space-y-4">
+              <h3 className="text-sm font-semibold text-white/80 mb-3">{t('otherNotListed')}</h3>
+              <div>
+                <label className="block text-xs text-white/60 mb-2">{t('manualCityInput')}</label>
+                <input
+                  type="text"
+                  value={primaryScenario.manualCity || ''}
+                  onChange={(e) => {
+                    const cityValue = e.target.value as City;
+                    setPrimaryScenario(prev => ({
+                      ...prev,
+                      manualCity: e.target.value,
+                      targetCity: cityValue,
+                    }));
+                  }}
+                  className="w-full bg-black/40 border border-white/10 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  placeholder={t('enterCityName')}
+                />
+              </div>
+              <div>
+                <label className="block text-xs text-white/60 mb-2">{t('manualRentInput')}</label>
+                <input
+                  type="number"
+                  value={primaryScenario.manualRent || ''}
+                  onChange={(e) => setPrimaryScenario(prev => ({ ...prev, manualRent: parseFloat(e.target.value) || undefined }))}
+                  className="w-full bg-black/40 border border-white/10 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  placeholder="e.g., 600"
+                />
+              </div>
+              <div>
+                <label className="block text-xs text-white/60 mb-2">{t('manualSemesterFeeInput')}</label>
+                <input
+                  type="number"
+                  value={primaryScenario.manualSemesterFee || ''}
+                  onChange={(e) => setPrimaryScenario(prev => ({ ...prev, manualSemesterFee: parseFloat(e.target.value) || undefined }))}
+                  className="w-full bg-black/40 border border-white/10 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  placeholder="e.g., 350"
+                />
               </div>
             </div>
           )}
 
-          {/* University Combobox */}
-          {primaryScenario.targetCity && (
-            <SearchableCombobox<string>
-              options={availableUniversities}
-              value={primaryScenario.selectedUniversity}
-              onChange={(value) => setPrimaryScenario(prev => ({ ...prev, selectedUniversity: value }))}
-              placeholder="Search for a university..."
-              icon={<GraduationCap className="w-4 h-4" />}
-              label="Which university do you want to attend?"
-              cardZIndex={80}
-            />
+          {/* Auto-populated Info & Accommodation Warning */}
+          {primaryScenario.selectedUniversity && !primaryScenario.isOtherUniversity && selectedUniversityData && (
+            <>
+              <div className="backdrop-blur-sm bg-blue-950/30 border border-blue-500/30 rounded-xl p-4">
+                <div className="flex items-start gap-3">
+                  <Info className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" />
+                  <div>
+                    <p className="text-xs text-blue-200/90 leading-relaxed">
+                      {t('universityAutoPopulated')}
+                    </p>
+                  </div>
+                </div>
+              </div>
+              {highDemandCities.includes(selectedUniversityData.city) && (
+                <div className="backdrop-blur-sm bg-yellow-950/30 border border-yellow-500/30 rounded-xl p-4">
+                  <div className="flex items-start gap-3">
+                    <AlertTriangle className="w-5 h-5 text-yellow-400 flex-shrink-0 mt-0.5" />
+                    <div>
+                      <h4 className="text-sm font-semibold text-yellow-200 mb-1">{t('housingWarning')}</h4>
+                      <p className="text-xs text-yellow-200/90 leading-relaxed">
+                        {t('housingWarningText', { city: getLocalizedCityName(selectedUniversityData.city, locale) })}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              )}
+              {selectedUniversityData.type === 'private' && (
+                <div className="backdrop-blur-sm bg-purple-950/30 border border-purple-500/30 rounded-xl p-4">
+                  <div className="flex items-start gap-3">
+                    <Info className="w-5 h-5 text-purple-400 flex-shrink-0 mt-0.5" />
+                    <div>
+                      <p className="text-xs text-purple-200/90 leading-relaxed mb-3">
+                        {t('privateUniversityNote')}
+                      </p>
+                      <input
+                        type="number"
+                        value={primaryScenario.manualTuitionFee || selectedUniversityData.tuitionFee || ''}
+                        onChange={(e) => setPrimaryScenario(prev => ({ ...prev, manualTuitionFee: parseFloat(e.target.value) || undefined }))}
+                        className="w-full bg-black/40 border border-white/10 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:ring-2 focus:ring-purple-500"
+                        placeholder={`e.g., ${selectedUniversityData.tuitionFee || 10000}`}
+                      />
+                    </div>
+                  </div>
+                </div>
+              )}
+            </>
+          )}
+
+          {/* University Data Disclaimer */}
+          {(primaryScenario.selectedUniversity || primaryScenario.isOtherUniversity) && (
+            <div className="backdrop-blur-sm bg-slate-950/50 border border-white/5 rounded-xl p-3">
+              <p className="text-xs text-slate-400 italic leading-relaxed">
+                {t('universityDisclaimer')}
+              </p>
+            </div>
+          )}
+
+          {/* Housing Type Selection */}
+          {(primaryScenario.selectedUniversity || primaryScenario.isOtherUniversity) && (
+            <div className="backdrop-blur-sm bg-slate-950/80 border border-white/10 rounded-xl p-4 hover:bg-slate-950/90 transition-all duration-200 relative z-[10]">
+              <label className="block text-sm font-medium text-white/80 mb-3 flex items-center gap-2">
+                <Home className="w-4 h-4" />
+                {t('housingType')}
+              </label>
+              
+              <div className="space-y-3">
+                {/* Dorm Option */}
+                <label className="flex items-start gap-3 cursor-pointer group">
+                  <input
+                    type="radio"
+                    name="housingType"
+                    value="dorm"
+                    checked={primaryScenario.housingType === 'dorm'}
+                    onChange={(e) => setPrimaryScenario(prev => ({ ...prev, housingType: e.target.value as HousingType, rentOverride: undefined }))}
+                    className="w-4 h-4 mt-0.5 text-blue-600 bg-black/40 border-white/20 focus:ring-blue-500 focus:ring-2"
+                  />
+                  <div className="flex-1">
+                    <div className="flex items-center gap-2">
+                      <span className="text-white/80 text-sm">{t('housingTypeDorm')}</span>
+                      <div className="relative group/info">
+                        <Info 
+                          className="w-3.5 h-3.5 text-blue-400 cursor-pointer"
+                          onClick={() => setShowHousingDormInfo(!showHousingDormInfo)}
+                        />
+                        {showHousingDormInfo && (
+                          <div className="absolute left-0 bottom-full mb-2 w-64 p-3 bg-slate-900/95 border border-white/20 rounded-lg shadow-xl z-50 backdrop-blur-md">
+                            <p className="text-white/80 text-xs leading-relaxed">
+                              {t('housingTypeDormInfo')}
+                            </p>
+                            <button
+                              type="button"
+                              onClick={() => setShowHousingDormInfo(false)}
+                              className="mt-2 text-xs text-blue-400 hover:text-blue-300 underline"
+                            >
+                              {t('close')}
+                            </button>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                    {primaryScenario.housingType === 'dorm' && (
+                      <p className="text-white/50 text-xs mt-1">
+                        Estimated: {formatCurrency((selectedUniversityData?.avgRent || STUDY_DATA.CITIES[primaryScenario.targetCity] || 600) * 0.6)}/month
+                      </p>
+                    )}
+                  </div>
+                </label>
+
+                {/* WG Option */}
+                <label className="flex items-start gap-3 cursor-pointer group">
+                  <input
+                    type="radio"
+                    name="housingType"
+                    value="wg"
+                    checked={primaryScenario.housingType === 'wg'}
+                    onChange={(e) => setPrimaryScenario(prev => ({ ...prev, housingType: e.target.value as HousingType, rentOverride: undefined }))}
+                    className="w-4 h-4 mt-0.5 text-blue-600 bg-black/40 border-white/20 focus:ring-blue-500 focus:ring-2"
+                  />
+                  <div className="flex-1">
+                    <div className="flex items-center gap-2">
+                      <span className="text-white/80 text-sm">{t('housingTypeWG')}</span>
+                      <div className="relative group/info">
+                        <Info 
+                          className="w-3.5 h-3.5 text-blue-400 cursor-pointer"
+                          onClick={() => setShowHousingWGInfo(!showHousingWGInfo)}
+                        />
+                        {showHousingWGInfo && (
+                          <div className="absolute left-0 bottom-full mb-2 w-64 p-3 bg-slate-900/95 border border-white/20 rounded-lg shadow-xl z-50 backdrop-blur-md">
+                            <p className="text-white/80 text-xs leading-relaxed">
+                              {t('housingTypeWGInfo')}
+                            </p>
+                            <button
+                              type="button"
+                              onClick={() => setShowHousingWGInfo(false)}
+                              className="mt-2 text-xs text-blue-400 hover:text-blue-300 underline"
+                            >
+                              {t('close')}
+                            </button>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                    {primaryScenario.housingType === 'wg' && (
+                      <p className="text-white/50 text-xs mt-1">
+                        Estimated: {formatCurrency(selectedUniversityData?.avgRent || STUDY_DATA.CITIES[primaryScenario.targetCity] || 600)}/month
+                      </p>
+                    )}
+                  </div>
+                </label>
+
+                {/* Private Option */}
+                <label className="flex items-start gap-3 cursor-pointer group">
+                  <input
+                    type="radio"
+                    name="housingType"
+                    value="private"
+                    checked={primaryScenario.housingType === 'private'}
+                    onChange={(e) => setPrimaryScenario(prev => ({ ...prev, housingType: e.target.value as HousingType, rentOverride: undefined }))}
+                    className="w-4 h-4 mt-0.5 text-blue-600 bg-black/40 border-white/20 focus:ring-blue-500 focus:ring-2"
+                  />
+                  <div className="flex-1">
+                    <div className="flex items-center gap-2">
+                      <span className="text-white/80 text-sm">{t('housingTypePrivate')}</span>
+                      <div className="relative group/info">
+                        <Info 
+                          className="w-3.5 h-3.5 text-blue-400 cursor-pointer"
+                          onClick={() => setShowHousingPrivateInfo(!showHousingPrivateInfo)}
+                        />
+                        {showHousingPrivateInfo && (
+                          <div className="absolute left-0 bottom-full mb-2 w-64 p-3 bg-slate-900/95 border border-white/20 rounded-lg shadow-xl z-50 backdrop-blur-md">
+                            <p className="text-white/80 text-xs leading-relaxed">
+                              {t('housingTypePrivateInfo')}
+                            </p>
+                            <button
+                              type="button"
+                              onClick={() => setShowHousingPrivateInfo(false)}
+                              className="mt-2 text-xs text-blue-400 hover:text-blue-300 underline"
+                            >
+                              {t('close')}
+                            </button>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                    {primaryScenario.housingType === 'private' && (
+                      <p className="text-white/50 text-xs mt-1">
+                        Estimated: {formatCurrency((selectedUniversityData?.avgRent || STUDY_DATA.CITIES[primaryScenario.targetCity] || 600) * 1.5)}/month
+                      </p>
+                    )}
+                  </div>
+                </label>
+              </div>
+
+              {/* Rent Override Input */}
+              <div className="mt-4 pt-4 border-t border-white/10">
+                <label className="block text-xs text-white/60 mb-2">{t('housingRentOverride')}</label>
+                <input
+                  type="number"
+                  value={primaryScenario.rentOverride || ''}
+                  onChange={(e) => setPrimaryScenario(prev => ({ ...prev, rentOverride: parseFloat(e.target.value) || undefined }))}
+                  className="w-full bg-black/40 border border-white/10 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  placeholder="Leave empty to use calculated estimate"
+                />
+                <p className="text-white/40 text-xs mt-1.5">
+                  {t('housingRentOverrideNote')}
+                </p>
+              </div>
+            </div>
           )}
 
           {/* Planned Semester Start Date Input */}
-          {primaryScenario.targetCity && (
+          {(primaryScenario.selectedUniversity || primaryScenario.isOtherUniversity) && (
             <div className="backdrop-blur-sm bg-slate-950/80 border border-white/10 rounded-xl p-4 hover:bg-slate-950/90 transition-all duration-200 relative z-[10]">
               <label className="block text-sm font-medium text-white/80 mb-3 flex items-center gap-2">
                 <Calendar className="w-4 h-4" />
@@ -1563,6 +2224,120 @@ export default function StudyCostCalculator() {
               </p>
             </div>
           )}
+
+          {/* Rundfunkbeitrag (Broadcasting Fee) */}
+          <div className="backdrop-blur-sm bg-slate-950/80 border border-white/10 rounded-xl p-4 hover:bg-slate-950/90 transition-all duration-200 relative z-[10]">
+            <div className="flex items-start justify-between mb-3">
+              <label className="block text-sm font-medium text-white/80 flex items-center gap-2">
+                <Radio className="w-4 h-4" />
+                {t('rundfunkbeitrag')}
+              </label>
+              <div className="relative">
+                <Info 
+                  className="w-4 h-4 text-blue-400 cursor-pointer"
+                  onClick={() => setShowRundfunkbeitragInfo(!showRundfunkbeitragInfo)}
+                />
+                {showRundfunkbeitragInfo && (
+                  <div className="absolute right-0 bottom-full mb-2 w-72 p-3 bg-slate-900/95 border border-white/20 rounded-lg shadow-xl z-50 backdrop-blur-md">
+                    <p className="text-white/80 text-xs leading-relaxed">
+                      {t('rundfunkbeitragInfo')}
+                    </p>
+                    <button
+                      type="button"
+                      onClick={() => setShowRundfunkbeitragInfo(false)}
+                      className="mt-2 text-xs text-blue-400 hover:text-blue-300 underline"
+                    >
+                      Close
+                    </button>
+                  </div>
+                )}
+              </div>
+            </div>
+            
+            <div className="space-y-3">
+              <div className="flex items-center justify-between">
+                <span className="text-white/70 text-sm">
+                  {formatCurrency(monthlyRundfunkbeitrag * conversionRate, selectedCurrency)}/month
+                </span>
+                <span className="text-white/50 text-xs">
+                  {t('rundfunkbeitragMonthly')}
+                </span>
+              </div>
+              <div className="text-white/50 text-xs mb-2">
+                {t('rundfunkbeitragQuarterly')}
+              </div>
+              
+              <div>
+                <label className="block text-xs text-white/60 mb-2">
+                  {t('rundfunkbeitragPeople')}
+                </label>
+                <input
+                  type="number"
+                  min="1"
+                  value={primaryScenario.rundfunkbeitragPeople}
+                  onChange={(e) => {
+                    const value = Math.max(1, parseInt(e.target.value) || 1);
+                    setPrimaryScenario(prev => ({ ...prev, rundfunkbeitragPeople: value }));
+                  }}
+                  className="w-full bg-black/40 border border-white/10 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                />
+              </div>
+            </div>
+          </div>
+
+          {/* Language Course Option */}
+          <div className="backdrop-blur-sm bg-slate-950/80 border border-white/10 rounded-xl p-4 hover:bg-slate-950/90 transition-all duration-200 relative z-[10]">
+            <div className="flex items-start justify-between mb-3">
+              <label className="block text-sm font-medium text-white/80 flex items-center gap-2">
+                <Book className="w-4 h-4" />
+                {t('languageCourse')}
+              </label>
+            </div>
+            
+            <div className="space-y-3">
+              <label className="flex items-center gap-3 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={primaryScenario.needsLanguageCourse}
+                  onChange={(e) => setPrimaryScenario(prev => ({ 
+                    ...prev, 
+                    needsLanguageCourse: e.target.checked,
+                    languageCourseDuration: e.target.checked ? 6 : 0 // Default to 6 months if enabled
+                  }))}
+                  className="w-4 h-4 text-blue-600 bg-black/40 border-white/20 rounded focus:ring-blue-500 focus:ring-2"
+                />
+                <span className="text-white/80 text-sm">
+                  {t('languageCourseQuestion')}
+                </span>
+              </label>
+              
+              {primaryScenario.needsLanguageCourse && (
+                <div>
+                  <label className="block text-xs text-white/60 mb-2">
+                    {t('courseDuration')}
+                  </label>
+                  <select
+                    value={primaryScenario.languageCourseDuration}
+                    onChange={(e) => setPrimaryScenario(prev => ({ 
+                      ...prev, 
+                      languageCourseDuration: parseInt(e.target.value) as 3 | 6 | 12 | 0
+                    }))}
+                    className="w-full bg-black/40 border border-white/10 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                  >
+                    <option value={0}>{t('courseDuration')}</option>
+                    <option value={3}>{t('courseDuration3')}</option>
+                    <option value={6}>{t('courseDuration6')}</option>
+                    <option value={12}>{t('courseDuration12')}</option>
+                  </select>
+                  {primaryScenario.languageCourseDuration > 0 && (
+                    <p className="text-white/50 text-xs mt-2">
+                      {t('languageCourseCostNote')}
+                    </p>
+                  )}
+                </div>
+              )}
+            </div>
+          </div>
 
           {/* Health Insurance Type Radio */}
           <div className="backdrop-blur-sm bg-slate-950/80 border border-white/10 rounded-xl p-4 hover:bg-slate-950/90 transition-all duration-200 relative z-[10]">
@@ -1636,20 +2411,20 @@ export default function StudyCostCalculator() {
               </h2>
               <button
                 onClick={handleExportPDF}
-                disabled={!primaryScenario.targetCity || isExportingPDF}
+                disabled={!primaryScenario.selectedUniversity && !primaryScenario.isOtherUniversity || isExportingPDF}
                 className="flex items-center gap-2 px-3 py-2 bg-blue-600 hover:bg-blue-700 disabled:bg-slate-700 disabled:cursor-not-allowed disabled:opacity-50 text-white text-sm font-medium rounded-lg transition-colors"
-                aria-label="Export as PDF"
-                title={primaryScenario.targetCity ? 'Export cost breakdown as PDF' : 'Please select a city to export'}
+                aria-label={t('exportAsPDF')}
+                title={(primaryScenario.selectedUniversity || primaryScenario.isOtherUniversity) ? t('exportAsPDF') : t('selectUniversityFirst')}
               >
                 {isExportingPDF ? (
                   <>
                     <Loader2 className="w-4 h-4 animate-spin" />
-                    <span className="hidden sm:inline">Generating...</span>
+                    <span className="hidden sm:inline">{t('generating')}</span>
                   </>
                 ) : (
                   <>
                     <Download className="w-4 h-4" />
-                    <span className="hidden sm:inline">Export PDF</span>
+                    <span className="hidden sm:inline">{t('exportPDF')}</span>
                   </>
                 )}
               </button>
@@ -1657,31 +2432,31 @@ export default function StudyCostCalculator() {
 
             {/* Currency Selector */}
             <div className="mb-6">
-              <label className="block text-xs text-white/60 mb-2">Display Currency</label>
+              <label className="block text-xs text-white/60 mb-2">{t('displayCurrency')}</label>
               <CurrencySelector value={selectedCurrency} onChange={setSelectedCurrency} />
               {isLoadingRates && (
                 <div className="mt-2 flex items-center gap-2 text-white/50 text-xs">
                   <Loader2 className="w-3 h-3 animate-spin" />
-                  <span>Loading exchange rates...</span>
+                  <span>{t('loadingExchangeRates')}</span>
                 </div>
               )}
               {!isLoadingRates && !apiError && exchangeRates && (
                 <p className="mt-2 text-white/40 text-xs">
-                  Live rates provided by{' '}
+                  {t('liveRatesProvidedBy')}{' '}
                   <a
                     href="https://www.frankfurter.app"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-400 hover:text-blue-300 underline inline-flex items-center gap-1"
                   >
-                    Frankfurter API
+                    {t('frankfurterAPI')}
                     <ExternalLink className="w-3 h-3" />
                   </a>
                 </p>
               )}
               {apiError && (
                 <p className="mt-2 text-yellow-400/70 text-xs">
-                  Using default rates. API unavailable.
+                  {t('usingDefaultRates')}
                 </p>
               )}
             </div>
@@ -1689,13 +2464,13 @@ export default function StudyCostCalculator() {
             {/* Upfront Costs Section */}
             <div className="mb-6">
               <h3 className="text-sm font-semibold text-white/80 uppercase tracking-wide mb-3">
-                Upfront Costs (One-Time)
+                {t('upfrontCostsOneTime')}
               </h3>
               <div className="space-y-3">
                 <div className="flex justify-between items-center group relative">
                   <span className="text-white/70 text-sm flex items-center gap-1">
                     <Plane className="w-3 h-3" />
-                    Visa Fee
+                    {t('visaFee')}
                     {primaryScenario.originCountry && visaFeeBreakdown && (
                       <div className="relative">
                         <Info 
@@ -1729,16 +2504,16 @@ export default function StudyCostCalculator() {
                               }
                             }}
                           >
-                            <p className="text-white text-xs mb-1 font-semibold">Breakdown:</p>
+                            <p className="text-white text-xs mb-1 font-semibold">{t('breakdown')}</p>
                             <p className="text-white/80 text-xs mb-2">{visaFeeBreakdown}</p>
                             {visaFeeNote === 'service_fee' && (
                               <p className="text-blue-300/80 text-xs italic">
-                                Includes estimated service provider fees (VFS/Visametric).
+                                {t('visaNoteService')}
                               </p>
                             )}
                             {visaFeeNote === 'residence_permit' && (
                               <p className="text-blue-300/80 text-xs italic">
-                                Citizens of your country can enter visa-free but pay for the residence permit in Germany (~110€).
+                                {t('visaNoteFree')}
                               </p>
                             )}
                             <button
@@ -1749,7 +2524,7 @@ export default function StudyCostCalculator() {
                                 setOpenVisaInfo(false);
                               }}
                             >
-                              Close
+                              {t('close')}
                             </button>
                           </div>
                         )}
@@ -1763,15 +2538,26 @@ export default function StudyCostCalculator() {
                 <div className="flex justify-between items-center">
                   <span className="text-white/70 text-sm flex items-center gap-1">
                     <Building className="w-3 h-3" />
-                    Blocked Account (1 year)
+                    {t('blockedAccount')}
                   </span>
                   <span className="text-white font-semibold">
                     {formatCurrency(blockedAccountTotal * conversionRate, selectedCurrency)}
                   </span>
                 </div>
+                {primaryScenario.needsLanguageCourse && primaryScenario.languageCourseDuration > 0 && (
+                  <div className="flex justify-between items-center">
+                    <span className="text-white/70 text-sm flex items-center gap-1">
+                      <Book className="w-3 h-3" />
+                      {t('languageCourseCost')}
+                    </span>
+                    <span className="text-white font-semibold">
+                      {formatCurrency(languageCourseCost * conversionRate, selectedCurrency)}
+                    </span>
+                  </div>
+                )}
                 <div className="border-t border-white/20 pt-3 mt-3">
                   <div className="flex justify-between items-center">
-                    <span className="text-white font-bold">Upfront Total</span>
+                    <span className="text-white font-bold">{t('upfrontTotal')}</span>
                     <span className="text-white font-bold text-lg">
                       {primaryScenario.originCountry ? formatCurrency(convertedUpfrontTotal, selectedCurrency) : '—'}
                     </span>
@@ -1780,27 +2566,110 @@ export default function StudyCostCalculator() {
               </div>
             </div>
 
+            {/* One-time Arrival Costs Section */}
+            {(primaryScenario.selectedUniversity || primaryScenario.isOtherUniversity) && monthlyRent > 0 && (
+              <div className="mb-6 backdrop-blur-sm bg-slate-950/80 border border-white/10 rounded-xl p-4 sm:p-6">
+                <h3 className="text-lg font-bold text-white mb-4 flex items-center gap-2">
+                  <Home className="w-5 h-5" />
+                  {t('arrivalCostsTitle')}
+                </h3>
+                <div className="space-y-3">
+                  <div className="flex justify-between items-center">
+                    <div className="flex-1">
+                      <span className="text-white/70 text-sm flex items-center gap-1">
+                        <Lock className="w-3 h-3" />
+                        {t('securityDeposit')}
+                      </span>
+                      <p className="text-white/50 text-xs mt-0.5">
+                        {t('securityDepositNote')}
+                      </p>
+                    </div>
+                    <span className="text-white font-semibold ml-4">
+                      {formatCurrency(securityDeposit * conversionRate, selectedCurrency)}
+                    </span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <div className="flex-1">
+                      <span className="text-white/70 text-sm flex items-center gap-1">
+                        <Building className="w-3 h-3" />
+                        {t('initialHouseholdSetup')}
+                        <span className="text-white/50 text-xs ml-1">({t('estimatedAverage')})</span>
+                      </span>
+                      <p className="text-white/50 text-xs mt-0.5">
+                        {t('initialHouseholdSetupAmount')}
+                      </p>
+                    </div>
+                    <span className="text-white font-semibold ml-4">
+                      {formatCurrency(initialHouseholdSetup * conversionRate, selectedCurrency)}
+                    </span>
+                  </div>
+                  <div className="border-t border-white/20 pt-3 mt-3">
+                    <div className="flex justify-between items-center">
+                      <span className="text-white font-bold">Arrival Costs Total</span>
+                      <span className="text-white font-bold text-lg">
+                        {formatCurrency(arrivalCostsTotal * conversionRate, selectedCurrency)}
+                      </span>
+                    </div>
+                    <p className="text-white/50 text-xs mt-1.5">
+                      {t('arrivalCostsNote')}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {/* Language Course Affiliate CTA */}
+            {primaryScenario.needsLanguageCourse && primaryScenario.languageCourseDuration > 0 && (
+              <div className="mb-6 backdrop-blur-sm bg-gradient-to-br from-blue-600/20 to-purple-600/20 border border-blue-500/30 rounded-xl p-4 sm:p-6">
+                <div className="flex items-start gap-3">
+                  <Book className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" />
+                  <div className="flex-1">
+                    <h3 className="text-lg font-bold text-white mb-2">
+                      {t('findLanguageCourses')}
+                    </h3>
+                    <p className="text-white/70 text-sm mb-4">
+                      Compare certified language schools, intensive courses, and find the best option for your German language preparation.
+                    </p>
+                    <a
+                      href="#"
+                      onClick={(e) => {
+                        e.preventDefault();
+                        // Placeholder for future affiliate link
+                        if (typeof window !== 'undefined') {
+                          window.alert(t('affiliatePlaceholder'));
+                        }
+                      }}
+                      className="inline-flex items-center gap-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium rounded-lg transition-colors"
+                    >
+                      <Search className="w-4 h-4" />
+                      {t('searchCourses')}
+                    </a>
+                  </div>
+                </div>
+              </div>
+            )}
+
             {/* Blocked Account Info Section - Only show if Non-EU (requires visa) */}
             {primaryScenario.originCountry && visaFee > 0 && (
               <div className="mb-6 backdrop-blur-sm bg-slate-950/80 border border-white/10 rounded-xl p-4 sm:p-6">
                 <div className="flex items-center gap-2 mb-4">
                   <Lock className="w-5 h-5 text-blue-400" />
-                  <h3 className="text-lg font-bold text-white">Blocked Account (Sperrkonto)</h3>
+                  <h3 className="text-lg font-bold text-white">{t('blockedAccountTitle')}</h3>
                 </div>
                 
                 <div className="mb-4 space-y-2">
                   <p className="text-white/80 text-sm">
-                    As a non-EU student, you are required to open a Blocked Account (Sperrkonto) to prove you have sufficient funds for your studies in Germany.
+                    {t('blockedAccountDescription')}
                   </p>
                   <div className="bg-blue-950/30 border border-blue-500/20 rounded-lg p-3">
                     <div className="flex justify-between items-center mb-2">
-                      <span className="text-white/80 text-sm">Required Amount (per month)</span>
+                      <span className="text-white/80 text-sm">{t('requiredAmountPerMonth')}</span>
                       <span className="text-white font-bold">
                         {formatCurrency(STUDY_DATA.FIXED_COSTS.blockedAccountMonthly * conversionRate, selectedCurrency)}
                       </span>
                     </div>
                     <div className="flex justify-between items-center">
-                      <span className="text-white/80 text-sm">Required Amount (per year)</span>
+                      <span className="text-white/80 text-sm">{t('requiredAmountPerYear')}</span>
                       <span className="text-white font-bold">
                         {formatCurrency(STUDY_DATA.FIXED_COSTS.blockedAccountYearly * conversionRate, selectedCurrency)}
                       </span>
@@ -1810,7 +2679,7 @@ export default function StudyCostCalculator() {
 
                 {/* Provider Comparison Table */}
                 <div className="mb-4">
-                  <h4 className="text-sm font-semibold text-white/90 mb-3">Compare Providers</h4>
+                  <h4 className="text-sm font-semibold text-white/90 mb-3">{t('compareProviders')}</h4>
                   <div className="overflow-x-auto">
                     <table className="w-full text-sm">
                       <thead>
@@ -1845,7 +2714,7 @@ export default function StudyCostCalculator() {
                   href={`/${locale}/blog/blocked-account-guide`}
                   className="inline-flex items-center gap-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium rounded-lg transition-colors w-full justify-center"
                 >
-                  <span>Learn how to open a Blocked Account</span>
+                  <span>{t('learnHowToOpenBlockedAccount')}</span>
                   <ArrowRight className="w-4 h-4" />
                 </a>
               </div>
@@ -1854,7 +2723,7 @@ export default function StudyCostCalculator() {
             {/* Monthly Costs Section */}
             <div className="border-t border-white/20 pt-6">
               <h3 className="text-sm font-semibold text-white/80 uppercase tracking-wide mb-3">
-                Monthly Costs
+                {t('monthlyCosts')}
               </h3>
               <div className="space-y-3">
                 <div className="flex justify-between items-center">
@@ -1863,7 +2732,7 @@ export default function StudyCostCalculator() {
                     Average Rent
                   </span>
                   <span className="text-white font-semibold">
-                    {targetCity ? formatCurrency(monthlyRent * conversionRate, selectedCurrency) : '—'}
+                    {(primaryScenario.selectedUniversity || primaryScenario.isOtherUniversity) ? formatCurrency(monthlyRent * conversionRate, selectedCurrency) : '—'}
                   </span>
                 </div>
                 <div className="flex justify-between items-center">
@@ -1875,14 +2744,37 @@ export default function StudyCostCalculator() {
                     {formatCurrency(monthlyInsurance * conversionRate, selectedCurrency)}
                   </span>
                 </div>
+                <div className="flex justify-between items-center">
+                  <span className="text-white/70 text-sm flex items-center gap-1">
+                    <Radio className="w-3 h-3" />
+                    {t('rundfunkbeitrag')}
+                    {primaryScenario.rundfunkbeitragPeople > 1 && (
+                      <span className="text-white/50 text-xs ml-1">({primaryScenario.rundfunkbeitragPeople} {t('people')})</span>
+                    )}
+                  </span>
+                  <span className="text-white font-semibold">
+                    {formatCurrency(monthlyRundfunkbeitrag * conversionRate, selectedCurrency)}
+                  </span>
+                </div>
                 {selectedUniversityData && (
                   <div className="flex justify-between items-center">
                     <span className="text-white/70 text-sm flex items-center gap-1">
                       <GraduationCap className="w-3 h-3" />
-                      Average Semester Fee (pro rata)
+                      {t('averageSemesterFeeProRata')}
                     </span>
                     <span className="text-white font-semibold">
                       {formatCurrency(semesterFeeMonthly * conversionRate, selectedCurrency)}
+                    </span>
+                  </div>
+                )}
+                {primaryCalculated.privateTuitionFeeMonthly > 0 && (
+                  <div className="flex justify-between items-center">
+                    <span className="text-white/70 text-sm flex items-center gap-1">
+                      <GraduationCap className="w-3 h-3" />
+                      {t('privateUniversityTuitionProRata')}
+                    </span>
+                    <span className="text-white font-semibold">
+                      {formatCurrency(primaryCalculated.privateTuitionFeeMonthly * conversionRate, selectedCurrency)}
                     </span>
                   </div>
                 )}
@@ -1891,7 +2783,7 @@ export default function StudyCostCalculator() {
                     <div className="flex justify-between items-center">
                       <span className="text-white/70 text-sm flex items-center gap-1">
                         <GraduationCap className="w-3 h-3" />
-                        Non-EU Tuition Fee (pro rata)
+                        {t('nonEUTuitionFeeProRata')}
                       </span>
                       <span className="text-white font-semibold">
                         {formatCurrency(nonEUTuitionFeeMonthly * conversionRate, selectedCurrency)}
@@ -1901,7 +2793,7 @@ export default function StudyCostCalculator() {
                       <p className="text-yellow-200/90 text-xs flex items-start gap-2">
                         <Info className="w-3 h-3 mt-0.5 flex-shrink-0" />
                         <span>
-                          <strong className="text-yellow-200">Note:</strong> Some German states (e.g., Baden-Württemberg) charge additional tuition fees of approximately {formatCurrency(selectedUniversityData?.nonEUTuitionFee || 1500)} per semester for non-EU students. This fee is in addition to the regular semester fee.
+                          <strong className="text-yellow-200">{t('note')}</strong> Some German states (e.g., Baden-Württemberg) charge additional tuition fees of approximately {formatCurrency(selectedUniversityData?.nonEUTuitionFee || 1500)} per semester for non-EU students. This fee is in addition to the regular semester fee.
                         </span>
                       </p>
                     </div>
@@ -1918,9 +2810,9 @@ export default function StudyCostCalculator() {
                 </div>
                 <div className="border-t border-white/20 pt-3 mt-3">
                   <div className="flex justify-between items-center">
-                    <span className="text-white font-bold text-lg">Monthly Total</span>
+                    <span className="text-white font-bold text-lg">{t('monthlyTotal')}</span>
                     <span className="text-white font-bold text-2xl">
-                      {targetCity ? formatCurrency(convertedMonthlyTotal, selectedCurrency) : '—'}
+                      {(primaryScenario.selectedUniversity || primaryScenario.isOtherUniversity) ? formatCurrency(convertedMonthlyTotal, selectedCurrency) : '—'}
                     </span>
                   </div>
                 </div>
@@ -1928,10 +2820,10 @@ export default function StudyCostCalculator() {
             </div>
 
             {/* Annual Total */}
-            {primaryScenario.targetCity && (
+            {(primaryScenario.selectedUniversity || primaryScenario.isOtherUniversity) && (
               <div className="border-t border-white/20 pt-6 mt-6">
                 <div className="bg-white/10 rounded-lg p-4">
-                  <div className="text-white/70 text-sm mb-2">Annual Cost (12 months)</div>
+                  <div className="text-white/70 text-sm mb-2">{t('annualCost')}</div>
                   <div className="text-3xl font-bold text-white">
                     {formatCurrency(convertedAnnualTotal, selectedCurrency)}
                   </div>
@@ -1939,7 +2831,7 @@ export default function StudyCostCalculator() {
                     Plus upfront costs: {formatCurrency(convertedUpfrontTotal, selectedCurrency)}
                   </p>
                   <div className="mt-3 pt-3 border-t border-white/20">
-                    <div className="text-white/70 text-xs mb-1">Total First Year</div>
+                    <div className="text-white/70 text-xs mb-1">{t('totalFirstYear')}</div>
                     <div className="text-xl font-bold text-white">
                       {formatCurrency(convertedFirstYearTotal, selectedCurrency)}
                     </div>
@@ -1948,13 +2840,20 @@ export default function StudyCostCalculator() {
               </div>
             )}
 
-            {/* Legal Disclaimer */}
-            <div className="mt-6 pt-4 border-t border-white/10">
-              <div className="flex items-start gap-2 text-slate-400 text-xs leading-relaxed">
-                <Scale className="w-4 h-4 mt-0.5 flex-shrink-0" />
-                <p>
-                  {t('disclaimer')}
-                </p>
+            {/* Legal Disclaimer - Comprehensive */}
+            <div className="mt-6 pt-4 border-t border-white/20">
+              <div className="backdrop-blur-sm bg-slate-950/60 border border-white/10 rounded-lg p-4">
+                <div className="flex items-start gap-3">
+                  <ShieldAlert className="w-4 h-4 text-blue-400 flex-shrink-0 mt-0.5" />
+                  <div className="flex-1">
+                    <h3 className="text-xs font-semibold text-white/90 mb-2">
+                      {t('legalDisclaimerTitle')}
+                    </h3>
+                    <p className="text-xs text-white/70 leading-relaxed">
+                      {t('legalDisclaimer')}
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -1968,19 +2867,19 @@ export default function StudyCostCalculator() {
         <div className="mt-6 backdrop-blur-sm bg-gradient-to-br from-purple-600/20 to-blue-600/20 border border-white/20 rounded-xl p-6">
           <h2 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
             <Coins className="w-5 h-5" />
-            Your Financial Balance
+            {t('yourFinancialBalance')}
           </h2>
 
           <div className="space-y-4">
             <div className="flex justify-between items-center py-2 border-b border-white/10">
-              <span className="text-white/80 text-sm">Total Monthly Costs</span>
+              <span className="text-white/80 text-sm">{t('totalMonthlyCosts')}</span>
               <span className="text-white font-semibold text-lg">
                 {formatCurrency(convertedMonthlyTotal, selectedCurrency)}
               </span>
             </div>
 
             <div className="flex justify-between items-center py-2 border-b border-white/10">
-              <span className="text-white/80 text-sm">Net Job Income</span>
+              <span className="text-white/80 text-sm">{t('netJobIncome')}</span>
               <span className="text-white font-semibold text-lg">
                 {formatCurrency(convertedNetMonthlyIncome, selectedCurrency)}
               </span>
@@ -1988,7 +2887,7 @@ export default function StudyCostCalculator() {
 
             <div className="pt-4 border-t-2 border-white/20">
               <div className="flex justify-between items-center mb-2">
-                <span className="text-white/90 text-base font-medium">Remaining Amount to Cover</span>
+                <span className="text-white/90 text-base font-medium">{t('remainingAmountToCover')}</span>
                 <span className={`font-bold text-2xl ${
                   convertedRemainingBudget <= 0
                     ? 'text-green-400'
@@ -2007,10 +2906,10 @@ export default function StudyCostCalculator() {
                   : 'text-red-300/80'
               }`}>
                 {convertedRemainingBudget <= 0
-                  ? '✓ Your job income covers all monthly expenses!'
+                  ? t('jobIncomeCoversExpenses')
                   : convertedRemainingBudget <= 200
-                  ? '⚠ Small gap - consider additional funding (parents, scholarships, blocked account)'
-                  : '✗ Significant gap - you will need additional funding sources (parents, scholarships, blocked account) to cover monthly expenses'}
+                  ? t('smallGap')
+                  : t('significantGap')}
               </p>
             </div>
           </div>
@@ -2022,12 +2921,12 @@ export default function StudyCostCalculator() {
         <div className="mt-8 backdrop-blur-sm bg-slate-950/80 border border-white/10 rounded-xl p-6">
           <h2 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
             <Briefcase className="w-5 h-5" />
-            Financial Planning
+            {t('financialPlanning')}
           </h2>
 
           {/* Job Type Toggle */}
           <div className="mb-6">
-            <label className="block text-sm font-medium text-white/80 mb-3">Job Type</label>
+            <label className="block text-sm font-medium text-white/80 mb-3">{t('jobType')}</label>
             <div className="flex gap-2 bg-slate-900/50 border border-white/10 rounded-lg p-1">
               <button
                 type="button"
@@ -2045,12 +2944,10 @@ export default function StudyCostCalculator() {
                 }`}
               >
                 <span className="flex items-center justify-center gap-2">
-                  Minijob
+                  {t('minijob')}
                   <div className="relative group">
                     <Info 
                       className="w-3.5 h-3.5 text-blue-300 cursor-help" 
-                      onMouseEnter={() => setShowMinijobInfo(true)}
-                      onMouseLeave={() => setShowMinijobInfo(false)}
                       onClick={(e) => {
                         e.stopPropagation();
                         setShowMinijobInfo(!showMinijobInfo);
@@ -2059,11 +2956,9 @@ export default function StudyCostCalculator() {
                     {showMinijobInfo && (
                       <div 
                         className="absolute left-0 bottom-full mb-2 w-72 p-3 bg-slate-900/95 border border-white/20 rounded-lg shadow-xl z-50 backdrop-blur-md"
-                        onMouseEnter={() => setShowMinijobInfo(true)}
-                        onMouseLeave={() => setShowMinijobInfo(false)}
                       >
                         <p className="text-white text-xs leading-relaxed">
-                          Current limit for 2025 is approx. 556€/month. Usually tax-free and minimal social contributions.
+                          {t('minijobInfo')}
                         </p>
                       </div>
                     )}
@@ -2086,12 +2981,10 @@ export default function StudyCostCalculator() {
                 }`}
               >
                 <span className="flex items-center justify-center gap-2">
-                  Working Student
+                  {t('workingStudent')}
                   <div className="relative group">
                     <Info 
                       className="w-3.5 h-3.5 text-blue-300 cursor-help" 
-                      onMouseEnter={() => setShowWerkstudentInfo(true)}
-                      onMouseLeave={() => setShowWerkstudentInfo(false)}
                       onClick={(e) => {
                         e.stopPropagation();
                         setShowWerkstudentInfo(!showWerkstudentInfo);
@@ -2100,11 +2993,9 @@ export default function StudyCostCalculator() {
                     {showWerkstudentInfo && (
                       <div 
                         className="absolute right-0 bottom-full mb-2 w-72 p-3 bg-slate-900/95 border border-white/20 rounded-lg shadow-xl z-50 backdrop-blur-md"
-                        onMouseEnter={() => setShowWerkstudentInfo(true)}
-                        onMouseLeave={() => setShowWerkstudentInfo(false)}
                       >
                         <p className="text-white text-xs leading-relaxed">
-                          Max. 20 hours/week during the semester. You pay into pension insurance but are exempt from other social contributions.
+                          {t('werkstudentInfo')}
                         </p>
                       </div>
                     )}
@@ -2120,7 +3011,7 @@ export default function StudyCostCalculator() {
               <Info className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" />
               <div>
                 <p className="text-xs text-blue-200/90 leading-relaxed">
-                  <strong className="text-blue-200">140-Day Rule (2025):</strong> Non-EU students are allowed to work 140 full days or 280 half days per year (new 2025 regulation).
+                  <strong className="text-blue-200">{t('dayRule140Title')}</strong> {t('dayRule140')}
                 </p>
               </div>
             </div>
@@ -2130,7 +3021,7 @@ export default function StudyCostCalculator() {
             {/* Hours per Week Input */}
             <div>
               <label className="block text-xs text-white/70 mb-2">
-                Hours per week {primaryScenario.jobType === 'working_student' ? '(Max: 20 for students)' : '(Will be capped at €538/month)'}
+                {t('hoursPerWeek')} {primaryScenario.jobType === 'working_student' ? t('hoursPerWeekMaxStudents') : t('hoursPerWeekCapped')}
               </label>
               <input
                 type="number"
@@ -2155,20 +3046,20 @@ export default function StudyCostCalculator() {
                     className="w-full mt-2 h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-blue-600"
                   />
                   <div className="flex justify-between text-xs text-white/50 mt-1">
-                    <span>0h</span>
-                    <span>20h</span>
+                    <span>{t('hours0')}</span>
+                    <span>{t('hours20')}</span>
                   </div>
                   {primaryScenario.hoursPerWeek > 20 && (
                     <p className="text-xs text-yellow-400/90 mt-2 flex items-start gap-1.5">
                       <AlertTriangle className="w-3.5 h-3.5 mt-0.5 flex-shrink-0" />
-                      <span>Working more than 20h/week during the semester may affect your student status and insurance.</span>
+                      <span>{t('hoursWarning')}</span>
                     </p>
                   )}
                 </>
               )}
               {primaryScenario.jobType === 'minijob' && (
                 <p className="text-xs text-white/50 mt-1">
-                  Minijob earnings are capped at €538/month regardless of hours worked.
+                  {t('minijobEarningsCapped')}
                 </p>
               )}
             </div>
@@ -2176,7 +3067,7 @@ export default function StudyCostCalculator() {
             {/* Hourly Wage Input */}
             <div>
               <label className="block text-xs text-white/70 mb-2">
-                Hourly Wage (€)
+                {t('hourlyWage')}
               </label>
               <input
                 type="number"
@@ -2190,14 +3081,14 @@ export default function StudyCostCalculator() {
                 className="w-full bg-black/40 border border-white/10 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
               />
               <p className="text-xs text-white/50 mt-1">
-                Current German minimum wage: €12.41/hour (2024/25)
+                {t('currentGermanMinimumWage')}
               </p>
             </div>
 
             {/* Income Breakdown */}
             <div className="bg-white/5 rounded-lg p-4 space-y-2">
               <div className="flex justify-between items-center">
-                <span className="text-white/70 text-sm">Gross Monthly Income</span>
+                <span className="text-white/70 text-sm">{t('grossMonthlyIncome')}</span>
                 <span className="text-white font-semibold">
                   {formatCurrency(convertedGrossMonthlyIncome, selectedCurrency)}
                 </span>
@@ -2205,7 +3096,7 @@ export default function StudyCostCalculator() {
               {primaryScenario.jobType === 'working_student' && primaryCalculated.grossMonthlyIncome > 0 && (
                 <div className="flex justify-between items-center text-xs">
                   <span className="text-white/50">
-                    Less social security (10% pension insurance)
+                    {t('lessSocialSecurity')}
                   </span>
                   <span className="text-white/50">
                     -{formatCurrency((primaryCalculated.grossMonthlyIncome * 0.10) * conversionRate, selectedCurrency)}
@@ -2214,13 +3105,13 @@ export default function StudyCostCalculator() {
               )}
               {primaryScenario.jobType === 'minijob' && primaryCalculated.grossMonthlyIncome >= 538 && (
                 <div className="flex justify-between items-center text-xs text-yellow-400/80">
-                  <span>Capped at €538/month (Minijob limit)</span>
+                  <span>{t('cappedAtMinijobLimit')}</span>
                   <span>—</span>
                 </div>
               )}
               <div className="border-t border-white/10 pt-2 mt-2">
                 <div className="flex justify-between items-center">
-                  <span className="text-white/80 text-sm font-medium">Net Monthly Income</span>
+                  <span className="text-white/80 text-sm font-medium">{t('netMonthlyIncome')}</span>
                   <span className="text-white font-bold">
                     {formatCurrency(convertedNetMonthlyIncome, selectedCurrency)}
                   </span>
@@ -2234,624 +3125,10 @@ export default function StudyCostCalculator() {
                 <AlertTriangle className="w-5 h-5 text-yellow-400 flex-shrink-0 mt-0.5" />
                 <div>
                   <p className="text-xs text-yellow-200/90 leading-relaxed font-medium">
-                    <strong className="text-yellow-200">IMPORTANT:</strong> Self-employment (Freelancing/Gewerbe) is generally NOT allowed for international students unless explicitly approved by the Foreigners' Authority (Ausländerbehörde).
+                    {t('selfEmploymentWarning')}
                   </p>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      )}
-
-      {/* Your Financial Balance Card - Separate card below */}
-      {!isComparisonMode && primaryScenario.targetCity && (
-        <div className="mt-6 backdrop-blur-sm bg-gradient-to-br from-purple-600/20 to-blue-600/20 border border-white/20 rounded-xl p-6">
-          <h2 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
-            <Coins className="w-5 h-5" />
-            Your Financial Balance
-          </h2>
-
-          <div className="space-y-4">
-            <div className="flex justify-between items-center py-2 border-b border-white/10">
-              <span className="text-white/80 text-sm">Total Monthly Costs</span>
-              <span className="text-white font-semibold text-lg">
-                {formatCurrency(convertedMonthlyTotal, selectedCurrency)}
-              </span>
-            </div>
-
-            <div className="flex justify-between items-center py-2 border-b border-white/10">
-              <span className="text-white/80 text-sm">Net Job Income</span>
-              <span className="text-white font-semibold text-lg">
-                {formatCurrency(convertedNetMonthlyIncome, selectedCurrency)}
-              </span>
-            </div>
-
-            <div className="pt-4 border-t-2 border-white/20">
-              <div className="flex justify-between items-center mb-2">
-                <span className="text-white/90 text-base font-medium">Remaining Amount to Cover</span>
-                <span className={`font-bold text-2xl ${
-                  convertedRemainingBudget <= 0
-                    ? 'text-green-400'
-                    : convertedRemainingBudget <= 200
-                    ? 'text-yellow-400'
-                    : 'text-red-400'
-                }`}>
-                  {formatCurrency(convertedRemainingBudget, selectedCurrency)}
-                </span>
-              </div>
-              <p className={`text-xs mt-2 ${
-                convertedRemainingBudget <= 0
-                  ? 'text-green-300/80'
-                  : convertedRemainingBudget <= 200
-                  ? 'text-yellow-300/80'
-                  : 'text-red-300/80'
-              }`}>
-                {convertedRemainingBudget <= 0
-                  ? '✓ Your job income covers all monthly expenses!'
-                  : convertedRemainingBudget <= 200
-                  ? '⚠ Small gap - consider additional funding (parents, scholarships, blocked account)'
-                  : '✗ Significant gap - you will need additional funding sources (parents, scholarships, blocked account) to cover monthly expenses'}
-              </p>
-            </div>
-          </div>
-        </div>
-      )}
-      
-      {/* Financial Planning Section - Separate from cost breakdown */}
-      {!isComparisonMode && primaryScenario.targetCity && (
-        <div className="mt-8 backdrop-blur-sm bg-slate-950/80 border border-white/10 rounded-xl p-6">
-          <h2 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
-            <Briefcase className="w-5 h-5" />
-            Financial Planning
-          </h2>
-
-          {/* Job Type Toggle */}
-          <div className="mb-6">
-            <label className="block text-sm font-medium text-white/80 mb-3">Job Type</label>
-            <div className="flex gap-2 bg-slate-900/50 border border-white/10 rounded-lg p-1">
-              <button
-                type="button"
-                onClick={() => {
-                  setPrimaryScenario(prev => ({ 
-                    ...prev, 
-                    jobType: 'minijob',
-                    hoursPerWeek: prev.hoursPerWeek || 0,
-                  }));
-                }}
-                className={`flex-1 px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 relative ${
-                  primaryScenario.jobType === 'minijob'
-                    ? 'bg-blue-600 text-white shadow-lg'
-                    : 'text-white/70 hover:text-white/90 hover:bg-white/5'
-                }`}
-              >
-                <span className="flex items-center justify-center gap-2">
-                  Minijob
-                  <div className="relative group">
-                    <Info 
-                      className="w-3.5 h-3.5 text-blue-300 cursor-help" 
-                      onMouseEnter={() => setShowMinijobInfo(true)}
-                      onMouseLeave={() => setShowMinijobInfo(false)}
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        setShowMinijobInfo(!showMinijobInfo);
-                      }}
-                    />
-                    {showMinijobInfo && (
-                      <div 
-                        className="absolute left-0 bottom-full mb-2 w-72 p-3 bg-slate-900/95 border border-white/20 rounded-lg shadow-xl z-50 backdrop-blur-md"
-                        onMouseEnter={() => setShowMinijobInfo(true)}
-                        onMouseLeave={() => setShowMinijobInfo(false)}
-                      >
-                        <p className="text-white text-xs leading-relaxed">
-                          Current limit for 2025 is approx. 556€/month. Usually tax-free and minimal social contributions.
-                        </p>
-                      </div>
-                    )}
-                  </div>
-                </span>
-              </button>
-              <button
-                type="button"
-                onClick={() => {
-                  setPrimaryScenario(prev => ({ 
-                    ...prev, 
-                    jobType: 'working_student',
-                    hoursPerWeek: prev.hoursPerWeek || 10,
-                  }));
-                }}
-                className={`flex-1 px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 relative ${
-                  primaryScenario.jobType === 'working_student'
-                    ? 'bg-blue-600 text-white shadow-lg'
-                    : 'text-white/70 hover:text-white/90 hover:bg-white/5'
-                }`}
-              >
-                <span className="flex items-center justify-center gap-2">
-                  Working Student
-                  <div className="relative group">
-                    <Info 
-                      className="w-3.5 h-3.5 text-blue-300 cursor-help" 
-                      onMouseEnter={() => setShowWerkstudentInfo(true)}
-                      onMouseLeave={() => setShowWerkstudentInfo(false)}
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        setShowWerkstudentInfo(!showWerkstudentInfo);
-                      }}
-                    />
-                    {showWerkstudentInfo && (
-                      <div 
-                        className="absolute right-0 bottom-full mb-2 w-72 p-3 bg-slate-900/95 border border-white/20 rounded-lg shadow-xl z-50 backdrop-blur-md"
-                        onMouseEnter={() => setShowWerkstudentInfo(true)}
-                        onMouseLeave={() => setShowWerkstudentInfo(false)}
-                      >
-                        <p className="text-white text-xs leading-relaxed">
-                          Max. 20 hours/week during the semester. You pay into pension insurance but are exempt from other social contributions.
-                        </p>
-                      </div>
-                    )}
-                  </div>
-                </span>
-              </button>
-            </div>
-          </div>
-
-          {/* 140-Day Rule Info Note */}
-          <div className="mb-6 backdrop-blur-sm bg-blue-950/30 border border-blue-500/30 rounded-lg p-4">
-            <div className="flex items-start gap-3">
-              <Info className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" />
-              <div>
-                <p className="text-xs text-blue-200/90 leading-relaxed">
-                  <strong className="text-blue-200">140-Day Rule (2025):</strong> Non-EU students are allowed to work 140 full days or 280 half days per year (new 2025 regulation).
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="space-y-4">
-            {/* Hours per Week Input */}
-            <div>
-              <label className="block text-xs text-white/70 mb-2">
-                Hours per week {primaryScenario.jobType === 'working_student' ? '(Max: 20 for students)' : '(Will be capped at €538/month)'}
-              </label>
-              <input
-                type="number"
-                min="0"
-                max={primaryScenario.jobType === 'working_student' ? 20 : undefined}
-                value={primaryScenario.hoursPerWeek}
-                onChange={(e) => {
-                  const maxValue = primaryScenario.jobType === 'working_student' ? 20 : Infinity;
-                  const value = Math.min(maxValue, Math.max(0, parseFloat(e.target.value) || 0));
-                  setPrimaryScenario(prev => ({ ...prev, hoursPerWeek: value }));
-                }}
-                className="w-full bg-black/40 border border-white/10 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-              />
-              {primaryScenario.jobType === 'working_student' && (
-                <>
-                  <input
-                    type="range"
-                    min="0"
-                    max="20"
-                    value={primaryScenario.hoursPerWeek}
-                    onChange={(e) => setPrimaryScenario(prev => ({ ...prev, hoursPerWeek: parseFloat(e.target.value) }))}
-                    className="w-full mt-2 h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-blue-600"
-                  />
-                  <div className="flex justify-between text-xs text-white/50 mt-1">
-                    <span>0h</span>
-                    <span>20h</span>
-                  </div>
-                  {primaryScenario.hoursPerWeek > 20 && (
-                    <p className="text-xs text-yellow-400/90 mt-2 flex items-start gap-1.5">
-                      <AlertTriangle className="w-3.5 h-3.5 mt-0.5 flex-shrink-0" />
-                      <span>Working more than 20h/week during the semester may affect your student status and insurance.</span>
-                    </p>
-                  )}
-                </>
-              )}
-              {primaryScenario.jobType === 'minijob' && (
-                <p className="text-xs text-white/50 mt-1">
-                  Minijob earnings are capped at €538/month regardless of hours worked.
-                </p>
-              )}
-            </div>
-
-            {/* Hourly Wage Input */}
-            <div>
-              <label className="block text-xs text-white/70 mb-2">
-                Hourly Wage (€)
-              </label>
-              <input
-                type="number"
-                min="0"
-                step="0.01"
-                value={primaryScenario.hourlyWage}
-                onChange={(e) => {
-                  const value = Math.max(0, parseFloat(e.target.value) || 0);
-                  setPrimaryScenario(prev => ({ ...prev, hourlyWage: value }));
-                }}
-                className="w-full bg-black/40 border border-white/10 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-              />
-              <p className="text-xs text-white/50 mt-1">
-                Current German minimum wage: €12.41/hour (2024/25)
-              </p>
-            </div>
-
-            {/* Income Breakdown */}
-            <div className="bg-white/5 rounded-lg p-4 space-y-2">
-              <div className="flex justify-between items-center">
-                <span className="text-white/70 text-sm">Gross Monthly Income</span>
-                <span className="text-white font-semibold">
-                  {formatCurrency(convertedGrossMonthlyIncome, selectedCurrency)}
-                </span>
-              </div>
-              {primaryScenario.jobType === 'working_student' && primaryCalculated.grossMonthlyIncome > 0 && (
-                <div className="flex justify-between items-center text-xs">
-                  <span className="text-white/50">
-                    Less social security (10% pension insurance)
-                  </span>
-                  <span className="text-white/50">
-                    -{formatCurrency((primaryCalculated.grossMonthlyIncome * 0.10) * conversionRate, selectedCurrency)}
-                  </span>
-                </div>
-              )}
-              {primaryScenario.jobType === 'minijob' && primaryCalculated.grossMonthlyIncome >= 538 && (
-                <div className="flex justify-between items-center text-xs text-yellow-400/80">
-                  <span>Capped at €538/month (Minijob limit)</span>
-                  <span>—</span>
-                </div>
-              )}
-              <div className="border-t border-white/10 pt-2 mt-2">
-                <div className="flex justify-between items-center">
-                  <span className="text-white/80 text-sm font-medium">Net Monthly Income</span>
-                  <span className="text-white font-bold">
-                    {formatCurrency(convertedNetMonthlyIncome, selectedCurrency)}
-                  </span>
-                </div>
-              </div>
-            </div>
-
-            {/* Legal Warning Box - Self-Employment */}
-            <div className="mt-6 backdrop-blur-sm bg-yellow-500/10 border border-yellow-500/50 rounded-lg p-4">
-              <div className="flex items-start gap-3">
-                <AlertTriangle className="w-5 h-5 text-yellow-400 flex-shrink-0 mt-0.5" />
-                <div>
-                  <p className="text-xs text-yellow-200/90 leading-relaxed font-medium">
-                    <strong className="text-yellow-200">IMPORTANT:</strong> Self-employment (Freelancing/Gewerbe) is generally NOT allowed for international students unless explicitly approved by the Foreigners' Authority (Ausländerbehörde).
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
-
-      {/* Your Financial Balance Card - Separate card below */}
-      {!isComparisonMode && primaryScenario.targetCity && (
-        <div className="mt-6 backdrop-blur-sm bg-gradient-to-br from-purple-600/20 to-blue-600/20 border border-white/20 rounded-xl p-6">
-          <h2 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
-            <Coins className="w-5 h-5" />
-            Your Financial Balance
-          </h2>
-
-          <div className="space-y-4">
-            <div className="flex justify-between items-center py-2 border-b border-white/10">
-              <span className="text-white/80 text-sm">Total Monthly Costs</span>
-              <span className="text-white font-semibold text-lg">
-                {formatCurrency(convertedMonthlyTotal, selectedCurrency)}
-              </span>
-            </div>
-
-            <div className="flex justify-between items-center py-2 border-b border-white/10">
-              <span className="text-white/80 text-sm">Net Job Income</span>
-              <span className="text-white font-semibold text-lg">
-                {formatCurrency(convertedNetMonthlyIncome, selectedCurrency)}
-              </span>
-            </div>
-
-            <div className="pt-4 border-t-2 border-white/20">
-              <div className="flex justify-between items-center mb-2">
-                <span className="text-white/90 text-base font-medium">Remaining Amount to Cover</span>
-                <span className={`font-bold text-2xl ${
-                  convertedRemainingBudget <= 0
-                    ? 'text-green-400'
-                    : convertedRemainingBudget <= 200
-                    ? 'text-yellow-400'
-                    : 'text-red-400'
-                }`}>
-                  {formatCurrency(convertedRemainingBudget, selectedCurrency)}
-                </span>
-              </div>
-              <p className={`text-xs mt-2 ${
-                convertedRemainingBudget <= 0
-                  ? 'text-green-300/80'
-                  : convertedRemainingBudget <= 200
-                  ? 'text-yellow-300/80'
-                  : 'text-red-300/80'
-              }`}>
-                {convertedRemainingBudget <= 0
-                  ? '✓ Your job income covers all monthly expenses!'
-                  : convertedRemainingBudget <= 200
-                  ? '⚠ Small gap - consider additional funding (parents, scholarships, blocked account)'
-                  : '✗ Significant gap - you will need additional funding sources (parents, scholarships, blocked account) to cover monthly expenses'}
-              </p>
-            </div>
-          </div>
-        </div>
-      )}
-
-      {/* Financial Planning Section - Separate from cost breakdown */}
-      {!isComparisonMode && primaryScenario.targetCity && (
-        <div className="mt-8 backdrop-blur-sm bg-slate-950/80 border border-white/10 rounded-xl p-6">
-          <h2 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
-            <Briefcase className="w-5 h-5" />
-            Financial Planning
-          </h2>
-
-          {/* Job Type Toggle */}
-          <div className="mb-6">
-            <label className="block text-sm font-medium text-white/80 mb-3">Job Type</label>
-            <div className="flex gap-2 bg-slate-900/50 border border-white/10 rounded-lg p-1">
-              <button
-                type="button"
-                onClick={() => {
-                  setPrimaryScenario(prev => ({ 
-                    ...prev, 
-                    jobType: 'minijob',
-                    hoursPerWeek: prev.hoursPerWeek || 0,
-                  }));
-                }}
-                className={`flex-1 px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 relative ${
-                  primaryScenario.jobType === 'minijob'
-                    ? 'bg-blue-600 text-white shadow-lg'
-                    : 'text-white/70 hover:text-white/90 hover:bg-white/5'
-                }`}
-              >
-                <span className="flex items-center justify-center gap-2">
-                  Minijob
-                  <div className="relative group">
-                    <Info 
-                      className="w-3.5 h-3.5 text-blue-300 cursor-help" 
-                      onMouseEnter={() => setShowMinijobInfo(true)}
-                      onMouseLeave={() => setShowMinijobInfo(false)}
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        setShowMinijobInfo(!showMinijobInfo);
-                      }}
-                    />
-                    {showMinijobInfo && (
-                      <div 
-                        className="absolute left-0 bottom-full mb-2 w-72 p-3 bg-slate-900/95 border border-white/20 rounded-lg shadow-xl z-50 backdrop-blur-md"
-                        onMouseEnter={() => setShowMinijobInfo(true)}
-                        onMouseLeave={() => setShowMinijobInfo(false)}
-                      >
-                        <p className="text-white text-xs leading-relaxed">
-                          Current limit for 2025 is approx. 556€/month. Usually tax-free and minimal social contributions.
-                        </p>
-                      </div>
-                    )}
-                  </div>
-                </span>
-              </button>
-              <button
-                type="button"
-                onClick={() => {
-                  setPrimaryScenario(prev => ({ 
-                    ...prev, 
-                    jobType: 'working_student',
-                    hoursPerWeek: prev.hoursPerWeek || 10,
-                  }));
-                }}
-                className={`flex-1 px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 relative ${
-                  primaryScenario.jobType === 'working_student'
-                    ? 'bg-blue-600 text-white shadow-lg'
-                    : 'text-white/70 hover:text-white/90 hover:bg-white/5'
-                }`}
-              >
-                <span className="flex items-center justify-center gap-2">
-                  Working Student
-                  <div className="relative group">
-                    <Info 
-                      className="w-3.5 h-3.5 text-blue-300 cursor-help" 
-                      onMouseEnter={() => setShowWerkstudentInfo(true)}
-                      onMouseLeave={() => setShowWerkstudentInfo(false)}
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        setShowWerkstudentInfo(!showWerkstudentInfo);
-                      }}
-                    />
-                    {showWerkstudentInfo && (
-                      <div 
-                        className="absolute right-0 bottom-full mb-2 w-72 p-3 bg-slate-900/95 border border-white/20 rounded-lg shadow-xl z-50 backdrop-blur-md"
-                        onMouseEnter={() => setShowWerkstudentInfo(true)}
-                        onMouseLeave={() => setShowWerkstudentInfo(false)}
-                      >
-                        <p className="text-white text-xs leading-relaxed">
-                          Max. 20 hours/week during the semester. You pay into pension insurance but are exempt from other social contributions.
-                        </p>
-                      </div>
-                    )}
-                  </div>
-                </span>
-              </button>
-            </div>
-          </div>
-
-          {/* 140-Day Rule Info Note */}
-          <div className="mb-6 backdrop-blur-sm bg-blue-950/30 border border-blue-500/30 rounded-lg p-4">
-            <div className="flex items-start gap-3">
-              <Info className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" />
-              <div>
-                <p className="text-xs text-blue-200/90 leading-relaxed">
-                  <strong className="text-blue-200">140-Day Rule (2025):</strong> Non-EU students are allowed to work 140 full days or 280 half days per year (new 2025 regulation).
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="space-y-4">
-            {/* Hours per Week Input */}
-            <div>
-              <label className="block text-xs text-white/70 mb-2">
-                Hours per week {primaryScenario.jobType === 'working_student' ? '(Max: 20 for students)' : '(Will be capped at €538/month)'}
-              </label>
-              <input
-                type="number"
-                min="0"
-                max={primaryScenario.jobType === 'working_student' ? 20 : undefined}
-                value={primaryScenario.hoursPerWeek}
-                onChange={(e) => {
-                  const maxValue = primaryScenario.jobType === 'working_student' ? 20 : Infinity;
-                  const value = Math.min(maxValue, Math.max(0, parseFloat(e.target.value) || 0));
-                  setPrimaryScenario(prev => ({ ...prev, hoursPerWeek: value }));
-                }}
-                className="w-full bg-black/40 border border-white/10 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-              />
-              {primaryScenario.jobType === 'working_student' && (
-                <>
-                  <input
-                    type="range"
-                    min="0"
-                    max="20"
-                    value={primaryScenario.hoursPerWeek}
-                    onChange={(e) => setPrimaryScenario(prev => ({ ...prev, hoursPerWeek: parseFloat(e.target.value) }))}
-                    className="w-full mt-2 h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-blue-600"
-                  />
-                  <div className="flex justify-between text-xs text-white/50 mt-1">
-                    <span>0h</span>
-                    <span>20h</span>
-                  </div>
-                  {primaryScenario.hoursPerWeek > 20 && (
-                    <p className="text-xs text-yellow-400/90 mt-2 flex items-start gap-1.5">
-                      <AlertTriangle className="w-3.5 h-3.5 mt-0.5 flex-shrink-0" />
-                      <span>Working more than 20h/week during the semester may affect your student status and insurance.</span>
-                    </p>
-                  )}
-                </>
-              )}
-              {primaryScenario.jobType === 'minijob' && (
-                <p className="text-xs text-white/50 mt-1">
-                  Minijob earnings are capped at €538/month regardless of hours worked.
-                </p>
-              )}
-            </div>
-
-            {/* Hourly Wage Input */}
-            <div>
-              <label className="block text-xs text-white/70 mb-2">
-                Hourly Wage (€)
-              </label>
-              <input
-                type="number"
-                min="0"
-                step="0.01"
-                value={primaryScenario.hourlyWage}
-                onChange={(e) => {
-                  const value = Math.max(0, parseFloat(e.target.value) || 0);
-                  setPrimaryScenario(prev => ({ ...prev, hourlyWage: value }));
-                }}
-                className="w-full bg-black/40 border border-white/10 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-              />
-              <p className="text-xs text-white/50 mt-1">
-                Current German minimum wage: €12.41/hour (2024/25)
-              </p>
-            </div>
-
-            {/* Income Breakdown */}
-            <div className="bg-white/5 rounded-lg p-4 space-y-2">
-              <div className="flex justify-between items-center">
-                <span className="text-white/70 text-sm">Gross Monthly Income</span>
-                <span className="text-white font-semibold">
-                  {formatCurrency(convertedGrossMonthlyIncome, selectedCurrency)}
-                </span>
-              </div>
-              {primaryScenario.jobType === 'working_student' && primaryCalculated.grossMonthlyIncome > 0 && (
-                <div className="flex justify-between items-center text-xs">
-                  <span className="text-white/50">
-                    Less social security (10% pension insurance)
-                  </span>
-                  <span className="text-white/50">
-                    -{formatCurrency((primaryCalculated.grossMonthlyIncome * 0.10) * conversionRate, selectedCurrency)}
-                  </span>
-                </div>
-              )}
-              {primaryScenario.jobType === 'minijob' && primaryCalculated.grossMonthlyIncome >= 538 && (
-                <div className="flex justify-between items-center text-xs text-yellow-400/80">
-                  <span>Capped at €538/month (Minijob limit)</span>
-                  <span>—</span>
-                </div>
-              )}
-              <div className="border-t border-white/10 pt-2 mt-2">
-                <div className="flex justify-between items-center">
-                  <span className="text-white/80 text-sm font-medium">Net Monthly Income</span>
-                  <span className="text-white font-bold">
-                    {formatCurrency(convertedNetMonthlyIncome, selectedCurrency)}
-                  </span>
-                </div>
-              </div>
-            </div>
-
-            {/* Legal Warning Box - Self-Employment */}
-            <div className="mt-6 backdrop-blur-sm bg-yellow-500/10 border border-yellow-500/50 rounded-lg p-4">
-              <div className="flex items-start gap-3">
-                <AlertTriangle className="w-5 h-5 text-yellow-400 flex-shrink-0 mt-0.5" />
-                <div>
-                  <p className="text-xs text-yellow-200/90 leading-relaxed font-medium">
-                    <strong className="text-yellow-200">IMPORTANT:</strong> Self-employment (Freelancing/Gewerbe) is generally NOT allowed for international students unless explicitly approved by the Foreigners' Authority (Ausländerbehörde).
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
-
-      {/* Your Financial Balance Card - Separate card below */}
-      {!isComparisonMode && primaryScenario.targetCity && (
-        <div className="mt-6 backdrop-blur-sm bg-gradient-to-br from-purple-600/20 to-blue-600/20 border border-white/20 rounded-xl p-6">
-          <h2 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
-            <Coins className="w-5 h-5" />
-            Your Financial Balance
-          </h2>
-
-          <div className="space-y-4">
-            <div className="flex justify-between items-center py-2 border-b border-white/10">
-              <span className="text-white/80 text-sm">Total Monthly Costs</span>
-              <span className="text-white font-semibold text-lg">
-                {formatCurrency(convertedMonthlyTotal, selectedCurrency)}
-              </span>
-            </div>
-
-            <div className="flex justify-between items-center py-2 border-b border-white/10">
-              <span className="text-white/80 text-sm">Net Job Income</span>
-              <span className="text-white font-semibold text-lg">
-                {formatCurrency(convertedNetMonthlyIncome, selectedCurrency)}
-              </span>
-            </div>
-
-            <div className="pt-4 border-t-2 border-white/20">
-              <div className="flex justify-between items-center mb-2">
-                <span className="text-white/90 text-base font-medium">Remaining Amount to Cover</span>
-                <span className={`font-bold text-2xl ${
-                  convertedRemainingBudget <= 0
-                    ? 'text-green-400'
-                    : convertedRemainingBudget <= 200
-                    ? 'text-yellow-400'
-                    : 'text-red-400'
-                }`}>
-                  {formatCurrency(convertedRemainingBudget, selectedCurrency)}
-                </span>
-              </div>
-              <p className={`text-xs mt-2 ${
-                convertedRemainingBudget <= 0
-                  ? 'text-green-300/80'
-                  : convertedRemainingBudget <= 200
-                  ? 'text-yellow-300/80'
-                  : 'text-red-300/80'
-              }`}>
-                {convertedRemainingBudget <= 0
-                  ? '✓ Your job income covers all monthly expenses!'
-                  : convertedRemainingBudget <= 200
-                  ? '⚠ Small gap - consider additional funding (parents, scholarships, blocked account)'
-                  : '✗ Significant gap - you will need additional funding sources (parents, scholarships, blocked account) to cover monthly expenses'}
-              </p>
             </div>
           </div>
         </div>
@@ -2864,7 +3141,7 @@ export default function StudyCostCalculator() {
           <div className="space-y-4 relative z-[100]">
             <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
               <MapPin className="w-5 h-5" />
-              Scenario A: {primaryScenario.targetCity || 'Select city'}
+              {t('scenarioA')}: {primaryScenario.targetCity ? getLocalizedCityName(primaryScenario.targetCity, locale) : t('selectCity')}
             </h3>
             <div className="space-y-4">
               <SearchableCombobox
@@ -2876,26 +3153,34 @@ export default function StudyCostCalculator() {
                 label="Where are you coming from?"
                 cardZIndex={150}
               />
-              <SearchableCombobox
-                options={CITY_OPTIONS}
-                value={primaryScenario.targetCity}
-                onChange={(value) => setPrimaryScenario(prev => ({ ...prev, targetCity: value }))}
-                placeholder="Search for a German university city..."
-                icon={<MapPin className="w-4 h-4" />}
-                label="Where do you want to study?"
+              <UniversitySearchComponent
+                universities={filteredUniversities}
+                value={primaryScenario.selectedUniversity}
+                isOther={primaryScenario.isOtherUniversity}
+                disabled={!primaryScenario.targetCity}
+                onSelect={(universityName) => {
+                  if (universityName === 'OTHER_NOT_LISTED') {
+                    setPrimaryScenario(prev => ({
+                      ...prev,
+                      selectedUniversity: '',
+                      isOtherUniversity: true,
+                    }));
+                  } else {
+                    const university = STUDY_DATA.UNIVERSITIES.find(u => u.name === universityName);
+                    if (university) {
+                      setPrimaryScenario(prev => ({
+                        ...prev,
+                        selectedUniversity: universityName,
+                        isOtherUniversity: false,
+                        manualRent: undefined,
+                        manualSemesterFee: undefined,
+                        manualTuitionFee: undefined,
+                      }));
+                    }
+                  }
+                }}
                 cardZIndex={140}
               />
-              {primaryScenario.targetCity && (
-                <SearchableCombobox<string>
-                  options={availableUniversities}
-                  value={primaryScenario.selectedUniversity}
-                  onChange={(value) => setPrimaryScenario(prev => ({ ...prev, selectedUniversity: value }))}
-                  placeholder="Search for a university..."
-                  icon={<GraduationCap className="w-4 h-4" />}
-                  label="Which university do you want to attend?"
-                  cardZIndex={130}
-                />
-              )}
             </div>
             <div className="backdrop-blur-sm bg-gradient-to-br from-blue-600/20 to-purple-600/20 border border-white/20 rounded-xl p-4 sm:p-6 relative">
               <h4 className="text-lg font-bold text-white mb-4 flex items-center gap-2">
@@ -2913,13 +3198,13 @@ export default function StudyCostCalculator() {
               )}
               <div className="space-y-4">
                 <div>
-                  <div className="text-white/70 text-sm mb-2">Monthly Total</div>
+                  <div className="text-white/70 text-sm mb-2">{t('monthlyTotal')}</div>
                   <div className="text-2xl font-bold text-white">
                     {formatCurrency(primaryCalculated.monthlyTotal * conversionRate, selectedCurrency)}
                   </div>
                 </div>
                 <div>
-                  <div className="text-white/70 text-sm mb-2">Annual Total</div>
+                  <div className="text-white/70 text-sm mb-2">{t('annualTotal')}</div>
                   <div className="text-xl font-bold text-white">
                     {formatCurrency(primaryCalculated.annualTotal * conversionRate, selectedCurrency)}
                   </div>
@@ -2935,7 +3220,7 @@ export default function StudyCostCalculator() {
           <div className="space-y-4 relative z-[50]">
             <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
               <MapPin className="w-5 h-5" />
-              Scenario B: {comparisonScenario.targetCity || 'Select city'}
+              {t('scenarioB')}: {comparisonScenario.targetCity ? getLocalizedCityName(comparisonScenario.targetCity, locale) : t('selectCity')}
             </h3>
             <div className="space-y-4">
               <SearchableCombobox
@@ -2947,26 +3232,203 @@ export default function StudyCostCalculator() {
                 label="Where are you coming from?"
                 cardZIndex={100}
               />
+              {/* City Selection for Comparison - Must be selected first */}
               <SearchableCombobox
                 options={CITY_OPTIONS}
                 value={comparisonScenario.targetCity}
-                onChange={(value) => setComparisonScenario(prev => ({ ...prev, targetCity: value }))}
-                placeholder="Search for a German university city..."
+                onChange={(value) => {
+                  setComparisonScenario(prev => ({
+                    ...prev,
+                    targetCity: value as City,
+                    selectedUniversity: '', // Clear university when city changes
+                    isOtherUniversity: false,
+                    manualRent: undefined,
+                    manualSemesterFee: undefined,
+                    manualTuitionFee: undefined,
+                  }));
+                }}
+                placeholder="Search for a city..."
                 icon={<MapPin className="w-4 h-4" />}
                 label="Where do you want to study?"
+                cardZIndex={95}
+              />
+
+              {/* University Search for Comparison */}
+              <UniversitySearchComponent
+                universities={comparisonFilteredUniversities}
+                value={comparisonScenario.selectedUniversity}
+                isOther={comparisonScenario.isOtherUniversity}
+                disabled={!comparisonScenario.targetCity}
+                onSelect={(universityName) => {
+                  if (universityName === 'OTHER_NOT_LISTED') {
+                    setComparisonScenario(prev => ({
+                      ...prev,
+                      selectedUniversity: '',
+                      isOtherUniversity: true,
+                    }));
+                  } else {
+                    const university = STUDY_DATA.UNIVERSITIES.find(u => u.name === universityName);
+                    if (university) {
+                      setComparisonScenario(prev => ({
+                        ...prev,
+                        selectedUniversity: universityName,
+                        isOtherUniversity: false,
+                        manualRent: undefined,
+                        manualSemesterFee: undefined,
+                        manualTuitionFee: undefined,
+                      }));
+                    }
+                  }
+                }}
                 cardZIndex={90}
               />
-              {comparisonScenario.targetCity && (
-                <SearchableCombobox<string>
-                  options={comparisonAvailableUniversities}
-                  value={comparisonScenario.selectedUniversity}
-                  onChange={(value) => setComparisonScenario(prev => ({ ...prev, selectedUniversity: value }))}
-                  placeholder="Search for a university..."
-                  icon={<GraduationCap className="w-4 h-4" />}
-                  label="Which university do you want to attend?"
-                  cardZIndex={80}
-                />
+
+              {/* Housing Type Selection for Comparison */}
+              {(comparisonScenario.selectedUniversity || comparisonScenario.isOtherUniversity) && (
+                <div className="backdrop-blur-sm bg-slate-950/80 border border-white/10 rounded-xl p-4 hover:bg-slate-950/90 transition-all duration-200 relative z-[10]">
+                  <label className="block text-sm font-medium text-white/80 mb-3 flex items-center gap-2">
+                    <Home className="w-4 h-4" />
+                    {t('housingType')}
+                  </label>
+                  
+                  <div className="space-y-3">
+                    <label className="flex items-start gap-3 cursor-pointer">
+                      <input
+                        type="radio"
+                        name="housingTypeComparison"
+                        value="dorm"
+                        checked={comparisonScenario.housingType === 'dorm'}
+                        onChange={(e) => setComparisonScenario(prev => ({ ...prev, housingType: e.target.value as HousingType, rentOverride: undefined }))}
+                        className="w-4 h-4 mt-0.5 text-blue-600 bg-black/40 border-white/20 focus:ring-blue-500 focus:ring-2"
+                      />
+                      <span className="text-white/80 text-sm">{t('housingTypeDorm')}</span>
+                    </label>
+                    <label className="flex items-start gap-3 cursor-pointer">
+                      <input
+                        type="radio"
+                        name="housingTypeComparison"
+                        value="wg"
+                        checked={comparisonScenario.housingType === 'wg'}
+                        onChange={(e) => setComparisonScenario(prev => ({ ...prev, housingType: e.target.value as HousingType, rentOverride: undefined }))}
+                        className="w-4 h-4 mt-0.5 text-blue-600 bg-black/40 border-white/20 focus:ring-blue-500 focus:ring-2"
+                      />
+                      <span className="text-white/80 text-sm">{t('housingTypeWG')}</span>
+                    </label>
+                    <label className="flex items-start gap-3 cursor-pointer">
+                      <input
+                        type="radio"
+                        name="housingTypeComparison"
+                        value="private"
+                        checked={comparisonScenario.housingType === 'private'}
+                        onChange={(e) => setComparisonScenario(prev => ({ ...prev, housingType: e.target.value as HousingType, rentOverride: undefined }))}
+                        className="w-4 h-4 mt-0.5 text-blue-600 bg-black/40 border-white/20 focus:ring-blue-500 focus:ring-2"
+                      />
+                      <span className="text-white/80 text-sm">{t('housingTypePrivate')}</span>
+                    </label>
+                  </div>
+
+                  {/* Rent Override Input for Comparison */}
+                  <div className="mt-4 pt-4 border-t border-white/10">
+                    <label className="block text-xs text-white/60 mb-2">{t('housingRentOverride')}</label>
+                    <input
+                      type="number"
+                      value={comparisonScenario.rentOverride || ''}
+                      onChange={(e) => setComparisonScenario(prev => ({ ...prev, rentOverride: parseFloat(e.target.value) || undefined }))}
+                      className="w-full bg-black/40 border border-white/10 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                      placeholder="Leave empty to use calculated estimate"
+                    />
+                  </div>
+                </div>
               )}
+
+              {/* Language Course Option for Comparison */}
+              <div className="backdrop-blur-sm bg-slate-950/80 border border-white/10 rounded-xl p-4 hover:bg-slate-950/90 transition-all duration-200 relative z-[10]">
+                <div className="flex items-start justify-between mb-3">
+                  <label className="block text-sm font-medium text-white/80 flex items-center gap-2">
+                    <Book className="w-4 h-4" />
+                    {t('languageCourse')}
+                  </label>
+                </div>
+                
+                <div className="space-y-3">
+                  <label className="flex items-center gap-3 cursor-pointer">
+                    <input
+                      type="checkbox"
+                      checked={comparisonScenario.needsLanguageCourse}
+                      onChange={(e) => setComparisonScenario(prev => ({ 
+                        ...prev, 
+                        needsLanguageCourse: e.target.checked,
+                        languageCourseDuration: e.target.checked ? 6 : 0
+                      }))}
+                      className="w-4 h-4 text-blue-600 bg-black/40 border-white/20 rounded focus:ring-blue-500 focus:ring-2"
+                    />
+                    <span className="text-white/80 text-sm">
+                      {t('languageCourseQuestion')}
+                    </span>
+                  </label>
+                  
+                  {comparisonScenario.needsLanguageCourse && (
+                    <div>
+                      <label className="block text-xs text-white/60 mb-2">
+                        {t('courseDuration')}
+                      </label>
+                      <select
+                        value={comparisonScenario.languageCourseDuration}
+                        onChange={(e) => setComparisonScenario(prev => ({ 
+                          ...prev, 
+                          languageCourseDuration: parseInt(e.target.value) as 3 | 6 | 12 | 0
+                        }))}
+                        className="w-full bg-black/40 border border-white/10 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                      >
+                        <option value={0}>{t('courseDuration')}</option>
+                        <option value={3}>{t('courseDuration3')}</option>
+                        <option value={6}>{t('courseDuration6')}</option>
+                        <option value={12}>{t('courseDuration12')}</option>
+                      </select>
+                    </div>
+                  )}
+                </div>
+              </div>
+
+              {/* Rundfunkbeitrag for Comparison */}
+              <div className="backdrop-blur-sm bg-slate-950/80 border border-white/10 rounded-xl p-4 hover:bg-slate-950/90 transition-all duration-200 relative z-[10]">
+                <div className="flex items-start justify-between mb-3">
+                  <label className="block text-sm font-medium text-white/80 flex items-center gap-2">
+                    <Radio className="w-4 h-4" />
+                    {t('rundfunkbeitrag')}
+                  </label>
+                </div>
+                
+                <div className="space-y-3">
+                  <div className="flex items-center justify-between">
+                    <span className="text-white/70 text-sm">
+                      {formatCurrency((STUDY_DATA.RUNDFUNKBEITRAG.quarterly / 3 / Math.max(1, comparisonScenario.rundfunkbeitragPeople)) * conversionRate, selectedCurrency)}/month
+                    </span>
+                    <span className="text-white/50 text-xs">
+                      {t('rundfunkbeitragMonthly')}
+                    </span>
+                  </div>
+                  <div className="text-white/50 text-xs mb-2">
+                    {t('rundfunkbeitragQuarterly')}
+                  </div>
+                  
+                  <div>
+                    <label className="block text-xs text-white/60 mb-2">
+                      {t('rundfunkbeitragPeople')}
+                    </label>
+                    <input
+                      type="number"
+                      min="1"
+                      value={comparisonScenario.rundfunkbeitragPeople}
+                      onChange={(e) => {
+                        const value = Math.max(1, parseInt(e.target.value) || 1);
+                        setComparisonScenario(prev => ({ ...prev, rundfunkbeitragPeople: value }));
+                      }}
+                      className="w-full bg-black/40 border border-white/10 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    />
+                  </div>
+                </div>
+              </div>
 
               {/* Accommodation Warning for Comparison City */}
               {comparisonScenario.targetCity && highDemandCities.includes(comparisonScenario.targetCity) && (
@@ -2974,9 +3436,61 @@ export default function StudyCostCalculator() {
                   <div className="flex items-start gap-3">
                     <AlertTriangle className="w-5 h-5 text-yellow-400 flex-shrink-0 mt-0.5" />
                     <div>
-                      <h4 className="text-sm font-semibold text-yellow-200 mb-1">Housing Warning</h4>
+                      <h4 className="text-sm font-semibold text-yellow-200 mb-1">{t('housingWarning')}</h4>
                       <p className="text-xs text-yellow-200/90 leading-relaxed">
-                        Note: Housing in {comparisonScenario.targetCity} is extremely scarce. We recommend starting your search 4-6 months before arrival.
+                        {t('housingWarningText', { city: getLocalizedCityName(comparisonScenario.targetCity, locale) })}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              )}
+
+              {/* One-time Arrival Costs Section for Comparison */}
+              {(comparisonScenario.selectedUniversity || comparisonScenario.isOtherUniversity) && comparisonCalculated.monthlyRent > 0 && (
+                <div className="mb-6 backdrop-blur-sm bg-slate-950/80 border border-white/10 rounded-xl p-4 sm:p-6">
+                  <h3 className="text-lg font-bold text-white mb-4 flex items-center gap-2">
+                    <Home className="w-5 h-5" />
+                    {t('arrivalCostsTitle')}
+                  </h3>
+                  <div className="space-y-3">
+                    <div className="flex justify-between items-center">
+                      <div className="flex-1">
+                        <span className="text-white/70 text-sm flex items-center gap-1">
+                          <Lock className="w-3 h-3" />
+                          {t('securityDeposit')}
+                        </span>
+                        <p className="text-white/50 text-xs mt-0.5">
+                          {t('securityDepositNote')}
+                        </p>
+                      </div>
+                      <span className="text-white font-semibold ml-4">
+                        {formatCurrency(comparisonCalculated.securityDeposit * conversionRate, selectedCurrency)}
+                      </span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <div className="flex-1">
+                        <span className="text-white/70 text-sm flex items-center gap-1">
+                          <Building className="w-3 h-3" />
+                          {t('initialHouseholdSetup')}
+                          <span className="text-white/50 text-xs ml-1">({t('estimatedAverage')})</span>
+                        </span>
+                        <p className="text-white/50 text-xs mt-0.5">
+                          {t('initialHouseholdSetupAmount')}
+                        </p>
+                      </div>
+                      <span className="text-white font-semibold ml-4">
+                        {formatCurrency(comparisonCalculated.initialHouseholdSetup * conversionRate, selectedCurrency)}
+                      </span>
+                    </div>
+                    <div className="border-t border-white/20 pt-3 mt-3">
+                      <div className="flex justify-between items-center">
+                        <span className="text-white font-bold">Arrival Costs Total</span>
+                        <span className="text-white font-bold text-lg">
+                          {formatCurrency(comparisonCalculated.arrivalCostsTotal * conversionRate, selectedCurrency)}
+                        </span>
+                      </div>
+                      <p className="text-white/50 text-xs mt-1.5">
+                        Note: This excludes flight costs and is separate from visa/blocked account fees.
                       </p>
                     </div>
                   </div>
@@ -2999,13 +3513,13 @@ export default function StudyCostCalculator() {
               )}
               <div className="space-y-4">
                 <div>
-                  <div className="text-white/70 text-sm mb-2">Monthly Total</div>
+                  <div className="text-white/70 text-sm mb-2">{t('monthlyTotal')}</div>
                   <div className="text-2xl font-bold text-white">
                     {formatCurrency(comparisonCalculated.monthlyTotal * conversionRate, selectedCurrency)}
                   </div>
                 </div>
                 <div>
-                  <div className="text-white/70 text-sm mb-2">Annual Total</div>
+                  <div className="text-white/70 text-sm mb-2">{t('annualTotal')}</div>
                   <div className="text-xl font-bold text-white">
                     {formatCurrency(comparisonCalculated.annualTotal * conversionRate, selectedCurrency)}
                   </div>
