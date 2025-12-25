@@ -1,4 +1,17 @@
 // Google Analytics event tracking utilities
+// Uses gtag directly (available via @next/third-parties/google GoogleAnalytics component)
+
+declare global {
+  interface Window {
+    gtag: (
+      command: 'config' | 'event' | 'js' | 'set',
+      targetId: string | Date,
+      config?: {
+        [key: string]: any;
+      }
+    ) => void;
+  }
+}
 
 export const trackEvent = (
   action: string,

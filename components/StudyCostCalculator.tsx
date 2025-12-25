@@ -954,7 +954,15 @@ export default function StudyCostCalculator() {
       
       // Only track if this is a new calculation (not already tracked)
       if (lastTracked !== calculationKey) {
-        trackEvent('calculate', 'Calculator', calculationKey);
+        trackEvent('calculate_costs', 'Calculator', calculationKey);
+        // Also send GA4 event with custom parameters
+        if (typeof window !== 'undefined' && window.gtag) {
+          window.gtag('event', 'calculate_costs', {
+            selected_city: primaryScenario.targetCity,
+            selected_university: primaryScenario.selectedUniversity || 'none',
+            origin_country: primaryScenario.originCountry,
+          });
+        }
         sessionStorage.setItem('lastCalculationTracked', calculationKey);
       }
     }
@@ -1111,6 +1119,12 @@ export default function StudyCostCalculator() {
   const handleExportPDF = async () => {
     // Track PDF export event
     trackEvent('export_pdf', 'Calculator', isComparisonMode ? 'comparison_mode' : 'single_mode');
+    // Also send GA4 event
+    if (typeof window !== 'undefined' && window.gtag) {
+      window.gtag('event', 'pdf_download', {
+        mode: isComparisonMode ? 'comparison_mode' : 'single_mode',
+      });
+    }
     
     // Determine which element to export based on mode
     const element = isComparisonMode 
@@ -2719,6 +2733,19 @@ export default function StudyCostCalculator() {
                           e.stopPropagation();
                           // Track affiliate link click
                           trackEvent('click_affiliate_link', 'Checklist', item.label || item.id);
+                          // Extract provider name from affiliate link or item label
+                          const providerName = item.affiliateLink.includes('expatrio') ? 'Expatrio' 
+                            : item.affiliateLink.includes('fintiba') ? 'Fintiba'
+                            : item.affiliateLink.includes('feather') ? 'Feather'
+                            : item.affiliateLink.includes('dr-walter') || item.affiliateLink.includes('drwalter') ? 'DR-Walter'
+                            : item.label || item.id;
+                          // Send GA4 event
+                          if (typeof window !== 'undefined' && window.gtag) {
+                            window.gtag('event', 'affiliate_click', {
+                              provider_name: providerName,
+                              checklist_item: item.label || item.id,
+                            });
+                          }
                         }}
                       >
                         <span>{item.affiliateLinkLabel || 'Compare & Open'}</span>

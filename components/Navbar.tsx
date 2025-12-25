@@ -46,6 +46,18 @@ export default function Navbar() {
     setIsMobileMenuOpen(false);
   };
 
+  const handleCurrencyChange = (currency: CurrencyCode) => {
+    const previousCurrency = selectedCurrency;
+    setSelectedCurrency(currency);
+    // Track currency change event
+    if (typeof window !== 'undefined' && window.gtag) {
+      window.gtag('event', 'change_currency', {
+        currency: currency,
+        previous_currency: previousCurrency,
+      });
+    }
+  };
+
   return (
     <nav className="sticky top-0 z-50 backdrop-blur-md bg-slate-950/80 border-b border-slate-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -96,7 +108,7 @@ export default function Navbar() {
                 <button
                   key={currency}
                   type="button"
-                  onClick={() => setSelectedCurrency(currency)}
+                  onClick={() => handleCurrencyChange(currency)}
                   className={`px-3 py-1.5 rounded-full text-xs font-medium transition-all duration-200 ${
                     selectedCurrency === currency
                       ? 'bg-blue-600 text-white shadow-lg'
@@ -166,7 +178,7 @@ export default function Navbar() {
                       key={currency}
                       type="button"
                       onClick={() => {
-                        setSelectedCurrency(currency);
+                        handleCurrencyChange(currency);
                         closeMobileMenu();
                       }}
                       className={`px-3 py-1.5 rounded-full text-xs font-medium transition-all duration-200 ${

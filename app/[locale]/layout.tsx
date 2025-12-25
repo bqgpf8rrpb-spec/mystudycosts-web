@@ -5,8 +5,9 @@ import { routing } from '@/i18n/routing';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import CookieConsent from '@/components/CookieConsent';
-import { GoogleAnalytics } from '@next/third-parties/google';
+import ConditionalGoogleAnalytics from '@/components/ConditionalGoogleAnalytics';
 import { CurrencyProvider } from '@/contexts/CurrencyContext';
+import { CookieConsentProvider } from '@/contexts/CookieConsentContext';
 import type { Metadata } from 'next';
 import '../globals.css';
 
@@ -40,14 +41,16 @@ export default async function LocaleLayout({
   return (
     <html lang={locale}>
       <body>
-        {gaId && <GoogleAnalytics gaId={gaId} />}
         <NextIntlClientProvider messages={messages}>
-          <CurrencyProvider>
-            <Navbar />
-            {children}
-            <Footer />
-            <CookieConsent />
-          </CurrencyProvider>
+          <CookieConsentProvider>
+            {gaId && <ConditionalGoogleAnalytics gaId={gaId} />}
+            <CurrencyProvider>
+              <Navbar />
+              {children}
+              <Footer />
+              <CookieConsent />
+            </CurrencyProvider>
+          </CookieConsentProvider>
         </NextIntlClientProvider>
       </body>
     </html>
