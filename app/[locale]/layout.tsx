@@ -5,6 +5,7 @@ import { routing } from '@/i18n/routing';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import CookieConsent from '@/components/CookieConsent';
+import { GoogleAnalytics } from '@next/third-parties/google';
 import { CurrencyProvider } from '@/contexts/CurrencyContext';
 import type { Metadata } from 'next';
 import '../globals.css';
@@ -34,9 +35,12 @@ export default async function LocaleLayout({
 
   const messages = await getMessages();
 
+  const gaId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
+
   return (
     <html lang={locale}>
       <body>
+        {gaId && <GoogleAnalytics gaId={gaId} />}
         <NextIntlClientProvider messages={messages}>
           <CurrencyProvider>
             <Navbar />

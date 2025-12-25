@@ -3,8 +3,9 @@
 import { useState, useRef, useEffect, useMemo } from 'react';
 import { createPortal } from 'react-dom';
 import { usePathname } from 'next/navigation';
-import { MapPin, Plane, Shield, Building, Euro, Info, Search, ChevronDown, Loader2, ExternalLink, GraduationCap, Download, Wallet, GitCompare, Lock, ArrowRight, CheckCircle2, Circle, AlertTriangle, Database } from 'lucide-react';
+import { MapPin, Plane, Shield, Building, Euro, Info, Search, ChevronDown, Loader2, ExternalLink, GraduationCap, Download, Wallet, GitCompare, Lock, ArrowRight, CheckCircle2, Circle, AlertTriangle, Database, Briefcase, Coins } from 'lucide-react';
 import { useCurrency, type CurrencyCode } from '@/contexts/CurrencyContext';
+import { trackEvent } from '@/lib/analytics';
 
 interface ExchangeRates {
   USD: number;
@@ -275,6 +276,7 @@ const STUDY_DATA = {
 type City = keyof typeof STUDY_DATA.CITIES;
 type OriginCountry = keyof typeof STUDY_DATA.ORIGIN_COUNTRIES;
 type InsuranceType = 'public' | 'private';
+type JobType = 'minijob' | 'working_student';
 
 // Scenario interface for comparison mode
 interface Scenario {
@@ -282,6 +284,7 @@ interface Scenario {
   targetCity: City | '';
   selectedUniversity: string;
   insuranceType: InsuranceType;
+  jobType: JobType;
   hoursPerWeek: number;
   hourlyWage: number;
 }
@@ -298,7 +301,7 @@ interface CalculatedValues {
   annualTotal: number;
   grossMonthlyIncome: number;
   netMonthlyIncome: number;
-  netBalance: number;
+  remainingBudget: number;
 }
 
 // Pre-compute options outside component for performance
@@ -665,7 +668,8 @@ export default function StudyCostCalculator() {
     targetCity: '',
     selectedUniversity: '',
     insuranceType: 'public',
-    hoursPerWeek: 20,
+    jobType: 'minijob',
+    hoursPerWeek: 0,
     hourlyWage: 12.41,
   });
   
@@ -675,7 +679,8 @@ export default function StudyCostCalculator() {
     targetCity: '',
     selectedUniversity: '',
     insuranceType: 'public',
-    hoursPerWeek: 20,
+    jobType: 'minijob',
+    hoursPerWeek: 0,
     hourlyWage: 12.41,
   });
   
@@ -896,19 +901,27 @@ export default function StudyCostCalculator() {
       // Annual costs (12 months)
       const annualTotal = monthlyTotal * 12;
 
-      // Calculate monthly income
-      const grossMonthlyIncome = scenario.hoursPerWeek * 4.33 * scenario.hourlyWage;
+      // Calculate monthly income based on job type
+      let grossMonthlyIncome = 0;
+      let netMonthlyIncome = 0;
       
-      // Net monthly income: subtract social contributions (9.35% pension contribution if earning over 538€)
-      const socialContributionsRate = 0.0935; // 9.35%
-      const socialContributionsThreshold = 538; // €538 threshold
+      if (scenario.jobType === 'minijob') {
+        // Minijob: Hard cap at €538/month
+        // Calculate based on hours and wage, but cap at €538
+        const calculatedIncome = scenario.hoursPerWeek * 4.33 * scenario.hourlyWage;
+        grossMonthlyIncome = Math.min(calculatedIncome, 538);
+        // Minijob: Usually tax-free, no deductions
+        netMonthlyIncome = grossMonthlyIncome;
+      } else {
+        // Working Student: Up to 20 hours/week, apply social security deduction
+        grossMonthlyIncome = scenario.hoursPerWeek * 4.33 * scenario.hourlyWage;
+        // Working Student: ~10% deduction for social security (pension insurance)
+        const socialSecurityRate = 0.10; // 10% for pension insurance
+        netMonthlyIncome = grossMonthlyIncome * (1 - socialSecurityRate);
+      }
       
-      const netMonthlyIncome = grossMonthlyIncome > socialContributionsThreshold
-        ? grossMonthlyIncome - ((grossMonthlyIncome - socialContributionsThreshold) * socialContributionsRate)
-        : grossMonthlyIncome;
-      
-      // Calculate net balance (income - expenses)
-      const netBalance = netMonthlyIncome - monthlyTotal;
+      // Calculate remaining budget (expenses - income)
+      const remainingBudget = monthlyTotal - netMonthlyIncome;
 
       return {
         visaFee,
@@ -921,7 +934,7 @@ export default function StudyCostCalculator() {
         annualTotal,
         grossMonthlyIncome,
         netMonthlyIncome,
-        netBalance,
+        remainingBudget,
       };
     };
   }, []);
@@ -931,6 +944,21 @@ export default function StudyCostCalculator() {
   
   // Calculate values for comparison scenario
   const comparisonCalculated = useMemo(() => calculateScenario(comparisonScenario), [comparisonScenario, calculateScenario]);
+
+  // Track calculation events when user makes meaningful selections
+  useEffect(() => {
+    if (primaryScenario.targetCity && primaryScenario.originCountry) {
+      // Track calculation event with scenario details
+      const calculationKey = `${primaryScenario.originCountry}-${primaryScenario.targetCity}-${primaryScenario.selectedUniversity || 'none'}`;
+      const lastTracked = sessionStorage.getItem('lastCalculationTracked');
+      
+      // Only track if this is a new calculation (not already tracked)
+      if (lastTracked !== calculationKey) {
+        trackEvent('calculate', 'Calculator', calculationKey);
+        sessionStorage.setItem('lastCalculationTracked', calculationKey);
+      }
+    }
+  }, [primaryScenario.targetCity, primaryScenario.originCountry, primaryScenario.selectedUniversity]);
 
   // Filter universities based on selected city (primary)
   const availableUniversities = useMemo(() => {
@@ -1064,7 +1092,7 @@ export default function StudyCostCalculator() {
     annualTotal,
     grossMonthlyIncome,
     netMonthlyIncome,
-    netBalance,
+    remainingBudget,
   } = primaryCalculated;
   
   const blockedAccountTotal = STUDY_DATA.FIXED_COSTS.blockedAccountYearly;
@@ -1077,10 +1105,13 @@ export default function StudyCostCalculator() {
   const convertedFirstYearTotal = (annualTotal + upfrontTotal) * conversionRate;
   const convertedGrossMonthlyIncome = grossMonthlyIncome * conversionRate;
   const convertedNetMonthlyIncome = netMonthlyIncome * conversionRate;
-  const convertedNetBalance = netBalance * conversionRate;
+  const convertedRemainingBudget = remainingBudget * conversionRate;
 
   // PDF Export Function
   const handleExportPDF = async () => {
+    // Track PDF export event
+    trackEvent('export_pdf', 'Calculator', isComparisonMode ? 'comparison_mode' : 'single_mode');
+    
     // Determine which element to export based on mode
     const element = isComparisonMode 
       ? comparisonContainerRef.current 
@@ -1641,30 +1672,159 @@ export default function StudyCostCalculator() {
               </div>
             )}
 
-            {/* Potential Monthly Income Section */}
-            <div className="border-t border-white/20 pt-6 mt-6">
-              <h3 className="text-sm font-semibold text-white/80 uppercase tracking-wide mb-4 flex items-center gap-2">
-                <Wallet className="w-4 h-4" />
-                Potential Monthly Income
-              </h3>
-              
-              <div className="space-y-4">
-                {/* Hours per Week Input */}
-                <div>
-                  <label className="block text-xs text-white/70 mb-2">
-                    Hours per week (Max: 20 for students)
-                  </label>
-                  <input
-                    type="number"
-                    min="0"
-                    max="20"
-                    value={primaryScenario.hoursPerWeek}
-                    onChange={(e) => {
-                      const value = Math.min(20, Math.max(0, parseFloat(e.target.value) || 0));
-                      setPrimaryScenario(prev => ({ ...prev, hoursPerWeek: value }));
-                    }}
-                    className="w-full bg-black/40 border border-white/10 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                  />
+          </div>
+        </div>
+      </div>
+      ) : null}
+
+      {/* Your Financial Balance Card - Separate card below */}
+      {!isComparisonMode && primaryScenario.targetCity && (
+        <div className="mt-6 backdrop-blur-sm bg-gradient-to-br from-purple-600/20 to-blue-600/20 border border-white/20 rounded-xl p-6">
+          <h2 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
+            <Coins className="w-5 h-5" />
+            Your Financial Balance
+          </h2>
+
+          <div className="space-y-4">
+            <div className="flex justify-between items-center py-2 border-b border-white/10">
+              <span className="text-white/80 text-sm">Total Monthly Costs</span>
+              <span className="text-white font-semibold text-lg">
+                {formatCurrency(convertedMonthlyTotal, selectedCurrency)}
+              </span>
+            </div>
+
+            <div className="flex justify-between items-center py-2 border-b border-white/10">
+              <span className="text-white/80 text-sm">Net Job Income</span>
+              <span className="text-white font-semibold text-lg">
+                {formatCurrency(convertedNetMonthlyIncome, selectedCurrency)}
+              </span>
+            </div>
+
+            <div className="pt-4 border-t-2 border-white/20">
+              <div className="flex justify-between items-center mb-2">
+                <span className="text-white/90 text-base font-medium">Remaining Amount to Cover</span>
+                <span className={`font-bold text-2xl ${
+                  convertedRemainingBudget <= 0
+                    ? 'text-green-400'
+                    : convertedRemainingBudget <= 200
+                    ? 'text-yellow-400'
+                    : 'text-red-400'
+                }`}>
+                  {formatCurrency(convertedRemainingBudget, selectedCurrency)}
+                </span>
+              </div>
+              <p className={`text-xs mt-2 ${
+                convertedRemainingBudget <= 0
+                  ? 'text-green-300/80'
+                  : convertedRemainingBudget <= 200
+                  ? 'text-yellow-300/80'
+                  : 'text-red-300/80'
+              }`}>
+                {convertedRemainingBudget <= 0
+                  ? '✓ Your job income covers all monthly expenses!'
+                  : convertedRemainingBudget <= 200
+                  ? '⚠ Small gap - consider additional funding (parents, scholarships, blocked account)'
+                  : '✗ Significant gap - you will need additional funding sources (parents, scholarships, blocked account) to cover monthly expenses'}
+              </p>
+            </div>
+          </div>
+        </div>
+      )}
+      
+      {/* Financial Planning Section - Separate from cost breakdown */}
+      {!isComparisonMode && primaryScenario.targetCity && (
+        <div className="mt-8 backdrop-blur-sm bg-slate-950/80 border border-white/10 rounded-xl p-6">
+          <h2 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
+            <Briefcase className="w-5 h-5" />
+            Financial Planning
+          </h2>
+
+          {/* Job Type Toggle */}
+          <div className="mb-6">
+            <label className="block text-sm font-medium text-white/80 mb-3">Job Type</label>
+            <div className="flex gap-2 bg-slate-900/50 border border-white/10 rounded-lg p-1">
+              <button
+                type="button"
+                onClick={() => {
+                  setPrimaryScenario(prev => ({ 
+                    ...prev, 
+                    jobType: 'minijob',
+                    hoursPerWeek: prev.hoursPerWeek || 0,
+                  }));
+                }}
+                className={`flex-1 px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 ${
+                  primaryScenario.jobType === 'minijob'
+                    ? 'bg-blue-600 text-white shadow-lg'
+                    : 'text-white/70 hover:text-white/90 hover:bg-white/5'
+                }`}
+              >
+                Minijob
+              </button>
+              <button
+                type="button"
+                onClick={() => {
+                  setPrimaryScenario(prev => ({ 
+                    ...prev, 
+                    jobType: 'working_student',
+                    hoursPerWeek: prev.hoursPerWeek || 10,
+                  }));
+                }}
+                className={`flex-1 px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 ${
+                  primaryScenario.jobType === 'working_student'
+                    ? 'bg-blue-600 text-white shadow-lg'
+                    : 'text-white/70 hover:text-white/90 hover:bg-white/5'
+                }`}
+              >
+                Working Student
+              </button>
+            </div>
+          </div>
+
+          {/* Job Rules Info Box */}
+          <div className="mb-6 backdrop-blur-sm bg-blue-950/30 border border-blue-500/30 rounded-lg p-4">
+            <div className="flex items-start gap-3">
+              <Info className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" />
+              <div className="space-y-2">
+                <h4 className="text-sm font-semibold text-blue-200">Job Rules & Limits</h4>
+                {primaryScenario.jobType === 'minijob' ? (
+                  <ul className="text-xs text-blue-200/90 space-y-1 leading-relaxed">
+                    <li>• <strong>Minijob:</strong> Up to €538/month (hard cap). Usually tax-free with no social security deductions.</li>
+                    <li>• Perfect for students who want simple, tax-free income.</li>
+                  </ul>
+                ) : (
+                  <ul className="text-xs text-blue-200/90 space-y-1 leading-relaxed">
+                    <li>• <strong>Working Student:</strong> Up to 20 hours/week during semester. Default minimum wage: €12.41/hour.</li>
+                    <li>• Approx. 10% deduction for pension insurance. Health insurance paid separately at student rate.</li>
+                    <li>• May affect tax-free allowance (Grundfreibetrag).</li>
+                  </ul>
+                )}
+                <p className="text-xs text-blue-200/80 pt-2 border-t border-blue-500/20">
+                  <strong>Legal Limit for International Students:</strong> 140 full days or 280 half-days per year.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="space-y-4">
+            {/* Hours per Week Input */}
+            <div>
+              <label className="block text-xs text-white/70 mb-2">
+                Hours per week {primaryScenario.jobType === 'working_student' ? '(Max: 20 for students)' : '(Will be capped at €538/month)'}
+              </label>
+              <input
+                type="number"
+                min="0"
+                max={primaryScenario.jobType === 'working_student' ? 20 : undefined}
+                value={primaryScenario.hoursPerWeek}
+                onChange={(e) => {
+                  const maxValue = primaryScenario.jobType === 'working_student' ? 20 : Infinity;
+                  const value = Math.min(maxValue, Math.max(0, parseFloat(e.target.value) || 0));
+                  setPrimaryScenario(prev => ({ ...prev, hoursPerWeek: value }));
+                }}
+                className="w-full bg-black/40 border border-white/10 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              />
+              {primaryScenario.jobType === 'working_student' && (
+                <>
                   <input
                     type="range"
                     min="0"
@@ -1677,99 +1837,582 @@ export default function StudyCostCalculator() {
                     <span>0h</span>
                     <span>20h</span>
                   </div>
-                </div>
+                </>
+              )}
+              {primaryScenario.jobType === 'minijob' && (
+                <p className="text-xs text-white/50 mt-1">
+                  Minijob earnings are capped at €538/month regardless of hours worked.
+                </p>
+              )}
+            </div>
 
-                {/* Hourly Wage Input */}
-                <div>
-                  <label className="block text-xs text-white/70 mb-2">
-                    Hourly Wage (€)
-                  </label>
-                  <input
-                    type="number"
-                    min="0"
-                    step="0.01"
-                    value={primaryScenario.hourlyWage}
-                    onChange={(e) => {
-                      const value = Math.max(0, parseFloat(e.target.value) || 0);
-                      setPrimaryScenario(prev => ({ ...prev, hourlyWage: value }));
-                    }}
-                    className="w-full bg-black/40 border border-white/10 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                  />
-                  <p className="text-xs text-white/50 mt-1">
-                    Current German minimum wage: €12.41/hour (2024/25)
-                  </p>
-                </div>
+            {/* Hourly Wage Input */}
+            <div>
+              <label className="block text-xs text-white/70 mb-2">
+                Hourly Wage (€)
+              </label>
+              <input
+                type="number"
+                min="0"
+                step="0.01"
+                value={primaryScenario.hourlyWage}
+                onChange={(e) => {
+                  const value = Math.max(0, parseFloat(e.target.value) || 0);
+                  setPrimaryScenario(prev => ({ ...prev, hourlyWage: value }));
+                }}
+                className="w-full bg-black/40 border border-white/10 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              />
+              <p className="text-xs text-white/50 mt-1">
+                Current German minimum wage: €12.41/hour (2024/25)
+              </p>
+            </div>
 
-                {/* Income Breakdown */}
-                <div className="bg-white/5 rounded-lg p-4 space-y-2">
-                  <div className="flex justify-between items-center">
-                    <span className="text-white/70 text-sm">Gross Monthly Income</span>
-                    <span className="text-white font-semibold">
-                      {formatCurrency(convertedGrossMonthlyIncome, selectedCurrency)}
-                    </span>
-                  </div>
-                  {primaryCalculated.grossMonthlyIncome > 538 && (
-                    <div className="flex justify-between items-center text-xs">
-                      <span className="text-white/50">
-                        Less social contributions (9.35% on income over {formatCurrency(538 * conversionRate, selectedCurrency)})
-                      </span>
-                      <span className="text-white/50">
-                        -{formatCurrency((primaryCalculated.grossMonthlyIncome - 538) * 0.0935 * conversionRate, selectedCurrency)}
-                      </span>
-                    </div>
-                  )}
-                  <div className="border-t border-white/10 pt-2 mt-2">
-                    <div className="flex justify-between items-center">
-                      <span className="text-white/80 text-sm font-medium">Net Monthly Income</span>
-                      <span className="text-white font-bold">
-                        {formatCurrency(convertedNetMonthlyIncome, selectedCurrency)}
-                      </span>
-                    </div>
-                  </div>
+            {/* Income Breakdown */}
+            <div className="bg-white/5 rounded-lg p-4 space-y-2">
+              <div className="flex justify-between items-center">
+                <span className="text-white/70 text-sm">Gross Monthly Income</span>
+                <span className="text-white font-semibold">
+                  {formatCurrency(convertedGrossMonthlyIncome, selectedCurrency)}
+                </span>
+              </div>
+              {primaryScenario.jobType === 'working_student' && primaryCalculated.grossMonthlyIncome > 0 && (
+                <div className="flex justify-between items-center text-xs">
+                  <span className="text-white/50">
+                    Less social security (10% pension insurance)
+                  </span>
+                  <span className="text-white/50">
+                    -{formatCurrency((primaryCalculated.grossMonthlyIncome * 0.10) * conversionRate, selectedCurrency)}
+                  </span>
                 </div>
-
-                {/* Net Balance */}
-                {primaryScenario.targetCity && (
-                  <div className={`rounded-lg p-4 border ${
-                    convertedNetBalance >= 0
-                      ? 'bg-green-950/30 border-green-500/30'
-                      : convertedNetBalance >= -200
-                      ? 'bg-yellow-950/30 border-yellow-500/30'
-                      : 'bg-red-950/30 border-red-500/30'
-                  }`}>
-                    <div className="flex justify-between items-center mb-1">
-                      <span className="text-white/80 text-sm font-medium">Net Monthly Balance</span>
-                      <span className={`font-bold text-lg ${
-                        convertedNetBalance >= 0
-                          ? 'text-green-400'
-                          : convertedNetBalance >= -200
-                          ? 'text-yellow-400'
-                          : 'text-red-400'
-                      }`}>
-                        {formatCurrency(convertedNetBalance, selectedCurrency)}
-                      </span>
-                    </div>
-                    <p className={`text-xs mt-2 ${
-                      convertedNetBalance >= 0
-                        ? 'text-green-300/80'
-                        : convertedNetBalance >= -200
-                        ? 'text-yellow-300/80'
-                        : 'text-red-300/80'
-                    }`}>
-                      {convertedNetBalance >= 0
-                        ? '✓ Your income covers monthly expenses'
-                        : convertedNetBalance >= -200
-                        ? '⚠ Small deficit - consider working more hours or reducing expenses'
-                        : '✗ Significant deficit - additional funding sources may be needed'}
-                    </p>
-                  </div>
-                )}
+              )}
+              {primaryScenario.jobType === 'minijob' && primaryCalculated.grossMonthlyIncome >= 538 && (
+                <div className="flex justify-between items-center text-xs text-yellow-400/80">
+                  <span>Capped at €538/month (Minijob limit)</span>
+                  <span>—</span>
+                </div>
+              )}
+              <div className="border-t border-white/10 pt-2 mt-2">
+                <div className="flex justify-between items-center">
+                  <span className="text-white/80 text-sm font-medium">Net Monthly Income</span>
+                  <span className="text-white font-bold">
+                    {formatCurrency(convertedNetMonthlyIncome, selectedCurrency)}
+                  </span>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      ) : (
+      )}
+
+      {/* Your Financial Balance Card - Separate card below */}
+      {!isComparisonMode && primaryScenario.targetCity && (
+        <div className="mt-6 backdrop-blur-sm bg-gradient-to-br from-purple-600/20 to-blue-600/20 border border-white/20 rounded-xl p-6">
+          <h2 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
+            <Coins className="w-5 h-5" />
+            Your Financial Balance
+          </h2>
+
+          <div className="space-y-4">
+            <div className="flex justify-between items-center py-2 border-b border-white/10">
+              <span className="text-white/80 text-sm">Total Monthly Costs</span>
+              <span className="text-white font-semibold text-lg">
+                {formatCurrency(convertedMonthlyTotal, selectedCurrency)}
+              </span>
+            </div>
+
+            <div className="flex justify-between items-center py-2 border-b border-white/10">
+              <span className="text-white/80 text-sm">Net Job Income</span>
+              <span className="text-white font-semibold text-lg">
+                {formatCurrency(convertedNetMonthlyIncome, selectedCurrency)}
+              </span>
+            </div>
+
+            <div className="pt-4 border-t-2 border-white/20">
+              <div className="flex justify-between items-center mb-2">
+                <span className="text-white/90 text-base font-medium">Remaining Amount to Cover</span>
+                <span className={`font-bold text-2xl ${
+                  convertedRemainingBudget <= 0
+                    ? 'text-green-400'
+                    : convertedRemainingBudget <= 200
+                    ? 'text-yellow-400'
+                    : 'text-red-400'
+                }`}>
+                  {formatCurrency(convertedRemainingBudget, selectedCurrency)}
+                </span>
+              </div>
+              <p className={`text-xs mt-2 ${
+                convertedRemainingBudget <= 0
+                  ? 'text-green-300/80'
+                  : convertedRemainingBudget <= 200
+                  ? 'text-yellow-300/80'
+                  : 'text-red-300/80'
+              }`}>
+                {convertedRemainingBudget <= 0
+                  ? '✓ Your job income covers all monthly expenses!'
+                  : convertedRemainingBudget <= 200
+                  ? '⚠ Small gap - consider additional funding (parents, scholarships, blocked account)'
+                  : '✗ Significant gap - you will need additional funding sources (parents, scholarships, blocked account) to cover monthly expenses'}
+              </p>
+            </div>
+          </div>
+        </div>
+      )}
+      
+      {/* Financial Planning Section - Separate from cost breakdown */}
+      {!isComparisonMode && primaryScenario.targetCity && (
+        <div className="mt-8 backdrop-blur-sm bg-slate-950/80 border border-white/10 rounded-xl p-6">
+          <h2 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
+            <Briefcase className="w-5 h-5" />
+            Financial Planning
+          </h2>
+
+          {/* Job Type Toggle */}
+          <div className="mb-6">
+            <label className="block text-sm font-medium text-white/80 mb-3">Job Type</label>
+            <div className="flex gap-2 bg-slate-900/50 border border-white/10 rounded-lg p-1">
+              <button
+                type="button"
+                onClick={() => {
+                  setPrimaryScenario(prev => ({ 
+                    ...prev, 
+                    jobType: 'minijob',
+                    hoursPerWeek: prev.hoursPerWeek || 0,
+                  }));
+                }}
+                className={`flex-1 px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 ${
+                  primaryScenario.jobType === 'minijob'
+                    ? 'bg-blue-600 text-white shadow-lg'
+                    : 'text-white/70 hover:text-white/90 hover:bg-white/5'
+                }`}
+              >
+                Minijob
+              </button>
+              <button
+                type="button"
+                onClick={() => {
+                  setPrimaryScenario(prev => ({ 
+                    ...prev, 
+                    jobType: 'working_student',
+                    hoursPerWeek: prev.hoursPerWeek || 10,
+                  }));
+                }}
+                className={`flex-1 px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 ${
+                  primaryScenario.jobType === 'working_student'
+                    ? 'bg-blue-600 text-white shadow-lg'
+                    : 'text-white/70 hover:text-white/90 hover:bg-white/5'
+                }`}
+              >
+                Working Student
+              </button>
+            </div>
+          </div>
+
+          {/* Job Rules Info Box */}
+          <div className="mb-6 backdrop-blur-sm bg-blue-950/30 border border-blue-500/30 rounded-lg p-4">
+            <div className="flex items-start gap-3">
+              <Info className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" />
+              <div className="space-y-2">
+                <h4 className="text-sm font-semibold text-blue-200">Job Rules & Limits</h4>
+                {primaryScenario.jobType === 'minijob' ? (
+                  <ul className="text-xs text-blue-200/90 space-y-1 leading-relaxed">
+                    <li>• <strong>Minijob:</strong> Up to €538/month (hard cap). Usually tax-free with no social security deductions.</li>
+                    <li>• Perfect for students who want simple, tax-free income.</li>
+                  </ul>
+                ) : (
+                  <ul className="text-xs text-blue-200/90 space-y-1 leading-relaxed">
+                    <li>• <strong>Working Student:</strong> Up to 20 hours/week during semester. Default minimum wage: €12.41/hour.</li>
+                    <li>• Approx. 10% deduction for pension insurance. Health insurance paid separately at student rate.</li>
+                    <li>• May affect tax-free allowance (Grundfreibetrag).</li>
+                  </ul>
+                )}
+                <p className="text-xs text-blue-200/80 pt-2 border-t border-blue-500/20">
+                  <strong>Legal Limit for International Students:</strong> 140 full days or 280 half-days per year.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="space-y-4">
+            {/* Hours per Week Input */}
+            <div>
+              <label className="block text-xs text-white/70 mb-2">
+                Hours per week {primaryScenario.jobType === 'working_student' ? '(Max: 20 for students)' : '(Will be capped at €538/month)'}
+              </label>
+              <input
+                type="number"
+                min="0"
+                max={primaryScenario.jobType === 'working_student' ? 20 : undefined}
+                value={primaryScenario.hoursPerWeek}
+                onChange={(e) => {
+                  const maxValue = primaryScenario.jobType === 'working_student' ? 20 : Infinity;
+                  const value = Math.min(maxValue, Math.max(0, parseFloat(e.target.value) || 0));
+                  setPrimaryScenario(prev => ({ ...prev, hoursPerWeek: value }));
+                }}
+                className="w-full bg-black/40 border border-white/10 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              />
+              {primaryScenario.jobType === 'working_student' && (
+                <>
+                  <input
+                    type="range"
+                    min="0"
+                    max="20"
+                    value={primaryScenario.hoursPerWeek}
+                    onChange={(e) => setPrimaryScenario(prev => ({ ...prev, hoursPerWeek: parseFloat(e.target.value) }))}
+                    className="w-full mt-2 h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-blue-600"
+                  />
+                  <div className="flex justify-between text-xs text-white/50 mt-1">
+                    <span>0h</span>
+                    <span>20h</span>
+                  </div>
+                </>
+              )}
+              {primaryScenario.jobType === 'minijob' && (
+                <p className="text-xs text-white/50 mt-1">
+                  Minijob earnings are capped at €538/month regardless of hours worked.
+                </p>
+              )}
+            </div>
+
+            {/* Hourly Wage Input */}
+            <div>
+              <label className="block text-xs text-white/70 mb-2">
+                Hourly Wage (€)
+              </label>
+              <input
+                type="number"
+                min="0"
+                step="0.01"
+                value={primaryScenario.hourlyWage}
+                onChange={(e) => {
+                  const value = Math.max(0, parseFloat(e.target.value) || 0);
+                  setPrimaryScenario(prev => ({ ...prev, hourlyWage: value }));
+                }}
+                className="w-full bg-black/40 border border-white/10 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              />
+              <p className="text-xs text-white/50 mt-1">
+                Current German minimum wage: €12.41/hour (2024/25)
+              </p>
+            </div>
+
+            {/* Income Breakdown */}
+            <div className="bg-white/5 rounded-lg p-4 space-y-2">
+              <div className="flex justify-between items-center">
+                <span className="text-white/70 text-sm">Gross Monthly Income</span>
+                <span className="text-white font-semibold">
+                  {formatCurrency(convertedGrossMonthlyIncome, selectedCurrency)}
+                </span>
+              </div>
+              {primaryScenario.jobType === 'working_student' && primaryCalculated.grossMonthlyIncome > 0 && (
+                <div className="flex justify-between items-center text-xs">
+                  <span className="text-white/50">
+                    Less social security (10% pension insurance)
+                  </span>
+                  <span className="text-white/50">
+                    -{formatCurrency((primaryCalculated.grossMonthlyIncome * 0.10) * conversionRate, selectedCurrency)}
+                  </span>
+                </div>
+              )}
+              {primaryScenario.jobType === 'minijob' && primaryCalculated.grossMonthlyIncome >= 538 && (
+                <div className="flex justify-between items-center text-xs text-yellow-400/80">
+                  <span>Capped at €538/month (Minijob limit)</span>
+                  <span>—</span>
+                </div>
+              )}
+              <div className="border-t border-white/10 pt-2 mt-2">
+                <div className="flex justify-between items-center">
+                  <span className="text-white/80 text-sm font-medium">Net Monthly Income</span>
+                  <span className="text-white font-bold">
+                    {formatCurrency(convertedNetMonthlyIncome, selectedCurrency)}
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Your Financial Balance Card - Separate card below */}
+      {!isComparisonMode && primaryScenario.targetCity && (
+        <div className="mt-6 backdrop-blur-sm bg-gradient-to-br from-purple-600/20 to-blue-600/20 border border-white/20 rounded-xl p-6">
+          <h2 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
+            <Coins className="w-5 h-5" />
+            Your Financial Balance
+          </h2>
+
+          <div className="space-y-4">
+            <div className="flex justify-between items-center py-2 border-b border-white/10">
+              <span className="text-white/80 text-sm">Total Monthly Costs</span>
+              <span className="text-white font-semibold text-lg">
+                {formatCurrency(convertedMonthlyTotal, selectedCurrency)}
+              </span>
+            </div>
+
+            <div className="flex justify-between items-center py-2 border-b border-white/10">
+              <span className="text-white/80 text-sm">Net Job Income</span>
+              <span className="text-white font-semibold text-lg">
+                {formatCurrency(convertedNetMonthlyIncome, selectedCurrency)}
+              </span>
+            </div>
+
+            <div className="pt-4 border-t-2 border-white/20">
+              <div className="flex justify-between items-center mb-2">
+                <span className="text-white/90 text-base font-medium">Remaining Amount to Cover</span>
+                <span className={`font-bold text-2xl ${
+                  convertedRemainingBudget <= 0
+                    ? 'text-green-400'
+                    : convertedRemainingBudget <= 200
+                    ? 'text-yellow-400'
+                    : 'text-red-400'
+                }`}>
+                  {formatCurrency(convertedRemainingBudget, selectedCurrency)}
+                </span>
+              </div>
+              <p className={`text-xs mt-2 ${
+                convertedRemainingBudget <= 0
+                  ? 'text-green-300/80'
+                  : convertedRemainingBudget <= 200
+                  ? 'text-yellow-300/80'
+                  : 'text-red-300/80'
+              }`}>
+                {convertedRemainingBudget <= 0
+                  ? '✓ Your job income covers all monthly expenses!'
+                  : convertedRemainingBudget <= 200
+                  ? '⚠ Small gap - consider additional funding (parents, scholarships, blocked account)'
+                  : '✗ Significant gap - you will need additional funding sources (parents, scholarships, blocked account) to cover monthly expenses'}
+              </p>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Financial Planning Section - Separate from cost breakdown */}
+      {!isComparisonMode && primaryScenario.targetCity && (
+        <div className="mt-8 backdrop-blur-sm bg-slate-950/80 border border-white/10 rounded-xl p-6">
+          <h2 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
+            <Briefcase className="w-5 h-5" />
+            Financial Planning
+          </h2>
+
+          {/* Job Type Toggle */}
+          <div className="mb-6">
+            <label className="block text-sm font-medium text-white/80 mb-3">Job Type</label>
+            <div className="flex gap-2 bg-slate-900/50 border border-white/10 rounded-lg p-1">
+              <button
+                type="button"
+                onClick={() => {
+                  setPrimaryScenario(prev => ({ 
+                    ...prev, 
+                    jobType: 'minijob',
+                    hoursPerWeek: prev.hoursPerWeek || 0,
+                  }));
+                }}
+                className={`flex-1 px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 ${
+                  primaryScenario.jobType === 'minijob'
+                    ? 'bg-blue-600 text-white shadow-lg'
+                    : 'text-white/70 hover:text-white/90 hover:bg-white/5'
+                }`}
+              >
+                Minijob
+              </button>
+              <button
+                type="button"
+                onClick={() => {
+                  setPrimaryScenario(prev => ({ 
+                    ...prev, 
+                    jobType: 'working_student',
+                    hoursPerWeek: prev.hoursPerWeek || 10,
+                  }));
+                }}
+                className={`flex-1 px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 ${
+                  primaryScenario.jobType === 'working_student'
+                    ? 'bg-blue-600 text-white shadow-lg'
+                    : 'text-white/70 hover:text-white/90 hover:bg-white/5'
+                }`}
+              >
+                Working Student
+              </button>
+            </div>
+          </div>
+
+          {/* Job Rules Info Box */}
+          <div className="mb-6 backdrop-blur-sm bg-blue-950/30 border border-blue-500/30 rounded-lg p-4">
+            <div className="flex items-start gap-3">
+              <Info className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" />
+              <div className="space-y-2">
+                <h4 className="text-sm font-semibold text-blue-200">Job Rules & Limits</h4>
+                {primaryScenario.jobType === 'minijob' ? (
+                  <ul className="text-xs text-blue-200/90 space-y-1 leading-relaxed">
+                    <li>• <strong>Minijob:</strong> Up to €538/month (hard cap). Usually tax-free with no social security deductions.</li>
+                    <li>• Perfect for students who want simple, tax-free income.</li>
+                  </ul>
+                ) : (
+                  <ul className="text-xs text-blue-200/90 space-y-1 leading-relaxed">
+                    <li>• <strong>Working Student:</strong> Up to 20 hours/week during semester. Default minimum wage: €12.41/hour.</li>
+                    <li>• Approx. 10% deduction for pension insurance. Health insurance paid separately at student rate.</li>
+                    <li>• May affect tax-free allowance (Grundfreibetrag).</li>
+                  </ul>
+                )}
+                <p className="text-xs text-blue-200/80 pt-2 border-t border-blue-500/20">
+                  <strong>Legal Limit for International Students:</strong> 140 full days or 280 half-days per year.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="space-y-4">
+            {/* Hours per Week Input */}
+            <div>
+              <label className="block text-xs text-white/70 mb-2">
+                Hours per week {primaryScenario.jobType === 'working_student' ? '(Max: 20 for students)' : '(Will be capped at €538/month)'}
+              </label>
+              <input
+                type="number"
+                min="0"
+                max={primaryScenario.jobType === 'working_student' ? 20 : undefined}
+                value={primaryScenario.hoursPerWeek}
+                onChange={(e) => {
+                  const maxValue = primaryScenario.jobType === 'working_student' ? 20 : Infinity;
+                  const value = Math.min(maxValue, Math.max(0, parseFloat(e.target.value) || 0));
+                  setPrimaryScenario(prev => ({ ...prev, hoursPerWeek: value }));
+                }}
+                className="w-full bg-black/40 border border-white/10 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              />
+              {primaryScenario.jobType === 'working_student' && (
+                <>
+                  <input
+                    type="range"
+                    min="0"
+                    max="20"
+                    value={primaryScenario.hoursPerWeek}
+                    onChange={(e) => setPrimaryScenario(prev => ({ ...prev, hoursPerWeek: parseFloat(e.target.value) }))}
+                    className="w-full mt-2 h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-blue-600"
+                  />
+                  <div className="flex justify-between text-xs text-white/50 mt-1">
+                    <span>0h</span>
+                    <span>20h</span>
+                  </div>
+                </>
+              )}
+              {primaryScenario.jobType === 'minijob' && (
+                <p className="text-xs text-white/50 mt-1">
+                  Minijob earnings are capped at €538/month regardless of hours worked.
+                </p>
+              )}
+            </div>
+
+            {/* Hourly Wage Input */}
+            <div>
+              <label className="block text-xs text-white/70 mb-2">
+                Hourly Wage (€)
+              </label>
+              <input
+                type="number"
+                min="0"
+                step="0.01"
+                value={primaryScenario.hourlyWage}
+                onChange={(e) => {
+                  const value = Math.max(0, parseFloat(e.target.value) || 0);
+                  setPrimaryScenario(prev => ({ ...prev, hourlyWage: value }));
+                }}
+                className="w-full bg-black/40 border border-white/10 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              />
+              <p className="text-xs text-white/50 mt-1">
+                Current German minimum wage: €12.41/hour (2024/25)
+              </p>
+            </div>
+
+            {/* Income Breakdown */}
+            <div className="bg-white/5 rounded-lg p-4 space-y-2">
+              <div className="flex justify-between items-center">
+                <span className="text-white/70 text-sm">Gross Monthly Income</span>
+                <span className="text-white font-semibold">
+                  {formatCurrency(convertedGrossMonthlyIncome, selectedCurrency)}
+                </span>
+              </div>
+              {primaryScenario.jobType === 'working_student' && primaryCalculated.grossMonthlyIncome > 0 && (
+                <div className="flex justify-between items-center text-xs">
+                  <span className="text-white/50">
+                    Less social security (10% pension insurance)
+                  </span>
+                  <span className="text-white/50">
+                    -{formatCurrency((primaryCalculated.grossMonthlyIncome * 0.10) * conversionRate, selectedCurrency)}
+                  </span>
+                </div>
+              )}
+              {primaryScenario.jobType === 'minijob' && primaryCalculated.grossMonthlyIncome >= 538 && (
+                <div className="flex justify-between items-center text-xs text-yellow-400/80">
+                  <span>Capped at €538/month (Minijob limit)</span>
+                  <span>—</span>
+                </div>
+              )}
+              <div className="border-t border-white/10 pt-2 mt-2">
+                <div className="flex justify-between items-center">
+                  <span className="text-white/80 text-sm font-medium">Net Monthly Income</span>
+                  <span className="text-white font-bold">
+                    {formatCurrency(convertedNetMonthlyIncome, selectedCurrency)}
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Your Financial Balance Card - Separate card below */}
+      {!isComparisonMode && primaryScenario.targetCity && (
+        <div className="mt-6 backdrop-blur-sm bg-gradient-to-br from-purple-600/20 to-blue-600/20 border border-white/20 rounded-xl p-6">
+          <h2 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
+            <Coins className="w-5 h-5" />
+            Your Financial Balance
+          </h2>
+
+          <div className="space-y-4">
+            <div className="flex justify-between items-center py-2 border-b border-white/10">
+              <span className="text-white/80 text-sm">Total Monthly Costs</span>
+              <span className="text-white font-semibold text-lg">
+                {formatCurrency(convertedMonthlyTotal, selectedCurrency)}
+              </span>
+            </div>
+
+            <div className="flex justify-between items-center py-2 border-b border-white/10">
+              <span className="text-white/80 text-sm">Net Job Income</span>
+              <span className="text-white font-semibold text-lg">
+                {formatCurrency(convertedNetMonthlyIncome, selectedCurrency)}
+              </span>
+            </div>
+
+            <div className="pt-4 border-t-2 border-white/20">
+              <div className="flex justify-between items-center mb-2">
+                <span className="text-white/90 text-base font-medium">Remaining Amount to Cover</span>
+                <span className={`font-bold text-2xl ${
+                  convertedRemainingBudget <= 0
+                    ? 'text-green-400'
+                    : convertedRemainingBudget <= 200
+                    ? 'text-yellow-400'
+                    : 'text-red-400'
+                }`}>
+                  {formatCurrency(convertedRemainingBudget, selectedCurrency)}
+                </span>
+              </div>
+              <p className={`text-xs mt-2 ${
+                convertedRemainingBudget <= 0
+                  ? 'text-green-300/80'
+                  : convertedRemainingBudget <= 200
+                  ? 'text-yellow-300/80'
+                  : 'text-red-300/80'
+              }`}>
+                {convertedRemainingBudget <= 0
+                  ? '✓ Your job income covers all monthly expenses!'
+                  : convertedRemainingBudget <= 200
+                  ? '⚠ Small gap - consider additional funding (parents, scholarships, blocked account)'
+                  : '✗ Significant gap - you will need additional funding sources (parents, scholarships, blocked account) to cover monthly expenses'}
+              </p>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {isComparisonMode ? (
         // Comparison mode: Side-by-side view
         <div ref={comparisonContainerRef} className="grid grid-cols-1 md:grid-cols-2 gap-8 relative">
           {/* Primary Scenario Column */}
@@ -1926,7 +2569,7 @@ export default function StudyCostCalculator() {
             </div>
           </div>
         </div>
-      )}
+      ) : null}
       
       {/* Currency Selector - Advanced (only show if not EUR/USD/INR, otherwise use Navbar toggle) */}
       {!['EUR', 'USD', 'INR'].includes(selectedCurrency) && (
@@ -2065,19 +2708,23 @@ export default function StudyCostCalculator() {
                         </a>
                       ))}
                       
-                      {/* Affiliate Link (more prominent button style) */}
-                      {item.affiliateLink && !item.affiliateLink.startsWith('YOUR_') && (
-                        <a
-                          href={item.affiliateLink}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-green-600/20 hover:bg-green-600/30 border border-green-500/30 text-green-400 text-xs font-medium rounded-lg transition-colors"
-                          onClick={(e) => e.stopPropagation()}
-                        >
-                          <span>{item.affiliateLinkLabel || 'Compare & Open'}</span>
-                          <ExternalLink className="w-3 h-3" />
-                        </a>
-                      )}
+                    {/* Affiliate Link (more prominent button style) */}
+                    {item.affiliateLink && !item.affiliateLink.startsWith('YOUR_') && (
+                      <a
+                        href={item.affiliateLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-green-600/20 hover:bg-green-600/30 border border-green-500/30 text-green-400 text-xs font-medium rounded-lg transition-colors"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          // Track affiliate link click
+                          trackEvent('click_affiliate_link', 'Checklist', item.label || item.id);
+                        }}
+                      >
+                        <span>{item.affiliateLinkLabel || 'Compare & Open'}</span>
+                        <ExternalLink className="w-3 h-3" />
+                      </a>
+                    )}
 
                       {/* Info Icon - Show guide */}
                       {item.guide && (
