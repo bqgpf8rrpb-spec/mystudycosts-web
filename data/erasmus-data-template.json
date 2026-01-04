@@ -1,0 +1,31 @@
+[
+  {
+    "germanUniversity": "Technical University of Munich (TUM)",
+    "courseOfStudy": "Computer Science",
+    "partners": [
+      {
+        "name": "ETH Zurich",
+        "city": "Zurich",
+        "country": "Switzerland",
+        "monthlyLivingCost": 1400,
+        "travelCost": 150,
+        "insuranceCost": 80
+      }
+    ]
+  },
+  {
+    "germanUniversity": "Technical University of Munich (TUM)",
+    "courseOfStudy": "Mechanical Engineering",
+    "partners": [
+      {
+        "name": "Example Partner University",
+        "city": "Example City",
+        "country": "France",
+        "monthlyLivingCost": 1200,
+        "travelCost": 120,
+        "insuranceCost": 60
+      }
+    ]
+  }
+]
+
