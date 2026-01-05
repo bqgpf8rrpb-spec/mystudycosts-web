@@ -9,18 +9,21 @@ export default function ErasmusPageContent() {
   const t = useTranslations('ErasmusPage');
   const [selectedUniversity, setSelectedUniversity] = useState<string>('');
   const [selectedProgram, setSelectedProgram] = useState<string>('');
+  const [hasBAfoeg, setHasBAfoeg] = useState<boolean>(false);
 
   const handleSelectionChange = (selection: {
     university: string;
     program: string;
     partner: any;
+    hasBAfoeg: boolean;
   }) => {
     setSelectedUniversity(selection.university);
     setSelectedProgram(selection.program);
+    setHasBAfoeg(selection.hasBAfoeg);
   };
 
   return (
-    <>
+    <div className="pb-32">
       <div className="max-w-7xl mx-auto mb-12 text-center">
         <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
           {t('title')}
@@ -44,8 +47,9 @@ export default function ErasmusPageContent() {
       <ErasmusCalculator 
         selectedUniversity={selectedUniversity}
         selectedProgram={selectedProgram}
+        hasBAfoeg={hasBAfoeg}
       />
-    </>
+    </div>
   );
 }
 

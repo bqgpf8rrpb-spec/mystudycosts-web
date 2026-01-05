@@ -6,7 +6,7 @@ export default async function ErasmusPage({
   params: Promise<{ locale: string }>;
 }) {
   return (
-    <main className="min-h-screen bg-slate-900 py-12 px-4">
+    <main className="min-h-screen bg-slate-900 py-12 px-4 pb-40">
       <ErasmusPageContent />
     </main>
   );

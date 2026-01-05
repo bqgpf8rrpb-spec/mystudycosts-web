@@ -4,539 +4,690 @@
     "city": "Munich",
     "type": "public",
     "semesterFee": 387,
-    "avgRent": 800
+    "avgRent": 800,
+    "institutionType": "University",
+    "state": "Bavaria"
   },
   {
     "name": "Ludwig Maximilian University of Munich (LMU)",
     "city": "Munich",
     "type": "public",
     "semesterFee": 387,
-    "avgRent": 800
+    "avgRent": 800,
+    "institutionType": "University",
+    "state": "Bavaria"
   },
   {
     "name": "Heidelberg University",
     "city": "Heidelberg",
     "type": "public",
     "semesterFee": 371,
-    "avgRent": 750
+    "avgRent": 750,
+    "institutionType": "University",
+    "state": "Baden-Württemberg"
   },
   {
     "name": "Humboldt University of Berlin",
     "city": "Berlin",
     "type": "public",
     "semesterFee": 320,
-    "avgRent": 650
+    "avgRent": 650,
+    "institutionType": "University",
+    "state": "Berlin"
   },
   {
     "name": "Free University of Berlin",
     "city": "Berlin",
     "type": "public",
     "semesterFee": 320,
-    "avgRent": 650
+    "avgRent": 650,
+    "institutionType": "University",
+    "state": "Berlin"
   },
   {
     "name": "Technical University of Berlin (TU Berlin)",
     "city": "Berlin",
     "type": "public",
     "semesterFee": 320,
-    "avgRent": 650
+    "avgRent": 650,
+    "institutionType": "University",
+    "state": "Berlin"
   },
   {
     "name": "University of Freiburg",
     "city": "Freiburg",
     "type": "public",
     "semesterFee": 370,
-    "avgRent": 700
+    "avgRent": 700,
+    "institutionType": "University",
+    "state": "Baden-Württemberg"
   },
   {
     "name": "RWTH Aachen University",
     "city": "Aachen",
     "type": "public",
     "semesterFee": 315,
-    "avgRent": 650
+    "avgRent": 650,
+    "institutionType": "University",
+    "state": "North Rhine-Westphalia"
   },
   {
     "name": "University of Tübingen",
     "city": "Tübingen",
     "type": "public",
     "semesterFee": 370,
-    "avgRent": 680
+    "avgRent": 680,
+    "institutionType": "University",
+    "state": "Baden-Württemberg"
   },
   {
     "name": "University of Bonn",
     "city": "Bonn",
     "type": "public",
     "semesterFee": 350,
-    "avgRent": 700
+    "avgRent": 700,
+    "institutionType": "University",
+    "state": "North Rhine-Westphalia"
   },
   {
     "name": "University of Hamburg",
     "city": "Hamburg",
     "type": "public",
     "semesterFee": 340,
-    "avgRent": 700
+    "avgRent": 700,
+    "institutionType": "University",
+    "state": "Hamburg"
   },
   {
     "name": "University of Göttingen",
     "city": "Göttingen",
     "type": "public",
     "semesterFee": 360,
-    "avgRent": 600
+    "avgRent": 600,
+    "institutionType": "University",
+    "state": "Lower Saxony"
   },
   {
     "name": "Karlsruhe Institute of Technology (KIT)",
     "city": "Karlsruhe",
     "type": "public",
     "semesterFee": 371,
-    "avgRent": 680
+    "avgRent": 680,
+    "institutionType": "University",
+    "state": "Baden-Württemberg"
   },
   {
     "name": "Technical University of Darmstadt",
     "city": "Darmstadt",
     "type": "public",
     "semesterFee": 371,
-    "avgRent": 750
+    "avgRent": 750,
+    "institutionType": "University",
+    "state": "Hesse"
   },
   {
     "name": "University of Cologne",
     "city": "Cologne",
     "type": "public",
     "semesterFee": 320,
-    "avgRent": 680
+    "avgRent": 680,
+    "institutionType": "University",
+    "state": "North Rhine-Westphalia"
   },
   {
     "name": "University of Münster",
     "city": "Münster",
     "type": "public",
     "semesterFee": 320,
-    "avgRent": 650
+    "avgRent": 650,
+    "institutionType": "University",
+    "state": "North Rhine-Westphalia"
   },
   {
     "name": "University of Würzburg",
     "city": "Würzburg",
     "type": "public",
     "semesterFee": 370,
-    "avgRent": 650
+    "avgRent": 650,
+    "institutionType": "University",
+    "state": "Bavaria"
   },
   {
     "name": "University of Erlangen-Nuremberg (FAU)",
     "city": "Erlangen",
     "type": "public",
     "semesterFee": 142,
-    "avgRent": 650
+    "avgRent": 650,
+    "institutionType": "University",
+    "state": "Bavaria"
   },
   {
     "name": "University of Konstanz",
     "city": "Konstanz",
     "type": "public",
     "semesterFee": 370,
-    "avgRent": 700
+    "avgRent": 700,
+    "institutionType": "University",
+    "state": "Baden-Württemberg"
   },
   {
     "name": "University of Mannheim",
     "city": "Mannheim",
     "type": "public",
     "semesterFee": 371,
-    "avgRent": 700
+    "avgRent": 700,
+    "institutionType": "University",
+    "state": "Baden-Württemberg"
   },
   {
     "name": "Technical University of Dresden",
     "city": "Dresden",
     "type": "public",
     "semesterFee": 320,
-    "avgRent": 600
+    "avgRent": 600,
+    "institutionType": "University",
+    "state": "Saxony"
   },
   {
     "name": "University of Leipzig",
     "city": "Leipzig",
     "type": "public",
     "semesterFee": 320,
-    "avgRent": 600
+    "avgRent": 600,
+    "institutionType": "University",
+    "state": "Saxony"
   },
   {
     "name": "University of Stuttgart",
     "city": "Stuttgart",
     "type": "public",
     "semesterFee": 371,
-    "avgRent": 750
+    "avgRent": 750,
+    "institutionType": "University",
+    "state": "Baden-Württemberg"
   },
   {
     "name": "University of Mainz",
     "city": "Mainz",
     "type": "public",
     "semesterFee": 371,
-    "avgRent": 650
+    "avgRent": 650,
+    "institutionType": "University",
+    "state": "Rhineland-Palatinate"
   },
   {
     "name": "University of Kiel",
     "city": "Kiel",
     "type": "public",
     "semesterFee": 360,
-    "avgRent": 600
+    "avgRent": 600,
+    "institutionType": "University",
+    "state": "Schleswig-Holstein"
   },
   {
     "name": "University of Regensburg",
     "city": "Regensburg",
     "type": "public",
     "semesterFee": 142,
-    "avgRent": 600
+    "avgRent": 600,
+    "institutionType": "University",
+    "state": "Bavaria"
   },
   {
     "name": "University of Rostock",
     "city": "Rostock",
     "type": "public",
     "semesterFee": 320,
-    "avgRent": 550
+    "avgRent": 550,
+    "institutionType": "University",
+    "state": "Mecklenburg-Vorpommern"
   },
   {
     "name": "University of Jena",
     "city": "Jena",
     "type": "public",
     "semesterFee": 320,
-    "avgRent": 550
+    "avgRent": 550,
+    "institutionType": "University",
+    "state": "Thuringia"
   },
   {
     "name": "University of Marburg",
     "city": "Marburg",
     "type": "public",
     "semesterFee": 360,
-    "avgRent": 600
+    "avgRent": 600,
+    "institutionType": "University",
+    "state": "Hesse"
   },
   {
     "name": "University of Giessen",
     "city": "Gießen",
     "type": "public",
     "semesterFee": 360,
-    "avgRent": 600
+    "avgRent": 600,
+    "institutionType": "University"
   },
   {
     "name": "University of Duisburg-Essen",
     "city": "Essen",
     "type": "public",
     "semesterFee": 320,
-    "avgRent": 580
+    "avgRent": 580,
+    "institutionType": "University",
+    "state": "North Rhine-Westphalia"
   },
   {
     "name": "University of Bielefeld",
     "city": "Bielefeld",
     "type": "public",
     "semesterFee": 320,
-    "avgRent": 580
+    "avgRent": 580,
+    "institutionType": "University",
+    "state": "North Rhine-Westphalia"
   },
   {
     "name": "University of Bremen",
     "city": "Bremen",
     "type": "public",
     "semesterFee": 320,
-    "avgRent": 650
+    "avgRent": 650,
+    "institutionType": "University",
+    "state": "Bremen"
   },
   {
     "name": "University of Oldenburg",
     "city": "Oldenburg",
     "type": "public",
     "semesterFee": 360,
-    "avgRent": 600
+    "avgRent": 600,
+    "institutionType": "University",
+    "state": "Lower Saxony"
   },
   {
     "name": "University of Osnabrück",
     "city": "Osnabrück",
     "type": "public",
     "semesterFee": 360,
-    "avgRent": 600
+    "avgRent": 600,
+    "institutionType": "University",
+    "state": "Lower Saxony"
   },
   {
     "name": "University of Potsdam",
     "city": "Potsdam",
     "type": "public",
     "semesterFee": 320,
-    "avgRent": 650
+    "avgRent": 650,
+    "institutionType": "University",
+    "state": "Brandenburg"
   },
   {
     "name": "University of Passau",
     "city": "Passau",
     "type": "public",
     "semesterFee": 142,
-    "avgRent": 600
+    "avgRent": 600,
+    "institutionType": "University",
+    "state": "Bavaria"
   },
   {
     "name": "University of Bayreuth",
     "city": "Bayreuth",
     "type": "public",
     "semesterFee": 142,
-    "avgRent": 550
+    "avgRent": 550,
+    "institutionType": "University",
+    "state": "Bavaria"
   },
   {
     "name": "University of Bamberg",
     "city": "Bamberg",
     "type": "public",
     "semesterFee": 142,
-    "avgRent": 580
+    "avgRent": 580,
+    "institutionType": "University",
+    "state": "Bavaria"
   },
   {
     "name": "University of Augsburg",
     "city": "Augsburg",
     "type": "public",
     "semesterFee": 142,
-    "avgRent": 700
+    "avgRent": 700,
+    "institutionType": "University",
+    "state": "Bavaria"
   },
   {
     "name": "University of Kassel",
     "city": "Kassel",
     "type": "public",
     "semesterFee": 360,
-    "avgRent": 580
+    "avgRent": 580,
+    "institutionType": "University",
+    "state": "Hesse"
   },
   {
     "name": "University of Koblenz-Landau",
     "city": "Koblenz",
     "type": "public",
     "semesterFee": 371,
-    "avgRent": 550
+    "avgRent": 550,
+    "institutionType": "University",
+    "state": "Rhineland-Palatinate"
   },
   {
     "name": "University of Greifswald",
     "city": "Greifswald",
     "type": "public",
     "semesterFee": 320,
-    "avgRent": 500
+    "avgRent": 500,
+    "institutionType": "University",
+    "state": "Mecklenburg-Vorpommern"
   },
   {
     "name": "University of Halle-Wittenberg",
     "city": "Halle",
     "type": "public",
     "semesterFee": 320,
-    "avgRent": 550
+    "avgRent": 550,
+    "institutionType": "University",
+    "state": "Saxony-Anhalt"
   },
   {
     "name": "University of Erfurt",
     "city": "Erfurt",
     "type": "public",
     "semesterFee": 320,
-    "avgRent": 550
+    "avgRent": 550,
+    "institutionType": "University",
+    "state": "Thuringia"
   },
   {
     "name": "University of Lübeck",
     "city": "Lübeck",
     "type": "public",
     "semesterFee": 360,
-    "avgRent": 650
+    "avgRent": 650,
+    "institutionType": "University",
+    "state": "Schleswig-Holstein"
   },
   {
     "name": "Technical University of Braunschweig",
     "city": "Braunschweig",
     "type": "public",
     "semesterFee": 360,
-    "avgRent": 600
+    "avgRent": 600,
+    "institutionType": "University",
+    "state": "Lower Saxony"
   },
   {
     "name": "Technical University of Dortmund",
     "city": "Dortmund",
     "type": "public",
     "semesterFee": 320,
-    "avgRent": 600
+    "avgRent": 600,
+    "institutionType": "University",
+    "state": "North Rhine-Westphalia"
   },
   {
     "name": "Technical University of Kaiserslautern",
     "city": "Kaiserslautern",
     "type": "public",
     "semesterFee": 371,
-    "avgRent": 600
+    "avgRent": 600,
+    "institutionType": "University",
+    "state": "Rhineland-Palatinate"
   },
   {
     "name": "Technical University of Chemnitz",
     "city": "Chemnitz",
     "type": "public",
     "semesterFee": 320,
-    "avgRent": 500
+    "avgRent": 500,
+    "institutionType": "University",
+    "state": "Saxony"
   },
   {
     "name": "Leibniz University Hannover",
     "city": "Hanover",
     "type": "public",
     "semesterFee": 360,
-    "avgRent": 650
+    "avgRent": 650,
+    "institutionType": "University",
+    "state": "Lower Saxony"
   },
   {
     "name": "Otto von Guericke University Magdeburg",
     "city": "Magdeburg",
     "type": "public",
     "semesterFee": 320,
-    "avgRent": 550
+    "avgRent": 550,
+    "institutionType": "University",
+    "state": "Saxony-Anhalt"
   },
   {
     "name": "Heinrich Heine University Düsseldorf",
     "city": "Düsseldorf",
     "type": "public",
     "semesterFee": 320,
-    "avgRent": 720
+    "avgRent": 720,
+    "institutionType": "University",
+    "state": "North Rhine-Westphalia"
   },
   {
     "name": "Goethe University Frankfurt",
     "city": "Frankfurt",
     "type": "public",
     "semesterFee": 371,
-    "avgRent": 750
+    "avgRent": 750,
+    "institutionType": "University",
+    "state": "Hesse"
   },
   {
     "name": "University of Hohenheim",
     "city": "Stuttgart",
     "type": "public",
     "semesterFee": 371,
-    "avgRent": 750
+    "avgRent": 750,
+    "institutionType": "University",
+    "state": "Baden-Württemberg"
   },
   {
     "name": "Friedrich Schiller University Jena",
     "city": "Jena",
     "type": "public",
     "semesterFee": 320,
-    "avgRent": 550
+    "avgRent": 550,
+    "institutionType": "University",
+    "state": "Thuringia"
   },
   {
     "name": "Philipps University Marburg",
     "city": "Marburg",
     "type": "public",
     "semesterFee": 360,
-    "avgRent": 600
+    "avgRent": 600,
+    "institutionType": "University",
+    "state": "Hesse"
   },
   {
     "name": "Justus Liebig University Giessen",
     "city": "Gießen",
     "type": "public",
     "semesterFee": 360,
-    "avgRent": 600
+    "avgRent": 600,
+    "institutionType": "University"
   },
   {
     "name": "Martin Luther University Halle-Wittenberg",
     "city": "Halle",
     "type": "public",
     "semesterFee": 320,
-    "avgRent": 550
+    "avgRent": 550,
+    "institutionType": "University",
+    "state": "Saxony-Anhalt"
   },
   {
     "name": "University of Applied Sciences Munich",
     "city": "Munich",
     "type": "public",
     "semesterFee": 387,
-    "avgRent": 800
+    "avgRent": 800,
+    "institutionType": "University",
+    "state": "Bavaria"
   },
   {
     "name": "Berlin University of Applied Sciences (HTW Berlin)",
     "city": "Berlin",
     "type": "public",
     "semesterFee": 320,
-    "avgRent": 650
+    "avgRent": 650,
+    "institutionType": "University",
+    "state": "Berlin"
   },
   {
     "name": "Hamburg University of Applied Sciences (HAW Hamburg)",
     "city": "Hamburg",
     "type": "public",
     "semesterFee": 340,
-    "avgRent": 700
+    "avgRent": 700,
+    "institutionType": "University",
+    "state": "Hamburg"
   },
   {
     "name": "Cologne University of Applied Sciences",
     "city": "Cologne",
     "type": "public",
     "semesterFee": 320,
-    "avgRent": 680
+    "avgRent": 680,
+    "institutionType": "University",
+    "state": "North Rhine-Westphalia"
   },
   {
     "name": "Frankfurt University of Applied Sciences",
     "city": "Frankfurt",
     "type": "public",
     "semesterFee": 371,
-    "avgRent": 750
+    "avgRent": 750,
+    "institutionType": "University",
+    "state": "Hesse"
   },
   {
     "name": "Stuttgart University of Applied Sciences",
     "city": "Stuttgart",
     "type": "public",
     "semesterFee": 371,
-    "avgRent": 750
+    "avgRent": 750,
+    "institutionType": "University",
+    "state": "Baden-Württemberg"
   },
   {
     "name": "Darmstadt University of Applied Sciences",
     "city": "Darmstadt",
     "type": "public",
     "semesterFee": 371,
-    "avgRent": 750
+    "avgRent": 750,
+    "institutionType": "University",
+    "state": "Hesse"
   },
   {
     "name": "Aachen University of Applied Sciences",
     "city": "Aachen",
     "type": "public",
     "semesterFee": 315,
-    "avgRent": 650
+    "avgRent": 650,
+    "institutionType": "University",
+    "state": "North Rhine-Westphalia"
   },
   {
     "name": "Dresden University of Applied Sciences",
     "city": "Dresden",
     "type": "public",
     "semesterFee": 320,
-    "avgRent": 600
+    "avgRent": 600,
+    "institutionType": "University",
+    "state": "Saxony"
   },
   {
     "name": "Essen University of Applied Sciences",
     "city": "Essen",
     "type": "public",
     "semesterFee": 320,
-    "avgRent": 580
+    "avgRent": 580,
+    "institutionType": "University",
+    "state": "North Rhine-Westphalia"
   },
   {
     "name": "Mannheim University of Applied Sciences",
     "city": "Mannheim",
     "type": "public",
     "semesterFee": 371,
-    "avgRent": 700
+    "avgRent": 700,
+    "institutionType": "University",
+    "state": "Baden-Württemberg"
   },
   {
     "name": "Nuremberg University of Applied Sciences",
     "city": "Nuremberg",
     "type": "public",
     "semesterFee": 142,
-    "avgRent": 650
+    "avgRent": 650,
+    "institutionType": "University"
   },
   {
     "name": "Bremen University of Applied Sciences",
     "city": "Bremen",
     "type": "public",
     "semesterFee": 320,
-    "avgRent": 650
+    "avgRent": 650,
+    "institutionType": "University",
+    "state": "Bremen"
   },
   {
     "name": "Hannover University of Applied Sciences",
     "city": "Hanover",
     "type": "public",
     "semesterFee": 360,
-    "avgRent": 650
+    "avgRent": 650,
+    "institutionType": "University",
+    "state": "Lower Saxony"
   },
   {
     "name": "Karlsruhe University of Applied Sciences",
     "city": "Karlsruhe",
     "type": "public",
     "semesterFee": 371,
-    "avgRent": 680
+    "avgRent": 680,
+    "institutionType": "University",
+    "state": "Baden-Württemberg"
   },
   {
     "name": "Munich University of Applied Sciences",
     "city": "Munich",
     "type": "public",
     "semesterFee": 387,
-    "avgRent": 800
+    "avgRent": 800,
+    "institutionType": "University",
+    "state": "Bavaria"
   },
   {
     "name": "Berlin School of Economics and Law",
     "city": "Berlin",
     "type": "public",
     "semesterFee": 320,
-    "avgRent": 650
+    "avgRent": 650,
+    "institutionType": "University",
+    "state": "Berlin"
   },
   {
     "name": "Hamburg School of Business Administration",
     "city": "Hamburg",
     "type": "public",
     "semesterFee": 340,
-    "avgRent": 700
+    "avgRent": 700,
+    "institutionType": "University",
+    "state": "Hamburg"
   },
   {
     "name": "WHU - Otto Beisheim School of Management",
@@ -544,7 +695,8 @@
     "type": "private",
     "semesterFee": 0,
     "avgRent": 600,
-    "tuitionFee": 12000
+    "tuitionFee": 12000,
+    "institutionType": "University"
   },
   {
     "name": "ESMT Berlin",
@@ -552,7 +704,9 @@
     "type": "private",
     "semesterFee": 0,
     "avgRent": 650,
-    "tuitionFee": 15000
+    "tuitionFee": 15000,
+    "institutionType": "University",
+    "state": "Berlin"
   },
   {
     "name": "Frankfurt School of Finance & Management",
@@ -560,7 +714,9 @@
     "type": "private",
     "semesterFee": 0,
     "avgRent": 750,
-    "tuitionFee": 13000
+    "tuitionFee": 13000,
+    "institutionType": "University",
+    "state": "Hesse"
   },
   {
     "name": "SRH Berlin University of Applied Sciences",
@@ -568,7 +724,9 @@
     "type": "private",
     "semesterFee": 0,
     "avgRent": 650,
-    "tuitionFee": 8000
+    "tuitionFee": 8000,
+    "institutionType": "University",
+    "state": "Berlin"
   },
   {
     "name": "IU International University of Applied Sciences",
@@ -576,7 +734,9 @@
     "type": "private",
     "semesterFee": 0,
     "avgRent": 550,
-    "tuitionFee": 6000
+    "tuitionFee": 6000,
+    "institutionType": "University",
+    "state": "Thuringia"
   },
   {
     "name": "Bucerius Law School",
@@ -584,7 +744,9 @@
     "type": "private",
     "semesterFee": 0,
     "avgRent": 700,
-    "tuitionFee": 11000
+    "tuitionFee": 11000,
+    "institutionType": "University",
+    "state": "Hamburg"
   },
   {
     "name": "EBS University of Business and Law",
@@ -592,7 +754,9 @@
     "type": "private",
     "semesterFee": 0,
     "avgRent": 700,
-    "tuitionFee": 10000
+    "tuitionFee": 10000,
+    "institutionType": "University",
+    "state": "Hesse"
   },
   {
     "name": "Jacobs University Bremen",
@@ -600,7 +764,9 @@
     "type": "private",
     "semesterFee": 0,
     "avgRent": 650,
-    "tuitionFee": 20000
+    "tuitionFee": 20000,
+    "institutionType": "University",
+    "state": "Bremen"
   },
   {
     "name": "Bard College Berlin",
@@ -608,7 +774,9 @@
     "type": "private",
     "semesterFee": 0,
     "avgRent": 650,
-    "tuitionFee": 10000
+    "tuitionFee": 10000,
+    "institutionType": "University",
+    "state": "Berlin"
   },
   {
     "name": "Constructor University Bremen",
@@ -616,7 +784,9 @@
     "type": "private",
     "semesterFee": 0,
     "avgRent": 650,
-    "tuitionFee": 20000
+    "tuitionFee": 20000,
+    "institutionType": "University",
+    "state": "Bremen"
   },
   {
     "name": "Hertie School",
@@ -624,7 +794,9 @@
     "type": "private",
     "semesterFee": 0,
     "avgRent": 650,
-    "tuitionFee": 18000
+    "tuitionFee": 18000,
+    "institutionType": "University",
+    "state": "Berlin"
   },
   {
     "name": "University of Europe for Applied Sciences",
@@ -632,7 +804,9 @@
     "type": "private",
     "semesterFee": 0,
     "avgRent": 650,
-    "tuitionFee": 7000
+    "tuitionFee": 7000,
+    "institutionType": "University",
+    "state": "Berlin"
   },
   {
     "name": "SRH Heidelberg University",
@@ -640,7 +814,9 @@
     "type": "private",
     "semesterFee": 0,
     "avgRent": 750,
-    "tuitionFee": 8000
+    "tuitionFee": 8000,
+    "institutionType": "University",
+    "state": "Baden-Württemberg"
   },
   {
     "name": "FOM University of Applied Sciences",
@@ -648,7 +824,9 @@
     "type": "private",
     "semesterFee": 0,
     "avgRent": 580,
-    "tuitionFee": 5000
+    "tuitionFee": 5000,
+    "institutionType": "University",
+    "state": "North Rhine-Westphalia"
   },
   {
     "name": "Fresenius University of Applied Sciences",
@@ -656,42 +834,52 @@
     "type": "private",
     "semesterFee": 0,
     "avgRent": 600,
-    "tuitionFee": 7000
+    "tuitionFee": 7000,
+    "institutionType": "University"
   },
   {
     "name": "Hochschule für Musik und Theater München",
     "city": "Munich",
     "type": "public",
     "semesterFee": 387,
-    "avgRent": 800
+    "avgRent": 800,
+    "institutionType": "FH",
+    "state": "Bavaria"
   },
   {
     "name": "Hochschule für Musik Hanns Eisler Berlin",
     "city": "Berlin",
     "type": "public",
     "semesterFee": 320,
-    "avgRent": 650
+    "avgRent": 650,
+    "institutionType": "FH",
+    "state": "Berlin"
   },
   {
     "name": "University of the Arts Berlin",
     "city": "Berlin",
     "type": "public",
     "semesterFee": 320,
-    "avgRent": 650
+    "avgRent": 650,
+    "institutionType": "University",
+    "state": "Berlin"
   },
   {
     "name": "Academy of Fine Arts Munich",
     "city": "Munich",
     "type": "public",
     "semesterFee": 387,
-    "avgRent": 800
+    "avgRent": 800,
+    "institutionType": "University",
+    "state": "Bavaria"
   },
   {
     "name": "University of Fine Arts Hamburg",
     "city": "Hamburg",
     "type": "public",
     "semesterFee": 340,
-    "avgRent": 700
+    "avgRent": 700,
+    "institutionType": "University",
+    "state": "Hamburg"
   }
 ]
-

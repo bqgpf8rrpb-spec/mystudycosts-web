@@ -1,11 +1,25 @@
 'use client';
 
 import { useState, useMemo, useRef, useEffect } from 'react';
+import { createPortal } from 'react-dom';
+import dynamic from 'next/dynamic';
 import { useTranslations } from 'next-intl';
-import { GraduationCap, Book, MapPin, ChevronDown, Check, Search, X, Euro, AlertCircle } from 'lucide-react';
+import { GraduationCap, Book, MapPin, ChevronDown, Check, Search, X, Euro, AlertCircle, Radio, Plane, CheckCircle, Info, Sparkles } from 'lucide-react';
+import AffiliateLabel from '@/components/AffiliateLabel';
 import erasmusPartnersData from '@/data/erasmus-partners.json';
 import universitiesData from '@/data/universities.json';
 import universityProgramsData from '@/data/university_programs.json';
+import { getProgramName, type StudyProgram } from '@/data/university-program-types';
+
+// Dynamically import the map component to avoid SSR issues
+const ErasmusMap = dynamic(() => import('@/components/ErasmusMap'), {
+  ssr: false,
+  loading: () => (
+    <div className="backdrop-blur-sm bg-slate-950/80 border border-white/10 rounded-xl p-8 text-center h-[500px] flex items-center justify-center">
+      <div className="text-white/60 text-sm">Loading map...</div>
+    </div>
+  ),
+});
 
 interface University {
   name: string;
@@ -35,16 +49,19 @@ interface ErasmusSelectorProps {
     university: string;
     program: string;
     partner: PartnerUniversity | null;
+    hasBAfoeg: boolean;
   }) => void;
 }
 
 export default function ErasmusSelector({ onSelectionChange }: ErasmusSelectorProps) {
   const t = useTranslations('ErasmusSelector');
+  const tBAfoeg = useTranslations('BAfoeg');
 
   // State for selections
   const [selectedUniversity, setSelectedUniversity] = useState<string>('');
   const [selectedProgram, setSelectedProgram] = useState<string>('');
   const [selectedPartner, setSelectedPartner] = useState<PartnerUniversity | null>(null);
+  const [hasBAfoeg, setHasBAfoeg] = useState<boolean>(false);
 
   // State for dropdowns
   const [universityDropdownOpen, setUniversityDropdownOpen] = useState(false);
@@ -54,9 +71,15 @@ export default function ErasmusSelector({ onSelectionChange }: ErasmusSelectorPr
   const [universitySearch, setUniversitySearch] = useState('');
   const [programSearch, setProgramSearch] = useState('');
 
-  // Refs for dropdown containers (relative positioning containers)
+  // State for dropdown positions
+  const [universityDropdownPosition, setUniversityDropdownPosition] = useState({ top: 0, left: 0, width: 0 });
+  const [programDropdownPosition, setProgramDropdownPosition] = useState({ top: 0, left: 0, width: 0 });
+
+  // Refs for dropdown containers and triggers
   const universityContainerRef = useRef<HTMLDivElement>(null);
   const programContainerRef = useRef<HTMLDivElement>(null);
+  const universityTriggerRef = useRef<HTMLDivElement>(null);
+  const programTriggerRef = useRef<HTMLDivElement>(null);
 
   // Get all German universities from the main dataset
   const allUniversities = useMemo(() => {
@@ -84,9 +107,13 @@ export default function ErasmusSelector({ onSelectionChange }: ErasmusSelectorPr
     if (!selectedUniversity) return [];
     
     // Try to get programs from the comprehensive university_programs.json file
-    const programsFromDatabase = (universityProgramsData as Record<string, string[]>)[selectedUniversity];
+    const programsFromDatabase = (universityProgramsData as Record<string, string[] | StudyProgram[]>)[selectedUniversity];
     if (programsFromDatabase && programsFromDatabase.length > 0) {
-      return programsFromDatabase.sort();
+      // Handle both old format (string[]) and new format (StudyProgram[])
+      const programNames = programsFromDatabase.map(prog => 
+        typeof prog === 'string' ? prog : prog.name
+      );
+      return programNames.sort();
     }
     
     // Fallback: Extract programs from erasmus-partners.json for universities not yet in the database
@@ -164,6 +191,7 @@ export default function ErasmusSelector({ onSelectionChange }: ErasmusSelectorPr
       university: universityName,
       program: '',
       partner: null,
+      hasBAfoeg,
     });
   };
 
@@ -177,6 +205,7 @@ export default function ErasmusSelector({ onSelectionChange }: ErasmusSelectorPr
       university: selectedUniversity,
       program,
       partner: null,
+      hasBAfoeg,
     });
   };
 
@@ -187,6 +216,7 @@ export default function ErasmusSelector({ onSelectionChange }: ErasmusSelectorPr
       university: selectedUniversity,
       program: selectedProgram,
       partner,
+      hasBAfoeg,
     });
   };
 
@@ -200,7 +230,9 @@ export default function ErasmusSelector({ onSelectionChange }: ErasmusSelectorPr
       university: '',
       program: '',
       partner: null,
+      hasBAfoeg: false,
     });
+    setHasBAfoeg(false);
   };
 
   const handleClearProgram = () => {
@@ -211,6 +243,7 @@ export default function ErasmusSelector({ onSelectionChange }: ErasmusSelectorPr
       university: selectedUniversity,
       program: '',
       partner: null,
+      hasBAfoeg,
     });
   };
 
@@ -220,32 +253,93 @@ export default function ErasmusSelector({ onSelectionChange }: ErasmusSelectorPr
       university: selectedUniversity,
       program: selectedProgram,
       partner: null,
+      hasBAfoeg,
     });
   };
 
+  // Calculate dropdown positions when opening
+  useEffect(() => {
+    if (universityDropdownOpen && universityTriggerRef.current) {
+      const updatePosition = () => {
+        if (universityTriggerRef.current) {
+          const rect = universityTriggerRef.current.getBoundingClientRect();
+          setUniversityDropdownPosition({
+            top: rect.bottom + 4,
+            left: rect.left,
+            width: rect.width,
+          });
+        }
+      };
+      
+      updatePosition();
+      window.addEventListener('scroll', updatePosition, true);
+      window.addEventListener('resize', updatePosition);
+      
+      return () => {
+        window.removeEventListener('scroll', updatePosition, true);
+        window.removeEventListener('resize', updatePosition);
+      };
+    }
+  }, [universityDropdownOpen]);
+
+  useEffect(() => {
+    if (programDropdownOpen && programTriggerRef.current) {
+      const updatePosition = () => {
+        if (programTriggerRef.current) {
+          const rect = programTriggerRef.current.getBoundingClientRect();
+          setProgramDropdownPosition({
+            top: rect.bottom + 4,
+            left: rect.left,
+            width: rect.width,
+          });
+        }
+      };
+      
+      updatePosition();
+      window.addEventListener('scroll', updatePosition, true);
+      window.addEventListener('resize', updatePosition);
+      
+      return () => {
+        window.removeEventListener('scroll', updatePosition, true);
+        window.removeEventListener('resize', updatePosition);
+      };
+    }
+  }, [programDropdownOpen]);
+
   // Close dropdowns when clicking outside
   useEffect(() => {
+    if (!universityDropdownOpen && !programDropdownOpen) return;
+
     const handleClickOutside = (event: MouseEvent) => {
       const target = event.target as Node;
-      if (
-        universityContainerRef.current && 
-        !universityContainerRef.current.contains(target)
-      ) {
-        setUniversityDropdownOpen(false);
+      const isPortalElement = target instanceof Element && target.closest('[data-dropdown-portal]');
+      
+      if (universityDropdownOpen) {
+        if (
+          universityTriggerRef.current &&
+          !universityTriggerRef.current.contains(target) &&
+          !isPortalElement
+        ) {
+          setUniversityDropdownOpen(false);
+        }
       }
-      if (
-        programContainerRef.current && 
-        !programContainerRef.current.contains(target)
-      ) {
-        setProgramDropdownOpen(false);
+      
+      if (programDropdownOpen) {
+        if (
+          programTriggerRef.current &&
+          !programTriggerRef.current.contains(target) &&
+          !isPortalElement
+        ) {
+          setProgramDropdownOpen(false);
+        }
       }
     };
 
     document.addEventListener('mousedown', handleClickOutside, true);
     return () => document.removeEventListener('mousedown', handleClickOutside, true);
-  }, []);
+  }, [universityDropdownOpen, programDropdownOpen]);
 
-  // Render dropdown component
+  // Render dropdown component via Portal
   const renderDropdown = (
     isOpen: boolean,
     options: (string | University | PartnerUniversity)[],
@@ -253,13 +347,22 @@ export default function ErasmusSelector({ onSelectionChange }: ErasmusSelectorPr
     onSelect: (value: any) => void,
     searchValue: string,
     onSearchChange: (value: string) => void,
+    position: { top: number; left: number; width: number },
     formatOption?: (option: any) => string
   ) => {
     if (!isOpen) return null;
 
-    return (
+    const dropdownContent = (
       <div
-        className="absolute top-full left-0 w-full mt-1 z-[100] bg-slate-900 backdrop-blur-sm border border-white/20 rounded-lg shadow-2xl max-h-60 overflow-hidden flex flex-col"
+        data-dropdown-portal
+        className="bg-slate-900 backdrop-blur-sm border border-white/20 rounded-lg shadow-2xl max-h-96 overflow-hidden flex flex-col"
+        style={{
+          position: 'fixed',
+          top: `${position.top}px`,
+          left: `${position.left}px`,
+          width: `${position.width}px`,
+          zIndex: 9999,
+        }}
       >
         {/* Search input */}
         <div className="p-2 border-b border-white/10">
@@ -271,12 +374,13 @@ export default function ErasmusSelector({ onSelectionChange }: ErasmusSelectorPr
               onChange={(e) => onSearchChange(e.target.value)}
               placeholder={t('searchPlaceholder')}
               className="w-full pl-8 pr-2 py-2 bg-slate-800/50 border border-white/10 rounded text-white placeholder-white/40 text-sm focus:outline-none focus:border-blue-500/50"
+              autoFocus
             />
           </div>
         </div>
 
         {/* Options list */}
-        <div className="overflow-y-auto max-h-48">
+        <div className="overflow-y-auto max-h-80">
           {options.length > 0 ? (
             <ul className="py-1">
               {options.map((option, index) => {
@@ -331,6 +435,8 @@ export default function ErasmusSelector({ onSelectionChange }: ErasmusSelectorPr
         </div>
       </div>
     );
+
+    return typeof document !== 'undefined' ? createPortal(dropdownContent, document.body) : null;
   };
 
   return (
@@ -341,6 +447,7 @@ export default function ErasmusSelector({ onSelectionChange }: ErasmusSelectorPr
           {t('selectUniversity')}
         </label>
         <div
+          ref={universityTriggerRef}
           className={`backdrop-blur-sm bg-slate-950/80 border rounded-lg cursor-pointer transition-all ${
             universityDropdownOpen
               ? 'border-blue-400/50'
@@ -389,6 +496,7 @@ export default function ErasmusSelector({ onSelectionChange }: ErasmusSelectorPr
           handleUniversitySelect,
           universitySearch,
           setUniversitySearch,
+          universityDropdownPosition,
           (uni: University) => `${uni.name} (${uni.city})`
         )}
       </div>
@@ -399,6 +507,7 @@ export default function ErasmusSelector({ onSelectionChange }: ErasmusSelectorPr
           {t('selectProgram')}
         </label>
         <div
+          ref={programTriggerRef}
           className={`backdrop-blur-sm bg-slate-950/80 border rounded-lg transition-all ${
             !selectedUniversity
               ? 'border-white/5 cursor-not-allowed opacity-50'
@@ -448,9 +557,117 @@ export default function ErasmusSelector({ onSelectionChange }: ErasmusSelectorPr
             selectedProgram,
             handleProgramSelect,
             programSearch,
-            setProgramSearch
+            setProgramSearch,
+            programDropdownPosition
           )}
       </div>
+
+      {/* BAföG Toggle - Show after program selection */}
+      {selectedProgram && (
+        <div className="backdrop-blur-sm bg-slate-950/80 border border-white/10 rounded-xl p-4 hover:bg-slate-950/90 transition-all duration-200">
+          <label className="flex items-center gap-3 cursor-pointer">
+            <input
+              type="checkbox"
+              checked={hasBAfoeg}
+              onChange={(e) => {
+                const newValue = e.target.checked;
+                setHasBAfoeg(newValue);
+                onSelectionChange?.({
+                  university: selectedUniversity,
+                  program: selectedProgram,
+                  partner: selectedPartner,
+                  hasBAfoeg: newValue,
+                });
+              }}
+              className="w-4 h-4 text-blue-600 bg-black/40 border-white/20 rounded focus:ring-blue-500 focus:ring-2"
+            />
+            <span className="text-white/80 text-sm flex items-center gap-2">
+              <GraduationCap className="w-4 h-4" />
+              {tBAfoeg('label')}
+            </span>
+          </label>
+        </div>
+      )}
+
+      {/* BAföG Benefits Display - Show when BAföG is active and program is selected */}
+      {selectedProgram && hasBAfoeg && (
+        <div className="backdrop-blur-sm bg-gradient-to-br from-blue-950/40 to-slate-950/80 border border-blue-500/30 rounded-xl p-6 space-y-4">
+          <div className="flex items-center gap-2 mb-2">
+            <Sparkles className="w-5 h-5 text-blue-400" />
+            <h3 className="text-lg font-semibold text-white">{tBAfoeg('title')}</h3>
+          </div>
+          <p className="text-sm text-white/80 mb-4">{tBAfoeg('subtitle')}</p>
+          
+          {/* Social Top-Up - Highlighted */}
+          <div className="bg-green-950/30 border-2 border-green-500/40 rounded-lg p-4 mb-4">
+            <div className="flex items-start gap-3">
+              <div className="flex-shrink-0">
+                <div className="bg-green-500/20 rounded-full p-2">
+                  <Euro className="w-5 h-5 text-green-400" />
+                </div>
+              </div>
+              <div className="flex-1">
+                <div className="flex items-center gap-2 mb-2">
+                  <h4 className="text-sm font-bold text-green-300">{tBAfoeg('socialTopUp.title')}</h4>
+                  <span className="text-lg font-bold text-green-400">{tBAfoeg('socialTopUp.monthlyAmount')}</span>
+                </div>
+                <p className="text-xs text-white/90 mb-1">{tBAfoeg('socialTopUp.description')}</p>
+                <p className="text-xs text-green-300/80 italic">{tBAfoeg('socialTopUp.highlight')}</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Auslands-BAföG - Important Funding Source */}
+          <div className="bg-blue-950/30 border border-blue-500/30 rounded-lg p-4 mb-4">
+            <div className="flex items-start gap-3">
+              <GraduationCap className="w-5 h-5 text-blue-400 mt-0.5 flex-shrink-0" />
+              <div>
+                <h4 className="text-sm font-semibold text-white mb-1">{tBAfoeg('auslandsBAfoeg.title')}</h4>
+                <p className="text-xs text-white/80 mb-2">{tBAfoeg('auslandsBAfoeg.description')}</p>
+                <p className="text-xs text-blue-300/90 font-medium">{tBAfoeg('auslandsBAfoeg.benefits')}</p>
+              </div>
+            </div>
+          </div>
+          
+          {/* Additional Benefits Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+            {/* GEZ / Broadcasting Fee */}
+            <div className="flex items-start gap-2 p-3 bg-slate-900/50 rounded-lg border border-white/5">
+              <Radio className="w-4 h-4 text-blue-400 mt-0.5 flex-shrink-0" />
+              <div>
+                <h4 className="text-xs font-semibold text-white mb-1">{tBAfoeg('benefits.gez.title')}</h4>
+                <p className="text-xs text-white/70">{tBAfoeg('benefits.gez.description')}</p>
+              </div>
+            </div>
+
+            {/* Travel Allowance */}
+            <div className="flex items-start gap-2 p-3 bg-slate-900/50 rounded-lg border border-white/5">
+              <Plane className="w-4 h-4 text-blue-400 mt-0.5 flex-shrink-0" />
+              <div>
+                <h4 className="text-xs font-semibold text-white mb-1">{tBAfoeg('benefits.travelAllowance.title')}</h4>
+                <p className="text-xs text-white/70">{tBAfoeg('benefits.travelAllowance.description')}</p>
+              </div>
+            </div>
+
+            {/* Tuition Fee Coverage */}
+            <div className="flex items-start gap-2 p-3 bg-slate-900/50 rounded-lg border border-white/5">
+              <Euro className="w-4 h-4 text-blue-400 mt-0.5 flex-shrink-0" />
+              <div>
+                <h4 className="text-xs font-semibold text-white mb-1">{tBAfoeg('benefits.tuitionFees.title')}</h4>
+                <p className="text-xs text-white/70">{tBAfoeg('benefits.tuitionFees.description')}</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Disclaimer */}
+          <div className="mt-4 pt-4 border-t border-white/10">
+            <p className="text-xs text-white/60 flex items-start gap-2">
+              <Info className="w-3 h-3 mt-0.5 flex-shrink-0" />
+              {tBAfoeg('disclaimer')}
+            </p>
+          </div>
+        </div>
+      )}
 
       {/* Partner Tiles Grid */}
       {selectedProgram && (
@@ -468,51 +685,64 @@ export default function ErasmusSelector({ onSelectionChange }: ErasmusSelectorPr
               </div>
             </div>
           ) : Array.isArray(partners) && partners.length > 0 ? (
-            // Partners Grid
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-              {partners.map((partner) => {
-                const isSelected = selectedPartner?.name === partner.name && 
-                                   selectedPartner?.city === partner.city &&
-                                   selectedPartner?.country === partner.country;
-                return (
-                  <div
-                    key={`${partner.name}-${partner.city}-${partner.country}`}
-                    onClick={() => handlePartnerSelect(partner)}
-                    className={`backdrop-blur-sm border rounded-lg p-4 cursor-pointer transition-all duration-200 ${
-                      isSelected
-                        ? 'bg-blue-950/30 border-blue-500/50 shadow-lg shadow-blue-500/20'
-                        : 'bg-slate-950/80 border-white/10 hover:border-white/30 hover:bg-slate-950/90'
-                    }`}
-                  >
-                    <div className="flex items-start justify-between gap-3 mb-3">
-                      <div className="flex items-center gap-2 flex-1 min-w-0">
-                        <MapPin className="w-4 h-4 text-blue-400 flex-shrink-0 mt-0.5" />
-                        <div className="flex-1 min-w-0">
-                          <h4 className="text-white font-semibold text-sm truncate">
-                            {partner.name}
-                          </h4>
-                          <p className="text-white/60 text-xs mt-0.5">
-                            {partner.city}, {partner.country}
+            <>
+              {/* Interactive Map View */}
+              <div className="mb-6">
+                <label className="block text-white/70 text-sm font-medium mb-4">
+                  Partner Locations Map
+                </label>
+                <ErasmusMap partners={partners} />
+              </div>
+
+              {/* Partners Grid */}
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                {partners.map((partner) => {
+                  const isSelected = selectedPartner?.name === partner.name && 
+                                     selectedPartner?.city === partner.city &&
+                                     selectedPartner?.country === partner.country;
+                  return (
+                    <div
+                      key={`${partner.name}-${partner.city}-${partner.country}`}
+                      onClick={() => handlePartnerSelect(partner)}
+                      className={`backdrop-blur-sm border rounded-lg p-4 cursor-pointer transition-all duration-200 ${
+                        isSelected
+                          ? 'bg-blue-950/30 border-blue-500/50 shadow-lg shadow-blue-500/20'
+                          : 'bg-slate-950/80 border-white/10 hover:border-white/30 hover:bg-slate-950/90'
+                      }`}
+                    >
+                      <div className="flex items-start justify-between gap-3 mb-3">
+                        <div className="flex items-center gap-2 flex-1 min-w-0">
+                          <MapPin className="w-4 h-4 text-blue-400 flex-shrink-0 mt-0.5" />
+                          <div className="flex-1 min-w-0">
+                            <h4 className="text-white font-semibold text-sm truncate">
+                              {partner.name}
+                            </h4>
+                            <p className="text-white/60 text-xs mt-0.5">
+                              {partner.city}, {partner.country}
+                            </p>
+                          </div>
+                        </div>
+                        {isSelected && (
+                          <Check className="w-5 h-5 text-blue-400 flex-shrink-0" />
+                        )}
+                      </div>
+                      <div className="flex items-center gap-2 pt-3 border-t border-white/10">
+                        <Euro className="w-4 h-4 text-white/60" />
+                        <div className="flex-1">
+                          <p className="text-white/50 text-xs">{t('monthlyCost')}</p>
+                          <p className="text-white font-medium text-sm">
+                            {formatCurrency(partner.monthlyLivingCost)}
                           </p>
                         </div>
                       </div>
-                      {isSelected && (
-                        <Check className="w-5 h-5 text-blue-400 flex-shrink-0" />
-                      )}
-                    </div>
-                    <div className="flex items-center gap-2 pt-3 border-t border-white/10">
-                      <Euro className="w-4 h-4 text-white/60" />
-                      <div>
-                        <p className="text-white/50 text-xs">{t('monthlyCost')}</p>
-                        <p className="text-white font-medium text-sm">
-                          {formatCurrency(partner.monthlyLivingCost)}
-                        </p>
+                      <div className="pt-2 mt-2 border-t border-white/5">
+                        <AffiliateLabel variant="subtle" className="text-center" />
                       </div>
                     </div>
-                  </div>
-                );
-              })}
-            </div>
+                  );
+                })}
+              </div>
+            </>
           ) : (
             // No Partners Found (empty state)
             <div className="backdrop-blur-sm bg-slate-950/80 border border-white/10 rounded-lg p-6">

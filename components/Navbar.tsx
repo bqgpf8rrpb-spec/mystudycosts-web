@@ -29,6 +29,7 @@ export default function Navbar() {
   const menuItems = [
     { href: `${basePath}`, label: 'Home' },
     { href: `${basePath}/calculator`, label: 'Calculator' },
+    { href: `${basePath}/nc-checker`, label: 'NC-Checker' },
     { href: `${basePath}/erasmus`, label: 'Erasmus' },
     { href: `${basePath}/about`, label: 'About' },
     { href: `${basePath}/blog`, label: 'Blog' },

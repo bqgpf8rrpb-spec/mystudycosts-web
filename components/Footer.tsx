@@ -13,6 +13,7 @@ export default function Footer() {
   const mainLinks = [
     { href: `${basePath}`, label: 'Home' },
     { href: `${basePath}/calculator`, label: 'Calculator' },
+    { href: `${basePath}/nc-checker`, label: 'NC-Checker' },
     { href: `${basePath}/about`, label: 'About' },
     { href: `${basePath}/blog`, label: 'Blog' },
   ];
@@ -23,7 +24,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="backdrop-blur-md bg-slate-950/80 border-t border-slate-800 mt-auto">
+    <footer className="backdrop-blur-md bg-slate-950/80 border-t border-slate-800 mt-auto relative z-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="flex flex-col gap-6">
           {/* Main Navigation Links */}
@@ -38,6 +39,16 @@ export default function Footer() {
               </Link>
             ))}
           </nav>
+
+          {/* Divider */}
+          <div className="border-t border-slate-800"></div>
+
+          {/* Affiliate Disclaimer */}
+          <div className="text-center">
+            <p className="text-white/40 text-xs leading-relaxed max-w-2xl mx-auto">
+              Transparenz: Diese Seite wird sich in Zukunft teilweise über Partnerlinks finanzieren. Solche Links werden klar als "Anzeige" gekennzeichnet.
+            </p>
+          </div>
 
           {/* Divider */}
           <div className="border-t border-slate-800"></div>

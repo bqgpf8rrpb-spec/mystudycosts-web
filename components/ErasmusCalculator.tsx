@@ -8,7 +8,6 @@ import {
   Book,
   MapPin,
   Euro,
-  Plane,
   Shield,
   ArrowRight,
   CheckCircle2,
@@ -94,24 +93,27 @@ interface ErasmusPartnerData {
 interface CostBreakdown {
   partner: PartnerUniversity;
   monthlyLivingCost: number;
-  erasmusGrant: number;
+  erasmusGrant: number; // Total grant (base + social top-up if applicable)
   netMonthlyCost: number;
   totalSemesterCost: number;
-  travelCost: number;
   insuranceCost: number;
   totalCost: number;
+  socialTopUp: number; // Social top-up amount (0 if not applicable)
 }
 
 interface ErasmusCalculatorProps {
   selectedUniversity?: string;
   selectedProgram?: string;
+  hasBAfoeg?: boolean;
 }
 
 export default function ErasmusCalculator({ 
   selectedUniversity = '', 
-  selectedProgram = '' 
+  selectedProgram = '',
+  hasBAfoeg = false
 }: ErasmusCalculatorProps) {
   const t = useTranslations('Erasmus');
+  const tBAfoeg = useTranslations('BAfoeg');
   const { selectedCurrency } = useCurrency();
 
   // Exchange rates state
@@ -197,26 +199,31 @@ export default function ErasmusCalculator({
     return (match?.partners as PartnerUniversity[]) || [];
   }, [selectedUniversity, selectedProgram]);
 
+  // Social Top-Up amount for BAföG recipients (2026)
+  const SOCIAL_TOP_UP_AMOUNT = 250;
+
   // Calculate cost breakdowns for each partner
   const costBreakdowns = useMemo((): CostBreakdown[] => {
     return partnerUniversities.map((partner: PartnerUniversity) => {
       const erasmusGrant = ERASMUS_GRANTS_BY_COUNTRY[partner.country] || ERASMUS_GRANTS_BY_COUNTRY['default'];
-      const netMonthlyCost = partner.monthlyLivingCost - erasmusGrant;
+      const socialTopUp = hasBAfoeg ? SOCIAL_TOP_UP_AMOUNT : 0;
+      const totalGrant = erasmusGrant + socialTopUp;
+      const netMonthlyCost = partner.monthlyLivingCost - totalGrant;
       const totalSemesterCost = netMonthlyCost * SEMESTER_DURATION;
-      const totalCost = totalSemesterCost + partner.travelCost + (partner.insuranceCost * SEMESTER_DURATION);
+      const totalCost = totalSemesterCost + (partner.insuranceCost * SEMESTER_DURATION);
 
       return {
         partner,
         monthlyLivingCost: partner.monthlyLivingCost,
-        erasmusGrant,
+        erasmusGrant: totalGrant, // Total grant including social top-up
         netMonthlyCost,
         totalSemesterCost,
-        travelCost: partner.travelCost,
         insuranceCost: partner.insuranceCost,
         totalCost,
+        socialTopUp, // Store separately for display
       };
     });
-  }, [partnerUniversities]);
+  }, [partnerUniversities, hasBAfoeg]);
 
   const formatCurrency = (amount: number): string => {
     const converted = amount * conversionRate;
@@ -285,8 +292,19 @@ export default function ErasmusCalculator({
                   
                   <div className="flex justify-between items-center text-blue-400">
                     <span className="text-sm">{t('erasmusGrant')}</span>
-                    <span className="font-medium">-{formatCurrency(breakdown.erasmusGrant)}</span>
+                    <span className="font-medium">-{formatCurrency(breakdown.erasmusGrant - breakdown.socialTopUp)}</span>
                   </div>
+                  
+                  {/* Social Top-Up (if BAföG recipient) */}
+                  {breakdown.socialTopUp > 0 && (
+                    <div className="flex justify-between items-center text-green-400">
+                      <span className="text-sm flex items-center gap-1">
+                        <CheckCircle2 className="w-3 h-3" />
+                        {tBAfoeg('socialTopUp.monthlyAmount')}
+                      </span>
+                      <span className="font-medium">-{formatCurrency(breakdown.socialTopUp)}</span>
+                    </div>
+                  )}
                   
                   <div className="border-t border-white/10 pt-3">
                     <div className="flex justify-between items-center">
@@ -295,16 +313,7 @@ export default function ErasmusCalculator({
                     </div>
                   </div>
 
-                  <div className="pt-3 border-t border-white/10 space-y-2">
-                    <div className="flex items-center gap-2 mb-2">
-                      <Plane className="w-4 h-4 text-white/60" />
-                      <span className="text-white/70 text-xs">{t('travelCost')}</span>
-                    </div>
-                    <div className="flex justify-between items-center">
-                      <span className="text-white/60 text-sm">{t('oneTime')}</span>
-                      <span className="text-white/80 text-sm">{formatCurrency(breakdown.travelCost)}</span>
-                    </div>
-
+                  <div className="pt-3 border-t border-white/10">
                     <div className="flex items-center gap-2 mb-2">
                       <Shield className="w-4 h-4 text-white/60" />
                       <span className="text-white/70 text-xs">{t('insuranceCost')}</span>
