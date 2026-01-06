@@ -127,7 +127,7 @@ export default function ErasmusMap({ partners }: ErasmusMapProps) {
       <style jsx global>{`
         .leaflet-container {
           background: #0a1628 !important;
-          filter: brightness(0.9) contrast(1.2) saturate(1.5) hue-rotate(190deg) invert(0.05);
+          filter: brightness(1.2) contrast(1.1) hue-rotate(200deg) saturate(1.4);
         }
         .leaflet-tile-container img {
           filter: brightness(0.95) contrast(1.15);
@@ -218,10 +218,11 @@ export default function ErasmusMap({ partners }: ErasmusMapProps) {
         scrollWheelZoom={true}
         className="erasmus-map"
       >
+        {/* CartoDB Dark Matter TileLayer - No API key required */}
         <TileLayer
-          attribution='&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-          url="https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png"
-          subdomains="abcd"
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+          url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+          subdomains={['a', 'b', 'c', 'd']}
         />
         <MapViewUpdater partners={partners} />
         {uniquePartners.map((partner, index) => (
