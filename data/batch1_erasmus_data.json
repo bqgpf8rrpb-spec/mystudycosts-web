@@ -1,0 +1,5081 @@
+[
+  {
+    "university": "TU Berlin",
+    "partners": [
+      {
+        "name": "Politecnico di Milano",
+        "city": "Milan",
+        "country": "Italy",
+        "subject_area": "Architecture/Design"
+      },
+      {
+        "name": "Norwegian University of Science and Technology",
+        "city": "Trondheim",
+        "country": "Norway",
+        "subject_area": "Engineering/Planning"
+      },
+      {
+        "name": "UPC BarcelonaTech",
+        "city": "Barcelona",
+        "country": "Spain",
+        "subject_area": "Computer Science/Telecommunications"
+      },
+      {
+        "name": "Chalmers University",
+        "city": "Gothenburg",
+        "country": "Sweden",
+        "subject_area": "Sustainable Energy/Physics"
+      }
+    ]
+  },
+  {
+    "university": "Uni Hamburg",
+    "partners": [
+      {
+        "name": "Macquarie University",
+        "city": "Macquarie University",
+        "country": "Australien",
+        "subject": "Zentralaustausch"
+      },
+      {
+        "name": "Stellenbosch University",
+        "city": "Stellenbosch University",
+        "country": "Süd-Afrika",
+        "subject": "Zentralaustausch"
+      },
+      {
+        "name": "Fudan Unversity",
+        "city": "Fudan Unversity",
+        "country": "China",
+        "subject": "Nach Ausschreibung"
+      },
+      {
+        "name": "National Taiwan University",
+        "city": "National Taiwan University",
+        "country": "Taiwan",
+        "subject": "Zentralaustausch"
+      },
+      {
+        "name": "Kyoto University",
+        "city": "Kyoto University",
+        "country": "Japan",
+        "subject": "Double Degree Programm der WISO Fakultät"
+      },
+      {
+        "name": "Universidad de Chile",
+        "city": "Universidad de Chile",
+        "country": "Chile",
+        "subject": "Zentralaustausch"
+      },
+      {
+        "name": "Pontifica Catolica de Chile",
+        "city": "Pontifica Catolica de Chile",
+        "country": "Chile",
+        "subject": "Zentralaustausch"
+      },
+      {
+        "name": "University of Campinas",
+        "city": "University of Campinas",
+        "country": "Brasilien",
+        "subject": "Nach Ausschreibung"
+      },
+      {
+        "name": "Georgian Institute for Public Affairs",
+        "city": "Georgian Institute for Public Affairs",
+        "country": "Georgien",
+        "subject": "International Office WISO/BWL Fakultät"
+      },
+      {
+        "name": "University of Nizwa",
+        "city": "University of Nizwa",
+        "country": "Oman",
+        "subject": "Asien-Afrika Institut"
+      },
+      {
+        "name": "10 bis 99 KM",
+        "city": "28 EUR",
+        "country": "56 EUR",
+        "subject": ""
+      },
+      {
+        "name": "100 bis 499 KM",
+        "city": "211 EUR",
+        "country": "285 EUR",
+        "subject": ""
+      },
+      {
+        "name": "500 bis 1.999 KM",
+        "city": "309 EUR",
+        "country": "417 EUR",
+        "subject": ""
+      },
+      {
+        "name": "2.000 bis 2.999 KM",
+        "city": "395 EUR",
+        "country": "535 EUR",
+        "subject": ""
+      },
+      {
+        "name": "3.000 bis 3.999 KM",
+        "city": "580 EUR",
+        "country": "785 EUR",
+        "subject": ""
+      },
+      {
+        "name": "4.000 bis 7.999 KM",
+        "city": "1.188 EUR",
+        "country": "-",
+        "subject": ""
+      },
+      {
+        "name": "8.000 KM oder mehr",
+        "city": "1.735 EUR",
+        "country": "-",
+        "subject": ""
+      }
+    ]
+  },
+  {
+    "university": "TU Dresden",
+    "partners": []
+  },
+  {
+    "university": "Uni Stuttgart",
+    "partners": []
+  },
+  {
+    "university": "LMU München",
+    "partners": [
+      {
+        "name": "Université Paris-Sorbonne",
+        "city": "Paris",
+        "country": "France",
+        "subject_area": "Humanities/Philosophy"
+      },
+      {
+        "name": "Università di Bologna",
+        "city": "Bologna",
+        "country": "Italy",
+        "subject_area": "Law/Medicine"
+      },
+      {
+        "name": "University of Copenhagen",
+        "city": "Copenhagen",
+        "country": "Denmark",
+        "subject_area": "Biology/Physics"
+      },
+      {
+        "name": "King's College London",
+        "city": "London",
+        "country": "United Kingdom",
+        "subject_area": "Medicine/History"
+      },
+      {
+        "name": "Erasmus University Rotterdam",
+        "city": "Rotterdam",
+        "country": "Netherlands",
+        "subject_area": "Business Administration/Economics"
+      }
+    ]
+  },
+  {
+    "university": "Uni Wien",
+    "partners": []
+  },
+  {
+    "university": "Uni Graz",
+    "partners": [
+      {
+        "name": "CommunityCommunityInternationalAm StandortForschung und WirtschaftAbsolvent:innenDie Universität Graz ist Drehscheibe für internationale Forschung",
+        "city": "Vernetzung von Wissenschaft und Wirtschaft sowie für Austausch und Kooperation in den Bereichen Studium und Lehre.Die Universität Graz ist Drehscheibe für internationale Forschung",
+        "country": "Vernetzung von Wissenschaft und Wirtschaft sowie für Austausch und Kooperation in den Bereichen Studium und Lehre.",
+        "subject": ""
+      }
+    ]
+  },
+  {
+    "university": "TU Darmstadt",
+    "partners": [
+      {
+        "name": "Aalto University",
+        "city": "Espoo",
+        "country": "Finland",
+        "subject_area": "Computer Science"
+      },
+      {
+        "name": "Grenoble INP",
+        "city": "Grenoble",
+        "country": "France",
+        "subject_area": "Electrical Engineering"
+      },
+      {
+        "name": "TU Wien",
+        "city": "Vienna",
+        "country": "Austria",
+        "subject_area": "Mechanical Engineering"
+      },
+      {
+        "name": "Chalmers University of Technology",
+        "city": "Gothenburg",
+        "country": "Sweden",
+        "subject_area": "Physics"
+      }
+    ]
+  },
+  {
+    "university": "Uni Potsdam",
+    "partners": [
+      {
+        "name": "UniversitätUP entdeckenOrganisationWirtschaft",
+        "city": "Transfer und GesellschaftCampus InternationalFörderinstrumenteArbeiten an der UP",
+        "country": "",
+        "subject": ""
+      }
+    ]
+  },
+  {
+    "university": "Georg-August-Universität Göttingen",
+    "partners": [
+      {
+        "name": "Université de Montpellier",
+        "city": "Montpellier",
+        "country": "France",
+        "subject_area": "Psychology"
+      },
+      {
+        "name": "Université de Nantes",
+        "city": "Nantes",
+        "country": "France",
+        "subject_area": "Psychology"
+      },
+      {
+        "name": "Université de Toulouse",
+        "city": "Toulouse",
+        "country": "France",
+        "subject_area": "Psychology"
+      },
+      {
+        "name": "Università degli Studi di Padova",
+        "city": "Padua",
+        "country": "Italy",
+        "subject_area": "Psychology"
+      },
+      {
+        "name": "Sapienza Università di Roma",
+        "city": "Rome",
+        "country": "Italy",
+        "subject_area": "Psychology"
+      },
+      {
+        "name": "Jagiellonian University",
+        "city": "Krakow",
+        "country": "Poland",
+        "subject_area": "Psychology"
+      },
+      {
+        "name": "Nicolaus Copernicus University",
+        "city": "Torun",
+        "country": "Poland",
+        "subject_area": "Psychology"
+      },
+      {
+        "name": "Universiteit Gent",
+        "city": "Ghent",
+        "country": "Belgium",
+        "subject_area": "Physics"
+      },
+      {
+        "name": "Aarhus Universitet",
+        "city": "Aarhus",
+        "country": "Denmark",
+        "subject_area": "Physics"
+      },
+      {
+        "name": "Tartu Ülikool",
+        "city": "Tartu",
+        "country": "Estonia",
+        "subject_area": "Physics"
+      }
+    ]
+  },
+  {
+    "university": "Leibniz Universität Hannover",
+    "partners": [
+      {
+        "name": "Universiteit Antwerpen",
+        "city": "Antwerp",
+        "country": "Belgium",
+        "subject_area": "Business and Administration"
+      },
+      {
+        "name": "Universiteit Gent",
+        "city": "Ghent",
+        "country": "Belgium",
+        "subject_area": "Business and Administration"
+      },
+      {
+        "name": "Université de Namur",
+        "city": "Namur",
+        "country": "Belgium",
+        "subject_area": "Economics"
+      },
+      {
+        "name": "University of National and World Economy",
+        "city": "Sofia",
+        "country": "Bulgaria",
+        "subject_area": "Economics"
+      },
+      {
+        "name": "Åbo Akademi University",
+        "city": "Turku",
+        "country": "Finland",
+        "subject_area": "Mathematics/Physics"
+      },
+      {
+        "name": "Universita degli Studi di Torino",
+        "city": "Turin",
+        "country": "Italy",
+        "subject_area": "Mathematics/Physics"
+      },
+      {
+        "name": "Université Paris Diderot",
+        "city": "Paris",
+        "country": "France",
+        "subject_area": "Physics"
+      },
+      {
+        "name": "Universität Wien",
+        "city": "Vienna",
+        "country": "Austria",
+        "subject_area": "Mathematics"
+      },
+      {
+        "name": "University of Birmingham",
+        "city": "Birmingham",
+        "country": "United Kingdom",
+        "subject_area": "Mathematics"
+      }
+    ]
+  },
+  {
+    "university": "Universität Bremen",
+    "partners": [
+      {
+        "name": "Stockholm University",
+        "city": "Stockholm",
+        "country": "Sweden",
+        "subject_area": "Computer Science"
+      },
+      {
+        "name": "KTH Royal Institute of Technology",
+        "city": "Stockholm",
+        "country": "Sweden",
+        "subject_area": "Computer Science"
+      },
+      {
+        "name": "University of Ljubljana",
+        "city": "Ljubljana",
+        "country": "Slovenia",
+        "subject_area": "Computer Science"
+      },
+      {
+        "name": "Universidad Complutense de Madrid",
+        "city": "Madrid",
+        "country": "Spain",
+        "subject_area": "Computer Science"
+      },
+      {
+        "name": "Université Cote d'Azur",
+        "city": "Nice",
+        "country": "France",
+        "subject_area": "Law"
+      },
+      {
+        "name": "National and Kapodistrian University of Athens",
+        "city": "Athens",
+        "country": "Greece",
+        "subject_area": "Law"
+      },
+      {
+        "name": "Università degli Studi di Trento",
+        "city": "Trento",
+        "country": "Italy",
+        "subject_area": "Law"
+      },
+      {
+        "name": "Università degli studi di Roma La Sapienza",
+        "city": "Rome",
+        "country": "Italy",
+        "subject_area": "Law"
+      },
+      {
+        "name": "University of Rijeka",
+        "city": "Rijeka",
+        "country": "Croatia",
+        "subject_area": "Law"
+      }
+    ]
+  },
+  {
+    "university": "Christian-Albrechts-Universität zu Kiel (CAU)",
+    "partners": [
+      {
+        "name": "Københavns Universitet",
+        "city": "Copenhagen",
+        "country": "Denmark",
+        "subject_area": "History"
+      },
+      {
+        "name": "Turun yliopisto",
+        "city": "Turku",
+        "country": "Finland",
+        "subject_area": "History"
+      },
+      {
+        "name": "Université Paris-Sorbonne",
+        "city": "Paris",
+        "country": "France",
+        "subject_area": "History"
+      },
+      {
+        "name": "University of Aberdeen",
+        "city": "Aberdeen",
+        "country": "United Kingdom",
+        "subject_area": "History"
+      },
+      {
+        "name": "Università di Bologna",
+        "city": "Bologna",
+        "country": "Italy",
+        "subject_area": "History"
+      },
+      {
+        "name": "Rijksuniversiteit Groningen",
+        "city": "Groningen",
+        "country": "Netherlands",
+        "subject_area": "History"
+      },
+      {
+        "name": "Universitetet i Bergen",
+        "city": "Bergen",
+        "country": "Norway",
+        "subject_area": "History"
+      },
+      {
+        "name": "Uniwersytet Gdanski",
+        "city": "Gdansk",
+        "country": "Poland",
+        "subject_area": "History"
+      }
+    ]
+  },
+  {
+    "university": "Philipps-Universität Marburg",
+    "partners": [
+      {
+        "name": "Ankara Üniversitesi",
+        "city": "Ankara",
+        "country": "Turkey",
+        "subject_area": "Geography"
+      },
+      {
+        "name": "Universitetet i Bergen",
+        "city": "Bergen",
+        "country": "Norway",
+        "subject_area": "Geography"
+      },
+      {
+        "name": "Tartu Ülikooli",
+        "city": "Tartu",
+        "country": "Estonia",
+        "subject_area": "Geography"
+      },
+      {
+        "name": "Freie Universität Bozen",
+        "city": "Bolzano",
+        "country": "Italy",
+        "subject_area": "Geography"
+      },
+      {
+        "name": "Université Paris 8",
+        "city": "Paris",
+        "country": "France",
+        "subject_area": "Economics/Business"
+      },
+      {
+        "name": "Athens University of Economics and Business",
+        "city": "Athens",
+        "country": "Greece",
+        "subject_area": "Economics/Business"
+      },
+      {
+        "name": "Università degli Studi di Perugia",
+        "city": "Perugia",
+        "country": "Italy",
+        "subject_area": "Economics/Business"
+      },
+      {
+        "name": "Oslo Metropolitan University",
+        "city": "Oslo",
+        "country": "Norway",
+        "subject_area": "Economics/Business"
+      }
+    ]
+  },
+  {
+    "university": "Justus-Liebig-Universität Gießen",
+    "partners": [
+      {
+        "name": "Università di Bologna",
+        "city": "Bologna",
+        "country": "Italy",
+        "subject_area": "Law"
+      },
+      {
+        "name": "Université de Strasbourg",
+        "city": "Strasbourg",
+        "country": "France",
+        "subject_area": "Medicine"
+      },
+      {
+        "name": "Wroclaw University of Economics",
+        "city": "Wroclaw",
+        "country": "Poland",
+        "subject_area": "Economics"
+      },
+      {
+        "name": "University of Lodz",
+        "city": "Lodz",
+        "country": "Poland",
+        "subject_area": "Biology"
+      },
+      {
+        "name": "Ege University",
+        "city": "Izmir",
+        "country": "Turkey",
+        "subject_area": "Agriculture"
+      },
+      {
+        "name": "University of Helsinki",
+        "city": "Helsinki",
+        "country": "Finland",
+        "subject_area": "Veterinary Medicine"
+      }
+    ]
+  },
+  {
+    "university": "TU Braunschweig",
+    "partners": [
+      {
+        "name": "TU Delft",
+        "city": "Delft",
+        "country": "Netherlands",
+        "subject_area": "Architecture"
+      },
+      {
+        "name": "Politecnico di Milano",
+        "city": "Milan",
+        "country": "Italy",
+        "subject_area": "Civil Engineering"
+      },
+      {
+        "name": "KTH Royal Institute of Technology",
+        "city": "Stockholm",
+        "country": "Sweden",
+        "subject_area": "Mechanical Engineering"
+      },
+      {
+        "name": "Universidad de Sevilla",
+        "city": "Sevilla",
+        "country": "Spain",
+        "subject_area": "Electrical Engineering"
+      },
+      {
+        "name": "NTNU Trondheim",
+        "city": "Trondheim",
+        "country": "Norway",
+        "subject_area": "Computer Science"
+      },
+      {
+        "name": "Université de Nantes",
+        "city": "Nantes",
+        "country": "France",
+        "subject_area": "Biology"
+      }
+    ]
+  },
+  {
+    "university": "Martin-Luther-Universität Halle-Wittenberg",
+    "partners": [
+      {
+        "name": "Charles University",
+        "city": "Prague",
+        "country": "Czech Republic",
+        "subject_area": "Medicine"
+      },
+      {
+        "name": "University of Szeged",
+        "city": "Szeged",
+        "country": "Hungary",
+        "subject_area": "Law"
+      },
+      {
+        "name": "Université de Bordeaux",
+        "city": "Bordeaux",
+        "country": "France",
+        "subject_area": "Chemistry"
+      },
+      {
+        "name": "University of Tartu",
+        "city": "Tartu",
+        "country": "Estonia",
+        "subject_area": "Humanities"
+      },
+      {
+        "name": "University of Coimbra",
+        "city": "Coimbra",
+        "country": "Portugal",
+        "subject_area": "Pharmacy"
+      }
+    ]
+  },
+  {
+    "university": "Friedrich-Schiller-Universität Jena",
+    "partners": [
+      {
+        "name": "University of Crete",
+        "city": "Heraklion",
+        "country": "Greece",
+        "subject_area": "Physics/Optics"
+      },
+      {
+        "name": "Université Paris-Nanterre",
+        "city": "Paris",
+        "country": "France",
+        "subject_area": "Philosophy/Arts"
+      },
+      {
+        "name": "Pavia University",
+        "city": "Pavia",
+        "country": "Italy",
+        "subject_area": "Economics"
+      },
+      {
+        "name": "University of Jyväskylä",
+        "city": "Jyväskylä",
+        "country": "Finland",
+        "subject_area": "Education"
+      },
+      {
+        "name": "University of Salamanca",
+        "city": "Salamanca",
+        "country": "Spain",
+        "subject_area": "Social Sciences"
+      }
+    ]
+  },
+  {
+    "university": "TU Chemnitz",
+    "partners": [
+      {
+        "name": "TU Ostrava",
+        "city": "Ostrava",
+        "country": "Czech Republic",
+        "subject_area": "Mechanical Engineering"
+      },
+      {
+        "name": "University of Patras",
+        "city": "Patras",
+        "country": "Greece",
+        "subject_area": "Computer Science"
+      },
+      {
+        "name": "Linnaeus University",
+        "city": "Växjö",
+        "country": "Sweden",
+        "subject_area": "Social Sciences"
+      },
+      {
+        "name": "Università di Verona",
+        "city": "Verona",
+        "country": "Italy",
+        "subject_area": "Economics"
+      },
+      {
+        "name": "Reims Management School",
+        "city": "Reims",
+        "country": "France",
+        "subject_area": "Business"
+      }
+    ]
+  },
+  {
+    "university": "Eberhard Karls Universität Tübingen",
+    "partners": [
+      {
+        "name": "University of Oslo",
+        "city": "Oslo",
+        "country": "Norway",
+        "subject_area": "Theology"
+      },
+      {
+        "name": "University of Zurich",
+        "city": "Zurich",
+        "country": "Switzerland",
+        "subject_area": "Medicine"
+      },
+      {
+        "name": "Aarhus University",
+        "city": "Aarhus",
+        "country": "Denmark",
+        "subject_area": "Archaeology"
+      },
+      {
+        "name": "Uppsala University",
+        "city": "Uppsala",
+        "country": "Sweden",
+        "subject_area": "Law"
+      }
+    ]
+  },
+  {
+    "university": "Albert-Ludwigs-Universität Freiburg",
+    "partners": [
+      {
+        "name": "Université de Strasbourg",
+        "city": "Strasbourg",
+        "country": "France",
+        "subject_area": "Forestry and Environmental Sciences"
+      },
+      {
+        "name": "University of Basel",
+        "city": "Basel",
+        "country": "Switzerland",
+        "subject_area": "History"
+      },
+      {
+        "name": "Universidad de Granada",
+        "city": "Granada",
+        "country": "Spain",
+        "subject_area": "Social Sciences"
+      },
+      {
+        "name": "University of Amsterdam",
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "subject_area": "Political Science"
+      }
+    ]
+  },
+  {
+    "university": "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)",
+    "partners": [
+      {
+        "name": "KTH Royal Institute of Technology",
+        "city": "Stockholm",
+        "country": "Sweden",
+        "subject_area": "Engineering"
+      },
+      {
+        "name": "Politecnico di Torino",
+        "city": "Turin",
+        "country": "Italy",
+        "subject_area": "Mechanical Engineering"
+      },
+      {
+        "name": "EMLYON Business School",
+        "city": "Lyon",
+        "country": "France",
+        "subject_area": "Business Administration"
+      },
+      {
+        "name": "University of Valencia",
+        "city": "Valencia",
+        "country": "Spain",
+        "subject_area": "Chemistry"
+      }
+    ]
+  },
+  {
+    "university": "Universität Passau",
+    "partners": [
+      {
+        "name": "King's College London",
+        "city": "London",
+        "country": "United Kingdom",
+        "subject_area": "Law"
+      },
+      {
+        "name": "Corvinus University",
+        "city": "Budapest",
+        "country": "Hungary",
+        "subject_area": "Economics"
+      },
+      {
+        "name": "University of Vienna",
+        "city": "Vienna",
+        "country": "Austria",
+        "subject_area": "Cultural Studies"
+      }
+    ]
+  },
+  {
+    "university": "Universität Hohenheim",
+    "partners": [
+      {
+        "name": "Wageningen University",
+        "city": "Wageningen",
+        "country": "Netherlands",
+        "subject_area": "Agricultural Sciences"
+      },
+      {
+        "name": "University of Life Sciences",
+        "city": "Prague",
+        "country": "Czech Republic",
+        "subject_area": "Bioeconomy"
+      },
+      {
+        "name": "BOKU Wien",
+        "city": "Vienna",
+        "country": "Austria",
+        "subject_area": "Food Technology"
+      }
+    ]
+  },
+  {
+    "university": "Universität Konstanz",
+    "partners": [
+      {
+        "name": "University of Essex",
+        "city": "Colchester",
+        "country": "United Kingdom",
+        "subject_area": "Politics"
+      },
+      {
+        "name": "Pompeu Fabra University",
+        "city": "Barcelona",
+        "country": "Spain",
+        "subject_area": "Economics"
+      },
+      {
+        "name": "University of Gothenburg",
+        "city": "Gothenburg",
+        "country": "Sweden",
+        "subject_area": "Biology"
+      }
+    ]
+  },
+  {
+    "university": "Universität Regensburg",
+    "partners": [
+      {
+        "name": "University of Ferrara",
+        "city": "Ferrara",
+        "country": "Italy",
+        "subject_area": "Medicine"
+      },
+      {
+        "name": "University of Ljubljana",
+        "city": "Ljubljana",
+        "country": "Slovenia",
+        "subject_area": "Law"
+      },
+      {
+        "name": "Masaryk University",
+        "city": "Brno",
+        "country": "Czech Republic",
+        "subject_area": "Slavic Studies"
+      }
+    ]
+  },
+  {
+    "university": "Julius-Maximilians-Universität Würzburg",
+    "partners": [
+      {
+        "name": "University of Caen Normandy",
+        "city": "Caen",
+        "country": "France",
+        "subject_area": "Biology"
+      },
+      {
+        "name": "Umea University",
+        "city": "Umea",
+        "country": "Sweden",
+        "subject_area": "Geography"
+      },
+      {
+        "name": "University of Padua",
+        "city": "Padua",
+        "country": "Italy",
+        "subject_area": "Psychology"
+      }
+    ]
+  },
+  {
+    "university": "Universität Augsburg",
+    "partners": [
+      {
+        "name": "University of Bordeaux",
+        "city": "Bordeaux",
+        "country": "France",
+        "subject_area": "Law"
+      },
+      {
+        "name": "University of Maribor",
+        "city": "Maribor",
+        "country": "Slovenia",
+        "subject_area": "Computer Science"
+      },
+      {
+        "name": "Hanken School of Economics",
+        "city": "Helsinki",
+        "country": "Finland",
+        "subject_area": "Business"
+      }
+    ]
+  },
+  {
+    "university": "Heinrich-Heine-Universität Düsseldorf",
+    "partners": [
+      {
+        "name": "Nantes Université",
+        "city": "Nantes",
+        "country": "France",
+        "subject_area": "Medicine"
+      },
+      {
+        "name": "University of Alicante",
+        "city": "Alicante",
+        "country": "Spain",
+        "subject_area": "Law"
+      },
+      {
+        "name": "Stockholm University",
+        "city": "Stockholm",
+        "country": "Sweden",
+        "subject_area": "Biology"
+      },
+      {
+        "name": "University of Bari Aldo Moro",
+        "city": "Bari",
+        "country": "Italy",
+        "subject_area": "Pharmacy"
+      }
+    ]
+  },
+  {
+    "university": "Ruhr-Universität Bochum (RUB)",
+    "partners": [
+      {
+        "name": "Erasmus University Rotterdam",
+        "city": "Rotterdam",
+        "country": "Netherlands",
+        "subject_area": "Psychology/Cognitive Science"
+      },
+      {
+        "name": "Strasbourg University",
+        "city": "Strasbourg",
+        "country": "France",
+        "subject_area": "Mechanical Engineering"
+      },
+      {
+        "name": "University of Turku",
+        "city": "Turku",
+        "country": "Finland",
+        "subject_area": "Medicine"
+      },
+      {
+        "name": "Wroclaw University of Science and Technology",
+        "city": "Wroclaw",
+        "country": "Poland",
+        "subject_area": "Civil Engineering"
+      }
+    ]
+  },
+  {
+    "university": "TU Dortmund",
+    "partners": [
+      {
+        "name": "Istanbul Technical University",
+        "city": "Istanbul",
+        "country": "Turkey",
+        "subject_area": "Architecture"
+      },
+      {
+        "name": "University of Sheffield",
+        "city": "Sheffield",
+        "country": "United Kingdom",
+        "subject_area": "Urban Planning"
+      },
+      {
+        "name": "Politechnika Warszawska",
+        "city": "Warsaw",
+        "country": "Poland",
+        "subject_area": "Statistics"
+      },
+      {
+        "name": "Dublin City University",
+        "city": "Dublin",
+        "country": "Ireland",
+        "subject_area": "Journalism"
+      }
+    ]
+  },
+  {
+    "university": "Universität Siegen",
+    "partners": [
+      {
+        "name": "Linköping University",
+        "city": "Linköping",
+        "country": "Sweden",
+        "subject_area": "Media Studies"
+      },
+      {
+        "name": "University of Ljubljana",
+        "city": "Ljubljana",
+        "country": "Slovenia",
+        "subject_area": "Business Administration"
+      },
+      {
+        "name": "University of Orléans",
+        "city": "Orléans",
+        "country": "France",
+        "subject_area": "Physics"
+      }
+    ]
+  },
+  {
+    "university": "Universität Kassel",
+    "partners": [
+      {
+        "name": "University of Architecture and Civil Engineering",
+        "city": "Sofia",
+        "country": "Bulgaria",
+        "subject_area": "Environmental Engineering"
+      },
+      {
+        "name": "Academy of Fine Arts Vienna",
+        "city": "Vienna",
+        "country": "Austria",
+        "subject_area": "Fine Arts"
+      },
+      {
+        "name": "University of Thessaly",
+        "city": "Volos",
+        "country": "Greece",
+        "subject_area": "Agriculture"
+      }
+    ]
+  },
+  {
+    "university": "Universität Paderborn",
+    "partners": [
+      {
+        "name": "Tallinn University of Technology",
+        "city": "Tallinn",
+        "country": "Estonia",
+        "subject_area": "Computer Science"
+      },
+      {
+        "name": "University of Zaragoza",
+        "city": "Zaragoza",
+        "country": "Spain",
+        "subject_area": "Economics"
+      },
+      {
+        "name": "Le Mans University",
+        "city": "Le Mans",
+        "country": "France",
+        "subject_area": "Acoustics/Physics"
+      }
+    ]
+  },
+  {
+    "university": "Bergische Universität Wuppertal",
+    "partners": [
+      {
+        "name": "University of Porto",
+        "city": "Porto",
+        "country": "Portugal",
+        "subject_area": "Industrial Design"
+      },
+      {
+        "name": "Vilnius Gediminas Technical University",
+        "city": "Vilnius",
+        "country": "Lithuania",
+        "subject_area": "Safety Engineering"
+      },
+      {
+        "name": "University of Chemistry and Technology",
+        "city": "Prague",
+        "country": "Czech Republic",
+        "subject_area": "Chemistry"
+      }
+    ]
+  },
+  {
+    "university": "Universität Duisburg-Essen",
+    "partners": [
+      {
+        "name": "Radboud University",
+        "city": "Nijmegen",
+        "country": "Netherlands",
+        "subject_area": "Water Science"
+      },
+      {
+        "name": "University of Miskolc",
+        "city": "Miskolc",
+        "country": "Hungary",
+        "subject_area": "Engineering"
+      },
+      {
+        "name": "University of Seville",
+        "city": "Seville",
+        "country": "Spain",
+        "subject_area": "Biology"
+      }
+    ]
+  },
+  {
+    "university": "Universität Bielefeld",
+    "partners": [
+      {
+        "name": "University of Warsaw",
+        "city": "Warsaw",
+        "country": "Poland",
+        "subject_area": "Sociology"
+      },
+      {
+        "name": "Lund University",
+        "city": "Lund",
+        "country": "Sweden",
+        "subject_area": "Biology/Genetics"
+      },
+      {
+        "name": "University of Granada",
+        "city": "Granada",
+        "country": "Spain",
+        "subject_area": "Educational Science"
+      }
+    ]
+  },
+  {
+    "university": "Technische Universität Dresden",
+    "partners": [
+      {
+        "name": "TU Delft",
+        "city": "Delft",
+        "country": "Netherlands",
+        "subject_area": "Civil Engineering"
+      },
+      {
+        "name": "NTNU Trondheim",
+        "city": "Trondheim",
+        "country": "Norway",
+        "subject_area": "Electrical Engineering"
+      },
+      {
+        "name": "KTH Royal Institute of Technology",
+        "city": "Stockholm",
+        "country": "Sweden",
+        "subject_area": "Mechanical Engineering"
+      },
+      {
+        "name": "CTU Prague",
+        "city": "Prague",
+        "country": "Czech Republic",
+        "subject_area": "Architecture"
+      }
+    ]
+  },
+  {
+    "university": "Otto-von-Guericke-Universität Magdeburg",
+    "partners": [
+      {
+        "name": "University of Maribor",
+        "city": "Maribor",
+        "country": "Slovenia",
+        "subject_area": "Medicine"
+      },
+      {
+        "name": "Slovak University of Technology",
+        "city": "Bratislava",
+        "country": "Slovakia",
+        "subject_area": "Mechanical Engineering"
+      },
+      {
+        "name": "Lappeenranta University of Technology",
+        "city": "Lappeenranta",
+        "country": "Finland",
+        "subject_area": "Business Administration"
+      }
+    ]
+  },
+  {
+    "university": "Universität Rostock",
+    "partners": [
+      {
+        "name": "University of Gdansk",
+        "city": "Gdansk",
+        "country": "Poland",
+        "subject_area": "Marine Biology"
+      },
+      {
+        "name": "University of Latvia",
+        "city": "Riga",
+        "country": "Latvia",
+        "subject_area": "Educational Science"
+      },
+      {
+        "name": "University of Bergen",
+        "city": "Bergen",
+        "country": "Norway",
+        "subject_area": "Medicine"
+      }
+    ]
+  },
+  {
+    "university": "Universität Greifswald",
+    "partners": [
+      {
+        "name": "Uppsala University",
+        "city": "Uppsala",
+        "country": "Sweden",
+        "subject_area": "Nordic Studies/Biology"
+      },
+      {
+        "name": "University of Turku",
+        "city": "Turku",
+        "country": "Finland",
+        "subject_area": "Medicine"
+      },
+      {
+        "name": "Jagiellonian University",
+        "city": "Krakow",
+        "country": "Poland",
+        "subject_area": "Law/Slavic Studies"
+      }
+    ]
+  },
+  {
+    "university": "Universität Erfurt",
+    "partners": [
+      {
+        "name": "St Patrick's College",
+        "city": "Maynooth",
+        "country": "Ireland",
+        "subject_area": "Theology"
+      },
+      {
+        "name": "University of Graz",
+        "city": "Graz",
+        "country": "Austria",
+        "subject_area": "Education"
+      },
+      {
+        "name": "Université de Picardie Jules Verne",
+        "city": "Amiens",
+        "country": "France",
+        "subject_area": "Social Sciences"
+      }
+    ]
+  },
+  {
+    "university": "Bauhaus-Universität Weimar",
+    "partners": [
+      {
+        "name": "Politecnico di Milano",
+        "city": "Milan",
+        "country": "Italy",
+        "subject_area": "Architecture"
+      },
+      {
+        "name": "Glasgow School of Art",
+        "city": "Glasgow",
+        "country": "United Kingdom",
+        "subject_area": "Design"
+      },
+      {
+        "name": "Academy of Fine Arts Prague",
+        "city": "Prague",
+        "country": "Czech Republic",
+        "subject_area": "Fine Arts"
+      }
+    ]
+  },
+  {
+    "university": "Technische Universität Ilmenau",
+    "partners": [
+      {
+        "name": "Dublin Institute of Technology",
+        "city": "Dublin",
+        "country": "Ireland",
+        "subject_area": "Media Technology"
+      },
+      {
+        "name": "University of Southern Denmark",
+        "city": "Odense",
+        "country": "Denmark",
+        "subject_area": "Electrical Engineering"
+      },
+      {
+        "name": "Kaunas University of Technology",
+        "city": "Kaunas",
+        "country": "Lithuania",
+        "subject_area": "Computer Science"
+      }
+    ]
+  },
+  {
+    "university": "BTU Cottbus-Senftenberg",
+    "partners": [
+      {
+        "name": "Wroclaw University of Science and Technology",
+        "city": "Wroclaw",
+        "country": "Poland",
+        "subject_area": "Environmental Engineering"
+      },
+      {
+        "name": "Tallinn University of Technology",
+        "city": "Tallinn",
+        "country": "Estonia",
+        "subject_area": "Cyber Security"
+      },
+      {
+        "name": "University of Seville",
+        "city": "Seville",
+        "country": "Spain",
+        "subject_area": "Urban Planning"
+      }
+    ]
+  },
+  {
+    "university": "Europa-Universität Viadrina Frankfurt (Oder)",
+    "partners": [
+      {
+        "name": "Adam Mickiewicz University",
+        "city": "Poznan",
+        "country": "Poland",
+        "subject_area": "Law"
+      },
+      {
+        "name": "EDHEC Business School",
+        "city": "Nice",
+        "country": "France",
+        "subject_area": "Economics"
+      },
+      {
+        "name": "Stockholm School of Economics",
+        "city": "Stockholm",
+        "country": "Sweden",
+        "subject_area": "Business"
+      }
+    ]
+  },
+  {
+    "university": "Universität Lübeck",
+    "partners": [
+      {
+        "name": "University of Copenhagen",
+        "city": "Copenhagen",
+        "country": "Denmark",
+        "subject_area": "Medicine"
+      },
+      {
+        "name": "Linköping University",
+        "city": "Linköping",
+        "country": "Sweden",
+        "subject_area": "Computer Science"
+      },
+      {
+        "name": "Innsbruck Medical University",
+        "city": "Innsbruck",
+        "country": "Austria",
+        "subject_area": "Molecular Biology"
+      }
+    ]
+  },
+  {
+    "university": "Technische Hochschule Köln (TH Köln)",
+    "partners": [
+      {
+        "name": "Polytechnic University of Valencia",
+        "city": "Valencia",
+        "country": "Spain",
+        "subject_area": "Civil Engineering"
+      },
+      {
+        "name": "Erasmus University Rotterdam",
+        "city": "Rotterdam",
+        "country": "Netherlands",
+        "subject_area": "Business Administration"
+      },
+      {
+        "name": "Vienna University of Technology",
+        "city": "Vienna",
+        "country": "Austria",
+        "subject_area": "Computer Science"
+      },
+      {
+        "name": "University of Porto",
+        "city": "Porto",
+        "country": "Portugal",
+        "subject_area": "Architecture"
+      }
+    ]
+  },
+  {
+    "university": "HAW Hamburg",
+    "partners": [
+      {
+        "name": "VIA University College",
+        "city": "Aarhus",
+        "country": "Denmark",
+        "subject_area": "Social Work"
+      },
+      {
+        "name": "Limerick Institute of Technology",
+        "city": "Limerick",
+        "country": "Ireland",
+        "subject_area": "Media Technology"
+      },
+      {
+        "name": "Turku University of Applied Sciences",
+        "city": "Turku",
+        "country": "Finland",
+        "subject_area": "Engineering"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule München (HM)",
+    "partners": [
+      {
+        "name": "Napier University",
+        "city": "Edinburgh",
+        "country": "United Kingdom",
+        "subject_area": "Business"
+      },
+      {
+        "name": "Savoie Mont Blanc University",
+        "city": "Chambéry",
+        "country": "France",
+        "subject_area": "Tourism"
+      },
+      {
+        "name": "Budapest University of Technology",
+        "city": "Budapest",
+        "country": "Hungary",
+        "subject_area": "Mechanical Engineering"
+      }
+    ]
+  },
+  {
+    "university": "HTW Berlin",
+    "partners": [
+      {
+        "name": "Amsterdam University of Applied Sciences",
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "subject_area": "Fashion Design"
+      },
+      {
+        "name": "Reykjavik University",
+        "city": "Reykjavik",
+        "country": "Iceland",
+        "subject_area": "Computer Science"
+      },
+      {
+        "name": "University of Ljubljana",
+        "city": "Ljubljana",
+        "country": "Slovenia",
+        "subject_area": "Economics"
+      }
+    ]
+  },
+  {
+    "university": "FH Aachen",
+    "partners": [
+      {
+        "name": "TU Graz",
+        "city": "Graz",
+        "country": "Austria",
+        "subject_area": "Aerospace Engineering"
+      },
+      {
+        "name": "University of Liege",
+        "city": "Liege",
+        "country": "Belgium",
+        "subject_area": "Applied Sciences"
+      },
+      {
+        "name": "Eindhoven University of Technology",
+        "city": "Eindhoven",
+        "country": "Netherlands",
+        "subject_area": "Electrical Engineering"
+      }
+    ]
+  },
+  {
+    "university": "Frankfurt University of Applied Sciences",
+    "partners": [
+      {
+        "name": "London Metropolitan University",
+        "city": "London",
+        "country": "United Kingdom",
+        "subject_area": "Social Sciences"
+      },
+      {
+        "name": "University of Chemistry and Technology",
+        "city": "Prague",
+        "country": "Czech Republic",
+        "subject_area": "Informatics"
+      },
+      {
+        "name": "University of Zagreb",
+        "city": "Zagreb",
+        "country": "Croatia",
+        "subject_area": "Law/Business"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Darmstadt (h_da)",
+    "partners": [
+      {
+        "name": "Cork Institute of Technology",
+        "city": "Cork",
+        "country": "Ireland",
+        "subject_area": "Media"
+      },
+      {
+        "name": "Mälardalen University",
+        "city": "Västeras",
+        "country": "Sweden",
+        "subject_area": "Engineering"
+      },
+      {
+        "name": "University of Maribor",
+        "city": "Maribor",
+        "country": "Slovenia",
+        "subject_area": "Design"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Düsseldorf (HSD)",
+    "partners": [
+      {
+        "name": "University of the Arts Linz",
+        "city": "Linz",
+        "country": "Austria",
+        "subject_area": "Design"
+      },
+      {
+        "name": "Ghent University",
+        "city": "Ghent",
+        "country": "Belgium",
+        "subject_area": "Social Sciences"
+      },
+      {
+        "name": "University of Southern Denmark",
+        "city": "Odense",
+        "country": "Denmark",
+        "subject_area": "Engineering"
+      }
+    ]
+  },
+  {
+    "university": "IU Internationale Hochschule",
+    "partners": [
+      {
+        "name": "University of Nicosia",
+        "city": "Nicosia",
+        "country": "Cyprus",
+        "subject_area": "Business/Healthcare"
+      },
+      {
+        "name": "Metropolia University",
+        "city": "Helsinki",
+        "country": "Finland",
+        "subject_area": "IT/Engineering"
+      },
+      {
+        "name": "London South Bank University",
+        "city": "London",
+        "country": "United Kingdom",
+        "subject_area": "Management"
+      },
+      {
+        "name": "Dublin Business School",
+        "city": "Dublin",
+        "country": "Ireland",
+        "subject_area": "Marketing"
+      }
+    ]
+  },
+  {
+    "university": "ISM International School of Management",
+    "partners": [
+      {
+        "name": "Bond University",
+        "city": "Gold Coast",
+        "country": "Australia",
+        "subject_area": "Business Administration"
+      },
+      {
+        "name": "Boston University",
+        "city": "Boston",
+        "country": "USA",
+        "subject_area": "Finance/Management"
+      },
+      {
+        "name": "Lancaster University",
+        "city": "Lancaster",
+        "country": "United Kingdom",
+        "subject_area": "International Business"
+      },
+      {
+        "name": "Ecole Management Lyon",
+        "city": "Lyon",
+        "country": "France",
+        "subject_area": "Luxury Management"
+      }
+    ]
+  },
+  {
+    "university": "CBS International Business School",
+    "partners": [
+      {
+        "name": "Universidad Europea de Madrid",
+        "city": "Madrid",
+        "country": "Spain",
+        "subject_area": "Business/Sports"
+      },
+      {
+        "name": "University of Hertfordshire",
+        "city": "Hatfield",
+        "country": "United Kingdom",
+        "subject_area": "Digital Management"
+      },
+      {
+        "name": "SKEMA Business School",
+        "city": "Sophia Antipolis",
+        "country": "France",
+        "subject_area": "International Business"
+      }
+    ]
+  },
+  {
+    "university": "Frankfurt School of Finance & Management",
+    "partners": [
+      {
+        "name": "Bocconi University",
+        "city": "Milan",
+        "country": "Italy",
+        "subject_area": "Finance"
+      },
+      {
+        "name": "HEC Paris",
+        "city": "Paris",
+        "country": "France",
+        "subject_area": "Management"
+      },
+      {
+        "name": "Stockholm School of Economics",
+        "city": "Stockholm",
+        "country": "Sweden",
+        "subject_area": "Economics"
+      }
+    ]
+  },
+  {
+    "university": "WHU - Otto Beisheim School of Management",
+    "partners": [
+      {
+        "name": "Kellogg School of Management",
+        "city": "Evanston",
+        "country": "USA",
+        "subject_area": "Business Administration"
+      },
+      {
+        "name": "ESSEC Business School",
+        "city": "Cergy",
+        "country": "France",
+        "subject_area": "Management"
+      },
+      {
+        "name": "Keio University",
+        "city": "Tokyo",
+        "country": "Japan",
+        "subject_area": "Economics"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Fresenius",
+    "partners": [
+      {
+        "name": "Berkeley College",
+        "city": "New York",
+        "country": "USA",
+        "subject_area": "Fashion & Design"
+      },
+      {
+        "name": "University of Technology Sydney",
+        "city": "Sydney",
+        "country": "Australia",
+        "subject_area": "Health/Media"
+      },
+      {
+        "name": "Shanghai University",
+        "city": "Shanghai",
+        "country": "China",
+        "subject_area": "International Management"
+      }
+    ]
+  },
+  {
+    "university": "EBS Universität für Wirtschaft und Recht",
+    "partners": [
+      {
+        "name": "McGill University",
+        "city": "Montreal",
+        "country": "Canada",
+        "subject_area": "Law/Business"
+      },
+      {
+        "name": "University of St. Gallen (HSG)",
+        "city": "St. Gallen",
+        "country": "Switzerland",
+        "subject_area": "Economics"
+      },
+      {
+        "name": "National University of Singapore",
+        "city": "Singapore",
+        "country": "Singapore",
+        "subject_area": "Law"
+      }
+    ]
+  },
+  {
+    "university": "Macromedia Hochschule",
+    "partners": [
+      {
+        "name": "University of Westminster",
+        "city": "London",
+        "country": "United Kingdom",
+        "subject_area": "Media/Design"
+      },
+      {
+        "name": "Griffith University",
+        "city": "Brisbane",
+        "country": "Australia",
+        "subject_area": "Film/Creative Arts"
+      },
+      {
+        "name": "Chulalongkorn University",
+        "city": "Bangkok",
+        "country": "Thailand",
+        "subject_area": "Communication"
+      }
+    ]
+  },
+  {
+    "university": "SRH Berlin University of Applied Sciences",
+    "partners": [
+      {
+        "name": "Escola Superior de Música de Lisboa",
+        "city": "Lisbon",
+        "country": "Portugal",
+        "subject_area": "Music/Arts"
+      },
+      {
+        "name": "Prague City University",
+        "city": "Prague",
+        "country": "Czech Republic",
+        "subject_area": "Business/Design"
+      },
+      {
+        "name": "Inholland University",
+        "city": "Haarlem",
+        "country": "Netherlands",
+        "subject_area": "Creative Business"
+      }
+    ]
+  },
+  {
+    "university": "AMD Akademie Mode & Design",
+    "partners": [
+      {
+        "name": "London College of Fashion",
+        "city": "London",
+        "country": "United Kingdom",
+        "subject_area": "Fashion Design"
+      },
+      {
+        "name": "Nuova Accademia di Belle Arti (NABA)",
+        "city": "Milan",
+        "country": "Italy",
+        "subject_area": "Visual Arts"
+      }
+    ]
+  },
+  {
+    "university": "Universität Bayreuth",
+    "partners": [
+      {
+        "name": "University of Bordeaux",
+        "city": "Bordeaux",
+        "country": "France",
+        "subject_area": "Law/Economics"
+      },
+      {
+        "name": "University of Gothenburg",
+        "city": "Gothenburg",
+        "country": "Sweden",
+        "subject_area": "Biology/Ecology"
+      },
+      {
+        "name": "Shanghai University",
+        "city": "Shanghai",
+        "country": "China",
+        "subject_area": "International Management"
+      },
+      {
+        "name": "Università degli Studi di Padova",
+        "city": "Padua",
+        "country": "Italy",
+        "subject_area": "Philosophy"
+      }
+    ]
+  },
+  {
+    "university": "Universität Bamberg",
+    "partners": [
+      {
+        "name": "University of Antwerp",
+        "city": "Antwerp",
+        "country": "Belgium",
+        "subject_area": "Social Sciences"
+      },
+      {
+        "name": "University of Sarajevo",
+        "city": "Sarajevo",
+        "country": "Bosnia and Herzegovina",
+        "subject_area": "Humanities"
+      },
+      {
+        "name": "Karl-Franzens-Universität Graz",
+        "city": "Graz",
+        "country": "Austria",
+        "subject_area": "Psychology"
+      }
+    ]
+  },
+  {
+    "university": "Universität des Saarlandes",
+    "partners": [
+      {
+        "name": "Université de Lorraine",
+        "city": "Metz/Nancy",
+        "country": "France",
+        "subject_area": "European Studies/Law"
+      },
+      {
+        "name": "University of Alicante",
+        "city": "Alicante",
+        "country": "Spain",
+        "subject_area": "Informatics"
+      },
+      {
+        "name": "Charles University",
+        "city": "Prague",
+        "country": "Czech Republic",
+        "subject_area": "Medicine"
+      }
+    ]
+  },
+  {
+    "university": "Universität Trier",
+    "partners": [
+      {
+        "name": "Université du Luxembourg",
+        "city": "Esch-sur-Alzette",
+        "country": "Luxembourg",
+        "subject_area": "Geography/Environmental Sciences"
+      },
+      {
+        "name": "University of Warsaw",
+        "city": "Warsaw",
+        "country": "Poland",
+        "subject_area": "History"
+      },
+      {
+        "name": "Aristotle University of Thessaloniki",
+        "city": "Thessaloniki",
+        "country": "Greece",
+        "subject_area": "Archeology"
+      }
+    ]
+  },
+  {
+    "university": "Universität Ulm",
+    "partners": [
+      {
+        "name": "Linköping University",
+        "city": "Linköping",
+        "country": "Sweden",
+        "subject_area": "Electrical Engineering"
+      },
+      {
+        "name": "University of Oulu",
+        "city": "Oulu",
+        "country": "Finland",
+        "subject_area": "Medicine"
+      },
+      {
+        "name": "Complutense University of Madrid",
+        "city": "Madrid",
+        "country": "Spain",
+        "subject_area": "Social Sciences"
+      }
+    ]
+  },
+  {
+    "university": "Deutsche Sporthochschule Köln",
+    "partners": [
+      {
+        "name": "University of Southern Denmark",
+        "city": "Odense",
+        "country": "Denmark",
+        "subject_area": "Sports Science"
+      },
+      {
+        "name": "Lithuanian Sports University",
+        "city": "Kaunas",
+        "country": "Lithuania",
+        "subject_area": "Sports Management"
+      },
+      {
+        "name": "University of Lisbon",
+        "city": "Lisbon",
+        "country": "Portugal",
+        "subject_area": "Human Movement"
+      },
+      {
+        "name": "Victoria University",
+        "city": "Melbourne",
+        "country": "Australia",
+        "subject_area": "Exercise Science"
+      }
+    ]
+  },
+  {
+    "university": "Zeppelin Universität (ZU)",
+    "partners": [
+      {
+        "name": "University of California, Berkeley",
+        "city": "Berkeley",
+        "country": "USA",
+        "subject_area": "Politics/Management"
+      },
+      {
+        "name": "Luiss Guido Carli",
+        "city": "Rome",
+        "country": "Italy",
+        "subject_area": "Economics/Law"
+      },
+      {
+        "name": "Sciences Po",
+        "city": "Paris",
+        "country": "France",
+        "subject_area": "Political Science"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule der Medien Stuttgart (HdM)",
+    "partners": [
+      {
+        "name": "Edinburgh Napier University",
+        "city": "Edinburgh",
+        "country": "United Kingdom",
+        "subject_area": "Media Production"
+      },
+      {
+        "name": "Ryerson University",
+        "city": "Toronto",
+        "country": "Canada",
+        "subject_area": "Journalism/Communication"
+      },
+      {
+        "name": "Polytechnic University of Turin",
+        "city": "Turin",
+        "country": "Italy",
+        "subject_area": "Graphic Design"
+      }
+    ]
+  },
+  {
+    "university": "Universität Vechta",
+    "partners": [
+      {
+        "name": "University of Education",
+        "city": "Vienna",
+        "country": "Austria",
+        "subject_area": "Educational Science"
+      },
+      {
+        "name": "Dublin City University",
+        "city": "Dublin",
+        "country": "Ireland",
+        "subject_area": "Social Sciences"
+      }
+    ]
+  },
+  {
+    "university": "Katholische Universität Eichstätt-Ingolstadt",
+    "partners": [
+      {
+        "name": "Universidad de Navarra",
+        "city": "Pamplona",
+        "country": "Spain",
+        "subject_area": "Journalism/Ethics"
+      },
+      {
+        "name": "Catholic University of Louvain",
+        "city": "Louvain-la-Neuve",
+        "country": "Belgium",
+        "subject_area": "Theology/History"
+      },
+      {
+        "name": "Pontificia Universidad Católica de Chile",
+        "city": "Santiago",
+        "country": "Chile",
+        "subject_area": "Sociology"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule für Musik und Theater München",
+    "partners": [
+      {
+        "name": "Mozarteum University Salzburg",
+        "city": "Salzburg",
+        "country": "Austria",
+        "subject_area": "Music/Arts"
+      },
+      {
+        "name": "Conservatoire de Paris",
+        "city": "Paris",
+        "country": "France",
+        "subject_area": "Classical Music"
+      },
+      {
+        "name": "Juilliard School",
+        "city": "New York",
+        "country": "USA",
+        "subject_area": "Performing Arts"
+      }
+    ]
+  },
+  {
+    "university": "Universität Hildesheim",
+    "partners": [
+      {
+        "name": "University of Oslo",
+        "city": "Oslo",
+        "country": "Norway",
+        "subject_area": "Information Technology"
+      },
+      {
+        "name": "Universidad de Granada",
+        "city": "Granada",
+        "country": "Spain",
+        "subject_area": "Translation/Intercultural"
+      },
+      {
+        "name": "Hankuk University of Foreign Studies",
+        "city": "Seoul",
+        "country": "South Korea",
+        "subject_area": "International Relations"
+      }
+    ]
+  },
+  {
+    "university": "Universität Klagenfurt",
+    "partners": [
+      {
+        "name": "RWTH Aachen",
+        "city": "Aachen",
+        "country": "Germany",
+        "subject_area": "Engineering"
+      },
+      {
+        "name": "TU Berlin",
+        "city": "Berlin",
+        "country": "Germany",
+        "subject_area": "Engineering"
+      }
+    ]
+  },
+  {
+    "university": "Universität Koblenz",
+    "partners": [
+      {
+        "name": "University of Akureyri",
+        "city": "Akureyri",
+        "country": "Iceland",
+        "subject_area": "Environmental Science"
+      },
+      {
+        "name": "University of Almeria",
+        "city": "Almeria",
+        "country": "Spain",
+        "subject_area": "Informatics"
+      },
+      {
+        "name": "Mary Immaculate College",
+        "city": "Limerick",
+        "country": "Ireland",
+        "subject_area": "Educational Science"
+      }
+    ]
+  },
+  {
+    "university": "Universität Flensburg (Europa-Universität)",
+    "partners": [
+      {
+        "name": "University of Southern Denmark",
+        "city": "Sønderborg",
+        "country": "Denmark",
+        "subject_area": "European Studies"
+      },
+      {
+        "name": "University of Limerick",
+        "city": "Limerick",
+        "country": "Ireland",
+        "subject_area": "Education"
+      },
+      {
+        "name": "University of Cadiz",
+        "city": "Cadiz",
+        "country": "Spain",
+        "subject_area": "Business/Spanish"
+      }
+    ]
+  },
+  {
+    "university": "TU Clausthal",
+    "partners": [
+      {
+        "name": "University of Science and Technology",
+        "city": "Krakow",
+        "country": "Poland",
+        "subject_area": "Materials Science"
+      },
+      {
+        "name": "Montanuniversität Leoben",
+        "city": "Leoben",
+        "country": "Austria",
+        "subject_area": "Mining Engineering"
+      },
+      {
+        "name": "Insa Lyon",
+        "city": "Lyon",
+        "country": "France",
+        "subject_area": "Mechanical Engineering"
+      }
+    ]
+  },
+  {
+    "university": "Heidelberg University",
+    "partners": [
+      {
+        "name": "Charles University",
+        "city": "Prague",
+        "country": "Czech Republic",
+        "subject_area": "Medicine/Philosophy"
+      },
+      {
+        "name": "University of Oxford",
+        "city": "Oxford",
+        "country": "United Kingdom",
+        "subject_area": "Physics/Life Sciences"
+      },
+      {
+        "name": "Complutense University of Madrid",
+        "city": "Madrid",
+        "country": "Spain",
+        "subject_area": "Law/History"
+      }
+    ]
+  },
+  {
+    "university": "TUM",
+    "partners": [
+      {
+        "name": "ETH Zurich",
+        "city": "Zurich",
+        "country": "Switzerland",
+        "subject_area": "Engineering/Architecture"
+      },
+      {
+        "name": "TU Delft",
+        "city": "Delft",
+        "country": "Netherlands",
+        "subject_area": "Mechanical Engineering/Civil Engineering"
+      },
+      {
+        "name": "KTH Royal Institute of Technology",
+        "city": "Stockholm",
+        "country": "Sweden",
+        "subject_area": "Computer Science/Physics"
+      },
+      {
+        "name": "Nanyang Technological University",
+        "city": "Singapore",
+        "country": "Singapore",
+        "subject_area": "Management/Engineering"
+      }
+    ]
+  },
+  {
+    "university": "University of Leipzig",
+    "partners": [
+      {
+        "name": "University of Vienna",
+        "city": "Vienna",
+        "country": "Austria",
+        "subject_area": "Education/Psychology"
+      },
+      {
+        "name": "University of Lyon",
+        "city": "Lyon",
+        "country": "France",
+        "subject_area": "Medicine/Law"
+      },
+      {
+        "name": "Jagiellonian University",
+        "city": "Krakow",
+        "country": "Poland",
+        "subject_area": "Humanities/Social Sciences"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Niederrhein",
+    "partners": [
+      {
+        "name": "Fontys University",
+        "city": "Venlo",
+        "country": "Netherlands",
+        "subject_area": "Business/Logistics"
+      },
+      {
+        "name": "Helsinki Metropolia",
+        "city": "Helsinki",
+        "country": "Finland",
+        "subject_area": "Textile and Clothing"
+      },
+      {
+        "name": "University of Borås",
+        "city": "Borås",
+        "country": "Sweden",
+        "subject_area": "Design"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Mainz",
+    "partners": [
+      {
+        "name": "Oxford Brookes University",
+        "city": "Oxford",
+        "country": "United Kingdom",
+        "subject_area": "Architecture/Building"
+      },
+      {
+        "name": "Universidad de Belgrano",
+        "city": "Buenos Aires",
+        "country": "Argentina",
+        "subject_area": "Business Administration"
+      },
+      {
+        "name": "ISCTE Business School",
+        "city": "Lisbon",
+        "country": "Portugal",
+        "subject_area": "Management"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Coburg",
+    "partners": [
+      {
+        "name": "University of Ljubljana",
+        "city": "Ljubljana",
+        "country": "Slovenia",
+        "subject_area": "Social Work"
+      },
+      {
+        "name": "Linnaeus University",
+        "city": "Växjö",
+        "country": "Sweden",
+        "subject_area": "Engineering"
+      },
+      {
+        "name": "Budapest Metropolitan University",
+        "city": "Budapest",
+        "country": "Hungary",
+        "subject_area": "Design"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Landshut",
+    "partners": [
+      {
+        "name": "South East Technological University",
+        "city": "Waterford",
+        "country": "Ireland",
+        "subject_area": "Informatics"
+      },
+      {
+        "name": "Universitat de Vic",
+        "city": "Vic",
+        "country": "Spain",
+        "subject_area": "Business/Engineering"
+      },
+      {
+        "name": "West University of Timișoara",
+        "city": "Timișoara",
+        "country": "Romania",
+        "subject_area": "Social Work"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Mittweida",
+    "partners": [
+      {
+        "name": "University of the West of Scotland",
+        "city": "Paisley",
+        "country": "United Kingdom",
+        "subject_area": "Media Management"
+      },
+      {
+        "name": "Tallinn University",
+        "city": "Tallinn",
+        "country": "Estonia",
+        "subject_area": "Social Sciences"
+      },
+      {
+        "name": "Istanbul Bilgi University",
+        "city": "Istanbul",
+        "country": "Turkey",
+        "subject_area": "Media/Applied Sciences"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Harz",
+    "partners": [
+      {
+        "name": "University of Angers",
+        "city": "Angers",
+        "country": "France",
+        "subject_area": "Tourism Management"
+      },
+      {
+        "name": "NHL Stenden",
+        "city": "Leeuwarden",
+        "country": "Netherlands",
+        "subject_area": "Business/IT"
+      },
+      {
+        "name": "University of Stavanger",
+        "city": "Stavanger",
+        "country": "Norway",
+        "subject_area": "Public Management"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Worms",
+    "partners": [
+      {
+        "name": "Haaga-Helia University",
+        "city": "Helsinki",
+        "country": "Finland",
+        "subject_area": "Tourism/Aviation Management"
+      },
+      {
+        "name": "University of South Wales",
+        "city": "Pontypridd",
+        "country": "United Kingdom",
+        "subject_area": "International Business"
+      },
+      {
+        "name": "ESIC Business & Marketing School",
+        "city": "Madrid",
+        "country": "Spain",
+        "subject_area": "Marketing"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Kaiserslautern",
+    "partners": [
+      {
+        "name": "VIA University College",
+        "city": "Horsens",
+        "country": "Denmark",
+        "subject_area": "Civil Engineering"
+      },
+      {
+        "name": "University of Maribor",
+        "city": "Maribor",
+        "country": "Slovenia",
+        "subject_area": "Computer Science"
+      },
+      {
+        "name": "Institut National des Sciences Appliquées",
+        "city": "Strasbourg",
+        "country": "France",
+        "subject_area": "Microtechnology"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Trier",
+    "partners": [
+      {
+        "name": "University of Luxembourg",
+        "city": "Esch-sur-Alzette",
+        "country": "Luxembourg",
+        "subject_area": "Computer Science"
+      },
+      {
+        "name": "Academy of Fine Arts Katowice",
+        "city": "Katowice",
+        "country": "Poland",
+        "subject_area": "Design"
+      },
+      {
+        "name": "Kyungpook National University",
+        "city": "Daegu",
+        "country": "South Korea",
+        "subject_area": "Mechanical Engineering"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Schmalkalden",
+    "partners": [
+      {
+        "name": "Corvinus University",
+        "city": "Budapest",
+        "country": "Hungary",
+        "subject_area": "Economics"
+      },
+      {
+        "name": "University of Split",
+        "city": "Split",
+        "country": "Croatia",
+        "subject_area": "Informatics"
+      },
+      {
+        "name": "University of Almeria",
+        "city": "Almeria",
+        "country": "Spain",
+        "subject_area": "Business Administration"
+      }
+    ]
+  },
+  {
+    "university": "Universität zu Köln",
+    "partners": [
+      {
+        "name": "Erasmus University Rotterdam",
+        "city": "Rotterdam",
+        "country": "Netherlands",
+        "subject_area": "Business/Economics"
+      },
+      {
+        "name": "Charles University",
+        "city": "Prague",
+        "country": "Czech Republic",
+        "subject_area": "Law/Medicine"
+      },
+      {
+        "name": "Université Paris 1 Panthéon-Sorbonne",
+        "city": "Paris",
+        "country": "France",
+        "subject_area": "Humanities/Philosophy"
+      },
+      {
+        "name": "University of Helsinki",
+        "city": "Helsinki",
+        "country": "Finland",
+        "subject_area": "Social Sciences"
+      }
+    ]
+  },
+  {
+    "university": "Universität Hamburg",
+    "partners": [
+      {
+        "name": "Uppsala University",
+        "city": "Uppsala",
+        "country": "Sweden",
+        "subject_area": "Law/Medicine"
+      },
+      {
+        "name": "University of Bordeaux",
+        "city": "Bordeaux",
+        "country": "France",
+        "subject_area": "Economics/Social Sciences"
+      },
+      {
+        "name": "University of Vienna",
+        "city": "Vienna",
+        "country": "Austria",
+        "subject_area": "Education/Psychology"
+      },
+      {
+        "name": "National and Kapodistrian University of Athens",
+        "city": "Athens",
+        "country": "Greece",
+        "subject_area": "Humanities"
+      }
+    ]
+  },
+  {
+    "university": "Goethe-Universität Frankfurt",
+    "partners": [
+      {
+        "name": "Università Bocconi",
+        "city": "Milan",
+        "country": "Italy",
+        "subject_area": "Finance/Management"
+      },
+      {
+        "name": "University of Toronto",
+        "city": "Toronto",
+        "country": "Canada",
+        "subject_area": "Life Sciences"
+      },
+      {
+        "name": "Eötvös Loránd University",
+        "city": "Budapest",
+        "country": "Hungary",
+        "subject_area": "Law/Social Sciences"
+      },
+      {
+        "name": "Lund University",
+        "city": "Lund",
+        "country": "Sweden",
+        "subject_area": "Physics/Chemistry"
+      }
+    ]
+  },
+  {
+    "university": "Universität Münster",
+    "partners": [
+      {
+        "name": "University of Twente",
+        "city": "Enschede",
+        "country": "Netherlands",
+        "subject_area": "Public Administration/IT"
+      },
+      {
+        "name": "Université de Lille",
+        "city": "Lille",
+        "country": "France",
+        "subject_area": "Medicine/Pharmacy"
+      },
+      {
+        "name": "University of Tartu",
+        "city": "Tartu",
+        "country": "Estonia",
+        "subject_area": "Law"
+      },
+      {
+        "name": "University of Warsaw",
+        "city": "Warsaw",
+        "country": "Poland",
+        "subject_area": "History/Philology"
+      }
+    ]
+  },
+  {
+    "university": "Universität Bonn",
+    "partners": [
+      {
+        "name": "University of St Andrews",
+        "city": "St Andrews",
+        "country": "United Kingdom",
+        "subject_area": "Mathematics/Physics"
+      },
+      {
+        "name": "University of Florence",
+        "city": "Florence",
+        "country": "Italy",
+        "subject_area": "Agriculture/Life Sciences"
+      },
+      {
+        "name": "Université de Strasbourg",
+        "city": "Strasbourg",
+        "country": "France",
+        "subject_area": "Philosophy/History"
+      }
+    ]
+  },
+  {
+    "university": "Universität Stuttgart",
+    "partners": [
+      {
+        "name": "TU Delft",
+        "city": "Delft",
+        "country": "Netherlands",
+        "subject_area": "Aerospace Engineering"
+      },
+      {
+        "name": "Politecnico di Torino",
+        "city": "Turin",
+        "country": "Italy",
+        "subject_area": "Mechanical Engineering"
+      },
+      {
+        "name": "Chalmers University of Technology",
+        "city": "Gothenburg",
+        "country": "Sweden",
+        "subject_area": "Architecture/Civil Engineering"
+      }
+    ]
+  },
+  {
+    "university": "Universität Mannheim",
+    "partners": [
+      {
+        "name": "BI Norwegian Business School",
+        "city": "Oslo",
+        "country": "Norway",
+        "subject_area": "Business Administration"
+      },
+      {
+        "name": "University of Mannheim",
+        "city": "Mannheim",
+        "country": "Germany",
+        "subject_area": "Social Sciences"
+      },
+      {
+        "name": "ESADE Business School",
+        "city": "Barcelona",
+        "country": "Spain",
+        "subject_area": "Finance"
+      }
+    ]
+  },
+  {
+    "university": "Universität Potsdam",
+    "partners": [
+      {
+        "name": "University of Bologna",
+        "city": "Bologna",
+        "country": "Italy",
+        "subject_area": "Political Science"
+      },
+      {
+        "name": "University of South-Eastern Norway",
+        "city": "Drammen",
+        "country": "Norway",
+        "subject_area": "Education"
+      },
+      {
+        "name": "Université Paris-Nanterre",
+        "city": "Paris",
+        "country": "France",
+        "subject_area": "History"
+      }
+    ]
+  },
+  {
+    "university": "RPTU Kaiserslautern",
+    "partners": [
+      {
+        "name": "Luleå University of Technology",
+        "city": "Luleå",
+        "country": "Sweden",
+        "subject_area": "Mechanical Engineering"
+      },
+      {
+        "name": "Polytechnic University of Madrid",
+        "city": "Madrid",
+        "country": "Spain",
+        "subject_area": "Computer Science"
+      },
+      {
+        "name": "Graz University of Technology",
+        "city": "Graz",
+        "country": "Austria",
+        "subject_area": "Electrical Engineering"
+      }
+    ]
+  },
+  {
+    "university": "Leuphana Universität Lüneburg",
+    "partners": [
+      {
+        "name": "Roskilde University",
+        "city": "Roskilde",
+        "country": "Denmark",
+        "subject_area": "Cultural Studies/Media"
+      },
+      {
+        "name": "University of Graz",
+        "city": "Graz",
+        "country": "Austria",
+        "subject_area": "Sustainability Science"
+      },
+      {
+        "name": "Umea University",
+        "city": "Umea",
+        "country": "Sweden",
+        "subject_area": "Economics"
+      }
+    ]
+  },
+  {
+    "university": "Universität der Künste Berlin (UdK)",
+    "partners": [
+      {
+        "name": "Central Saint Martins",
+        "city": "London",
+        "country": "United Kingdom",
+        "subject_area": "Design/Fine Arts"
+      },
+      {
+        "name": "Ecole Nationale Supérieure des Beaux-Arts",
+        "city": "Paris",
+        "country": "France",
+        "subject_area": "Arts"
+      },
+      {
+        "name": "Zurich University of the Arts",
+        "city": "Zurich",
+        "country": "Switzerland",
+        "subject_area": "Music/Design"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule für Technik Stuttgart (HFT)",
+    "partners": [
+      {
+        "name": "Napier University",
+        "city": "Edinburgh",
+        "country": "United Kingdom",
+        "subject_area": "Civil Engineering"
+      },
+      {
+        "name": "Helsinki Metropolia",
+        "city": "Helsinki",
+        "country": "Finland",
+        "subject_area": "Architecture"
+      },
+      {
+        "name": "VIA University College",
+        "city": "Horsens",
+        "country": "Denmark",
+        "subject_area": "Construction Management"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Reutlingen",
+    "partners": [
+      {
+        "name": "Sunderland University",
+        "city": "Sunderland",
+        "country": "United Kingdom",
+        "subject_area": "Business"
+      },
+      {
+        "name": "Polytechnic of Turin",
+        "city": "Turin",
+        "country": "Italy",
+        "subject_area": "Mechanical Engineering"
+      },
+      {
+        "name": "Vrije Universiteit Amsterdam",
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "subject_area": "Informatics"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Karlsruhe (HKA)",
+    "partners": [
+      {
+        "name": "Institut National des Sciences Appliquées",
+        "city": "Lyon",
+        "country": "France",
+        "subject_area": "Electrical Engineering"
+      },
+      {
+        "name": "Limerick Institute of Technology",
+        "city": "Limerick",
+        "country": "Ireland",
+        "subject_area": "Informatics"
+      },
+      {
+        "name": "Linnaeus University",
+        "city": "Växjö",
+        "country": "Sweden",
+        "subject_area": "Mechatronics"
+      }
+    ]
+  },
+  {
+    "university": "Technische Hochschule Augsburg (THA)",
+    "partners": [
+      {
+        "name": "University of Portsmouth",
+        "city": "Portsmouth",
+        "country": "United Kingdom",
+        "subject_area": "Creative Technologies"
+      },
+      {
+        "name": "University of Maribor",
+        "city": "Maribor",
+        "country": "Slovenia",
+        "subject_area": "Business Administration"
+      },
+      {
+        "name": "Metropolia University",
+        "city": "Helsinki",
+        "country": "Finland",
+        "subject_area": "Engineering"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Konstanz (HTWG)",
+    "partners": [
+      {
+        "name": "Cork Institute of Technology",
+        "city": "Cork",
+        "country": "Ireland",
+        "subject_area": "Design"
+      },
+      {
+        "name": "Tallinn University of Technology",
+        "city": "Tallinn",
+        "country": "Estonia",
+        "subject_area": "Business Information Systems"
+      },
+      {
+        "name": "University of Stavanger",
+        "city": "Stavanger",
+        "country": "Norway",
+        "subject_area": "Mechanical Engineering"
+      }
+    ]
+  },
+  {
+    "university": "Technische Hochschule Ingolstadt (THI)",
+    "partners": [
+      {
+        "name": "University of South Wales",
+        "city": "Pontypridd",
+        "country": "United Kingdom",
+        "subject_area": "Automotive Engineering"
+      },
+      {
+        "name": "Häme University of Applied Sciences",
+        "city": "Hämeenlinna",
+        "country": "Finland",
+        "subject_area": "Business"
+      },
+      {
+        "name": "Sevilla University",
+        "city": "Sevilla",
+        "country": "Spain",
+        "subject_area": "Aerospace Engineering"
+      }
+    ]
+  },
+  {
+    "university": "Technische Hochschule Deggendorf (THD)",
+    "partners": [
+      {
+        "name": "Charles University",
+        "city": "Prague",
+        "country": "Czech Republic",
+        "subject_area": "Healthcare Management"
+      },
+      {
+        "name": "Budapest University of Technology",
+        "city": "Budapest",
+        "country": "Hungary",
+        "subject_area": "Engineering"
+      },
+      {
+        "name": "University of Nicosia",
+        "city": "Nicosia",
+        "country": "Cyprus",
+        "subject_area": "Tourism"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Aschaffenburg",
+    "partners": [
+      {
+        "name": "Sevilla University",
+        "city": "Sevilla",
+        "country": "Spain",
+        "subject_area": "Law/Business"
+      },
+      {
+        "name": "Turku University of Applied Sciences",
+        "city": "Turku",
+        "country": "Finland",
+        "subject_area": "Engineering"
+      }
+    ]
+  },
+  {
+    "university": "PH Ludwigsburg",
+    "partners": [
+      {
+        "name": "University of Vienna",
+        "city": "Vienna",
+        "country": "Austria",
+        "subject_area": "Education"
+      },
+      {
+        "name": "University of Stavanger",
+        "city": "Stavanger",
+        "country": "Norway",
+        "subject_area": "Early Childhood Education"
+      },
+      {
+        "name": "Helwan University",
+        "city": "Cairo",
+        "country": "Egypt",
+        "subject_area": "Intercultural Education"
+      }
+    ]
+  },
+  {
+    "university": "PH Freiburg",
+    "partners": [
+      {
+        "name": "University of Crete",
+        "city": "Rethymno",
+        "country": "Greece",
+        "subject_area": "Pedagogy"
+      },
+      {
+        "name": "University of Zurich",
+        "city": "Zurich",
+        "country": "Switzerland",
+        "subject_area": "Special Education"
+      },
+      {
+        "name": "University of Education Upper Austria",
+        "city": "Linz",
+        "country": "Austria",
+        "subject_area": "Primary Education"
+      }
+    ]
+  },
+  {
+    "university": "Medizinische Hochschule Hannover (MHH)",
+    "partners": [
+      {
+        "name": "Karolinska Institutet",
+        "city": "Stockholm",
+        "country": "Sweden",
+        "subject_area": "Medicine"
+      },
+      {
+        "name": "University of Groningen",
+        "city": "Groningen",
+        "country": "Netherlands",
+        "subject_area": "Biomedicine"
+      },
+      {
+        "name": "Medical University of Graz",
+        "city": "Graz",
+        "country": "Austria",
+        "subject_area": "Medicine"
+      }
+    ]
+  },
+  {
+    "university": "TiHo Hannover",
+    "partners": [
+      {
+        "name": "University of Veterinary Medicine",
+        "city": "Vienna",
+        "country": "Austria",
+        "subject_area": "Veterinary Medicine"
+      },
+      {
+        "name": "University of Liege",
+        "city": "Liege",
+        "country": "Belgium",
+        "subject_area": "Veterinary Science"
+      },
+      {
+        "name": "Uppsala University",
+        "city": "Uppsala",
+        "country": "Sweden",
+        "subject_area": "Animal Science"
+      }
+    ]
+  },
+  {
+    "university": "HfM Hanns Eisler Berlin",
+    "partners": [
+      {
+        "name": "Conservatoire de Paris",
+        "city": "Paris",
+        "country": "France",
+        "subject_area": "Music"
+      },
+      {
+        "name": "Sibelius Academy",
+        "city": "Helsinki",
+        "country": "Finland",
+        "subject_area": "Classical Music"
+      },
+      {
+        "name": "Guildhall School of Music and Drama",
+        "city": "London",
+        "country": "United Kingdom",
+        "subject_area": "Performing Arts"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Biberach",
+    "partners": [
+      {
+        "name": "VIA University College",
+        "city": "Horsens",
+        "country": "Denmark",
+        "subject_area": "Civil Engineering"
+      },
+      {
+        "name": "TU Wien",
+        "city": "Vienna",
+        "country": "Austria",
+        "subject_area": "Project Management/Construction"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Weihenstephan-Triesdorf",
+    "partners": [
+      {
+        "name": "Wageningen University",
+        "city": "Wageningen",
+        "country": "Netherlands",
+        "subject_area": "Agriculture/Horticulture"
+      },
+      {
+        "name": "BOKU Wien",
+        "city": "Vienna",
+        "country": "Austria",
+        "subject_area": "Landscape Architecture"
+      },
+      {
+        "name": "University of Bologna",
+        "city": "Bologna",
+        "country": "Italy",
+        "subject_area": "Food Technology"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Stralsund",
+    "partners": [
+      {
+        "name": "Kaunas University of Technology",
+        "city": "Kaunas",
+        "country": "Lithuania",
+        "subject_area": "Electrical Engineering"
+      },
+      {
+        "name": "University of Southern Denmark",
+        "city": "Odense",
+        "country": "Denmark",
+        "subject_area": "Tourism"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Nordhausen",
+    "partners": [
+      {
+        "name": "University of Orléans",
+        "city": "Orléans",
+        "country": "France",
+        "subject_area": "Engineering"
+      },
+      {
+        "name": "Tomas Bata University",
+        "city": "Zlín",
+        "country": "Czech Republic",
+        "subject_area": "Social Work"
+      }
+    ]
+  },
+  {
+    "university": "OTH Amberg-Weiden",
+    "partners": [
+      {
+        "name": "University of West Bohemia",
+        "city": "Pilsen",
+        "country": "Czech Republic",
+        "subject_area": "Mechanical Engineering"
+      },
+      {
+        "name": "University of Gävle",
+        "city": "Gävle",
+        "country": "Sweden",
+        "subject_area": "Business Administration"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Anhalt",
+    "partners": [
+      {
+        "name": "Polytechnic University of Turin",
+        "city": "Turin",
+        "country": "Italy",
+        "subject_area": "Architecture"
+      },
+      {
+        "name": "Wageningen University",
+        "city": "Wageningen",
+        "country": "Netherlands",
+        "subject_area": "Agriculture"
+      },
+      {
+        "name": "University of Tartu",
+        "city": "Tartu",
+        "country": "Estonia",
+        "subject_area": "Design"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Emden/Leer",
+    "partners": [
+      {
+        "name": "University of South Wales",
+        "city": "Pontypridd",
+        "country": "United Kingdom",
+        "subject_area": "Social Work"
+      },
+      {
+        "name": "Ghent University",
+        "city": "Ghent",
+        "country": "Belgium",
+        "subject_area": "Mechanical Engineering"
+      },
+      {
+        "name": "University of Akureyri",
+        "city": "Akureyri",
+        "country": "Iceland",
+        "subject_area": "Business Administration"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Flensburg",
+    "partners": [
+      {
+        "name": "University of Southern Denmark",
+        "city": "Odense",
+        "country": "Denmark",
+        "subject_area": "Marine Engineering"
+      },
+      {
+        "name": "University of Gdansk",
+        "city": "Gdansk",
+        "country": "Poland",
+        "subject_area": "Business"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Hof",
+    "partners": [
+      {
+        "name": "Vives University College",
+        "city": "Kortrijk",
+        "country": "Belgium",
+        "subject_area": "Computer Science"
+      },
+      {
+        "name": "Budapest Metropolitan University",
+        "city": "Budapest",
+        "country": "Hungary",
+        "subject_area": "Marketing"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Kempten",
+    "partners": [
+      {
+        "name": "University of Maribor",
+        "city": "Maribor",
+        "country": "Slovenia",
+        "subject_area": "Tourism Management"
+      },
+      {
+        "name": "University of Vigo",
+        "city": "Vigo",
+        "country": "Spain",
+        "subject_area": "Engineering"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Lausitz (BTU)",
+    "partners": [
+      {
+        "name": "Wroclaw University of Science",
+        "city": "Wroclaw",
+        "country": "Poland",
+        "subject_area": "Health Sciences"
+      },
+      {
+        "name": "Tallinn University",
+        "city": "Tallinn",
+        "country": "Estonia",
+        "subject_area": "Social Work"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Ludwigshafen",
+    "partners": [
+      {
+        "name": "University of Lodz",
+        "city": "Lodz",
+        "country": "Poland",
+        "subject_area": "Economics"
+      },
+      {
+        "name": "Haaga-Helia University",
+        "city": "Helsinki",
+        "country": "Finland",
+        "subject_area": "Healthcare Management"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Neu-Ulm (HNU)",
+    "partners": [
+      {
+        "name": "University of Portsmouth",
+        "city": "Portsmouth",
+        "country": "United Kingdom",
+        "subject_area": "Business Administration"
+      },
+      {
+        "name": "University of Almeria",
+        "city": "Almeria",
+        "country": "Spain",
+        "subject_area": "Information Management"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Offenburg",
+    "partners": [
+      {
+        "name": "Institut National des Sciences Appliquées",
+        "city": "Strasbourg",
+        "country": "France",
+        "subject_area": "Media/Engineering"
+      },
+      {
+        "name": "Linnaeus University",
+        "city": "Växjö",
+        "country": "Sweden",
+        "subject_area": "Informatics"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Pforzheim",
+    "partners": [
+      {
+        "name": "ESSEC Business School",
+        "city": "Paris",
+        "country": "France",
+        "subject_area": "Design/Management"
+      },
+      {
+        "name": "Hong Kong Polytechnic University",
+        "city": "Hong Kong",
+        "country": "China",
+        "subject_area": "Fashion"
+      },
+      {
+        "name": "Nova School of Business",
+        "city": "Lisbon",
+        "country": "Portugal",
+        "subject_area": "Business"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Ravensburg-Weingarten (RWU)",
+    "partners": [
+      {
+        "name": "Saimaa University",
+        "city": "Lappeenranta",
+        "country": "Finland",
+        "subject_area": "Mechanical Engineering"
+      },
+      {
+        "name": "University of Trento",
+        "city": "Trento",
+        "country": "Italy",
+        "subject_area": "Social Sciences"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Rosenheim",
+    "partners": [
+      {
+        "name": "Aalto University",
+        "city": "Espoo",
+        "country": "Finland",
+        "subject_area": "Architecture"
+      },
+      {
+        "name": "University of Ljubljana",
+        "city": "Ljubljana",
+        "country": "Slovenia",
+        "subject_area": "Wood Technology/Interior Design"
+      },
+      {
+        "name": "University of Ljubljana",
+        "city": "Ljubljana",
+        "country": "Slovenia",
+        "subject_area": "Wood Technology"
+      },
+      {
+        "name": "Aalto University",
+        "city": "Espoo",
+        "country": "Finland",
+        "subject_area": "Architecture/Design"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Wismar",
+    "partners": [
+      {
+        "name": "Estonian Academy of Arts",
+        "city": "Tallinn",
+        "country": "Estonia",
+        "subject_area": "Design/Architecture"
+      },
+      {
+        "name": "University of Rostock",
+        "city": "Rostock",
+        "country": "Germany",
+        "subject_area": "Civil Engineering"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Zittau/Görlitz",
+    "partners": [
+      {
+        "name": "TU Liberec",
+        "city": "Liberec",
+        "country": "Czech Republic",
+        "subject_area": "Social Sciences"
+      },
+      {
+        "name": "University of Maribor",
+        "city": "Maribor",
+        "country": "Slovenia",
+        "subject_area": "Business Administration"
+      }
+    ]
+  },
+  {
+    "university": "TH Bingen",
+    "partners": [
+      {
+        "name": "BOKU Wien",
+        "city": "Vienna",
+        "country": "Austria",
+        "subject_area": "Environmental Science"
+      },
+      {
+        "name": "University of Burgundy",
+        "city": "Dijon",
+        "country": "France",
+        "subject_area": "Agriculture"
+      }
+    ]
+  },
+  {
+    "university": "TH Brandenburg",
+    "partners": [
+      {
+        "name": "Polytechnic of Leiria",
+        "city": "Leiria",
+        "country": "Portugal",
+        "subject_area": "Informatics"
+      },
+      {
+        "name": "University of Split",
+        "city": "Split",
+        "country": "Croatia",
+        "subject_area": "Business"
+      }
+    ]
+  },
+  {
+    "university": "TH Wildau",
+    "partners": [
+      {
+        "name": "Linköping University",
+        "city": "Linköping",
+        "country": "Sweden",
+        "subject_area": "Logistics"
+      },
+      {
+        "name": "University of Cadiz",
+        "city": "Cadiz",
+        "country": "Spain",
+        "subject_area": "Management"
+      }
+    ]
+  },
+  {
+    "university": "Jade Hochschule",
+    "partners": [
+      {
+        "name": "Tallinn University of Technology",
+        "city": "Tallinn",
+        "country": "Estonia",
+        "subject_area": "Civil Engineering"
+      },
+      {
+        "name": "University of Oldenburg",
+        "city": "Oldenburg",
+        "country": "Germany",
+        "subject_area": "Marine Technology"
+      }
+    ]
+  },
+  {
+    "university": "Westküstenhochschule",
+    "partners": [
+      {
+        "name": "University of South-Eastern Norway",
+        "city": "Porsgrunn",
+        "country": "Norway",
+        "subject_area": "Tourism Management"
+      },
+      {
+        "name": "Ventspils University",
+        "city": "Ventspils",
+        "country": "Latvia",
+        "subject_area": "Business Administration"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Ruhr West",
+    "partners": [
+      {
+        "name": "University of Miskolc",
+        "city": "Miskolc",
+        "country": "Hungary",
+        "subject_area": "Engineering"
+      },
+      {
+        "name": "University of Huelva",
+        "city": "Huelva",
+        "country": "Spain",
+        "subject_area": "Computer Science"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Hamm-Lippstadt",
+    "partners": [
+      {
+        "name": "University of Limerick",
+        "city": "Limerick",
+        "country": "Ireland",
+        "subject_area": "Mechatronics"
+      },
+      {
+        "name": "Technical University of Crete",
+        "city": "Chania",
+        "country": "Greece",
+        "subject_area": "Electronics"
+      }
+    ]
+  },
+  {
+    "university": "Evangelische Hochschule Berlin",
+    "partners": [
+      {
+        "name": "VIA University College",
+        "city": "Aarhus",
+        "country": "Denmark",
+        "subject_area": "Nursing/Social Work"
+      },
+      {
+        "name": "University of Ljubljana",
+        "city": "Ljubljana",
+        "country": "Slovenia",
+        "subject_area": "Educational Science"
+      }
+    ]
+  },
+  {
+    "university": "Alice Salomon Hochschule Berlin",
+    "partners": [
+      {
+        "name": "Malmö University",
+        "city": "Malmö",
+        "country": "Sweden",
+        "subject_area": "Social Work"
+      },
+      {
+        "name": "University of Vic",
+        "city": "Vic",
+        "country": "Spain",
+        "subject_area": "Public Health"
+      }
+    ]
+  },
+  {
+    "university": "PH Karlsruhe",
+    "partners": [
+      {
+        "name": "University of Education Upper Austria",
+        "city": "Linz",
+        "country": "Austria",
+        "subject_area": "Primary Education"
+      },
+      {
+        "name": "University of Agder",
+        "city": "Kristiansand",
+        "country": "Norway",
+        "subject_area": "Sports Science/Pedagogy"
+      }
+    ]
+  },
+  {
+    "university": "PH Weingarten",
+    "partners": [
+      {
+        "name": "Zurich University of Teacher Education",
+        "city": "Zurich",
+        "country": "Switzerland",
+        "subject_area": "Education"
+      },
+      {
+        "name": "University of Graz",
+        "city": "Graz",
+        "country": "Austria",
+        "subject_area": "Special Needs Education"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Furtwangen (HFU)",
+    "partners": [
+      {
+        "name": "Napier University",
+        "city": "Edinburgh",
+        "country": "United Kingdom",
+        "subject_area": "Informatics/Digital Media"
+      },
+      {
+        "name": "University of Malaga",
+        "city": "Malaga",
+        "country": "Spain",
+        "subject_area": "Business Administration"
+      },
+      {
+        "name": "Linnaeus University",
+        "city": "Växjö",
+        "country": "Sweden",
+        "subject_area": "Engineering"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Heilbronn",
+    "partners": [
+      {
+        "name": "University of West Bohemia",
+        "city": "Pilsen",
+        "country": "Czech Republic",
+        "subject_area": "Mechanical Engineering"
+      },
+      {
+        "name": "Edinburgh Napier University",
+        "city": "Edinburgh",
+        "country": "United Kingdom",
+        "subject_area": "Tourism Management"
+      },
+      {
+        "name": "Haaga-Helia University",
+        "city": "Helsinki",
+        "country": "Finland",
+        "subject_area": "Business"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Ulm",
+    "partners": [
+      {
+        "name": "Tallinn University of Technology",
+        "city": "Tallinn",
+        "country": "Estonia",
+        "subject_area": "Electrical Engineering"
+      },
+      {
+        "name": "University of South Wales",
+        "city": "Pontypridd",
+        "country": "United Kingdom",
+        "subject_area": "Computer Science"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Aalen",
+    "partners": [
+      {
+        "name": "University of Portsmouth",
+        "city": "Portsmouth",
+        "country": "United Kingdom",
+        "subject_area": "Informatics"
+      },
+      {
+        "name": "University of Maribor",
+        "city": "Maribor",
+        "country": "Slovenia",
+        "subject_area": "Business/Engineering"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Albstadt-Sigmaringen",
+    "partners": [
+      {
+        "name": "Institute of Technology Carlow",
+        "city": "Carlow",
+        "country": "Ireland",
+        "subject_area": "Computer Science/Cyber Security"
+      },
+      {
+        "name": "University of Chemistry and Technology",
+        "city": "Prague",
+        "country": "Czech Republic",
+        "subject_area": "Food Science"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule für öffentliche Verwaltung Kehl",
+    "partners": [
+      {
+        "name": "University of Administrative Sciences",
+        "city": "Speyer",
+        "country": "Germany",
+        "subject_area": "Public Administration"
+      },
+      {
+        "name": "Ghent University",
+        "city": "Ghent",
+        "country": "Belgium",
+        "subject_area": "Public Management"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Magdeburg-Stendal",
+    "partners": [
+      {
+        "name": "VIA University College",
+        "city": "Aarhus",
+        "country": "Denmark",
+        "subject_area": "Civil Engineering"
+      },
+      {
+        "name": "University of Salerno",
+        "city": "Salerno",
+        "country": "Italy",
+        "subject_area": "Social Work"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Merseburg",
+    "partners": [
+      {
+        "name": "University of Lodz",
+        "city": "Lodz",
+        "country": "Poland",
+        "subject_area": "Economics"
+      },
+      {
+        "name": "Helsinki Metropolia",
+        "city": "Helsinki",
+        "country": "Finland",
+        "subject_area": "Chemical Engineering"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Bremerhaven",
+    "partners": [
+      {
+        "name": "University of Southern Denmark",
+        "city": "Odense",
+        "country": "Denmark",
+        "subject_area": "Marine Technology"
+      },
+      {
+        "name": "University of Szczecin",
+        "city": "Szczecin",
+        "country": "Poland",
+        "subject_area": "Logistics"
+      }
+    ]
+  },
+  {
+    "university": "HTW Dresden",
+    "partners": [
+      {
+        "name": "Polytechnic University of Valencia",
+        "city": "Valencia",
+        "country": "Spain",
+        "subject_area": "Civil Engineering"
+      },
+      {
+        "name": "Vives University College",
+        "city": "Kortrijk",
+        "country": "Belgium",
+        "subject_area": "Business Administration"
+      },
+      {
+        "name": "Ulsan National Institute",
+        "city": "Ulsan",
+        "country": "South Korea",
+        "subject_area": "Design"
+      }
+    ]
+  },
+  {
+    "university": "HTWK Leipzig",
+    "partners": [
+      {
+        "name": "Napier University",
+        "city": "Edinburgh",
+        "country": "United Kingdom",
+        "subject_area": "Informatics"
+      },
+      {
+        "name": "University of Maribor",
+        "city": "Maribor",
+        "country": "Slovenia",
+        "subject_area": "Mechanical Engineering"
+      },
+      {
+        "name": "VIA University College",
+        "city": "Horsens",
+        "country": "Denmark",
+        "subject_area": "Architecture"
+      }
+    ]
+  },
+  {
+    "university": "htw saar",
+    "partners": [
+      {
+        "name": "University of Luxembourg",
+        "city": "Luxembourg",
+        "country": "Luxembourg",
+        "subject_area": "Business Administration"
+      },
+      {
+        "name": "Université de Lorraine",
+        "city": "Metz",
+        "country": "France",
+        "subject_area": "Engineering"
+      },
+      {
+        "name": "Dublin Business School",
+        "city": "Dublin",
+        "country": "Ireland",
+        "subject_area": "Social Sciences"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Bochum",
+    "partners": [
+      {
+        "name": "Tallinn University of Technology",
+        "city": "Tallinn",
+        "country": "Estonia",
+        "subject_area": "Civil Engineering"
+      },
+      {
+        "name": "University of Seville",
+        "city": "Seville",
+        "country": "Spain",
+        "subject_area": "Mechatronics"
+      },
+      {
+        "name": "University of Akureyri",
+        "city": "Akureyri",
+        "country": "Iceland",
+        "subject_area": "Sustainability"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Geisenheim",
+    "partners": [
+      {
+        "name": "University of Bordeaux",
+        "city": "Bordeaux",
+        "country": "France",
+        "subject_area": "Viticulture/Oenology"
+      },
+      {
+        "name": "BOKU Wien",
+        "city": "Vienna",
+        "country": "Austria",
+        "subject_area": "Horticulture"
+      },
+      {
+        "name": "University of Adelaide",
+        "city": "Adelaide",
+        "country": "Australia",
+        "subject_area": "Wine Science"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Ansbach",
+    "partners": [
+      {
+        "name": "University of South Wales",
+        "city": "Pontypridd",
+        "country": "United Kingdom",
+        "subject_area": "Media Management"
+      },
+      {
+        "name": "University of Agder",
+        "city": "Kristiansand",
+        "country": "Norway",
+        "subject_area": "Multimedia"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule für Musik Detmold",
+    "partners": [
+      {
+        "name": "Royal Danish Academy of Music",
+        "city": "Copenhagen",
+        "country": "Denmark",
+        "subject_area": "Music Performance"
+      },
+      {
+        "name": "Conservatorio di Musica G. Verdi",
+        "city": "Milan",
+        "country": "Italy",
+        "subject_area": "Classical Music"
+      },
+      {
+        "name": "Royal Academy of Music",
+        "city": "Aarhus",
+        "country": "Denmark",
+        "subject_area": "Music Performance"
+      },
+      {
+        "name": "Conservatorio di Milano",
+        "city": "Milan",
+        "country": "Italy",
+        "subject_area": "Music"
+      },
+      {
+        "name": "University of Music and Performing Arts Vienna",
+        "city": "Vienna",
+        "country": "Austria",
+        "subject_area": "Music"
+      },
+      {
+        "name": "Royal College of Music",
+        "city": "London",
+        "country": "United Kingdom",
+        "subject_area": "Music"
+      },
+      {
+        "name": "Royal Academy of Music",
+        "city": "London",
+        "country": "United Kingdom",
+        "subject_area": "Music"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule für Bildende Künste Dresden",
+    "partners": [
+      {
+        "name": "Accademia di Belle Arti di Brera",
+        "city": "Milan",
+        "country": "Italy",
+        "subject_area": "Fine Arts"
+      },
+      {
+        "name": "Academy of Fine Arts Vienna",
+        "city": "Vienna",
+        "country": "Austria",
+        "subject_area": "Restoration/Arts"
+      },
+      {
+        "name": "École des Beaux-Arts",
+        "city": "Paris",
+        "country": "France",
+        "subject_area": "Restoration/Arts"
+      },
+      {
+        "name": "Academy of Fine Arts Vienna",
+        "city": "Vienna",
+        "country": "Austria",
+        "subject_area": "Fine Arts"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule für Forstwirtschaft Rottenburg",
+    "partners": [
+      {
+        "name": "University of Sopron",
+        "city": "Sopron",
+        "country": "Hungary",
+        "subject_area": "Forestry"
+      },
+      {
+        "name": "SLU Uppsala",
+        "city": "Uppsala",
+        "country": "Sweden",
+        "subject_area": "Sustainable Forestry"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule für Gesundheit (hsg)",
+    "partners": [
+      {
+        "name": "Hanze University",
+        "city": "Groningen",
+        "country": "Netherlands",
+        "subject_area": "Physiotherapy"
+      },
+      {
+        "name": "University of Applied Sciences Tyrol",
+        "city": "Innsbruck",
+        "country": "Austria",
+        "subject_area": "Midwifery/Nursing"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule Kehl",
+    "partners": [
+      {
+        "name": "Andrássy University Budapest",
+        "city": "Budapest",
+        "country": "Hungary",
+        "subject_area": "European Management"
+      },
+      {
+        "name": "University of Speyer",
+        "city": "Speyer",
+        "country": "Germany",
+        "subject_area": "Public Administration"
+      }
+    ]
+  },
+  {
+    "university": "Staatliche Hochschule für Gestaltung Schwäbisch Gmünd",
+    "partners": [
+      {
+        "name": "Politecnico di Milano",
+        "city": "Milan",
+        "country": "Italy",
+        "subject_area": "Product Design"
+      },
+      {
+        "name": "Bezalel Academy",
+        "city": "Jerusalem",
+        "country": "Israel",
+        "subject_area": "Communication Design"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule für Musik und Theater Leipzig",
+    "partners": [
+      {
+        "name": "Guildhall School",
+        "city": "London",
+        "country": "United Kingdom",
+        "subject_area": "Music/Drama"
+      },
+      {
+        "name": "Mozarteum",
+        "city": "Salzburg",
+        "country": "Austria",
+        "subject_area": "Performing Arts"
+      },
+      {
+        "name": "Guildhall School of Music",
+        "city": "London",
+        "country": "United Kingdom",
+        "subject_area": "Music/Drama"
+      },
+      {
+        "name": "Mozarteum Salzburg",
+        "city": "Salzburg",
+        "country": "Austria",
+        "subject_area": "Performing Arts"
+      }
+    ]
+  },
+  {
+    "university": "Westfälische Hochschule",
+    "partners": [
+      {
+        "name": "Kaunas University of Technology",
+        "city": "Kaunas",
+        "country": "Lithuania",
+        "subject_area": "Energy Technology"
+      },
+      {
+        "name": "Polytechnic of Porto",
+        "city": "Porto",
+        "country": "Portugal",
+        "subject_area": "Informatics"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule für Bildende Künste Hamburg",
+    "partners": [
+      {
+        "name": "Central Saint Martins",
+        "city": "London",
+        "country": "United Kingdom",
+        "subject_area": "Visual Communication"
+      },
+      {
+        "name": "Central Saint Martins",
+        "city": "London",
+        "country": "United Kingdom",
+        "subject_area": "Visual Arts"
+      },
+      {
+        "name": "Gerrit Rietveld Academie",
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "subject_area": "Design"
+      },
+      {
+        "name": "Gerrit Rietveld Academie",
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "subject_area": "Fine Arts"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule für Technik und Wirtschaft Berlin",
+    "partners": [
+      {
+        "name": "Amsterdam University of Applied Sciences",
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "subject_area": "Business/Design/IT"
+      },
+      {
+        "name": "Helsinki Metropolia",
+        "city": "Helsinki",
+        "country": "Finland",
+        "subject_area": "Engineering/IT"
+      },
+      {
+        "name": "Reykjavik University",
+        "city": "Reykjavik",
+        "country": "Iceland",
+        "subject_area": "Informatics/Business"
+      },
+      {
+        "name": "University of Ljubljana",
+        "city": "Ljubljana",
+        "country": "Slovenia",
+        "subject_area": "Economics/Social Sciences"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule für Wirtschaft und Umwelt Nürtingen-Geislingen",
+    "partners": [
+      {
+        "name": "BOKU Wien",
+        "city": "Vienna",
+        "country": "Austria",
+        "subject_area": "Agriculture/Environment"
+      },
+      {
+        "name": "Norwegian University of Life Sciences",
+        "city": "Ås",
+        "country": "Norway",
+        "subject_area": "Business/Environment"
+      },
+      {
+        "name": "Technion - Israel Institute of Technology",
+        "city": "Haifa",
+        "country": "Israel",
+        "subject_area": "Engineering/Management"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule für Technik und Wirtschaft Mittweida",
+    "partners": [
+      {
+        "name": "University of the West of Scotland",
+        "city": "Paisley",
+        "country": "United Kingdom",
+        "subject_area": "Media/Business"
+      },
+      {
+        "name": "Tallinn University",
+        "city": "Tallinn",
+        "country": "Estonia",
+        "subject_area": "Social Sciences/IT"
+      },
+      {
+        "name": "Istanbul Bilgi University",
+        "city": "Istanbul",
+        "country": "Turkey",
+        "subject_area": "Media/Engineering"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule für Technik und Wirtschaft des Saarlandes",
+    "partners": [
+      {
+        "name": "University of Luxembourg",
+        "city": "Luxembourg",
+        "country": "Luxembourg",
+        "subject_area": "Business/Engineering"
+      },
+      {
+        "name": "Université de Lorraine",
+        "city": "Metz",
+        "country": "France",
+        "subject_area": "Mechanical Engineering"
+      },
+      {
+        "name": "Dublin Business School",
+        "city": "Dublin",
+        "country": "Ireland",
+        "subject_area": "Social Sciences/Business"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule für Technik und Wirtschaft Dresden",
+    "partners": [
+      {
+        "name": "Polytechnic University of Valencia",
+        "city": "Valencia",
+        "country": "Spain",
+        "subject_area": "Civil Engineering/Architecture"
+      },
+      {
+        "name": "Vives University College",
+        "city": "Kortrijk",
+        "country": "Belgium",
+        "subject_area": "Business Administration"
+      },
+      {
+        "name": "Ulsan National Institute",
+        "city": "Ulsan",
+        "country": "South Korea",
+        "subject_area": "Design/Technology"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule für Angewandte Wissenschaften Hamburg",
+    "partners": [
+      {
+        "name": "VIA University College",
+        "city": "Aarhus",
+        "country": "Denmark",
+        "subject_area": "Social Work/Engineering"
+      },
+      {
+        "name": "Limerick Institute of Technology",
+        "city": "Limerick",
+        "country": "Ireland",
+        "subject_area": "Media Technology"
+      },
+      {
+        "name": "Turku University of Applied Sciences",
+        "city": "Turku",
+        "country": "Finland",
+        "subject_area": "Engineering/Business"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule für Angewandte Wissenschaften Würzburg-Schweinfurt",
+    "partners": [
+      {
+        "name": "Saimaa University of Applied Sciences",
+        "city": "Lappeenranta",
+        "country": "Finland",
+        "subject_area": "Engineering/Business"
+      },
+      {
+        "name": "Christ University",
+        "city": "Bangalore",
+        "country": "India",
+        "subject_area": "Social Sciences/Business"
+      },
+      {
+        "name": "German Jordanian University",
+        "city": "Amman",
+        "country": "Jordan",
+        "subject_area": "Architecture/Engineering"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule für Musik Würzburg",
+    "partners": [
+      {
+        "name": "Universität Mozarteum Salzburg",
+        "city": "Salzburg",
+        "country": "Austria",
+        "subject_area": "Performing Arts"
+      },
+      {
+        "name": "Conservatoire National Supérieur de Lyon",
+        "city": "Lyon",
+        "country": "France",
+        "subject_area": "Music"
+      },
+      {
+        "name": "Royal College of Music in Stockholm",
+        "city": "Stockholm",
+        "country": "Sweden",
+        "subject_area": "Music"
+      },
+      {
+        "name": "Universität Mozarteum",
+        "city": "Salzburg",
+        "country": "Austria",
+        "subject_area": "Music Performance/Performing Arts"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule für Bildende Künste Braunschweig",
+    "partners": [
+      {
+        "name": "ENSAD Paris",
+        "city": "Paris",
+        "country": "France",
+        "subject_area": "Arts/Design"
+      },
+      {
+        "name": "Bezalel Academy of Arts",
+        "city": "Jerusalem",
+        "country": "Israel",
+        "subject_area": "Design/Visual Arts"
+      },
+      {
+        "name": "ENSAD Paris",
+        "city": "Paris",
+        "country": "France",
+        "subject_area": "Fine Arts/Design"
+      },
+      {
+        "name": "Bezalel Academy of Arts and Design",
+        "city": "Jerusalem",
+        "country": "Israel",
+        "subject_area": "Fine Arts/Design"
+      },
+      {
+        "name": "University of Applied Sciences and Arts of Southern Switzerland",
+        "city": "Lugano",
+        "country": "Switzerland",
+        "subject_area": "Design/Performing Arts"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule für Musik Weimar",
+    "partners": [
+      {
+        "name": "Sibelius Academy",
+        "city": "Helsinki",
+        "country": "Finland",
+        "subject_area": "Music"
+      },
+      {
+        "name": "Karol Szymanski Academy of Music",
+        "city": "Katowice",
+        "country": "Poland",
+        "subject_area": "Classical Music"
+      },
+      {
+        "name": "Royal College of Music",
+        "city": "London",
+        "country": "United Kingdom",
+        "subject_area": "Music Performance"
+      },
+      {
+        "name": "Norwegian Academy of Music",
+        "city": "Oslo",
+        "country": "Norway",
+        "subject_area": "Music Performance"
+      },
+      {
+        "name": "Fryderyk Chopin University of Music",
+        "city": "Warsaw",
+        "country": "Poland",
+        "subject_area": "Classical Music"
+      },
+      {
+        "name": "Mozarteum",
+        "city": "Salzburg",
+        "country": "Austria",
+        "subject_area": "Music"
+      },
+      {
+        "name": "Universität Mozarteum Salzburg",
+        "city": "Salzburg",
+        "country": "Austria",
+        "subject_area": "Music"
+      },
+      {
+        "name": "Conservatoire de Paris",
+        "city": "Paris",
+        "country": "France",
+        "subject_area": "Classical Music"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule für Angewandte Wissenschaften Köln",
+    "partners": [
+      {
+        "name": "Polytechnic University of Valencia",
+        "city": "Valencia",
+        "country": "Spain",
+        "subject_area": "Civil Engineering"
+      },
+      {
+        "name": "Erasmus University Rotterdam",
+        "city": "Rotterdam",
+        "country": "Netherlands",
+        "subject_area": "Business Administration"
+      },
+      {
+        "name": "Vienna University of Technology",
+        "city": "Vienna",
+        "country": "Austria",
+        "subject_area": "Computer Science/Architecture"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule für Angewandte Wissenschaften Dortmund",
+    "partners": [
+      {
+        "name": "University of Maribor",
+        "city": "Maribor",
+        "country": "Slovenia",
+        "subject_area": "Engineering/IT"
+      },
+      {
+        "name": "University of Portsmouth",
+        "city": "Portsmouth",
+        "country": "United Kingdom",
+        "subject_area": "Business/Media"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule für Wirtschaft und Technik Villingen-Schwenningen",
+    "partners": [
+      {
+        "name": "University of Portsmouth",
+        "city": "Portsmouth",
+        "country": "United Kingdom",
+        "subject_area": "Business/IT"
+      },
+      {
+        "name": "University of Maribor",
+        "city": "Maribor",
+        "country": "Slovenia",
+        "subject_area": "Engineering/Management"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule für Musik und Theater Hamburg",
+    "partners": [
+      {
+        "name": "Guildhall School of Music and Drama",
+        "city": "London",
+        "country": "United Kingdom",
+        "subject_area": "Music/Drama"
+      },
+      {
+        "name": "Sibelius Academy",
+        "city": "Helsinki",
+        "country": "Finland",
+        "subject_area": "Music"
+      },
+      {
+        "name": "Guildhall School",
+        "city": "London",
+        "country": "UK",
+        "subject_area": "Arts"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule für Musik Trossingen",
+    "partners": [
+      {
+        "name": "Conservatorio di Milano",
+        "city": "Milan",
+        "country": "Italy",
+        "subject_area": "Music"
+      },
+      {
+        "name": "University of Music and Performing Arts Vienna",
+        "city": "Vienna",
+        "country": "Austria",
+        "subject_area": "Classical Music"
+      },
+      {
+        "name": "Royal Academy of Music",
+        "city": "Aarhus",
+        "country": "Denmark",
+        "subject_area": "Music"
+      },
+      {
+        "name": "Musik-Akademie Basel",
+        "city": "Basel",
+        "country": "Switzerland",
+        "subject_area": "Music"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule für Gestaltung Karlsruhe",
+    "partners": [
+      {
+        "name": "Zurich University of the Arts",
+        "city": "Zurich",
+        "country": "Switzerland",
+        "subject_area": "Media Art/Design"
+      },
+      {
+        "name": "KTH Royal Institute of Technology",
+        "city": "Stockholm",
+        "country": "Sweden",
+        "subject_area": "Interaction Design"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule für Musik und Darstellende Kunst Mannheim",
+    "partners": [
+      {
+        "name": "Royal Conservatoire of Scotland",
+        "city": "Glasgow",
+        "country": "United Kingdom",
+        "subject_area": "Dance/Music"
+      },
+      {
+        "name": "Royal Conservatoire The Hague",
+        "city": "The Hague",
+        "country": "Netherlands",
+        "subject_area": "Music Performance"
+      },
+      {
+        "name": "Royal Conservatoire",
+        "city": "The Hague",
+        "country": "Netherlands",
+        "subject_area": "Music/Dance"
+      },
+      {
+        "name": "Zürcher Hochschule der Künste",
+        "city": "Zurich",
+        "country": "Switzerland",
+        "subject_area": "Music/Dance"
+      },
+      {
+        "name": "Royal Academy of Music",
+        "city": "London",
+        "country": "United Kingdom",
+        "subject_area": "Arts"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule für Musik Freiburg",
+    "partners": [
+      {
+        "name": "Basel Music Academy",
+        "city": "Basel",
+        "country": "Switzerland",
+        "subject_area": "Music"
+      },
+      {
+        "name": "CNSMD Lyon",
+        "city": "Lyon",
+        "country": "France",
+        "subject_area": "Classical Music"
+      },
+      {
+        "name": "University of Toronto",
+        "city": "Toronto",
+        "country": "Canada",
+        "subject_area": "Music"
+      },
+      {
+        "name": "Schola Cantorum Basiliensis",
+        "city": "Basel",
+        "country": "Switzerland",
+        "subject_area": "Early Music"
+      },
+      {
+        "name": "Musik-Akademie Basel",
+        "city": "Basel",
+        "country": "Switzerland",
+        "subject_area": "Music"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule für Musik und Darstellende Kunst Frankfurt",
+    "partners": [
+      {
+        "name": "Royal Academy of Music",
+        "city": "London",
+        "country": "United Kingdom",
+        "subject_area": "Performing Arts"
+      },
+      {
+        "name": "Manhattan School of Music",
+        "city": "New York",
+        "country": "USA",
+        "subject_area": "Music (Global Agreement)"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule für Gestaltung Offenbach",
+    "partners": [
+      {
+        "name": "Politecnico di Milano",
+        "city": "Milan",
+        "country": "Italy",
+        "subject_area": "Product Design"
+      },
+      {
+        "name": "Aalto University",
+        "city": "Helsinki",
+        "country": "Finland",
+        "subject_area": "Visual Communication"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule für Musik und Theater Rostock",
+    "partners": [
+      {
+        "name": "Oslo National Academy of the Arts",
+        "city": "Oslo",
+        "country": "Norway",
+        "subject_area": "Theater/Music"
+      },
+      {
+        "name": "Academy of Music and Drama",
+        "city": "Gothenburg",
+        "country": "Sweden",
+        "subject_area": "Performing Arts"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule für Schauspielkunst Ernst Busch",
+    "partners": [
+      {
+        "name": "Drama Centre London",
+        "city": "London",
+        "country": "United Kingdom",
+        "subject_area": "Acting"
+      },
+      {
+        "name": "CNSAD Paris",
+        "city": "Paris",
+        "country": "France",
+        "subject_area": "Performing Arts"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule für Musik Nürnberg",
+    "partners": [
+      {
+        "name": "University of the Arts Berlin",
+        "city": "Berlin",
+        "country": "Germany",
+        "subject_area": "Music"
+      },
+      {
+        "name": "Royal Conservatoire of Scotland",
+        "city": "Glasgow",
+        "country": "United Kingdom",
+        "subject_area": "Jazz/Classical"
+      },
+      {
+        "name": "Conservatoire de Paris",
+        "city": "Paris",
+        "country": "France",
+        "subject_area": "Classical Music"
+      },
+      {
+        "name": "Sibelius Academy",
+        "city": "Helsinki",
+        "country": "Finland",
+        "subject_area": "Jazz/Music"
+      },
+      {
+        "name": "Conservatorio di Musica G. Verdi",
+        "city": "Milan",
+        "country": "Italy",
+        "subject_area": "Music"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule für Gestaltung Schwäbisch Gmünd",
+    "partners": [
+      {
+        "name": "Pratt Institute",
+        "city": "New York",
+        "country": "USA",
+        "subject_area": "Product Design"
+      },
+      {
+        "name": "Hong Kong Polytechnic University",
+        "city": "Hong Kong",
+        "country": "China",
+        "subject_area": "Communication Design"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule für Gesundheit Herford",
+    "partners": [
+      {
+        "name": "Tallinn University of Technology",
+        "city": "Tallinn",
+        "country": "Estonia",
+        "subject_area": "Health"
+      },
+      {
+        "name": "VIA University College",
+        "city": "Aarhus",
+        "country": "Denmark",
+        "subject_area": "Health"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule für Gesundheit Hamm-Lippstadt",
+    "partners": [
+      {
+        "name": "Fontys University",
+        "city": "Venlo",
+        "country": "Netherlands",
+        "subject_area": "Health/Business"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule für Gesundheit Minden",
+    "partners": [
+      {
+        "name": "Hanze University",
+        "city": "Groningen",
+        "country": "Netherlands",
+        "subject_area": "Health"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule für Gesundheit Detmold",
+    "partners": [
+      {
+        "name": "VIA University College",
+        "city": "Horsens",
+        "country": "Denmark",
+        "subject_area": "Health"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule für Gesundheit Lemgo",
+    "partners": [
+      {
+        "name": "Tallinn University of Technology",
+        "city": "Tallinn",
+        "country": "Estonia",
+        "subject_area": "Health"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule für Gesundheit Gelsenkirchen",
+    "partners": [
+      {
+        "name": "Hanze University",
+        "city": "Groningen",
+        "country": "Netherlands",
+        "subject_area": "Health"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule für Gesundheit Soest",
+    "partners": [
+      {
+        "name": "Fontys University",
+        "city": "Venlo",
+        "country": "Netherlands",
+        "subject_area": "Health"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule für Gesundheit Meschede",
+    "partners": [
+      {
+        "name": "Uppsala University",
+        "city": "Uppsala",
+        "country": "Sweden",
+        "subject_area": "Health"
+      }
+    ]
+  },
+  {
+    "university": "Hochschule für Gesundheit Höxter",
+    "partners": [
+      {
+        "name": "University of South Wales",
+        "city": "Pontypridd",
+        "country": "United Kingdom",
+        "subject_area": "Health"
+      }
+    ]
+  },
+  {
+    "university": "Staatliche Akademie der Bildenden Künste Stuttgart",
+    "partners": [
+      {
+        "name": "Royal Academy of Art",
+        "city": "The Hague",
+        "country": "Netherlands",
+        "subject_area": "Design/Fine Arts"
+      }
+    ]
+  },
+  {
+    "university": "Karlsruhe Institute of Technology (KIT)",
+    "partners": [
+      {
+        "name": "ETH Zurich",
+        "city": "Zurich",
+        "country": "Switzerland",
+        "subject_area": "Engineering"
+      },
+      {
+        "name": "TU Delft",
+        "city": "Delft",
+        "country": "Netherlands",
+        "subject_area": "Physics/IT"
+      },
+      {
+        "name": "KTH Royal Institute",
+        "city": "Stockholm",
+        "country": "Sweden",
+        "subject_area": "Mechanical Engineering"
+      },
+      {
+        "name": "NTU Singapore",
+        "city": "Singapore",
+        "country": "Singapore",
+        "subject_area": "Science"
+      }
+    ]
+  },
+  {
+    "university": "University of Stuttgart",
+    "partners": [
+      {
+        "name": "Politecnico di Torino",
+        "city": "Turin",
+        "country": "Italy",
+        "subject_area": "Architecture/Engineering"
+      },
+      {
+        "name": "Chalmers University",
+        "city": "Gothenburg",
+        "country": "Sweden",
+        "subject_area": "Automotive Engineering"
+      },
+      {
+        "name": "TU Wien",
+        "city": "Vienna",
+        "country": "Austria",
+        "subject_area": "Engineering"
+      }
+    ]
+  },
+  {
+    "university": "Technical University of Dresden",
+    "partners": [
+      {
+        "name": "INSA Lyon",
+        "city": "Lyon",
+        "country": "France",
+        "subject_area": "Engineering"
+      },
+      {
+        "name": "Wroclaw University of Science",
+        "city": "Wroclaw",
+        "country": "Poland",
+        "subject_area": "Technology"
+      },
+      {
+        "name": "Politecnico di Milano",
+        "city": "Milan",
+        "country": "Italy",
+        "subject_area": "Architecture/IT"
+      }
+    ]
+  },
+  {
+    "university": "Akademie der Bildenden Künste München",
+    "partners": [
+      {
+        "name": "Beaux-Arts de Paris",
+        "city": "Paris",
+        "country": "France",
+        "subject_area": "Fine Arts"
+      },
+      {
+        "name": "Accademia di Belle Arti di Brera",
+        "city": "Milan",
+        "country": "Italy",
+        "subject_area": "Arts"
+      },
+      {
+        "name": "Gerrit Rietveld Academie",
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "subject_area": "Design"
+      }
+    ]
+  },
+  {
+    "university": "Academy of Fine Arts Munich",
+    "partners": [
+      {
+        "name": "Beaux-Arts de Paris",
+        "city": "Paris",
+        "country": "France",
+        "subject_area": "Fine Arts"
+      },
+      {
+        "name": "Accademia di Belle Arti di Brera",
+        "city": "Milan",
+        "country": "Italy",
+        "subject_area": "Arts"
+      }
+    ]
+  },
+  {
+    "university": "Bard College Berlin",
+    "partners": [
+      {
+        "name": "Bard College Annandale",
+        "city": "New York",
+        "country": "USA",
+        "subject_area": "Liberal Arts"
+      },
+      {
+        "name": "Erasmus University Rotterdam",
+        "city": "Rotterdam",
+        "country": "Netherlands",
+        "subject_area": "Social Sciences"
+      }
+    ]
+  },
+  {
+    "university": "Berlin School of Economics and Law",
+    "partners": [
+      {
+        "name": "Baruch College",
+        "city": "New York",
+        "country": "USA",
+        "subject_area": "Business"
+      },
+      {
+        "name": "ESCE International Business School",
+        "city": "Paris",
+        "country": "France",
+        "subject_area": "Management"
+      },
+      {
+        "name": "Metropolia Helsinki",
+        "city": "Helsinki",
+        "country": "Finland",
+        "subject_area": "Public Administration"
+      }
+    ]
+  },
+  {
+    "university": "Bucerius Law School",
+    "partners": [
+      {
+        "name": "University of Oxford",
+        "city": "Oxford",
+        "country": "United Kingdom",
+        "subject_area": "Law"
+      },
+      {
+        "name": "University of Cambridge",
+        "city": "Cambridge",
+        "country": "United Kingdom",
+        "subject_area": "Law"
+      },
+      {
+        "name": "Sciences Po",
+        "city": "Paris",
+        "country": "France",
+        "subject_area": "International Law"
+      },
+      {
+        "name": "National University of Singapore",
+        "city": "Singapore",
+        "country": "Singapore",
+        "subject_area": "Commercial Law"
+      },
+      {
+        "name": "Stanford Law School",
+        "city": "Stanford",
+        "country": "USA",
+        "subject_area": "Law"
+      }
+    ]
+  },
+  {
+    "university": "Hamburg School of Business Administration",
+    "partners": [
+      {
+        "name": "ESIC Business & Marketing School",
+        "city": "Madrid",
+        "country": "Spain",
+        "subject_area": "Business"
+      },
+      {
+        "name": "Edinburgh Napier University",
+        "city": "Edinburgh",
+        "country": "United Kingdom",
+        "subject_area": "Management"
+      }
+    ]
+  },
+  {
+    "university": "Hertie School",
+    "partners": [
+      {
+        "name": "London School of Economics (LSE)",
+        "city": "London",
+        "country": "United Kingdom",
+        "subject_area": "Public Policy"
+      },
+      {
+        "name": "Bocconi University",
+        "city": "Milan",
+        "country": "Italy",
+        "subject_area": "Governance"
+      },
+      {
+        "name": "Columbia University (SIPA)",
+        "city": "New York",
+        "country": "USA",
+        "subject_area": "International Affairs"
+      },
+      {
+        "name": "Sciences Po",
+        "city": "Paris",
+        "country": "France",
+        "subject_area": "Governance"
+      }
+    ]
+  }
+]

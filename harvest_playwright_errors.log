@@ -1,0 +1,195 @@
+2026-01-07 10:29:26,202 - INFO - ============================================================
+2026-01-07 10:29:26,202 - INFO - Mobility Online Partner Harvester - Batch 1 (Playwright)
+2026-01-07 10:29:26,202 - INFO - Timestamp: 2026-01-07T10:29:26.202484
+2026-01-07 10:29:26,202 - INFO - Headless mode: True
+2026-01-07 10:29:26,202 - INFO - ============================================================
+2026-01-07 10:29:26,345 - INFO - Launching browser...
+2026-01-07 10:29:28,399 - INFO - 
+[1/10] Processing TU Berlin...
+2026-01-07 10:29:28,400 - INFO - 
+============================================================
+2026-01-07 10:29:28,400 - INFO - Harvesting: TU Berlin
+2026-01-07 10:29:28,400 - INFO - URL: https://web.tu-berlin.de/zuv/komm/international/austauschpl/index.php
+2026-01-07 10:29:28,400 - INFO - ============================================================
+2026-01-07 10:29:28,400 - INFO - Navigating to https://web.tu-berlin.de/zuv/komm/international/austauschpl/index.php...
+2026-01-07 10:29:28,410 - ERROR - [2026-01-07T10:29:28.410536] TU Berlin (https://web.tu-berlin.de/zuv/komm/international/austauschpl/index.php): Unexpected error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://web.tu-berlin.de/zuv/komm/international/austauschpl/index.php
+Call log:
+  - navigating to "https://web.tu-berlin.de/zuv/komm/international/austauschpl/index.php", waiting until "domcontentloaded"
+
+
+2026-01-07 10:29:28,410 - ERROR - ❌ Error harvesting TU Berlin: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://web.tu-berlin.de/zuv/komm/international/austauschpl/index.php
+Call log:
+  - navigating to "https://web.tu-berlin.de/zuv/komm/international/austauschpl/index.php", waiting until "domcontentloaded"
+
+2026-01-07 10:29:28,410 - INFO - Sleeping 4 seconds before next request...
+2026-01-07 10:29:32,416 - INFO - 
+[2/10] Processing Uni Hamburg...
+2026-01-07 10:29:32,416 - INFO - 
+============================================================
+2026-01-07 10:29:32,416 - INFO - Harvesting: Uni Hamburg
+2026-01-07 10:29:32,416 - INFO - URL: https://www.uni-hamburg.de/internationales/studierende/outgoing/austausch-gaststudium/erasmus/weltweit-studieren.html
+2026-01-07 10:29:32,416 - INFO - ============================================================
+2026-01-07 10:29:32,416 - INFO - Navigating to https://www.uni-hamburg.de/internationales/studierende/outgoing/austausch-gaststudium/erasmus/weltweit-studieren.html...
+2026-01-07 10:29:35,467 - INFO - ✅ Successfully harvested 17 unique partners
+2026-01-07 10:29:35,467 - INFO - Sleeping 5 seconds before next request...
+2026-01-07 10:29:40,472 - INFO - 
+[3/10] Processing TU Dresden...
+2026-01-07 10:29:40,472 - INFO - 
+============================================================
+2026-01-07 10:29:40,472 - INFO - Harvesting: TU Dresden
+2026-01-07 10:29:40,473 - INFO - URL: https://tu-dresden.de/internationales/int-kooperationen/mobility-online
+2026-01-07 10:29:40,473 - INFO - ============================================================
+2026-01-07 10:29:40,473 - INFO - Navigating to https://tu-dresden.de/internationales/int-kooperationen/mobility-online...
+2026-01-07 10:29:58,359 - WARNING - ⚠️  No partners found for TU Dresden
+2026-01-07 10:29:58,360 - ERROR - [2026-01-07T10:29:58.360016] TU Dresden (https://tu-dresden.de/internationales/int-kooperationen/mobility-online): No partners extracted from page
+
+2026-01-07 10:29:58,360 - INFO - Sleeping 3 seconds before next request...
+2026-01-07 10:30:01,365 - INFO - 
+[4/10] Processing Uni Stuttgart...
+2026-01-07 10:30:01,365 - INFO - 
+============================================================
+2026-01-07 10:30:01,365 - INFO - Harvesting: Uni Stuttgart
+2026-01-07 10:30:01,365 - INFO - URL: https://www.student.uni-stuttgart.de/auslandsstudium/austauschmoeglichkeiten/
+2026-01-07 10:30:01,365 - INFO - ============================================================
+2026-01-07 10:30:01,366 - INFO - Navigating to https://www.student.uni-stuttgart.de/auslandsstudium/austauschmoeglichkeiten/...
+2026-01-07 10:30:17,959 - WARNING - ⚠️  No partners found for Uni Stuttgart
+2026-01-07 10:30:17,959 - ERROR - [2026-01-07T10:30:17.959783] Uni Stuttgart (https://www.student.uni-stuttgart.de/auslandsstudium/austauschmoeglichkeiten/): No partners extracted from page
+
+2026-01-07 10:30:17,960 - INFO - Sleeping 4 seconds before next request...
+2026-01-07 10:30:21,965 - INFO - 
+[5/10] Processing LMU München...
+2026-01-07 10:30:21,965 - INFO - 
+============================================================
+2026-01-07 10:30:21,965 - INFO - Harvesting: LMU München
+2026-01-07 10:30:21,965 - INFO - URL: https://lmu.moveon4.de/publisher/1/deu
+2026-01-07 10:30:21,965 - INFO - ============================================================
+2026-01-07 10:30:21,965 - INFO - Navigating to https://lmu.moveon4.de/publisher/1/deu...
+2026-01-07 10:30:22,280 - INFO - Handling MoveON Publisher page...
+2026-01-07 10:30:40,862 - WARNING - ⚠️  No partners found for LMU München
+2026-01-07 10:30:40,863 - ERROR - [2026-01-07T10:30:40.862990] LMU München (https://lmu.moveon4.de/publisher/1/deu): No partners extracted from page
+
+2026-01-07 10:30:40,863 - INFO - Sleeping 5 seconds before next request...
+2026-01-07 10:30:45,868 - INFO - 
+[6/10] Processing Uni Leipzig...
+2026-01-07 10:30:45,869 - INFO - 
+============================================================
+2026-01-07 10:30:45,869 - INFO - Harvesting: Uni Leipzig
+2026-01-07 10:30:45,869 - INFO - URL: https://leipzig.moveon4.de/publisher/1/deu
+2026-01-07 10:30:45,869 - INFO - ============================================================
+2026-01-07 10:30:45,869 - INFO - Navigating to https://leipzig.moveon4.de/publisher/1/deu...
+2026-01-07 10:30:45,982 - INFO - Handling MoveON Publisher page...
+2026-01-07 10:31:04,562 - WARNING - ⚠️  No partners found for Uni Leipzig
+2026-01-07 10:31:04,563 - ERROR - [2026-01-07T10:31:04.563108] Uni Leipzig (https://leipzig.moveon4.de/publisher/1/deu): No partners extracted from page
+
+2026-01-07 10:31:04,563 - INFO - Sleeping 3 seconds before next request...
+2026-01-07 10:31:07,566 - INFO - 
+[7/10] Processing Uni Wien...
+2026-01-07 10:31:07,566 - INFO - 
+============================================================
+2026-01-07 10:31:07,566 - INFO - Harvesting: Uni Wien
+2026-01-07 10:31:07,566 - INFO - URL: https://international.univie.ac.at/student-mobility/outgoing-students/erasmus-studium/
+2026-01-07 10:31:07,566 - INFO - ============================================================
+2026-01-07 10:31:07,566 - INFO - Navigating to https://international.univie.ac.at/student-mobility/outgoing-students/erasmus-studium/...
+2026-01-07 10:31:23,982 - WARNING - ⚠️  No partners found for Uni Wien
+2026-01-07 10:31:23,983 - ERROR - [2026-01-07T10:31:23.983030] Uni Wien (https://international.univie.ac.at/student-mobility/outgoing-students/erasmus-studium/): No partners extracted from page
+
+2026-01-07 10:31:23,983 - INFO - Sleeping 4 seconds before next request...
+2026-01-07 10:31:27,988 - INFO - 
+[8/10] Processing Uni Graz...
+2026-01-07 10:31:27,988 - INFO - 
+============================================================
+2026-01-07 10:31:27,988 - INFO - Harvesting: Uni Graz
+2026-01-07 10:31:27,988 - INFO - URL: https://international.uni-graz.at/de/auslandsaufenthalte/studierende/studium/erasmus-studium/
+2026-01-07 10:31:27,988 - INFO - ============================================================
+2026-01-07 10:31:27,988 - INFO - Navigating to https://international.uni-graz.at/de/auslandsaufenthalte/studierende/studium/erasmus-studium/...
+2026-01-07 10:31:44,772 - INFO - ✅ Successfully harvested 1 unique partners
+2026-01-07 10:31:44,772 - INFO - Sleeping 5 seconds before next request...
+2026-01-07 10:31:49,777 - INFO - 
+[9/10] Processing TU Darmstadt...
+2026-01-07 10:31:49,777 - INFO - 
+============================================================
+2026-01-07 10:31:49,777 - INFO - Harvesting: TU Darmstadt
+2026-01-07 10:31:49,777 - INFO - URL: https://www.tu-darmstadt.de/studieren/studierende_tu/auslandsaufenthalt/austauschprogramme/index.de.jsp
+2026-01-07 10:31:49,778 - INFO - ============================================================
+2026-01-07 10:31:49,778 - INFO - Navigating to https://www.tu-darmstadt.de/studieren/studierende_tu/auslandsaufenthalt/austauschprogramme/index.de.jsp...
+2026-01-07 10:32:06,856 - WARNING - ⚠️  No partners found for TU Darmstadt
+2026-01-07 10:32:06,856 - ERROR - [2026-01-07T10:32:06.856412] TU Darmstadt (https://www.tu-darmstadt.de/studieren/studierende_tu/auslandsaufenthalt/austauschprogramme/index.de.jsp): No partners extracted from page
+
+2026-01-07 10:32:06,856 - INFO - Sleeping 3 seconds before next request...
+2026-01-07 10:32:09,861 - INFO - 
+[10/10] Processing Uni Potsdam...
+2026-01-07 10:32:09,862 - INFO - 
+============================================================
+2026-01-07 10:32:09,862 - INFO - Harvesting: Uni Potsdam
+2026-01-07 10:32:09,862 - INFO - URL: https://www.uni-potsdam.de/de/international/outgoing/studium/erasmus
+2026-01-07 10:32:09,862 - INFO - ============================================================
+2026-01-07 10:32:09,862 - INFO - Navigating to https://www.uni-potsdam.de/de/international/outgoing/studium/erasmus...
+2026-01-07 10:32:26,175 - INFO - ✅ Successfully harvested 1 unique partners
+2026-01-07 10:32:26,193 - INFO - 
+============================================================
+2026-01-07 10:32:26,193 - INFO - HARVEST SUMMARY
+2026-01-07 10:32:26,193 - INFO - ============================================================
+2026-01-07 10:32:26,193 - INFO - Total universities processed: 10
+2026-01-07 10:32:26,193 - INFO - Universities with partners: 3
+2026-01-07 10:32:26,193 - INFO - Total partners harvested: 19
+2026-01-07 10:32:26,193 - INFO - Average partners per university: 1.9
+2026-01-07 10:32:26,193 - INFO - ============================================================
+2026-01-07 10:32:26,199 - INFO - Backup created: /Users/maurice/Desktop/mystudycosts.com/data/batch1_erasmus_data.json.backup
+2026-01-07 10:32:26,199 - INFO - Results saved to: /Users/maurice/Desktop/mystudycosts.com/data/batch1_erasmus_data.json
+2026-01-07 10:32:26,199 - INFO - 
+✅ Harvest complete!
+2026-01-07 10:32:26,199 - INFO - 📁 Results saved to: /Users/maurice/Desktop/mystudycosts.com/data/batch1_erasmus_data.json
+2026-01-07 10:32:26,199 - INFO - ⚠️  Errors logged to: /Users/maurice/Desktop/mystudycosts.com/data/scripts/harvest_playwright_errors.txt
+2026-01-07 23:38:28,934 - INFO - ============================================================
+2026-01-07 23:38:28,934 - INFO - Mobility Online Partner Harvester - Batch 1 (Playwright)
+2026-01-07 23:38:28,934 - INFO - Semi-Automated Mode: Human-in-the-Loop
+2026-01-07 23:38:28,934 - INFO - Timestamp: 2026-01-07T23:38:28.934477
+2026-01-07 23:38:28,934 - INFO - Headless mode: False (Browser will be visible)
+2026-01-07 23:38:28,934 - INFO - ============================================================
+2026-01-07 23:38:28,934 - INFO - 📋 Instructions:
+2026-01-07 23:38:28,934 - INFO -    1. The browser will open for each university
+2026-01-07 23:38:28,934 - INFO -    2. Wait for the page to load completely
+2026-01-07 23:38:28,934 - INFO -    3. ⚠️  IMPORTANT: Select 'ALL DEPARTMENTS' in any dropdown
+2026-01-07 23:38:28,934 - INFO -    4. ⚠️  IMPORTANT: Ensure the 'SUBJECT' / 'FACH' column is visible
+2026-01-07 23:38:28,934 - INFO -    5. Manually click 'Show All' or 'Next Page' to load all results
+2026-01-07 23:38:28,934 - INFO -    6. Scroll to ensure all data is visible
+2026-01-07 23:38:28,934 - INFO -    7. Press Enter in the terminal when ready to extract
+2026-01-07 23:38:28,934 - INFO -    8. The script will extract ALL visible data with subject areas
+2026-01-07 23:38:28,934 - INFO - ============================================================
+2026-01-07 23:38:29,173 - INFO - Launching browser...
+2026-01-07 23:38:32,653 - INFO - 
+[1/10] Processing Uni Göttingen...
+2026-01-07 23:38:32,654 - INFO - 
+============================================================
+2026-01-07 23:38:32,654 - INFO - Harvesting: Uni Göttingen
+2026-01-07 23:38:32,654 - INFO - URL: https://uni-goettingen.moveon4.de/publisher/1/deu
+2026-01-07 23:38:32,654 - INFO - ============================================================
+2026-01-07 23:38:32,654 - INFO - Navigating to https://uni-goettingen.moveon4.de/publisher/1/deu...
+2026-01-07 23:38:33,879 - ERROR - [2026-01-07T23:38:33.879184] Uni Göttingen (https://uni-goettingen.moveon4.de/publisher/1/deu): Unexpected error: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://uni-goettingen.moveon4.de/publisher/1/deu
+Call log:
+  - navigating to "https://uni-goettingen.moveon4.de/publisher/1/deu", waiting until "domcontentloaded"
+
+
+2026-01-07 23:38:33,879 - ERROR - ❌ Error harvesting Uni Göttingen: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://uni-goettingen.moveon4.de/publisher/1/deu
+Call log:
+  - navigating to "https://uni-goettingen.moveon4.de/publisher/1/deu", waiting until "domcontentloaded"
+
+2026-01-07 23:38:33,879 - INFO - Sleeping 4 seconds before next request...
+2026-01-07 23:38:37,884 - INFO - 
+[2/10] Processing Uni Hannover (Leibniz)...
+2026-01-07 23:38:37,885 - INFO - 
+============================================================
+2026-01-07 23:38:37,885 - INFO - Harvesting: Uni Hannover (Leibniz)
+2026-01-07 23:38:37,885 - INFO - URL: https://uni-hannover.moveon4.de/publisher/1/deu
+2026-01-07 23:38:37,885 - INFO - ============================================================
+2026-01-07 23:38:37,885 - INFO - Navigating to https://uni-hannover.moveon4.de/publisher/1/deu...
+2026-01-07 23:38:38,228 - INFO - Handling MoveON Publisher page...
+2026-01-07 23:38:56,915 - INFO - 
+============================================================
+2026-01-07 23:38:56,915 - INFO - ⏸️  PAUSE: Please manually interact with the page:
+2026-01-07 23:38:56,915 - INFO -    ⚠️  IMPORTANT: Select 'ALL DEPARTMENTS' in the dropdown
+2026-01-07 23:38:56,915 - INFO -    ⚠️  IMPORTANT: Ensure the 'SUBJECT' / 'FACH' column is visible
+2026-01-07 23:38:56,915 - INFO -    - Click 'Show All' or 'Next Page' to load all results
+2026-01-07 23:38:56,915 - INFO -    - Scroll to ensure all data is visible
+2026-01-07 23:38:56,915 - INFO - ============================================================
+2026-01-07 23:38:56,915 - INFO - Press Enter in the terminal when you're ready to extract data...

@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import LegalFooter from '@/components/layout/LegalFooter';
 import CookieConsent from '@/components/CookieConsent';
 import ConditionalGoogleAnalytics from '@/components/ConditionalGoogleAnalytics';
 import { CurrencyProvider } from '@/contexts/CurrencyContext';
@@ -138,6 +139,7 @@ export default async function LocaleLayout({
                 {children}
               </main>
               <Footer />
+              <LegalFooter />
               <CookieConsent />
             </CurrencyProvider>
           </CookieConsentProvider>

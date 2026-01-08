@@ -3262,6 +3262,11 @@ export default function StudyCostCalculator() {
                     {formatCurrency(monthlyLivingExpenses * conversionRate, selectedCurrency)}
                   </span>
                 </div>
+                <p className="mt-4 text-xs text-slate-400 italic">
+                  Hinweis: Die Werte für Miete und Semesterbeiträge basieren auf Marktdaten und 
+                  Veröffentlichungen von Januar 2026. Tatsächliche Kosten können je nach 
+                  Lage und individuellem Verbrauch variieren.
+                </p>
                 <div className="border-t border-white/20 pt-3 mt-3">
                   <div className="flex justify-between items-center">
                     <span className="text-white font-bold text-lg">{t('monthlyTotal')}</span>
@@ -3290,6 +3295,10 @@ export default function StudyCostCalculator() {
                       {formatCurrency(convertedFirstYearTotal, selectedCurrency)}
                     </div>
                   </div>
+                  <p className="mt-4 text-[10px] text-slate-500 italic leading-tight">
+                    * Schätzwerte für 2026. Die tatsächlichen Kosten für Miete und Semesterbeiträge 
+                    können je nach individuellem Standort und Verbrauch variieren. Stand: Januar 2026.
+                  </p>
                 </div>
               </div>
             )}
