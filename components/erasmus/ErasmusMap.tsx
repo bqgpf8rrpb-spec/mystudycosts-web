@@ -13,13 +13,17 @@ L.Icon.Default.mergeOptions({
   shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
 });
 
+interface ErasmusMapProps {
+  isBackground?: boolean;
+}
+
 const MapController = () => {
   const map = useMap();
   useEffect(() => { map.setView([51.1657, 10.4515], 6); }, [map]);
   return null;
 };
 
-export default function ErasmusMap() {
+export default function ErasmusMap({ isBackground = false }: ErasmusMapProps) {
   const [geoData, setGeoData] = useState<any>(null);
 
   useEffect(() => {
@@ -32,7 +36,16 @@ export default function ErasmusMap() {
 
   return (
     <div className="relative w-full h-[600px] rounded-xl overflow-hidden shadow-2xl bg-[#020617] border border-blue-900/30">
-      <MapContainer center={[51.1657, 10.4515]} zoom={6} scrollWheelZoom={false} dragging={true} zoomControl={false} className="w-full h-full bg-[#020617]">
+      <MapContainer 
+        center={[51.1657, 10.4515]} 
+        zoom={6} 
+        scrollWheelZoom={false} 
+        dragging={!isBackground} 
+        touchZoom={!isBackground}
+        doubleClickZoom={!isBackground}
+        zoomControl={false} 
+        className="w-full h-full bg-[#020617]"
+      >
         <MapController />
         <TileLayer url="https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png" attribution='&copy; OpenStreetMap' />
         {geoData && (
