@@ -1,0 +1,178 @@
+{
+  "timestamp": "2026-03-16T11:02:29.220Z",
+  "baseUrl": "http://localhost:3001",
+  "totalUrls": 34,
+  "totalErrors": 0,
+  "results": [
+    {
+      "url": "/de",
+      "errorCount": 0,
+      "errors": []
+    },
+    {
+      "url": "/en",
+      "errorCount": 0,
+      "errors": []
+    },
+    {
+      "url": "/de/calculator",
+      "errorCount": 0,
+      "errors": []
+    },
+    {
+      "url": "/en/calculator",
+      "errorCount": 0,
+      "errors": []
+    },
+    {
+      "url": "/de/nc-checker",
+      "errorCount": 0,
+      "errors": []
+    },
+    {
+      "url": "/en/nc-checker",
+      "errorCount": 0,
+      "errors": []
+    },
+    {
+      "url": "/de/erasmus",
+      "errorCount": 0,
+      "errors": []
+    },
+    {
+      "url": "/en/erasmus",
+      "errorCount": 0,
+      "errors": []
+    },
+    {
+      "url": "/de/about",
+      "errorCount": 0,
+      "errors": []
+    },
+    {
+      "url": "/en/about",
+      "errorCount": 0,
+      "errors": []
+    },
+    {
+      "url": "/de/blog",
+      "errorCount": 0,
+      "errors": []
+    },
+    {
+      "url": "/en/blog",
+      "errorCount": 0,
+      "errors": []
+    },
+    {
+      "url": "/de/imprint",
+      "errorCount": 0,
+      "errors": []
+    },
+    {
+      "url": "/en/imprint",
+      "errorCount": 0,
+      "errors": []
+    },
+    {
+      "url": "/de/privacy",
+      "errorCount": 0,
+      "errors": []
+    },
+    {
+      "url": "/en/privacy",
+      "errorCount": 0,
+      "errors": []
+    },
+    {
+      "url": "/de/degree",
+      "errorCount": 0,
+      "errors": []
+    },
+    {
+      "url": "/en/degree",
+      "errorCount": 0,
+      "errors": []
+    },
+    {
+      "url": "/de/city/berlin",
+      "errorCount": 0,
+      "errors": []
+    },
+    {
+      "url": "/de/city/munich",
+      "errorCount": 0,
+      "errors": []
+    },
+    {
+      "url": "/de/city/hamburg",
+      "errorCount": 0,
+      "errors": []
+    },
+    {
+      "url": "/en/city/berlin",
+      "errorCount": 0,
+      "errors": []
+    },
+    {
+      "url": "/en/city/munich",
+      "errorCount": 0,
+      "errors": []
+    },
+    {
+      "url": "/test-map",
+      "errorCount": 0,
+      "errors": []
+    },
+    {
+      "url": "/de/program/technical-university-of-munich-tum-aerospace-engineering-b-sc",
+      "errorCount": 0,
+      "errors": []
+    },
+    {
+      "url": "/en/program/technical-university-of-munich-tum-aerospace-engineering-b-sc",
+      "errorCount": 0,
+      "errors": []
+    },
+    {
+      "url": "/de/program/technical-university-of-munich-tum-aerospace-engineering-m-sc",
+      "errorCount": 0,
+      "errors": []
+    },
+    {
+      "url": "/en/program/technical-university-of-munich-tum-aerospace-engineering-m-sc",
+      "errorCount": 0,
+      "errors": []
+    },
+    {
+      "url": "/de/program/technical-university-of-munich-tum-agricultural-and-horticultural-sciences-b-sc",
+      "errorCount": 0,
+      "errors": []
+    },
+    {
+      "url": "/en/program/technical-university-of-munich-tum-agricultural-and-horticultural-sciences-b-sc",
+      "errorCount": 0,
+      "errors": []
+    },
+    {
+      "url": "/de/program/technical-university-of-munich-tum-agricultural-and-horticultural-sciences-m-sc",
+      "errorCount": 0,
+      "errors": []
+    },
+    {
+      "url": "/en/program/technical-university-of-munich-tum-agricultural-and-horticultural-sciences-m-sc",
+      "errorCount": 0,
+      "errors": []
+    },
+    {
+      "url": "/de/program/technical-university-of-munich-tum-architecture-b-sc",
+      "errorCount": 0,
+      "errors": []
+    },
+    {
+      "url": "/en/program/technical-university-of-munich-tum-architecture-b-sc",
+      "errorCount": 0,
+      "errors": []
+    }
+  ]
+}

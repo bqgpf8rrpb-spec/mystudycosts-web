@@ -1,0 +1,1802 @@
+[
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Aerospace - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/aerospace-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:19.163715",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Aerospace - Bachelor of Science (B.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/aerospace-bachelor-of-science-bsc",
+    "scraped_at": "2026-04-13T14:29:19.306083",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Architektur - Master of Arts (M.A.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/architektur-master-of-arts-ma",
+    "scraped_at": "2026-04-13T14:29:19.339193",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Aerospace Engineering - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/aerospace-engineering-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:19.367429",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Architektur - Bachelor of Arts (B.A.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/architektur-bachelor-of-arts-ba",
+    "scraped_at": "2026-04-13T14:29:19.369580",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Bauingenieurwesen - Bachelor of Science (B.Sc.)",
+    "source_nc_text": "zulassungsfrei",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/bauingenieurwesen-bachelor-of-science-bsc",
+    "scraped_at": "2026-04-13T14:29:19.708822",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Bauingenieurwesen - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/bauingenieurwesen-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:19.726366",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "AI in Society - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/ai-in-society",
+    "scraped_at": "2026-04-13T14:29:21.236041",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Agrarwissenschaften und Gartenbauwissenschaften - Bachelor of Science (B.Sc.)",
+    "source_nc_text": "zulassungsfrei",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/agrarwissenschaften-und-gartenbauwissenschaften-bachelor-of-science-bsc",
+    "scraped_at": "2026-04-13T14:29:21.918701",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Agrarsystemwissenschaften - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/agrarsystemwissenschaften-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:21.952464",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Automotive Engineering - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/automotive-engineering-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:21.973137",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "AgriFood Economics, Policy and Regulation - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/agrifood-economics-policy-and-regulation",
+    "scraped_at": "2026-04-13T14:29:21.980376",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Agricultural Biosciences - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/agricultural-biosciences-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:21.982705",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Berufliche Bildung Fachrichtung Gesundheits- und Pflegewissenschaft (Lehramt an beruflichen Schulen) - Master of Education (M.Ed.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/berufliche-bildung-fachrichtung-gesundheits-und-pflegewissenschaft-lehramt-an-beruflichen-schulen-master-of-education-med",
+    "scraped_at": "2026-04-13T14:29:22.309863",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Berufliche Bildung Fachrichtung Agrarwirtschaft (Lehramt an beruflichen Schulen) - Master of Education (M.Ed.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/berufliche-bildung-fachrichtung-agrarwirtschaft-lehramt-an-beruflichen-schulen-master-of-education-med",
+    "scraped_at": "2026-04-13T14:29:22.349662",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Berufliche Bildung Fachrichtung Agrarwirtschaft (Lehramt an beruflichen Schulen) - Bachelor of Education (B.Ed.)",
+    "source_nc_text": "zulassungsfrei",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/berufliche-bildung-fachrichtung-agrarwirtschaft-lehramt-an-beruflichen-schulen-bachelor-of-education-bed",
+    "scraped_at": "2026-04-13T14:29:22.792498",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "AI in Biomedicine - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/ai-in-biomedicine-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:22.932465",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Berufliche Bildung Fachrichtung Bautechnik (Lehramt an beruflichen Schulen) - Master of Education (M.Ed.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/berufliche-bildung-fachrichtung-bautechnik-lehramt-an-beruflichen-schulen-master-of-education-med",
+    "scraped_at": "2026-04-13T14:29:22.967295",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Berufliche Bildung Fachrichtung Elektrotechnik und Informationstechnik (Lehramt an beruflichen Schulen) - Bachelor of Education (B.Ed.)",
+    "source_nc_text": "zulassungsfrei",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/berufliche-bildung-fachrichtung-elektrotechnik-und-informationstechnik-lehramt-an-beruflichen-schulen-bachelor-of-education-bed",
+    "scraped_at": "2026-04-13T14:29:22.987834",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Berufliche Bildung Fachrichtung Bautechnik (Lehramt an beruflichen Schulen) - Bachelor of Education (B.Ed.)",
+    "source_nc_text": "zulassungsfrei",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/berufliche-bildung-fachrichtung-bautechnik-lehramt-an-beruflichen-schulen-bachelor-of-education-bed",
+    "scraped_at": "2026-04-13T14:29:22.992273",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Berufliche Bildung Fachrichtung Elektrotechnik und Informationstechnik (Lehramt an beruflichen Schulen) - Master of Education (M.Ed.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/berufliche-bildung-fachrichtung-elektrotechnik-und-informationstechnik-lehramt-an-beruflichen-schulen-master-of-education-med",
+    "scraped_at": "2026-04-13T14:29:23.962013",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Berufliche Bildung Fachrichtung Ernährungs- und Hauswirtschaftswissenschaft (Lehramt an beruflichen Schulen) - Master of Education (M.Ed.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/berufliche-bildung-fachrichtung-ernaehrungs-und-hauswirtschaftswissenschaft-lehramt-an-beruflichen-schulen-master-of-education-med",
+    "scraped_at": "2026-04-13T14:29:24.710678",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Berufliche Bildung Fachrichtung Metalltechnik (Lehramt an beruflichen Schulen) - Bachelor of Education (B.Ed.)",
+    "source_nc_text": "zulassungsfrei",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/berufliche-bildung-fachrichtung-metalltechnik-lehramt-an-beruflichen-schulen-bachelor-of-education-bed",
+    "scraped_at": "2026-04-13T14:29:25.015265",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Berufliche Bildung Fachrichtung Gesundheits- und Pflegewissenschaft (Lehramt an beruflichen Schulen) - Bachelor of Education (B.Ed.)",
+    "source_nc_text": "zulassungsfrei",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/berufliche-bildung-fachrichtung-gesundheits-und-pflegewissenschaft-lehramt-an-beruflichen-schulen-bachelor-of-education-bed",
+    "scraped_at": "2026-04-13T14:29:25.044127",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Berufliche Bildung Fachrichtung Ernährungs- und Hauswirtschaftswissenschaft (Lehramt an beruflichen Schulen) - Bachelor of Education (B.Ed.)",
+    "source_nc_text": "zulassungsfrei",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/berufliche-bildung-fachrichtung-ernaehrungs-und-hauswirtschaftswissenschaft-lehramt-an-beruflichen-schulen-bachelor-of-education-bed",
+    "scraped_at": "2026-04-13T14:29:25.046296",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Biochemie - Bachelor of Science (B.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/biochemie-bachelor-of-science-bsc",
+    "scraped_at": "2026-04-13T14:29:25.073901",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Berufliche Bildung Fachrichtung Metalltechnik (Lehramt an beruflichen Schulen) - Master of Education (M.Ed.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/berufliche-bildung-fachrichtung-metalltechnik-lehramt-an-beruflichen-schulen-master-of-education-med",
+    "scraped_at": "2026-04-13T14:29:25.202614",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Bioeconomy - Bachelor of Science (B.Sc.)",
+    "source_nc_text": "Art der Zulassung Studienorientierungsverfahren (SOV)",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/bioeconomy-bachelor-of-science-bsc",
+    "scraped_at": "2026-04-13T14:29:25.303639",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Biochemie - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/biochemie-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:25.406663",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Biomedical Neuroscience - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/biomedical-neuroscience-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:25.869113",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Bioinformatik - Bachelor of Science (B.Sc.)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/bioinformatik-bachelor-of-science-bsc",
+    "scraped_at": "2026-04-13T14:29:25.876073",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Bodenordnung und Landentwicklung (Bachelorteilstudiengang) - Sonstiges",
+    "source_nc_text": "zulassungsfrei",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/bodenordnung-und-landentwicklung-bachelorteilstudiengang-sonstiges",
+    "scraped_at": "2026-04-13T14:29:25.892240",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Bioeconomy - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/bioeconomy-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:26.503489",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Bioökonomie - Bachelor of Science (B.Sc.)",
+    "source_nc_text": "zulassungsfrei",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/biooekonomie-bachelor-of-science-bsc",
+    "scraped_at": "2026-04-13T14:29:27.449273",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Biogene Werkstoffe - Bachelor of Science (B.Sc.)",
+    "source_nc_text": "zulassungsfrei",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/biogene-werkstoffe-bachelor-of-science-bsc",
+    "scraped_at": "2026-04-13T14:29:28.154370",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Brauwesen und Getränketechnologie - Bachelor of Science (B.Sc.)",
+    "source_nc_text": "zulassungsfrei",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/brauwesen-und-getraenketechnologie-bachelor-of-science-bsc",
+    "scraped_at": "2026-04-13T14:29:28.476491",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Biomass Technology - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/biomassetechnologie-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:29.073613",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Bioinformatik - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/bioinformatik-master-of-science-msc-1",
+    "scraped_at": "2026-04-13T14:29:29.203330",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Biologie - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/biologie-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:29.255559",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Chemical Engineering - Bachelor of Engineering (B.Eng.)",
+    "source_nc_text": "Art der Zulassung Weitere Informationen erhalten Sie bei TUM Asia",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/chemical-engineering-bachelor-of-engineering-beng",
+    "scraped_at": "2026-04-13T14:29:29.261701",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Brauwesen (Abschluss Diplombraumeister) - Diplom-Braumeister",
+    "source_nc_text": "zulassungsfrei",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/brauwesen-abschluss-diplombraumeister-diplom-braumeister",
+    "scraped_at": "2026-04-13T14:29:29.574117",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Biomedical Engineering and Medical Physics - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/biomedical-engineering-and-medical-physics-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:29.634033",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Chemical Biotechnology - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/chemical-biotechnology-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:29.660831",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Computational Mechanics - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/computational-mechanics-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:29.871570",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Cartography - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/cartography-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:29.875278",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Chemische Biotechnologie - Bachelor of Science (B.Sc.)",
+    "source_nc_text": "zulassungsfrei",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/chemische-biotechnologie-bachelor-of-science-bsc",
+    "scraped_at": "2026-04-13T14:29:29.877676",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Computational Science and Engineering (CSE) - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/computational-science-and-engineering-cse-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:29.928462",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Elektrotechnik und Informationstechnik - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/elektrotechnik-und-informationstechnik-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:30.232281",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Chemie - Bachelor of Science (B.Sc.)",
+    "source_nc_text": "Art der Zulassung Studienorientierungsverfahren (SOV)",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/chemie-bachelor-of-science-bsc",
+    "scraped_at": "2026-04-13T14:29:30.419487",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Brauwesen und Getränketechnologie - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/brauwesen-und-getraenketechnologie-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:30.613551",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Chemie - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/chemie-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:30.673096",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Chemieingenieurwesen - Bachelor of Science (B.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/chemieingenieurwesen-bachelor-of-science-bsc",
+    "scraped_at": "2026-04-13T14:29:31.115799",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Entwicklung, Produktion und Management im Maschinenbau - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/entwicklung-produktion-und-management-im-maschinenbau-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:31.199218",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Data & Society - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/data-and-society-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:32.709505",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Consumer Science - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/consumer-science-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:32.868646",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Communications and Electronics Engineering - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/communications-engineering-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:33.058800",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Chemieingenieurwesen - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/chemieingenieurwesen-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:33.098708",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Electronics and Data Engineering - Bachelor of Engineering (B.Eng.)",
+    "source_nc_text": "Art der Zulassung Weitere Informationen erhalten Sie bei TUM Asia",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/electronics-and-data-engineering-bachelor-of-engineering-beng",
+    "scraped_at": "2026-04-13T14:29:33.105997",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Elektrotechnik und Informationstechnik - Bachelor of Science (B.Sc.)",
+    "source_nc_text": "zulassungsfrei",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/elektrotechnik-und-informationstechnik-bachelor-of-science-bsc",
+    "scraped_at": "2026-04-13T14:29:33.114553",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Data Engineering and Analytics - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/data-engineering-and-analytics-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:33.129484",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Energie- und Prozesstechnik - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/energie-und-prozesstechnik-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:33.200328",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Environmental Engineering - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/environmental-engineering-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:33.433200",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Forstwissenschaft und Ressourcenmanagement - Bachelor of Science (B.Sc.)",
+    "source_nc_text": "zulassungsfrei",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/forstwissenschaft-und-ressourcenmanagement-bachelor-of-science-bsc",
+    "scraped_at": "2026-04-13T14:29:33.455286",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "ESPACE – Earth Oriented Space Science and Technology - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/espace-earth-oriented-space-science-and-technology-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:34.281142",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Executive MBA in General Management - Master of Business Administration (MBA)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/executive-mba-in-general-management-master-of-business-administration-mba",
+    "scraped_at": "2026-04-13T14:29:34.436794",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Executive MBA in Business & IT - Master of Business Administration (MBA)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/executive-mba-in-business-it-master-of-business-administration-mba",
+    "scraped_at": "2026-04-13T14:29:35.444533",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Geodäsie und Geoinformation - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/geodaesie-und-geoinformation-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:36.190100",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "GeoThermie / GeoEnergie - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/geothermie-geoenergie-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:36.250672",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Executive MBA in Innovation and Business Creation - Master of Business Administration (MBA)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/executive-mba-in-innovation-and-business-creation-master-of-business-administration-mba",
+    "scraped_at": "2026-04-13T14:29:36.490839",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Forst- und Holzwissenschaft - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/forst-und-holzwissenschaft-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:36.813451",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Geowissenschaften - Bachelor of Science (B.Sc.)",
+    "source_nc_text": "zulassungsfrei",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/geowissenschaften-bachelor-of-science-bsc",
+    "scraped_at": "2026-04-13T14:29:36.941210",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Finance and Information Management (FIM) - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/finance-and-information-management-fim-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:36.971637",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Gesundheitswissenschaft - Bachelor of Science (B.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/gesundheitswissenschaft-bachelor-of-science-bsc",
+    "scraped_at": "2026-04-13T14:29:37.293992",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Informatik - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/informatik-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:37.374686",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Informatik: Games Engineering - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/informatik-games-engineering-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:37.801739",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Geomaterials and Geochemistry - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/geomaterials-and-geochemistry-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:38.466749",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Geodäsie und Geoinformation - Bachelor of Science (B.Sc.)",
+    "source_nc_text": "zulassungsfrei",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/geodaesie-und-geoinformation-bachelor-of-science-bsc",
+    "scraped_at": "2026-04-13T14:29:38.502480",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Geophysics - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/geophysics",
+    "scraped_at": "2026-04-13T14:29:38.573872",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Information Engineering (am TUM Campus Heilbronn) - Bachelor of Science (B.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/information-engineering-am-tum-campus-heilbronn-bachelor-of-science-bsc",
+    "scraped_at": "2026-04-13T14:29:38.873454",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Human Factors Engineering - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/ergonomie-human-factors-engineering-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:39.089488",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Informatik - Bachelor of Science (B.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/informatik-bachelor-of-science-bsc",
+    "scraped_at": "2026-04-13T14:29:39.397169",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Industrielle Biotechnologie - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/industrielle-biotechnologie-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:39.611312",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Informatik: Games Engineering - Bachelor of Science (B.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/informatik-games-engineering-bachelor-of-science-bsc",
+    "scraped_at": "2026-04-13T14:29:39.628206",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Industrial Chemistry - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/industrial-chemistry-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:39.963904",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Information Engineering (am Campus Heilbronn) - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/information-engineering-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:40.031366",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Green Electronics - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/green-electronics-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:40.478547",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Health Science – Prevention and Health Promotion - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/health-science-prevention-and-health-promotion-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:41.359455",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Information Systems (Wirtschaftsinformatik) - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/wirtschaftsinformatik-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:41.369517",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Information Technologies for the Built Environment - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/information-technologies-for-the-built-environment-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:41.535158",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Ingenieur- und Hydrogeologie - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/ingenieur-und-hydrogeologie-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:41.601103",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Ingenieur- und Werkstoffwissenschaften - Bachelor of Science (B.Sc.)",
+    "source_nc_text": "zulassungsfrei",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/ingenieur-und-werkstoffwissenschaften-bachelor-of-science-bsc",
+    "scraped_at": "2026-04-13T14:29:42.010833",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Land Management and Geospatial Science - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/land-management-and-geospatial-science-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:42.564822",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Landschaftsarchitektur - Master of Arts (M.A.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/landschaftsarchitektur-master-of-arts-ma",
+    "scraped_at": "2026-04-13T14:29:42.806945",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Landschaftsarchitektur und Landschaftsplanung - Bachelor of Science (B.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/landschaftsarchitektur-und-landschaftsplanung-bachelor-of-science-bsc",
+    "scraped_at": "2026-04-13T14:29:42.840524",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Ingenieurwissenschaften (Engineering Science) - Bachelor of Science (B.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/ingenieurwissenschaften-engineering-science-bachelor-of-science-bsc",
+    "scraped_at": "2026-04-13T14:29:43.186076",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Ingenieurökologie - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/ingenieuroekologie-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:44.135939",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Integrated Circuit Design - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/integrated-circuit-design-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:44.138647",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Lebensmitteltechnologie - Bachelor of Science (B.Sc.)",
+    "source_nc_text": "zulassungsfrei",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/lebensmitteltechnologie-bachelor-of-science-bsc",
+    "scraped_at": "2026-04-13T14:29:44.675455",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Lebensmitteltechnologie - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/technologie-und-biotechnologie-der-lebensmittel-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:44.713134",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Lehramt an Grundschulen und Mittelschulen – Unterrichtsfach Sport - Staatsexamen",
+    "source_nc_text": "Art der Zulassung Weitere Informationen zur Zulassung",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/lehramt-an-grundschulen-und-mittelschulen-unterrichtsfach-sport-staatsexamen",
+    "scraped_at": "2026-04-13T14:29:45.023312",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Lehramt an beruflichen Schulen – Masterstudiengang Berufliche Bildung Integriert - Master of Education (M.Ed.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/lehramt-an-beruflichen-schulen-masterstudiengang-berufliche-bildung-integriert-master-of-education-med",
+    "scraped_at": "2026-04-13T14:29:45.038522",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Life Sciences Ernährungswissenschaft - Bachelor of Science (B.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/life-sciences-ernaehrungswissenschaft-bachelor-of-science-bsc",
+    "scraped_at": "2026-04-13T14:29:45.352651",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Lebensmittelchemie - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/lebensmittelchemie-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:45.699632",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Lehramt an Gymnasien – Naturwissenschaftliche Bildung - Master of Education (M.Ed.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/lehramt-an-gymnasien-naturwissenschaftliche-bildung-master-of-education-med",
+    "scraped_at": "2026-04-13T14:29:45.908821",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Lebensmittelchemie - Bachelor of Science (B.Sc.)",
+    "source_nc_text": "Art der Zulassung Studienorientierungsverfahren (SOV)",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/lebensmittelchemie-bachelor-of-science-bsc",
+    "scraped_at": "2026-04-13T14:29:45.982991",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Lehramt an Gymnasien – Naturwissenschaftliche Bildung - (gymnasiales Lehramt) - Bachelor of Education (B.Ed.)",
+    "source_nc_text": "zulassungsfrei",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/lehramt-an-gymnasien-naturwissenschaftliche-bildung-bachelor-of-education-bed",
+    "scraped_at": "2026-04-13T14:29:46.022597",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Lehramt an Gymnasien – Unterrichtsfach Sport - Staatsexamen",
+    "source_nc_text": "Art der Zulassung Weitere Informationen zur Zulassung",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/lehramt-an-gymnasien-unterrichtsfach-sport-staatsexamen",
+    "scraped_at": "2026-04-13T14:29:46.240404",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Management and Data Science - Bachelor of Science (B.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/management-and-data-science",
+    "scraped_at": "2026-04-13T14:29:46.420618",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Management and Digital Technology - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/management-and-digital-technology",
+    "scraped_at": "2026-04-13T14:29:46.423193",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Management and Technology - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/management-and-technology-tum-bwl-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:46.869604",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Lehramt an Mittelschulen – Didaktikfach Sport - Staatsexamen",
+    "source_nc_text": "Art der Zulassung Weitere Informationen zur Zulassung",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/lehramt-an-mittelschulen-didaktikfach-sport-staatsexamen",
+    "scraped_at": "2026-04-13T14:29:46.919382",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Lehramt an Realschulen – Unterrichtsfach Sport - Staatsexamen",
+    "source_nc_text": "Art der Zulassung Weitere Informationen zur Zulassung",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/lehramt-an-realschulen-unterrichtsfach-sport-staatsexamen",
+    "scraped_at": "2026-04-13T14:29:46.935455",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Life Sciences Biologie - Bachelor of Science (B.Sc.)",
+    "source_nc_text": "Art der Zulassung Studienorientierungsverfahren (SOV)",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/life-sciences-biologie-bachelor-of-science-bsc",
+    "scraped_at": "2026-04-13T14:29:47.578568",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Materials Science and Engineering - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/materials-science-and-engineering-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:47.949664",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Logistics Engineering and Management - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/logistics-engineering-and-management-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:47.988597",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Mathematical Finance and Actuarial Science - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/mathematical-finance-and-actuarial-science-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:48.339582",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Lehramt an Grundschulen – Didaktikfach Sport - Staatsexamen",
+    "source_nc_text": "Art der Zulassung Weitere Informationen zur Zulassung",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/lehramt-an-grundschulen-didaktikfach-sport-staatsexamen",
+    "scraped_at": "2026-04-13T14:29:48.438852",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Management (am Campus Heilbronn) - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/management-hauptstandort-heilbronn-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:48.447787",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Lehramt Sport (Erweiterungsfach/Drittfach) - Staatsexamen",
+    "source_nc_text": "Art der Zulassung Weitere Informationen zur Zulassung",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/lehramt-sport-erweiterungsfachdrittfach-staatsexamen",
+    "scraped_at": "2026-04-13T14:29:48.524924",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Lehramt – Erweiterungsfach - Zertifikat",
+    "source_nc_text": "Art der Zulassung Details zur Zulassung und Bewerbung",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/lehramt-erweiterungsfach-zertifikat",
+    "scraped_at": "2026-04-13T14:29:48.628545",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Management (Hauptstandort: München) - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/management-hauptstandort-muenchen-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:48.645969",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Management and Innovation - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/management-and-innovation-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:48.751805",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Management and Technology (am Campus Heilbronn) - Bachelor of Science (B.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/management-and-technology-tum-bwl-bachelor-of-science-bsc",
+    "scraped_at": "2026-04-13T14:29:48.811797",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Medizin (klinischer Abschnitt) - Staatsexamen",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/medizin-klinischer-abschnitt-staatsexamen",
+    "scraped_at": "2026-04-13T14:29:49.015432",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Medizintechnik - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/medizintechnik-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:49.107825",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Management and Technology (am Campus München) - Bachelor of Science (B.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/management-and-technology-am-campus-muenchen-bachelor-of-science-bsc",
+    "scraped_at": "2026-04-13T14:29:49.317562",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Maschinenwesen - Bachelor of Science (B.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/maschinenwesen-bachelor-of-science-bsc",
+    "scraped_at": "2026-04-13T14:29:49.689677",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Maschinenwesen - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/maschinenwesen-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:49.694308",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Neuroengineering - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/neuroengineering-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:49.978802",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Mathematics in Data Science - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/mathematics-in-data-science-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:50.463435",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Mathematics in Science and Engineering - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/mathematics-in-science-and-engineering-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:51.018798",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Mathematik - Bachelor of Science (B.Sc.)",
+    "source_nc_text": "Art der Zulassung Studienorientierungsverfahren (SOV)",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/mathematik-bachelor-of-science-bsc",
+    "scraped_at": "2026-04-13T14:29:51.109091",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Mathematik - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/mathematik-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:51.285173",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Mechatronics, Robotics and Biomechanical Engineering - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/mechatronics-robotics-and-biomechanical-engineering",
+    "scraped_at": "2026-04-13T14:29:51.430334",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Physics (Applied and Engineering Physics) - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/physics-applied-and-engineering-physics-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:51.522946",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Microelectronics and Chip Design - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/microelectronics-and-chip-design-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:51.537761",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Molekulare Biotechnologie - Bachelor of Science (B.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/molekulare-biotechnologie-bachelor-of-science-bsc",
+    "scraped_at": "2026-04-13T14:29:51.804738",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Politikwissenschaft - Bachelor of Science (B.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/politikwissenschaft-bachelor-of-science-bsc",
+    "scraped_at": "2026-04-13T14:29:51.925766",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Naturschutz und Landschaftsplanung - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/naturschutz-und-landschaftsplanung-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:52.072934",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Molekulare Biotechnologie - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/molekulare-biotechnologie-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:52.081686",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Quantum Science & Technology - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/quantum-science-technology-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:52.486076",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Nutrition and Biomedicine - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/nutrition-and-biomedicine-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:52.522281",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Pharmazeutische Bioprozesstechnik - Bachelor of Science (B.Sc.)",
+    "source_nc_text": "zulassungsfrei",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/pharmazeutische-bioprozesstechnik-bachelor-of-science-bsc",
+    "scraped_at": "2026-04-13T14:29:53.012941",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Pharmazeutische Bioprozesstechnik - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/pharmazeutische-bioprozesstechnik-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:53.263724",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Physik (Physik der kondensierten Materie) - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/physik-physik-der-kondensierten-materie-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:53.846402",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Robotics, Cognition, Intelligence - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/robotics-cognition-intelligence-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:54.319988",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Physik (Biophysik) - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/physik-biophysik-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:54.501090",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Radiation Biology - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/radiation-biology-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:54.591690",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Physik (Kern-, Teilchen- und Astrophysik) - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/physik-kern-teilchen-und-astrophysik-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:54.636832",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Physik - Bachelor of Science (B.Sc.)",
+    "source_nc_text": "zulassungsfrei",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/physik-bachelor-of-science-bsc",
+    "scraped_at": "2026-04-13T14:29:54.655197",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Politics & Technology - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/politics-technology-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:54.722593",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Power Engineering - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/power-engineering-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:54.751125",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Rail and Urban Transport - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/rail-and-urban-transport-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:55.385024",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Responsibility in Science, Engineering and Technology (RESET) - Master of Arts (M.A.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/responsibility-in-science-engineering-and-technology-reset-master-of-arts-ma",
+    "scraped_at": "2026-04-13T14:29:55.416786",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Psychologie mit schulpsychologischem Schwerpunkt für das Lehramt an Beruflichen Schulen (Bachelorteilstudiengang) - Sonstiges",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/psychologie-mit-schulpsychologischem-schwerpunkt-fuer-das-lehramt-an-beruflichen-schulen-bachelorteilstudiengang-sonstiges",
+    "scraped_at": "2026-04-13T14:29:55.427868",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Ressourceneffizientes und Nachhaltiges Bauen - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/ressourceneffizientes-und-nachhaltiges-bauen-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:55.430615",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Risk and Safety - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/risk-and-safety",
+    "scraped_at": "2026-04-13T14:29:55.984252",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Sustainable Real Estate - Master of Advanced Studies (MAS)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/sustainable-real-estate-master-of-advanced-studies-mas",
+    "scraped_at": "2026-04-13T14:29:56.275744",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Science and Technology of Materials (STM) - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/science-and-technology-of-materials-stm-1",
+    "scraped_at": "2026-04-13T14:29:57.192034",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Sportwissenschaft - Bachelor of Science (B.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/sportwissenschaft-bachelor-of-science-bsc",
+    "scraped_at": "2026-04-13T14:29:57.439733",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Sport and Exercise Science - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/sport-and-exercise-science-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:57.492455",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Science and Technology Studies (STS) - Master of Arts (M.A.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/science-and-technology-studies-sts-master-of-arts-ma",
+    "scraped_at": "2026-04-13T14:29:57.693075",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Sustainable Energy and Processes - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/sustainable-energy-and-processes-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:57.745405",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Technology of Biogenic Resources - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/technology-of-biogenic-resources-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:57.859884",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Sustainable Engineering for Materials and Processes - Bachelor of Science (B.Sc.)",
+    "source_nc_text": "Art der Zulassung Studienorientierungsverfahren (SOV)",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/sustainable-engineering-for-materials-and-processes-bachelor-of-science-bsc",
+    "scraped_at": "2026-04-13T14:29:58.072782",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Umweltingenieurwesen - Bachelor of Science (B.Sc.)",
+    "source_nc_text": "zulassungsfrei",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/umweltingenieurwesen-bachelor-of-science-bsc",
+    "scraped_at": "2026-04-13T14:29:58.079565",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Software Engineering - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/software-engineering-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:58.336769",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Sustainable Management and Technology - Bachelor of Science (B.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/sustainable-management-and-technology-bachelor-of-science-bsc",
+    "scraped_at": "2026-04-13T14:29:58.469097",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Sustainable Management and Technology - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/sustainable-management-and-technology-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:58.470779",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Wirtschaftspädagogik I - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/wirtschaftspaedagogik-i-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:58.604746",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Wirtschaftspädagogik II mit Unterrichtsfach - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/wirtschaftspaedagogik-ii-mit-unterrichtsfach-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:29:58.799771",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "studium MINT (Zertifikat) - Zertifikat",
+    "source_nc_text": "zulassungsfrei",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/studium-mint-zertifikat-zertifikat",
+    "scraped_at": "2026-04-13T14:29:59.793338",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Sustainable Food - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/sustainable-food-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:30:00.155465",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Technologie biogener Rohstoffe - Bachelor of Science (B.Sc.)",
+    "source_nc_text": "zulassungsfrei",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/technologie-biogener-rohstoffe-bachelor-of-science-bsc",
+    "scraped_at": "2026-04-13T14:30:00.184023",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Technology Management - Honours Degree",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/technology-management-honours-degree",
+    "scraped_at": "2026-04-13T14:30:00.262528",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Transportation Systems - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/transportation-systems-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:30:00.520245",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Urbanistik – Landschaft und Stadt - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/urbanistik-landschaft-und-stadt-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:30:00.528281",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Wirtschaftsinformatik - Bachelor of Science (B.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/wirtschaftsinformatik-bachelor-of-science-bsc",
+    "scraped_at": "2026-04-13T14:30:00.564777",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Sustainable Resource Management - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/sustainable-resource-management-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:30:00.632460",
+    "confidence": 0.85,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Technische Universität München",
+    "source_program_name": "Vocational Education and Innovation - Master of Science (M.Sc.)",
+    "source_nc_text": "EFV",
+    "semester": null,
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/vocational-education-and-innovation-master-of-science-msc",
+    "scraped_at": "2026-04-13T14:30:01.628133",
+    "confidence": 0.85,
+    "metadata": {}
+  }
+]

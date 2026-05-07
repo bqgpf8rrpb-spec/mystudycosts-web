@@ -1,0 +1,10 @@
+{
+  "university_id": "TECHNISCHE_UNIVERSITAT_DARMSTADT",
+  "university_name": "TECHNISCHE UNIVERSITAT DARMSTADT",
+  "portal_url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=DARMSTA01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+  "portal_type": "mobility_online",
+  "scraped_at": "2026-03-15T17:32:53.584Z",
+  "strategy": "html_table",
+  "partner_count": 0,
+  "partners": []
+}

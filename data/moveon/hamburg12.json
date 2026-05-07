@@ -1,0 +1,46 @@
+{
+  "university_id": "HAMBURG12",
+  "university_name": "Mobility-Online Portal",
+  "portal_url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=HAMBURG12&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+  "portal_type": "mobility_online",
+  "scraped_at": "2026-03-15T20:55:54.972Z",
+  "strategy": "html_table",
+  "partner_count": 5,
+  "partners": [
+    {
+      "partner_name": "Arkitektskolen i Aarhus",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "336799"
+    },
+    {
+      "partner_name": "ECOLE NATIONALE SUPERIEURE D'ARCHITECTURE DE MARSEILLE",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "339153"
+    },
+    {
+      "partner_name": "Orta Dogu Teknik Üniversitesi",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "337856"
+    },
+    {
+      "partner_name": "Technische Universität Graz",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "338428"
+    },
+    {
+      "partner_name": "Universidad Politécnica de Madrid",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "337657"
+    }
+  ]
+}

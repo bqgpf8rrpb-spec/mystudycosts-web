@@ -1,0 +1,1049 @@
+{
+  "university_id": "WHU_OTTO_BEISHEIM_SCHOOL_OF_MANAGEMENT",
+  "university_name": "WHU Vallendar",
+  "portal_url": "https://www.whu.edu/studium/auslandssemester/partneruniversitaeten/",
+  "portal_type": "university_website",
+  "scraped_at": "2026-03-15T22:09:29.502Z",
+  "strategy": "custom_scraper",
+  "partner_count": 173,
+  "partners": [
+    {
+      "partner_name": "Programme",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Fakultät & Forschung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "News & Insights",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Über die WHU",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Informationen für",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Bachelor Programme",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Bachelor in Wirtschaftspsychologie",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Bachelor in Internationaler Betriebswirtschaft",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Master Programme",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Master in Business Analytics",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Master in Entrepreneurship",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Master in Finance",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Master in International Business",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Master in Management",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Part-Time Master in Management",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "MBA Programme",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Full-Time MBA",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Part-Time MBA",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Global Online MBA",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Kellogg-WHU Executive MBA Programm",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Executive Education",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Open Programs für Einzelpersonen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Customized Programs für Unternehmen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Promotionsprogramm",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Austauschprogramme",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Kurzprogramme",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Bachelor European Summer Program",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "MBA European Summer Program",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Online Bachelor European Summer Program",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Online MBA European Summer Program",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Customized European Programs",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Bachelor",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Master",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Economics Group",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Entrepreneurship and Innovation Group",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Finance and Accounting Group",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Management Group",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Marketing and Sales Group",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Supply Chain Management Group",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Expert:innendatenbank",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Publikationen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Awards",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Editorial Services",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "KRS Knowledge and Research Services",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "WHU Knowledge",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "WHU Bookshop",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "WHU Magazin",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Events",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Im Fokus",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Glossar",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Hochschulorganisation",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Rankings und Akkreditierungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Geschichte der WHU",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Stiftung WHU",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "In Praxi - WHU Alumni Association",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Campusleben",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Karriere",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Rekrutierung an der WHU",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Nachhaltigkeit an der WHU",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Positive Health & Wellbeing Center",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Code of Conduct",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "WHU Merchandising Shop",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Kontakt",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Presse",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Potenzielle Studierende und Teilnehmende",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "WHU-Studierende",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "WHU-Alumni",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Eltern",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Forschende",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Unternehmen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Institutionen und Stiftungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Partneruniversitäten",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Zukünftige Mitarbeitende",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "WHU-Mitarbeitende",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Kontakt & Anfahrt",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "my.WHU",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Office 365",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Cookie-Einstellungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Barrierefreiheit",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Datenschutz",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Impressum",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Überblick",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Overview",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Working Paper Series",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Institut für Industrieökonomie",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Ökonometrie und Statistik",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Wirtschafts- und Sozialpolitik",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Makroökonomik und Internationale Wirtschaftsbeziehungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Monetäre Ökonomik",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Kleine und mittlere Unternehmen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Verhaltensökonomik",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Center for EUropean Studies",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Center for Non-Profit Management and Social Impact",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Center for Responsible Leadership",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Clemens Buchen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Institut für Familienunternehmen und Mittelstand",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Unternehmertum",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Unternehmertum und Existenzgründung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Entrepreneurship",
+      "country": "Innovation",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Familienunternehmen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Innovation and Corporate Transformation",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Sports and Management",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Strategisches Innovationsmanagement und Unternehmertum",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Technologie- und Innovationsmanagement",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Entrepreneurship Center",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Center for Sports and Management",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Sustainability Management Center",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Behavioral Finance",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Corporate Finance",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Empirical Corporate Finance",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Empirische Kapitalmarktforschung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Finanzwirtschaft",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Externes Rechnungswesen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Financial Accounting",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Household Finance",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Internationale Rechnungslegung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Mergers and Acquisitions",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Center of Asset and Wealth Management",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Financial Accounting and Tax Center",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Katrin Baedorf",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Institut für Management und Controlling",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Corporate Management and Change",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Personalführung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Führung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Organizational Behavior",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Organisationstheorie",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Strategisches Management",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Center for Controlling and Management",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Digitales Marketing",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Marktforschung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Vertriebsmanagement und Business-to-Business Marketing",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Service Psychology",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Strategie und Marketing",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Henkel Center for Consumer Goods",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Außerplanmäßige Professur für Marketing",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Institut für Logistikmanagement",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "B2B Verhandlungen und Beschaffung I",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "B2B Verhandlungen und Beschaffung II",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Demand Management and Sustainable Transport",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Logistikmanagement",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Logistik und Dienstleistungsmanagement",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Operations Management",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Produktionsmanagement",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Asia Center",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Center for Collaborative Commerce",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Konferenzen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "WHU CAMPUS FOR CONTROLLING",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Open Online Speaker Series",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Forum Mittelstand",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "CSR",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "DGF2026",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "WHU CustomGPT Makerthon",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Diversität",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Nachhaltigkeit",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Digitalisierung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Female Leadership",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Deutschlandstipendium",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Support",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "In Praxi Outstanding Thesis Awards",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Campus Vallendar",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Campus Düsseldorf",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Studentische Initiativen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Vorlesungsverzeichnis",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Onboarding",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Benefits",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Fakultät",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "BSc-MSc",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Rekrutierung MBA-Programm",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Jobdatenbank",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Digitale Entwicklung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Career Center",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Fakultät und Forschung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Downloads",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    }
+  ]
+}

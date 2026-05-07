@@ -1,0 +1,54 @@
+# Monthly scrape of university Erasmus partner pages.
+# Updates data/moveon/*.json for merge in the quarterly update-erasmus-data workflow.
+name: Erasmus Scrape Monthly
+
+on:
+  schedule:
+    - cron: '0 4 1 * *'  # 1st day of each month at 04:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Scrape university websites for Erasmus partners
+        run: node scripts/scrape-uni-websites.js
+
+      - name: Check for changes
+        id: check-changes
+        run: |
+          if git diff --quiet data/moveon/ 2>/dev/null; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Configure Git
+        if: steps.check-changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+      - name: Commit and push MoveOn data
+        if: steps.check-changes.outputs.changed == 'true'
+        run: |
+          git add data/moveon/
+          git commit -m "chore: update MoveOn Erasmus partner scrape data"
+          git push

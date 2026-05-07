@@ -1,0 +1,1653 @@
+{
+  "fetched_at": "2026-03-15T18:39:40.803Z",
+  "total_ewp_heis": 3416,
+  "german_ewp_heis": 337,
+  "matched_to_our_db": 230,
+  "unmatched_german_heis": 107,
+  "our_unis_not_in_ewp": 364,
+  "matches": [
+    {
+      "hei_id": "heilbronn.dhbw.de",
+      "university_id": "DUALE_HOCHSCHULE_BADEN_WUERTTEMBERG_HEILBRONN",
+      "university_name": "Duale Hochschule Baden-Württemberg Heilbronn"
+    },
+    {
+      "hei_id": "hs-gm.de",
+      "university_id": "HOCHSCHULE_FUER_GESTALTUNG_SCHWAEBISCH_GMUEND",
+      "university_name": "Hochschule für Gestaltung Schwäbisch Gmünd"
+    },
+    {
+      "hei_id": "htw-dresden.de",
+      "university_id": "HOCHSCHULE_FUER_TECHNIK_UND_WIRTSCHAFT_DRESDEN",
+      "university_name": "Hochschule fuer Technik und Wirtschaft Dresden"
+    },
+    {
+      "hei_id": "mobile-university.de",
+      "university_id": "SRH_FERNHOCHSCHULE_THE_MOBILE_UNIVERSITY",
+      "university_name": "SRH Fernhochschule - The Mobile University"
+    },
+    {
+      "hei_id": "ruhr-uni-bochum.de",
+      "university_id": "RUHR_UNIVERSITAET_BOCHUM",
+      "university_name": "RUHR-UNIVERSITAET BOCHUM"
+    },
+    {
+      "hei_id": "tu-clausthal.de",
+      "university_id": "TECHNISCHE_UNIVERSITAET_CLAUSTHAL"
+    },
+    {
+      "hei_id": "mosbach.dhbw.de",
+      "university_id": "DUALE_HOCHSCHULE_BADEN_WUERTTEMBERG_MOSBACH",
+      "university_name": "Duale Hochschule Baden-Württemberg Mosbach"
+    },
+    {
+      "hei_id": "uni-due.de",
+      "university_id": "UNIVERSITAET_DUISBURG_ESSEN",
+      "university_name": "UNIVERSITAET DUISBURG-ESSEN"
+    },
+    {
+      "hei_id": "evh-bochum.de",
+      "university_id": "EVH_BOCHUM",
+      "university_name": "EvH Bochum"
+    },
+    {
+      "hei_id": "uni-bamberg.de",
+      "university_id": "OTTO_FRIEDRICH_UNIVERSITAET_BAMBERG",
+      "university_name": "OTTO-FRIEDRICH-UNIVERSITAET BAMBERG"
+    },
+    {
+      "hei_id": "hs-koblenz.de",
+      "university_id": "HOCHSCHULE_KOBLENZ",
+      "university_name": "Hochschule Koblenz"
+    },
+    {
+      "hei_id": "srh-gesundheitshochschule.de",
+      "university_id": "DESIGN_AKADEMIE_BERLIN_SRH_HOCHSCHULE_FUER_KOMMUNIKATION_UND",
+      "university_name": "design akademie berlin, SRH Hochschule für Kommunikation und Design"
+    },
+    {
+      "hei_id": "th-nuernberg.de",
+      "university_id": "TECHNISCHE_HOCHSCHULE_NUERNBERG_GEORG_SIMON_OHM",
+      "university_name": "TECHNISCHE HOCHSCHULE NURNBERG GEORG SIMON OHM"
+    },
+    {
+      "hei_id": "dhbw-ravensburg.de",
+      "university_id": "DUALE_HOCHSCHULE_BADEN_WUERTTEMBERG_RAVENSBURG",
+      "university_name": "DUALE HOCHSCHULE BADEN-WURTTEMBERG RAVENSBURG"
+    },
+    {
+      "hei_id": "hfph.de",
+      "university_id": "HOCHSCHULE_FUER_PHILOSOPHIE_MUENCHEN",
+      "university_name": "Hochschule für Philosophie München/ Philosophische Fakultät SJ"
+    },
+    {
+      "hei_id": "ev-hochschule-hh.de",
+      "university_id": "ACCADIS_HOCHSCHULE_BAD_HOMBURG",
+      "university_name": "accadis Hochschule Bad Homburg"
+    },
+    {
+      "hei_id": "fh-muenster.de",
+      "university_id": "FACHHOCHSCHULE_MUENSTER"
+    },
+    {
+      "hei_id": "hs-offenburg.de",
+      "university_id": "HOCHSCHULE_OFFENBURG",
+      "university_name": "HOCHSCHULE OFFENBURG"
+    },
+    {
+      "hei_id": "tu-braunschweig.de",
+      "university_id": "TECHNISCHE_UNIVERSITAET_BRAUNSCHWEIG",
+      "university_name": "TECHNISCHE UNIVERSITAET BRAUNSCHWEIG"
+    },
+    {
+      "hei_id": "hs-gesundheit.de",
+      "university_id": "DESIGN_AKADEMIE_BERLIN_SRH_HOCHSCHULE_FUER_KOMMUNIKATION_UND",
+      "university_name": "design akademie berlin, SRH Hochschule für Kommunikation und Design"
+    },
+    {
+      "hei_id": "popakademie.de",
+      "university_id": "AKADEMIE_DER_BILDENDEN_KUENSTE_MUENCHEN",
+      "university_name": "Akademie der Bildenden Künste München"
+    },
+    {
+      "hei_id": "mh-freiburg.de",
+      "university_id": "ALBERT_LUDWIGS_UNIVERSITAET_FREIBURG",
+      "university_name": "ALBERT-LUDWIGS-UNIVERSITAET FREIBURG"
+    },
+    {
+      "hei_id": "uni-koeln.de",
+      "university_id": "UNIVERSITAET_ZU_KOELN",
+      "university_name": "UNIVERSITAET ZU KOELN"
+    },
+    {
+      "hei_id": "thu.de",
+      "university_id": "TECHNISCHE_HOCHSCHULE_ULM",
+      "university_name": "TECHNISCHE HOCHSCHULE ULM"
+    },
+    {
+      "hei_id": "ist-hochschule.de",
+      "university_id": "IST_HOCHSCHULE_FUER_MANAGEMENT_GMBH",
+      "university_name": "IST-HOCHSCHULE FUR MANAGEMENT GMBH"
+    },
+    {
+      "hei_id": "theaterakademie.de",
+      "university_id": "AKADEMIE_DER_BILDENDEN_KUENSTE_MUENCHEN",
+      "university_name": "Akademie der Bildenden Künste München"
+    },
+    {
+      "hei_id": "khsb-berlin.de",
+      "university_id": "KATHOLISCHE_HOCHSCHULE_FUER_SOZIALWESEN_BERLIN_KHSB",
+      "university_name": "Katholische Hochschule für Sozialwesen Berlin (KHSB)"
+    },
+    {
+      "hei_id": "hszg.de",
+      "university_id": "HOCHSCHULE_ZITTAU_GOERLITZ"
+    },
+    {
+      "hei_id": "fh-erfurt.de",
+      "university_id": "FACHHOCHSCHULE_ERFURT",
+      "university_name": "FACHHOCHSCHULE ERFURT"
+    },
+    {
+      "hei_id": "hfm.saarland.de",
+      "university_id": "HOCHSCHULE_FUER_MUSIK_SAAR",
+      "university_name": "Hochschule für Musik Saar"
+    },
+    {
+      "hei_id": "reutlingen-university.de",
+      "university_id": "REUTLINGEN_UNIVERSITY",
+      "university_name": "Reutlingen University"
+    },
+    {
+      "hei_id": "eh-freiburg.de",
+      "university_id": "ALBERT_LUDWIGS_UNIVERSITAET_FREIBURG",
+      "university_name": "ALBERT-LUDWIGS-UNIVERSITAET FREIBURG"
+    },
+    {
+      "hei_id": "ba-sachsen.de",
+      "university_id": "BERUFSAKADEMIE_SACHSEN",
+      "university_name": "Berufsakademie Sachsen"
+    },
+    {
+      "hei_id": "sdi-muenchen.de",
+      "university_id": "SDI_MUENCHEN",
+      "university_name": "SDI München"
+    },
+    {
+      "hei_id": "uni-hannover.de",
+      "university_id": "GOTTFRIED_WILHELM_LEIBNIZ_UNIVERSITAET_HANNOVER",
+      "university_name": "GOTTFRIED WILHELM LEIBNIZ UNIVERSITAET HANNOVER"
+    },
+    {
+      "hei_id": "hs-rm.de",
+      "university_id": "HOCHSCHULE_RHEINMAIN",
+      "university_name": "Hochschule RheinMain"
+    },
+    {
+      "hei_id": "dhbw-karlsruhe.de",
+      "university_id": "DHBW_KARLSRUHE",
+      "university_name": "DHBW Karlsruhe"
+    },
+    {
+      "hei_id": "sankt-georgen.de",
+      "university_id": "PHILOSOPHISCH_THEOLOGISCHE_HOCHSCHULE_SANKT_GEORGEN",
+      "university_name": "PHILOSOPHISCH THEOLOGISCHE HOCHSCHULE SANKT GEORGEN"
+    },
+    {
+      "hei_id": "eah-jena.de",
+      "university_id": "EAH_JENA",
+      "university_name": "EAH JENA"
+    },
+    {
+      "hei_id": "uni-vechta.de",
+      "university_id": "UNIVERSITAET_VECHTA",
+      "university_name": "UNIVERSITAET VECHTA"
+    },
+    {
+      "hei_id": "fhdw-hannover.de",
+      "university_id": "FHDW_HANNOVER",
+      "university_name": "FHDW Hannover"
+    },
+    {
+      "hei_id": "uni-rostock.de",
+      "university_id": "UNIVERSITAET_ROSTOCK",
+      "university_name": "UNIVERSITAET ROSTOCK"
+    },
+    {
+      "hei_id": "folkwang-uni.de",
+      "university_id": "FOLKWANG_UNIVERSITAET_DER_KUENSTE",
+      "university_name": "Folkwang Universität der Künste"
+    },
+    {
+      "hei_id": "hmtm.de",
+      "university_id": "HOCHSCHULE_FUER_MUSIK_UND_THEATER_MUENCHEN",
+      "university_name": "Hochschule für Musik und Theater München"
+    },
+    {
+      "hei_id": "berlin-international.de",
+      "university_id": "BERLIN_INTERNATIONAL_UNIVERSITY_OF_APPLIED_SCIENCES",
+      "university_name": "Berlin International University of Applied Sciences"
+    },
+    {
+      "hei_id": "kh-freiburg.de",
+      "university_id": "ALBERT_LUDWIGS_UNIVERSITAET_FREIBURG",
+      "university_name": "ALBERT-LUDWIGS-UNIVERSITAET FREIBURG"
+    },
+    {
+      "hei_id": "hs-schmalkalden.de",
+      "university_id": "HOCHSCHULE_SCHMALKALDEN",
+      "university_name": "HOCHSCHULE SCHMALKALDEN"
+    },
+    {
+      "hei_id": "uni-saarland.de",
+      "university_id": "UNIVERSITAET_DES_SAARLANDES"
+    },
+    {
+      "hei_id": "europa-uni.de",
+      "university_id": "EUROPA_UNIVERSITAET_FLENSBURG",
+      "university_name": "EUROPA-UNIVERSITAT FLENSBURG"
+    },
+    {
+      "hei_id": "th-wildau.de",
+      "university_id": "TECHNISCHE_HOCHSCHULE_WILDAU",
+      "university_name": "TECHNISCHE HOCHSCHULE WILDAU"
+    },
+    {
+      "hei_id": "burg-halle.de",
+      "university_id": "BURG_GIEBICHENSTEIN_KUNSTHOCHSCHULE_HALLE",
+      "university_name": "BURG GIEBICHENSTEIN Kunsthochschule Halle"
+    },
+    {
+      "hei_id": "hs-neu-ulm.de",
+      "university_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN_NEU_ULM",
+      "university_name": "Hochschule für Angewandte Wissenschaften Neu-Ulm"
+    },
+    {
+      "hei_id": "uni-speyer.de",
+      "university_id": "DEUTSCHE_UNIVERSITAET_FUER_VERWALTUNGSWISSENSCHAFTEN_SPEYER"
+    },
+    {
+      "hei_id": "hs-augsburg.de",
+      "university_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN_AUGSBURG",
+      "university_name": "Hochschule für angewandte Wissenschaften Augsburg"
+    },
+    {
+      "hei_id": "dshs-koeln.de",
+      "university_id": "DEUTSCHE_SPORTHOCHSCHULE_KOELN",
+      "university_name": "DEUTSCHE SPORTHOCHSCHULE KOLN"
+    },
+    {
+      "hei_id": "medicalschool-berlin.de",
+      "university_id": "BSP_BUSINESS_SCHOOL_BERLIN_GMBH",
+      "university_name": "BSP Business School Berlin GmbH"
+    },
+    {
+      "hei_id": "mhh.de",
+      "university_id": "MEDIZINISCHE_HOCHSCHULE_HANNOVER",
+      "university_name": "MEDIZINISCHE HOCHSCHULE HANNOVER"
+    },
+    {
+      "hei_id": "hgb-leipzig.de",
+      "university_id": "HGB_LEIPZIG",
+      "university_name": "HGB Leipzig"
+    },
+    {
+      "hei_id": "th-brandenburg.de",
+      "university_id": "BERLIN_UNIVERSITY_OF_APPLIED_SCIENCES_AND_TECHNOLOGY",
+      "university_name": "BERLIN UNIVERSITY OF APPLIED SCIENCES AND TECHNOLOGY"
+    },
+    {
+      "hei_id": "uni-weimar.de",
+      "university_id": "BAUHAUS_UNIVERSITAET_WEIMAR",
+      "university_name": "BAUHAUS-UNIVERSITAET WEIMAR"
+    },
+    {
+      "hei_id": "uni-trier.de",
+      "university_id": "UNIVERSITAET_TRIER"
+    },
+    {
+      "hei_id": "hs-albsig.de",
+      "university_id": "HOCHSCHULE_ALBSTADT_SIGMARINGEN"
+    },
+    {
+      "hei_id": "hspv.nrw.de",
+      "university_id": "HSPV_NRW",
+      "university_name": "HSPV NRW"
+    },
+    {
+      "hei_id": "hs-furtwangen.de",
+      "university_id": "HOCHSCHULE_FURTWANGEN",
+      "university_name": "HOCHSCHULE FURTWANGEN"
+    },
+    {
+      "hei_id": "fliedner-fachhochschule.de",
+      "university_id": "FLIEDNER_FACHHOCHSCHULE",
+      "university_name": "Fliedner Fachhochschule"
+    },
+    {
+      "hei_id": "hfg-offenbach.de",
+      "university_id": "HFG_OFFENBACH",
+      "university_name": "HfG Offenbach"
+    },
+    {
+      "hei_id": "hwr-berlin.de",
+      "university_id": "HOCHSCHULE_FUER_WIRTSCHAFT_UND_RECHT_BERLIN",
+      "university_name": "HOCHSCHULE FUR WIRTSCHAFT UND RECHT BERLIN"
+    },
+    {
+      "hei_id": "mh-luebeck.de",
+      "university_id": "MUSIKHOCHSCHULE_LUEBECK",
+      "university_name": "Musikhochschule Lübeck"
+    },
+    {
+      "hei_id": "katho-nrw.de",
+      "university_id": "KATHO_NRW",
+      "university_name": "KatHO NRW"
+    },
+    {
+      "hei_id": "hochschule-heidelberg.de",
+      "university_id": "PAEDAGOGISCHE_HOCHSCHULE_HEIDELBERG",
+      "university_name": "PADAGOGISCHE HOCHSCHULE HEIDELBERG"
+    },
+    {
+      "hei_id": "hs-rottenburg.de",
+      "university_id": "HOCHSCHULE_FUER_FORSTWIRTSCHAFT_ROTTENBURG",
+      "university_name": "HOCHSCHULE FUER FORSTWIRTSCHAFT ROTTENBURG"
+    },
+    {
+      "hei_id": "augustana.de",
+      "university_id": "AUGUSTANA_HOCHSCHULE",
+      "university_name": "Augustana-Hochschule"
+    },
+    {
+      "hei_id": "jade-hs.de",
+      "university_id": "JADE_HOCHSCHULE_WILHELMSHAVEN_OLDENBURG_ELSFLETH",
+      "university_name": "JADE HOCHSCHULE WILHELMSHAVEN/OLDENBURG/ELSFLETH"
+    },
+    {
+      "hei_id": "uni-flensburg.de",
+      "university_id": "EUROPA_UNIVERSITAET_FLENSBURG",
+      "university_name": "EUROPA-UNIVERSITAT FLENSBURG"
+    },
+    {
+      "hei_id": "ksh-muenchen.de",
+      "university_id": "KATHOLISCHE_STIFTUNGSHOCHSCHULE_MUENCHEN",
+      "university_name": "Katholische Stiftungshochschule München Hochschule für angewandte Wissenschaften der Kirchlichen"
+    },
+    {
+      "hei_id": "tu-dortmund.de",
+      "university_id": "TECHNISCHE_UNIVERSITAT_DORTMUND",
+      "university_name": "TECHNISCHE UNIVERSITAT DORTMUND"
+    },
+    {
+      "hei_id": "hs-merseburg.de",
+      "university_id": "HOCHSCHULE_MERSEBURG",
+      "university_name": "HOCHSCHULE MERSEBURG"
+    },
+    {
+      "hei_id": "staedelschule.de",
+      "university_id": "STAEDELSCHULE",
+      "university_name": "Staedelschule"
+    },
+    {
+      "hei_id": "ph-heidelberg.de",
+      "university_id": "PAEDAGOGISCHE_HOCHSCHULE_HEIDELBERG",
+      "university_name": "PADAGOGISCHE HOCHSCHULE HEIDELBERG"
+    },
+    {
+      "hei_id": "merz-akademie.de",
+      "university_id": "MERZ_AKADEMIE_GGMBH",
+      "university_name": "Merz Akademie gGmbh"
+    },
+    {
+      "hei_id": "cvjm-hochschule.de",
+      "university_id": "CVJM_HOCHSCHULE",
+      "university_name": "CVJM-Hochschule"
+    },
+    {
+      "hei_id": "hshl.de",
+      "university_id": "HOCHSCHULE_HAMM_LIPPSTADT",
+      "university_name": "HOCHSCHULE HAMM-LIPPSTADT"
+    },
+    {
+      "hei_id": "uni-bonn.de",
+      "university_id": "RHEINISCHE_FRIEDRICH_WILHELMS_UNIVERSITAT_BONN",
+      "university_name": "RHEINISCHE FRIEDRICH-WILHELMS-UNIVERSITAT BONN"
+    },
+    {
+      "hei_id": "uni-muenster.de",
+      "university_id": "FH_MUENSTER_UNIVERSITY_OF_APPLIED_SCIENCES",
+      "university_name": "FH Münster University of Applied Sciences"
+    },
+    {
+      "hei_id": "fernuni-hagen.de",
+      "university_id": "FERNUNIVERSITAT_IN_HAGEN",
+      "university_name": "FERNUNIVERSITAT IN HAGEN"
+    },
+    {
+      "hei_id": "dhbw-stuttgart.de",
+      "university_id": "DHBW_STUTTGART",
+      "university_name": "DHBW Stuttgart"
+    },
+    {
+      "hei_id": "beuth-hochschule.de",
+      "university_id": "BEUTH_HOCHSCHULE_FUER_TECHNIK_BERLIN",
+      "university_name": "BEUTH-HOCHSCHULE FUER TECHNIK BERLIN"
+    },
+    {
+      "hei_id": "bbw-hochschule.de",
+      "university_id": "BBW_HOCHSCHULE",
+      "university_name": "bbw Hochschule"
+    },
+    {
+      "hei_id": "eh-ludwigsburg.de",
+      "university_id": "ALBERT_LUDWIGS_UNIVERSITAET_FREIBURG",
+      "university_name": "ALBERT-LUDWIGS-UNIVERSITAET FREIBURG"
+    },
+    {
+      "hei_id": "uni-frankfurt.de",
+      "university_id": "EUROPA_UNIVERSITAET_VIADRINA_FRANKFURT_ODER",
+      "university_name": "EUROPA-UNIVERSITAET VIADRINA FRANKFURT (ODER)"
+    },
+    {
+      "hei_id": "hmt-leipzig.de",
+      "university_id": "HMT_LEIPZIG",
+      "university_name": "HMT LEIPZIG"
+    },
+    {
+      "hei_id": "tu-chemnitz.de",
+      "university_id": "TECHNISCHE_UNIVERSITAET_CHEMNITZ",
+      "university_name": "TECHNISCHE UNIVERSITAET CHEMNITZ"
+    },
+    {
+      "hei_id": "th-bingen.de",
+      "university_id": "EBERHARD_KARLS_UNIVERSITAET_TUEBINGEN",
+      "university_name": "EBERHARD KARLS UNIVERSITAET TUEBINGEN"
+    },
+    {
+      "hei_id": "ehs-dresden.de",
+      "university_id": "EHS_DRESDEN",
+      "university_name": "ehs Dresden"
+    },
+    {
+      "hei_id": "eh-berlin.de",
+      "university_id": "ALICE_SALOMON_HOCHSCHULE_BERLIN",
+      "university_name": "Alice Salomon Hochschule Berlin"
+    },
+    {
+      "hei_id": "hs-coburg.de",
+      "university_id": "BURG_GIEBICHENSTEIN_KUNSTHOCHSCHULE_HALLE",
+      "university_name": "BURG GIEBICHENSTEIN Kunsthochschule Halle"
+    },
+    {
+      "hei_id": "karlshochschule.de",
+      "university_id": "ACCADIS_HOCHSCHULE_BAD_HOMBURG",
+      "university_name": "accadis Hochschule Bad Homburg"
+    },
+    {
+      "hei_id": "uni-bielefeld.de",
+      "university_id": "HOCHSCHULE_BIELEFELD_UNIVERSITY_OF_APPLIED_SCIENCES_AND_ARTS",
+      "university_name": "HOCHSCHULE BIELEFELD - UNIVERSITY OF APPLIED SCIENCES AND ARTS"
+    },
+    {
+      "hei_id": "hs-hannover.de",
+      "university_id": "FACHHOCHSCHULE_FUER_DIE_WIRTSCHAFT_HANNOVER_GEMEINNUETZIGE_G",
+      "university_name": "Fachhochschule für die Wirtschaft Hannover, gemeinnützige GmbH"
+    },
+    {
+      "hei_id": "ph-karlsruhe.de",
+      "university_id": "DHBW_KARLSRUHE",
+      "university_name": "DHBW Karlsruhe"
+    },
+    {
+      "hei_id": "rfh-koeln.de",
+      "university_id": "RFH_KOELN_GGMBH",
+      "university_name": "RFH-Koeln gGmbh"
+    },
+    {
+      "hei_id": "law-school.de",
+      "university_id": "BSP_BUSINESS_LAW_SCHOOL",
+      "university_name": "BSP Business & Law School"
+    },
+    {
+      "hei_id": "uni-goettingen.de",
+      "university_id": "UNIVERSITAET_GOETTINGEN",
+      "university_name": "UNIVERSITAET GOETTINGEN"
+    },
+    {
+      "hei_id": "uni-leipzig.de",
+      "university_id": "HOCHSCHULE_FUER_TELEKOMMUNIKATION_LEIPZIG",
+      "university_name": "Hochschule für Telekommunikation Leipzig"
+    },
+    {
+      "hei_id": "hs-aalen.de",
+      "university_id": "HOCHSCHULE_AALEN_TECHNIK_UND_WIRTSCHAFT",
+      "university_name": "HOCHSCHULE AALEN - TECHNIK UND WIRTSCHAFT"
+    },
+    {
+      "hei_id": "hs-anhalt.de",
+      "university_id": "HOCHSCHULE_ANHALT",
+      "university_name": "HOCHSCHULE ANHALT"
+    },
+    {
+      "hei_id": "uni-tuebingen.de",
+      "university_id": "EBERHARD_KARLS_UNIVERSITAET_TUEBINGEN",
+      "university_name": "EBERHARD KARLS UNIVERSITAET TUEBINGEN"
+    },
+    {
+      "hei_id": "dhbw-heidenheim.de",
+      "university_id": "DHBW_HEIDENHEIM",
+      "university_name": "DHBW Heidenheim"
+    },
+    {
+      "hei_id": "uni-potsdam.de",
+      "university_id": "UNIVERSITAET_POTSDAM",
+      "university_name": "UNIVERSITAET POTSDAM"
+    },
+    {
+      "hei_id": "ph-gmuend.de",
+      "university_id": "HOCHSCHULE_FUER_GESTALTUNG_SCHWAEBISCH_GMUEND",
+      "university_name": "Hochschule für Gestaltung Schwäbisch Gmünd"
+    },
+    {
+      "hei_id": "fh-aachen.de",
+      "university_id": "FACHHOCHSCHULE_AACHEN",
+      "university_name": "FACHHOCHSCHULE AACHEN"
+    },
+    {
+      "hei_id": "hbk-essen.de",
+      "university_id": "HBK_ESSEN",
+      "university_name": "HBK Essen"
+    },
+    {
+      "hei_id": "muthesius-kunsthochschule.de",
+      "university_id": "MUTHESIUS_KUNSTHOCHSCHULE",
+      "university_name": "MUTHESIUS KUNSTHOCHSCHULE"
+    },
+    {
+      "hei_id": "esab-brandenburg.de",
+      "university_id": "ESAB_LAND_BRANDENBURG",
+      "university_name": "ESAB Land Brandenburg"
+    },
+    {
+      "hei_id": "hs-fulda.de",
+      "university_id": "HOCHSCHULE_FULDA_UNIVERSITY_OF_APPLIED_SCIENCES",
+      "university_name": "HOCHSCHULE FULDA-UNIVERSITY OF APPLIED SCIENCES"
+    },
+    {
+      "hei_id": "htwsaar.de",
+      "university_id": "HOCHSCHULE_DER_BILDENDEN_KUENSTE_SAAR",
+      "university_name": "Hochschule der Bildenden Künste Saar"
+    },
+    {
+      "hei_id": "th-luebeck.de",
+      "university_id": "MUSIKHOCHSCHULE_LUEBECK",
+      "university_name": "Musikhochschule Lübeck"
+    },
+    {
+      "hei_id": "uni-wuppertal.de",
+      "university_id": "BERGISCHE_UNIVERSITAET_WUPPERTAL",
+      "university_name": "BERGISCHE UNIVERSITAET  WUPPERTAL"
+    },
+    {
+      "hei_id": "hfmdd.de",
+      "university_id": "HFM_KA",
+      "university_name": "HfM KA"
+    },
+    {
+      "hei_id": "hs-bremerhaven.de",
+      "university_id": "HOCHSCHULE_BREMERHAVEN_UNIVERSITY_OF_APPLIED_SCIENCES",
+      "university_name": "HOCHSCHULE BREMERHAVEN - UNIVERSITY OF APPLIED SCIENCES"
+    },
+    {
+      "hei_id": "hbksaar.de",
+      "university_id": "HBK_ESSEN",
+      "university_name": "HBK Essen"
+    },
+    {
+      "hei_id": "mannheim.dhbw.de",
+      "university_id": "DHBW_MANNHEIM",
+      "university_name": "DHBW Mannheim"
+    },
+    {
+      "hei_id": "hs-fresenius.de",
+      "university_id": "HOCHSCHULE_FRESENIUS_GEMEINNUETZIGEGMBH",
+      "university_name": "HOCHSCHULE FRESENIUS GEMEINNUTZIGEGMBH"
+    },
+    {
+      "hei_id": "hs-wismar.de",
+      "university_id": "HOCHSCHULE_WISMAR",
+      "university_name": "HOCHSCHULE WISMAR"
+    },
+    {
+      "hei_id": "uni-heidelberg.de",
+      "university_id": "RUPRECHT_KARLS_UNIVERSITAET_HEIDELBERG",
+      "university_name": "RUPRECHT-KARLS-UNIVERSITAET HEIDELBERG"
+    },
+    {
+      "hei_id": "uni-osnabrueck.de",
+      "university_id": "OSNABRUECK_UNIVERSITY_OF_APPLIED_SCIENCES",
+      "university_name": "Osnabrück University of Applied Sciences"
+    },
+    {
+      "hei_id": "businessschool-berlin.de",
+      "university_id": "BSP_BUSINESS_SCHOOL_BERLIN_GMBH",
+      "university_name": "BSP Business School Berlin GmbH"
+    },
+    {
+      "hei_id": "medicalschool-hamburg.de",
+      "university_id": "HAMBURG_MEDIA_SCHOOL_GMBH",
+      "university_name": "Hamburg Media School GmbH"
+    },
+    {
+      "hei_id": "mh-trossingen.de",
+      "university_id": "STAATL_HOCHSCHULE_FUER_MUSIK_TROSSINGEN",
+      "university_name": "Staatl. Hochschule für Musik Trossingen"
+    },
+    {
+      "hei_id": "uni-erfurt.de",
+      "university_id": "UNIVERSITAET_ERFURT",
+      "university_name": "UNIVERSITAET ERFURT"
+    },
+    {
+      "hei_id": "filmuniversitaet.de",
+      "university_id": "ALBERT_LUDWIGS_UNIVERSITAET_FREIBURG",
+      "university_name": "ALBERT-LUDWIGS-UNIVERSITAET FREIBURG"
+    },
+    {
+      "hei_id": "hs-pforzheim.de",
+      "university_id": "HOCHSCHULE_PFORZHEIM",
+      "university_name": "HOCHSCHULE PFORZHEIM"
+    },
+    {
+      "hei_id": "kunstakademie-karlsruhe.de",
+      "university_id": "KUNSTAKADEMIE_KARLSRUHE",
+      "university_name": "Kunstakademie Karlsruhe"
+    },
+    {
+      "hei_id": "hs-ludwigsburg.de",
+      "university_id": "ALBERT_LUDWIGS_UNIVERSITAET_FREIBURG",
+      "university_name": "ALBERT-LUDWIGS-UNIVERSITAET FREIBURG"
+    },
+    {
+      "hei_id": "uni-luebeck.de",
+      "university_id": "UNIVERSITAET_ZU_LUEBECK",
+      "university_name": "UNIVERSITAET ZU LUEBECK"
+    },
+    {
+      "hei_id": "fh-wedel.de",
+      "university_id": "FACHHOCHSCHULE_WEDEL_GGMBH",
+      "university_name": "Fachhochschule Wedel gGmbH"
+    },
+    {
+      "hei_id": "hks-ottersberg.de",
+      "university_id": "HKS_OTTERSBERG",
+      "university_name": "HKS Ottersberg"
+    },
+    {
+      "hei_id": "kirchenmusikhochschule.de",
+      "university_id": "ACCADIS_HOCHSCHULE_BAD_HOMBURG",
+      "university_name": "accadis Hochschule Bad Homburg"
+    },
+    {
+      "hei_id": "hochschule-trier.de",
+      "university_id": "HOCHSCHULE_TRIER",
+      "university_name": "HOCHSCHULE TRIER"
+    },
+    {
+      "hei_id": "hs-flensburg.de",
+      "university_id": "BURG_GIEBICHENSTEIN_KUNSTHOCHSCHULE_HALLE",
+      "university_name": "BURG GIEBICHENSTEIN Kunsthochschule Halle"
+    },
+    {
+      "hei_id": "kunstakademie-muenster.de",
+      "university_id": "KUNSTAKADEMIE_MUENSTER_HOCHSCHULE_FUER_BILDENDE_KUENSTE",
+      "university_name": "Kunstakademie Münster - Hochschule für Bildende Künste"
+    },
+    {
+      "hei_id": "fu-berlin.de",
+      "university_id": "ALICE_SALOMON_HOCHSCHULE_BERLIN",
+      "university_name": "Alice Salomon Hochschule Berlin"
+    },
+    {
+      "hei_id": "uni-duesseldorf.de",
+      "university_id": "UNIVERSITAET_DUISBURG_ESSEN",
+      "university_name": "UNIVERSITAET DUISBURG-ESSEN"
+    },
+    {
+      "hei_id": "hfk-bremen.de",
+      "university_id": "HFK_BREMEN",
+      "university_name": "HfK Bremen"
+    },
+    {
+      "hei_id": "ipu-berlin.de",
+      "university_id": "IPU_BERLIN_GGMBH",
+      "university_name": "IPU Berlin gGmbH"
+    },
+    {
+      "hei_id": "hs-ruhrwest.de",
+      "university_id": "HOCHSCHULE_RUHR_WEST",
+      "university_name": "HOCHSCHULE RUHR WEST"
+    },
+    {
+      "hei_id": "ph-ludwigsburg.de",
+      "university_id": "ALBERT_LUDWIGS_UNIVERSITAET_FREIBURG",
+      "university_name": "ALBERT-LUDWIGS-UNIVERSITAET FREIBURG"
+    },
+    {
+      "hei_id": "jacobs-university.de",
+      "university_id": "JACOBS_UNIVERSITY_BREMEN_GGMBH",
+      "university_name": "JACOBS UNIVERSITY BREMEN GGMBH"
+    },
+    {
+      "hei_id": "hu-berlin.de",
+      "university_id": "ALICE_SALOMON_HOCHSCHULE_BERLIN",
+      "university_name": "Alice Salomon Hochschule Berlin"
+    },
+    {
+      "hei_id": "fthgiessen.de",
+      "university_id": "FREIE_THEOLOGISCHE_HOCHSCHULE_GIESSEN",
+      "university_name": "Freie Theologische Hochschule Giessen"
+    },
+    {
+      "hei_id": "hmtm-hannover.de",
+      "university_id": "HOCHSCHULE_FUER_MUSIK_UND_THEATER_MUENCHEN",
+      "university_name": "Hochschule für Musik und Theater München"
+    },
+    {
+      "hei_id": "hfm-weimar.de",
+      "university_id": "HFM_WEIMAR",
+      "university_name": "HfM Weimar"
+    },
+    {
+      "hei_id": "hs-mittweida.de",
+      "university_id": "HOCHSCHULE_MITTWEIDA",
+      "university_name": "HOCHSCHULE MITTWEIDA"
+    },
+    {
+      "hei_id": "uni-mainz.de",
+      "university_id": "HOCHSCHULE_MAINZ_UNIVERSITY_OF_APPLIED_SCIENCES",
+      "university_name": "HOCHSCHULE MAINZ UNIVERSITY OF APPLIED SCIENCES"
+    },
+    {
+      "hei_id": "uni-kassel.de",
+      "university_id": "UNI_KASSEL",
+      "university_name": "UNI KASSEL"
+    },
+    {
+      "hei_id": "uni-greifswald.de",
+      "university_id": "UNIVERSITAET_GREIFSWALD",
+      "university_name": "UNIVERSITAET GREIFSWALD"
+    },
+    {
+      "hei_id": "hochschule-biberach.de",
+      "university_id": "HOCHSCHULE_BIBERACH",
+      "university_name": "HOCHSCHULE BIBERACH"
+    },
+    {
+      "hei_id": "uni-regensburg.de",
+      "university_id": "BURG_GIEBICHENSTEIN_UNIVERSITY_OF_ART_AND_DESIGN_HALLE",
+      "university_name": "Burg Giebichenstein University of Art and Design Halle"
+    },
+    {
+      "hei_id": "uni-siegen.de",
+      "university_id": "UNIVERSITAET_SIEGEN",
+      "university_name": "UNIVERSITAET SIEGEN"
+    },
+    {
+      "hei_id": "uni-giessen.de",
+      "university_id": "HOCHSCHULE_DER_BILDENDEN_KUENSTE_HBK_ESSEN_UNIVERSITY_OF_FIN",
+      "university_name": "Hochschule der bildenden Künste (HBK) Essen, University of fine Arts Essen"
+    },
+    {
+      "hei_id": "hs-worms.de",
+      "university_id": "HOCHSCHULE_WORMS",
+      "university_name": "HOCHSCHULE WORMS"
+    },
+    {
+      "hei_id": "fh-westkueste.de",
+      "university_id": "FACHHOCHSCHULE_WESTKUESTE",
+      "university_name": "Fachhochschule Westküste"
+    },
+    {
+      "hei_id": "hochschule-stralsund.de",
+      "university_id": "DESIGN_AKADEMIE_BERLIN_SRH_HOCHSCHULE_FUER_KOMMUNIKATION_UND",
+      "university_name": "design akademie berlin, SRH Hochschule für Kommunikation und Design"
+    },
+    {
+      "hei_id": "hs-emden-leer.de",
+      "university_id": "HOCHSCHULE_EMDEN_LEER",
+      "university_name": "HOCHSCHULE EMDEN LEER"
+    },
+    {
+      "hei_id": "fh-zwickau.de",
+      "university_id": "WESTSACHSISCHE_HOCHSCHULE_ZWICKAU",
+      "university_name": "WESTSACHSISCHE HOCHSCHULE ZWICKAU"
+    },
+    {
+      "hei_id": "munich-business-school.de",
+      "university_id": "BSP_BUSINESS_LAW_SCHOOL",
+      "university_name": "BSP Business & Law School"
+    },
+    {
+      "hei_id": "hs-esslingen.de",
+      "university_id": "HOCHSCHULE_ESSLINGEN",
+      "university_name": "HOCHSCHULE ESSLINGEN"
+    },
+    {
+      "hei_id": "uni-passau.de",
+      "university_id": "UNIVERSITAET_PASSAU",
+      "university_name": "UNIVERSITAT PASSAU"
+    },
+    {
+      "hei_id": "leuphana.de",
+      "university_id": "LEUPHANA_UNIVERSITAET_LUENEBURG",
+      "university_name": "LEUPHANA UNIVERSITAET LUENEBURG"
+    },
+    {
+      "hei_id": "uni-wuerzburg.de",
+      "university_id": "BURG_GIEBICHENSTEIN_UNIVERSITY_OF_ART_AND_DESIGN_HALLE",
+      "university_name": "Burg Giebichenstein University of Art and Design Halle"
+    },
+    {
+      "hei_id": "kh-berlin.de",
+      "university_id": "ALICE_SALOMON_HOCHSCHULE_BERLIN",
+      "university_name": "Alice Salomon Hochschule Berlin"
+    },
+    {
+      "hei_id": "ostfalia.de",
+      "university_id": "OSTFALIA_HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN_HOCHSCHUL",
+      "university_name": "OSTFALIA HOCHSCHULE FUER ANGEWANDTE WISSENSCHAFTEN HOCHSCHULE BRAUNSCHWEIG WOLFENBUTTEL"
+    },
+    {
+      "hei_id": "uni-bayreuth.de",
+      "university_id": "UNIVERSITAET_BAYREUTH",
+      "university_name": "UNIVERSITAET BAYREUTH"
+    },
+    {
+      "hei_id": "tu-darmstadt.de",
+      "university_id": "EVANGELISCHE_HOCHSCHULE_DARMSTADT",
+      "university_name": "EVANGELISCHE HOCHSCHULE DARMSTADT"
+    },
+    {
+      "hei_id": "uni-jena.de",
+      "university_id": "FRIEDRICH_SCHILLER_UNIVERSITAET_JENA",
+      "university_name": "FRIEDRICH-SCHILLER-UNIVERSITAT JENA"
+    },
+    {
+      "hei_id": "hs-harz.de",
+      "university_id": "HS_HARZ",
+      "university_name": "HS HARZ"
+    },
+    {
+      "hei_id": "hochschule-rhein-waal.de",
+      "university_id": "EUROPAEISCHE_FACHHOCHSCHULE_RHEINERFT_GMBH",
+      "university_name": "Europäische Fachhochschule Rhein/Erft GmbH"
+    },
+    {
+      "hei_id": "hs-ansbach.de",
+      "university_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN_FACHHOCHSCHULE_ANS",
+      "university_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN - FACHHOCHSCHULE ANSBACH"
+    },
+    {
+      "hei_id": "hs-bochum.de",
+      "university_id": "EVH_BOCHUM",
+      "university_name": "EvH Bochum"
+    },
+    {
+      "hei_id": "nordakademie.de",
+      "university_id": "AKADEMIE_DER_BILDENDEN_KUENSTE_MUENCHEN",
+      "university_name": "Akademie der Bildenden Künste München"
+    },
+    {
+      "hei_id": "hs-kempten.de",
+      "university_id": "HAW_KEMPTEN",
+      "university_name": "HAW Kempten"
+    },
+    {
+      "hei_id": "hmdk-stuttgart.de",
+      "university_id": "HMDK_STUTTGART",
+      "university_name": "HMDK Stuttgart"
+    },
+    {
+      "hei_id": "uni-mannheim.de",
+      "university_id": "TECHNICAL_UNIVERSITY_OF_APPLIED_SCIENCES_MANNHEIM",
+      "university_name": "Technical University of Applied Sciences Mannheim"
+    },
+    {
+      "hei_id": "uni-freiburg.de",
+      "university_id": "ALBERT_LUDWIGS_UNIVERSITAET_FREIBURG",
+      "university_name": "ALBERT-LUDWIGS-UNIVERSITAET FREIBURG"
+    },
+    {
+      "hei_id": "uni-paderborn.de",
+      "university_id": "FOLKWANG_UNIVERSITAET_DER_KUENSTE",
+      "university_name": "Folkwang Universität der Künste"
+    },
+    {
+      "hei_id": "hs-duesseldorf.de",
+      "university_id": "FLIEDNER_FACHHOCHSCHULE_DUESSELDORF_UNIVERSITY_OF_APPLIED_SC",
+      "university_name": "Fliedner Fachhochschule Düsseldorf, University of Applied Sciences"
+    },
+    {
+      "hei_id": "htwg-konstanz.de",
+      "university_id": "HTWG_HOCHSCHULE_KONSTANZ_TECHNIK_WIRTSCHAFT_UND_GESTALTUNG",
+      "university_name": "HTWG HOCHSCHULE KONSTANZ TECHNIK WIRTSCHAFT UND GESTALTUNG"
+    },
+    {
+      "hei_id": "th-rosenheim.de",
+      "university_id": "FACHHOCHSCHULE_ROSENHEIM_UNIVERSITY_APPLIED_SCIENCES",
+      "university_name": "FACHHOCHSCHULE ROSENHEIM /UNIVERSITY APPLIED SCIENCES"
+    },
+    {
+      "hei_id": "hs-weingarten.de",
+      "university_id": "BURG_GIEBICHENSTEIN_UNIVERSITY_OF_ART_AND_DESIGN_HALLE",
+      "university_name": "Burg Giebichenstein University of Art and Design Halle"
+    },
+    {
+      "hei_id": "uni-stuttgart.de",
+      "university_id": "BURG_GIEBICHENSTEIN_UNIVERSITY_OF_ART_AND_DESIGN_HALLE",
+      "university_name": "Burg Giebichenstein University of Art and Design Halle"
+    },
+    {
+      "hei_id": "hs-nordhausen.de",
+      "university_id": "HOCHSCHULE_NORDHAUSEN",
+      "university_name": "HOCHSCHULE NORDHAUSEN"
+    },
+    {
+      "hei_id": "hs-osnabrueck.de",
+      "university_id": "OSNABRUECK_UNIVERSITY_OF_APPLIED_SCIENCES",
+      "university_name": "Osnabrück University of Applied Sciences"
+    },
+    {
+      "hei_id": "abk-stuttgart.de",
+      "university_id": "KUNSTAKADEMIE_STUTTGART_ABK",
+      "university_name": "Kunstakademie Stuttgart; ABK"
+    },
+    {
+      "hei_id": "ph-freiburg.de",
+      "university_id": "ALBERT_LUDWIGS_UNIVERSITAET_FREIBURG",
+      "university_name": "ALBERT-LUDWIGS-UNIVERSITAET FREIBURG"
+    },
+    {
+      "hei_id": "uni-marburg.de",
+      "university_id": "BURG_GIEBICHENSTEIN_UNIVERSITY_OF_ART_AND_DESIGN_HALLE",
+      "university_name": "Burg Giebichenstein University of Art and Design Halle"
+    },
+    {
+      "hei_id": "fh-dortmund.de",
+      "university_id": "DESIGN_AKADEMIE_BERLIN_SRH_HOCHSCHULE_FUER_KOMMUNIKATION_UND",
+      "university_name": "design akademie berlin, SRH Hochschule für Kommunikation und Design"
+    },
+    {
+      "hei_id": "ib-hochschule.de",
+      "university_id": "ACCADIS_HOCHSCHULE_BAD_HOMBURG",
+      "university_name": "accadis Hochschule Bad Homburg"
+    },
+    {
+      "hei_id": "uni-halle.de",
+      "university_id": "BURG_GIEBICHENSTEIN_UNIVERSITY_OF_ART_AND_DESIGN_HALLE",
+      "university_name": "Burg Giebichenstein University of Art and Design Halle"
+    },
+    {
+      "hei_id": "uni-ulm.de",
+      "university_id": "UNIVERSITAET_ULM",
+      "university_name": "UNIVERSITAET ULM"
+    },
+    {
+      "hei_id": "uni-konstanz.de",
+      "university_id": "UNIVERSITAET_KONSTANZ",
+      "university_name": "UNIVERSITAT KONSTANZ"
+    },
+    {
+      "hei_id": "uni-hamburg.de",
+      "university_id": "BURG_GIEBICHENSTEIN_UNIVERSITY_OF_ART_AND_DESIGN_HALLE",
+      "university_name": "Burg Giebichenstein University of Art and Design Halle"
+    },
+    {
+      "hei_id": "tu-dresden.de",
+      "university_id": "EHS_DRESDEN",
+      "university_name": "ehs Dresden"
+    },
+    {
+      "hei_id": "tu-ilmenau.de",
+      "university_id": "TECHNISCHE_UNIVERSITAET_ILMENAU",
+      "university_name": "TECHNISCHE UNIVERSITAET ILMENAU"
+    },
+    {
+      "hei_id": "polizei.sachsen.de",
+      "university_id": "POLIZEIAKADEMIE_NIEDERSACHSEN",
+      "university_name": "Polizeiakademie Niedersachsen"
+    },
+    {
+      "hei_id": "hs-mainz.de",
+      "university_id": "HOCHSCHULE_FUER_GESTALTUNG_OFFENBACH_AM_MAIN",
+      "university_name": "Hochschule für Gestaltung Offenbach am Main"
+    },
+    {
+      "hei_id": "uni-hohenheim.de",
+      "university_id": "UNIVERSITAET_HOHENHEIM",
+      "university_name": "UNIVERSITAET HOHENHEIM"
+    },
+    {
+      "hei_id": "eh-darmstadt.de",
+      "university_id": "EVANGELISCHE_HOCHSCHULE_DARMSTADT",
+      "university_name": "EVANGELISCHE HOCHSCHULE DARMSTADT"
+    },
+    {
+      "hei_id": "ph-weingarten.de",
+      "university_id": "BURG_GIEBICHENSTEIN_UNIVERSITY_OF_ART_AND_DESIGN_HALLE",
+      "university_name": "Burg Giebichenstein University of Art and Design Halle"
+    },
+    {
+      "hei_id": "hs-mannheim.de",
+      "university_id": "DHBW_MANNHEIM",
+      "university_name": "DHBW Mannheim"
+    },
+    {
+      "hei_id": "uni-hildesheim.de",
+      "university_id": "FACHHOCHSCHULE_DES_MITTELSTANDES_FHM_GMBH_UNIVERSITY_OF_APPL",
+      "university_name": "FACHHOCHSCHULE DES MITTELSTANDES (FHM) GMBH - UNIVERSITY OF APPLIED SCIENCE -"
+    },
+    {
+      "hei_id": "unibw.de",
+      "university_id": "UNI_KASSEL",
+      "university_name": "UNI KASSEL"
+    },
+    {
+      "hei_id": "hs-heilbronn.de",
+      "university_id": "BADEN_WUERTTEMBERG_COOPERATIVE_STATE_UNIVERSITY_HEILBRONN",
+      "university_name": "Baden-Württemberg Cooperative State University Heilbronn"
+    },
+    {
+      "hei_id": "th-koeln.de",
+      "university_id": "DEUTSCHE_SPORTHOCHSCHULE_KOELN",
+      "university_name": "DEUTSCHE SPORTHOCHSCHULE KOLN"
+    },
+    {
+      "hei_id": "frankfurt-university.de",
+      "university_id": "FRANKFURT_UNIVERSITY_OF_APPLIED_SCIENCES",
+      "university_name": "FRANKFURT UNIVERSITY OF APPLIED SCIENCES"
+    },
+    {
+      "hei_id": "frankfurt-school.de",
+      "university_id": "FRANKFURT_SCHOOL_OF_FINANCE_MANAGEMENT_GEMEINNUETZIGE_GMBH",
+      "university_name": "FRANKFURT SCHOOL OF FINANCE & MANAGEMENT GEMEINNUTZIGE GMBH"
+    },
+    {
+      "hei_id": "tu-freiberg.de",
+      "university_id": "TECHNISCHE_UNIVERSITAET_BERGAKADEMIE_FREIBERG",
+      "university_name": "TECHNISCHE UNIVERSITAET BERGAKADEMIE FREIBERG"
+    },
+    {
+      "hei_id": "fh-potsdam.de",
+      "university_id": "FACHHOCHSCHULE_POTSDAM",
+      "university_name": "FACHHOCHSCHULE POTSDAM"
+    },
+    {
+      "hei_id": "fh-bielefeld.de",
+      "university_id": "FACHHOCHSCHULE_BIELEFELD",
+      "university_name": "FACHHOCHSCHULE BIELEFELD"
+    },
+    {
+      "hei_id": "uni-bremen.de",
+      "university_id": "BREMEN_UNIVERSITY_OF_APPLIED_SCIENCES",
+      "university_name": "BREMEN UNIVERSITY OF APPLIED SCIENCES"
+    },
+    {
+      "hei_id": "uni-kiel.de",
+      "university_id": "CHRISTIAN_ALBRECHTS_UNIVERSITAET_ZU_KIEL",
+      "university_name": "CHRISTIAN-ALBRECHTS-UNIVERSITAET  ZU KIEL"
+    },
+    {
+      "hei_id": "haw-hamburg.de",
+      "university_id": "HAW_HAMBURG",
+      "university_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN HAMBURG"
+    },
+    {
+      "hei_id": "hs-magdeburg.de",
+      "university_id": "BURG_GIEBICHENSTEIN_KUNSTHOCHSCHULE_HALLE",
+      "university_name": "BURG GIEBICHENSTEIN Kunsthochschule Halle"
+    },
+    {
+      "hei_id": "tu-berlin.de",
+      "university_id": "ALICE_SALOMON_HOCHSCHULE_BERLIN",
+      "university_name": "Alice Salomon Hochschule Berlin"
+    },
+    {
+      "hei_id": "hs-niederrhein.de",
+      "university_id": "AKADEMIE_DER_BILDENDEN_KUENSTE_MUENCHEN",
+      "university_name": "Akademie der Bildenden Künste München"
+    },
+    {
+      "hei_id": "dhbw-loerrach.de",
+      "university_id": "DHBW_LOERRACH",
+      "university_name": "DHBW Lörrach"
+    },
+    {
+      "hei_id": "uni-augsburg.de",
+      "university_id": "BURG_GIEBICHENSTEIN_UNIVERSITY_OF_ART_AND_DESIGN_HALLE",
+      "university_name": "Burg Giebichenstein University of Art and Design Halle"
+    },
+    {
+      "hei_id": "uni-koblenz.de",
+      "university_id": "UNIVERSITAET_KOBLENZ",
+      "university_name": "UNIVERSITAET KOBLENZ"
+    },
+    {
+      "hei_id": "fhbund.de",
+      "university_id": "DESIGN_AKADEMIE_BERLIN_SRH_HOCHSCHULE_FUER_KOMMUNIKATION_UND",
+      "university_name": "design akademie berlin, SRH Hochschule für Kommunikation und Design"
+    },
+    {
+      "hei_id": "hs-bremen.de",
+      "university_id": "BREMEN_UNIVERSITY_OF_APPLIED_SCIENCES",
+      "university_name": "BREMEN UNIVERSITY OF APPLIED SCIENCES"
+    },
+    {
+      "hei_id": "leibniz-fh.de",
+      "university_id": "GOTTFRIED_WILHELM_LEIBNIZ_UNIVERSITAET_HANNOVER",
+      "university_name": "GOTTFRIED WILHELM LEIBNIZ UNIVERSITAET HANNOVER"
+    }
+  ],
+  "unmatched_heis": [
+    "zu.de",
+    "phwt.de",
+    "hfg-karlsruhe.de",
+    "adk-bw.de",
+    "ebz-bs.de",
+    "hdwm.de",
+    "hfwu.de",
+    "hfm-berlin.de",
+    "hfoev.bremen.de",
+    "hfbk-hamburg.de",
+    "hfm-wuerzburg.de",
+    "ifa.fau.de",
+    "hs-nb.de",
+    "khm.de",
+    "hmt-rostock.de",
+    "hfmt-hamburg.de",
+    "hmkw.de",
+    "hfmdk-frankfurt.de",
+    "hfs-berlin.de",
+    "pfh.de",
+    "hfm-nuernberg.de",
+    "srh.de",
+    "aiv.hfoed.de",
+    "evhn.de",
+    "hfg-gmuend.de",
+    "hft-stuttgart.de",
+    "fham.de",
+    "adbk-nuernberg.de",
+    "hpolbb.de",
+    "fhdw.de",
+    "hdba.de",
+    "victoria-hochschule.de",
+    "h-ka.de",
+    "ifb-kempten.de",
+    "nbs.de",
+    "hfkm-regensburg.de",
+    "hsu-hh.de",
+    "dhpol.de",
+    "dhbw-vs.de",
+    "tum.de",
+    "hsba.de",
+    "hfmt-koeln.de",
+    "hdm-stuttgart.de",
+    "hbk-bs.de",
+    "thh-friedensau.de",
+    "uol.de",
+    "thf-paderborn.de",
+    "rwth-aachen.de",
+    "hfm-detmold.de",
+    "hs-kl.de",
+    "hswt.de",
+    "ism.de",
+    "fim.musin.de",
+    "eufh.de",
+    "dhge.de",
+    "mhb-fontane.de",
+    "nds.de",
+    "hhl.de",
+    "lmu.de",
+    "hs21.de",
+    "muho-mannheim.de",
+    "tiho-hannover.de",
+    "hfbk-dresden.de",
+    "fom.de",
+    "fhws.de",
+    "ovgu.de",
+    "udk-berlin.de",
+    "th-ab.de",
+    "b-tu.de",
+    "hawk.de",
+    "hwg-lu.de",
+    "h-da.de",
+    "hof-university.de",
+    "thm.de",
+    "th-owl.de",
+    "hs-kehl.de",
+    "wak-sh.de",
+    "w-hs.de",
+    "th-deg.de",
+    "hcu-hamburg.de",
+    "oth-aw.de",
+    "tuhh.de",
+    "creative.macromedia-fachhochschule.de",
+    "h-brs.de",
+    "oth-regensburg.de",
+    "htw-berlin.de",
+    "ku.de",
+    "cbs.de",
+    "hnee.de",
+    "haw-landshut.de",
+    "uni-kl.de",
+    "uni-wh.de",
+    "htwk-leipzig.de",
+    "kh-mz.de",
+    "fau.de",
+    "thi.de",
+    "fh-kiel.de",
+    "fh-swf.de",
+    "adbk.de",
+    "giu-berlin.de",
+    "bhh.hamburg.de",
+    "hs-doepfer.de",
+    "thga.de",
+    "hfpol.polizei-bw.de",
+    "polizei.rlp.de",
+    "cas.dhbw.de",
+    "th-elstal.de"
+  ],
+  "not_in_ewp_sample": [
+    "ACCADIS_BILDUNG_GMBH",
+    "ADBK",
+    "AKADEMIE_DER_BILDENDEN_KUENSTE_NUERNBERG",
+    "AKADEMIE_DER_POLIZEI_HAMBURG",
+    "AKKON_HOCHSCHULE_FUER_HUMANWISSENSCHAFTEN",
+    "ALANUS_HOCHSCHULE",
+    "ALANUS_HOCHSCHULE_GGMBH",
+    "ASH_BERLIN",
+    "BADEN_WUERTTEMBERG_COOPERATIVE_STATE_UNIVERSITY_RAVENSBURG",
+    "BARD_COLLEGE_BERLIN",
+    "BARD_COLLEGE_BERLIN_A_LIBERAL_ARTSUNIVERSITY_GGMBH",
+    "BAU_HIGHER_EDUCATION_SERVICE",
+    "BAYERISCHE_THEATERAKADEMIE_AUGUST_EVERDING_IM_PRINZREGENTENT",
+    "BERLINER_HOCHSCHULE_FUER_TECHNIK",
+    "BILDUNGSZENTRUM_FINFORMATIONSVERARBEITENDE_BERUFEGEMEINNUETZ",
+    "BRANDENBURGISCHE_TECHNISCHE_UNIVERSITAET_COTTBUS_SENFTENBERG",
+    "BUCERIUS_LAW_SCHOOL_GGMBH",
+    "BUCERIUS_LAW_SCHOOL_HOCHSCHULE_FUER_RECHTSWISSENSCHAFT_GEMEI",
+    "CARL_VON_OSSIETZKY_UNIVERSITAET_OLDENBURG",
+    "CATHOLIC_UNIVERSITY_OF_APPLIED_SCIENCES_FREIBURG",
+    "CBS_COLOGNE_BUSINESS_SCHOOL_GMBH",
+    "CBS_INTERNATIONAL_BUSINESS_SCHOOL",
+    "CODE_UNIVERSITY_OF_APPLIED_SCIENCES",
+    "COLOGNE_BUSINESS_SCHOOL",
+    "CONSTRUCTOR_UNIVERSITY",
+    "CONSTRUCTOR_UNIVERSITY_BREMEN_GGMBH",
+    "CUSANUS_HOCHSCHULE_UNSELBSTAENDIGE_STIFTUNG_PRIVATEN_RECHTS_",
+    "CVJM_HOCHSCHULE_YMCA_UNIVERSITY_OF_APPLIED_SCIENCES",
+    "DEKRA_HOCHSCHULE_FUER_MEDIEN_BERLIN",
+    "DEUTSCHE_HOCHSCHULE_DER_POLIZEI",
+    "DHBW_MOSBACH",
+    "DHBW_VILLINGEN_SCHWENNINGEN",
+    "DHGS_DEUTSCHE_HOCHSCHULE_FUER_GESUNDHEIT_UND_SPORT",
+    "DHV_SPEYER",
+    "DMT_GESELLSCHAFT_FUER_LEHRE_UND_BILDUNG_MBH_TECHNISCHE_HOCHS",
+    "DMT_LB_THGA",
+    "DUALE_HOCHSCHULE_BADEN_WUERTTEMBERG_HEIDENHEIM",
+    "DUALE_HOCHSCHULE_BADEN_WUERTTEMBERG_KARLSRUHE",
+    "DUALE_HOCHSCHULE_BADEN_WUERTTEMBERG_LOERRACH",
+    "DUALE_HOCHSCHULE_BADEN_WUERTTEMBERG_MANNHEIM",
+    "DUALE_HOCHSCHULE_BADEN_WUERTTEMBERG_STUTTGART",
+    "DUALE_HOCHSCHULE_BADEN_WUERTTEMBERG_VILLINGEN_SCHWENNINGEN",
+    "DUALE_HOCHSCHULE_SACHSEN",
+    "EBC_EURO_BUSINESS_COLLEGE_GMBH",
+    "EBS_UNIVERSITAET",
+    "EBS_UNIVERSITAET_FUER_WIRTSCHAFT_UND_RECHT",
+    "EBZ_BUSINESS_SCHOOL_UNIVERSITY_OF_APPLIED_SCIENCES",
+    "ERNST_ABBE_HOCHSCHULE_JENA",
+    "ESCP_BERLIN",
+    "ESCP_EUROPE_WIRTSCHAFTSHOCHSCHULE_BERLIN_EV"
+  ],
+  "all_german_hei_ids": [
+    "abk-stuttgart.de",
+    "adbk-nuernberg.de",
+    "adbk.de",
+    "adk-bw.de",
+    "aiv.hfoed.de",
+    "augustana.de",
+    "b-tu.de",
+    "ba-sachsen.de",
+    "bbw-hochschule.de",
+    "berlin-international.de",
+    "beuth-hochschule.de",
+    "bhh.hamburg.de",
+    "burg-halle.de",
+    "businessschool-berlin.de",
+    "cas.dhbw.de",
+    "cbs.de",
+    "creative.macromedia-fachhochschule.de",
+    "cvjm-hochschule.de",
+    "dhbw-heidenheim.de",
+    "dhbw-karlsruhe.de",
+    "dhbw-loerrach.de",
+    "dhbw-ravensburg.de",
+    "dhbw-stuttgart.de",
+    "dhbw-vs.de",
+    "dhge.de",
+    "dhpol.de",
+    "dshs-koeln.de",
+    "eah-jena.de",
+    "ebz-bs.de",
+    "eh-berlin.de",
+    "eh-darmstadt.de",
+    "eh-freiburg.de",
+    "eh-ludwigsburg.de",
+    "ehs-dresden.de",
+    "esab-brandenburg.de",
+    "eufh.de",
+    "europa-uni.de",
+    "ev-hochschule-hh.de",
+    "evh-bochum.de",
+    "evhn.de",
+    "fau.de",
+    "fernuni-hagen.de",
+    "fh-aachen.de",
+    "fh-bielefeld.de",
+    "fh-dortmund.de",
+    "fh-erfurt.de",
+    "fh-kiel.de",
+    "fh-muenster.de",
+    "fh-potsdam.de",
+    "fh-swf.de",
+    "fh-wedel.de",
+    "fh-westkueste.de",
+    "fh-zwickau.de",
+    "fham.de",
+    "fhbund.de",
+    "fhdw-hannover.de",
+    "fhdw.de",
+    "fhws.de",
+    "filmuniversitaet.de",
+    "fim.musin.de",
+    "fliedner-fachhochschule.de",
+    "folkwang-uni.de",
+    "fom.de",
+    "frankfurt-school.de",
+    "frankfurt-university.de",
+    "fthgiessen.de",
+    "fu-berlin.de",
+    "giu-berlin.de",
+    "h-brs.de",
+    "h-da.de",
+    "h-ka.de",
+    "haw-hamburg.de",
+    "haw-landshut.de",
+    "hawk.de",
+    "hbk-bs.de",
+    "hbk-essen.de",
+    "hbksaar.de",
+    "hcu-hamburg.de",
+    "hdba.de",
+    "hdm-stuttgart.de",
+    "hdwm.de",
+    "heilbronn.dhbw.de",
+    "hfbk-dresden.de",
+    "hfbk-hamburg.de",
+    "hfg-gmuend.de",
+    "hfg-karlsruhe.de",
+    "hfg-offenbach.de",
+    "hfk-bremen.de",
+    "hfkm-regensburg.de",
+    "hfm-berlin.de",
+    "hfm-detmold.de",
+    "hfm-nuernberg.de",
+    "hfm-weimar.de",
+    "hfm-wuerzburg.de",
+    "hfm.saarland.de",
+    "hfmdd.de",
+    "hfmdk-frankfurt.de",
+    "hfmt-hamburg.de",
+    "hfmt-koeln.de",
+    "hfoev.bremen.de",
+    "hfph.de",
+    "hfpol.polizei-bw.de",
+    "hfs-berlin.de",
+    "hft-stuttgart.de",
+    "hfwu.de",
+    "hgb-leipzig.de",
+    "hhl.de",
+    "hks-ottersberg.de",
+    "hmdk-stuttgart.de",
+    "hmkw.de",
+    "hmt-leipzig.de",
+    "hmt-rostock.de",
+    "hmtm-hannover.de",
+    "hmtm.de",
+    "hnee.de",
+    "hochschule-biberach.de",
+    "hochschule-heidelberg.de",
+    "hochschule-rhein-waal.de",
+    "hochschule-stralsund.de",
+    "hochschule-trier.de",
+    "hof-university.de",
+    "hpolbb.de",
+    "hs-aalen.de",
+    "hs-albsig.de",
+    "hs-anhalt.de",
+    "hs-ansbach.de",
+    "hs-augsburg.de",
+    "hs-bochum.de",
+    "hs-bremen.de",
+    "hs-bremerhaven.de",
+    "hs-coburg.de",
+    "hs-doepfer.de",
+    "hs-duesseldorf.de",
+    "hs-emden-leer.de",
+    "hs-esslingen.de",
+    "hs-flensburg.de",
+    "hs-fresenius.de",
+    "hs-fulda.de",
+    "hs-furtwangen.de",
+    "hs-gesundheit.de",
+    "hs-gm.de",
+    "hs-hannover.de",
+    "hs-harz.de",
+    "hs-heilbronn.de",
+    "hs-kehl.de",
+    "hs-kempten.de",
+    "hs-kl.de",
+    "hs-koblenz.de",
+    "hs-ludwigsburg.de",
+    "hs-magdeburg.de",
+    "hs-mainz.de",
+    "hs-mannheim.de",
+    "hs-merseburg.de",
+    "hs-mittweida.de",
+    "hs-nb.de",
+    "hs-neu-ulm.de",
+    "hs-niederrhein.de",
+    "hs-nordhausen.de",
+    "hs-offenburg.de",
+    "hs-osnabrueck.de",
+    "hs-pforzheim.de",
+    "hs-rm.de",
+    "hs-rottenburg.de",
+    "hs-ruhrwest.de",
+    "hs-schmalkalden.de",
+    "hs-weingarten.de",
+    "hs-wismar.de",
+    "hs-worms.de",
+    "hs21.de",
+    "hsba.de",
+    "hshl.de",
+    "hspv.nrw.de",
+    "hsu-hh.de",
+    "hswt.de",
+    "hszg.de",
+    "htw-berlin.de",
+    "htw-dresden.de",
+    "htwg-konstanz.de",
+    "htwk-leipzig.de",
+    "htwsaar.de",
+    "hu-berlin.de",
+    "hwg-lu.de",
+    "hwr-berlin.de",
+    "ib-hochschule.de",
+    "ifa.fau.de",
+    "ifb-kempten.de",
+    "ipu-berlin.de",
+    "ism.de",
+    "ist-hochschule.de",
+    "jacobs-university.de",
+    "jade-hs.de",
+    "karlshochschule.de",
+    "katho-nrw.de",
+    "kh-berlin.de",
+    "kh-freiburg.de",
+    "kh-mz.de",
+    "khm.de",
+    "khsb-berlin.de",
+    "kirchenmusikhochschule.de",
+    "ksh-muenchen.de",
+    "ku.de",
+    "kunstakademie-karlsruhe.de",
+    "kunstakademie-muenster.de",
+    "law-school.de",
+    "leibniz-fh.de",
+    "leuphana.de",
+    "lmu.de",
+    "mannheim.dhbw.de",
+    "medicalschool-berlin.de",
+    "medicalschool-hamburg.de",
+    "merz-akademie.de",
+    "mh-freiburg.de",
+    "mh-luebeck.de",
+    "mh-trossingen.de",
+    "mhb-fontane.de",
+    "mhh.de",
+    "mobile-university.de",
+    "mosbach.dhbw.de",
+    "muho-mannheim.de",
+    "munich-business-school.de",
+    "muthesius-kunsthochschule.de",
+    "nbs.de",
+    "nds.de",
+    "nordakademie.de",
+    "ostfalia.de",
+    "oth-aw.de",
+    "oth-regensburg.de",
+    "ovgu.de",
+    "pfh.de",
+    "ph-freiburg.de",
+    "ph-gmuend.de",
+    "ph-heidelberg.de",
+    "ph-karlsruhe.de",
+    "ph-ludwigsburg.de",
+    "ph-weingarten.de",
+    "phwt.de",
+    "polizei.rlp.de",
+    "polizei.sachsen.de",
+    "popakademie.de",
+    "reutlingen-university.de",
+    "rfh-koeln.de",
+    "ruhr-uni-bochum.de",
+    "rwth-aachen.de",
+    "sankt-georgen.de",
+    "sdi-muenchen.de",
+    "srh-gesundheitshochschule.de",
+    "srh.de",
+    "staedelschule.de",
+    "th-ab.de",
+    "th-bingen.de",
+    "th-brandenburg.de",
+    "th-deg.de",
+    "th-elstal.de",
+    "th-koeln.de",
+    "th-luebeck.de",
+    "th-nuernberg.de",
+    "th-owl.de",
+    "th-rosenheim.de",
+    "th-wildau.de",
+    "theaterakademie.de",
+    "thf-paderborn.de",
+    "thga.de",
+    "thh-friedensau.de",
+    "thi.de",
+    "thm.de",
+    "thu.de",
+    "tiho-hannover.de",
+    "tu-berlin.de",
+    "tu-braunschweig.de",
+    "tu-chemnitz.de",
+    "tu-clausthal.de",
+    "tu-darmstadt.de",
+    "tu-dortmund.de",
+    "tu-dresden.de",
+    "tu-freiberg.de",
+    "tu-ilmenau.de",
+    "tuhh.de",
+    "tum.de",
+    "udk-berlin.de",
+    "uni-augsburg.de",
+    "uni-bamberg.de",
+    "uni-bayreuth.de",
+    "uni-bielefeld.de",
+    "uni-bonn.de",
+    "uni-bremen.de",
+    "uni-due.de",
+    "uni-duesseldorf.de",
+    "uni-erfurt.de",
+    "uni-flensburg.de",
+    "uni-frankfurt.de",
+    "uni-freiburg.de",
+    "uni-giessen.de",
+    "uni-goettingen.de",
+    "uni-greifswald.de",
+    "uni-halle.de",
+    "uni-hamburg.de",
+    "uni-hannover.de",
+    "uni-heidelberg.de",
+    "uni-hildesheim.de",
+    "uni-hohenheim.de",
+    "uni-jena.de",
+    "uni-kassel.de",
+    "uni-kiel.de",
+    "uni-kl.de",
+    "uni-koblenz.de",
+    "uni-koeln.de",
+    "uni-konstanz.de",
+    "uni-leipzig.de",
+    "uni-luebeck.de",
+    "uni-mainz.de",
+    "uni-mannheim.de",
+    "uni-marburg.de",
+    "uni-muenster.de",
+    "uni-osnabrueck.de",
+    "uni-paderborn.de",
+    "uni-passau.de",
+    "uni-potsdam.de",
+    "uni-regensburg.de",
+    "uni-rostock.de",
+    "uni-saarland.de",
+    "uni-siegen.de",
+    "uni-speyer.de",
+    "uni-stuttgart.de",
+    "uni-trier.de",
+    "uni-tuebingen.de",
+    "uni-ulm.de",
+    "uni-vechta.de",
+    "uni-weimar.de",
+    "uni-wh.de",
+    "uni-wuerzburg.de",
+    "uni-wuppertal.de",
+    "unibw.de",
+    "uol.de",
+    "victoria-hochschule.de",
+    "w-hs.de",
+    "wak-sh.de",
+    "zu.de"
+  ]
+}

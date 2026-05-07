@@ -1,0 +1,1319 @@
+{
+  "university_id": "UNIVERSITAET_GREIFSWALD",
+  "university_name": "Universität Greifswald",
+  "portal_url": "https://www.uni-greifswald.de/international/outgoing/erasmus/partneruniversitaeten/",
+  "portal_type": "university_website",
+  "scraped_at": "2026-03-15T22:04:59.923Z",
+  "strategy": "custom_scraper",
+  "partner_count": 218,
+  "partners": [
+    {
+      "partner_name": "Studieninteressierte",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Studierende",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Forschende",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Internationale",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "HIS/LSF",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Groupware",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Accounts",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Satzungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Medien",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Förderer",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Alumni",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Telefonsuche",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Verwaltung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Universitätsmedizin",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Konfliktmanagement",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Wegweiser",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Universität",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Zur Startseite der Universität",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Information",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Ryckschau",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Universität Greifswald im Profil",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Geschichte & Tradition",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Willkommenskultur",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Hochschulkommunikation",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Campus1456 – Das Unimagazin",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Veranstaltungskalender",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Klima und Universität",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Stellenangebote",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Förderverein",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Zahlen & Fakten",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Organisation",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Fakultäten",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Leitung & Gremien",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Organigramm",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Wahlen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Satzungen & Formulare",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Gleichstellung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Zentrale Einrichtungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Bibliothek",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Rechenzentrum",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Sprachenzentrum",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Archiv",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Kustodie",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Botanischer Garten und Arboretum",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Universitätssport",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Tagungsstätte Hiddensee",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Einrichtungen A bis Z",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Zuständigkeiten A bis Z",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Service",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Rechtlich vorgeschriebene Beauftragte",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Beratung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Virtuelles Medienzentrum",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Gesunde Universität",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Alumni an der Universität",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Ehrungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Antidiskriminierung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Studium",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Zur Hauptseite Studium",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Vor dem Studium",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Studienfächer A-Z",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Lehramt studieren",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Studienorientierung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Zugang zum Studium",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Bewerbung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Einschreibung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Semesterstart",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Anreisen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Kosten & Finanzierung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Wohnen in Greifswald",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Studienbeginn",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Termine und Fristen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Formulare",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Während des Studiums",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Rund um die Prüfungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Vorlesungsverzeichnisse",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Selbstbedienungsportal",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Im Krankheitsfall",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Studieren mit Handicap",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Workshops",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Studierendenausweis",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Rückmeldung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Beurlaubung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Studiengang- & Hochschulwechsel",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Nach dem Studium",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Exmatrikulation",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Promotionsstudium",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Zweitstudium",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Career Services",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Postgraduales und Weiterbildendes Studium",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Gasthörer",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Ansprechpartner*innen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Zentrale Studienberatung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Zentrales Prüfungsamt",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Fachstudienberatungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Studierendensekretariat",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Studierendenmarketing",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Psycho-Soziale Beratung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Behindertenbeauftragte",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "International Office",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Familienservice",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Berufsberatung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Der AStA",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Qualität in Studium und Lehre",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Forschung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Zur Hauptseite Forschung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Forschungsprofil",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Forschung an der Universität Greifswald",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Forschungsschwerpunkte",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Forschungsprojekte",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Wissenschaftsstandort Greifswald",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Wissenschaftsnetzwerke",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Third Mission & Transfer",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Forschungsinformationssystem",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Wissenschaftlicher Nachwuchs",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Graduiertenakademie",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Graduiertenkollegs",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Förderprogramme",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Verleihung Akademischer Grade",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Wirtschaft & Transfer",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Technologie- und Innovationsberatung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Transferstrategie",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Ideenwettbewerb UNIQUE",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Ausgründungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Forschungsservice und -praxis",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Zentrum für Forschungsförderung und Transfer",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Infos und Ausschreibungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Drittmittelverwaltung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Qualitätssicherung und Forschungsethik",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Forschungssicherheit",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Nagoya-Protokoll",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Open Access",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Laufende wissenschaftliche Befragungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "International",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Zur Hauptseite International",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Internationales Profil",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "HSI-Monitor im Fokus – Profildaten zur Hochschulinternationalität",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Internationalisierung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Partnerschaften & Kooperationen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Internationale Zahlen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Scholars at Risk Network",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "FIT-Programm",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "KreativEU",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Incoming",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Wege nach Greifswald",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Studium mit Abschluss",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Austauschstudium",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Free Mover und Praktikum",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Forschen & Lehren in Greifswald",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Promotion in Greifswald",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "International Career Service",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Mental Health Support",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Greifswald Summer",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Summer School SustainMV",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Geflüchtete",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "DAAD-Preis",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Outgoing",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Ins Ausland",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Studium im Ausland",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Praktikum im Ausland",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Kurzaufenthalte im Ausland",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Teaching Internationally",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Forschen & Lehren im Ausland",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Fort- und Weiterbildung im Ausland",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Sprachenportal",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Service & Kontakt",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Welcome Centre",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Internationales Begegnungszentrum",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Austausch-Fachkoordinator*innen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Zentrale Übersetzerstelle",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Erstberatung Auslandsaufenthalte",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Neuigkeiten & Termine",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Zur Hauptseite Leben",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Greifswald und die Region",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Stadt mit Meer-Flair",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Hinkommen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Übernachten",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Sehenswürdigkeiten",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Natur & Region entdecken",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Unsere Universität",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Campusleben",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Familie an der Universität",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Gesundheitsförderung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Stadtradeln",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Uniladen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Universitätsführungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Wohnen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Wohnheime",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Heimathafen Greifswald",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Gemeinschaft & Freizeit",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Festivals",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Studierendenclubs",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Engagement & Initiativen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "moritz – studentische Medien",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "wissenlocktmich",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Go to slide 1",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Go to slide 2",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Go to slide 3",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Go to slide 4",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Instagram Logo Instagram",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "LinkedIn Logo LinkedIn",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Facebook Logo Facebook",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "YouTube Logo YouTube",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Mastodon Logo Mastodon",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Bluesky Logo Bluesky",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Campus Innenstadt",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Campus Berthold-Beitz-Platz",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Campus Soldmannstraße",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Campus Loefflerstraße",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Prüfungs- und Studienordnungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Alle Studienfächer",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Studierendenportal",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Webmailer und Accounts",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Kontakt",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Lagepläne",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Sitemap",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Barrierefreiheit",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Datenschutz",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Impressum",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    }
+  ]
+}

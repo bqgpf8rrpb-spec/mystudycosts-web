@@ -1,7 +1,13 @@
 'use client';
 
 import { useState, useMemo, useEffect, useRef } from 'react';
+import { useTranslations } from 'next-intl';
 import { Plane } from 'lucide-react';
+import { formatCurrency } from '@/lib/format';
+import { getErasmusGrantAmount } from '@/lib/erasmus-grants';
+import { BAFOEG_ERASMUS_ADDON } from '@/lib/bafoeg-logic';
+import { DEFAULT_LIVING_EXPENSES, getMonthlySemesterFee } from '@/lib/constants';
+import { useErasmusStore } from '@/lib/store/useErasmusStore';
 
 interface CityData {
   name: string;
@@ -17,75 +23,28 @@ interface CostComparisonProps {
   partnerCityData: CityData;
 }
 
-const DEFAULT_LIVING_EXPENSES = 200; // Standardwert für Lebenshaltungskosten (Nebenkosten, Essen, etc.)
-
-// Erasmus+ Grant amounts by country group (2026)
-const ERASMUS_GRANTS_BY_COUNTRY: Record<string, number> = {
-  // Ländergruppe 1: ca. 600€
-  'Denmark': 600,
-  'United Kingdom': 600,
-  'Norway': 600,
-  'Switzerland': 600,
-  'Iceland': 600,
-  'Liechtenstein': 600,
-  'Luxembourg': 600,
-  // Ländergruppe 2: ca. 540€
-  'Spain': 540,
-  'Italy': 540,
-  'France': 540,
-  'Netherlands': 540,
-  'Belgium': 540,
-  'Austria': 540,
-  'Sweden': 540,
-  'Finland': 540,
-  'Ireland': 540,
-  // Ländergruppe 3: ca. 490€
-  'Poland': 490,
-  'Portugal': 490,
-  'Czech Republic': 490,
-  'Greece': 490,
-  'Hungary': 490,
-  'Romania': 490,
-  'Bulgaria': 490,
-  'Croatia': 490,
-  'Slovakia': 490,
-  'Slovenia': 490,
-  'Estonia': 490,
-  'Latvia': 490,
-  'Lithuania': 490,
-  'Cyprus': 490,
-  'Malta': 490,
-  // Default fallback
-  'default': 490,
-};
-
-const BAFOEG_AUSLANDSZUSCHUSS = 250; // Monthly BAföG Auslandszuschuss
-
-function getErasmusGrant(country?: string): number {
-  if (!country) return ERASMUS_GRANTS_BY_COUNTRY.default;
-  return ERASMUS_GRANTS_BY_COUNTRY[country] || ERASMUS_GRANTS_BY_COUNTRY.default;
-}
 
 export default function CostComparison({
   homeCityData,
   partnerCityData,
 }: CostComparisonProps) {
-  const [hasBAfoeg, setHasBAfoeg] = useState(false);
+  const { hasBAfoeg, setHasBAfoeg } = useErasmusStore();
   const [showStickySummary, setShowStickySummary] = useState(false);
   const homeSectionRef = useRef<HTMLDivElement>(null);
+  const t = useTranslations('BAfoeg');
 
   // Calculate Erasmus grant
   const erasmusGrant = useMemo(() => {
-    return getErasmusGrant(partnerCityData.country);
+    return getErasmusGrantAmount(partnerCityData.country);
   }, [partnerCityData.country]);
 
   // Calculate BAföG Auslandszuschuss
-  const bafoegZuschuss = hasBAfoeg ? BAFOEG_AUSLANDSZUSCHUSS : 0;
+  const bafoegZuschuss = hasBAfoeg ? BAFOEG_ERASMUS_ADDON : 0;
 
   // Calculate totals
   const homeTotal =
     homeCityData.rent +
-    homeCityData.semesterFee / 6 + // Monthly pro rata
+    getMonthlySemesterFee(homeCityData.semesterFee) +
     (homeCityData.livingExpenses || DEFAULT_LIVING_EXPENSES);
   
   const partnerGrossTotal =
@@ -160,7 +119,7 @@ export default function CostComparison({
               <div className="flex justify-between items-center mb-2">
                 <span className="text-slate-300 text-xs md:text-sm">Rent (incl. utilities)</span>
                 <span className="text-white font-semibold text-sm md:text-base">
-                  {homeCityData.rent.toFixed(2)} €
+                  {formatCurrency(homeCityData.rent, 'EUR', 1)}
                 </span>
               </div>
               <div className="w-full bg-slate-800 rounded-full h-2">
@@ -180,14 +139,14 @@ export default function CostComparison({
                   Semester Fee (monthly)
                 </span>
                 <span className="text-white font-semibold text-sm md:text-base">
-                  {(homeCityData.semesterFee / 6).toFixed(2)} €
+                  {formatCurrency(getMonthlySemesterFee(homeCityData.semesterFee), 'EUR', 1)}
                 </span>
               </div>
               <div className="w-full bg-slate-800 rounded-full h-2">
                 <div
                   className="bg-blue-500 h-2 rounded-full transition-all"
                   style={{
-                    width: `${((homeCityData.semesterFee / 6) / maxCost) * 100}%`,
+                    width: `${(getMonthlySemesterFee(homeCityData.semesterFee) / maxCost) * 100}%`,
                   }}
                 />
               </div>
@@ -198,7 +157,7 @@ export default function CostComparison({
               <div className="flex justify-between items-center mb-2">
                 <span className="text-slate-300 text-xs md:text-sm">Living Expenses</span>
                 <span className="text-white font-semibold text-sm md:text-base">
-                  {(homeCityData.livingExpenses || DEFAULT_LIVING_EXPENSES).toFixed(2)} €
+                  {formatCurrency(homeCityData.livingExpenses || DEFAULT_LIVING_EXPENSES, 'EUR', 1)}
                 </span>
               </div>
               <div className="w-full bg-slate-800 rounded-full h-2">
@@ -217,7 +176,7 @@ export default function CostComparison({
             <div className="flex justify-between items-center mb-2">
               <span className="text-white font-bold text-base md:text-lg">Total</span>
               <span className="text-white font-bold text-lg md:text-xl">
-                {homeTotal.toFixed(2)} €
+                {formatCurrency(homeTotal, 'EUR', 1)}
               </span>
             </div>
             <div className="w-full bg-slate-800 rounded-full h-3">
@@ -247,7 +206,7 @@ export default function CostComparison({
               <div className="flex justify-between items-center mb-2">
                 <span className="text-slate-300 text-xs md:text-sm">Local Rent</span>
                 <span className="text-white font-semibold text-sm md:text-base">
-                  {partnerCityData.rent.toFixed(2)} €
+                  {formatCurrency(partnerCityData.rent, 'EUR', 1)}
                 </span>
               </div>
               <div className="w-full bg-slate-800 rounded-full h-2">
@@ -281,7 +240,7 @@ export default function CostComparison({
               <div className="flex justify-between items-center mb-2">
                 <span className="text-slate-300 text-xs md:text-sm">Living Expenses</span>
                 <span className="text-white font-semibold text-sm md:text-base">
-                  {(partnerCityData.livingExpenses || DEFAULT_LIVING_EXPENSES).toFixed(2)} €
+                  {formatCurrency(partnerCityData.livingExpenses || DEFAULT_LIVING_EXPENSES, 'EUR', 1)}
                 </span>
               </div>
               <div className="w-full bg-slate-800 rounded-full h-2">
@@ -327,7 +286,7 @@ export default function CostComparison({
             </label>
             {hasBAfoeg && (
               <p className="text-xs text-emerald-400 mt-2 ml-7 md:ml-8">
-                ✓ +{BAFOEG_AUSLANDSZUSCHUSS}€ Abroad Supplement
+                {t('bafoegSupplementConfirmation', { amount: BAFOEG_ERASMUS_ADDON })}
               </p>
             )}
           </div>
@@ -341,7 +300,7 @@ export default function CostComparison({
               <div className="flex justify-between items-center mb-1">
                 <span className="text-slate-400 text-xs md:text-sm">Erasmus+ Grant</span>
                 <span className="text-emerald-400 font-semibold text-sm md:text-base">
-                  -{erasmusGrant.toFixed(2)} €
+                  -{formatCurrency(erasmusGrant, 'EUR', 1)}
                 </span>
               </div>
               {partnerCityData.country && (
@@ -357,7 +316,7 @@ export default function CostComparison({
                 <div className="flex justify-between items-center mb-1">
                   <span className="text-slate-400 text-xs md:text-sm">BAföG Abroad Supplement</span>
                   <span className="text-emerald-400 font-semibold text-sm md:text-base">
-                    -{bafoegZuschuss.toFixed(2)} €
+                    -{formatCurrency(bafoegZuschuss, 'EUR', 1)}
                   </span>
                 </div>
               </div>
@@ -369,14 +328,14 @@ export default function CostComparison({
             <div className="flex justify-between items-center mb-2">
               <span className="text-white font-bold text-base md:text-lg">Gross</span>
               <span className="text-slate-400 font-semibold text-base md:text-lg">
-                {partnerGrossTotal.toFixed(2)} €
+                {formatCurrency(partnerGrossTotal, 'EUR', 1)}
               </span>
             </div>
             <div className="flex justify-between items-center mb-2 gap-2">
               <span className="text-white font-bold text-xs md:text-lg flex-shrink-0">Net</span>
               <span className="hidden md:inline text-white font-bold text-lg">(after grants)</span>
               <span className="text-emerald-400 font-bold text-lg md:text-xl whitespace-nowrap">
-                {partnerNetTotal.toFixed(2)} €
+                {formatCurrency(partnerNetTotal, 'EUR', 1)}
               </span>
             </div>
             <p className="text-xs text-slate-500 md:hidden mb-2">after grants</p>
@@ -400,13 +359,13 @@ export default function CostComparison({
               You effectively save abroad
             </p>
             <p className="text-emerald-400 font-bold text-2xl md:text-3xl mb-1">
-              {netDifference.toFixed(2)} €
+              {formatCurrency(netDifference, 'EUR', 1)}
             </p>
             <p className="text-slate-400 text-xs md:text-sm">
               per month through grants
             </p>
             <p className="text-emerald-400 font-semibold text-base md:text-lg mt-2 md:mt-3">
-              ({((netDifference * 6).toFixed(2))} € per semester)
+              ({formatCurrency(netDifference * 6, 'EUR', 1)} per semester)
             </p>
           </div>
         ) : netDifference < 0 ? (
@@ -415,7 +374,7 @@ export default function CostComparison({
               Additional costs abroad
             </p>
             <p className="text-rose-400 font-bold text-2xl md:text-3xl mb-1">
-              {Math.abs(netDifference).toFixed(2)} €
+              {formatCurrency(Math.abs(netDifference), 'EUR', 1)}
             </p>
             <p className="text-slate-400 text-xs md:text-sm">
               per month
@@ -440,7 +399,7 @@ export default function CostComparison({
               Your monthly savings
             </span>
             <span className="text-white font-bold text-xl ml-4 whitespace-nowrap">
-              {netDifference.toFixed(2)} €
+              {formatCurrency(netDifference, 'EUR', 1)}
             </span>
           </div>
         </div>

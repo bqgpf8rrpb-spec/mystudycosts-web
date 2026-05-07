@@ -1,0 +1,1215 @@
+{
+  "university_id": "ZITTAU01",
+  "university_name": "Mobility-Online Portal",
+  "portal_url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=ZITTAU01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+  "portal_type": "mobility_online",
+  "scraped_at": "2026-03-15T21:07:30.165Z",
+  "strategy": "html_table",
+  "partner_count": 172,
+  "partners": [
+    {
+      "partner_name": "Aalborg Universitet",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "324747"
+    },
+    {
+      "partner_name": "Åbo Akademi",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "327189"
+    },
+    {
+      "partner_name": "Ahsanullah University of Science and Technology",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1242874"
+    },
+    {
+      "partner_name": "Akademia Muzyczna w Krakowie",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "326826"
+    },
+    {
+      "partner_name": "Akdeniz Üniversitesi",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "327296"
+    },
+    {
+      "partner_name": "Al-Baath University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1242937"
+    },
+    {
+      "partner_name": "ANDRÁSSY GYULA BUDAPESTI  NÉMET NYELVŰ EGYETEM",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "325595"
+    },
+    {
+      "partner_name": "Anna University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1242881"
+    },
+    {
+      "partner_name": "ASPIRA University of Applied Sciences - Split",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "2767949"
+    },
+    {
+      "partner_name": "Baikal State University (BSU)",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "786503"
+    },
+    {
+      "partner_name": "BANKOVNÍ INSTITUT VYSOKÁ ŠKOLA, A.S.",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "325658"
+    },
+    {
+      "partner_name": "Banku augstskola",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "326487"
+    },
+    {
+      "partner_name": "Belarusian National Technical University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1242877"
+    },
+    {
+      "partner_name": "BUDAPESTI MUSZAKI ES GAZDASAGTUDOMANYI EGYETEM",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "325573"
+    },
+    {
+      "partner_name": "České vysoké učení technické v Praze",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "325657"
+    },
+    {
+      "partner_name": "Coventry University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "323456"
+    },
+    {
+      "partner_name": "Çukurova Üniversitesi",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "327278"
+    },
+    {
+      "partner_name": "Deutsch-Kasachische Universität (DKU)",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "860579"
+    },
+    {
+      "partner_name": "Eastern Switzerland University of Applied Sciences (OST)",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "406414"
+    },
+    {
+      "partner_name": "'ECOLE LA MACHE'",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "325523"
+    },
+    {
+      "partner_name": "École Supérieure d'Art et de Design Toulon Provence Méditerranée",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "2770275"
+    },
+    {
+      "partner_name": "EUROPEAN UNIVERSITY CYPRUS",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "324278"
+    },
+    {
+      "partner_name": "Europos humanitarinis universitetas",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "326464"
+    },
+    {
+      "partner_name": "Fachhochschule Kärnten",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "323791"
+    },
+    {
+      "partner_name": "Fachhochschule Oberösterreich",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "323818"
+    },
+    {
+      "partner_name": "FH Campus Wien",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "323883"
+    },
+    {
+      "partner_name": "German-Jordanian University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1242882"
+    },
+    {
+      "partner_name": "HAMEEN AMMATTIKORKEAKOULU",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "327150"
+    },
+    {
+      "partner_name": "Hanoi University of Science and Technology",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1242915"
+    },
+    {
+      "partner_name": "Haute école de gestion Arc (HEG)",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "671390"
+    },
+    {
+      "partner_name": "Higher Education South Africa",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1242943"
+    },
+    {
+      "partner_name": "Hochschule Luzern",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "406413"
+    },
+    {
+      "partner_name": "Högskolan Dalarna",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "327108"
+    },
+    {
+      "partner_name": "Humanistinen ammattikorkeakoulu (Humak)",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "327167"
+    },
+    {
+      "partner_name": "Ilia State University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1138068"
+    },
+    {
+      "partner_name": "Institut Jerman-Malaysia",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1138084"
+    },
+    {
+      "partner_name": "INSTITUTO POLITECNICO DE COIMBRA",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "326651"
+    },
+    {
+      "partner_name": "Instituto Politécnico de Viana do Castelo",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "406094"
+    },
+    {
+      "partner_name": "Interkantonale Hochschule für Heilpädagogik",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "406095"
+    },
+    {
+      "partner_name": "International Hellenic University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "325349"
+    },
+    {
+      "partner_name": "Irkutsk State University (ISU)",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "786501"
+    },
+    {
+      "partner_name": "İstanbul Şehir Üniversitesi",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "406416"
+    },
+    {
+      "partner_name": "Ivane Javakhishvili Tbilisi State University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1242878"
+    },
+    {
+      "partner_name": "Ivano-Frankivsk National Technical University of Oil and Gas",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1242924"
+    },
+    {
+      "partner_name": "İzmir Kâtip Çelebi Üniversitesi",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "406096"
+    },
+    {
+      "partner_name": "James Madison University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1138032"
+    },
+    {
+      "partner_name": "Jiangsu University of Technology",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1385173"
+    },
+    {
+      "partner_name": "Kaakkois-Suomen ammattikorkeakoulu (Xamk)",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "327170"
+    },
+    {
+      "partner_name": "Karaganda State Technical University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1242883"
+    },
+    {
+      "partner_name": "Karelia University of Applied Sciences",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "2244898"
+    },
+    {
+      "partner_name": "Karelian State Pedagogical Academy",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1242901"
+    },
+    {
+      "partner_name": "Karkonoska Państwowa Szkoła Wyższa w Jeleniej Górze",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "326792"
+    },
+    {
+      "partner_name": "Katolícka univerzita v Ružomberku",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "327269"
+    },
+    {
+      "partner_name": "Khmelnytskyi National University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1242922"
+    },
+    {
+      "partner_name": "Klaipėdos universitetas",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "326432"
+    },
+    {
+      "partner_name": "KOCAELI UNIVERSITESI",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "323644"
+    },
+    {
+      "partner_name": "Kostroma State University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "786502"
+    },
+    {
+      "partner_name": "L. N. Gumilyov Eurasian National University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "966921"
+    },
+    {
+      "partner_name": "Lappeenrannan teknillinen yliopisto",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "327174"
+    },
+    {
+      "partner_name": "Latvijas Kultūras Akadēmija",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "326483"
+    },
+    {
+      "partner_name": "Latvijas Universitate",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "326477"
+    },
+    {
+      "partner_name": "Libera Università di Bolzano",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "325742"
+    },
+    {
+      "partner_name": "Lviv Polytechnic National University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "966918"
+    },
+    {
+      "partner_name": "MAINORI KORGKOOL",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "324133"
+    },
+    {
+      "partner_name": "Masarykova univerzita",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "324291"
+    },
+    {
+      "partner_name": "mdw-Universität für Musik und darstellende Kunst Wien",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "323844"
+    },
+    {
+      "partner_name": "Moscow Power Engineering Institute",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1242903"
+    },
+    {
+      "partner_name": "National Aerospace University – \"Kharkiv Aviation Institute\"",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1242927"
+    },
+    {
+      "partner_name": "National Technical University of Ukraine \"Igor Sikorsky Kyiv Polytechnic Institute\"",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1242926"
+    },
+    {
+      "partner_name": "National University of Civil Engineering",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1138065"
+    },
+    {
+      "partner_name": "NHL Stenden University of Applied Sciences",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "326612"
+    },
+    {
+      "partner_name": "Noordwes-Universiteit",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "966917"
+    },
+    {
+      "partner_name": "Northern Arizona University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1138033"
+    },
+    {
+      "partner_name": "Odesa I. I. Mechnikov National University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1242921"
+    },
+    {
+      "partner_name": "Oleksandr Dovzhenko Hlukhiv National Pedagogical University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1138066"
+    },
+    {
+      "partner_name": "Ostravská univerzita",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "325642"
+    },
+    {
+      "partner_name": "Otago Polytechnic",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "966916"
+    },
+    {
+      "partner_name": "Państwowa Wyższa Szkoła Zawodowa im. Prezydenta Stanisława Wojciechowskiego",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "326795"
+    },
+    {
+      "partner_name": "Państwowa Wyższa Szkoła Zawodowa w Nowym Sączu",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "326871"
+    },
+    {
+      "partner_name": "Pécsi Tudományegyetem",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "325614"
+    },
+    {
+      "partner_name": "Peter the Great St. Petersburg Polytechnic University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1242910"
+    },
+    {
+      "partner_name": "Politechnika Gdańska",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "326768"
+    },
+    {
+      "partner_name": "Politechnika Łódzka",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "326844"
+    },
+    {
+      "partner_name": "Politechnika Poznańska",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "326888"
+    },
+    {
+      "partner_name": "Politechnika Śląska",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "326784"
+    },
+    {
+      "partner_name": "Politechnika Wrocławska",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "327010"
+    },
+    {
+      "partner_name": "Polytechnio Kritis",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "325353"
+    },
+    {
+      "partner_name": "Prague University of Economics and Business",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "325656"
+    },
+    {
+      "partner_name": "Primeasia University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1242876"
+    },
+    {
+      "partner_name": "Prince of Songkla University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1242934"
+    },
+    {
+      "partner_name": "PSG College of Technology",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "966920"
+    },
+    {
+      "partner_name": "Recep Tayyip Erdoğan Üniversitesi",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "323688"
+    },
+    {
+      "partner_name": "Saint Petersburg National Research University of Information Technologies, Mechanics and Optics (ITMO)",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "741570"
+    },
+    {
+      "partner_name": "Saint Petersburg State University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1242912"
+    },
+    {
+      "partner_name": "Saint Petersburg State University of Economics (UNECON)",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "952722"
+    },
+    {
+      "partner_name": "Shawnee State University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1138036"
+    },
+    {
+      "partner_name": "Siberian Federal University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1242908"
+    },
+    {
+      "partner_name": "Siddaganga Institute of Technology",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1138082"
+    },
+    {
+      "partner_name": "Southern Federal University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1242906"
+    },
+    {
+      "partner_name": "South-West-University \"Neofit Rilski\" - Blagoevgrad",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "324150"
+    },
+    {
+      "partner_name": "SRM Institute of Science and Technology",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "966919"
+    },
+    {
+      "partner_name": "Taita Taveta University College",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1138056"
+    },
+    {
+      "partner_name": "Tartu Ülikool",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "324153"
+    },
+    {
+      "partner_name": "Technická univerzita v Liberci",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "324319"
+    },
+    {
+      "partner_name": "Technological Educational Institute of Central Macedonia",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "325371"
+    },
+    {
+      "partner_name": "Tecnológico de Monterrey",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "966915"
+    },
+    {
+      "partner_name": "Ternopil Volodymyr Hnatiuk National Pedagogical University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1242920"
+    },
+    {
+      "partner_name": "Tishreen University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1243274"
+    },
+    {
+      "partner_name": "Tongji University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "975059"
+    },
+    {
+      "partner_name": "Tribhuvan University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1242887"
+    },
+    {
+      "partner_name": "Turan University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "954870"
+    },
+    {
+      "partner_name": "Ukrainian Academy of Banking of the National Bank of Ukraine",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1242919"
+    },
+    {
+      "partner_name": "Universidad Complutense de Madrid",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "325225"
+    },
+    {
+      "partner_name": "Universidad de Granada",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "325134"
+    },
+    {
+      "partner_name": "Universidad de Las Palmas de Gran Canaria",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "325171"
+    },
+    {
+      "partner_name": "Universidad de Navarra",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "323363"
+    },
+    {
+      "partner_name": "Universidad de Oriente",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1242884"
+    },
+    {
+      "partner_name": "Universidad de Salamanca",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "323350"
+    },
+    {
+      "partner_name": "Universidad de Sonora",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1138083"
+    },
+    {
+      "partner_name": "Universidad del Valle",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1138085"
+    },
+    {
+      "partner_name": "Universidad Pablo de Olavide",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "323641"
+    },
+    {
+      "partner_name": "Universidade de Santiago de Compostela",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "2767953"
+    },
+    {
+      "partner_name": "Università degli Studi del Sannio",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "325735"
+    },
+    {
+      "partner_name": "Università degli Studi di Firenze",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "325777"
+    },
+    {
+      "partner_name": "Università degli Studi di Napoli Federico II",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "325823"
+    },
+    {
+      "partner_name": "Università degli Studi di Padova",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "325831"
+    },
+    {
+      "partner_name": "Universitat Rovira i Virgili",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "323748"
+    },
+    {
+      "partner_name": "Universitatea Babeș-Bolyai",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "327063"
+    },
+    {
+      "partner_name": "Université d' Angers",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "324192"
+    },
+    {
+      "partner_name": "Université de Haute-Alsace",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "325936"
+    },
+    {
+      "partner_name": "Université de La Réunion",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "326248"
+    },
+    {
+      "partner_name": "Université de Lille",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "325471"
+    },
+    {
+      "partner_name": "Université de Lomé",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1242933"
+    },
+    {
+      "partner_name": "University of Birmingham",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "323383"
+    },
+    {
+      "partner_name": "University of Hawaiʻi at Mānoa",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1138035"
+    },
+    {
+      "partner_name": "University of Management and Technology Lahore",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1242889"
+    },
+    {
+      "partner_name": "University of Namibia Windhoek",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1242885"
+    },
+    {
+      "partner_name": "University of Sheffield",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "323904"
+    },
+    {
+      "partner_name": "Univerzita Jana Evangelisty Purkyně v Ústí nad Labem",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "324354"
+    },
+    {
+      "partner_name": "Univerzita Karlova v Praze",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "325655"
+    },
+    {
+      "partner_name": "Univerzita Komenského v Bratislave",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "327250"
+    },
+    {
+      "partner_name": "UNIVERZITA PARDUBICE",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "325644"
+    },
+    {
+      "partner_name": "Uniwersytet Ekonomiczny we Wrocławiu",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "327011"
+    },
+    {
+      "partner_name": "Uniwersytet Gdański",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "326767"
+    },
+    {
+      "partner_name": "Uniwersytet Jagielloński w Krakowie",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "326819"
+    },
+    {
+      "partner_name": "Uniwersytet Marii Curie-Skłodowskiej w Lublinie",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "326860"
+    },
+    {
+      "partner_name": "Uniwersytet Opolski",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "326878"
+    },
+    {
+      "partner_name": "Uniwersytet Rzeszowski",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "326925"
+    },
+    {
+      "partner_name": "Uniwersytet Śląski w Katowicach",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "326796"
+    },
+    {
+      "partner_name": "Uniwersytet Szczeciński",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "326938"
+    },
+    {
+      "partner_name": "Uniwersytet Wrocławski",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "327009"
+    },
+    {
+      "partner_name": "Uniwersytet Zielonogórski",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "327033"
+    },
+    {
+      "partner_name": "Uppsala universitet",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "327144"
+    },
+    {
+      "partner_name": "Vel Tech Rangarajan Dr.Sagunthala R&D Institute of Science and Technology",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1138081"
+    },
+    {
+      "partner_name": "VELEUCILISTE PAR",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "2679570"
+    },
+    {
+      "partner_name": "Vilniaus dailės akademija",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "326450"
+    },
+    {
+      "partner_name": "VILNIAUS GEDIMINO TECHNIKOS UNIVERSITETAS (VGTU)",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "326449"
+    },
+    {
+      "partner_name": "VILNIAUS KOLEGIJA",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "326455"
+    },
+    {
+      "partner_name": "Vilniaus universitetas",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "326448"
+    },
+    {
+      "partner_name": "VNU University of Social Sciences and Humanities",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1138064"
+    },
+    {
+      "partner_name": "Volgograd State University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1242909"
+    },
+    {
+      "partner_name": "Vysoká škola chemicko-technologická v Praze",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "325649"
+    },
+    {
+      "partner_name": "Vysoká škola hotelová v Praze",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "325663"
+    },
+    {
+      "partner_name": "Vysoká škola obchodní v Praze",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "325659"
+    },
+    {
+      "partner_name": "VYSOKA SKOLA TECHNICKA A EKONOMICKA V ČESKYCH BUDEJOVICICH",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "324305"
+    },
+    {
+      "partner_name": "Vytauto Didžiojo universitetas",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "326419"
+    },
+    {
+      "partner_name": "Wyższa Szkoła Filologiczna we Wrocławiu",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "327024"
+    },
+    {
+      "partner_name": "Wyższa Szkoła Oficerska Wojsk Lądowych im. gen. Tadeusza Kościuszki",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "500610"
+    },
+    {
+      "partner_name": "Yeditepe Üniversitesi",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "323301"
+    },
+    {
+      "partner_name": "Yrkeshögskolan Novia",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "327194"
+    },
+    {
+      "partner_name": "Západočeská univerzita v Plzni",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "325647"
+    },
+    {
+      "partner_name": "Zhejiang Normal University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1242880"
+    }
+  ]
+}

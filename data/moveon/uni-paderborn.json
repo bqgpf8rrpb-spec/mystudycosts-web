@@ -1,0 +1,875 @@
+{
+  "university_id": "UNIVERSITAET_PADERBORN",
+  "university_name": "Universität Paderborn",
+  "portal_url": "https://www.uni-paderborn.de/studium/erasmus/partnerhochschulen",
+  "portal_type": "university_website",
+  "scraped_at": "2026-03-15T22:03:26.377Z",
+  "strategy": "custom_scraper",
+  "partner_count": 144,
+  "partners": [
+    {
+      "partner_name": "Deutsch",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "English",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Hauptmenü",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Studium",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Seite \"Studium\" öffnen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Studieninteressierte",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Studierende",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Schulen & Lehrer*innen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Seite \"Lehre\" öffnen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Profil",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Seite \"Profil\" öffnen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Leitbild für Studium und Lehre",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Digitalisierung & E-Learning",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Open Source",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Lehren",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Seite \"Lehren\" öffnen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Kompetenzorientiert Lehren",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Prüfungen gestalten",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Lehre organisieren",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Lehrevaluation",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Studium Generale",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "KI in der Lehre",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Digitale Lehre",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Seite \"Digitale Lehre\" öffnen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Digitale Lernräume",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Digitale Prüfformate",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Übersicht Prüfungssysteme",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Digitale Tools",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Qualifizierung und Service",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Seite \"Qualifizierung und Service\" öffnen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Hochschuldidaktik",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Kompetenzzentrum Schreiben",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Interne Fort- und Weiterbildung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Angebote in der Lehrkräftebildung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Angebote der Fakultäten",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Lehre International",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Lehrinnovationen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Seite \"Lehrinnovationen\" öffnen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Lehrpreise an der UPB",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Fellowship",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Tag der Lehre",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "E-Learning Label",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Lehrforschungsverbünde",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Seite \"Lehrforschungsverbünde\" öffnen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "DH.NRW",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Stiftung Innovation in der Hochschullehre",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Kompetenzzentrum Hochschuldidaktik Mathematik",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Qualitätspakt Lehre",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Forschung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Seite \"Forschung\" öffnen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Forschungsprofil",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Seite \"Forschungsprofil\" öffnen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Profilbereiche",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Interdisziplinäre Forschungseinrichtungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Forschung in den Fakultäten",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Sonderforschungsbereiche",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Graduiertenkollegs und -schulen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "DFG-Forschungsgruppen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "DFG-Schwerpunktprogramme",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "ERC-Grants",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Leibniz Preisträger*innen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Wissenschaftliche Karriere",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Seite \"Wissenschaftliche Karriere\" öffnen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Frühe Karrierephase",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Professur an der Universität Paderborn",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Stellenportal",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Universität als Arbeitgeberin",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Forschungsservices",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Seite \"Forschungsservices\" öffnen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Förder- und Antragsberatung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Rechtliche Beratung in Forschung und Entwicklung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Ethik-Kommission",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Forschungsinformationen an der UPB",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Forschungsdatenmanagement",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Publikationsservice der Universitätsbibliothek",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Open Access-Portal",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Erfindungen und Patente",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Gründung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Netzwerk interdisziplinäre Forschung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Interne Fördermittel",
+      "country": "Forschungskommission",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Forschungskultur",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Seite \"Forschungskultur\" öffnen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Forschungsorientierte Gleichstellungsstandards",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Gender & Diversity Consulting",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Ethikkommission",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Gute wissenschaftliche Praxis",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Human Resources Strategy for Researchers",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Transfer",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Seite \"Transfer\" öffnen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Gemeinsam gestalten",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Gemeinsam innovieren",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Gemeinsam reflektieren",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Kontakte",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "International",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Seite \"International\" öffnen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Internationales Profil",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Internationaler Campus",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Universität",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Seite \"Universität\" öffnen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Über uns",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Seite \"Über uns\" öffnen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Leitbild",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Geschichte",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Ehrungen der Universität",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Universitätsgesellschaft",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Alumni",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Unishop",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Organisation",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Seite \"Organisation\" öffnen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Präsidium",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Hochschulrat",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Fakultäten",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Zentrale Hochschulverwaltung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Zentrale wissenschaftliche Einrichtungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Zentrale Betriebseinheiten",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Vertretungen und Beauftragte",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Anlauf- und Beratungsstellen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Universitätskommissionen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Arbeiten bei uns",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Seite \"Arbeiten bei uns\" öffnen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Stellenangebote",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Gleichstellung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Welcome Services",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Personalentwicklung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Wissenschaftliche Karrierewege",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Dual Career Service",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Gesunde Hochschule",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Kultur",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Anfahrt und Lageplan",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Seite \"Fakultäten\" öffnen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Fakultät für Kulturwissenschaften",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Fakultät für Wirtschaftswissenschaften",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Fakultät für Naturwissenschaften",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Fakultät für Maschinenbau",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Fakultät für Elektrotechnik",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Presse",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Falls Sie die Webadresse in die Adresszeile des Webbrowsers eingegeben haben",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Nutzen Sie das Menü oder die Suchfunktion rechts oben.",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Gehen Sie zur Startseite",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "If you have entered the web address in the address line of the web browser",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Use the menu or the search function at the top right.",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Go to the homepage",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Online-Bewerbung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Bibliothek",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    }
+  ]
+}

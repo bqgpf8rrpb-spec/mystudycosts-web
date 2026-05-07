@@ -1,5 +1,26 @@
 import Link from 'next/link';
 import { Calendar, ArrowRight, BookOpen, MapPin, Plane } from 'lucide-react';
+import type { Metadata } from 'next';
+
+import { getBaseUrl } from '@/lib/site-config';
+
+const baseUrl = getBaseUrl();
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+
+  return {
+    title: 'Study Abroad Blog',
+    description: 'Expert tips and guides for international students planning to study in Germany.',
+    alternates: {
+      canonical: `${baseUrl}/${locale}/blog`,
+    },
+  };
+}
 
 interface BlogPost {
   id: string;

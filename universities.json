@@ -1,0 +1,23 @@
+[
+  {
+    "name": "TU München",
+    "slug": "tum",
+    "portalType": "modern-direct",
+    "moveonUrl": "https://tum.adv-pub.moveon4.de/global-experiences/"
+  },
+  {
+    "name": "FU Berlin",
+    "slug": "fu-berlin",
+    "portalType": "modern-tab",
+    "moveonUrl": "https://fuberlin.adv-pub.moveon4.de/austauschmoeglichkeiten/",
+    "interactionConfig": {
+      "tabText": "Austauschmöglichkeiten"
+    }
+  },
+  {
+    "name": "Uni Potsdam",
+    "slug": "uni-potsdam",
+    "portalType": "classic",
+    "moveonUrl": "https://uni-potsdam.moveon4.de/publisher/1/deu"
+  }
+]

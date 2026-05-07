@@ -1,0 +1,18 @@
+{
+  "university_id": "UNIVERSITAET_AUGSBURG",
+  "university_name": "UNIVERSITAET AUGSBURG",
+  "portal_url": "https://www.service4mobility.com/europe/PortalServlet?identifier=AUGSBUR01",
+  "portal_type": "mobility_online",
+  "scraped_at": "2026-03-15T17:50:08.115Z",
+  "strategy": "portal_servlet",
+  "partner_count": 1,
+  "partners": [
+    {
+      "partner_name": "No matching records found",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    }
+  ]
+}

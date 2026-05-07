@@ -1,0 +1,89 @@
+{
+  "university_id": "RHEINISCHE_FRIEDRICH_WILHELMS_UNIVERSITAT_BONN",
+  "university_name": "Universität Bonn",
+  "portal_url": "https://www.uni-bonn.de/de/studium/studium-und-praktikum-im-ausland/studium-im-ausland/partnerhochschulen",
+  "portal_type": "university_website",
+  "scraped_at": "2026-03-15T22:06:01.478Z",
+  "strategy": "custom_scraper",
+  "partner_count": 13,
+  "partners": [
+    {
+      "partner_name": "Universität",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Studium",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Forschung und Lehre",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "International",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Uni Bonn",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Studium und Praktikum im Ausland",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Studium im Ausland",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Partnerhochschulen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Dienstag",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Donnerstag",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "und nach Vereinbarung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "https://mobility-international.uni-bonn.de/mobility/partner",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "https://ecampus.uni-bonn.de/goto_ecampus_crs_1966032.html",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    }
+  ]
+}

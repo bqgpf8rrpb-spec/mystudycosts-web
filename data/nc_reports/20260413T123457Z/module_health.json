@@ -1,0 +1,22 @@
+[
+  {
+    "university_id": "uni_koeln",
+    "status": "success",
+    "records_extracted": 3,
+    "records_normalized": 3,
+    "duration_ms": 677,
+    "error": null,
+    "retries": 0,
+    "used_fallback_cache": false
+  },
+  {
+    "university_id": "tum",
+    "status": "success",
+    "records_extracted": 180,
+    "records_normalized": 2,
+    "duration_ms": 53987,
+    "error": null,
+    "retries": 0,
+    "used_fallback_cache": false
+  }
+]

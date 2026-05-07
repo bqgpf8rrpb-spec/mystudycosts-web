@@ -1,0 +1,3461 @@
+{
+  "university_id": "UNIVERSITAET_ZU_KOELN",
+  "university_name": "Universität zu Köln",
+  "portal_url": "https://zib.phil-fak.uni-koeln.de/koelner-studierende/erasmus/erasmus-partnerschaften/englisches-seminar-i-und-ii",
+  "portal_type": "university_website",
+  "scraped_at": "2026-03-15T22:15:14.600Z",
+  "strategy": "custom_scraper",
+  "partner_count": 575,
+  "partners": [
+    {
+      "partner_name": "Belgien",
+      "country": "Antwerpen",
+      "city": "Universiteit Antwerpen",
+      "faculty_department": "2, B/M|| 1, B|| 4 (je ein Semester), B/M|| 2 (je ein Semester), B|| 3 (je ein Semester, BA, MA, PhD)|| 1 (je ein Semester), B/M|| Philosophische Fakultät - Historisches Institut|| Philosophische Fakultät - Philosophisches Seminar|| 1, B/M/PhD|| 2 (je ein Semester), B/M|| 2, B/M und 2 (je ein Semester) M"
+    },
+    {
+      "partner_name": "Bulgarien",
+      "country": "Sofia",
+      "city": "Sofia University - St. Kliment Ohridski",
+      "faculty_department": "2, B/M|| 3 (ganzes Akademisches Jahr, BA, MA, PhD)|| 2 (je ein Semester, PhD)|| 1 (akademisches Jahr, BA, MA, PhD)|| Philosophische Fakultät - Philosophisches Seminar"
+    },
+    {
+      "partner_name": "Dänemark",
+      "country": "Odense",
+      "city": "Syddansk Universitet",
+      "faculty_department": "3, B"
+    },
+    {
+      "partner_name": "Finnland",
+      "country": "Helsinki",
+      "city": "Helsingin Yliopisto",
+      "faculty_department": "2, B/M|| 2, M|| 1, B/M|| Philosophische Fakultät - Philosophisches Seminar"
+    },
+    {
+      "partner_name": "Frankreich (La Réunion)",
+      "country": "Saint-Denis",
+      "city": "Université de la Reunion",
+      "faculty_department": "4 (je ein Semester), B"
+    },
+    {
+      "partner_name": "Großbritannien",
+      "country": "Aberdeen",
+      "city": "University of Aberdeen",
+      "faculty_department": "4 (je ein Semester), B|| 4, B|| 1 (je ein ganzes akademisches Jahr), B|| 6, B|| 10, B|| 8 (je ein Semester), B. Es werden keine Bewerbungen von Masterstudierenden akzeptiert.|| 2, B|| Philosophische Fakultät - Philosophisches Seminar"
+    },
+    {
+      "partner_name": "Irland",
+      "country": "Cork",
+      "city": "University College Cork",
+      "faculty_department": "6 (je ein Semester), B|| 4, B"
+    },
+    {
+      "partner_name": "Italien",
+      "country": "Fisciano",
+      "city": "Università degli Studi di Salerno",
+      "faculty_department": "3 (je ein Semester), B/M/PhD|| 2 (je ein Semester), B|| 4 (je ein Semester), B/M/PhD|| 2, B/M/PhD|| 1, B|| 8 (je ein Semester), B/PhD|| 5 (davon 1 nur ein Semester), B/M|| 14, B|| 2 (je ein Semester, BA, MA und PhD)|| 2 pro B/M/PhD|| Philosophische Fakultät - Historisches Institut|| Philosophische Fakultät - Philosophisches Seminar|| 2 (je ein Semester), B/M|| 2 (je ein Semester), B/M/PhD|| 3, B/M/PhD|| 1 B; 2 M"
+    },
+    {
+      "partner_name": "Lettland",
+      "country": "Riga",
+      "city": "Latvijas Universitáte",
+      "faculty_department": "2 (je ein Semester), B|| Philosophische Fakultät - Historisches Institut|| 1 (je ein Semester), B/M/PhD"
+    },
+    {
+      "partner_name": "Litauen",
+      "country": "Kaunas",
+      "city": "Vytauto Didziojo Universitetas",
+      "faculty_department": "3 (je ein Semester), B|| Philosophische Fakultät - Philosophisches Seminar"
+    },
+    {
+      "partner_name": "Polen",
+      "country": "Krakau",
+      "city": "Uniwersytet Jagiellonski",
+      "faculty_department": "2 (je ein Semester), B/M/PhD|| 3 (je ein Semester, BA, MA und PhD)|| 4 (je ein Semester, BA, MA und PhD)|| 6 (je ein Semester, BA, MA und PhD)|| Philosophische Fakultät - Historisches Institut|| Philosophische Fakultät - Philosophisches Seminar|| 3 (je ein Semester), B/M/PhD|| 2, B/M/PhD"
+    },
+    {
+      "partner_name": "Rumänien",
+      "country": "Bukarest",
+      "city": "Universitatea din Bucuresti",
+      "faculty_department": "2, B/M|| 6, B|| Philosophische Fakultät - Historisches Institut|| Philosophische Fakultät - Philosophisches Seminar"
+    },
+    {
+      "partner_name": "Schweiz",
+      "country": "Lausanne",
+      "city": "Université de Lausanne",
+      "faculty_department": "2, B/M|| 2, B/M/PhD|| Philosophische Fakultät - Historisches Institut|| Philosophische Fakultät - Philosophisches Seminar|| 2 (je ein Semester), B|| 3, B/M|| 1, B/M/PhD"
+    },
+    {
+      "partner_name": "Slowakei",
+      "country": "Zilina",
+      "city": "University of Zilina",
+      "faculty_department": "2 (je ein Semester), B/M|| 5 (je ein Semester, BA, MA und PhD)"
+    },
+    {
+      "partner_name": "Spanien",
+      "country": "Barcelona",
+      "city": "Universitat de Barcelona",
+      "faculty_department": "4, B|| 3, B/M|| 6 (je ein Semester), B|| 5, B|| 5, B/M/PhD|| 2 (je ein Semester), B/M|| 2, B|| Philosophische Fakultät - Historisches Institut|| Philosophische Fakultät - Philosophisches Seminar|| 4, B/M|| 5 (je ein Semester), B|| 1, B|| 7, B|| 2, B/M|| 6, B/M"
+    },
+    {
+      "partner_name": "Tschechische Republik",
+      "country": "Brünn",
+      "city": "Masarykova Univerzita v Brno",
+      "faculty_department": "4 (je ein Semester), B/M|| 2 (je ein Semester), B/M|| 4, B/M/PhD"
+    },
+    {
+      "partner_name": "Türkei",
+      "country": "Ankara",
+      "city": "Middle East Technical University",
+      "faculty_department": "2, B|| 3, B|| 2 (je ein Semester), B/M|| 2 (je ein Semester), B/M/PhD|| 1, B/M/PhD|| Philosophische Fakultät - Historisches Institut|| Philosophische Fakultät - Philosophisches Seminar|| 2, B/M"
+    },
+    {
+      "partner_name": "Ungarn",
+      "country": "Budapest",
+      "city": "Eötvös Loránd Tudományegyetem",
+      "faculty_department": "4 (je ein Semester), B/M/PhD|| Philosophische Fakultät - Philosophisches Seminar"
+    },
+    {
+      "partner_name": "Zypern",
+      "country": "Larnaka",
+      "city": "University of Central Lancashire",
+      "faculty_department": "2, B|| 2, B/M"
+    },
+    {
+      "partner_name": "Frankreich",
+      "country": "Bordeaux",
+      "city": "Université Bordeaux Montaigne",
+      "faculty_department": "3, B/M/PhD|| 2, B|| 7, B/M|| 4, B/M|| 5 (je ein Semester), B/M/PhD|| 2, B/M|| 2 (je ein Semester), B/M|| 2, B/M/PhD|| Philosophische Fakultät - Historisches Institut|| Philosophische Fakultät - Philosophisches Seminar|| 2 (je ein ganzes akademisches Jahr), B, MA"
+    },
+    {
+      "partner_name": "Französisch-Guayana",
+      "country": "Cayenne",
+      "city": "Université de Guyane",
+      "faculty_department": "2, B/M/PhD"
+    },
+    {
+      "partner_name": "Kroatien",
+      "country": "Rijeka",
+      "city": "Sveučilište u Rijeci",
+      "faculty_department": "2 (je ein Semester, BA, MA und PhD)|| 4 (je ein Semester), B/M"
+    },
+    {
+      "partner_name": "Serbien",
+      "country": "Belgrad",
+      "city": "Univerzitet u Beogradu",
+      "faculty_department": "3 (je ein Semester, BA, MA und PhD)"
+    },
+    {
+      "partner_name": "Slowenien",
+      "country": "Ljubljana",
+      "city": "Univerza v Ljubljani",
+      "faculty_department": "5 (je ein Semester, BA, MA und PhD)"
+    },
+    {
+      "partner_name": "Niederlande",
+      "country": "Groningen",
+      "city": "Rijksuniversiteit Groningen",
+      "faculty_department": "3 (je ein Semester), B/M/PhD|| Philosophische Fakultät - Philosophisches Seminar|| 2 (je ein Semester), B/M/PhD"
+    },
+    {
+      "partner_name": "Estland",
+      "country": "Tallin",
+      "city": "Tallinna Ülikool",
+      "faculty_department": "Philosophische Fakultät - Historisches Institut"
+    },
+    {
+      "partner_name": "Griechenland",
+      "country": "Athen",
+      "city": "Ethniko Kai Kapodistriako Panepistimio Athinon",
+      "faculty_department": "Philosophische Fakultät - Historisches Institut|| 4, B/M/PhD"
+    },
+    {
+      "partner_name": "Norwegen",
+      "country": "Oslo",
+      "city": "Universitetet i Oslo",
+      "faculty_department": "Philosophische Fakultät - Historisches Institut"
+    },
+    {
+      "partner_name": "Luxemburg",
+      "country": "Luxemburg",
+      "city": "Université du Luxembourg",
+      "faculty_department": "Philosophische Fakultät - Philosophisches Seminar|| 4 (je ein Semester), B"
+    },
+    {
+      "partner_name": "Portugal",
+      "country": "Porto",
+      "city": "Universidade do Porto",
+      "faculty_department": "Philosophische Fakultät - Philosophisches Seminar|| 3, B/M"
+    },
+    {
+      "partner_name": "Österreich",
+      "country": "Innsbruck",
+      "city": "Universität Innsbruck",
+      "faculty_department": "3 (je ein Semester), B/M/PhD"
+    },
+    {
+      "partner_name": "English",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Juristische Fakultät - ZIB Jura|| Medizinische Fakultät - ZIB Med|| Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Übersicht",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Juristische Fakultät - ZIB Jura"
+    },
+    {
+      "partner_name": "Erasmus/Exchange",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Juristische Fakultät - ZIB Jura"
+    },
+    {
+      "partner_name": "Deutsch-Französisches Studium",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Juristische Fakultät - ZIB Jura"
+    },
+    {
+      "partner_name": "Deutsch-Italienisches Studium",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Juristische Fakultät - ZIB Jura"
+    },
+    {
+      "partner_name": "Deutsch-Türkisches Studium",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Juristische Fakultät - ZIB Jura"
+    },
+    {
+      "partner_name": "Deutsch-Englisches Studium",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Juristische Fakultät - ZIB Jura"
+    },
+    {
+      "partner_name": "Wirtschaftsrecht",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Juristische Fakultät - ZIB Jura"
+    },
+    {
+      "partner_name": "LL.M.",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Juristische Fakultät - ZIB Jura"
+    },
+    {
+      "partner_name": "Abschlussfeier 2025",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Juristische Fakultät - ZIB Jura"
+    },
+    {
+      "partner_name": "Get Together des LL.M. für im Ausland graduierte Jurist*innen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Juristische Fakultät - ZIB Jura"
+    },
+    {
+      "partner_name": "Brauhausabend des LL.M. für im Ausland graduierte Jurist*innen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Juristische Fakultät - ZIB Jura"
+    },
+    {
+      "partner_name": "Erfahrungsbericht von Francisco Jofre Cobo",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Juristische Fakultät - ZIB Jura"
+    },
+    {
+      "partner_name": "Services",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Juristische Fakultät - ZIB Jura"
+    },
+    {
+      "partner_name": "Kontakt",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Juristische Fakultät - ZIB Jura|| Medizinische Fakultät - ZIB Med|| Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo|| Mathematisch-Naturwissenschaftliche Fakultät|| Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Tracking",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Juristische Fakultät - ZIB Jura|| Medizinische Fakultät - ZIB Med|| Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo|| Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Datenschutzhinweise Webstatistiken",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Juristische Fakultät - ZIB Jura|| Medizinische Fakultät - ZIB Med|| Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo|| Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Studierende",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Juristische Fakultät - ZIB Jura|| Medizinische Fakultät - ZIB Med|| Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo|| Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Studieninteressierte",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Juristische Fakultät - ZIB Jura|| Medizinische Fakultät - ZIB Med|| Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo|| Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Promovierende",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Juristische Fakultät - ZIB Jura|| Medizinische Fakultät - ZIB Med|| Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo|| Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Forschende",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Juristische Fakultät - ZIB Jura|| Medizinische Fakultät - ZIB Med|| Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo|| Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Internationale Studierende",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Juristische Fakultät - ZIB Jura|| Medizinische Fakultät - ZIB Med|| Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo|| Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Alumni",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Juristische Fakultät - ZIB Jura|| Medizinische Fakultät - ZIB Med|| Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo|| Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Fördernde",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Juristische Fakultät - ZIB Jura|| Medizinische Fakultät - ZIB Med|| Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo|| Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Presse und Marketing",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Juristische Fakultät - ZIB Jura|| Medizinische Fakultät - ZIB Med|| Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo|| Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Wirtschafts- und Sozialwissenschaftliche",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Juristische Fakultät - ZIB Jura|| Medizinische Fakultät - ZIB Med|| Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo|| Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Rechtswissenschaftliche",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Juristische Fakultät - ZIB Jura|| Medizinische Fakultät - ZIB Med|| Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo|| Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Medizinische Fakultät",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Juristische Fakultät - ZIB Jura|| Medizinische Fakultät - ZIB Med|| Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo|| Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Philosophische Fakultät",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Juristische Fakultät - ZIB Jura|| Medizinische Fakultät - ZIB Med|| Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo|| Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Mathematisch-Naturwissenschaftliche Fakultät",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Juristische Fakultät - ZIB Jura|| Medizinische Fakultät - ZIB Med|| Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo|| Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Humanwissenschaftliche",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Juristische Fakultät - ZIB Jura|| Medizinische Fakultät - ZIB Med|| Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo|| Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Verwaltung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Juristische Fakultät - ZIB Jura|| Medizinische Fakultät - ZIB Med|| Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo|| Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Studierendensekretariat",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Juristische Fakultät - ZIB Jura|| Medizinische Fakultät - ZIB Med|| Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo|| Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Bibliothek",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Juristische Fakultät - ZIB Jura|| Medizinische Fakultät - ZIB Med|| Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo|| Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Regionales Rechenzentrum",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Juristische Fakultät - ZIB Jura|| Medizinische Fakultät - ZIB Med|| Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo|| Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Terminkalender",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Juristische Fakultät - ZIB Jura|| Medizinische Fakultät - ZIB Med|| Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo|| Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Webmail",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Juristische Fakultät - ZIB Jura|| Medizinische Fakultät - ZIB Med|| Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo|| Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Anreise",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Juristische Fakultät - ZIB Jura|| Medizinische Fakultät - ZIB Med|| Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo|| Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Datenschutzerklärung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Juristische Fakultät - ZIB Jura|| Medizinische Fakultät - ZIB Med|| Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo|| Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Barrierefreiheitserklärung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Juristische Fakultät - ZIB Jura|| Medizinische Fakultät - ZIB Med|| Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo|| Mathematisch-Naturwissenschaftliche Fakultät|| Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Sitemap",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Juristische Fakultät - ZIB Jura|| Medizinische Fakultät - ZIB Med|| Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo|| Mathematisch-Naturwissenschaftliche Fakultät|| Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Impressum",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Juristische Fakultät - ZIB Jura|| Medizinische Fakultät - ZIB Med|| Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo|| Mathematisch-Naturwissenschaftliche Fakultät|| Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Fakultät",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med|| Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo|| Mathematisch-Naturwissenschaftliche Fakultät|| Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "ÜberblickDekanat & ProdekanateGremien & TermineGAMMA - Aktiver MittelbauStudierendenvertretungenKöln Alumni#MedGeschichte der Fakultät",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Dekanat & Prodekanate",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Gremien & Termine",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "GAMMA - Aktiver Mittelbau",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Studierendenvertretungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Köln Alumni#Med",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Geschichte der Fakultät",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "ProfilInternationalFamilie",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "International",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med|| Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo|| Mathematisch-Naturwissenschaftliche Fakultät|| Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Familie",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Vernetzung & Kooperationen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Nachhaltigkeit",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "OrientierungKontaktLageplanService & HilfenImpressum",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Lageplan",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Service & Hilfen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "AktuellesPressemitteilungenPersonalia",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Pressemitteilungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Personalia",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Veranstaltungen & Workshops",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Neue Professuren",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Nachrufe",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Stellenangebote",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "EinrichtungenLehreinrichtungenForschungseinrichtungenKliniken & Institute",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Lehreinrichtungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Forschungseinrichtungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Kliniken & Institute",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Infos für neue Beschäftigte",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Wissenschaftliche Karriere",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Onboarding - Einführungsveranstaltung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Familie und Karriere",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Gleichstellungsbeauftragte",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Inklusion",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Vertrauenspersonen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Mentale Gesundheit",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Studium & Lehre",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med|| Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "ÜberblickStudiengängeStudiengangskooperationenAktuellesKontakt und AnfahrtLehrprojekteLehreinrichtungenQualitätsmanagement",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Studiengänge",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Studiengangskooperationen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Aktuelles",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med|| Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Kontakt und Anfahrt",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Lehrprojekte",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Qualitätsmanagement",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med|| Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "StudieninteressierteFAQStudienplatztausch/Ortswechsler*innenSchüler*innenAbsolvent*innenGasthörer*innen und Senior*innen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Studienplatztausch/Ortswechsler*innen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Schüler*innen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Absolvent*innen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Gasthörer*innen und Senior*innen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "LehrendeGute LehreEvaluationenHörsaalreservierungMedizindidaktikMaster of Medical EducationE-Learning & Digitale LehreKLIPS 2.0 / ILIAS",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Gute Lehre",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Evaluationen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med|| Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Hörsaalreservierung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Medizindidaktik",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Master of Medical Education",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "E-Learning & Digitale Lehre",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "KLIPS 2.0 / ILIAS",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Studium InternationalStudium im AuslandStudium in KölnBuddy-Programm des ZIB MedSummer Schools und WebinarePartneruniversitätenVollzeit/Regulär Studierende",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Studium im Ausland",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Studium in Köln",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Buddy-Programm des ZIB Med",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Summer Schools und Webinare",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Partneruniversitäten",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Vollzeit/Regulär Studierende",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Beratung & ServicePrüfungsamtNachteilsausgleichBAfÖGFachschaftenVertrauensdozierende und OmbudspersonenMentale GesundheitPrüfungsangstZentrale Studienberatung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Prüfungsamt",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Nachteilsausgleich",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Fachschaften",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Vertrauensdozierende und Ombudspersonen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Prüfungsangst",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Zentrale Studienberatung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "StudierendeErstsemesterinfosCampus- & StadtlebenPrüfungsamt & PrüfungsausschussLerninfrastrukturKISS - Skills LabLernplätzeFachschaftenStudieren mit KindForschung und Medizinstudium",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Erstsemesterinfos",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Campus- & Stadtleben",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Prüfungsamt & Prüfungsausschuss",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Lerninfrastruktur",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "KISS - Skills Lab",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Lernplätze",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Studieren mit Kind",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Forschung und Medizinstudium",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Forschung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med|| Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo|| Mathematisch-Naturwissenschaftliche Fakultät|| Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "ÜberblickWissenschaftliche GrundsätzeExzellenzcluster CECADSonderforschungsbereicheForschungsgruppenExzellente WissenschaftspreiseNachwuchsforschungsgruppenForschungsinfrastruktur",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Wissenschaftliche Grundsätze",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Exzellenzcluster CECAD",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Sonderforschungsbereiche",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med|| Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Forschungsgruppen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med|| Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Exzellente Wissenschaftspreise",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Nachwuchsforschungsgruppen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Forschungsinfrastruktur",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "InternationalGastärzte/-innen und Gastwissenschaftler/-innenVerifizierung akademischer GradeInternational Collaboration and Exchange Program - ICEP",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Gastärzte/-innen und Gastwissenschaftler/-innen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Verifizierung akademischer Grade",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "International Collaboration and Exchange Program - ICEP",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "ForschungsprofilTumorbiologie",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Tumorbiologie",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Metabolismus und Geweberegeneration",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Neuromodulation",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Gesundheit – Mensch – Gesellschaft",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Forschungsbericht",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Translation I Klinische ForschungZentrum für Klinische StudienQualitätssicherung in klinischen StudienEthikkommissionStatistische Beratung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Zentrum für Klinische Studien",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Qualitätssicherung in klinischen Studien",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Ethikkommission",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med|| Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Statistische Beratung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Service & FörderangeboteFakultätsförderungenFörderberatung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Fakultätsförderungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Förderberatung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Wissenschaftliche KarriereForschung und MedizinstudiumPromotionHabilitationAußerplanmäßige ProfessurTenure TrackBerufungenDauerstellenkonzept",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Promotion",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med|| Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo|| Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Habilitation",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Außerplanmäßige Professur",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Tenure Track",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med|| Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Berufungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Dauerstellenkonzept",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Transfer",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med|| Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo|| Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "ÜberblickTransferverständnisTranslation / Klinische ForschungTransfermanagement",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Transferverständnis",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Translation / Klinische Forschung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Transfermanagement",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Angebote & ServiceGründungs- & TransferberatungGateway GründungsserviceFormulare",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Gründungs- & Transferberatung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Gateway Gründungsservice",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Formulare",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Dezernat Forschungsmanagement",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Handlungsfelder",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Gesellschaftliches EngagementLebenslanges LernenAngebote zum MitmachenInternationales Engagement",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Lebenslanges Lernen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Angebote zum Mitmachen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Internationales Engagement",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Uniklinik Köln",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Überblick",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Lehrende",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Studium International",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Beratung & Service",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "PartneruniversitätenEuropäische PartneruniversitätenAußereuropäische Partneruniversitäten",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Europäische Partneruniversitäten",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "Außereuropäische Partneruniversitäten",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Medizinische Fakultät - ZIB Med"
+    },
+    {
+      "partner_name": "My Idea - My Impact",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Unsere Werte | PARTicipate",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Ethik und VerantwortungERS CommissionerEthikkommissionWiSo Ethics Award",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "ERS Commissioner",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "WiSo Ethics Award",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Fakultätsstrategie",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Academic Ranking of World Universities",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "QS World University Ranking",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Times Higher Education",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "QS Business Master's Rankings",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Financial Times",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "BWL-Forschungsranking",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "VWL-Forschungsranking",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "WirtschaftsWoche Hochschulranking",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "AIS research ranking",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "SCM Journal List Ranking",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Ergebnisse in tabellarischer Übersicht",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Rankingübersicht der Universität zu Köln",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Akkreditierung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo|| Mathematisch-Naturwissenschaftliche Fakultät|| Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "DekanatZentrale Fakultätsverwaltung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Zentrale Fakultätsverwaltung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Accounting and Taxation",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Business Education",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Corporate Development",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Econometrics and Statistics",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Economics",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Finance",
+      "country": "Area",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Information Systems",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Marketing",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Political Science",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Operations Management",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Sociology and Social Psychology",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Einzelprofessuren",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Key Research Initiatives",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "LehreQualitätsmanagementOne Button Recording StudioLehrinnovationen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "One Button Recording Studio",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Lehrinnovationen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Infomails und Newsletter",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Studium",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo|| Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "BachelorBachelor BWLBachelor GesundheitsökonomieBachelor Management",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Bachelor BWL",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Bachelor Gesundheitsökonomie",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Bachelor Management",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Bachelor Sozialwissenschaften",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Bachelor VWL",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Bachelor Wirtschaftsinformatik",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Bachelor Lehramt",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Master International Management",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Master Business Administration",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Double Master's Programme in Business Administration",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Master Business Analytics & Econometrics",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Master Economic Research",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Master Economics",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Double Master's Programme in Economics",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Master Gesundheitsökonomie",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Double Master's Programme in Health Economics and Management",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Master Information Systems",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Master Political Science",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Double Master's Programme in European Studies",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Master Sociology",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Double Master's Programme in Demography and Social Inequality",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Master Wirtschaftspädagogik",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Executive MBA",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Master Business Analytics and AI",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "WiSo Student Service PointKontaktmöglichkeitenServices und BescheinigungenFAQ StudiumStudienberatungErstsemesterStudieninteressierteBeschwerdemanagement",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Kontaktmöglichkeiten",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Services und Bescheinigungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "FAQ Studium",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Studienberatung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Erstsemester",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Beschwerdemanagement",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "InternationalInternational options for WiSo studentsIncoming exchange at WiSoInternational Relations Center contactCEMS Office CologneInternational partnerships and networks",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "International options for WiSo students",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Incoming exchange at WiSo",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "International Relations Center contact",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "CEMS Office Cologne",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "International partnerships and networks",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "StudienorganisationOnline-LehreKLIPS 2.0KlausureinsichtnahmenAuslandsaufenthalt",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Online-Lehre",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "KLIPS 2.0",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Klausureinsichtnahmen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Auslandsaufenthalt",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "BewerbungBachelorMaster",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Bachelor",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Master",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Modulhandbücher und PrüfungsordnungenBachelor PO 2021Master PO 2021Modulhandbuch-Archiv",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Bachelor PO 2021",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Master PO 2021",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Modulhandbuch-Archiv",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Forschungsorientierte Lehre",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Studieren in Deutschland",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Jeföhl – Die Kölner Lebensfreude",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Business School",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Startseite Business School",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Zertifikatsprogramme",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Health Care Diploma",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Unternehmensprogramme",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Key Research InitiativesAnalytik und TransformationBehavioural Management ScienceDemographie und soziale UngleichheitNachhaltige smarte Energie und Mobilität",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Analytik und Transformation",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Behavioural Management Science",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Demographie und soziale Ungleichheit",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Nachhaltige smarte Energie und Mobilität",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Die WiSo im UzK-ForschungsprofilHPDnetExzellenzcluster ECONtributeExzellenzzentrum C-SEBERSP - Ex­cel­lent Re­se­arch Sup­port Pro­gram",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "HPDnet",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Exzellenzcluster ECONtribute",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Exzellenzzentrum C-SEB",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "ERSP - Ex­cel­lent Re­se­arch Sup­port Pro­gram",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Forschungszentren",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Centre for Financial Research",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Energiewirtschaftliches Institut",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Finanzwissenschaftliches Forschungsinstitut",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Forschungsinstitut Berufsbildung im Handwerk",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Forschungsinstitut für Leasing",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Institut für Bankwirtschaft und Bankrecht",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Institut für Business AI",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Institut für Handelsforschung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Institut für Versicherungswissenschaft",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Institut für Wirtschaftspolitik",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Professor:innenProfessor:innen A bis Z",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Professor:innen A bis Z",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Faktendatenbanken",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Wissenschaftlicher NachwuchsTenure-Track-Programm",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Tenure-Track-Programm",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "PromotionAlbertus Magnus Center",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Albertus Magnus Center",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Akademisches IdentitätsmanagementProfilpflegeImpactSustainable Development GoalsFAQ",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Profilpflege",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Impact",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Sustainable Development Goals",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "VeranstaltungenCareer TuesdayWorkshops und Networking EventsCompany VisitVeranstaltungen vergangener Semester",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Career Tuesday",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Workshops und Networking Events",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Company Visit",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Veranstaltungen vergangener Semester",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Praxisbezug in den Studiengängen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Advisory Board",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Lehrbeauftragte",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "An-Institute",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "EntrepreneurshipGründungsservice - Gateway ESCProfessur für Entrepreneurship und ManagementEntrepreneurship in der LehreInterviews mit Gründer:innenWettbewerb Gründungsideen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Gründungsservice - Gateway ESC",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Professur für Entrepreneurship und Management",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Entrepreneurship in der Lehre",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Interviews mit Gründer:innen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Wettbewerb Gründungsideen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Unternehmen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Mitglied werden",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Give Back to your Alma Mater",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "... Tomorrow's impact.",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "WiSo-Alumni im Interview",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Die Abschlussfeier der WiSo-Fakultät",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Termine und Events",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "CV-Check & Karriereberatung für Alumni",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "KölnAlumni Podcast",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Alumni-Umfrage",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Mentoring",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Hier enstehen kluge Köpfe!",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Rückblick",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "WiSo Career ServiceVeranstaltungenStudiumBeratungsangebotePraktika & PraxiserfahrungKooperationenAnsprechpartner:innen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Veranstaltungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Beratungsangebote",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo|| Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Praktika & Praxiserfahrung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Kooperationen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Ansprechpartner:innen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "WiSo-Fakultät",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "WiSo Student Service Point",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Studienorganisation",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Bewerbung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Modulhandbücher und Prüfungsordnungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Semester Exchange",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Doing Business in Germany",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "CISU-MBA",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Nomination Info for coordinators",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Incoming student experiences",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "PhD Mobility",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "How to apply",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Your academic options",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Organising your exchange",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Contact – Incomings Team",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "You will then be asked to confirm your acceptance via WEX by completing your personal information",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Signed application for admission",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Academic calendar 24/25",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Academic calendar 25/26",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Course options for incoming students spring 2025",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Course options for incoming students fall 2025/26",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Fact sheet 2025/26",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Fact sheet 2026/27",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Incomings presentation 2025",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Rooms temporarily sublet by Cologne students who have themselves gone abroad for studies",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Rooms and apartments in student residences run by the Kölner Studierendenwerk",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Rooms and apartments",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Housing",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Books and learning materials: €30",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Food: €170",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Leisure activities: €100–250",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Health insurance: approx. €100",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "DAAD – German Academic Exchange Service",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "DAAD - Scholarship database",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Scholarship programmes for foreign students",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Scholarships and financing",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Scholarships to Study in Germany",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Events throughout the month that are designed for students as they arrive in Cologne",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Mandatory events are held in a hybrid format",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Part II",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Multiple events daily",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Academic calendar AY 25/26",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Academic calendar AY 24/25",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Grading scale",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Welcome programme: Part I",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Welcome programme: Part II",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "Personen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
+      "partner_name": "ProfilChancengerechtigkeit & VielfaltPreise und Ehrungen der Fakultät",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Chancengerechtigkeit & Vielfalt",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Preise und Ehrungen der Fakultät",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "OrganisationDekanatEngere FakultätGremienDepartments",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Dekanat",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Engere Fakultät",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Gremien",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Departments",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "AktuellTermineRufeStellenplanNewsarchivWahlen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Termine",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Stellenplan",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Newsarchiv",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Wahlen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "BerufungenIhr Weg zur ProfessurTenure TrackAufgaben der BerufungskommissionDokumente",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Ihr Weg zur Professur",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Aufgaben der Berufungskommission",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Dokumente",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Qualitätsmanagement Studium & LehreEvaluationenAkkreditierungGremienZeitlauf OrdnungenTeam & Kontakt",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Zeitlauf Ordnungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Team & Kontakt",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "StudieninteressierteSchülerinnen und Schüler",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Schülerinnen und Schüler",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "ErstsemesterEinführungsveranstaltungenVorkurseStudienplanhilfen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Einführungsveranstaltungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Vorkurse",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Studienplanhilfen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "MathNat Alumni",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Fakultätsausschuss & Fakultätsrat",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Servicezentrum Inklusion",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Career Services",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Gateway - Gründungsservice der UzK",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "AnsprechpersonenPromotionsbüroPromotionsausschussKontakte der GraduiertenschulenDocfile",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Promotionsbüro",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Promotionsausschuss",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Kontakte der Graduiertenschulen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Docfile",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Zulassung und ImmatrikulationAntrag auf Zulassung und ImmatrikulationAntrag auf Zulassung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Antrag auf Zulassung und Immatrikulation",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Antrag auf Zulassung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Graduiertenschulen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Abschluss der PromotionAntragsstellungDissertationDisputationVeröffentlichung der DissertationZeugnis",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Antragsstellung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Dissertation",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Disputation",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Veröffentlichung der Dissertation",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Zeugnis",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Informationen für Betreuende",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Informationen für Gutachtende",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Informationen für Prüfende",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Termine und Fristen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Formulare / Merkblätter",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Ordnungen / Änderungsordnungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "PromovierendenvertretungAbout UsContact UsUseful Links",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "About Us",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Contact Us",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Useful Links",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Ehrenpromotionen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "ForschungsprofilExzellenzclusterSonderforschungsbereicheForschungsgruppenSchwerpunktprogrammeNRW-VerbundforschungNobelpreiseERC GrantsAvH ProfessurenLeibniz-Preisträger*innen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Exzellenzcluster",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Schwerpunktprogramme",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "NRW-Verbundforschung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Nobelpreise",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "ERC Grants",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "AvH Professuren",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Leibniz-Preisträger*innen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Wissenschaftlicher NachwuchsPromovierendeGraduiertenkollegsMSCA Doctoral NetworksHabilitationenTenure TrackNachwuchsgruppenNachwuchsinitiativeJunior Faculty Club",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Graduiertenkollegs",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "MSCA Doctoral Networks",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Habilitationen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Nachwuchsgruppen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Nachwuchsinitiative",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Junior Faculty Club",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "EthikkommissionAntrag EthikvotumMitglieder & KontaktArbeitsgrundlage",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Antrag Ethikvotum",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Mitglieder & Kontakt",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Arbeitsgrundlage",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Weiterführende Links",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Bildung und Events",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Über uns",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Alain Aspect",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Gateway Innovation Prize @ Chemistry",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "2023 BioRiver Boost!",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Gründungsmonitor 2023",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Go-Bio Initial Modul News 2023",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Innovation Day 2023 News",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "ChemCologne Kooperationstag News 2023",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Go-Bio Initial Machbarkeitsphase 2023 News",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Eröffnung Innodom News",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Go-Bo Initial Sondierungsphase News",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Innovation Lab #2",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Workshop-Your Innovation Skills war der Auftakt der P-Modul Seminarreihe Chemietransfer/Innovation 2024. Welcher Workshop kommt als nächstes?",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Workshop Transferstrategy",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Think Tank Finale",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Innovationsförderung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Dienstleistungen und Qualifikationen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Netzwerke und Partner",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Newsletter",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Koordinationsstelle für Internationales",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Förderprogramm Outgoings",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Auslandsaufenthalt Lehramt",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Studienstart International",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Fakultätseigene Partnerschaften",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "EUniWell",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät|| Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Internationale Promotion",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "International Office der UzK",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Department Physik",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Fakultätsübergreifend",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Mathematisch-Naturwissenschaftliche Fakultät"
+    },
+    {
+      "partner_name": "Close menu",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Open menu",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Icon home",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Humanwissenschaftliche Fakultät",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Einrichtungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Zentrale Einrichtungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Zentrum für Internationale Beziehungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Kölner Studierende",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Studium weltweit",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Icon Personen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Icon Studierenden-Service-Center",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Icon Störungsmeldungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Icon Studienangebot",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Icon Bewerbung Master",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Icon Promotion",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Icon KLIPS 2.0",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Icon Evaluation",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Icon Vorlesungsverzeichnis",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Icon Lageplan",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Icon Bewerbung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Icon Inklusion",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Icon ILIAS eLearning",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Icon Lehrräume",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Icon Mensa",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Icon Webredaktion",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Icon OneButtonRecordingStudio OBRS",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Funktionen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Startseite",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Störungsmeldungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Software für Studierende",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "StudiOS",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Veranstaltungssysteme",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Datenschutz",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Wir sind Mitglied",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Coimbra",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "German U15",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Vielfalt",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Total E-Quality Zertifikat",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Prädikat Charta der Vielfalt",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Diversity Audit",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "HRK-Audit Internationalisierung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Weltoffene Hochschulen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "HR Excellence in Research",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Systemakkreditierung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Weitere",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Fairtrade University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Familie in der Hochschule",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Farbschema:",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Datenschutzhinweis Webstatistik",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Humanwissenschaftliche Fakultät - ZiB"
+    }
+  ]
+}

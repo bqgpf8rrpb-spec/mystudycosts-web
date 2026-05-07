@@ -1,0 +1,2832 @@
+{
+  "university_id": "FRIEDRICH_ALEXANDER_UNIVERSITAET_ERLANGEN_NUERNBERG",
+  "university_name": "FRIEDRICH-ALEXANDER-UNIVERSITAET ERLANGEN NUERNBERG",
+  "portal_url": "https://www.fau.de/education/international/wege-ins-ausland/studieren-im-ausland/erasmus-studium/erasmus-partnerhochschulen/",
+  "portal_type": "university_website",
+  "scraped_at": "2026-03-15T17:52:39.243Z",
+  "strategy": "html_table",
+  "partner_count": 403,
+  "partners": [
+    {
+      "partner_name": "University of Stockholm",
+      "country": "Schweden",
+      "city": "Stockholm",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Università degli Studi di Catania",
+      "country": "Italien",
+      "city": "Catania",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Università degli Studi di Pisa",
+      "country": "Italien",
+      "city": "Pisa",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Sinop Üniversitesi",
+      "country": "Türkei",
+      "city": "Sinop",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Università degli Studi di Bergamo",
+      "country": "Italien",
+      "city": "Bergamo",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Università degli Studi di Bologna",
+      "country": "Italien",
+      "city": "Bologna",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Università Cattolica del Sacro Cuore",
+      "country": "Italien",
+      "city": "Milano",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Università degli studi Roma III",
+      "country": "Italien",
+      "city": "Roma",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Università degli Studi di Salerno",
+      "country": "Italien",
+      "city": "Salerno",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universitat Autonoma de Barcelona",
+      "country": "Spanien",
+      "city": "Barcelona",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Masarykova Univerzita w Brne",
+      "country": "Tschechien",
+      "city": "Brno",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Tallinn University",
+      "country": "Estland",
+      "city": "Tallinn",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Jerusalem Hebrew University of Jerusalem",
+      "country": "Israel",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Università degli studi di Napoli „L’Orientale“",
+      "country": "Italien",
+      "city": "Napoli",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "University of Jordan",
+      "country": "Jordanien",
+      "city": "Amman",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Yarmouk University",
+      "country": "Jordanien",
+      "city": "Irbid",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "University of Balamand",
+      "country": "Libanon",
+      "city": "Balamand",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "American University Beyrouth",
+      "country": "Libanon",
+      "city": "Beirut",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Université Saint Joseph",
+      "country": "Libanon",
+      "city": "Beirut",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Kuala Lumpur Universiti Malaya",
+      "country": "Malaysia",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Birzeit University",
+      "country": "Palästina",
+      "city": "Birzeit",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "BethlehemBirzeit University",
+      "country": "Palästina",
+      "city": "Bethlehem",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Université de Sousse",
+      "country": "Tunesien",
+      "city": "Sousse",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Université Catholique de Louvain",
+      "country": "Belgien",
+      "city": "Leuven",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "University of Birmingham",
+      "country": "Großbritannien",
+      "city": "Birmingham",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "University of Kent",
+      "country": "Großbritannien",
+      "city": "Canterbury",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "University of Strathclyde",
+      "country": "Großbritannien",
+      "city": "Glasgow",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "University College Cork",
+      "country": "Irland",
+      "city": "Cork",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Dublin University College Dublin",
+      "country": "Irland",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "University of Limerick",
+      "country": "Irland",
+      "city": "Limerick",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universitetet i Oslo",
+      "country": "Norwegen",
+      "city": "Oslo",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "University of Wroclaw",
+      "country": "Polen",
+      "city": "Wroclaw",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universidad de Alicante",
+      "country": "Spanien",
+      "city": "Alicante",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Dominikanische Republik; Santo DomingoPontificia Universidad Madre y Maestra (PUCMM)",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Aix-Marseille Université",
+      "country": "Frankreich",
+      "city": "Aix-en-Provence",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Université de Caen",
+      "country": "Frankreich",
+      "city": "Caen",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Université Clermont Auvergne",
+      "country": "Frankreich",
+      "city": "Clermont-Ferrand",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Université de Lorraine",
+      "country": "Frankreich",
+      "city": "Nancy",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Université de Haute-Bretagne (Rennes II)",
+      "country": "Frankreich",
+      "city": "Rennes",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Università degli Studi di Parma",
+      "country": "Italien",
+      "city": "Parma",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Università per Stranieri di Perugia",
+      "country": "Italien",
+      "city": "Perugia",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Scuola Normale Superiore",
+      "country": "Italien",
+      "city": "Pisa",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Pisa Universitá degli Studi di Pisa",
+      "country": "Italien",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universita degli Studi di Roma „Tre“",
+      "country": "Italien",
+      "city": "Rom",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Università per Stranieri di Siena",
+      "country": "Italien",
+      "city": "Siena",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Università degli studi di Torino",
+      "country": "Italien",
+      "city": "Torino",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Università degli Studi di Udine",
+      "country": "Italien",
+      "city": "Udine",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Havanna Universidad de la Habana",
+      "country": "Kuba",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Santa Clara,Universidad Central „Marta Abreu“ Las Villas",
+      "country": "Kuba",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universidad de Córdoba",
+      "country": "Spanien",
+      "city": "Córdoba",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universidad de Sevilla",
+      "country": "Spanien",
+      "city": "Sevilla",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universidad de Valladolid",
+      "country": "Spanien",
+      "city": "Valladolid",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universidad de Zaragoza",
+      "country": "Spanien",
+      "city": "Zaragoza",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Milanor,Universita degli Studi di Milano-Bicocca",
+      "country": "Italien",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Akademia Górniczo-Hutnicza w Krakowie (AGH)",
+      "country": "Polen",
+      "city": "Krakow",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Zadar,Sveučilište u Zadru",
+      "country": "Kroatien",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Riga Latvijas Kulturas Akademija",
+      "country": "Lettland",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Uniwersytet Jagiellonski",
+      "country": "Polen",
+      "city": "Kraków",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Istanbul Aydin Üniversitesi",
+      "country": "Türkei",
+      "city": "Istanbul",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Aristoteleio Panepistimio Thessalonikis",
+      "country": "Griechenland",
+      "city": "Thessaloniki",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Université du Luxembourg",
+      "country": "Luxemburg",
+      "city": "Walferdange",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "University of South-Eastern Norway",
+      "country": "Norwegen",
+      "city": "Porsgrunn/Notodden",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universidad Complutense de Madrid",
+      "country": "Spanien",
+      "city": "Madrid",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Riga,Latvijas Universitate",
+      "country": "Lettland",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Pädagogische Hochschule Kärnten",
+      "country": "Österreich",
+      "city": "Klagenfurt",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Stefan Cel Mare University of Suceava",
+      "country": "Rumänien",
+      "city": "Suceava",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universidad de Málaga",
+      "country": "Spanien",
+      "city": "Málaga",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Univerzita Palackého v Olomouci",
+      "country": "Tschechien",
+      "city": "Olomouc",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "University of Szeged",
+      "country": "Ungarn",
+      "city": "Szeged",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universität Sarajevo",
+      "country": "Bosnien",
+      "city": "Sarajevo",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universita degli studi die Catania",
+      "country": "Italien",
+      "city": "Catania, Sizilien",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Università degli studi di Trento",
+      "country": "Italien",
+      "city": "Trento",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Université Sidi Mohammed Ben Abdellah",
+      "country": "Marokko",
+      "city": "Fez",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Adam Mickiewicz University",
+      "country": "Polen",
+      "city": "Poznan",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Zapadoceska Univerzita v Plzni",
+      "country": "Tschechien",
+      "city": "Pilsen",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Université Nancy II",
+      "country": "Frankreich",
+      "city": "Nancy",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Ilia University",
+      "country": "Georgien",
+      "city": "Tbilisi",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Università degli Studi di Bari",
+      "country": "Italien",
+      "city": "Bari",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Università degli studi di Genova",
+      "country": "Italien",
+      "city": "Genova",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universita degli studi di Milano",
+      "country": "Italien",
+      "city": "Milano",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Università degli studi di Modena",
+      "country": "Italien",
+      "city": "Modena",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universitá degli Studi di Udine",
+      "country": "Italien",
+      "city": "Udine",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universytet Slaski",
+      "country": "Polen",
+      "city": "Katowice",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universidade do Minho",
+      "country": "Portugal",
+      "city": "Braga",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universidade de Lisboa",
+      "country": "Portugal",
+      "city": "Lisboa",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universidade do Porto",
+      "country": "Portugal",
+      "city": "Porto",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universitat Autónoma de Barcelona",
+      "country": "Spanien",
+      "city": "Barcelona",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Santiago de Compostela,Universidad de Santiago de Compostela",
+      "country": "Spanien",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universidad de Valencia",
+      "country": "Spanien",
+      "city": "Valencia",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Vitoria (Gasteiz)Universidad del País Vasco / Euskal Herriko Unibertsitatea",
+      "country": "Spanien",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Ostrava University of Ostrava",
+      "country": "Tschechien",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Univerzita Karlova v Praze",
+      "country": "Tschechien",
+      "city": "Praha",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Hacettepe Üniversitesi",
+      "country": "Türkei",
+      "city": "Ankara",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Károli Gáspár University of the reformed church in Hungary",
+      "country": "Ungarn",
+      "city": "Budapest",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Aarhus Universitet",
+      "country": "Dänemark",
+      "city": "Aarhus",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Abo Akademi University",
+      "country": "Finnland",
+      "city": "Turku",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "University of Iceland",
+      "country": "Island",
+      "city": "Reykjavik",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universitetet i Bergen",
+      "country": "Norwegen",
+      "city": "Bergen",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "The Arctic University of Norway",
+      "country": "Norwegen",
+      "city": "Tromsö",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Stockholms Universitet",
+      "country": "Schweden",
+      "city": "Stockholm",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Umea Universitet",
+      "country": "Schweden",
+      "city": "Umea",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Uppsala Universitet",
+      "country": "Schweden",
+      "city": "Uppsala",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Mälardalens Högskola",
+      "country": "Schweden",
+      "city": "Västeras",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Université de Savoie",
+      "country": "Frankreich",
+      "city": "Chambéry",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universitá Cattolica del Sacro Cuore",
+      "country": "Italien",
+      "city": "Milano",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Uniwersytet Im. Adama Mickiewicza",
+      "country": "Polen",
+      "city": "Poznan",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Université de Fribourg",
+      "country": "Schweiz",
+      "city": "Fribourg",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Ankara Üniversitesi",
+      "country": "Türkei",
+      "city": "Ankara",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Mimar Sinan Guzel Sanatlar Üniversitesi",
+      "country": "Türkei",
+      "city": "Istanbul",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Yasar Üniversitesi",
+      "country": "Türkei",
+      "city": "Izmir",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Trakya Üniversitesi",
+      "country": "Türkei",
+      "city": "Edirne",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Celal Bayar Üniversitesi",
+      "country": "Türkei",
+      "city": "Manisa",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "University of Pécs",
+      "country": "Ungarn",
+      "city": "Pécs",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universität  Sarajevo",
+      "country": "Bosnien",
+      "city": "Sarajevo",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Université de Poitiers",
+      "country": "Frankreich",
+      "city": "Poitiers",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Università degli Studi di Siena",
+      "country": "Italien",
+      "city": "Siena",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "American University Beirut",
+      "country": "Libanon",
+      "city": "Beirut",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universität Bern",
+      "country": "Schweiz",
+      "city": "Bern",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universidad de Oviedo",
+      "country": "Spanien",
+      "city": "Oviedo",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "University of Sarajevo",
+      "country": "Bosnien und Herzegowina",
+      "city": "Sarajevo",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Libera Università di Lingue e Comunicazione „IULM“ di Milano",
+      "country": "Italien",
+      "city": "Milano",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universita Malta",
+      "country": "Malta",
+      "city": "La Valetta",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universität Wien",
+      "country": "Österreich",
+      "city": "Wien",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universiteit Leiden",
+      "country": "Niederlande",
+      "city": "Leiden",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universität Klagenfurt",
+      "country": "Österreich",
+      "city": "Klagenfurt",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Université de Haute Bretagne Rennes II",
+      "country": "Frankreich",
+      "city": "Rennes",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "University of Plymouth",
+      "country": "Großbritannien",
+      "city": "Plymouth",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Uniwersytet Jagiellónski",
+      "country": "Polen",
+      "city": "Kraków",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Università degli studi di Verona",
+      "country": "Italien",
+      "city": "Verona",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Cairo University",
+      "country": "Ägypten",
+      "city": "Kairo",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universiteit Gent",
+      "country": "Belgien",
+      "city": "Gent",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Sarajevo School of Science and Technology",
+      "country": "Bosnien",
+      "city": "Sarajevo",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Institut d’Etudes Politiques de Rennes",
+      "country": "Frankreich",
+      "city": "Rennes",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Université de Rennes I",
+      "country": "Frankreich",
+      "city": "Rennes",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Hebrew University of Jerusalem",
+      "country": "Israel",
+      "city": "Jerusalem",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Tel Aviv University",
+      "country": "Israel",
+      "city": "Tel Aviv",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Università degli studi di Padova",
+      "country": "Italien",
+      "city": "Padova",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Uniwersytet Wroclawski",
+      "country": "Polen",
+      "city": "Wroclaw",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Högskolan Dalarna",
+      "country": "Schweden",
+      "city": "Falun",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Yildiz Teknik Üniversitesi",
+      "country": "Türkei",
+      "city": "Istanbul, Besiktas",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Andrássy University Budapest",
+      "country": "Ungarn",
+      "city": "Budapest",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "University of Crete",
+      "country": "Griechenland",
+      "city": "Rethymno",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Keele University",
+      "country": "Großbritannien",
+      "city": "Stoke-on-Trent",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Istanbul Teknik Universitesi",
+      "country": "Türkei",
+      "city": "Istanbul",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Angers Ecole Superieure des Sciences Commerciales d’Angers (ESSCA)",
+      "country": "Frankreich",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Uni Kwa-Zulu-Natal",
+      "country": "Südafrika",
+      "city": "Durban",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Instanbul Bilgi Üniversitesi",
+      "country": "Türkei",
+      "city": "Istanbul",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Taras Shevchenko National University of Kyiv",
+      "country": "Ukraine",
+      "city": "Kiew",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Al-Azhar Universität",
+      "country": "Ägypten",
+      "city": "Kairo",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Trinity College Dublin",
+      "country": "Irland",
+      "city": "Dublin",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Al-Qasemi Academic College of Education",
+      "country": "Israel",
+      "city": "Baqa al-Gharbiyye",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Mersin University",
+      "country": "Türkei",
+      "city": "Mersin",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Harran University",
+      "country": "Türkei",
+      "city": "Sanliurfa",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Selcuk University",
+      "country": "Türkei",
+      "city": "Selcuk",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "University of Eastern Finland",
+      "country": "Finnland",
+      "city": "Joensuu",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Institut Protestant de theologie",
+      "country": "Frankreich",
+      "city": "Montpellier",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Université de Strasbourg",
+      "country": "Frankreich",
+      "city": "Strasbourg",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Karl-Franzens-Universität",
+      "country": "Österreich",
+      "city": "Graz",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universitatea din Bucuresti",
+      "country": "Rumänien",
+      "city": "Bukarest",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Sibiu (Hermannstadt)Universitatea ‚Lucian Blaga‘ din Sibiu",
+      "country": "Rumänien",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "University of Belgrade",
+      "country": "Serbien",
+      "city": "Belgrad",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Univerzita Komenskeho v Bratislave",
+      "country": "Slowakei",
+      "city": "Bratislava",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Evangelical-Lutheran Theological University",
+      "country": "Ungarn",
+      "city": "Budapest",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Abo Akademi",
+      "country": "Finnland",
+      "city": "Turku",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Université Paris Quest Nanterre La Défense",
+      "country": "Frankreich",
+      "city": "Paris-Nanterre",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Université Jean Monnet",
+      "country": "Frankreich",
+      "city": "Saint-Etienne",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Vilnius                 Vilnius University",
+      "country": "Litauen",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universytet Warszawski",
+      "country": "Polen",
+      "city": "Warszawa",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universidade de Coruña",
+      "country": "Spanien",
+      "city": "A Coruña",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universidad de Granada",
+      "country": "Spanien",
+      "city": "Granada",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universidad Autónoma de Madrid",
+      "country": "Spanien",
+      "city": "Madrid",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universidad Pablo Olavide",
+      "country": "Spanien",
+      "city": "Sevilla",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Charles University",
+      "country": "Tschechien",
+      "city": "Prag",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Yeditepe Üniversitesi",
+      "country": "Türkei",
+      "city": "Istanbul",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "University of Debrecen",
+      "country": "Ungarn",
+      "city": "Debrecen",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Sarajevska škola za nauku i tehnologiju",
+      "country": "Bosnien und Herzegowina",
+      "city": "Sarajevo",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Sofiiski Universitet ‚Sveti Kliment Ohridski‘",
+      "country": "Bulgarien",
+      "city": "Sofia",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Lappeenranta University of Technology",
+      "country": "Finnland",
+      "city": "Lappeenranta",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Tampere Unviersity, Pori Department",
+      "country": "Finnland",
+      "city": "Pori",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Tampere UniversityCampus City Centre",
+      "country": "Finnland",
+      "city": "Tampere",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Turun Yliopisto",
+      "country": "Finnland",
+      "city": "Turku",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Groupe ESC Clermont",
+      "country": "Frankreich",
+      "city": "Clermont-Ferrand",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Université Paris Est Créteil – Val de Marne",
+      "country": "Frankreich",
+      "city": "Créteil",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Université Bourgogne Europe",
+      "country": "Frankreich",
+      "city": "Dijon",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Groupe ESC Dijon-Bourgogne",
+      "country": "Frankreich",
+      "city": "Dijon",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Ecole de Management de Normandie",
+      "country": "Frankreich",
+      "city": "Le Havre und Paris",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Ecole de Management de Lyon",
+      "country": "Frankreich",
+      "city": "Lyon",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Marseille,Aix-Marseille Université",
+      "country": "Frankreich",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Université de Montpellier",
+      "country": "Frankreich",
+      "city": "Montpellier",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Ecole Nationale Superieure des Mines de Paris (Mines ParisTech PSL)",
+      "country": "Frankreich",
+      "city": "Paris",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "ESC Rennes",
+      "country": "Frankreich",
+      "city": "Rennes",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "NEOMA Business School",
+      "country": "Frankreich",
+      "city": "Mont-Saint-Aignan, Campus Rouen",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Strasbourg, EMUniversité de Strasbourg",
+      "country": "Frankreich",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Strasbourg, IEPUniversité de Strasbourg",
+      "country": "Frankreich",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "University of Ioannina",
+      "country": "Griechenland",
+      "city": "Ioannina",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "University of Hull",
+      "country": "Großbritannien",
+      "city": "Hull",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Stoke-on-Trent",
+      "country": "GroßbritannienStaffordshire University",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "National University of Ireland",
+      "country": "Irland",
+      "city": "Galway",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Maynooth University",
+      "country": "Irland",
+      "city": "Maynooth",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Università degli studi di Pavia",
+      "country": "Italien",
+      "city": "Pavia",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universita degli Studi di Roma „Tor Vergata“",
+      "country": "Italien",
+      "city": "Roma",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universitá degli Studi ‚Ca‘ Foscari‘ di Venezia",
+      "country": "Italien",
+      "city": "Venezia",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Sveučilište u Splitu",
+      "country": "Kroatien",
+      "city": "Split",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Rigas Ekonomikas Augstskola / Stockholm School of Economics in Riga",
+      "country": "Lettland",
+      "city": "Riga",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Latvijas Universitáte",
+      "country": "Lettland",
+      "city": "Riga",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Riga Technical University",
+      "country": "Lettland",
+      "city": "Riga",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Kauno Technologijos Universitetas",
+      "country": "Litauen",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universiteit Twente",
+      "country": "Niederlande",
+      "city": "Enschede",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Norges Teknisk-Naturvitenskapelige Universitet (NTNU)",
+      "country": "Norwegen",
+      "city": "Trondheim",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Karl-Franzens Universität Graz",
+      "country": "Österreich",
+      "city": "Graz",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Johannes-Kepler-Universität Linz",
+      "country": "Österreich",
+      "city": "Linz",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Szkola Glowna Handlowa we Warszawie",
+      "country": "Polen",
+      "city": "Warszawa",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "National University of Science and Technology Politehnica Bucharest (UNSTPB)",
+      "country": "Rumänien",
+      "city": "Bukarest",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Higher School of Economics",
+      "country": "Russland",
+      "city": "Moskau",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Södertörns Högskolan",
+      "country": "Schweden",
+      "city": "Huddinge",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Linköpings Universitet",
+      "country": "Schweden",
+      "city": "Linköping",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Örebro Universitet",
+      "country": "Schweden",
+      "city": "Örebro",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Université de Lausanne",
+      "country": "Schweiz",
+      "city": "Lausanne",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "AlcaláUniversidad de Alcalá",
+      "country": "Spanien",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universidad de Extremadura",
+      "country": "Spanien",
+      "city": "Badajoz/Cáceres",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universidad de las Palmas de Gran Canaria",
+      "country": "Spanien",
+      "city": "Las Palmas de Gran Canaria",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universidad de Salamanca",
+      "country": "Spanien",
+      "city": "Salamanca",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universidad de Cantabria",
+      "country": "Spanien",
+      "city": "Santander",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universidad Rovira i Virgili",
+      "country": "Spanien",
+      "city": "Tarragona",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Mazyrykova Univerzita w Brne",
+      "country": "Tschechien",
+      "city": "Brno",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Vysoká Skola Ekonomická v Praze",
+      "country": "Tschechien",
+      "city": "Praha",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Dokuz Eylül Üniversitesi",
+      "country": "Türkei",
+      "city": "Izmir",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Bogazici Üniversitesi",
+      "country": "Türkei",
+      "city": "Istanbul",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Marmara Üniversitesi",
+      "country": "Türkei",
+      "city": "Istanbul",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Corvinus University of Budapest",
+      "country": "Ungarn",
+      "city": "Budapest",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Budapest University of Technology and Economics (BME)",
+      "country": "Ungarn",
+      "city": "Budapest",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Katholieke Universiteit Leuven",
+      "country": "Belgien",
+      "city": "Leuven",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Université Sorbonne Nouvelle Paris 3 (F PARIS003)",
+      "country": "Frankreich",
+      "city": "Paris",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Università degli studi di Milano",
+      "country": "Italien",
+      "city": "Milano",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Università degli studi die Torino",
+      "country": "Italien",
+      "city": "Torino",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universiteit Utrecht",
+      "country": "Niederlande",
+      "city": "Utrecht",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Göteborgs Universitet",
+      "country": "Schweden",
+      "city": "Göteborg",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Lunds Universitet",
+      "country": "Schweden",
+      "city": "Lund",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Kadir Has Universitesi",
+      "country": "Türkei",
+      "city": "Istanbul",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Vilniaus Universitetas",
+      "country": "Litauen",
+      "city": "Vilnius",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universitatea ‚Babes-Bolyai‘ din Cluj-Napoca",
+      "country": "Rumänien",
+      "city": "Cluj-Napoca",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universidad de Navarra",
+      "country": "Spanien",
+      "city": "Pamplona",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Mekkele; Mekkele University",
+      "country": "Äthiopien",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Aksum; Aksum University",
+      "country": "Äthiopien",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "University of Tehran",
+      "country": "Iran",
+      "city": "Teheran",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Kathmandu University",
+      "country": "Nepal",
+      "city": "Kathmandu",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Tribhuvan University",
+      "country": "Nepal",
+      "city": "Kathmandu",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "University of Otago",
+      "country": "Neuseeland",
+      "city": "Dunedin",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universitet i Bergen",
+      "country": "Norwegen",
+      "city": "Bergen",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Dar es Salaam, College of Business Administration",
+      "country": "Tansania",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Morogoro, Sokoine University of Agriculture Administration",
+      "country": "Tansania",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "ThailandKasetsart  Universität",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Université de Lille",
+      "country": "Frankreich",
+      "city": "Lille",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Ecole Normale Supérieure de Lyon",
+      "country": "Frankreich",
+      "city": "Lyon",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universitá degli Studi di Catania",
+      "country": "Italien",
+      "city": "Catania",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Università degli studi di Firenze",
+      "country": "Italien",
+      "city": "Firenze",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "University of Oslo",
+      "country": "Norwegen",
+      "city": "Oslo",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universidad Autónoma de Barcelona",
+      "country": "Spanien",
+      "city": "Barcelona",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Eötvös-Loránd-Universität",
+      "country": "Ungarn",
+      "city": "Budapest",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Syddansk Universitet",
+      "country": "Dänemark",
+      "city": "Odense",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Tampere University",
+      "country": "Finnland",
+      "city": "Tampere",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Sorbonne University",
+      "country": "Frankreich",
+      "city": "Paris",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Università degli studi di Palermo",
+      "country": "Italien",
+      "city": "Palermo",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "University of Dubrovnik",
+      "country": "Kroatien",
+      "city": "Dubrovnik",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "UiT The Arctic University of Norway",
+      "country": "Norwegen",
+      "city": "Tromsö",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universitatea de Vest din Timisoara",
+      "country": "Rumänien",
+      "city": "Timisoara",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universidad Politécnica de Madrid",
+      "country": "Spanien",
+      "city": "Madrid",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "King Mongkut’s University of Technology Thonburi (KMUTT)",
+      "country": "Thailand",
+      "city": "Bangkok",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Ceské Vysoké Ucení Technické v Praze",
+      "country": "Tschechien",
+      "city": "Praha",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Marne-la-ValléeÉcole Nationale des Ponts et Chaussées (Institute Polytechnique de Paris)",
+      "country": "Frankreich",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Università degli Studi di Bari ‚Aldo Moro‘",
+      "country": "Italien",
+      "city": "Bari",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universitá degli Studi di Napoli Federico II",
+      "country": "Italien",
+      "city": "Napoli",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universidad Politecnica de Madrid (UPM)",
+      "country": "Spanien",
+      "city": "Madrid",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Atatürk University",
+      "country": "Türkei",
+      "city": "Erzurum",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universitat de Barcelona",
+      "country": "Spanien",
+      "city": "Barcelona",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Université de Bordeaux",
+      "country": "Frankreich",
+      "city": "Bordeaux",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Université Paris-Saclay",
+      "country": "Frankreich",
+      "city": "Gif-sur-Yvette",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Ecole Nationale Superieure de Chimie de Paris (Chimie ParisTech PSL)",
+      "country": "Frankreich",
+      "city": "Paris",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Université Paul Sabatier – Toulouse III",
+      "country": "Frankreich",
+      "city": "Toulouse",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Università degli Studi di Bologna ‚Alma Mater Studiorum‘",
+      "country": "Italien",
+      "city": "Bologna",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Technische Universiteit Delft",
+      "country": "Niederlande",
+      "city": "Delft",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "TU Wien",
+      "country": "Österreich",
+      "city": "Wien",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Uniwersytet Jagielloñski",
+      "country": "Polen",
+      "city": "Krakow",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Univerza v Ljubljani",
+      "country": "Slowenien",
+      "city": "Ljubljana",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "University of Kragujevac",
+      "country": "Serbien",
+      "city": "Kragujevac",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Panepistimou Cyprou",
+      "country": "Zypern",
+      "city": "Nikosia",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "keine momentan",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Université d’Angers",
+      "country": "Frankreich",
+      "city": "Angers",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Università degli studi di Ferrara",
+      "country": "Italien",
+      "city": "Ferrara",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Università Malta",
+      "country": "Malta",
+      "city": "La Valetta",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universytet Jagiellonski",
+      "country": "Polen",
+      "city": "Kraków",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Université Grenoble Alpes",
+      "country": "Frankreich",
+      "city": "Grenoble",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "University of York",
+      "country": "GroßbritannienYork",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Umea University",
+      "country": "Schweden",
+      "city": "Umea",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universita Karlova v Praze",
+      "country": "Tschechien",
+      "city": "Praha",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Université Claude Bernard Lyon 1",
+      "country": "Frankreich",
+      "city": "Lyon",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Università degli Studi di Cagliari",
+      "country": "Italien",
+      "city": "Cagliari",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Medizinische Universität Graz",
+      "country": "Österreich",
+      "city": "Graz",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Uniwersytet Medyczny w Lodzi",
+      "country": "Polen",
+      "city": "Lódz",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Cardinal Stefan Wyszynski University",
+      "country": "Polen",
+      "city": "Warszawa",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Wroclaw Medical University",
+      "country": "Polen",
+      "city": "Wroclaw",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universidade Nova de Lisboa",
+      "country": "Portugal",
+      "city": "Lisboa",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "University of Medicine and Pharmacy „Carol Davila“",
+      "country": "Rumänien",
+      "city": "Bukarest",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Gr. T. Popa University of Medicine and Pharmacy",
+      "country": "Rumänien",
+      "city": "Iasi",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universitat Jaume 1",
+      "country": "Spanien",
+      "city": "Castellón de la Plana",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universidad Europea de Madrid",
+      "country": "Spanien",
+      "city": "Madrid",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Ankara University",
+      "country": "Türkei",
+      "city": "Ankara",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Istanbul University",
+      "country": "Türkei",
+      "city": "Istanbul",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Semmelweis University",
+      "country": "Ungarn",
+      "city": "Budapest",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Université Claude Bernard",
+      "country": "Frankreich",
+      "city": "Lyon",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Erasmus Universiteit Rotterdam",
+      "country": "Niederlande",
+      "city": "Rotterdam",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Université Pierre et Marie Curie Paris (UPMC)",
+      "country": "Frankreich",
+      "city": "Paris",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "FH Gesundheitsberufe Oberösterreich",
+      "country": "Österreich",
+      "city": "Linz",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Technical University Varna",
+      "country": "Bulgarien",
+      "city": "Varna",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "University of Southern Denmark",
+      "country": "Dänemark",
+      "city": "Odense",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Paris-Saclay, Ecole Normale Supérieure (ENS) Paris-Saclay",
+      "country": "Frankreich",
+      "city": "Cachan",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Centrale Supélec",
+      "country": "Frankreich",
+      "city": "Chatenay-Malabry",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "UTC Université de technologie de Compiègne",
+      "country": "Frankreich",
+      "city": "Compiègne",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Rennes,Université de Rennes I",
+      "country": "Frankreich",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Ecole Supérieure d’Ingenieurs en Génie Electrique (ESIGELEC)",
+      "country": "Frankreich",
+      "city": "Rouen",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Saint-Etienne, Ecole Centrale Lyon",
+      "country": "Frankreich",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Queens‘ University",
+      "country": "GroßbritannienBelfast",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Università degli studi di Napoli Federico II",
+      "country": "Italien",
+      "city": "Napoli",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universitá degli Studi di Pisa",
+      "country": "Italien",
+      "city": "Pisa",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "University of Zagreb",
+      "country": "Kroatien",
+      "city": "Zagreb",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Rigas Tehniska Universitate",
+      "country": "Lettland",
+      "city": "Riga",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Vilniaus Gedimino Technikos Universitetas (VGTU)",
+      "country": "Litauen",
+      "city": "Vilnius",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Private Universität für Gesundheits-wissenschaften,Medizinische Informatik und Technik",
+      "country": "Österreich",
+      "city": "Hall / Tirol",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Politechnika Warszawska",
+      "country": "Polen",
+      "city": "Warszawa",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universitatea Technica Cluj-Napoca",
+      "country": "Rumänien",
+      "city": "Cluj",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Falun, Dalarna University",
+      "country": "Schweden",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Univerza v Mariboru",
+      "country": "Slowenien",
+      "city": "Maribor",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universitat Politècnica de Catalunya",
+      "country": "Spanien",
+      "city": "Barcelona",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universidad del Pais Vasco",
+      "country": "Spanien",
+      "city": "Bilbao",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universidad de Burgos",
+      "country": "Spanien",
+      "city": "Burgos",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universidad de Cádiz",
+      "country": "Spanien",
+      "city": "Cádiz",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universidad Politécnica de Cartagena",
+      "country": "Spanien",
+      "city": "Cartagena",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universidad de La Laguna",
+      "country": "Spanien",
+      "city": "La Laguna, Tenerife",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universidad Pontifica Comillas de Madrid",
+      "country": "Spanien",
+      "city": "Madrid",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universitat de les Illes Balears",
+      "country": "Spanien",
+      "city": "Palma de Mallorca",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universidad de Navarra -TECNUN",
+      "country": "Spanien",
+      "city": "San Sebastian",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universidad Politécnica de Valencia",
+      "country": "Spanien",
+      "city": "Valencia",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universidad de Vigo",
+      "country": "Spanien",
+      "city": "Vigo",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Atilim Üniversitesi",
+      "country": "Türkei",
+      "city": "Ankara",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Budapest University of Technology and Economics",
+      "country": "Ungarn",
+      "city": "Budapest",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Espoo (Helsinki)Aalto University",
+      "country": "Finnland",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Institut National des Sciences Appliquées de Rennes",
+      "country": "Frankreich",
+      "city": "Rennes",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Institut Supérieur de l’Electronique et du Numérique (ISEN-Toulon)",
+      "country": "Frankreich",
+      "city": "Toulon",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Bar-Ilan University",
+      "country": "Israel",
+      "city": "Ramat Gan",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Jordan University of Technology",
+      "country": "Jordanien",
+      "city": "Irbid",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Norges Teknisk-Naturvitenskapelige Universitetlogy",
+      "country": "Norwegen",
+      "city": "Trondheim",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universidad de Navarra,TECNUN",
+      "country": "Spanien",
+      "city": "San Sebastian",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Bilkent Üniversitesi",
+      "country": "Türkei",
+      "city": "Ankara",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Aalto University",
+      "country": "Finnland",
+      "city": "Aalto",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Ethniko Metsovio Polytechnio",
+      "country": "Griechenland",
+      "city": "Athen",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Università degli Studi della Calabria",
+      "country": "Italien",
+      "city": "Cosenza",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universitá degli Studi di Perugia",
+      "country": "Italien",
+      "city": "Perugia",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Politechnika Gdanska",
+      "country": "Polen",
+      "city": "Gdansk",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Politechnika Slaska",
+      "country": "Polen",
+      "city": "Gliwice",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Akademia Górniczo-Hutnicza w Krakowie",
+      "country": "Polen",
+      "city": "Kraków",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Delft University of Technology",
+      "country": "Niederlande",
+      "city": "Delft",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Oslo Metropolian University (OsloMet)",
+      "country": "Norwegen",
+      "city": "Oslo",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Norges Teknisk-Naturvitenskapelige Universitetlogy (NTNU)",
+      "country": "Norwegen",
+      "city": "Trondheim",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universitat Jaume I.",
+      "country": "Spanien",
+      "city": "Castellón de la Plana",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universidad de Santiago de Compostela",
+      "country": "Spanien",
+      "city": "Santiago de Compostela",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "INP Grenoble",
+      "country": "Frankreich",
+      "city": "Grenoble",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Université de Limoges",
+      "country": "Frankreich",
+      "city": "Limoges",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Aix-Marseille Universite",
+      "country": "Frankreich",
+      "city": "Marseille",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universita degli studi di Padova",
+      "country": "Italien",
+      "city": "Padova",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universita degli Studi Roma Tre",
+      "country": "Italien",
+      "city": "Rom",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "West Pomeranian University of Technology",
+      "country": "Polen",
+      "city": "Szczecin",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universidade de Aveiro",
+      "country": "Portugal",
+      "city": "Aveiro",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Eidgenössische Technische Hochschule (ETH) Zürich",
+      "country": "Schweiz",
+      "city": "Zürich",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Marne-la-Vallée,Université Gustave Eiffel",
+      "country": "Frankreich",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Paris,Sorbonne Université",
+      "country": "Frankreich",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Ecole Supérieure d’Ingenieurs en Génie Electrique",
+      "country": "Frankreich",
+      "city": "Rouen",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "EPF Ecole d’Ingenieurs",
+      "country": "Frankreich",
+      "city": "Sceaux",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Democritus University of Thrace",
+      "country": "Griechenland",
+      "city": "Komotini",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Free University of Bozen-Bolzano",
+      "country": "Italien",
+      "city": "Bolzano",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Politecnico di Milano",
+      "country": "Italien",
+      "city": "Milano",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Politechnika Wroclawska",
+      "country": "Polen",
+      "city": "Wroclaw",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universidade de Coimbra",
+      "country": "Portugal",
+      "city": "Coimbra",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universitatea ‚1 Decembrie 1918‘ Alba Iulia",
+      "country": "Rumänien",
+      "city": "Alba Iulia",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universitatea “Ovidius” din Constanta",
+      "country": "Rumänien",
+      "city": "Constanta",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Università della Svizzera Italiana",
+      "country": "Schweiz",
+      "city": "Lugano",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universitat Autònoma de Barcelona",
+      "country": "Spanien",
+      "city": "Barcelona",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universitat Politécnica de Catalunya",
+      "country": "Spanien",
+      "city": "Barcelona",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universidad del País Vasco",
+      "country": "Spanien",
+      "city": "Bilbao",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Vysoké Ucení Technické v Brne",
+      "country": "Tschechien",
+      "city": "Brno",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Hradec KrálovéUniverzita Hradec Králové",
+      "country": "Tschechien",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Obuda University",
+      "country": "Ungarn",
+      "city": "Budapest",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "University of Miskolc",
+      "country": "Ungarn",
+      "city": "Miskolc",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universität Oulu",
+      "country": "Finnland",
+      "city": "Oulu",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Grenoble INP Institute of Engineering",
+      "country": "Frankreich",
+      "city": "Grenoble",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "University of Groningen",
+      "country": "Niederlande",
+      "city": "Groningen",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Instituto Politécnico de Coimbra",
+      "country": "Portugal",
+      "city": "Coimbra",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universidad de Deusto",
+      "country": "Spanien",
+      "city": "Bilbao",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Università degli studi di Roma „La Sapienza“",
+      "country": "Italien",
+      "city": "Roma",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Siena Universitá per Stranieri di Siena",
+      "country": "Italien",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Alicante Universidad de Alicante",
+      "country": "Spanien",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universidad de Murcia",
+      "country": "Spanien",
+      "city": "Murcia",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universidad de Castilla-La Mancha",
+      "country": "Spanien",
+      "city": "Cuenca",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Iriarte Centro Universitario",
+      "country": "Spanien",
+      "city": "Tenerife",
+      "faculty_department": null,
+      "moveon_id": null
+    }
+  ]
+}

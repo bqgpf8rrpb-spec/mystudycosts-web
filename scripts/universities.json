@@ -1,0 +1,27 @@
+[
+    {
+      "name": "TU München",
+      "slug": "tum",
+      "moveonUrl": "https://tum.adv-pub.moveon4.de/global-experiences/"
+    },
+    {
+      "name": "LMU München",
+      "slug": "lmu",
+      "moveonUrl": "https://lmu.adv-pub.moveon4.de/global-experiences/"
+    },
+    {
+      "name": "RWTH Aachen",
+      "slug": "rwth",
+      "moveonUrl": "https://rwth-aachen.adv-pub.moveon4.de/global-experiences/"
+    },
+    {
+      "name": "HU Berlin",
+      "slug": "hu-berlin",
+      "moveonUrl": "https://hu-berlin.adv-pub.moveon4.de/global-experiences/"
+    },
+    {
+      "name": "Universität zu Köln",
+      "slug": "koeln",
+      "moveonUrl": "https://uzk.adv-pub.moveon4.de/global-experiences/"
+    }
+  ]

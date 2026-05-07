@@ -1,0 +1,16 @@
+{
+  "run_id": "20260413T140931Z",
+  "modules_total": 1,
+  "modules_success": 1,
+  "modules_failed": 0,
+  "modules_fallback_cache": 0,
+  "records_extracted": 180,
+  "records_normalized": 149,
+  "records_invalid_or_unmapped": 16,
+  "new_data_entries": 149,
+  "failed_modules": [],
+  "by_university": {
+    "Technische Universität München": 149
+  },
+  "hard_fail": false
+}

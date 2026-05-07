@@ -1,0 +1,1439 @@
+{
+  "university_id": "FRANKFU07",
+  "university_name": "Mobility-Online Portal",
+  "portal_url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=FRANKFU07&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+  "portal_type": "mobility_online",
+  "scraped_at": "2026-03-15T20:52:55.584Z",
+  "strategy": "html_table",
+  "partner_count": 204,
+  "partners": [
+    {
+      "partner_name": "AARHUS UNIVERSITET",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "683196"
+    },
+    {
+      "partner_name": "Albion College",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "766389"
+    },
+    {
+      "partner_name": "Alfred Nobel University Dnipropetrowsk",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "2429270"
+    },
+    {
+      "partner_name": "American University in Dubai",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "752920"
+    },
+    {
+      "partner_name": "American University Washington",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "752922"
+    },
+    {
+      "partner_name": "Athens University of Economics and Business (AUEB)",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "2452449"
+    },
+    {
+      "partner_name": "Autonomous Technological Institute of Mexico (ITAM)",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "752673"
+    },
+    {
+      "partner_name": "Beijing Normal University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "733857"
+    },
+    {
+      "partner_name": "BI Norwegian Business School",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "685535"
+    },
+    {
+      "partner_name": "Bond University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "733835"
+    },
+    {
+      "partner_name": "Boston College",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1368440"
+    },
+    {
+      "partner_name": "Boston University Metropolitan College International",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "752923"
+    },
+    {
+      "partner_name": "Boston University Summer School",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "954908"
+    },
+    {
+      "partner_name": "Cal Poly Pomona",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1778512"
+    },
+    {
+      "partner_name": "Chanakya University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "2727210"
+    },
+    {
+      "partner_name": "Charles University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "682403"
+    },
+    {
+      "partner_name": "China Foreign Affairs University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "733853"
+    },
+    {
+      "partner_name": "CHRIST University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "2095268"
+    },
+    {
+      "partner_name": "Chulalongkorn Business School",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "752869"
+    },
+    {
+      "partner_name": "Chuo University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "741486"
+    },
+    {
+      "partner_name": "CONCORDIA UNIVERSITY",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1014117"
+    },
+    {
+      "partner_name": "Conestoga College",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "2655601"
+    },
+    {
+      "partner_name": "Copenhagen Business School",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "683219"
+    },
+    {
+      "partner_name": "Cracow University of Economics",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "685792"
+    },
+    {
+      "partner_name": "CYPRUS INTERNATIONAL INSTITUTE OF MANAGEMENT",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "682843"
+    },
+    {
+      "partner_name": "Dublin Business School",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "952301"
+    },
+    {
+      "partner_name": "DUBLIN CITY UNIVERSITY",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "685349"
+    },
+    {
+      "partner_name": "EADA",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1515498"
+    },
+    {
+      "partner_name": "ECOLE DE MANAGEMENT DE NORMANDIE",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "684411"
+    },
+    {
+      "partner_name": "ECOLE SUPERIEURE DE GESTION ET FINANCE",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "684743"
+    },
+    {
+      "partner_name": "EDHEC Business School",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "684438"
+    },
+    {
+      "partner_name": "ELON University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "2325973"
+    },
+    {
+      "partner_name": "EMLYON BUSINESS SCHOOL",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "684479"
+    },
+    {
+      "partner_name": "Emory University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "752921"
+    },
+    {
+      "partner_name": "ERASMUS UNIVERSITEIT ROTTERDAM",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "685587"
+    },
+    {
+      "partner_name": "ESADE Business School",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "682459"
+    },
+    {
+      "partner_name": "ESCA Morocco",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "975206"
+    },
+    {
+      "partner_name": "ESSEC",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "684277"
+    },
+    {
+      "partner_name": "Estonian Business School",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "684088"
+    },
+    {
+      "partner_name": "Faculty of Economics and Business, Universitas Gadjah Mada",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "741484"
+    },
+    {
+      "partner_name": "FGV EBAPE",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "733844"
+    },
+    {
+      "partner_name": "Financial University under the Government of the Russian Federation",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "752684"
+    },
+    {
+      "partner_name": "FLAME University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "733874"
+    },
+    {
+      "partner_name": "Florida International University College of Business",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "752930"
+    },
+    {
+      "partner_name": "George Mason University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1014386"
+    },
+    {
+      "partner_name": "Great Lakes Institute of Management",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "2306404"
+    },
+    {
+      "partner_name": "Grenoble Ecole de Management",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "684359"
+    },
+    {
+      "partner_name": "Griffith University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "725682"
+    },
+    {
+      "partner_name": "GROUPE ESSCA (ECOLE SUPERIEURE DES SCIENCES COMMERCIALES D'ANGERS)",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "684132"
+    },
+    {
+      "partner_name": "Hanyang University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "752865"
+    },
+    {
+      "partner_name": "Hawaiian Pacific University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "752927"
+    },
+    {
+      "partner_name": "HEC Montreal",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "733845"
+    },
+    {
+      "partner_name": "Higher School of Economics, Moskau (HSE)",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "752685"
+    },
+    {
+      "partner_name": "Higher School of Economics, St. Petersburg (HSE)",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "752686"
+    },
+    {
+      "partner_name": "Hong Kong Baptist University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "733869"
+    },
+    {
+      "partner_name": "Hult International Business School",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "2770613"
+    },
+    {
+      "partner_name": "IE Universidad",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "683884"
+    },
+    {
+      "partner_name": "Indian Institute of Management Calcutta",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "733877"
+    },
+    {
+      "partner_name": "Indian Institute of Management Indore",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "733875"
+    },
+    {
+      "partner_name": "Indian Institute of Management Tiruchirappalli",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1531747"
+    },
+    {
+      "partner_name": "Insper Instituto de Ensino e Pesquisa",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "733843"
+    },
+    {
+      "partner_name": "INSTITUT D'ETUDES POLITIQUES DE PARIS (SCIENCES PO)",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "684665"
+    },
+    {
+      "partner_name": "International Management Institute Delhi",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "733878"
+    },
+    {
+      "partner_name": "ISEG Lisbon",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "2677311"
+    },
+    {
+      "partner_name": "Istanbul Commerce University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1531766"
+    },
+    {
+      "partner_name": "IT-University Copenhagen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "683231"
+    },
+    {
+      "partner_name": "James Cook University (JCU) Singapore",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "752688"
+    },
+    {
+      "partner_name": "Jönköping International Business School",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "686085"
+    },
+    {
+      "partner_name": "KEDGE Business School",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "709909"
+    },
+    {
+      "partner_name": "Koç University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1014138"
+    },
+    {
+      "partner_name": "Kozminski University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "685943"
+    },
+    {
+      "partner_name": "La Trobe University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "733836"
+    },
+    {
+      "partner_name": "Lahore Garrison University in Pakistan",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1299460"
+    },
+    {
+      "partner_name": "LIBERA UNIVERSITA' DI LINGUE E COMUNICAZIONE IULM",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "685234"
+    },
+    {
+      "partner_name": "Lingnan College, Sun-Yat-Sen University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "733855"
+    },
+    {
+      "partner_name": "LINKÖPINGS UNIVERSITET",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "686090"
+    },
+    {
+      "partner_name": "London Business School",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1342930"
+    },
+    {
+      "partner_name": "Loughborough University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "686498"
+    },
+    {
+      "partner_name": "LUISS Business School",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1067153"
+    },
+    {
+      "partner_name": "LUISS Libera Università Internazionale degli Studi Sociali Guido Carli",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "685285"
+    },
+    {
+      "partner_name": "LUNDS UNIVERSITET",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "686092"
+    },
+    {
+      "partner_name": "Luxembourg School of Business",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1993217"
+    },
+    {
+      "partner_name": "Management Development \nInstitute (MDI)",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "733876"
+    },
+    {
+      "partner_name": "MANCHESTER METROPOLITAN UNIVERSITY",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "686503"
+    },
+    {
+      "partner_name": "Massey University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "752677"
+    },
+    {
+      "partner_name": "Monash University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1533123"
+    },
+    {
+      "partner_name": "Monash University Malaysia Campus",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "882051"
+    },
+    {
+      "partner_name": "MYONGIJ UNIVERSITY",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "2739495"
+    },
+    {
+      "partner_name": "Nanjing University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "733854"
+    },
+    {
+      "partner_name": "Nanyang Technological University (NTU)",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "752687"
+    },
+    {
+      "partner_name": "National Chengchi University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "752868"
+    },
+    {
+      "partner_name": "National University San Diego",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "752928"
+    },
+    {
+      "partner_name": "NEOMA Business School",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "709905"
+    },
+    {
+      "partner_name": "NEWCASTLE UNIVERSITY",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "686509"
+    },
+    {
+      "partner_name": "NHH Bergen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1432483"
+    },
+    {
+      "partner_name": "Nottingham Trent University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "686517"
+    },
+    {
+      "partner_name": "NYENRODE BUSINESS UNIVERSITEIT",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "685558"
+    },
+    {
+      "partner_name": "O.P. Jindal Global India",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1982616"
+    },
+    {
+      "partner_name": "Oxford Brookes University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "686525"
+    },
+    {
+      "partner_name": "Paris School of Business",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "684719"
+    },
+    {
+      "partner_name": "POLITECNICO DI MILANO",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "685231"
+    },
+    {
+      "partner_name": "Pontificia Universidad Católica Argentina",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "733831"
+    },
+    {
+      "partner_name": "Queensland University of Technology",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "733838"
+    },
+    {
+      "partner_name": "Radboud Universiteit Nijmegen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "685586"
+    },
+    {
+      "partner_name": "Ramaiah Institute of Management",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "2218291"
+    },
+    {
+      "partner_name": "Reichman University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "741485"
+    },
+    {
+      "partner_name": "RICE University Jones Graduate School",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "766388"
+    },
+    {
+      "partner_name": "SGH Warsaw School of Economics",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "685929"
+    },
+    {
+      "partner_name": "Shanghai Advanced Institute of Finance",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "733868"
+    },
+    {
+      "partner_name": "Shanghai University of Finance and Economics",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "733867"
+    },
+    {
+      "partner_name": "Shenzhen Technology University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "2306391"
+    },
+    {
+      "partner_name": "SKEMA Business School",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "946617"
+    },
+    {
+      "partner_name": "Solvay Brussels School of Economics & Management",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1045155"
+    },
+    {
+      "partner_name": "Southwestern University of Finance & Economics",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "733856"
+    },
+    {
+      "partner_name": "Srinakharinwirot University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "2727213"
+    },
+    {
+      "partner_name": "St Francis College",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "2183138"
+    },
+    {
+      "partner_name": "Stellenbosch Business School",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "752689"
+    },
+    {
+      "partner_name": "Stellenbosch University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1984168"
+    },
+    {
+      "partner_name": "Stockholm School of Economics",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "686101"
+    },
+    {
+      "partner_name": "Stockholm School of Economics Riga",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "685458"
+    },
+    {
+      "partner_name": "STOCKHOLM UNIVERSITY",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "686098"
+    },
+    {
+      "partner_name": "Summer School Harvard University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "2690299"
+    },
+    {
+      "partner_name": "Summer Session Stanford University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1531770"
+    },
+    {
+      "partner_name": "Sungkyunkwan University (SKKU)",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "752691"
+    },
+    {
+      "partner_name": "SVEUČILIŠTE U ZAGREBU",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "685084"
+    },
+    {
+      "partner_name": "Tecnologico de Monterrey",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "752674"
+    },
+    {
+      "partner_name": "The American University in Cairo (AUC)",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "733872"
+    },
+    {
+      "partner_name": "The Ecole de Gouvernance et d'Economie de RABAT",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "752675"
+    },
+    {
+      "partner_name": "The Hong Kong Polytechnic University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "954948"
+    },
+    {
+      "partner_name": "The Oxford Study Abroad Programme (OSAP)",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "2503946"
+    },
+    {
+      "partner_name": "The University of Auckland",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "752679"
+    },
+    {
+      "partner_name": "The University of Hong Kong",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "881948"
+    },
+    {
+      "partner_name": "The University of Tampa",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "2226169"
+    },
+    {
+      "partner_name": "The University of Western Australia",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "733840"
+    },
+    {
+      "partner_name": "Toulouse Business School (TBS)",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1963751"
+    },
+    {
+      "partner_name": "Tsinghua University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "881947"
+    },
+    {
+      "partner_name": "Tsinghua University - China",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "2437777"
+    },
+    {
+      "partner_name": "UCCS - University of Colorado Colorado Springs",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "709907"
+    },
+    {
+      "partner_name": "Unbekannt",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "686576"
+    },
+    {
+      "partner_name": "United States International University- USIU",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "752671"
+    },
+    {
+      "partner_name": "Universidad Adolfo Ibanez",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "851487"
+    },
+    {
+      "partner_name": "Universidad Anáhuac Querétaro",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "2235756"
+    },
+    {
+      "partner_name": "Universidad Autonoma de Madrid",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "683629"
+    },
+    {
+      "partner_name": "Universidad CEU San Pablo",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "683652"
+    },
+    {
+      "partner_name": "Universidad de los Andes",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "733871"
+    },
+    {
+      "partner_name": "UNIVERSIDAD DE NAVARRA",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "683813"
+    },
+    {
+      "partner_name": "Universidad de San Andrés",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "733833"
+    },
+    {
+      "partner_name": "Universidad de San Andrés - Summer School",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "954698"
+    },
+    {
+      "partner_name": "Universidad de Sevilla",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "683892"
+    },
+    {
+      "partner_name": "Universidad Diego Portales",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "733851"
+    },
+    {
+      "partner_name": "Universidad ESAN",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "752683"
+    },
+    {
+      "partner_name": "Universidad Mayor",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "733850"
+    },
+    {
+      "partner_name": "Universidad Torcuato di Tella",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "733832"
+    },
+    {
+      "partner_name": "Universidad Vina del Mar",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "733849"
+    },
+    {
+      "partner_name": "Universidade Catolica Portuguesa",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "685637"
+    },
+    {
+      "partner_name": "Universidade do Porto",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "685671"
+    },
+    {
+      "partner_name": "UNIVERSIDADE NOVA DE LISBOA",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "685639"
+    },
+    {
+      "partner_name": "Università Bocconi",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "685233"
+    },
+    {
+      "partner_name": "UNIVERSITÀ CA' FOSCARI DI VENEZIA",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "685328"
+    },
+    {
+      "partner_name": "Università Cattolica Del Sacro Cuore Milano",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "685232"
+    },
+    {
+      "partner_name": "UNIVERSITAET WIEN",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "682677"
+    },
+    {
+      "partner_name": "UNIVERSITE CATHOLIQUE DE LILLE (FUPL)",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "684435"
+    },
+    {
+      "partner_name": "Université de Genève",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "752866"
+    },
+    {
+      "partner_name": "Université de Lausanne",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "898970"
+    },
+    {
+      "partner_name": "Universite de Liege",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "682759"
+    },
+    {
+      "partner_name": "Université du Québec à Montréal",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "733847"
+    },
+    {
+      "partner_name": "UNIVERSITEIT MAASTRICHT",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "685585"
+    },
+    {
+      "partner_name": "UNIVERSITEIT VAN TILBURG",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "685596"
+    },
+    {
+      "partner_name": "UNIVERSITETET I AGDER",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "685513"
+    },
+    {
+      "partner_name": "University College Dublin",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "685347"
+    },
+    {
+      "partner_name": "University of Amsterdam",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "685547"
+    },
+    {
+      "partner_name": "UNIVERSITY OF BIRMINGHAM",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "686359"
+    },
+    {
+      "partner_name": "University of California, Riverside",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "752925"
+    },
+    {
+      "partner_name": "University of California, Santa Barbara",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "882122"
+    },
+    {
+      "partner_name": "University of Edinburgh",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "686409"
+    },
+    {
+      "partner_name": "UNIVERSITY OF EXETER",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "686417"
+    },
+    {
+      "partner_name": "University of Glasgow",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "686420"
+    },
+    {
+      "partner_name": "University of Groningen, Faculty of Economics & Business",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "685571"
+    },
+    {
+      "partner_name": "University of International Business and Economics",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "2519453"
+    },
+    {
+      "partner_name": "University of Leeds",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "686450"
+    },
+    {
+      "partner_name": "University of Ljubljana",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "686180"
+    },
+    {
+      "partner_name": "University of Melbourne",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "733839"
+    },
+    {
+      "partner_name": "University of New South Wales",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "733834"
+    },
+    {
+      "partner_name": "University of North Carolina at Wilmington",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1014536"
+    },
+    {
+      "partner_name": "University of North Texas",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "752926"
+    },
+    {
+      "partner_name": "University of Notre Dame",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1333194"
+    },
+    {
+      "partner_name": "University of Otago",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "752678"
+    },
+    {
+      "partner_name": "University of South Carolina - Columbia",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "2303989"
+    },
+    {
+      "partner_name": "University of Technology Sydney",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "733837"
+    },
+    {
+      "partner_name": "University of the South Pacific",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "733873"
+    },
+    {
+      "partner_name": "University of the West Indies at Cave Hill",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "733841"
+    },
+    {
+      "partner_name": "University of Victoria",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "733848"
+    },
+    {
+      "partner_name": "University of Wisconsin",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1497965"
+    },
+    {
+      "partner_name": "Uppsala Universitet",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "686114"
+    },
+    {
+      "partner_name": "Vancouver Island University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "733846"
+    },
+    {
+      "partner_name": "VILNIAUS UNIVERSITETAS",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "685418"
+    },
+    {
+      "partner_name": "VILNIAUS UNIVERSITETO TARPTAUTINIO VERSLO MOKYKLA",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "685433"
+    },
+    {
+      "partner_name": "Vlerick Business School",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1387883"
+    },
+    {
+      "partner_name": "Waseda University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "741487"
+    },
+    {
+      "partner_name": "Westcliff University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "2448258"
+    },
+    {
+      "partner_name": "Woxsen University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1972643"
+    },
+    {
+      "partner_name": "Zagreb School of Economics and Management",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "685089"
+    },
+    {
+      "partner_name": "ZHAW School of Management and Law",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "752867"
+    },
+    {
+      "partner_name": "Zimbabwe Ezekiel Guti University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "946699"
+    }
+  ]
+}

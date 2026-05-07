@@ -16,7 +16,7 @@ export default function MapWrapper() {
       {/* Map Layer */}
       <ErasmusMap isBackground={true} />
       
-      {/* Overlay - Radial Gradient - Reduzierte Opacity für bessere Sichtbarkeit der Küstenlinien */}
+      {/* Overlay - Radial Gradient - Reduced opacity for better visibility of coastlines */}
       <div className="absolute inset-0 z-10 bg-[radial-gradient(circle_at_center,_transparent_30%,_#020617_95%)] pointer-events-none opacity-90" />
     </div>
   );

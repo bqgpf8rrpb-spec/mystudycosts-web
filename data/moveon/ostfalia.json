@@ -1,0 +1,1751 @@
+{
+  "university_id": "OSTFALIA_UNIVERSITY_OF_APPLIED_SCIENCES",
+  "university_name": "Ostfalia Hochschule",
+  "portal_url": "https://www.ostfalia.de/cms/de/io/partnerhochschulen/",
+  "portal_type": "university_website",
+  "scraped_at": "2026-03-15T22:13:13.618Z",
+  "strategy": "custom_scraper",
+  "partner_count": 290,
+  "partners": [
+    {
+      "partner_name": "Suchformular      Suchbegriff       Suche ausführen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Chatbot OSCA starten",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Leichte Sprache",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Login Portal",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "DE|EN",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Startseite",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Newsletter",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Studiengänge",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Weiterbildungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Fakultäten",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Internationales",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Jetzt noch einschreiben",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Semesterbeitrag",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Zulassungsvoraussetzungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Teilzeitfähige Studiengänge",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Bewerbung mit einem ausländischen Schulabschluss",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Angebote & Veranstaltungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Beratung und Hilfe",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Studienfinanzierung Unterseiten von \"Studienfinanzierung\" anzeigen Deutschlandstipendium",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Deutschlandstipendium",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Wohnen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Gasthörerschaft",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Erstsemester-Infos",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Studienorganisation Unterseiten von \"Studienorganisation\" anzeigen Semestertermine  Rückmeldung  Pflichtpraktikum  Prüfungen  Beurlaubung  Teilzeitfähige Studiengänge  Exmatrikulation",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Semestertermine",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Rückmeldung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Pflichtpraktikum",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Prüfungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Beurlaubung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Exmatrikulation",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Beratung & Hilfe",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Standorte",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Bibliothek",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Studierendenvertretung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Rechenzentrum",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Hochschulsport",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Sprachenzentrum",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Überfachliche Lehrangebote",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Studentische Aktivitäten",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Mensen & Cafeterien",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "International Unterseiten von \"International\" anzeigen Studierende aus dem Ausland  FYI - for your integration  Wege ins Ausland  Praktikum im Ausland  Sprachen lernen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Studierende aus dem Ausland",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "FYI - for your integration",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Wege ins Ausland",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Praktikum im Ausland",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Sprachen lernen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Nach dem Studium Unterseiten von \"Nach dem Studium\" anzeigen Weiterführende Studiengänge  Promotion  Stellensuche  Alumni Interviews  Aktivitäten für Alumnae und Alumni",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Weiterführende Studiengänge",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Promotion",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Stellensuche",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Alumni Interviews",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Aktivitäten für Alumnae und Alumni",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Aktuelles",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Podcast Unterseiten von \"Podcast\" anzeigen Anmeldung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Anmeldung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Teilhabe- und Versorgungsforschung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Digitale Transformation",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Intelligente Systeme für Energie und Mobilität",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Integrierter Gewässer- und Bodenschutz",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Gesellschaftliche Veränderungsperspektiven",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Fahrzeugbau",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Erneuerbare Energien und Ressourceneffizienz",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Forschungszentren Unterseiten von \"Forschungszentren\" anzeigen CHH  CEMO  OLIF  ZaF  ZEGI  ZWIRN",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Kommission für Forschungsethik",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Hochschuleigene Forschungsförderung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Antragsforschung Unterseiten von \"Antragsforschung\" anzeigen Landesförderung  Bundesförderung  EU-Förderung  Weitere Fördermöglichkeiten",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Landesförderung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Bundesförderung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "EU-Förderung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Weitere Fördermöglichkeiten",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Auftragsforschung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Forschungskommission",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Erfindungen und Patente",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Forschungsdatenmanagement",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Forschungsinformationssystem",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Gründen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Nachrichten",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Veranstaltungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Ziele & Strategie",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Selbstverständnis & Werte",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Zahlen & Daten",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Barrierefreie Hochschule",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Stellenausschreibungen Unterseiten von \"Stellenausschreibungen\" anzeigen Allgemeine Stellenausschreibungen  Stellenausschreibungen für Professuren",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Allgemeine Stellenausschreibungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Stellenausschreibungen für Professuren",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Unser Campus – vierfach gut",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Lebenswerte Region",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Familie und Beruf",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Persönliche Entwicklung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Gesunde Hochschule",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Arbeitszeitregelungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Professur",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Wissenschaftliche Mitarbeiter*innen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Lehrkräfte und Lehrbeauftragte",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Mitarbeiter*innen Technik & Verwaltung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Auszubildende",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Kontaktmöglichkeiten",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Schwerpunkte",
+      "country": "Forschung",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Erstsemesterinfos",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Institute",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Organisation",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Kontakt/Anfahrt",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Fakultätsteam",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "International",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Alumni",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Studiengänge Fahrzeugtechnik",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Alles für dein Studium",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Dekanat und Gremien",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Forschungs- und Arbeitsgruppen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Kontakt/Anschrift",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Lerncoaching",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Moodle Lernmanagementsystem",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Studienbegleitende Angebote",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Fachtagungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Ringvorlesung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Prüfungsordnungen und Modulhandbücher",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Erstsemesterinfos zum Sommersemester",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Lehrveranstaltungspläne",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Handel und Soziale Arbeit Unterseiten von \"Handel und Soziale Arbeit\" anzeigen Nachrichten  Veranstaltungen  Erstsemesterinfos  Fakultätsteam  Labore",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Labore",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Studium Digital Technologies",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Studieninteressierte Informatik",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Studium Informatik / Wirtschaftsinformatik",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Studium",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Unsere Werte",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Sozialkompetenz-Workshops",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Der Fachschaftsrat - Eure Stimme im Studium",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Feedback",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Schulkontakte",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Alumnae & Alumni",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Im Studium",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "BELS und Nachhaltigkeit",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Informationen für Erstsemester",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Prüfungsamt",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Praxisamt",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Forschung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Internationalisierung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Gleichstellung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Medientechnik",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Fachschaftsrat",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Forschung am Campus Salzgitter",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Für Studierende",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Kontakt/Anreise/Raumpläne",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Fakultätsorganisation",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Unsere Studiengänge",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "TechLab",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Infos für Studierende",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Infos für Studieninteressierte",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Voices of Versorgungstechnik",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Versorgungstechnik Merch",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Lerncoaching an der Fakultät Wirtschaft - Dein Studium. Deine Entwicklung.",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Orientierungstutorium",
+      "country": "Studienstartseminar",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Präsidentin",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Hauptberuflicher Vizepräsident für Personal und Finanzen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Vizepräsident für Lehre",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Vizepräsidentin für Forschung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Gremien Unterseiten von \"Gremien\" anzeigen Hochschulrat  Senat  Erweitertes Präsidium  Kommissionen  Beauftragte",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Hochschulrat",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Erweitertes Präsidium",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Kommissionen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Beauftragte",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Stiftungen Unterseiten von \"Stiftungen\" anzeigen Deutschlandstipendium  Erich-Zillmer-Stiftung  Ostfalia Hochschulstiftung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Erich-Zillmer-Stiftung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Ostfalia Hochschulstiftung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Personensuche",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Gleichstellungsbüro",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Schwerbehindertenvertretung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Personalrat",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Rechtliches & Ordnungen Unterseiten von \"Rechtliches & Ordnungen\" anzeigen Akkreditierungsurkunden  Verkündungsblätter  Gesetze und Verordnungen  Exportkontrolle",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Akkreditierungsurkunden",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Verkündungsblätter",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Gesetze und Verordnungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Exportkontrolle",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Standorte Unterseiten von \"Standorte\" anzeigen Wolfenbüttel  Salzgitter  Wolfsburg  Suderburg",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Wolfenbüttel",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Salzgitter",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Wolfsburg",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Suderburg",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Berufungsangelegenheiten Unterseiten von \"Berufungsangelegenheiten\" anzeigen Teamübersicht",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Teamübersicht",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Archiv Bibliotheksnews",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Ausleihe und Rückgabe",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Benutzerkonto",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Bibliothek A bis Z",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Dokumente zur Bibliotheksbenutzung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Fachinformationen nach Standorten",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Fernleihe und Anschaffungsvorschlag",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Kontakt und Feedback",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Literaturempfehlungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Öffnungszeiten",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Ostfalia Bibliothek Wolfenbüttel",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Ostfalia Bibliothek Wolfsburg",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Ostfalia Bibliothek Salzgitter",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Ostfalia Bibliothek Suderburg",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Publizieren und Open Access",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Rechercheangebote der Ostfalia",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Braunschweiger Zentrum für Gender Studies",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Entrepreneurship Hub",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Finanzen und Controlling",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Gebäudemanagement",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Gleichstellungsbüro Unterseiten von \"Gleichstellungsbüro\" anzeigen Anmeldeformular Filmvorführung  Veranstaltungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Anmeldeformular Filmvorführung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Hochschulentwicklung und Qualitätsmanagement Unterseiten von \"Hochschulentwicklung und Qualitätsmanagement\" anzeigen Befragungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Befragungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Innenrevision",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Förderung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Mobilität in Europa",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Internationale Kooperationen und Partner",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Interkulturelle Kompetenzen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Erfahrungsberichte & Best Practices",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "AG Internationalisierung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "International Student Office Unterseiten von \"International Student Office\" anzeigen Aktuelles  Meet the team  Incoming Students",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Meet the team",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Incoming Students",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Justiziariat Unterseiten von \"Justiziariat\" anzeigen Aufgaben  Team",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Aufgaben",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Marketing und Kommunikation Unterseiten von \"Marketing und Kommunikation\" anzeigen Foto- und Drehgenehmigung  Veranstaltungsmanagement  Social Media",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Foto- und Drehgenehmigung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Veranstaltungsmanagement",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Social Media",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Personalentwicklung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Personal",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Zugang zur IT-Infrastruktur",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Account für Studierende",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Account für Gast-Hörende",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Account für Professoren oder Professorinnen und Mitarbeitende sowie Auszubildende",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Account für Lehrbeauftragte",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Account für Hochschul-Externe",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Account für Gast-Professoren oder Gast-Professorinnen und Gast-Mitarbeitende",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Account für Gast-Studierende und Praktikumskräfte",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "XWiki / RZWiki",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Portal",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Ostfalia-Card",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Validierungsstationen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Hilfe vom IT-Service-Desk und Öffnungszeiten",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Pool- und Peripherieräume",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Mulitfunktionsgeräte",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Team Rechenzentrum",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Praxispartner und Kunden",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Schreibwerkstatt Unterseiten von \"Schreibwerkstatt\" anzeigen Ausbildung  Abschlussarbeitsgruppen  Workshops  Zitations- und Plagiatssprechstunde  Schreibgespräche",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Ausbildung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Abschlussarbeitsgruppen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Workshops",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Zitations- und Plagiatssprechstunde",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Schreibgespräche",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Schwerbehindertenvertretung Unterseiten von \"Schwerbehindertenvertretung\" anzeigen News und Aktuelles  Wir über uns  Informationen  Weiterführende Links & Adressen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "News und Aktuelles",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Wir über uns",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Informationen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Weiterführende Links & Adressen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "FAQ – häufig gestellte Fragen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Sprachkursangebot",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Kurse in der vorlesungsfreien Zeit",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Deutsch als Fremdsprache",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Interkulturelle Angebote",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Sprachtandem",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Zertifikate und Sprachnachweise",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Einstufungstests",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Leitbild",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Kontakt",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Studierenden-Service Unterseiten von \"Studierenden-Service\" anzeigen Immatrikulationsbüro  Zentrale Studienberatung  Studierenden-Servicebüros  Career Service",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Immatrikulationsbüro",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Zentrale Studienberatung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Studierenden-Servicebüros",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Career Service",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Wissens- und Technologietransfer",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Zentrale Betriebswerkstatt Unterseiten von \"Zentrale Betriebswerkstatt\" anzeigen Fertigungsbeispiele  Lageplan  Weitere Informationen zur ZBW  Unser Maschinenpark",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Fertigungsbeispiele",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Lageplan",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Weitere Informationen zur ZBW",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Unser Maschinenpark",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Unser Angebot für Lehrende",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Unser Angebot für Studierende",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Aktuelle Projekte des ZeLL",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "K.I. an der Ostfalia",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Presse Unterseiten von \"Presse\" anzeigen Pressemeldungen  Kontakt",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Pressemeldungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Seite über Facebook teilen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Seite über LinkedIn teilen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "unsere Facebook-Seite",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "unsere LinkedIn-Seite",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "unsere Instagram-Seite",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "unsere YouTube-Seite",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Tel: +49 5331 939 0",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "E-Mail: info",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Zur Personensuche",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Impressum",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Datenschutz",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Erklärung zur Barrierefreiheit",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Barriere melden",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    }
+  ]
+}

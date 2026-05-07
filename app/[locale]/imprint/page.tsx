@@ -1,9 +1,41 @@
 import { getTranslations } from 'next-intl/server';
 import { Mail, Phone, MapPin, Shield, FileText, Copyright } from 'lucide-react';
 import ProtectedEmail from '@/components/ProtectedEmail';
+import type { Metadata } from 'next';
 
-export default async function ImprintPage() {
-  const t = await getTranslations('Imprint');
+import { getBaseUrl } from '@/lib/site-config';
+
+const baseUrl = getBaseUrl();
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'Imprint' });
+
+  return {
+    title: t('title'),
+    description: t('legalNotice'),
+    alternates: {
+      canonical: `${baseUrl}/${locale}/imprint`,
+    },
+  };
+}
+
+export default async function ImprintPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'Imprint' });
+  const formattedDate = new Date().toLocaleDateString(locale === 'de' ? 'de-DE' : 'en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  });
 
   return (
     <main className="min-h-screen bg-slate-900 py-12 px-4 sm:px-6 lg:px-8">
@@ -32,7 +64,7 @@ export default async function ImprintPage() {
             <div className="space-y-4 text-white/80">
               <div className="flex items-start gap-3">
                 <span className="font-semibold text-white min-w-[100px]">{t('name')}:</span>
-                <span>Maurice Sill</span>
+                <span>{t('placeholderFullName')}</span>
               </div>
               
               <div className="flex items-start gap-3">
@@ -40,9 +72,9 @@ export default async function ImprintPage() {
                 <div className="flex-1">
                   <span className="font-semibold text-white block mb-1">{t('address')}:</span>
                   <div className="space-y-1">
-                    <p>Altenbekener Damm 10</p>
-                    <p>30173 Hannover</p>
-                    <p>Germany</p>
+                    <p>{t('placeholderStreet')}</p>
+                    <p>{t('placeholderCityZip')}</p>
+                    <p>{t('placeholderCountry')}</p>
                   </div>
                 </div>
               </div>
@@ -59,7 +91,7 @@ export default async function ImprintPage() {
             </div>
             
             <div className="text-white/80">
-              <p>Maurice Sill</p>
+              <p>{t('placeholderResponsibleName')}</p>
             </div>
           </section>
 
@@ -77,7 +109,7 @@ export default async function ImprintPage() {
                 <Mail className="w-5 h-5 text-blue-400 flex-shrink-0" />
                 <div>
                   <span className="font-semibold text-white mr-2">{t('email')}:</span>
-                  <ProtectedEmail email="contact.mystudycosts@gmail.com" />
+                  <ProtectedEmail email={t('placeholderEmail')} />
                 </div>
               </div>
               
@@ -86,10 +118,10 @@ export default async function ImprintPage() {
                 <div>
                   <span className="font-semibold text-white mr-2">{t('phone')}:</span>
                   <a 
-                    href="tel:+4915732281839" 
+                    href={`tel:${t('placeholderPhoneDial')}`} 
                     className="text-blue-400 hover:text-blue-300 transition-colors"
                   >
-                    +49 157 32281839
+                    {t('placeholderPhone')}
                   </a>
                 </div>
               </div>
@@ -139,7 +171,7 @@ export default async function ImprintPage() {
         {/* Additional Info Card */}
         <div className="mt-8 backdrop-blur-md bg-slate-950/60 border border-white/10 rounded-xl p-6">
           <p className="text-white/60 text-sm text-center">
-            Last updated: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+            {t('lastUpdated')}: {formattedDate}
           </p>
         </div>
       </div>

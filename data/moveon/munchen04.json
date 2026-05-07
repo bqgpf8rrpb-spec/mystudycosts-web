@@ -1,0 +1,326 @@
+{
+  "university_id": "MUNCHEN04",
+  "university_name": "Mobility-Online Portal",
+  "portal_url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=MUNCHEN04&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+  "portal_type": "mobility_online",
+  "scraped_at": "2026-03-15T21:02:23.846Z",
+  "strategy": "html_table",
+  "partner_count": 45,
+  "partners": [
+    {
+      "partner_name": "ACADEMIE ROYALE DES BEAUX-ARTS DE BRUXELLES, ECOLE SUPERIEURE DES ARTS",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1934545"
+    },
+    {
+      "partner_name": "Accademia di Belle Arti di Bologna",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1936987"
+    },
+    {
+      "partner_name": "Accademia di Belle Arti di Brera",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1937060"
+    },
+    {
+      "partner_name": "Accademia di Belle Arti di Firenze",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1937025"
+    },
+    {
+      "partner_name": "Accademia di Belle Arti di Roma",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1937113"
+    },
+    {
+      "partner_name": "Akademia Sztuk Pięknych im. Jana Matejki w Krakowie",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1937622"
+    },
+    {
+      "partner_name": "Akademia Sztuk Pięknych w Warszawie",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1937761"
+    },
+    {
+      "partner_name": "Akademie der bildenden Künste Wien",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1934507"
+    },
+    {
+      "partner_name": "Akademie Výtvarných Umění v Praze",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1934224"
+    },
+    {
+      "partner_name": "Anotati Scholi Kalon Technon",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1936863"
+    },
+    {
+      "partner_name": "CENTRE AUTORITZAT DE GRAU SUPERIOR D'ARTS PLASTIQUES",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1934291"
+    },
+    {
+      "partner_name": "Det Kongelige Danske Kunstakademi Billedkunstskolerne",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1935053"
+    },
+    {
+      "partner_name": "Ecole de Recherche Graphique",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1934562"
+    },
+    {
+      "partner_name": "École Nationale Súperieure d'Arts Cergy-Pontoise",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1984732"
+    },
+    {
+      "partner_name": "Ecole Supérieure d'Art et de Design Marseille-Méditerranée",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1934415"
+    },
+    {
+      "partner_name": "ECOLE SUPÉRIEURE DES BEAUX ARTS DE NÎMES",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1936451"
+    },
+    {
+      "partner_name": "ELISAVA - UNIVERSITAT DE VIC - FUNDACIO UNIVERSITARIA BALMES",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1935882"
+    },
+    {
+      "partner_name": "GÖTEBORGS UNIVERSITET",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1937906"
+    },
+    {
+      "partner_name": "Haute Ecole des Arts du Rhin",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1984728"
+    },
+    {
+      "partner_name": "Hogeschool Gent",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1934571"
+    },
+    {
+      "partner_name": "Kunsthøgskolen i Oslo",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1937348"
+    },
+    {
+      "partner_name": "L.A.B.A. -LIBERA ACCADEMIA DI BELLE ARTI",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1936994"
+    },
+    {
+      "partner_name": "Latvijas Makslas Akademija",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1937275"
+    },
+    {
+      "partner_name": "Magyar Képzömüvészeti Egyetem",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1936931"
+    },
+    {
+      "partner_name": "Mimar Sinan Guzel Sanatlar Universitesi",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1938129"
+    },
+    {
+      "partner_name": "New Design University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1984729"
+    },
+    {
+      "partner_name": "Newcastle University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1938334"
+    },
+    {
+      "partner_name": "Norwegian University of Science and Technology (NTNU)",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1937368"
+    },
+    {
+      "partner_name": "Sveučilište u Zagrebu",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1936909"
+    },
+    {
+      "partner_name": "Szkoła Filmowa w Łodzi - Lodz Film School",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1984738"
+    },
+    {
+      "partner_name": "Taideyliopisto",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1984723"
+    },
+    {
+      "partner_name": "Umeå universitet",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1937938"
+    },
+    {
+      "partner_name": "Universidad Complutense de Madrid",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1935453"
+    },
+    {
+      "partner_name": "Universidad de Granada",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1935374"
+    },
+    {
+      "partner_name": "Universidade de Lisboa",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1937463"
+    },
+    {
+      "partner_name": "UNIVERSITÀ DEGLI STUDI DI GENOVA",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1937034"
+    },
+    {
+      "partner_name": "Universitat de Barcelona",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1934279"
+    },
+    {
+      "partner_name": "Universität für Angewandte Kunst Wien",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1934508"
+    },
+    {
+      "partner_name": "Universitat Politècnica de València",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1935803"
+    },
+    {
+      "partner_name": "Universitat Pompeu Fabra",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1934283"
+    },
+    {
+      "partner_name": "University of Art and Design Linz",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1934486"
+    },
+    {
+      "partner_name": "University of Edinburgh",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1938234"
+    },
+    {
+      "partner_name": "University of Porto",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1937496"
+    },
+    {
+      "partner_name": "Vilniaus Dailes Akademija",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1937245"
+    },
+    {
+      "partner_name": "Zürcher Hochschule der Künste",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1938407"
+    }
+  ]
+}

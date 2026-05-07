@@ -1,0 +1,10 @@
+{
+  "university_id": "DRESDEN13",
+  "university_name": "Mobility-Online Portal",
+  "portal_url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=DRESDEN13&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+  "portal_type": "mobility_online",
+  "scraped_at": "2026-03-15T20:50:33.813Z",
+  "strategy": "html_table",
+  "partner_count": 0,
+  "partners": []
+}

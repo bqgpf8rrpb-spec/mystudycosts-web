@@ -27,7 +27,6 @@ import {
   Database,
   Briefcase,
   Coins,
-  Scale,
   Book,
   BookOpen,
   Landmark,
@@ -39,8 +38,33 @@ import {
 } from 'lucide-react';
 import { useCurrency, type CurrencyCode } from '@/contexts/CurrencyContext';
 import { trackEvent } from '@/lib/analytics';
+import AffiliateLabel from '@/components/AffiliateLabel';
+import { AFFILIATE_ENABLED, AFFILIATE_TRACKING_ENABLED } from '@/lib/feature-flags';
 import { useTranslations } from 'next-intl';
+import { pdf } from '@react-pdf/renderer';
 import universitiesData from '@/data/universities.json';
+import { calculateMonthlyRent } from '@/lib/costs';
+import { OFFICIAL_LINKS, FRANKFURTER_APP_URL } from '@/lib/external-urls';
+// FRANKFURTER_APP_URL used for attribution links
+import { formatCurrency } from '@/lib/format';
+import { DEFAULT_AVG_RENT_FALLBACK, DEFAULT_NON_EU_TUITION_FALLBACK, FRANKFURTER_API_URL } from '@/lib/constants';
+import {
+  BLOCKED_ACCOUNT_MONTHLY,
+  BLOCKED_ACCOUNT_YEARLY,
+  HEALTH_INSURANCE_PUBLIC,
+  HEALTH_INSURANCE_PRIVATE,
+  CALCULATOR_LIVING_EXPENSES,
+  BLOCKED_ACCOUNT_PROVIDERS,
+  RUNDFUNKBEITRAG_QUARTERLY,
+  SECURITY_DEPOSIT_MULTIPLIER,
+  INITIAL_HOUSEHOLD_SETUP,
+  LANGUAGE_COURSE_MONTHLY,
+  HOUSING_MULTIPLIER_DORM,
+  HOUSING_MULTIPLIER_PRIVATE,
+} from '@/lib/calculator-defaults';
+import StudyReportPDF from '@/components/export/StudyReportPDF';
+import { buildStudyCostExportPayload, buildStudyReportFileName } from '@/lib/export-utils';
+import { useUserStore } from '@/lib/store/useUserStore';
 
 interface ExchangeRates {
   USD: number;
@@ -54,33 +78,6 @@ interface FrankfurterApiResponse {
   base: string;
   date: string;
   rates: ExchangeRates;
-}
-
-// Currency formatting function: dot as thousands separator, cents only if not zero
-function formatCurrency(amount: number, currency: CurrencyCode = 'EUR'): string {
-  const wholePart = Math.floor(amount);
-  const centsPart = Math.round((amount - wholePart) * 100);
-  
-  // Format whole part with dot as thousands separator
-  const formattedWhole = wholePart.toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.');
-  
-  // Currency symbols
-  const currencySymbols: Record<CurrencyCode, string> = {
-    EUR: '€',
-    USD: '$',
-    INR: '₹',
-    CNY: '¥',
-    GBP: '£',
-  };
-  
-  const symbol = currencySymbols[currency];
-  
-  // Only add cents if they are not zero
-  if (centsPart === 0) {
-    return `${symbol}${formattedWhole}`;
-  } else {
-    return `${symbol}${formattedWhole},${centsPart.toString().padStart(2, '0')}`;
-  }
 }
 
 // ============================================
@@ -252,24 +249,28 @@ const UNIVERSITY_CITIES: Record<string, number> = {
   'Wuppertal': 580,   // University of Wuppertal
 };
 
-// German Universities with Semester Fees - Imported from JSON database
-interface University {
+import type { University } from '@/types/university';
+
+/** Raw university entry from universities.json */
+interface RawUniversityEntry {
   name: string;
   city: string;
-  type: 'public' | 'private';
-  semesterFee: number;
-  avgRent: number;
-  tuitionFee?: number; // For private universities
-  nonEUTuitionFee?: number; // Optional: ~1,500€ per semester for non-EU students (e.g., Baden-Württemberg)
+  type?: string;
+  semesterFee?: number;
+  avgRent?: number;
+  tuitionFee?: number;
+  nonEUTuitionFee?: number;
+  institutionType?: string;
+  state?: string;
 }
 
 // Use imported universities data, ensuring type safety
-const UNIVERSITIES: University[] = universitiesData.map((u: any) => ({
+const UNIVERSITIES: University[] = (universitiesData as RawUniversityEntry[]).map((u) => ({
   name: u.name,
   city: u.city,
-  type: u.type || 'public',
+  type: (u.type === 'private' ? 'private' : 'public') as University['type'],
   semesterFee: u.semesterFee || 0,
-  avgRent: u.avgRent || 600,
+  avgRent: u.avgRent || DEFAULT_AVG_RENT_FALLBACK,
   tuitionFee: u.tuitionFee,
   nonEUTuitionFee: u.nonEUTuitionFee,
 }));
@@ -383,27 +384,23 @@ const STUDY_DATA = {
   ORIGIN_COUNTRIES: COUNTRIES,
   UNIVERSITIES: UNIVERSITIES,
   FIXED_COSTS: {
-    blockedAccountMonthly: 992,
-    blockedAccountYearly: 11904,
-    healthInsurancePublic: 120,
-    healthInsurancePrivate: 80,
-    livingExpenses: 400,
+    blockedAccountMonthly: BLOCKED_ACCOUNT_MONTHLY,
+    blockedAccountYearly: BLOCKED_ACCOUNT_YEARLY,
+    healthInsurancePublic: HEALTH_INSURANCE_PUBLIC,
+    healthInsurancePrivate: HEALTH_INSURANCE_PRIVATE,
+    livingExpenses: CALCULATOR_LIVING_EXPENSES,
   },
-  BLOCKED_ACCOUNT_PROVIDERS: [
-    { name: 'Fintiba', setupFee: 89, monthlyFee: 4.9 },
-    { name: 'Expatrio', setupFee: 49, monthlyFee: 4.9 },
-    { name: 'Coracle', setupFee: 99, monthlyFee: 5.0 },
-  ],
+  BLOCKED_ACCOUNT_PROVIDERS,
   RUNDFUNKBEITRAG: {
-    quarterly: 55.08, // Quarterly fee (every 3 months)
+    quarterly: RUNDFUNKBEITRAG_QUARTERLY,
     monthly: 18.36, // Monthly equivalent (for display)
   },
   ARRIVAL_COSTS: {
-    securityDepositMultiplier: 3, // 3 months' rent
-    initialHouseholdSetup: 650, // Basic furniture/kitchenware
+    securityDepositMultiplier: SECURITY_DEPOSIT_MULTIPLIER,
+    initialHouseholdSetup: INITIAL_HOUSEHOLD_SETUP,
   },
   LANGUAGE_COURSE: {
-    monthlyCost: 550, // Estimated average per month for intensive German courses
+    monthlyCost: LANGUAGE_COURSE_MONTHLY,
   },
 } as const;
 
@@ -494,9 +491,10 @@ interface UniversitySearchComponentProps {
   onSelect: (universityName: string) => void;
   cardZIndex?: number;
   disabled?: boolean;
+  dataTestId?: string;
 }
 
-function UniversitySearchComponent({ universities, value, isOther, onSelect, cardZIndex = 90, disabled = false }: UniversitySearchComponentProps) {
+function UniversitySearchComponent({ universities, value, isOther, onSelect, cardZIndex = 90, disabled = false, dataTestId }: UniversitySearchComponentProps) {
   const t = useTranslations('Calculator');
   const [isOpen, setIsOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
@@ -656,6 +654,8 @@ function UniversitySearchComponent({ universities, value, isOther, onSelect, car
               return (
                 <li
                   key={option.value}
+                  data-testid={dataTestId ? `${dataTestId}-option` : undefined}
+                  data-value={option.value}
                   onClick={() => handleSelect(option.value)}
                   onMouseEnter={() => setFocusedIndex(index)}
                   className={`px-4 py-2 cursor-pointer transition-colors duration-150 ${
@@ -670,7 +670,7 @@ function UniversitySearchComponent({ universities, value, isOther, onSelect, car
                       <Check className="w-4 h-4 text-white flex-shrink-0" />
                     )}
                     {option.type === 'private' && !isSelected && (
-                      <span className="text-xs px-2 py-0.5 bg-purple-600/20 text-purple-300 rounded">Private</span>
+                      <span className="text-xs px-2 py-0.5 bg-purple-600/20 text-purple-300 rounded">{t('privateInsuranceLabel')}</span>
                     )}
                   </div>
                 </li>
@@ -738,6 +738,7 @@ function UniversitySearchComponent({ universities, value, isOther, onSelect, car
               placeholder={disabled ? t('selectCity') : t('searchUniversityPlaceholder')}
               disabled={disabled}
               className="w-full bg-black/40 border border-white/10 rounded-lg pl-10 pr-10 py-3 text-white placeholder-white/30 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 relative z-10 disabled:opacity-50 disabled:cursor-not-allowed"
+              {...(dataTestId ? { 'data-testid': dataTestId } : {})}
             />
             <button
               type="button"
@@ -768,6 +769,7 @@ interface SearchableComboboxProps<T extends string> {
   icon: React.ReactNode;
   label: string;
   cardZIndex?: number;
+  dataTestId?: string;
 }
 
 function SearchableCombobox<T extends string>({
@@ -778,7 +780,9 @@ function SearchableCombobox<T extends string>({
   icon,
   label,
   cardZIndex = 10,
+  dataTestId,
 }: SearchableComboboxProps<T>) {
+  const t = useTranslations('Calculator');
   const [isOpen, setIsOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [focusedIndex, setFocusedIndex] = useState(-1);
@@ -918,6 +922,8 @@ function SearchableCombobox<T extends string>({
             {filteredOptions.map((option, index) => (
               <li
                 key={option}
+                data-testid={dataTestId ? `${dataTestId}-option` : undefined}
+                data-value={option}
                 onClick={() => handleSelect(option)}
                 onMouseEnter={() => setFocusedIndex(index)}
                 className={`px-4 py-2 cursor-pointer transition-colors duration-150 ${
@@ -943,7 +949,7 @@ function SearchableCombobox<T extends string>({
               zIndex: 100,
             }}
           >
-            <p className="text-white/60 text-sm">No results found</p>
+            <p className="text-white/60 text-sm">{t('noResults')}</p>
           </div>
         )}
       </>
@@ -989,6 +995,7 @@ function SearchableCombobox<T extends string>({
               onKeyDown={handleKeyDown}
               placeholder={placeholder}
               className="w-full bg-black/40 border border-white/10 rounded-lg pl-10 pr-10 py-3 text-white placeholder-white/30 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 relative z-10"
+              {...(dataTestId ? { 'data-testid': dataTestId } : {})}
             />
             <button
               type="button"
@@ -998,7 +1005,7 @@ function SearchableCombobox<T extends string>({
                 toggleDropdown();
               }}
               className="absolute right-3 top-1/2 -translate-y-1/2 z-10 p-1 hover:bg-white/10 rounded transition-colors"
-              aria-label="Toggle dropdown"
+              aria-label={t('toggleDropdown')}
             >
               <ChevronDown
                 className={`w-4 h-4 text-white/40 transition-transform duration-200 ${
@@ -1093,18 +1100,11 @@ const AFFILIATE_LINKS = {
   bankAccount: 'YOUR_BANK_ACCOUNT_LINK', // Replace with bank account affiliate link (e.g., N26, Comdirect)
 } as const;
 
-// Official Resource Links
-const OFFICIAL_LINKS = {
-  applyUniversity: 'https://www.daad.de/en/',
-  uniAssist: 'https://www.uni-assist.de/',
-  visaAppointment: 'https://service2.diplo.de/rktermin/extern/choose_realmList.do?locationCode=indi&request_locale=en',
-  accommodation: {
-    studentenwerk: 'https://www.studierendenwerk.de/',
-    wgGesucht: 'https://www.wg-gesucht.de/',
-  },
-} as const;
+interface StudyCostCalculatorProps {
+  initialCity?: City | '';
+}
 
-export default function StudyCostCalculator() {
+export default function StudyCostCalculator({ initialCity = '' }: StudyCostCalculatorProps = {}) {
   // Get current locale from pathname for locale-aware links
   const pathname = usePathname();
   const locale = pathname?.split('/')[1] || 'en';
@@ -1135,7 +1135,7 @@ export default function StudyCostCalculator() {
   // Primary scenario state
   const [primaryScenario, setPrimaryScenario] = useState<Scenario>({
     originCountry: '',
-    targetCity: '',
+    targetCity: initialCity,
     selectedUniversity: '',
     isOtherUniversity: false,
     housingType: 'wg', // Default to shared flat
@@ -1170,6 +1170,7 @@ export default function StudyCostCalculator() {
   
   // Currency from context (shared with Navbar)
   const { selectedCurrency, setSelectedCurrency } = useCurrency();
+  const homeCity = useUserStore((state) => state.homeCity);
   
   // Exchange rates state
   const [exchangeRates, setExchangeRates] = useState<ExchangeRates | null>(null);
@@ -1183,39 +1184,39 @@ export default function StudyCostCalculator() {
   // Instructional guides for each checklist item
   const checklistItemGuides: Record<string, string[]> = {
     'apply-university': [
-      '1. Create an account on DAAD or uni-assist',
-      '2. Search for your desired course/program',
-      '3. Upload certified copies of your transcripts and certificates',
-      '4. Pay the application fee (if applicable)',
-      '5. Submit before the deadline',
+      t('guideApplyUniversity1'),
+      t('guideApplyUniversity2'),
+      t('guideApplyUniversity3'),
+      t('guideApplyUniversity4'),
+      t('guideApplyUniversity5'),
     ],
     'admission-letter': [
-      'After receiving admission:',
-      '1. Download the official admission letter (Zulassungsbescheid)',
-      '2. Check that all details are correct (name, course, semester)',
-      '3. You will need this for your visa application',
+      t('guideAdmissionLetterIntro'),
+      t('guideAdmissionLetter1'),
+      t('guideAdmissionLetter2'),
+      t('guideAdmissionLetter3'),
     ],
     'blocked-account': [
-      'Choose your arrival month and deposit the required €11,904',
-      'You will receive the Confirmation of Financial Resources (06 Confirmation) for your visa within 24 hours',
-      'Keep your account details safe - you will need them to access funds in Germany',
+      t('guideBlockedAccount1'),
+      t('guideBlockedAccount2'),
+      t('guideBlockedAccount3'),
     ],
     'health-insurance': [
-      '1. Compare providers and choose a plan (Public or Private)',
-      '2. Fill out the application form with your personal details',
-      '3. Upload required documents (passport, admission letter)',
-      '4. Receive your insurance certificate for visa application',
+      t('guideHealthInsurance1'),
+      t('guideHealthInsurance2'),
+      t('guideHealthInsurance3'),
+      t('guideHealthInsurance4'),
     ],
     'visa-appointment': [
-      '1. Select your specific consulate/embassy location',
-      '2. Choose "National Visa" category',
-      '3. Look for "Long-term stay" or "Study" option',
-      '4. Book the earliest available slot (appointments can fill up quickly!)',
+      t('guideVisaAppointment1'),
+      t('guideVisaAppointment2'),
+      t('guideVisaAppointment3'),
+      t('guideVisaAppointment4'),
     ],
     'accommodation': [
-      'Studentenwerk: Apply early for student dormitories (cheapest option)',
-      'WG-Gesucht: Browse shared apartments (WG). Start early - competition is high!',
-      'Tip: Have all documents ready (income proof, references) to apply quickly',
+      t('guideAccommodation1'),
+      t('guideAccommodation2'),
+      t('guideAccommodation3'),
     ],
   };
 
@@ -1223,48 +1224,48 @@ export default function StudyCostCalculator() {
   const checklistItems = [
     { 
       id: 'apply-university', 
-      label: 'Apply to University', 
-      subtext: 'Deadline check',
+      label: t('checklistApplyUniversity'), 
+      subtext: t('checklistDeadlineCheck'),
       officialLink: OFFICIAL_LINKS.applyUniversity,
       officialLinkLabel: 'DAAD',
       guide: checklistItemGuides['apply-university'],
     },
     { 
       id: 'admission-letter', 
-      label: 'Get Admission Letter',
+      label: t('checklistAdmissionLetter'),
       guide: checklistItemGuides['admission-letter'],
     },
     { 
       id: 'blocked-account', 
-      label: 'Open Blocked Account',
+      label: t('checklistBlockedAccount'),
       affiliateLink: AFFILIATE_LINKS.blockedAccount,
-      affiliateLinkLabel: 'Recommended Provider',
+      affiliateLinkLabel: t('recommendedProvider'),
       showIfNonEU: true,
       guide: checklistItemGuides['blocked-account'],
     },
     { 
       id: 'health-insurance', 
-      label: 'Apply for Health Insurance',
+      label: t('checklistHealthInsurance'),
       affiliateLink: AFFILIATE_LINKS.healthInsurance,
-      affiliateLinkLabel: 'Get Insurance',
+      affiliateLinkLabel: t('getInsurance'),
       guide: checklistItemGuides['health-insurance'],
     },
     { 
       id: 'visa-appointment', 
-      label: 'Book Visa Appointment',
+      label: t('checklistVisaAppointment'),
       officialLink: OFFICIAL_LINKS.visaAppointment,
-      officialLinkLabel: 'Book Appointment',
+      officialLinkLabel: t('bookAppointment'),
       showIfNonEU: true,
       guide: checklistItemGuides['visa-appointment'],
     },
     { 
       id: 'accommodation', 
-      label: 'Find Accommodation', 
+      label: t('checklistAccommodation'), 
       highlight: true, 
-      highlightText: 'The hardest part!',
+      highlightText: t('checklistHardestPart'),
       officialLinks: [
-        { url: OFFICIAL_LINKS.accommodation.studentenwerk, label: 'Studentenwerk' },
-        { url: OFFICIAL_LINKS.accommodation.wgGesucht, label: 'WG-Gesucht' },
+        { url: OFFICIAL_LINKS.accommodation.studentenwerk, label: t('studentenwerkLabel') },
+        { url: OFFICIAL_LINKS.accommodation.wgGesucht, label: t('wgGesuchtLabel') },
       ],
       guide: checklistItemGuides['accommodation'],
     },
@@ -1311,6 +1312,13 @@ export default function StudyCostCalculator() {
       localStorage.setItem('studyChecklist', JSON.stringify(checklistState));
     }
   }, [checklistState]);
+
+  // Pre-fill calculator city from global profile when no explicit city is selected.
+  useEffect(() => {
+    if (!homeCity || initialCity || primaryScenario.targetCity) return;
+    if (!(homeCity in STUDY_DATA.CITIES)) return;
+    setPrimaryScenario((prev) => ({ ...prev, targetCity: homeCity as City }));
+  }, [homeCity, initialCity, primaryScenario.targetCity]);
 
   // Determine if user is Non-EU (requires visa)
   const isNonEU = useMemo(() => {
@@ -1382,27 +1390,64 @@ export default function StudyCostCalculator() {
       }
       // Priority 3: Calculate based on housing type and university/city data
       else {
-        // Get base rent from university data or city average
-        let baseRent = 0;
-        if (selectedUniversityData) {
-          baseRent = selectedUniversityData.avgRent;
-        } else if (scenario.targetCity) {
-          baseRent = STUDY_DATA.CITIES[scenario.targetCity] || 0;
-        }
-        
-        // Apply housing type multiplier
+        // Determine room size based on housing type
+        let roomSize = 20; // Default WG room size
         switch (scenario.housingType) {
           case 'dorm':
-            monthlyRent = baseRent * 0.6; // 60% of average
+            roomSize = 12; // Smaller dorm room
             break;
           case 'wg':
-            monthlyRent = baseRent; // 100% of average
+            roomSize = 20; // Standard WG room
             break;
           case 'private':
-            monthlyRent = baseRent * 1.5; // 150% of average
+            roomSize = 35; // Larger private apartment
             break;
-          default:
-            monthlyRent = baseRent;
+        }
+        
+        // Get city name for calculation
+        const cityName = selectedUniversityData?.city || scenario.targetCity || '';
+        
+        if (cityName) {
+          // Use dynamic calculation
+          const calculatedRent = calculateMonthlyRent(cityName, roomSize);
+          
+          // Apply housing type adjustment (dorm is cheaper, private is more expensive)
+          switch (scenario.housingType) {
+            case 'dorm':
+              monthlyRent = calculatedRent * HOUSING_MULTIPLIER_DORM;
+              break;
+            case 'wg':
+              monthlyRent = calculatedRent; // 100% of calculated rent
+              break;
+            case 'private':
+              monthlyRent = calculatedRent * HOUSING_MULTIPLIER_PRIVATE;
+              break;
+            default:
+              monthlyRent = calculatedRent;
+          }
+        } else {
+          // Fallback to old method if city not found
+          let baseRent = 0;
+          if (selectedUniversityData) {
+            baseRent = selectedUniversityData.avgRent ?? DEFAULT_AVG_RENT_FALLBACK;
+          } else if (scenario.targetCity) {
+            baseRent = STUDY_DATA.CITIES[scenario.targetCity] || 0;
+          }
+          
+          // Apply housing type multiplier
+          switch (scenario.housingType) {
+            case 'dorm':
+              monthlyRent = baseRent * HOUSING_MULTIPLIER_DORM;
+              break;
+            case 'wg':
+              monthlyRent = baseRent;
+              break;
+            case 'private':
+              monthlyRent = baseRent * HOUSING_MULTIPLIER_PRIVATE;
+              break;
+            default:
+              monthlyRent = baseRent;
+          }
         }
       }
       
@@ -1421,7 +1466,7 @@ export default function StudyCostCalculator() {
       if (scenario.isOtherUniversity && scenario.manualSemesterFee) {
         semesterFeeMonthly = scenario.manualSemesterFee / 6;
       } else if (selectedUniversityData) {
-        semesterFeeMonthly = selectedUniversityData.semesterFee / 6;
+        semesterFeeMonthly = (selectedUniversityData.semesterFee ?? 0) / 6;
       }
       
       // Check if origin country is non-EU (visa fee > 0 means non-EU)
@@ -1574,7 +1619,7 @@ export default function StudyCostCalculator() {
           abortController.abort();
         }, 10000); // 10 second timeout
 
-        const response = await fetch('https://api.frankfurter.app/latest?from=EUR', {
+        const response = await fetch(FRANKFURTER_API_URL, {
           signal: abortController.signal,
         });
 
@@ -1663,97 +1708,7 @@ export default function StudyCostCalculator() {
   const convertedNetMonthlyIncome = netMonthlyIncome * conversionRate;
   const convertedRemainingBudget = remainingBudget * conversionRate;
 
-  // PDF-specific currency formatter (with space and 2 decimals)
-  // ========== PDF EXPORT: PRODUCTION-READY WITH GLASSMORPHISM & CUSTOM FONTS ==========
-  
-  // Base64 Font Embedding (Placeholder - Replace with actual Roboto/Open Sans Base64)
-  // IMPORTANT: Custom fonts are REQUIRED for Euro symbol (€) rendering. Standard PDF fonts corrupt special characters.
-  // To generate Base64: Use a tool like https://everythingfonts.com/base64encoder or jsPDF's font converter
-  const ROBOTO_REGULAR_BASE64 = ''; // Placeholder: Roboto-Regular.ttf as Base64 string
-  const ROBOTO_BOLD_BASE64 = ''; // Placeholder: Roboto-Bold.ttf as Base64 string
-  
-  // Base64 Logo (Placeholder - Replace with actual logo Base64 string)
-  const LOGO_BASE64 = ''; // Placeholder: Logo image as Base64 PNG/JPG string
-
-  /**
-   * Helper: Load custom fonts into jsPDF instance
-   * EURO FIX: Embedding custom fonts ensures the Euro symbol (€) renders correctly.
-   * Without this, Helvetica and other standard PDF fonts will display corrupted characters.
-   */
-  const loadFonts = async (doc: any): Promise<void> => {
-    try {
-      // Attempt to add custom font if Base64 is provided
-      if (ROBOTO_REGULAR_BASE64 && ROBOTO_BOLD_BASE64) {
-        // Add font to jsPDF (method varies by jsPDF version)
-        // For jsPDF v2.5+: doc.addFileToVFS('Roboto-Regular.ttf', ROBOTO_REGULAR_BASE64);
-        // doc.addFont('Roboto-Regular.ttf', 'Roboto', 'normal');
-        // For now, fallback to Helvetica with proper encoding
-        console.log('[PDF Export] Custom fonts available but not embedded. Using Helvetica fallback.');
-      }
-    } catch (error) {
-      console.warn('[PDF Export] Font loading failed, using Helvetica:', error);
-    }
-  };
-
-  /**
-   * Helper: Format currency with German Locale (de-DE) -> "1.200,50 €"
-   * EURO FIX: Always place Euro symbol AFTER the number with a space, matching German formatting standards.
-   */
-  const formatCurrencyPDF = (amount: number, currency: CurrencyCode = 'EUR'): string => {
-    const rounded = Math.round(amount * 100) / 100;
-    const wholePart = Math.floor(rounded);
-    const centsPart = Math.round((rounded - wholePart) * 100);
-    
-    // German locale: period for thousands, comma for decimals
-    const formattedWhole = wholePart.toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.');
-    
-    const currencySymbols: Record<CurrencyCode, string> = {
-      EUR: '€', USD: '$', INR: '₹', CNY: '¥', GBP: '£',
-    };
-    
-    const symbol = currencySymbols[currency];
-    
-    // German format: "1.200,50 €" (space before symbol, period thousands, comma decimal)
-    return `${formattedWhole},${centsPart.toString().padStart(2, '0')} ${symbol}`;
-  };
-
-  /**
-   * Helper: Draw a glassmorphism rectangle with semi-transparent white fill
-   * GLASSMORPHISM GSTATE: Uses setGState() with opacity to create the "premium glass" effect.
-   * This simulates the backdrop-blur/transparency look from the website UI.
-   */
-  const drawGlassRect = (
-    doc: any,
-    x: number,
-    y: number,
-    width: number,
-    height: number,
-    borderRadius: number = 2,
-    opacity: number = 0.12
-  ): void => {
-    // Create Graphics State with opacity for glassmorphism effect
-    const gState = doc.GState({
-      opacity: opacity, // Semi-transparent (0.1-0.15 range for subtle glass effect)
-    });
-    const gStateId = doc.setGState(gState);
-    
-    // Draw semi-transparent white rectangle
-    doc.setFillColor(255, 255, 255); // White fill
-    doc.roundedRect(x, y, width, height, borderRadius, borderRadius, 'F');
-    
-    // Reset graphics state
-    doc.setGState(doc.GState({ opacity: 1.0 }));
-    
-    // Add subtle white border for glass edge
-    doc.setDrawColor(255, 255, 255);
-    doc.setLineWidth(0.1);
-    doc.roundedRect(x, y, width, height, borderRadius, borderRadius, 'S');
-  };
-
-  /**
-   * PDF EXPORT: CRITICAL RECOVERY - Zero-Fail Native Architecture
-   * Complete rebuild with strict rendering order and background sync
-   */
+  // Modular PDF export pipeline with central payload.
   const handleExportPDF = async () => {
     trackEvent('export_pdf', 'Calculator', isComparisonMode ? 'comparison_mode' : 'single_mode');
     if (typeof window !== 'undefined' && window.gtag) {
@@ -1769,473 +1724,89 @@ export default function StudyCostCalculator() {
     try {
       // Validation
       if (!primaryCalculated || (!primaryScenario.selectedUniversity && !primaryScenario.isOtherUniversity)) {
-        throw new Error('No results to export. Please select a university first.');
+        throw new Error(t('selectUniversityFirst'));
       }
 
-      // Import libraries
-      const { jsPDF } = await import('jspdf');
-      const autoTableModule = await import('jspdf-autotable');
-      
-      if ((autoTableModule as any).applyPlugin) {
-        (autoTableModule as any).applyPlugin(jsPDF);
-      }
+      const localizedCity = primaryScenario.targetCity
+        ? getLocalizedCityName(primaryScenario.targetCity, locale)
+        : t('notSelected');
+      const localizedHousingType = primaryScenario.housingType === 'dorm'
+        ? t('housingTypeDorm')
+        : primaryScenario.housingType === 'wg'
+          ? t('housingTypeWG')
+          : primaryScenario.housingType === 'private'
+            ? t('housingTypePrivate')
+            : t('notSelected');
 
-      // ========== STEP 1: INITIALIZE DOC (A4, mm) ==========
-      const doc = new jsPDF('p', 'mm', 'a4');
-      
-      if (typeof (doc as any).autoTable !== 'function') {
-        throw new Error('autoTable not available');
-      }
+      const recommendationItems = visibleChecklistItems
+        .filter((item) => !checklistState[item.id])
+        .map((item) => item.label);
 
-      const pageWidth = 210; // A4 width in mm
-      const pageHeight = 297; // A4 height in mm
-      const margin = 15;
-
-      // Color constants
-      const BACKGROUND_COLOR = [15, 23, 42]; // #0f172a
-      const ACCENT_BLUE = [147, 197, 253]; // #93c5fd
-      const TEXT_WHITE = [255, 255, 255]; // #ffffff
-      const BORDER_SLATE = [51, 65, 85]; // #334155
-      const ERROR_RED = [239, 68, 68]; // #ef4444
-      const INDIGO_HEADER = [79, 70, 229]; // #4f46e5
-      const TABLE_BODY = [30, 41, 59]; // #1e293b
-      const MUTED_GRAY = [148, 163, 184]; // #94a3b8
-
-      // Global background hook - MUST be called FIRST in didDrawPage
-      const drawPageBackground = () => {
-        doc.setFillColor(BACKGROUND_COLOR[0], BACKGROUND_COLOR[1], BACKGROUND_COLOR[2]);
-        doc.rect(0, 0, pageWidth, pageHeight, 'F');
-      };
-
-      // ========== STEP 2: PAINT FIRST PAGE BACKGROUND ==========
-      drawPageBackground();
-
-      // ========== STEP 3: ADD HEADER & BRANDING (Y: 15mm) ==========
-      const headerX = 15;
-      const headerY = 15;
-      
-      // Logo: Rounded rectangle (#93c5fd) for calculator icon
-      doc.setFillColor(ACCENT_BLUE[0], ACCENT_BLUE[1], ACCENT_BLUE[2]);
-      doc.roundedRect(headerX, headerY, 8, 8, 1.5, 1.5, 'F');
-      doc.setDrawColor(TEXT_WHITE[0], TEXT_WHITE[1], TEXT_WHITE[2]);
-      doc.setLineWidth(0.5);
-      doc.roundedRect(headerX + 1, headerY + 1, 6, 6, 1, 1, 'S');
-      // Calculator screen lines
-      doc.line(headerX + 2, headerY + 3, headerX + 6, headerY + 3);
-      doc.line(headerX + 2, headerY + 4.5, headerX + 6, headerY + 4.5);
-      doc.line(headerX + 2, headerY + 6, headerX + 6, headerY + 6);
-      
-      // Brand Text: "MyStudy" in WHITE, "Costs" in LIGHT-BLUE (Helvetica-Bold)
-      doc.setFontSize(20);
-      doc.setFont('helvetica', 'bold');
-      doc.setTextColor(TEXT_WHITE[0], TEXT_WHITE[1], TEXT_WHITE[2]);
-      doc.text('MyStudy', headerX + 10, headerY + 6);
-      const myStudyWidth = doc.getTextWidth('MyStudy');
-      doc.setTextColor(ACCENT_BLUE[0], ACCENT_BLUE[1], ACCENT_BLUE[2]);
-      doc.text('Costs', headerX + 10 + myStudyWidth, headerY + 6);
-      
-      // Horizontal Rule: Subtle white line at Y: 30mm (0.1 opacity)
-      doc.setDrawColor(TEXT_WHITE[0], TEXT_WHITE[1], TEXT_WHITE[2]);
-      doc.setLineWidth(0.1);
-      doc.line(margin, 30, pageWidth - margin, 30);
-
-      // Currency formatter: "€ 1.234,56"
-      const formatCurrency = (amount: number, currency: CurrencyCode = 'EUR'): string => {
-        const rounded = Math.round(amount * 100) / 100;
-        const wholePart = Math.floor(rounded);
-        const centsPart = Math.round((rounded - wholePart) * 100);
-        const formattedWhole = wholePart.toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.');
-        const currencySymbols: Record<CurrencyCode, string> = {
-          EUR: '€', USD: '$', INR: '₹', CNY: '¥', GBP: '£',
-        };
-        const symbol = currencySymbols[currency];
-        return `${symbol} ${formattedWhole},${centsPart.toString().padStart(2, '0')}`;
-      };
-
-      // Data gathering
-      const pdfData = {
-        university: primaryScenario.selectedUniversity || 'Not Selected',
-        city: primaryScenario.targetCity ? getLocalizedCityName(primaryScenario.targetCity, locale) : 'Not Selected',
-        country: primaryScenario.originCountry || 'Not Selected',
-        housingType: primaryScenario.housingType === 'dorm' ? t('housingTypeDorm') : 
-                     primaryScenario.housingType === 'wg' ? t('housingTypeWG') : 
-                     primaryScenario.housingType === 'private' ? t('housingTypePrivate') : 'Not Selected',
-        monthlyRent: Number(primaryCalculated.monthlyRent) || 0,
-        monthlyInsurance: Number(primaryCalculated.monthlyInsurance) || 0,
-        monthlyRundfunkbeitrag: Number(primaryCalculated.monthlyRundfunkbeitrag) || 0,
-        semesterFeeMonthly: Number(primaryCalculated.semesterFeeMonthly) || 0,
-        nonEUTuitionFeeMonthly: Number(primaryCalculated.nonEUTuitionFeeMonthly) || 0,
-        monthlyTotal: Number(primaryCalculated.monthlyTotal) || 0,
-        annualTotal: Number(primaryCalculated.annualTotal) || 0,
-        securityDeposit: Number(primaryCalculated.securityDeposit) || 0,
-        initialHouseholdSetup: Number(primaryCalculated.initialHouseholdSetup) || 0,
-        arrivalCostsTotal: Number(primaryCalculated.arrivalCostsTotal) || 0,
-        upfrontTotal: Number(primaryCalculated.upfrontTotal) || 0,
-      };
-      
-      const comparisonPdfData = isComparisonMode && comparisonCalculated ? {
-        city: comparisonScenario.targetCity ? getLocalizedCityName(comparisonScenario.targetCity, locale) : 'Not Selected',
-        monthlyRent: Number(comparisonCalculated.monthlyRent) || 0,
-        monthlyInsurance: Number(comparisonCalculated.monthlyInsurance) || 0,
-        monthlyRundfunkbeitrag: Number(comparisonCalculated.monthlyRundfunkbeitrag) || 0,
-        semesterFeeMonthly: Number(comparisonCalculated.semesterFeeMonthly) || 0,
-        nonEUTuitionFeeMonthly: Number(comparisonCalculated.nonEUTuitionFeeMonthly) || 0,
-        monthlyTotal: Number(comparisonCalculated.monthlyTotal) || 0,
-        annualTotal: Number(comparisonCalculated.annualTotal) || 0,
-        securityDeposit: Number(comparisonCalculated.securityDeposit) || 0,
-        initialHouseholdSetup: Number(comparisonCalculated.initialHouseholdSetup) || 0,
-        arrivalCostsTotal: Number(comparisonCalculated.arrivalCostsTotal) || 0,
-      } : null;
-
-      // ========== STEP 4: EXECUTE TABLES (with didDrawPage background hook) ==========
-      let startY = 35; // Start at Y: 35mm (below header and rule)
-
-      if (!isComparisonMode) {
-        // TABLE 1: Profile Info (Y: 35mm)
-        const profileData = [
-          ['University', pdfData.university],
-          ['City', pdfData.city],
-          ['Country of Origin', pdfData.country],
-          ['Housing Type', pdfData.housingType],
-        ];
-        
-        (doc as any).autoTable({
-          startY: startY,
-          head: [['Field', 'Value']],
-          body: profileData,
-          theme: 'grid',
-          didDrawPage: (data: any) => {
-            drawPageBackground(); // Background FIRST on every page
-          },
-          headStyles: { 
-            fillColor: INDIGO_HEADER,
-            textColor: TEXT_WHITE,
-            fontStyle: 'bold',
-            fontSize: 11,
-          },
-          bodyStyles: { 
-            fillColor: TABLE_BODY,
-            textColor: TEXT_WHITE,
-            fontSize: 10,
-            lineColor: BORDER_SLATE,
-          },
-          alternateRowStyles: { 
-            fillColor: BACKGROUND_COLOR,
-            textColor: TEXT_WHITE,
-          },
-          margin: { left: margin, right: margin },
-          styles: { 
-            fillColor: TABLE_BODY,
-            textColor: TEXT_WHITE,
-            lineColor: BORDER_SLATE,
-            lineWidth: 0.1,
-            fontSize: 10,
-            cellPadding: 5,
-          },
-        });
-        
-        startY = (doc as any).lastAutoTable.finalY + 10;
-
-        // TABLE 2: Monthly Expenses
-        const monthlyExpenses = [
-          [t('averageRent'), formatCurrency(pdfData.monthlyRent * conversionRate, selectedCurrency)],
-          [t('averageHealthInsurance'), formatCurrency(pdfData.monthlyInsurance * conversionRate, selectedCurrency)],
-          [t('rundfunkbeitrag'), formatCurrency(pdfData.monthlyRundfunkbeitrag * conversionRate, selectedCurrency)],
-          [t('averageSemesterFeeProRata'), formatCurrency(pdfData.semesterFeeMonthly * conversionRate, selectedCurrency)],
-          ...(pdfData.nonEUTuitionFeeMonthly > 0 ? [[t('nonEUTuitionFeeProRata'), formatCurrency(pdfData.nonEUTuitionFeeMonthly * conversionRate, selectedCurrency)]] : []),
-          [t('livingExpenses'), formatCurrency(monthlyLivingExpenses * conversionRate, selectedCurrency)],
-        ];
-        
-        (doc as any).autoTable({
-          startY: startY,
-          head: [['Expense Item', 'Monthly Cost']],
-          body: monthlyExpenses,
-          foot: [[t('monthlyTotal'), formatCurrency(pdfData.monthlyTotal * conversionRate, selectedCurrency)]],
-          theme: 'grid',
-          didDrawPage: (data: any) => {
-            drawPageBackground();
-          },
-          headStyles: { 
-            fillColor: INDIGO_HEADER,
-            textColor: TEXT_WHITE,
-            fontStyle: 'bold',
-            fontSize: 11,
-          },
-          footStyles: {
-            fillColor: INDIGO_HEADER,
-            textColor: TEXT_WHITE,
-            fontStyle: 'bold',
-            fontSize: 12,
-          },
-          bodyStyles: { 
-            fillColor: TABLE_BODY,
-            textColor: TEXT_WHITE,
-            fontSize: 10,
-            lineColor: BORDER_SLATE,
-          },
-          alternateRowStyles: { 
-            fillColor: BACKGROUND_COLOR,
-            textColor: TEXT_WHITE,
-          },
-          margin: { left: margin, right: margin },
-          styles: { 
-            fillColor: TABLE_BODY,
-            textColor: TEXT_WHITE,
-            lineColor: BORDER_SLATE,
-            lineWidth: 0.1,
-            fontSize: 10,
-            cellPadding: 5,
-          },
-        });
-        
-        startY = (doc as any).lastAutoTable.finalY + 10;
-
-        // TABLE 3: One-time Arrival Costs
-        const arrivalCosts = [
-          [t('securityDeposit'), formatCurrency(pdfData.securityDeposit * conversionRate, selectedCurrency)],
-          [t('initialHouseholdSetup'), formatCurrency(pdfData.initialHouseholdSetup * conversionRate, selectedCurrency)],
-        ];
-        
-        (doc as any).autoTable({
-          startY: startY,
-          head: [['Item', 'Amount']],
-          body: arrivalCosts,
-          foot: [[t('arrivalCostsTotal'), formatCurrency(pdfData.arrivalCostsTotal * conversionRate, selectedCurrency)]],
-          theme: 'grid',
-          didDrawPage: (data: any) => {
-            drawPageBackground();
-          },
-          headStyles: { 
-            fillColor: INDIGO_HEADER,
-            textColor: TEXT_WHITE,
-            fontStyle: 'bold',
-            fontSize: 11,
-          },
-          footStyles: {
-            fillColor: INDIGO_HEADER,
-            textColor: TEXT_WHITE,
-            fontStyle: 'bold',
-            fontSize: 12,
-          },
-          bodyStyles: { 
-            fillColor: TABLE_BODY,
-            textColor: TEXT_WHITE,
-            fontSize: 10,
-            lineColor: BORDER_SLATE,
-          },
-          alternateRowStyles: { 
-            fillColor: BACKGROUND_COLOR,
-            textColor: TEXT_WHITE,
-          },
-          margin: { left: margin, right: margin },
-          styles: { 
-            fillColor: TABLE_BODY,
-            textColor: TEXT_WHITE,
-            lineColor: BORDER_SLATE,
-            lineWidth: 0.1,
-            fontSize: 10,
-            cellPadding: 5,
-          },
-        });
-        
-        startY = (doc as any).lastAutoTable.finalY + 15;
-
-        // Total First Year Summary
-        const firstYearTotal = (pdfData.annualTotal + pdfData.upfrontTotal) * conversionRate;
-        doc.setFillColor(INDIGO_HEADER[0], INDIGO_HEADER[1], INDIGO_HEADER[2]);
-        doc.roundedRect(margin, startY, pageWidth - (margin * 2), 25, 3, 3, 'F');
-        
-        doc.setFontSize(11);
-        doc.setFont('helvetica', 'bold');
-        doc.setTextColor(TEXT_WHITE[0], TEXT_WHITE[1], TEXT_WHITE[2]);
-        doc.text(t('totalFirstYear'), margin + 5, startY + 8);
-        
-        doc.setFontSize(16);
-        doc.setFont('helvetica', 'bold');
-        doc.setTextColor(TEXT_WHITE[0], TEXT_WHITE[1], TEXT_WHITE[2]);
-        doc.text(formatCurrency(firstYearTotal, selectedCurrency), margin + 5, startY + 18);
-
-      } else {
-        // COMPARISON MODE: [Item, Scenario A, Scenario B, Difference]
-        if (!comparisonPdfData) {
-          throw new Error('Comparison data not available');
-        }
-        
-        const cityA = pdfData.city;
-        const cityB = comparisonPdfData.city;
-        
-        doc.setFontSize(16);
-        doc.setFont('helvetica', 'bold');
-        doc.setTextColor(TEXT_WHITE[0], TEXT_WHITE[1], TEXT_WHITE[2]);
-        doc.text(`City Comparison: ${cityA} vs. ${cityB}`, margin, startY);
-        startY += 8;
-
-        const comparisonRows = [
-          [
-            t('averageRent'),
-            formatCurrency(pdfData.monthlyRent * conversionRate, selectedCurrency),
-            formatCurrency(comparisonPdfData.monthlyRent * conversionRate, selectedCurrency),
-            formatCurrency((comparisonPdfData.monthlyRent - pdfData.monthlyRent) * conversionRate, selectedCurrency),
+      const payload = buildStudyCostExportPayload({
+        locale,
+        currencyCode: selectedCurrency,
+        university: primaryScenario.selectedUniversity || t('notSelected'),
+        city: localizedCity,
+        countryOfOrigin: primaryScenario.originCountry || t('notSelected'),
+        housingType: localizedHousingType,
+        monthlyTotal: formatCurrency(monthlyTotal * conversionRate, selectedCurrency),
+        annualTotal: formatCurrency(annualTotal * conversionRate, selectedCurrency),
+        upfrontTotal: formatCurrency(upfrontTotal * conversionRate, selectedCurrency),
+        firstYearTotal: formatCurrency((annualTotal + upfrontTotal) * conversionRate, selectedCurrency),
+        costBreakdown: [
+          { label: t('averageRent'), value: formatCurrency(primaryCalculated.monthlyRent * conversionRate, selectedCurrency) },
+          { label: t('averageHealthInsurance'), value: formatCurrency(primaryCalculated.monthlyInsurance * conversionRate, selectedCurrency) },
+          { label: t('rundfunkbeitrag'), value: formatCurrency(primaryCalculated.monthlyRundfunkbeitrag * conversionRate, selectedCurrency) },
+          { label: t('averageSemesterFeeProRata'), value: formatCurrency(primaryCalculated.semesterFeeMonthly * conversionRate, selectedCurrency) },
+          ...(primaryCalculated.nonEUTuitionFeeMonthly > 0
+            ? [{ label: t('nonEUTuitionFeeProRata'), value: formatCurrency(primaryCalculated.nonEUTuitionFeeMonthly * conversionRate, selectedCurrency) }]
+            : []),
+          { label: t('livingExpenses'), value: formatCurrency(monthlyLivingExpenses * conversionRate, selectedCurrency) },
+          { label: t('monthlyTotal'), value: formatCurrency(primaryCalculated.monthlyTotal * conversionRate, selectedCurrency) },
+        ],
+        recommendationItems: recommendationItems.length > 0
+          ? recommendationItems
+          : [t('noOpenNextSteps')],
+        i18n: {
+          reportTitle: t('pdfReportTitle'),
+          profileUniversity: t('pdfProfileUniversity'),
+          profileCity: t('pdfProfileCity'),
+          profileCountryOfOrigin: t('pdfProfileCountry'),
+          profileHousingType: t('pdfProfileHousingType'),
+          recommendationsTitle: t('pdfNextStepsTitle'),
+          recommendationsNote: t('pdfNextStepsNote'),
+          financialAdviceTitle: t('pdfFinancialAdviceTitle'),
+          checklistTitle: t('pdfChecklistTitle'),
+          tipPrefix: t('pdfTipPrefix'),
+          checklistItems: [
+            t('pdfChecklistItem1'),
+            t('pdfChecklistItem2'),
+            t('pdfChecklistItem3'),
+            t('pdfChecklistItem4'),
           ],
-          [
-            t('averageHealthInsurance'),
-            formatCurrency(pdfData.monthlyInsurance * conversionRate, selectedCurrency),
-            formatCurrency(comparisonPdfData.monthlyInsurance * conversionRate, selectedCurrency),
-            formatCurrency((comparisonPdfData.monthlyInsurance - pdfData.monthlyInsurance) * conversionRate, selectedCurrency),
-          ],
-          [
-            t('rundfunkbeitrag'),
-            formatCurrency(pdfData.monthlyRundfunkbeitrag * conversionRate, selectedCurrency),
-            formatCurrency(comparisonPdfData.monthlyRundfunkbeitrag * conversionRate, selectedCurrency),
-            formatCurrency((comparisonPdfData.monthlyRundfunkbeitrag - pdfData.monthlyRundfunkbeitrag) * conversionRate, selectedCurrency),
-          ],
-          [
-            t('averageSemesterFeeProRata'),
-            formatCurrency(pdfData.semesterFeeMonthly * conversionRate, selectedCurrency),
-            formatCurrency(comparisonPdfData.semesterFeeMonthly * conversionRate, selectedCurrency),
-            formatCurrency((comparisonPdfData.semesterFeeMonthly - pdfData.semesterFeeMonthly) * conversionRate, selectedCurrency),
-          ],
-          [
-            t('livingExpenses'),
-            formatCurrency(monthlyLivingExpenses * conversionRate, selectedCurrency),
-            formatCurrency(monthlyLivingExpenses * conversionRate, selectedCurrency),
-            formatCurrency(0, selectedCurrency),
-          ],
-        ];
-        
-        const monthlyDiff = comparisonPdfData.monthlyTotal - pdfData.monthlyTotal;
-        comparisonRows.push([
-          t('monthlyTotal'),
-          formatCurrency(pdfData.monthlyTotal * conversionRate, selectedCurrency),
-          formatCurrency(comparisonPdfData.monthlyTotal * conversionRate, selectedCurrency),
-          formatCurrency(monthlyDiff * conversionRate, selectedCurrency),
-        ]);
-        
-        (doc as any).autoTable({
-          startY: startY,
-          head: [['Expense Item', 'Scenario A', 'Scenario B', 'Difference']],
-          body: comparisonRows,
-          theme: 'grid',
-          didDrawPage: (data: any) => {
-            drawPageBackground();
-          },
-          headStyles: { 
-            fillColor: INDIGO_HEADER,
-            textColor: TEXT_WHITE,
-            fontStyle: 'bold',
-            fontSize: 10,
-          },
-          bodyStyles: { 
-            fillColor: TABLE_BODY,
-            textColor: TEXT_WHITE,
-            fontSize: 9,
-            lineColor: BORDER_SLATE,
-          },
-          alternateRowStyles: { 
-            fillColor: BACKGROUND_COLOR,
-            textColor: TEXT_WHITE,
-          },
-          margin: { left: margin, right: margin },
-          styles: { 
-            fillColor: TABLE_BODY,
-            textColor: TEXT_WHITE,
-            lineColor: BORDER_SLATE,
-            lineWidth: 0.1,
-            fontSize: 9,
-            cellPadding: 4,
-          },
-          didParseCell: (data: any) => {
-            // RED LOGIC: If Difference column (index 3) AND value is negative, set to ERROR_RED
-            if (data.column.index === 3 && data.row.index < comparisonRows.length) {
-              const cellText = data.cell.text[0] || '';
-              const numericStr = cellText.replace(/[^\d.,-]/g, '').replace(/\./g, '').replace(',', '.');
-              const numericValue = parseFloat(numericStr);
-              
-              if (!isNaN(numericValue) && numericValue < 0) {
-                data.cell.styles.textColor = ERROR_RED;
-                data.cell.styles.fontStyle = 'bold';
-              }
-            }
-            // Highlight total row
-            if (data.row.index === comparisonRows.length - 1) {
-              data.cell.styles.fillColor = INDIGO_HEADER;
-              data.cell.styles.textColor = TEXT_WHITE;
-              data.cell.styles.fontStyle = 'bold';
-              data.cell.styles.fontSize = 10;
-            }
-          },
-        });
-        
-        startY = (doc as any).lastAutoTable.finalY + 15;
-
-        // Summary box
-        const annualDiff = (comparisonPdfData.annualTotal - pdfData.annualTotal) * conversionRate;
-        const savingsText = annualDiff < 0 ? t('estimatedTotalSavings') : t('additionalCostPerYear');
-        
-        doc.setFillColor(INDIGO_HEADER[0], INDIGO_HEADER[1], INDIGO_HEADER[2]);
-        doc.roundedRect(margin, startY, pageWidth - (margin * 2), 25, 3, 3, 'F');
-        
-        doc.setFontSize(11);
-        doc.setFont('helvetica', 'bold');
-        doc.setTextColor(TEXT_WHITE[0], TEXT_WHITE[1], TEXT_WHITE[2]);
-        doc.text(savingsText, margin + 5, startY + 8);
-        
-        doc.setFontSize(16);
-        doc.setFont('helvetica', 'bold');
-        doc.setTextColor(annualDiff < 0 ? TEXT_WHITE[0] : ERROR_RED[0], annualDiff < 0 ? TEXT_WHITE[1] : ERROR_RED[1], annualDiff < 0 ? TEXT_WHITE[2] : ERROR_RED[2]);
-        doc.text(formatCurrency(Math.abs(annualDiff), selectedCurrency), margin + 5, startY + 18);
-      }
-
-      // ========== STEP 5: ADD FOOTER (Legal Disclaimer on LAST page only) ==========
-      const totalPages = doc.getNumberOfPages();
-      
-      // Ensure background on all pages (before adding footer)
-      for (let i = 1; i <= totalPages; i++) {
-        doc.setPage(i);
-        drawPageBackground();
-      }
-      
-      // Add footer only on last page
-      doc.setPage(totalPages);
-      
-      // Legal Disclaimer: Fixed bottom position
-      doc.setFontSize(8);
-      doc.setFont('helvetica', 'italic');
-      doc.setTextColor(MUTED_GRAY[0], MUTED_GRAY[1], MUTED_GRAY[2]);
-      let disclaimerText = t('legalDisclaimer');
-      if (!disclaimerText.includes('December 2025')) {
-        disclaimerText += ' Status: December 2025.';
-      }
-      const splitDisclaimer = doc.splitTextToSize(disclaimerText, pageWidth - (margin * 2));
-      const disclaimerY = pageHeight - 35;
-      doc.text(splitDisclaimer, margin, disclaimerY, {
-        align: 'left',
-        maxWidth: pageWidth - (margin * 2),
+          tipHighRent: t('pdfTipHighRent'),
+          tipHighInsurance: t('pdfTipHighInsurance'),
+          tipHighMonthlyTotal: t('pdfTipHighMonthlyTotal'),
+          tipPrivateHousing: t('pdfTipPrivateHousing'),
+          tipVisaPlanning: t('pdfTipVisaPlanning'),
+          tipBudgetTracking: t('pdfTipBudgetTracking', { city: localizedCity }),
+        },
       });
-      
-      // Page number
-      doc.setFontSize(8);
-      doc.setFont('helvetica', 'normal');
-      doc.setTextColor(MUTED_GRAY[0], MUTED_GRAY[1], MUTED_GRAY[2]);
-      doc.text(
-        `Page ${totalPages} of ${totalPages} | Generated by mystudycosts.com`,
-        pageWidth / 2,
-        pageHeight - 15,
-        { align: 'center' }
-      );
-      
-      // Generate filename
-      const cityA = pdfData.city.replace(/\s+/g, '_') || 'estimate';
-      const cityB = comparisonPdfData?.city.replace(/\s+/g, '_') || 'estimate';
-      const fileName = isComparisonMode
-        ? `MyStudyCosts_Comparison_${cityA}_vs_${cityB}_${new Date().toISOString().split('T')[0]}.pdf`
-        : `MyStudyCosts_Breakdown_${cityA}_${new Date().toISOString().split('T')[0]}.pdf`;
-      
-      doc.save(fileName);
+
+      const blob = await pdf(<StudyReportPDF payload={payload} />).toBlob();
+      const fileName = buildStudyReportFileName(localizedCity);
+      const objectUrl = URL.createObjectURL(blob);
+      const anchor = document.createElement('a');
+      anchor.href = objectUrl;
+      anchor.download = fileName;
+      document.body.appendChild(anchor);
+      anchor.click();
+      anchor.remove();
+      URL.revokeObjectURL(objectUrl);
       
     } catch (error) {
       console.error('[PDF Export] ERROR:', error);
-      alert(t('pdfExportError') + '\n\nCheck console for details.');
+      alert(t('pdfExportError') + '\n\n' + t('checkConsoleDetails'));
     } finally {
       setIsExportingPDF(false);
     }
@@ -2300,18 +1871,18 @@ export default function StudyCostCalculator() {
               onClick={handleExportPDF}
               disabled={(!primaryScenario.selectedUniversity && !primaryScenario.isOtherUniversity) || (!comparisonScenario.selectedUniversity && !comparisonScenario.isOtherUniversity) || isExportingPDF}
               className="flex items-center gap-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 disabled:bg-slate-700 disabled:cursor-not-allowed disabled:opacity-50 text-white text-sm font-medium rounded-lg transition-colors whitespace-nowrap"
-              aria-label="Export comparison as PDF"
-              title="Export comparison as PDF"
+              aria-label={t('downloadReport')}
+              title={t('downloadReport')}
             >
               {isExportingPDF ? (
                 <>
                   <Loader2 className="w-4 h-4 animate-spin" />
-                  <span className="hidden sm:inline">Generating...</span>
+                  <span className="hidden sm:inline">{t('generating')}</span>
                 </>
               ) : (
                 <>
                   <Download className="w-4 h-4" />
-                  <span className="hidden sm:inline">Export PDF</span>
+                  <span className="hidden sm:inline">{t('downloadReport')}</span>
                 </>
               )}
             </button>
@@ -2373,6 +1944,7 @@ export default function StudyCostCalculator() {
             icon={<MapPin className="w-4 h-4" />}
             label={t('targetCityLabel')}
             cardZIndex={95}
+            dataTestId="calculator-city-select"
           />
 
           {/* University Search - Only shown after city is selected */}
@@ -2381,6 +1953,7 @@ export default function StudyCostCalculator() {
             value={primaryScenario.selectedUniversity}
             isOther={primaryScenario.isOtherUniversity}
             disabled={!primaryScenario.targetCity}
+            dataTestId="calculator-university-select"
             onSelect={(universityName) => {
               if (universityName === 'OTHER_NOT_LISTED') {
                 setPrimaryScenario(prev => ({
@@ -2433,7 +2006,7 @@ export default function StudyCostCalculator() {
                   value={primaryScenario.manualRent || ''}
                   onChange={(e) => setPrimaryScenario(prev => ({ ...prev, manualRent: parseFloat(e.target.value) || undefined }))}
                   className="w-full bg-black/40 border border-white/10 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
-                  placeholder="e.g., 600"
+                  placeholder={t('manualRentPlaceholder')}
                 />
               </div>
               <div>
@@ -2443,7 +2016,7 @@ export default function StudyCostCalculator() {
                   value={primaryScenario.manualSemesterFee || ''}
                   onChange={(e) => setPrimaryScenario(prev => ({ ...prev, manualSemesterFee: parseFloat(e.target.value) || undefined }))}
                   className="w-full bg-black/40 border border-white/10 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
-                  placeholder="e.g., 350"
+                  placeholder={t('manualSemesterFeePlaceholder')}
                 />
               </div>
             </div>
@@ -2551,7 +2124,7 @@ export default function StudyCostCalculator() {
                     </div>
                     {primaryScenario.housingType === 'dorm' && (
                       <p className="text-white/50 text-xs mt-1">
-                        Estimated: {formatCurrency((selectedUniversityData?.avgRent || STUDY_DATA.CITIES[primaryScenario.targetCity] || 600) * 0.6)}/month
+                        Estimated: {formatCurrency((selectedUniversityData?.avgRent || STUDY_DATA.CITIES[primaryScenario.targetCity] || DEFAULT_AVG_RENT_FALLBACK) * HOUSING_MULTIPLIER_DORM)}/month
                       </p>
                     )}
                   </div>
@@ -2593,7 +2166,7 @@ export default function StudyCostCalculator() {
                     </div>
                     {primaryScenario.housingType === 'wg' && (
                       <p className="text-white/50 text-xs mt-1">
-                        Estimated: {formatCurrency(selectedUniversityData?.avgRent || STUDY_DATA.CITIES[primaryScenario.targetCity] || 600)}/month
+                        Estimated: {formatCurrency(selectedUniversityData?.avgRent || STUDY_DATA.CITIES[primaryScenario.targetCity] || DEFAULT_AVG_RENT_FALLBACK)}/month
                       </p>
                     )}
                   </div>
@@ -2635,7 +2208,7 @@ export default function StudyCostCalculator() {
                     </div>
                     {primaryScenario.housingType === 'private' && (
                       <p className="text-white/50 text-xs mt-1">
-                        Estimated: {formatCurrency((selectedUniversityData?.avgRent || STUDY_DATA.CITIES[primaryScenario.targetCity] || 600) * 1.5)}/month
+                        Estimated: {formatCurrency((selectedUniversityData?.avgRent || STUDY_DATA.CITIES[primaryScenario.targetCity] || DEFAULT_AVG_RENT_FALLBACK) * HOUSING_MULTIPLIER_PRIVATE)}/month
                       </p>
                     )}
                   </div>
@@ -2647,6 +2220,7 @@ export default function StudyCostCalculator() {
                 <label className="block text-xs text-white/60 mb-2">{t('housingRentOverride')}</label>
                 <input
                   type="number"
+                  data-testid="calculator-rent-override"
                   value={primaryScenario.rentOverride || ''}
                   onChange={(e) => setPrimaryScenario(prev => ({ ...prev, rentOverride: parseFloat(e.target.value) || undefined }))}
                   className="w-full bg-black/40 border border-white/10 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -2797,7 +2371,7 @@ export default function StudyCostCalculator() {
             <div className="flex items-start justify-between mb-3">
               <label className="block text-sm font-medium text-white/80 flex items-center gap-2">
                 <Shield className="w-4 h-4" />
-                Health Insurance Type
+                {t('healthInsuranceType')}
               </label>
               <button
                 type="button"
@@ -2805,7 +2379,7 @@ export default function StudyCostCalculator() {
                 onClick={() => setShowInsuranceInfo(!showInsuranceInfo)}
               >
                 <Info className="w-3 h-3" />
-                Learn more
+                {t('learnMore')}
               </button>
             </div>
             
@@ -2813,10 +2387,10 @@ export default function StudyCostCalculator() {
             {showInsuranceInfo && (
               <div className="mb-3 p-3 bg-blue-950/30 border border-blue-500/20 rounded-lg">
               <p className="text-white/80 text-xs mb-2">
-                <strong className="text-white">Public:</strong> Standard for students under 30, comprehensive coverage, fixed price (average monthly: {formatCurrency(STUDY_DATA.FIXED_COSTS.healthInsurancePublic)}).
+                <strong className="text-white">{t('publicInsuranceLabel')}:</strong> {t('publicInsuranceDescription', { amount: formatCurrency(STUDY_DATA.FIXED_COSTS.healthInsurancePublic) })}
               </p>
               <p className="text-white/80 text-xs">
-                <strong className="text-white">Private:</strong> Depends on age/health, often required for students over 30 or language students (average monthly: {formatCurrency(STUDY_DATA.FIXED_COSTS.healthInsurancePrivate)}).
+                <strong className="text-white">{t('privateInsuranceLabel')}:</strong> {t('privateInsuranceDescription', { amount: formatCurrency(STUDY_DATA.FIXED_COSTS.healthInsurancePrivate) })}
               </p>
               </div>
             )}
@@ -2831,7 +2405,7 @@ export default function StudyCostCalculator() {
                       onChange={(e) => setPrimaryScenario(prev => ({ ...prev, insuranceType: e.target.value as InsuranceType }))}
                   className="w-4 h-4 text-blue-600 bg-black/40 border-white/20 focus:ring-blue-500 focus:ring-2"
                 />
-                <span className="text-white/80">Public</span>
+                <span className="text-white/80">{t('publicInsuranceLabel')}</span>
               </label>
               <label className="flex items-center gap-2 cursor-pointer">
                     <input
@@ -2842,11 +2416,11 @@ export default function StudyCostCalculator() {
                       onChange={(e) => setPrimaryScenario(prev => ({ ...prev, insuranceType: e.target.value as InsuranceType }))}
                   className="w-4 h-4 text-blue-600 bg-black/40 border-white/20 focus:ring-blue-500 focus:ring-2"
                 />
-                <span className="text-white/80">Private</span>
+                <span className="text-white/80">{t('privateInsuranceLabel')}</span>
               </label>
             </div>
             <p className="text-white/50 text-xs mt-2">
-              Average monthly price: {formatCurrency(primaryCalculated.monthlyInsurance)}
+              {t('averageMonthlyPrice')}: {formatCurrency(primaryCalculated.monthlyInsurance)}
             </p>
           </div>
         </div>
@@ -2867,8 +2441,8 @@ export default function StudyCostCalculator() {
                 onClick={handleExportPDF}
                 disabled={!primaryScenario.selectedUniversity && !primaryScenario.isOtherUniversity || isExportingPDF}
                 className="flex items-center gap-2 px-3 py-2 bg-blue-600 hover:bg-blue-700 disabled:bg-slate-700 disabled:cursor-not-allowed disabled:opacity-50 text-white text-sm font-medium rounded-lg transition-colors"
-                aria-label={t('exportAsPDF')}
-                title={(primaryScenario.selectedUniversity || primaryScenario.isOtherUniversity) ? t('exportAsPDF') : t('selectUniversityFirst')}
+                aria-label={t('downloadReport')}
+                title={(primaryScenario.selectedUniversity || primaryScenario.isOtherUniversity) ? t('downloadReport') : t('selectUniversityFirst')}
               >
                 {isExportingPDF ? (
                   <>
@@ -2878,7 +2452,7 @@ export default function StudyCostCalculator() {
                 ) : (
                   <>
                     <Download className="w-4 h-4" />
-                    <span className="hidden sm:inline">{t('exportPDF')}</span>
+                    <span className="hidden sm:inline">{t('downloadReport')}</span>
                   </>
                 )}
               </button>
@@ -2889,16 +2463,15 @@ export default function StudyCostCalculator() {
               <label className="block text-xs text-white/60 mb-2">{t('displayCurrency')}</label>
               <CurrencySelector value={selectedCurrency} onChange={setSelectedCurrency} />
               {isLoadingRates && (
-                <div className="mt-2 flex items-center gap-2 text-white/50 text-xs">
-                  <Loader2 className="w-3 h-3 animate-spin" />
-                  <span>{t('loadingExchangeRates')}</span>
+                <div className="mt-2 animate-pulse">
+                  <div className="h-3 w-44 rounded bg-slate-700/70" />
                 </div>
               )}
               {!isLoadingRates && !apiError && exchangeRates && (
                 <p className="mt-2 text-white/40 text-xs">
                   {t('liveRatesProvidedBy')}{' '}
                   <a
-                    href="https://www.frankfurter.app"
+                    href={FRANKFURTER_APP_URL}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-400 hover:text-blue-300 underline inline-flex items-center gap-1"
@@ -3138,9 +2711,9 @@ export default function StudyCostCalculator() {
                     <table className="w-full text-sm">
                       <thead>
                         <tr className="border-b border-white/10">
-                          <th className="text-left py-2 px-3 text-white/70 font-medium">Provider</th>
-                          <th className="text-right py-2 px-3 text-white/70 font-medium">Setup Fee</th>
-                          <th className="text-right py-2 px-3 text-white/70 font-medium">Monthly Fee</th>
+                          <th className="text-left py-2 px-3 text-white/70 font-medium">{t('providerColumn')}</th>
+                          <th className="text-right py-2 px-3 text-white/70 font-medium">{t('setupFeeColumn')}</th>
+                          <th className="text-right py-2 px-3 text-white/70 font-medium">{t('monthlyFeeColumn')}</th>
                         </tr>
                       </thead>
                       <tbody>
@@ -3247,7 +2820,12 @@ export default function StudyCostCalculator() {
                       <p className="text-yellow-200/90 text-xs flex items-start gap-2">
                         <Info className="w-3 h-3 mt-0.5 flex-shrink-0" />
                         <span>
-                          <strong className="text-yellow-200">{t('note')}</strong> Some German states (e.g., Baden-Württemberg) charge additional tuition fees of approximately {formatCurrency(selectedUniversityData?.nonEUTuitionFee || 1500)} per semester for non-EU students. This fee is in addition to the regular semester fee.
+                          <strong className="text-yellow-200">{t('note')}</strong>{' '}
+                          {t('nonEuTuitionNote', {
+                            amount: formatCurrency(
+                              selectedUniversityData?.nonEUTuitionFee || DEFAULT_NON_EU_TUITION_FALLBACK
+                            ),
+                          })}
                         </span>
                       </p>
                     </div>
@@ -3256,21 +2834,19 @@ export default function StudyCostCalculator() {
                 <div className="flex justify-between items-center pt-1">
                   <span className="text-slate-400 text-xs flex items-center gap-1">
                     <Info className="w-3 h-3" />
-                    <span>Estimated living expenses</span>
+                    <span>{t('estimatedLivingExpenses')}</span>
                   </span>
                   <span className="text-slate-400 text-xs font-medium">
                     {formatCurrency(monthlyLivingExpenses * conversionRate, selectedCurrency)}
                   </span>
                 </div>
                 <p className="mt-4 text-xs text-slate-400 italic">
-                  Hinweis: Die Werte für Miete und Semesterbeiträge basieren auf Marktdaten und 
-                  Veröffentlichungen von Januar 2026. Tatsächliche Kosten können je nach 
-                  Lage und individuellem Verbrauch variieren.
+                  {t('rentSemesterDataNote')}
                 </p>
                 <div className="border-t border-white/20 pt-3 mt-3">
                   <div className="flex justify-between items-center">
                     <span className="text-white font-bold text-lg">{t('monthlyTotal')}</span>
-                    <span className="text-white font-bold text-2xl">
+                    <span data-testid="calculator-monthly-total" className="text-white font-bold text-2xl">
                       {(primaryScenario.selectedUniversity || primaryScenario.isOtherUniversity) ? formatCurrency(convertedMonthlyTotal, selectedCurrency) : '—'}
                     </span>
                   </div>
@@ -4217,31 +3793,30 @@ export default function StudyCostCalculator() {
       {!['EUR', 'USD', 'INR'].includes(selectedCurrency) && (
         <div className="mt-6 flex justify-center">
           <div className="backdrop-blur-sm bg-slate-950/80 border border-white/10 rounded-xl p-4">
-            <label className="block text-xs text-white/60 mb-2 text-center">Display Currency (Advanced)</label>
+            <label className="block text-xs text-white/60 mb-2 text-center">{t('displayCurrencyAdvanced')}</label>
             <CurrencySelector value={selectedCurrency} onChange={setSelectedCurrency} />
           {isLoadingRates && (
-            <div className="mt-2 flex items-center gap-2 text-white/50 text-xs justify-center">
-              <Loader2 className="w-3 h-3 animate-spin" />
-              <span>Loading exchange rates...</span>
+            <div className="mt-2 flex justify-center animate-pulse">
+              <div className="h-3 w-44 rounded bg-slate-700/70" />
             </div>
           )}
           {!isLoadingRates && !apiError && exchangeRates && (
             <p className="mt-2 text-white/40 text-xs text-center">
-              Live rates provided by{' '}
+              {t('liveRatesProvidedBy')}{' '}
               <a
-                href="https://www.frankfurter.app"
+                href={FRANKFURTER_APP_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-400 hover:text-blue-300 underline inline-flex items-center gap-1"
               >
-                Frankfurter API
+                {t('frankfurterAPI')}
                 <ExternalLink className="w-3 h-3" />
               </a>
             </p>
           )}
           {apiError && (
             <p className="mt-2 text-yellow-400/70 text-xs text-center">
-              Using default rates. API unavailable.
+              {t('usingDefaultRates')}
             </p>
           )}
           </div>
@@ -4252,18 +3827,21 @@ export default function StudyCostCalculator() {
       <div className="mt-12 mb-6">
         <div className="backdrop-blur-sm bg-slate-950/80 border border-white/10 rounded-xl p-6 sm:p-8">
           <div className="mb-6">
-            <h2 className="text-2xl font-bold text-white mb-2">Your Next Steps</h2>
+            <h2 className="text-2xl font-bold text-white mb-2">{t('nextStepsTitle')}</h2>
             <p className="text-white/70 text-sm">
-              Track your progress as you prepare to study in Germany
+              {t('nextStepsSubtitle')}
             </p>
           </div>
 
           {/* Progress Bar */}
           <div className="mb-6">
             <div className="flex justify-between items-center mb-2">
-              <span className="text-white/80 text-sm font-medium">Progress</span>
+              <span className="text-white/80 text-sm font-medium">{t('progressLabel')}</span>
               <span className="text-white/60 text-sm">
-                {visibleChecklistItems.filter(item => checklistState[item.id]).length} / {visibleChecklistItems.length} completed
+                {t('progressCompletedCount', {
+                  done: visibleChecklistItems.filter((item) => checklistState[item.id]).length,
+                  total: visibleChecklistItems.length,
+                })}
               </span>
             </div>
             <div className="w-full bg-slate-800/50 rounded-full h-3 overflow-hidden">
@@ -4350,8 +3928,8 @@ export default function StudyCostCalculator() {
                         </a>
                       ))}
                       
-                    {/* Affiliate Link (more prominent button style) */}
-                    {item.affiliateLink && !item.affiliateLink.startsWith('YOUR_') && (
+                    {/* Affiliate Link (more prominent button style) - hidden when AFFILIATE_ENABLED=false */}
+                    {AFFILIATE_ENABLED && item.affiliateLink && !item.affiliateLink.startsWith('YOUR_') && (
                       <a
                         href={item.affiliateLink}
                         target="_blank"
@@ -4359,24 +3937,24 @@ export default function StudyCostCalculator() {
                         className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-green-600/20 hover:bg-green-600/30 border border-green-500/30 text-green-400 text-xs font-medium rounded-lg transition-colors"
                         onClick={(e) => {
                           e.stopPropagation();
-                          // Track affiliate link click
-                          trackEvent('click_affiliate_link', 'Checklist', item.label || item.id);
-                          // Extract provider name from affiliate link or item label
-                          const providerName = item.affiliateLink.includes('expatrio') ? 'Expatrio' 
-                            : item.affiliateLink.includes('fintiba') ? 'Fintiba'
-                            : item.affiliateLink.includes('feather') ? 'Feather'
-                            : item.affiliateLink.includes('dr-walter') || item.affiliateLink.includes('drwalter') ? 'DR-Walter'
-                            : item.label || item.id;
-                          // Send GA4 event
-                          if (typeof window !== 'undefined' && window.gtag) {
-                            window.gtag('event', 'affiliate_click', {
-                              provider_name: providerName,
-                              checklist_item: item.label || item.id,
-                            });
+                          if (AFFILIATE_TRACKING_ENABLED) {
+                            trackEvent('click_affiliate_link', 'Checklist', item.label || item.id);
+                            const providerName = item.affiliateLink.includes('expatrio') ? 'Expatrio' 
+                              : item.affiliateLink.includes('fintiba') ? 'Fintiba'
+                              : item.affiliateLink.includes('feather') ? 'Feather'
+                              : item.affiliateLink.includes('dr-walter') || item.affiliateLink.includes('drwalter') ? 'DR-Walter'
+                              : item.label || item.id;
+                            if (typeof window !== 'undefined' && window.gtag) {
+                              window.gtag('event', 'affiliate_click', {
+                                provider_name: providerName,
+                                checklist_item: item.label || item.id,
+                              });
+                            }
                           }
                         }}
                       >
                         <span>{item.affiliateLinkLabel || 'Compare & Open'}</span>
+                        <AffiliateLabel variant="subtle" className="ml-1" />
                         <ExternalLink className="w-3 h-3" />
                       </a>
                     )}
@@ -4446,7 +4024,7 @@ export default function StudyCostCalculator() {
                             }}
                           >
                             <div className="space-y-2">
-                              <h4 className="text-sm font-semibold text-white mb-2">How to:</h4>
+                              <h4 className="text-sm font-semibold text-white mb-2">{t('howTo')}</h4>
                               <ul className="space-y-1.5">
                                 {item.guide.map((step, index) => (
                                   <li key={index} className="text-xs text-white/80 leading-relaxed">
@@ -4475,7 +4053,7 @@ export default function StudyCostCalculator() {
                 onClick={() => setChecklistState({})}
                 className="text-white/60 hover:text-white/80 text-sm transition-colors"
               >
-                Reset checklist
+                {t('resetChecklist')}
               </button>
             </div>
           )}
@@ -4501,7 +4079,7 @@ export default function StudyCostCalculator() {
               <p className="text-xs text-white/70 leading-relaxed">
                 {t('howWeCalculateText')}{' '}
                 <a
-                  href="https://www.frankfurter.app"
+                  href={FRANKFURTER_APP_URL}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-400 hover:text-blue-300 underline inline-flex items-center gap-1"
@@ -4797,8 +4375,8 @@ function RoadToGermanyTimeline({ semesterStartDate, onDateChange, locale }: Road
                           <p className="text-white/80 text-xs leading-relaxed">
                             {milestone.description}
                           </p>
-                          {/* Affiliate Link Button */}
-                          {milestone.affiliateLink && milestone.affiliateLabel && (
+                          {/* Affiliate Link Button - hidden when AFFILIATE_ENABLED=false */}
+                          {AFFILIATE_ENABLED && milestone.affiliateLink && milestone.affiliateLabel && (
                             <div className="mt-3 pt-3 border-t border-white/10">
                               {milestone.affiliateLink !== 'YOUR_EXPATRIO_OR_FINTIBA_LINK' && milestone.affiliateLink !== 'YOUR_N26_OR_DKB_LINK' ? (
                                 <a
@@ -4807,31 +4385,30 @@ function RoadToGermanyTimeline({ semesterStartDate, onDateChange, locale }: Road
                                   rel="noopener noreferrer"
                                   onClick={(e) => {
                                     e.stopPropagation();
-                                    // Track affiliate click
-                                    if (typeof window !== 'undefined' && window.gtag) {
-                                      window.gtag('event', 'affiliate_click', {
-                                        provider_name: milestone.affiliateLinkKey === 'SPERRKONTO' ? 'BlockedAccount' : 'BankAccount',
-                                        timeline_step: milestone.id,
-                                      });
+                                    if (AFFILIATE_TRACKING_ENABLED) {
+                                      const providerName = milestone.affiliateLinkKey === 'SPERRKONTO' ? 'BlockedAccount' : 'BankAccount';
+                                      trackEvent('click_affiliate_link', 'Timeline', providerName);
+                                      if (typeof window !== 'undefined' && window.gtag) {
+                                        window.gtag('event', 'affiliate_click', {
+                                          provider_name: providerName,
+                                          timeline_step: milestone.id,
+                                        });
+                                      }
                                     }
                                   }}
                                   className="inline-flex items-center gap-2 px-4 py-2 bg-blue-600/20 hover:bg-blue-600/30 border border-blue-500/30 text-blue-400 text-xs font-medium rounded-lg transition-colors group"
                                 >
                                   <Wallet className="w-3.5 h-3.5" />
                                   <span>{milestone.affiliateLabel}</span>
+                                  <AffiliateLabel variant="subtle" className="ml-1" />
                                   <ExternalLink className="w-3.5 h-3.5 opacity-60 group-hover:opacity-100 transition-opacity" />
-                                  <span className="ml-1 px-1.5 py-0.5 bg-yellow-500/20 text-yellow-400 text-[10px] rounded border border-yellow-500/30">
-                                    Ad
-                                  </span>
                                 </a>
                               ) : (
                                 <div className="inline-flex items-center gap-2 px-4 py-2 bg-slate-800/50 border border-white/10 text-white/50 text-xs font-medium rounded-lg cursor-not-allowed">
                                   <Wallet className="w-3.5 h-3.5" />
                                   <span>{milestone.affiliateLabel}</span>
-                                  <span className="ml-1 px-1.5 py-0.5 bg-yellow-500/20 text-yellow-400 text-[10px] rounded border border-yellow-500/30">
-                                    Ad
-                                  </span>
-                                  <span className="text-[10px] text-white/40 ml-1">(Placeholder)</span>
+                                  <AffiliateLabel variant="subtle" className="ml-1" />
+                                  <span className="text-[10px] text-white/40 ml-1">({t('placeholderLabel')})</span>
                                 </div>
                               )}
                             </div>

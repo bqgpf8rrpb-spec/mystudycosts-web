@@ -5,6 +5,10 @@
 
 # testing
 /coverage
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
 
 # next.js
 /.next/
@@ -37,3 +41,9 @@ next-env.d.ts
 # backups
 *.backup
 data/university_programs.json.backup
+
+# EU Erasmus raw data (70MB+ XLSX files, re-downloaded by scripts)
+data/raw/
+
+# Large generated master dataset
+data/university_master_2026.json

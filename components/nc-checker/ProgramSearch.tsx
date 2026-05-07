@@ -1,4 +1,5 @@
 'use client';
+// DEPRECATED: Legacy NC program search UI. Active NC checker flow uses components/NCCheckerContent.tsx.
 
 import { useState, useMemo } from 'react';
 import { Search, Filter, X, Check, MapPin, GraduationCap } from 'lucide-react';
@@ -108,7 +109,7 @@ export default function ProgramSearch() {
               <Search className="absolute left-3 top-3.5 w-4 h-4 text-slate-400" />
               <input
                 type="text"
-                placeholder="Suchen..."
+                placeholder="Search..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
                 className="w-full px-4 py-2.5 pl-10 bg-slate-800 border border-slate-700 rounded-lg text-white placeholder:text-slate-500 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
@@ -119,7 +120,7 @@ export default function ProgramSearch() {
             <div className="space-y-3">
               <h3 className="text-slate-300 font-medium text-sm flex items-center gap-2">
                 <GraduationCap className="w-4 h-4" />
-                Universitätstyp
+                University Type
               </h3>
               <div className="space-y-2">
                 <label className="flex items-center gap-2 cursor-pointer group">
@@ -131,7 +132,7 @@ export default function ProgramSearch() {
                     onChange={() => setSelectedType('All')}
                     className="w-4 h-4 text-blue-600 bg-slate-800 border-slate-600 focus:ring-blue-500 focus:ring-2"
                   />
-                  <span className="text-slate-300 group-hover:text-white text-sm">Alle</span>
+                  <span className="text-slate-300 group-hover:text-white text-sm">All</span>
                 </label>
                 <label className="flex items-center gap-2 cursor-pointer group">
                   <input
@@ -142,7 +143,7 @@ export default function ProgramSearch() {
                     onChange={() => setSelectedType('Uni')}
                     className="w-4 h-4 text-blue-600 bg-slate-800 border-slate-600 focus:ring-blue-500 focus:ring-2"
                   />
-                  <span className="text-slate-300 group-hover:text-white text-sm">Uni</span>
+                  <span className="text-slate-300 group-hover:text-white text-sm">University</span>
                 </label>
                 <label className="flex items-center gap-2 cursor-pointer group">
                   <input
@@ -153,7 +154,7 @@ export default function ProgramSearch() {
                     onChange={() => setSelectedType('FH')}
                     className="w-4 h-4 text-blue-600 bg-slate-800 border-slate-600 focus:ring-blue-500 focus:ring-2"
                   />
-                  <span className="text-slate-300 group-hover:text-white text-sm">FH</span>
+                  <span className="text-slate-300 group-hover:text-white text-sm">Applied Sciences</span>
                 </label>
               </div>
             </div>
@@ -163,14 +164,14 @@ export default function ProgramSearch() {
               <div className="flex items-center justify-between">
                 <h3 className="text-slate-300 font-medium text-sm flex items-center gap-2">
                   <MapPin className="w-4 h-4" />
-                  Bundesländer
+                  States
                 </h3>
                 {selectedStates.length > 0 && (
                   <button
                     onClick={() => setSelectedStates([])}
                     className="text-xs text-blue-400 hover:text-blue-300"
                   >
-                    Zurücksetzen
+                    Reset
                   </button>
                 )}
               </div>
@@ -206,7 +207,7 @@ export default function ProgramSearch() {
                 className="w-full flex items-center justify-center gap-2 px-4 py-2 bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white rounded-lg transition-colors text-sm"
               >
                 <X className="w-4 h-4" />
-                Alle Filter zurücksetzen
+                Reset All Filters
               </button>
             )}
 
@@ -214,7 +215,7 @@ export default function ProgramSearch() {
             <div className="pt-4 border-t border-slate-800">
               <div className="text-sm text-slate-400">
                 <span className="font-semibold text-white">{filteredResults.length}</span>{' '}
-                {filteredResults.length === 1 ? 'Ergebnis' : 'Ergebnisse'}
+                {filteredResults.length === 1 ? 'result' : 'results'}
               </div>
             </div>
           </div>
@@ -226,9 +227,9 @@ export default function ProgramSearch() {
           {filteredResults.length === 0 ? (
             <div className="flex flex-col items-center justify-center py-20 text-center">
               <Search className="w-12 h-12 text-slate-600 mb-4" />
-              <p className="text-slate-400 text-lg mb-2">Keine Ergebnisse gefunden</p>
+              <p className="text-slate-400 text-lg mb-2">No results found</p>
               <p className="text-slate-500 text-sm">
-                Versuche andere Suchbegriffe oder passe die Filter an.
+                Try different search terms or adjust the filters.
               </p>
             </div>
           ) : (

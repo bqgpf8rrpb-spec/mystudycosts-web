@@ -1,0 +1,17 @@
+{
+  "name": "MyStudyCosts",
+  "short_name": "MyStudyCosts",
+  "description": "Study costs calculator for Germany - Blocked account, visa, living costs",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "/icon",
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

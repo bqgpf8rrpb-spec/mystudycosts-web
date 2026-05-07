@@ -1,0 +1,10 @@
+{
+  "university_id": "UNIVERSITAET_HAMBURG",
+  "university_name": "UNIVERSITAET HAMBURG",
+  "portal_url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=HAMBURG01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+  "portal_type": "mobility_online",
+  "scraped_at": "2026-03-15T17:30:36.429Z",
+  "strategy": "html_table",
+  "partner_count": 0,
+  "partners": []
+}

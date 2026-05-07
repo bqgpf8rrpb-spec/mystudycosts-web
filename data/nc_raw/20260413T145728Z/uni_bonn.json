@@ -1,0 +1,2722 @@
+[
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Zum Seiteninhalt (Tastenkombination SHIFT+ALT + i)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/hisinoneStartPage.faces#contentJump",
+    "scraped_at": "2026-04-13T14:57:42.799380",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Zurück zu Hauptmenü",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "javascript:void(0);",
+    "scraped_at": "2026-04-13T14:57:42.800354",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Veranstaltungen suchen",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=searchCourseNonStaff-flow&navigationPosition=studiesOffered%2CsearchCourses&recordRequest=true",
+    "scraped_at": "2026-04-13T14:57:42.800538",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Sonderveranstaltung suchen",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=searchSpecialEventsOnlyDetails-flow&navigationPosition=studiesOffered%2CsearchSpecialEvents&recordRequest=true",
+    "scraped_at": "2026-04-13T14:57:42.800608",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Tagesaktuelle Veranstaltungen anzeigen",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cm/exa/timetable/currentLectures.xhtml?_flowId=showEventsAndExaminationsOnDate-flow&navigationPosition=studiesOffered%2CcurrentLecturesGeneric&recordRequest=true",
+    "scraped_at": "2026-04-13T14:57:42.800681",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Zurück zu Studienangebot",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "javascript:void(0);",
+    "scraped_at": "2026-04-13T14:57:42.800766",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "In Modulhandbüchern suchen",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cm/exa/curricula/moduleDescriptionSearch.xhtml?_flowId=searchElementsInModuleDescription-flow&navigationPosition=studiesOffered%2CmoduleDescriptions%2CsearchElementsInModuleDescription&recordRequest=true",
+    "scraped_at": "2026-04-13T14:57:42.800843",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Zurück zu Organisation",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "javascript:void(0);",
+    "scraped_at": "2026-04-13T14:57:42.801008",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Räume und Gebäude",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/subMenu.faces?navigationPosition=organisation%2ChisinoneFacilities",
+    "scraped_at": "2026-04-13T14:57:42.801086",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Raumpläne anzeigen",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/plan/raeume.xhtml?_flowId=searchRoomReservationSchedule-flow&navigationPosition=organisation%2ChisinoneFacilities%2Chisinoneroomschedule&recordRequest=true",
+    "scraped_at": "2026-04-13T14:57:42.801162",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Räume und Raumpläne",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cm/exa/roommangement/search/roomSearch.xhtml?_flowId=roomSearch-flow&navigationPosition=organisation%2ChisinoneFacilities%2Chisinoneroomsearch&recordRequest=true",
+    "scraped_at": "2026-04-13T14:57:42.801232",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Räume suchen",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cm/exa/searchRoomDetail.xhtml?_flowId=searchRoom-flow&navigationPosition=organisation%2Csearchroom&recordRequest=true",
+    "scraped_at": "2026-04-13T14:57:42.801298",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Information zur barrierefreien Bedienung",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/utilities/accessibilityHelp.faces?navigationPosition=userinformation%2Clink_accessibilityHelp&recordRequest=true",
+    "scraped_at": "2026-04-13T14:57:42.801446",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Erklärung zur Barrierefreiheit",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/utilities/accessibilityStatement.faces?navigationPosition=link_accessibilityStatement&recordRequest=true",
+    "scraped_at": "2026-04-13T14:57:42.801535",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Leichte Sprache",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/utilities/easyLanguageHelp.faces?navigationPosition=link_easyLanguageHelp&recordRequest=true",
+    "scraped_at": "2026-04-13T14:57:42.801597",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Übersicht der Anwendung",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/sitemap/sitemap.faces?navigationPosition=link_sitemap&recordRequest=true",
+    "scraped_at": "2026-04-13T14:57:42.801672",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Zur Anmeldung",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/hisinoneStartPage.faces",
+    "scraped_at": "2026-04-13T14:57:42.801966",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Ältere Vorlesungverzeichnisse Verzeichnisse bis Sommersemester 2025",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basisevv.uni-bonn.de/",
+    "scraped_at": "2026-04-13T14:57:42.804223",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "eCampus Lernplattform der Universität Bonn",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://ecampus.uni-bonn.de",
+    "scraped_at": "2026-04-13T14:57:42.804315",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Bewerber/-innen Sie haben sich für ein Studium an der Universität Bonn entschieden und möchten sich bewerben oder einschreiben.",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/hisinoneStartPage.faces?page=Bewerbung/Einschreibung",
+    "scraped_at": "2026-04-13T14:57:42.804903",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Zugangsdaten vergessen?",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/psv/account/passwortreset/firstpagePasswortReset.xhtml?_flowId=passwordreset-flow&navigationPosition=functions",
+    "scraped_at": "2026-04-13T14:57:42.810108",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Titel [Sortierbare Spalte] Beginn [Sortierbare Spalte] Ende [Sortierbare Spalte] Nummer [Sortierbare Spalte] Parallelgruppe [Sortierbare Spalte] Veranstaltungsart [Sortierbare Spalte] Dozent/-in (verantwortlich) [Sortierbare Spalte] Dozent/-in (durchführend) [Sortierbare Spalte] Gebäude [Sortierbare Spalte] Raum [Sortierbare Spalte] Semester [Sortierbare Spalte] Bemerkung [Sortierbare Spalte] Aktionen AKG - Oberseminar 00:00 00:01 101150011 13. PG Oberseminar Prof. Dr. Hornung Prof. Dr. Hornung Sommersemester 2026 Lernreise – Von gelingenden Schulen lernen (als Berufsfeldpraktikum anrechenbar) 00:00 00:01 Lernreise – Von gelingenden Schulen lernen (als Berufsfeldpraktikum anrechenbar) 00:00 00:01 1. PG Blockveranstaltung Fechner Sommersemester 2026 AKG - Kirchengeschichte der ersten drei Jahrhunderte 00:00 01:00 101150012 3. PG Vorlesung/Übung/Seminar Prof. Dr. Hornung Zöll Sommersemester 2026 D - Oberseminar 00:00 01:00 101150011 3. PG Oberseminar Prof. Dr. Schelhas Prof. Dr. Schelhas Sommersemester 2026 F - Oberseminar 00:00 01:00 101150011 2. PG Oberseminar Juniorprof. Dr. Walser Sommersemester 2026 PA - Einführung in die Pastoraltheologie 00:00 01:00 101150012 7. PG Vorlesung/Übung/Seminar Prof. Dr. Seip, Höltgen Höltgen Sommersemester 2026 PA - Theaterseminar 00:00 01:00 101142301 1. PG Seminar Loose, Prof. Dr. Seip Loose Sommersemester 2026 Tutorium zu Gri 1 / Gri 2 (fakultatives Zusatzangebot) 00:00 01:00 101140133 1. PG Tutorium Sassenberg, Prof. Dr. Blumenthal Sassenberg Sommersemester 2026 EL - Kolloquium/Repetitorium 01:00 02:00 101150011 10. PG Oberseminar Prof. Dr. Reichardt Prof. Dr. Reichardt Sommersemester 2026 L - Einführung Liturgiewissenschaft 01:00 02:00 101150012 6. PG Vorlesung/Übung/Seminar Prof. Dr. Odenthal, Walter Walter Sommersemester 2026 PA - Oberseminar 01:00 02:00 101150011 8. PG Oberseminar Prof. Dr. Seip Sommersemester 2026 D - (Titel folgt) 03:00 04:00 101150012 5. PG Vorlesung/Übung/Seminar Prof. Dr. von Stosch Prof. Dr. von Stosch Sommersemester 2026 M - Oberseminar 03:00 04:00 101150011 4. PG Oberseminar Prof. Dr. Dr. Sautermeister Prof. Dr. Dr. Sautermeister Sommersemester 2026 Neurologische Konferenz-Fälle mit Bildbesprechung 08:00 08:45 401040905 1. PG Übung/Kolloquium Sommersemester 2026 Applied Linguistics: Language and AI 08:00 09:00 556002401 1. PG Seminar Sherwood Rabinstraße 8 Rabinstr. Seminarraum 8, Rabinstraße 8 Rabinstr. Seminarraum 8, Rabinstraße 8 Sommersemester 2026 Festkörperchemie und Materialien 08:00 09:00 631106130-V1 1. PG Seminar Prof. Dr. Glaum AOR Dr. Assenmacher, Prof. Dr. Glaum, Prof. Dr. Kornienko, Dr. Weisbarth Gerhard-Domagk-Straße 1 2.032, Gerhard-Domagk-Straße 1 2.032, Gerhard-Domagk-Straße 1 Sommersemester 2026 Biophysikalische Methoden in den Lebenswissenschaften 08:00 09:30 672100081-V1 1. PG Vorlesung Lang Lang Sommersemester 2026 Group Seminar AK Dickschat 08:00 09:30 1. PG Seminar Prof. Dr. Dickschat Gerhard-Domagk-Straße 1 3.094, Gerhard-Domagk-Straße 1 3.094, Gerhard-Domagk-Straße 1 Sommersemester 2026 Mikrobiologie, Virologie 08:00 09:30 401399203 1. PG Vorlesung Hörauf, Prof. Dr. Streeck Juniorprof. Dr. Lemmermann, Prof. Dr. Streeck, Hörauf Sommersemester 2026 6120 Pharmazeutische Technologie einschl. Medizinprodukte (inkl. Exkursion) 08:00 10:00 661306120 1. PG Praktikum Dr. Shetab Boushehri Pharmazeutisches Institut HS 3 Pharmazie, Pharmazeutisches Institut HS 3 Pharmazie, Pharmazeutisches Institut Sommersemester 2026 6120 Pharmazeutische Technologie einschl. Medizinprodukte (inkl. Exkursion) - Praktikum 08:00 10:00 661306120 2. PG Praktikum Dr. Shetab Boushehri Pharmazeutisches Institut HS 3 Pharmazie, Pharmazeutisches Institut HS 3 Pharmazie, Pharmazeutisches Institut Sommersemester 2026 AKG - Zentrale Themen und Aspekte der Alten Kirchengeschichte 08:00 10:00 101151401 1. PG Vorlesung Prof. Dr. Hornung Prof. Dr. Hornung Am Hof 1 / Regina-Pacis-Weg 1 Hörsaal IV, Am Hof 1 / Regina-Pacis-Weg 1 Hörsaal IV, Am Hof 1 / Regina-Pacis-Weg 1 Sommersemester 2026 Ausgewählte lateinische Quellen zur mittelalterlichen Geschichte 08:00 10:00 504003400 1. PG Übung Dr. Weller Dr. Weller Konviktstraße 11 116, Konviktstraße 11 116, Konviktstraße 11 Sommersemester 2026 BA-INF 022 - Analysis 08:00 10:00 614300220 1. PG Vorlesung und Studienleistungen Dr. Welter Dr. Welter Friedrich-Hirzebruch-Allee 5 - Hörsaalzentrum Hörsaal 2, Friedrich-Hirzebruch-Allee 5 - Hörsaalzentrum Hörsaal 2, Friedrich-Hirzebruch-Allee 5 - Hörsaalzentrum Sommersemester 2026 BA-INF 041 - Algorithmen und Berechnungskomplexität II 08:00 10:00 614400410 1. PG Übung Prof. Dr. Röglin Friedrich-Hirzebruch-Allee 6-8 - B-IT / INF Seminarraum 2.050, Informatik V, Friedrich-Hirzebruch-Allee 6-8 - B-IT / INF Seminarraum 2.050, Informatik V, Friedrich-Hirzebruch-Allee 6-8 - B-IT / INF Sommersemester 2026 Data Wrangling, Visualization and GIS Data Analysis with R 08:00 10:00 780764272 1. PG Übung Dr. Biber-Freudenberger Dr. Biber-Freudenberger Nußallee 19 Seminarraum, Nussallee 19, Nußallee 19 Seminarraum, Nussallee 19, Nußallee 19 Sommersemester 2026 Einführung in die Volkswirtschaftslehre 08:00 10:00 780720082 1. PG Vorlesung Börner Börner Friedrich-Hirzebruch-Allee 5 - Hörsaalzentrum Hörsaal 1, Friedrich-Hirzebruch-Allee 5 - Hörsaalzentrum Hörsaal 1, Friedrich-Hirzebruch-Allee 5 - Hörsaalzentrum Sommersemester 2026 Einsicht B7 08:00 10:00 Meckenheimer Allee 166 Roter Saal Geographie, Meckenheimer Allee 166 Roter Saal Geographie, Meckenheimer Allee 166 G2 Vertiefung zur Vorlesung \"Allgemeine Psychologie I\" 08:00 10:00 552101302 1. PG Seminar N.N., Piwkowski, Prof. Dr. Ettinger N.N., Piwkowski, Prof. Dr. Ettinger Kaiser-Karl-Ring 9 Seminarraum 1, Kaiser-Karl-Ring 9 Seminarraum 1, Kaiser-Karl-Ring 9 Sommersemester 2026 Geodätisches Rechnen II (Ü) 08:00 10:00 729146004 (Ü) 1. PG Übung Prof. Dr. Kuhlmann, Gaus Nußallee 17 Hörsaal XVII, Nussallee 17, Nußallee 17 Hörsaal XVII, Nussallee 17, Nußallee 17 Sommersemester 2026 Geodätisches Rechnen II (Ü) 08:00 10:00 729146004 (Ü) 1. PG Übung Prof. Dr. Kuhlmann, Gaus Nußallee 17 Übungssaal I, Nussallee 17, Nußallee 17 Übungssaal I, Nussallee 17, Nußallee 17 Sommersemester 2026 Grundlagen der japanischen Grammatik (Basismodul Japanisch II) 08:00 10:00 508000066 1. PG Übung Dr. Yukawa, Tamura-Foerster Tamura-Foerster Am Hof 1 / Regina-Pacis-Weg 1 Hörsaal II, Am Hof 1 / Regina-Pacis-Weg 1 Hörsaal II, Am Hof 1 / Regina-Pacis-Weg 1 Sommersemester 2026 Industrialisierung und Geschlechterbeziehungen - eine Symbiose? 08:00 10:00 504003410 1. PG Proseminar PD Dr. Kouli PD Dr. Kouli Konviktstraße 11 114, Konviktstraße 11 114, Konviktstraße 11 Sommersemester 2026 Lyrik der Avantgarde 08:00 10:00 505400101 1. PG Seminar Dr. Stewart Dr. Stewart Rabinstraße 8 Rabinstr. Seminarraum 9, Rabinstraße 8 Rabinstr. Seminarraum 9, Rabinstraße 8 Sommersemester 2026 Metallorganic Chemistry 08:00 10:00 631123207-V1 1. PG Vorlesung Prof. Dr. Gansäuer Prof. Dr. Gansäuer Gerhard-Domagk-Straße 1 5.093, Gerhard-Domagk-Straße 1 5.093, Gerhard-Domagk-Straße 1 Sommersemester 2026 O2 Entwicklungsdiagnostik und -förderung 08:00 10:00 552102402 1. PG Seminar PD Dr. Kavsek PD Dr. Kavsek Kaiser-Karl-Ring 9 Seminarraum 2, Kaiser-Karl-Ring 9 Seminarraum 2, Kaiser-Karl-Ring 9 Sommersemester 2026 Organic Molecules and Materials 08:00 10:00 631123120-V2 1. PG Seminar Prof. Dr. Höger, Prof. Dr. Lützen von Krbek-Prömel, Prof. Dr. Lützen Gerhard-Domagk-Straße 1 1.104, Gerhard-Domagk-Straße 1 1.104, Gerhard-Domagk-Straße 1 Sommersemester 2026 PGMA - Plant Genetics, Morphology and Cell Architecture (LEC) 08:00 10:00 638130030-V1 1. PG Vorlesung Prof. Dr. Vothknecht, Prof. Dr. Dörmann Prof. Dr. Dörmann Kirschallee 1-3 SR 2.007, Kirschallee 1-3 SR 2.007, Kirschallee 1-3 Sommersemester 2026 Photogrammetry I (Ü) 08:00 10:00 729157002 (Ü) 1. PG Übung Prof. Dr. Stachniss, Wiesmann Nußallee 15 Hörsaal XIV, Nussallee 15, Nußallee 15 Hörsaal XIV, Nussallee 15, Nußallee 15 Sommersemester 2026 physik411: Physik IV (Atome, Moleküle, Kondensierte Materie) 08:00 10:00 physik411 1. PG Vorlesung Prof. Dr. Hofferberth Prof. Dr. Hofferberth Kreuzbergweg 28 Wolfgang-Paul-Hörsaal, Kreuzbergweg 28 Wolfgang-Paul-Hörsaal, Kreuzbergweg 28 Sommersemester 2026 Seminar: Thematisierung von Antisemitismus im Schulunterricht 08:00 10:00 801104401 1. PG Seminar Brochhagen Brochhagen Kaiserstraße 1 Seminarraum II, Kaiserstraße 1 Seminarraum II, Kaiserstraße 1 Sommersemester 2026 Stress perception and signalling 08:00 10:00 780800351 1. PG Vorlesung Prof. Dr. Meyer Prof. Dr. Meyer, Prof. Dr. Schaaf, Wagner, Ugalde Valdivia Sommersemester 2026 Tierernährung 08:00 10:00 780810031 1. PG Vorlesung Hartinger Hartinger, Dr. Kehraus Endenicher Allee 15 Hörsaal XI, ITW, Endenicher Allee 15 Hörsaal XI, ITW, Endenicher Allee 15 Sommersemester 2026 Tierphysiologie 08:00 10:00 639400120 1. PG Vorlesung PD Dr. Häußler, Prof. Dr. Gompel Prof. Dr. Gompel, PD Dr. Häußler Nußallee 4 HS Botanik, Nußallee 4 HS Botanik, Nußallee 4 Sommersemester 2026 V1G6 Algorithmische Math. II 08:00 10:00 611100106 1. PG Vorlesung Prof. Dr. Burstedde, Brandt Prof. Dr. Burstedde Wegelerstraße 10 Großer Hörsaal, Wegelerstraße 10 Großer Hörsaal, Wegelerstraße 10 Sommersemester 2026 V2B3 Einführung in die Komplexe Analysis 08:00 10:00 611100305 1. PG Vorlesung Dr. Prévost Dr. Prévost Wegelerstraße 10 Kleiner Hörsaal, Wegelerstraße 10 Kleiner Hörsaal, Wegelerstraße 10 Sommersemester 2026 V3A4 Grz. Zahlentheorie Übung / F4A1-4 F-Number Theory Problem Sessions 08:00 10:00 611300207/611700230 1. PG Übung Dr. Horawa Endenicher Allee 60 SemR 0.011, Endenicher Allee 60 SemR 0.011, Endenicher Allee 60 Sommersemester 2026 V3B2 PDG und Modellierung Übung / F4B1-1 F-PDE and Modelling Problem Sessions 08:00 10:00 611300308/611700805 1. PG Übung Prof. Dr. Koch Endenicher Allee 60 SemR 0.008, Endenicher Allee 60 SemR 0.008, Endenicher Allee 60 Sommersemester 2026 V3F2 Grz. Stochastische Analysis Übung / F4F1-2 F-Stochastic Analysis Problem Sessions 08:00 10:00 611300704/611700815 1. PG Übung Prof. Dr. Ferrari Endenicher Allee 60 SemR 0.006, Endenicher Allee 60 SemR 0.006, Endenicher Allee 60 Sommersemester 2026 V4A5 Advanced Algebra I Problem Sessions 08:00 10:00 611700207 1. PG Übung Prof. Dr. Franke Prof. Dr. Franke Endenicher Allee 60 / Neubau N 0.003 - Neubau, Endenicher Allee 60 / Neubau N 0.003 - Neubau, Endenicher Allee 60 / Neubau Sommersemester 2026 Spatial Decision Support Systems (L) 08:00 11:00 753930201 (L) 1. PG Vorlesung Prof. Dr. Haunert Meckenheimer Allee 172 Hörsaal VIII, Meckenheimer Allee 172, Meckenheimer Allee 172 Hörsaal VIII, Meckenheimer Allee 172, Meckenheimer Allee 172 Sommersemester 2026 Spatial Decision Support Systems (L) 08:00 11:00 753930201 (L) 1. PG Vorlesung Prof. Dr. Haunert Meckenheimer Allee 172 GIS-Labor, Meckenheimer Allee 172, Meckenheimer Allee 172 GIS-Labor, Meckenheimer Allee 172, Meckenheimer Allee 172 Sommersemester 2026 Vorlesung Diagnose und Förderung 08:00 11:30 801110201 1. PG Vorlesung PD Dr. Käser PD Dr. Käser Meckenheimer Allee 176, Haupthaus Hörsaal IV, Meckenheimer Allee 176, Haupthaus Hörsaal IV, Meckenheimer Allee 176, Haupthaus Sommersemester 2026 Lebensmittelanalytik II 08:00 14:00 739601033 1. PG Praktikum Prof. Wüst Dr. Passon, Acir, Falk Sommersemester 2026 Lebensmittelanalytik IV - Kopplungsmethoden/ Futtermittelanalytik 08:00 16:00 739801023 1. PG Praktikum Prof. Wüst Dr. Passon, Acir Sommersemester 2026 Masterarbeit (MA) 08:00 16:00 734029001 (MA) 1. PG keine Veranstaltung Sommersemester 2026 Master's Thesis (MT) Veranstaltung_1 08:00 16:00 753900901 (MT) 1. PG keine Veranstaltung Sommersemester 2026 RNA and Cell-Cell communication in health and disease 08:00 16:00 638141300-P1 1. PG Praktische Übung Bartolomey, Prof. Dr. Jung, Dr. Sallach-Helbig Sommersemester 2026 Molecular Haematology (B-Modul) 08:00 17:00 638141250-P1 1. PG Blockveranstaltung Bartolomey, Dr. Sallach-Helbig, Oldenburg Sommersemester 2026 Preventive, Predictive and Personalised Medicine (B-Modul) 08:00 17:00 638141170-P1 1. PG Blockveranstaltung PrüferIn MCB, Bartolomey, Dr. Sallach-Helbig Sommersemester 2026 RNA and Cell-Cell communication in health and disease 08:00 17:00 638141300-S1 1. PG Seminar Dr. Sallach-Helbig, Bartolomey, Prof. Dr. Jung Sommersemester 2026 Vorlesung Biochemie und Molekularbiologie des Menschen - Teil I 08:15 09:00 402311043 1. PG Vorlesung Sommersemester 2026 Arbeitsmärkte und Bevölkerungsökonomik 08:30 10:00 334028013 1. PG Vorlesung Prof. Ph.D. Hannusch Prof. Ph.D. Hannusch Juridicum (Adenauerallee 24-42) Hörsaal K, Juridicum (Adenauerallee 24-42) Hörsaal K, Juridicum (Adenauerallee 24-42) Sommersemester 2026 Arbeitsmärkte und Bevölkerungsökonomik 08:30 10:00 333021011 1. PG Vorlesung Prof. Ph.D. Hannusch Prof. Ph.D. Hannusch Juridicum (Adenauerallee 24-42) Hörsaal K, Juridicum (Adenauerallee 24-42) Hörsaal K, Juridicum (Adenauerallee 24-42) Sommersemester 2026 BA-INF 015 - Techniken des Wissenschaftlichen Arbeitens 08:30 10:00 614400150 1. PG Übung Dr. Goerke Friedrich-Hirzebruch-Allee 6-8 - B-IT / INF Seminarraum 0.011, Informatik VI, Friedrich-Hirzebruch-Allee 6-8 - B-IT / INF Seminarraum 0.011, Informatik VI, Friedrich-Hirzebruch-Allee 6-8 - B-IT / INF Sommersemester 2026 Cellular biochemistry 08:30 10:00 673100012 1. PG Vorlesung Thiele Friedrich-Hirzebruch-Allee 5 - Hörsaalzentrum Hörsaal 5, Friedrich-Hirzebruch-Allee 5 - Hörsaalzentrum Hörsaal 5, Friedrich-Hirzebruch-Allee 5 - Hörsaalzentrum Sommersemester 2026 Der Wartburgkrieg – Sangspruchdichtung, Rätsel und Sprichwörter 08:30 10:00 505100301 1. PG Seminar Prof. Dr. Chlench-Priber Prof. Dr. Chlench-Priber Rabinstraße 8 Rabinstr. Seminarraum 13, Rabinstraße 8 Rabinstr. Seminarraum 13, Rabinstraße 8 Sommersemester 2026 Krankheitsbedingt fällt die Sitzung am... Krankheitsbedingt fällt die Sitzung am 13.4. aus. Schließen Französisch für Romanist*innen A2 08:30 10:00 507020401 1. PG Sprachkurs/Übung Barth-Lemoine Barth-Lemoine Rabinstraße 8 Rabinstr. Seminarraum 11, Rabinstraße 8 Rabinstr. Seminarraum 11, Rabinstraße 8 Sommersemester 2026 Grundbegriffe und Propädeutik/Synchrone Sprachwissenschaft (Span.) 08:30 10:00 507022108 1. PG Übung Dr. Cremer Dr. Cremer Am Hof 1 / Regina-Pacis-Weg 1 Hörsaal V, Am Hof 1 / Regina-Pacis-Weg 1 Hörsaal V, Am Hof 1 / Regina-Pacis-Weg 1 Sommersemester 2026 Immunology II Veranstaltung 08:30 10:00 673100044 1. PG Vorlesung/Übung/Seminar Prof. Garbi, Förster Friedrich-Hirzebruch-Allee 5 - Hörsaalzentrum Hörsaal 7, Friedrich-Hirzebruch-Allee 5 - Hörsaalzentrum Hörsaal 7, Friedrich-Hirzebruch-Allee 5 - Hörsaalzentrum Sommersemester 2026 Italienisch für Romanist*innen A1 08:30 10:00 507020601 1. PG Sprachkurs/Übung Dr. Masi Adenauerallee 35 Raum 3, Institut francais Bonn, Adenauerallee 35, Adenauerallee 35 Raum 3, Institut francais Bonn, Adenauerallee 35, Adenauerallee 35 Sommersemester 2026 Latein II für Anfänger mit Vorkenntnissen 08:30 10:00 507010070 1. PG Sprachkurs/Übung Kircher, Kunzendorf Kircher Am Hof 1 / Regina-Pacis-Weg 1 Hörsaal XIV, Am Hof 1 / Regina-Pacis-Weg 1 Hörsaal XIV, Am Hof 1 / Regina-Pacis-Weg 1 Sommersemester 2026 Modul BP05 Exogene Geologie Veranstaltung_1 08:30 10:00 644100050-V1 1. PG Vorlesung Prof. Dr. März Prof. Dr. März Meckenheimer Allee 176, Haupthaus Hörsaal II, Meckenheimer Allee 176, Haupthaus Hörsaal II, Meckenheimer Allee 176, Haupthaus Sommersemester 2026 Phonetik (BM II Koreanisch) 08:30 10:00 508000085 1. PG Sprachkurs/Übung Dr. O-Rauch Kim Lennéstraße 6 2.016, Lennéstraße 6 2.016, Lennéstraße 6 Sommersemester 2026 Systematische Grammatik / Textanalyse (VM Arabisch) 08:30 10:00 508000010 1. PG Sprachkurs/Übung Dr. Karam Dr. Karam Nassestraße 2 2.005, Nassestraße 2 2.005, Nassestraße 2 Sommersemester 2026 Theologien des Alten Testaments 08:30 10:00 1. PG Vorlesung Prof. Dr. Saur Am Hof 1 / Regina-Pacis-Weg 1 Hörsaal XII, Am Hof 1 / Regina-Pacis-Weg 1 Hörsaal XII, Am Hof 1 / Regina-Pacis-Weg 1 Sommersemester 2026 Semestereröffnung V5E5 Adv Top in Numerical Analysis - Mixed Finite Element Methods 08:30 10:00 611500610 1. PG Vorlesung Prof. Dr. Gedicke Prof. Dr. Gedicke Friedrich-Hirzebruch-Allee 7 - INS / IEL Seminarraum 2.035, Friedrich-Hirzebruch-Allee 7 - INS / IEL Seminarraum 2.035, Friedrich-Hirzebruch-Allee 7 - INS / IEL Sommersemester 2026 Note that this lecture starts earlier! Writing Skills I 08:30 10:00 556000402 8. PG Sprachkurs/Übung Thompson Rabinstraße 8 Rabinstr. Seminarraum 7, Rabinstraße 8 Rabinstr. Seminarraum 7, Rabinstraße 8 Sommersemester 2026 Modul MG41 Einführung in die geologische 3D-Modellierung Veranstaltung_1 08:30 10:15 642164100-V1 1. PG Vorlesung Dr. Valdivia-Manchego Dr. Valdivia-Manchego Meckenheimer Allee 176, Haupthaus Ü9, Meckenheimer Allee 176, Haupthaus Ü9, Meckenheimer Allee 176, Haupthaus Sommersemester 2026 Analytische Epidemiologie mit SAS und R 08:30 12:00 780770161 1. PG Praktische Übung Prof. Dr. Nöthlings Prof. Dr. Nöthlings, Mark Friedrich-Hirzebruch-Allee 7 - INS / IEL CIP-Pool, Friedrich-Hirzebruch-Allee 7 - INS / IEL CIP-Pool, Friedrich-Hirzebruch-Allee 7 - INS / IEL Sommersemester 2026 Biotope und Zeigerorganismen 08:30 12:00 780720641 1. PG Praktische Übung Dr. Hamm Dr. Kosack, NN, Pätzold, Dr. Hamm Auf dem Hügel 6 HS Gartenbauwissenschaften, Auf dem Hügel 6 HS Gartenbauwissenschaften, Auf dem Hügel 6 Sommersemester 2026 Comparative Competition Law 08:30 12:00 2179 1. PG Vorlesung/Übung Dr. Weck Juridicum (Adenauerallee 24-42) Fakultäts-/ Sitzungszimmer, Juridicum (Adenauerallee 24-42) Fakultäts-/ Sitzungszimmer, Juridicum (Adenauerallee 24-42) Sommersemester 2026 Research Project Horticultural Production and Research 08:30 12:00 780790141 1. PG Projekt Dr. Kraska Milyaev, Dr. Kraska Auf dem Hügel 6 Seminarraum 2.002, Auf dem Hügel 6 Seminarraum 2.002, Auf dem Hügel 6 Sommersemester 2026 Physik mit dem Computer-Algebra System SymPy 09:00 10:00 1. PG Vorlesung Dr. Erben Dr. Erben Nußallee 14-16 HS, Nußallee 14-16 HS, Nußallee 14-16 Sommersemester 2026 Applied Linguistics: Language and AI (Seminar B) 09:00 10:14 556002402 1. PG Seminar Sherwood Sherwood Rabinstraße 8 Rabinstr. Seminarraum 8, Rabinstraße 8 Rabinstr. Seminarraum 8, Rabinstraße 8 Sommersemester 2026 Einführung in die Methodik der quantitativen Schnittbildgebung (MRT/CT) 09:00 10:30 401040417 1. PG Seminar Sommersemester 2026 FSB - Orientierungswoche (Einführung in die Theologie) 09:00 10:30 101150001 1. PG Kolloquium Rabinstraße 8 Rabinstr. Seminarraum 1, Rabinstraße 8 Rabinstr. Seminarraum 1, Rabinstraße 8 Sommersemester 2026 M-LSI-P-013 / MA-INF 4216 - Biomedical Data Science & AI 09:00 10:30 614342160 1. PG Vorlesung und Studienleistungen Prof. Dr. Fröhlich Friedrich-Hirzebruch-Allee 6-8 - B-IT / INF 0.109 (b-it-max), Friedrich-Hirzebruch-Allee 6-8 - B-IT / INF 0.109 (b-it-max), Friedrich-Hirzebruch-Allee 6-8 - B-IT / INF Sommersemester 2026 Anorganische und Analytische Chemie 2 (Qualitative Analyse 2) 09:00 11:00 631102100-V1 1. PG Vorlesung Prof. Dr. Glaum Prof. Dr. Glaum Gerhard-Domagk-Straße 1, Hörsaal + Cafeteria HS 1 Chemie, Gerhard-Domagk-Straße 1, Hörsaal + Cafeteria HS 1 Chemie, Gerhard-Domagk-Straße 1, Hörsaal + Cafeteria Sommersemester 2026 astro811 exercise: Stars and Stellar Evolution 09:00 11:00 1. PG Übung Schootemeijer Auf dem Hügel 71 Raum 0.006, Auf dem Hügel 71 Raum 0.006, Auf dem Hügel 71 Sommersemester 2026 Erstsemesterbegrüßung 09:00 11:00 661000100 1. PG Orientierungsveranstaltung Pharmazeutisches Institut HS 1 Pharmazie, Pharmazeutisches Institut HS 1 Pharmazie, Pharmazeutisches Institut Sommersemester 2026 Methoden der Strukturaufklärung in der Organischen Chemie 09:00 11:00 631104200-V1 1. PG Vorlesung/Übung PD Dr. Engeser Prof. Dr. Dickschat, PD Dr. Engeser Gerhard-Domagk-Straße 1, Hörsaal + Cafeteria HS 2 Chemie, Gerhard-Domagk-Straße 1, Hörsaal + Cafeteria HS 2 Chemie, Gerhard-Domagk-Straße 1, Hörsaal + Cafeteria Sommersemester 2026 Seminar über aktuelle Probleme der Nichtlinearen Quantenoptik, pr 09:00 11:00 1. PG Hauptseminar Prof. Dr. Hofferberth Prof. Dr. Hofferberth Wegelerstr. 6-8 - RHRZ + Angew. Physik 3.020, Wegelerstr. 6-8 - RHRZ + Angew. Physik 3.020, Wegelerstr. 6-8 - RHRZ + Angew. Physik Sommersemester 2026 B2 Inferenzstatistik und Grundlagen multivariater Verfahren 09:00 12:00 552101401 1. PG Seminar Dr. Hilger Dr. Hilger Kaiser-Karl-Ring 9 Hörsaal, Kaiser-Karl-Ring 9 Hörsaal, Kaiser-Karl-Ring 9 Sommersemester 2026 C Einführung in empirisch-wissenschaftliches Arbeiten - Datenanalyse 09:00 12:00 552101501 1. PG Seminar Prof. Dr. Beauducel Sommersemester 2026 Lebensmittelsensorik 09:00 12:00 780730262 1. PG Übung Schulze Schulze Friedrich-Hirzebruch-Allee 7 - INS / IEL Seminarraum 2 U1.023, Friedrich-Hirzebruch-Allee 7 - INS / IEL Seminarraum 2 U1.023, Friedrich-Hirzebruch-Allee 7 - INS / IEL Sommersemester 2026 Cognitive Neurosciences Veranstaltung_1 09:00 18:00 403100206-V1 1. PG Blockveranstaltung Prof. Dr. med. Surges Mormann, Prof. Dr. med. Surges, Rüber, PD Dr. rer. nat. Hoppe, Prof. Dr. Lehnertz, Fell Sommersemester 2026 Neuroanatomy Veranstaltung_1 09:00 18:00 403100220-V1 1. PG Blockveranstaltung Prof. Dr. Hofmann Sommersemester 2026 Neuropharmacology Veranstaltung_1 09:00 18:00 403100213-V1 1. PG Blockveranstaltung Pfeifer Pfeifer, Petric Sommersemester 2025",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cm/exa/timetable/currentLectures.xhtml?_flowId=showEventsAndExaminationsOnDate-flow&_flowExecutionKey=e5s1",
+    "scraped_at": "2026-04-13T14:57:43.138355",
+    "confidence": 0.8,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Titel [Sortierbare Spalte]",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cm/exa/timetable/currentLectures.xhtml?_flowId=showEventsAndExaminationsOnDate-flow&_flowExecutionKey=e5s1",
+    "scraped_at": "2026-04-13T14:57:43.168361",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Beginn [Sortierbare Spalte]",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cm/exa/timetable/currentLectures.xhtml?_flowId=showEventsAndExaminationsOnDate-flow&_flowExecutionKey=e5s1",
+    "scraped_at": "2026-04-13T14:57:43.202985",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Ende [Sortierbare Spalte]",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cm/exa/timetable/currentLectures.xhtml?_flowId=showEventsAndExaminationsOnDate-flow&_flowExecutionKey=e5s1",
+    "scraped_at": "2026-04-13T14:57:43.203430",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Nummer [Sortierbare Spalte]",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cm/exa/timetable/currentLectures.xhtml?_flowId=showEventsAndExaminationsOnDate-flow&_flowExecutionKey=e5s1",
+    "scraped_at": "2026-04-13T14:57:43.203873",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Parallelgruppe [Sortierbare Spalte]",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cm/exa/timetable/currentLectures.xhtml?_flowId=showEventsAndExaminationsOnDate-flow&_flowExecutionKey=e5s1",
+    "scraped_at": "2026-04-13T14:57:43.204332",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Veranstaltungsart [Sortierbare Spalte]",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cm/exa/timetable/currentLectures.xhtml?_flowId=showEventsAndExaminationsOnDate-flow&_flowExecutionKey=e5s1",
+    "scraped_at": "2026-04-13T14:57:43.204784",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Dozent/-in (verantwortlich) [Sortierbare Spalte]",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cm/exa/timetable/currentLectures.xhtml?_flowId=showEventsAndExaminationsOnDate-flow&_flowExecutionKey=e5s1",
+    "scraped_at": "2026-04-13T14:57:43.205253",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Dozent/-in (durchführend) [Sortierbare Spalte]",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cm/exa/timetable/currentLectures.xhtml?_flowId=showEventsAndExaminationsOnDate-flow&_flowExecutionKey=e5s1",
+    "scraped_at": "2026-04-13T14:57:43.205802",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Gebäude [Sortierbare Spalte]",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cm/exa/timetable/currentLectures.xhtml?_flowId=showEventsAndExaminationsOnDate-flow&_flowExecutionKey=e5s1",
+    "scraped_at": "2026-04-13T14:57:43.206249",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Raum [Sortierbare Spalte]",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cm/exa/timetable/currentLectures.xhtml?_flowId=showEventsAndExaminationsOnDate-flow&_flowExecutionKey=e5s1",
+    "scraped_at": "2026-04-13T14:57:43.206719",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Semester [Sortierbare Spalte]",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cm/exa/timetable/currentLectures.xhtml?_flowId=showEventsAndExaminationsOnDate-flow&_flowExecutionKey=e5s1",
+    "scraped_at": "2026-04-13T14:57:43.207155",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Bemerkung [Sortierbare Spalte]",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cm/exa/timetable/currentLectures.xhtml?_flowId=showEventsAndExaminationsOnDate-flow&_flowExecutionKey=e5s1",
+    "scraped_at": "2026-04-13T14:57:43.207591",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "AKG - Oberseminar",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=39198&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.208014",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Lernreise – Von gelingenden Schulen lernen (als Berufsfeldpraktikum anrechenbar)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=showSpecialEventDetails-flow&id=33991&guid=e40e74f8-d952-4fb8-8f29-7f66d7b6d35f&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.208453",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "AKG - Kirchengeschichte der ersten drei Jahrhunderte",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=39202&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.209364",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "PA - Einführung in die Pastoraltheologie",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=39202&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.209825",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Tutorium zu Gri 1 / Gri 2 (fakultatives Zusatzangebot)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=37996&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.210286",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "L - Einführung Liturgiewissenschaft",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=39202&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.210751",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "D - (Titel folgt)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=39202&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.211209",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Neurologische Konferenz-Fälle mit Bildbesprechung",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=43629&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.211677",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Applied Linguistics: Language and AI",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=43837&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.212134",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Rabinstr. Seminarraum 8, Rabinstraße 8",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=239&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.212615",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Festkörperchemie und Materialien",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=36651&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.213074",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "2.032, Gerhard-Domagk-Straße 1",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=105&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.213528",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Biophysikalische Methoden in den Lebenswissenschaften",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=36992&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.213996",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Group Seminar AK Dickschat",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=40905&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.214453",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "3.094, Gerhard-Domagk-Straße 1",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=103&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.214927",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Mikrobiologie, Virologie",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=18793&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.215389",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "6120 Pharmazeutische Technologie einschl. Medizinprodukte (inkl. Exkursion)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=20031&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.215856",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "HS 3 Pharmazie, Pharmazeutisches Institut",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=38&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.216811",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "6120 Pharmazeutische Technologie einschl. Medizinprodukte (inkl. Exkursion) - Praktikum",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=20031&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.217274",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "AKG - Zentrale Themen und Aspekte der Alten Kirchengeschichte",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=25603&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.218199",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Hörsaal IV, Am Hof 1 / Regina-Pacis-Weg 1",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=411&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.218628",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Ausgewählte lateinische Quellen zur mittelalterlichen Geschichte",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=42374&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.219055",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "116, Konviktstraße 11",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=275&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.219472",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "BA-INF 022 - Analysis",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=21648&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.219892",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Hörsaal 2, Friedrich-Hirzebruch-Allee 5 - Hörsaalzentrum",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=177&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.220327",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "BA-INF 041 - Algorithmen und Berechnungskomplexität II",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=42808&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.220772",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Seminarraum 2.050, Informatik V, Friedrich-Hirzebruch-Allee 6-8 - B-IT / INF",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=192&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.221214",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Data Wrangling, Visualization and GIS Data Analysis with R",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=5023&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.221676",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Seminarraum, Nussallee 19, Nußallee 19",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=356&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.222156",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Einführung in die Volkswirtschaftslehre",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=4076&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.222684",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Hörsaal 1, Friedrich-Hirzebruch-Allee 5 - Hörsaalzentrum",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=317&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.223137",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Roter Saal Geographie, Meckenheimer Allee 166",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=522&termTypeId=&year=&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.223599",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "G2 Vertiefung zur Vorlesung \"Allgemeine Psychologie I\"",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=33710&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.224050",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Seminarraum 1, Kaiser-Karl-Ring 9",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=131&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.224495",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Geodätisches Rechnen II (Ü)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=36051&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.224946",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Hörsaal XVII, Nussallee 17, Nußallee 17",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=84&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.225394",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Übungssaal I, Nussallee 17, Nußallee 17",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=430&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.226283",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Grundlagen der japanischen Grammatik (Basismodul Japanisch II)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=34690&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.226739",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Hörsaal II, Am Hof 1 / Regina-Pacis-Weg 1",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=408&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.227204",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Industrialisierung und Geschlechterbeziehungen - eine Symbiose?",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=42414&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.227666",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "114, Konviktstraße 11",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=261&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.228125",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Lyrik der Avantgarde",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=38147&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.228581",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Rabinstr. Seminarraum 9, Rabinstraße 8",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=240&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.229031",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Metallorganic Chemistry",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=36695&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.229496",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "5.093, Gerhard-Domagk-Straße 1",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=433&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.229942",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "O2 Entwicklungsdiagnostik und -förderung",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=34543&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.230398",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Seminarraum 2, Kaiser-Karl-Ring 9",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=74&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.230862",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Organic Molecules and Materials",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=36396&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.231335",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "1.104, Gerhard-Domagk-Straße 1",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=445&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.231798",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "PGMA - Plant Genetics, Morphology and Cell Architecture (LEC)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=37078&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.232257",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "SR 2.007, Kirschallee 1-3",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=282&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.232709",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Photogrammetry I (Ü)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=36111&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.233169",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Hörsaal XIV, Nussallee 15, Nußallee 15",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=370&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.233621",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "physik411: Physik IV (Atome, Moleküle, Kondensierte Materie)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=41947&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.234079",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Wolfgang-Paul-Hörsaal, Kreuzbergweg 28",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=11&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.234534",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Seminar: Thematisierung von Antisemitismus im Schulunterricht",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=25823&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.234989",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Seminarraum II, Kaiserstraße 1",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=126&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.235449",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Stress perception and signalling",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=5999&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.235902",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Hörsaal XI, ITW, Endenicher Allee 15",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=292&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.236364",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "HS Botanik, Nußallee 4",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=454&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.236822",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "V1G6 Algorithmische Math. II",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=16528&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.237282",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Großer Hörsaal, Wegelerstraße 10",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=402&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.237739",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "V2B3 Einführung in die Komplexe Analysis",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=16203&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.238200",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Kleiner Hörsaal, Wegelerstraße 10",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=111&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.238708",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "V3A4 Grz. Zahlentheorie Übung / F4A1-4 F-Number Theory Problem Sessions",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=20968&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.239300",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "SemR 0.011, Endenicher Allee 60",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=98&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.239768",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "V3B2 PDG und Modellierung Übung / F4B1-1 F-PDE and Modelling Problem Sessions",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=16052&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.240208",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "SemR 0.008, Endenicher Allee 60",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=95&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.240637",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "V3F2 Grz. Stochastische Analysis Übung / F4F1-2 F-Stochastic Analysis Problem Sessions",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=16149&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.241069",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "SemR 0.006, Endenicher Allee 60",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=97&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.241490",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "V4A5 Advanced Algebra I Problem Sessions",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=20597&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.241510",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "N 0.003 - Neubau, Endenicher Allee 60 / Neubau",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=146&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.241932",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Spatial Decision Support Systems (L)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=36301&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.242381",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Hörsaal VIII, Meckenheimer Allee 172, Meckenheimer Allee 172",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=427&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.242816",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "GIS-Labor, Meckenheimer Allee 172, Meckenheimer Allee 172",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=381&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.243702",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Vorlesung Diagnose und Förderung",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=25089&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.244154",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Hörsaal IV, Meckenheimer Allee 176, Haupthaus",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=410&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.244577",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Lebensmittelanalytik IV - Kopplungsmethoden/ Futtermittelanalytik",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=6107&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.245036",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Masterarbeit (MA)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=42376&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.245467",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Master's Thesis (MT) Veranstaltung_1",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=44279&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.245925",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "RNA and Cell-Cell communication in health and disease",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=44383&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.246374",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Molecular Haematology (B-Modul)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=38359&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.246816",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Preventive, Predictive and Personalised Medicine (B-Modul)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=38338&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.247275",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Vorlesung Biochemie und Molekularbiologie des Menschen - Teil I",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=19451&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.248199",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Arbeitsmärkte und Bevölkerungsökonomik",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=15985&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.248645",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Hörsaal K, Juridicum (Adenauerallee 24-42)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=258&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.249112",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "BA-INF 015 - Techniken des Wissenschaftlichen Arbeitens",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=42534&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.250442",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Seminarraum 0.011, Informatik VI, Friedrich-Hirzebruch-Allee 6-8 - B-IT / INF",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=185&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.250891",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Cellular biochemistry",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=37672&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.251337",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Hörsaal 5, Friedrich-Hirzebruch-Allee 5 - Hörsaalzentrum",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=195&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.251788",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Der Wartburgkrieg – Sangspruchdichtung, Rätsel und Sprichwörter",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=42395&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.252244",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Rabinstr. Seminarraum 13, Rabinstraße 8",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=244&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.252696",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Französisch für Romanist*innen A2",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=33685&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.253148",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Rabinstr. Seminarraum 11, Rabinstraße 8",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=242&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.253592",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Grundbegriffe und Propädeutik/Synchrone Sprachwissenschaft (Span.)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=33828&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.253621",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Hörsaal V, Am Hof 1 / Regina-Pacis-Weg 1",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=414&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.254085",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Immunology II Veranstaltung",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=38434&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.254542",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Hörsaal 7, Friedrich-Hirzebruch-Allee 5 - Hörsaalzentrum",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=193&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.255009",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Italienisch für Romanist*innen A1",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=34473&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.255508",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Raum 3, Institut francais Bonn, Adenauerallee 35, Adenauerallee 35",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=357&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.255536",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Latein II für Anfänger mit Vorkenntnissen",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=34459&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.255995",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Hörsaal XIV, Am Hof 1 / Regina-Pacis-Weg 1",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=422&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.256440",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Modul BP05 Exogene Geologie Veranstaltung_1",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=43586&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.256861",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Hörsaal II, Meckenheimer Allee 176, Haupthaus",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=407&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.257282",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Phonetik (BM II Koreanisch)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=43161&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.257704",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "2.016, Lennéstraße 6",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=252&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.258136",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Systematische Grammatik / Textanalyse (VM Arabisch)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=33452&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.258573",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "2.005, Nassestraße 2",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=512&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.258989",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Theologien des Alten Testaments",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=43143&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.259440",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Hörsaal XII, Am Hof 1 / Regina-Pacis-Weg 1",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=420&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.259874",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "V5E5 Adv Top in Numerical Analysis - Mixed Finite Element Methods",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=20583&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.260315",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Seminarraum 2.035, Friedrich-Hirzebruch-Allee 7 - INS / IEL",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=218&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.260758",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Writing Skills I",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=34759&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.261199",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Rabinstr. Seminarraum 7, Rabinstraße 8",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=238&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.261645",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Modul MG41 Einführung in die geologische 3D-Modellierung Veranstaltung_1",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=43657&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.262100",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Ü9, Meckenheimer Allee 176, Haupthaus",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=161&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.262566",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Analytische Epidemiologie mit SAS und R",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=5417&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.262998",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "CIP-Pool, Friedrich-Hirzebruch-Allee 7 - INS / IEL",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=532&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.263467",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Biotope und Zeigerorganismen",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=4514&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.263931",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "HS Gartenbauwissenschaften, Auf dem Hügel 6",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=80&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.264376",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Comparative Competition Law",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=7252&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.264838",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Research Project Horticultural Production and Research",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=5854&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.265280",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Seminarraum 2.002, Auf dem Hügel 6",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=350&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.265715",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Physik mit dem Computer-Algebra System SymPy",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=39055&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.266150",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "HS, Nußallee 14-16",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=121&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.266577",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Applied Linguistics: Language and AI (Seminar B)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=43838&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.267015",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Einführung in die Methodik der quantitativen Schnittbildgebung (MRT/CT)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=43604&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.267910",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "FSB - Orientierungswoche (Einführung in die Theologie)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=3074&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.268359",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Rabinstr. Seminarraum 1, Rabinstraße 8",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=232&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.268818",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "M-LSI-P-013 / MA-INF 4216 - Biomedical Data Science & AI",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=21990&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.268840",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "0.109 (b-it-max), Friedrich-Hirzebruch-Allee 6-8 - B-IT / INF",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=190&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.269272",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Anorganische und Analytische Chemie 2 (Qualitative Analyse 2)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=36623&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.269735",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "HS 1 Chemie, Gerhard-Domagk-Straße 1, Hörsaal + Cafeteria",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=371&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.270163",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "astro811 exercise: Stars and Stellar Evolution",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=41937&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.270633",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Raum 0.006, Auf dem Hügel 71",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=191&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.271064",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "HS 1 Pharmazie, Pharmazeutisches Institut",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=124&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.271523",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Methoden der Strukturaufklärung in der Organischen Chemie",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=36640&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.271983",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "HS 2 Chemie, Gerhard-Domagk-Straße 1, Hörsaal + Cafeteria",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=29&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.272505",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Seminar über aktuelle Probleme der Nichtlinearen Quantenoptik, pr",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=38050&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.272957",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "3.020, Wegelerstr. 6-8 - RHRZ + Angew. Physik",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=476&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.273381",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "B2 Inferenzstatistik und Grundlagen multivariater Verfahren",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=33457&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.273809",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Hörsaal, Kaiser-Karl-Ring 9",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=55&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.274226",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "C Einführung in empirisch-wissenschaftliches Arbeiten - Datenanalyse",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=34628&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.274688",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Seminarraum 2 U1.023, Friedrich-Hirzebruch-Allee 7 - INS / IEL",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=roomSchedule-flow&roomId=473&termTypeId=30&year=2026&date=16_2026&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.275120",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Cognitive Neurosciences Veranstaltung_1",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=43811&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.275138",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Neuroanatomy Veranstaltung_1",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=43810&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.275577",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Neuropharmacology Veranstaltung_1",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=43808&periodId=138&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:43.276004",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Link kopieren",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cm/exa/coursecatalog/showCourseCatalog.xhtml?_flowId=showCourseCatalog-flow&_flowExecutionKey=e6s1",
+    "scraped_at": "2026-04-13T14:57:43.527747",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "In neuem Fenster oder Tab öffnen",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cm/exa/coursecatalog/showCourseCatalog.xhtml?_flowId=showCourseCatalog-flow&_flowExecutionKey=e6s1",
+    "scraped_at": "2026-04-13T14:57:43.527824",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Voraussetzungen an Ihren Browser",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/utilities/accessibilityHelp.faces?navigationPosition=userinformation%2Clink_accessibilityHelp&recordRequest=true#vorraussetzungenbrowser",
+    "scraped_at": "2026-04-13T14:57:43.852009",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Unterstützte Screenreader",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/utilities/accessibilityHelp.faces?navigationPosition=userinformation%2Clink_accessibilityHelp&recordRequest=true#screenreader",
+    "scraped_at": "2026-04-13T14:57:43.852060",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Navigieren über Strukturmerkmale",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/utilities/accessibilityHelp.faces?navigationPosition=userinformation%2Clink_accessibilityHelp&recordRequest=true#regions",
+    "scraped_at": "2026-04-13T14:57:43.852100",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Navigieren mit Tastenkombination",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/utilities/accessibilityHelp.faces?navigationPosition=userinformation%2Clink_accessibilityHelp&recordRequest=true#navigierentastenkombination",
+    "scraped_at": "2026-04-13T14:57:43.852139",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Mobilgeräte und kleine Browserfenster",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/utilities/accessibilityHelp.faces?navigationPosition=userinformation%2Clink_accessibilityHelp&recordRequest=true#homeicon",
+    "scraped_at": "2026-04-13T14:57:43.852213",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Verknüpfung auf Start-Bildschirm von Mobilgeräten",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/utilities/accessibilityHelp.faces?navigationPosition=userinformation%2Clink_accessibilityHelp&recordRequest=true#homeiconMobile",
+    "scraped_at": "2026-04-13T14:57:43.852252",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Verknüpfung auf Desktop von Computern",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/utilities/accessibilityHelp.faces?navigationPosition=userinformation%2Clink_accessibilityHelp&recordRequest=true#homeiconDesktop",
+    "scraped_at": "2026-04-13T14:57:43.852288",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Zahlen- und Datenformate",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/utilities/accessibilityHelp.faces?navigationPosition=userinformation%2Clink_accessibilityHelp&recordRequest=true#zahlendatenformate",
+    "scraped_at": "2026-04-13T14:57:43.852326",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Formulare im Screenreader",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/utilities/accessibilityHelp.faces?navigationPosition=userinformation%2Clink_accessibilityHelp&recordRequest=true#screenreaderforms",
+    "scraped_at": "2026-04-13T14:57:43.852360",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Formularelemente ohne sichtbare Bezeichner",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/utilities/accessibilityHelp.faces?navigationPosition=userinformation%2Clink_accessibilityHelp&recordRequest=true#label",
+    "scraped_at": "2026-04-13T14:57:43.852399",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Auswahlfelder im Screenreader",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/utilities/accessibilityHelp.faces?navigationPosition=userinformation%2Clink_accessibilityHelp&recordRequest=true#screenreaderselects",
+    "scraped_at": "2026-04-13T14:57:43.852434",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "PDF-Dokumente im Screenreader",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/utilities/accessibilityHelp.faces?navigationPosition=userinformation%2Clink_accessibilityHelp&recordRequest=true#pdfscreenreader",
+    "scraped_at": "2026-04-13T14:57:43.852473",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Navigieren in Registerkarten",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/utilities/accessibilityHelp.faces?navigationPosition=userinformation%2Clink_accessibilityHelp&recordRequest=true#register",
+    "scraped_at": "2026-04-13T14:57:43.852513",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Navigieren in Gruppen von Optionsschaltflächen",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/utilities/accessibilityHelp.faces?navigationPosition=userinformation%2Clink_accessibilityHelp&recordRequest=true#radiobuttons",
+    "scraped_at": "2026-04-13T14:57:43.852555",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Eingabefelder ohne Bezeichner in erweiterten Suchen",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/utilities/accessibilityHelp.faces?navigationPosition=userinformation%2Clink_accessibilityHelp&recordRequest=true#expandedSearchOperator",
+    "scraped_at": "2026-04-13T14:57:43.852597",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Tastenkürzel für Lesezeichen definieren",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/utilities/accessibilityHelp.faces?navigationPosition=userinformation%2Clink_accessibilityHelp&recordRequest=true#shortcutsbookmarks",
+    "scraped_at": "2026-04-13T14:57:43.852641",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Benutzerdefinierter Hotkey",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/utilities/accessibilityHelp.faces?navigationPosition=userinformation%2Clink_accessibilityHelp&recordRequest=true#hotkey",
+    "scraped_at": "2026-04-13T14:57:43.852677",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Tabellen individuell anpassen",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/utilities/accessibilityHelp.faces?navigationPosition=userinformation%2Clink_accessibilityHelp&recordRequest=true#informationtables",
+    "scraped_at": "2026-04-13T14:57:43.852713",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Zeitliche Beschränkung der Sitzung",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/utilities/accessibilityHelp.faces?navigationPosition=userinformation%2Clink_accessibilityHelp&recordRequest=true#informationtimeout",
+    "scraped_at": "2026-04-13T14:57:43.852751",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Weiterführende Informationen zur Bedienung",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/utilities/accessibilityHelp.faces?navigationPosition=userinformation%2Clink_accessibilityHelp&recordRequest=true#furtherInformationWiki",
+    "scraped_at": "2026-04-13T14:57:43.852792",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "You are here: Home",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/hisinoneStartPage.faces?navigationPosition=link_homepage&recordRequest=true",
+    "scraped_at": "2026-04-13T14:57:43.910300",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Back to Main menu",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "javascript:void(0);",
+    "scraped_at": "2026-04-13T14:57:43.910351",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "E-mail verification",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/psv/selbstregistrierung/pub/mailverifizierung.xhtml?_flowId=selfRegistrationVerification-flow&navigationPosition=hisinoneapp_studi_no_login%2CmailVerification&recordRequest=true",
+    "scraped_at": "2026-04-13T14:57:43.910393",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Studies offered",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/subMenu.faces?navigationPosition=studiesOffered",
+    "scraped_at": "2026-04-13T14:57:43.910468",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Search for courses",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=searchCourseNonStaff-flow&navigationPosition=studiesOffered%2CsearchCourses&recordRequest=true",
+    "scraped_at": "2026-04-13T14:57:43.910515",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Search for special events",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=searchSpecialEventsOnlyDetails-flow&navigationPosition=studiesOffered%2CsearchSpecialEvents&recordRequest=true",
+    "scraped_at": "2026-04-13T14:57:43.910549",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Show current courses",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cm/exa/timetable/currentLectures.xhtml?_flowId=showEventsAndExaminationsOnDate-flow&navigationPosition=studiesOffered%2CcurrentLecturesGeneric&recordRequest=true",
+    "scraped_at": "2026-04-13T14:57:43.910581",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Show university course catalog",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cm/exa/coursecatalog/showCourseCatalog.xhtml?_flowId=showCourseCatalog-flow&navigationPosition=studiesOffered%2CcourseoverviewShow&recordRequest=true",
+    "scraped_at": "2026-04-13T14:57:43.910619",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Back to Studies offered",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "javascript:void(0);",
+    "scraped_at": "2026-04-13T14:57:43.910664",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Module descriptions",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/subMenu.faces?navigationPosition=studiesOffered%2CmoduleDescriptions",
+    "scraped_at": "2026-04-13T14:57:43.910699",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Search in module descriptions",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cm/exa/curricula/moduleDescriptionSearch.xhtml?_flowId=searchElementsInModuleDescription-flow&navigationPosition=studiesOffered%2CmoduleDescriptions%2CsearchElementsInModuleDescription&recordRequest=true",
+    "scraped_at": "2026-04-13T14:57:43.910737",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Back to Organisation",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "javascript:void(0);",
+    "scraped_at": "2026-04-13T14:57:43.910823",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Show room schedule",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/plan/raeume.xhtml?_flowId=searchRoomReservationSchedule-flow&navigationPosition=organisation%2ChisinoneFacilities%2Chisinoneroomschedule&recordRequest=true",
+    "scraped_at": "2026-04-13T14:57:43.910859",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Rooms and Room schedules",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cm/exa/roommangement/search/roomSearch.xhtml?_flowId=roomSearch-flow&navigationPosition=organisation%2ChisinoneFacilities%2Chisinoneroomsearch&recordRequest=true",
+    "scraped_at": "2026-04-13T14:57:43.910894",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Search for rooms",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cm/exa/searchRoomDetail.xhtml?_flowId=searchRoom-flow&navigationPosition=organisation%2Csearchroom&recordRequest=true",
+    "scraped_at": "2026-04-13T14:57:43.910926",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "User manual for accessibility",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/utilities/accessibilityHelp.faces?navigationPosition=userinformation%2Clink_accessibilityHelp&recordRequest=true",
+    "scraped_at": "2026-04-13T14:57:43.911003",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Accessibility Statement",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/utilities/accessibilityStatement.faces?navigationPosition=link_accessibilityStatement&recordRequest=true",
+    "scraped_at": "2026-04-13T14:57:43.911050",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Plain Language",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/utilities/easyLanguageHelp.faces?navigationPosition=link_easyLanguageHelp&recordRequest=true",
+    "scraped_at": "2026-04-13T14:57:43.911083",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Sign language",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/utilities/signLanguageHelp.faces?navigationPosition=link_signLanguageHelp&recordRequest=true",
+    "scraped_at": "2026-04-13T14:57:43.911116",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Course Catalog Current course offerings",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/pages/cm/exa/coursecatalog/showCourseCatalog.xhtml?_flowId=showCourseCatalog-flow",
+    "scraped_at": "2026-04-13T14:57:43.912062",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Search for Lectures",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/pages/startFlow.xhtml?_flowId=searchCourseNonStaff-flow",
+    "scraped_at": "2026-04-13T14:57:43.913020",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Older course catalogues",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basisevv.uni-bonn.de/qisserver/rds?state=user&type=0&topitem=&breadCrumbSource=&topitem=functions&noDBAction=y&init=y",
+    "scraped_at": "2026-04-13T14:57:43.913093",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "eCampus Learning management system of the University of Bonn",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://ecampus.uni-bonn.de",
+    "scraped_at": "2026-04-13T14:57:43.913144",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Degree programs",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://www.uni-bonn.de/en/studying/degree-programs/degree-programs-a-z?set_language=en",
+    "scraped_at": "2026-04-13T14:57:43.913183",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Applicants You have decided to study at the University of Bonn and would like to apply or enroll.",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/hisinoneStartPage.faces?page=Application/Enrollment",
+    "scraped_at": "2026-04-13T14:57:43.913475",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Students You are already enrolled at the University of Bonn and would like to use the self-service functions of the Student Administration or apply.",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/hisinoneStartPage.faces?page=Students",
+    "scraped_at": "2026-04-13T14:57:43.913722",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Staff You are an employee and would like to use functions of the Campus Management Portal.",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/hisinoneStartPage.faces?page=Employees",
+    "scraped_at": "2026-04-13T14:57:43.913825",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "You are here: Imprint",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/imprint/imprint.faces?navigationPosition=link_impressum&recordRequest=true",
+    "scraped_at": "2026-04-13T14:57:43.938017",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "current Rector.",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://www.uni-bonn.de/en/university/organisation-and-institutions/rectorate/rector?set_language=en",
+    "scraped_at": "2026-04-13T14:57:43.941090",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "list of used libraries",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/imprint/licenseinfo.faces",
+    "scraped_at": "2026-04-13T14:57:43.946975",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "You are here: Privacy",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/imprint/privacy.faces?navigationPosition=link_privacy&recordRequest=true",
+    "scraped_at": "2026-04-13T14:57:43.972882",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "You are here: Accessibility Statement",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/utilities/accessibilityStatement.faces?navigationPosition=link_accessibilityStatement&recordRequest=true",
+    "scraped_at": "2026-04-13T14:57:44.007046",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "User manual for accessibility On this page you find closer information about operating this webseite with a screenreader and other help.",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/utilities/accessibilityHelp.faces",
+    "scraped_at": "2026-04-13T14:57:44.011380",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Plain Language notes in easy language",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/utilities/easyLanguageHelp.faces",
+    "scraped_at": "2026-04-13T14:57:44.011481",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "You are here: Plain Language",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/utilities/easyLanguageHelp.faces?navigationPosition=link_easyLanguageHelp&recordRequest=true",
+    "scraped_at": "2026-04-13T14:57:44.031803",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Information about the essential content of this webpage",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/utilities/easyLanguageHelp.faces?navigationPosition=link_easyLanguageHelp&recordRequest=true#easyLanguageHelpInformationContent",
+    "scraped_at": "2026-04-13T14:57:44.033652",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Here you learn how to navigate on this webpage",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/utilities/easyLanguageHelp.faces?navigationPosition=link_easyLanguageHelp&recordRequest=true#easyLanguageHelpInformationNavigation",
+    "scraped_at": "2026-04-13T14:57:44.033929",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Here you learn about remaining barriers",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/utilities/easyLanguageHelp.faces?navigationPosition=link_easyLanguageHelp&recordRequest=true#easyLanguageHelpInformationAccessibilityStatement",
+    "scraped_at": "2026-04-13T14:57:44.033970",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Here you can inform us about barriers",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/utilities/easyLanguageHelp.faces?navigationPosition=link_easyLanguageHelp&recordRequest=true#easyLanguageHelpInformationAccessibilityFeedback",
+    "scraped_at": "2026-04-13T14:57:44.034010",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Please contact: Support",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/utilities/accessibilityStatement.faces#feedback_accessibility",
+    "scraped_at": "2026-04-13T14:57:44.040747",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "You are here: Sign language",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/utilities/signLanguageHelp.faces?navigationPosition=link_signLanguageHelp&recordRequest=true",
+    "scraped_at": "2026-04-13T14:57:44.065106",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "You are here: Sitemap",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cs/sys/portal/sitemap/sitemap.faces?navigationPosition=link_sitemap&recordRequest=true",
+    "scraped_at": "2026-04-13T14:57:44.086054",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Help for search",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/genericSearch/genericSearchHelp.faces",
+    "scraped_at": "2026-04-13T14:57:44.333851",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Title [Sortable column] Start [Sortable column] End [Sortable column] Number [Sortable column] Parallelgroup [Sortable column] Kind of course [Sortable column] Responsible lecturer [Sortable column] Performing lecturer [Sortable column] Building [Sortable column] Room [Sortable column] Term [Sortable column] Remark [Sortable column] Actions AKG - Oberseminar 00:00 00:01 101150011 13. PG Advanced seminar Prof. Dr. Hornung Prof. Dr. Hornung summer semester 2026 Lernreise – Von gelingenden Schulen lernen (als Berufsfeldpraktikum anrechenbar) 00:00 00:01 Lernreise – Von gelingenden Schulen lernen (als Berufsfeldpraktikum anrechenbar) 00:00 00:01 1. PG Block course Fechner summer semester 2026 AKG - Kirchengeschichte der ersten drei Jahrhunderte 00:00 01:00 101150012 3. PG Lecture/exercise/seminar Prof. Dr. Hornung Zöll summer semester 2026 D - Oberseminar 00:00 01:00 101150011 3. PG Advanced seminar Prof. Dr. Schelhas Prof. Dr. Schelhas summer semester 2026 F - Oberseminar 00:00 01:00 101150011 2. PG Advanced seminar assistant prof. Dr. Walser summer semester 2026 PA - Einführung in die Pastoraltheologie 00:00 01:00 101150012 7. PG Lecture/exercise/seminar Prof. Dr. Seip, Höltgen Höltgen summer semester 2026 PA - Theaterseminar 00:00 01:00 101142301 1. PG Seminar Loose, Prof. Dr. Seip Loose summer semester 2026 Tutorium zu Gri 1 / Gri 2 (fakultatives Zusatzangebot) 00:00 01:00 101140133 1. PG tutorial Prof. Dr. Blumenthal, Sassenberg Sassenberg summer semester 2026 EL - Kolloquium/Repetitorium 01:00 02:00 101150011 10. PG Advanced seminar Prof. Dr. Reichardt Prof. Dr. Reichardt summer semester 2026 L - Einführung Liturgiewissenschaft 01:00 02:00 101150012 6. PG Lecture/exercise/seminar Walter, Prof. Dr. Odenthal Walter summer semester 2026 PA - Oberseminar 01:00 02:00 101150011 8. PG Advanced seminar Prof. Dr. Seip summer semester 2026 D - (Titel folgt) 03:00 04:00 101150012 5. PG Lecture/exercise/seminar Prof. Dr. von Stosch Prof. Dr. von Stosch summer semester 2026 M - Oberseminar 03:00 04:00 101150011 4. PG Advanced seminar Prof. Dr. Dr. Sautermeister Prof. Dr. Dr. Sautermeister summer semester 2026 Neurologische Konferenz-Fälle mit Bildbesprechung 08:00 08:45 401040905 1. PG Exercise/Colloquium summer semester 2026 Applied Linguistics: Language and AI 08:00 09:00 556002401 1. PG Seminar Sherwood Rabinstraße 8 Rabinstr. Seminarraum 8, Rabinstraße 8 Rabinstr. Seminarraum 8, Rabinstraße 8 summer semester 2026 Solid State Chemistry and Materials 08:00 09:00 631106130-V1 1. PG Seminar Prof. Dr. Glaum Prof. Dr. Kornienko, Dr. Weisbarth, AOR Dr. Assenmacher, Prof. Dr. Glaum Gerhard-Domagk-Straße 1 2.032, Gerhard-Domagk-Straße 1 2.032, Gerhard-Domagk-Straße 1 summer semester 2026 Biophysikalische Methoden in den Lebenswissenschaften 08:00 09:30 672100081-V1 1. PG lecture Lang Lang summer semester 2026 Group Seminar AK Dickschat 08:00 09:30 1. PG Seminar Prof. Dr. Dickschat Gerhard-Domagk-Straße 1 3.094, Gerhard-Domagk-Straße 1 3.094, Gerhard-Domagk-Straße 1 summer semester 2026 Mikrobiologie, Virologie 08:00 09:30 401399203 1. PG lecture Hörauf, Prof. Dr. Streeck Hörauf, assistant prof. Dr. Lemmermann, Prof. Dr. Streeck summer semester 2026 6120 Pharmazeutische Technologie einschl. Medizinprodukte (inkl. Exkursion) 08:00 10:00 661306120 1. PG Internship Dr. Shetab Boushehri Pharmazeutisches Institut HS 3 Pharmazie, Pharmazeutisches Institut HS 3 Pharmazie, Pharmazeutisches Institut summer semester 2026 6120 Pharmazeutische Technologie einschl. Medizinprodukte (inkl. Exkursion) - Praktikum 08:00 10:00 661306120 2. PG Internship Dr. Shetab Boushehri Pharmazeutisches Institut HS 3 Pharmazie, Pharmazeutisches Institut HS 3 Pharmazie, Pharmazeutisches Institut summer semester 2026 AKG - Zentrale Themen und Aspekte der Alten Kirchengeschichte 08:00 10:00 101151401 1. PG lecture Prof. Dr. Hornung Prof. Dr. Hornung Am Hof 1 / Regina-Pacis-Weg 1 Hörsaal IV, Am Hof 1 / Regina-Pacis-Weg 1 Hörsaal IV, Am Hof 1 / Regina-Pacis-Weg 1 summer semester 2026 Animal Nutrition 08:00 10:00 780810031 1. PG lecture Hartinger Hartinger, Dr. Kehraus Endenicher Allee 15 Hörsaal XI, ITW, Endenicher Allee 15 Hörsaal XI, ITW, Endenicher Allee 15 summer semester 2026 Ausgewählte lateinische Quellen zur mittelalterlichen Geschichte 08:00 10:00 504003400 1. PG Exercise Dr. Weller Dr. Weller Konviktstraße 11 116, Konviktstraße 11 116, Konviktstraße 11 summer semester 2026 BA-INF 022 - Analysis 08:00 10:00 614300220 1. PG Lecture and coursework Dr. Welter Dr. Welter Friedrich-Hirzebruch-Allee 5 - Hörsaalzentrum Hörsaal 2, Friedrich-Hirzebruch-Allee 5 - Hörsaalzentrum Hörsaal 2, Friedrich-Hirzebruch-Allee 5 - Hörsaalzentrum summer semester 2026 BA-INF 041 - Algorithmen und Berechnungskomplexität II 08:00 10:00 614400410 1. PG Exercise Prof. Dr. Röglin Friedrich-Hirzebruch-Allee 6-8 - B-IT / INF Seminarraum 2.050, Informatik V, Friedrich-Hirzebruch-Allee 6-8 - B-IT / INF Seminarraum 2.050, Informatik V, Friedrich-Hirzebruch-Allee 6-8 - B-IT / INF summer semester 2026 BW04 SL Pädagog. Vertief. 08:00 10:00 801104401 1. PG Seminar Brochhagen Brochhagen Kaiserstraße 1 Seminarraum II, Kaiserstraße 1 Seminarraum II, Kaiserstraße 1 summer semester 2026 Data Wrangling, Visualization and GIS Data Analysis with R 08:00 10:00 780764272 1. PG Exercise Dr. Biber-Freudenberger Dr. Biber-Freudenberger Nußallee 19 Seminarraum, Nussallee 19, Nußallee 19 Seminarraum, Nussallee 19, Nußallee 19 summer semester 2026 Economics I 08:00 10:00 780720082 1. PG lecture Börner Börner Friedrich-Hirzebruch-Allee 5 - Hörsaalzentrum Hörsaal 1, Friedrich-Hirzebruch-Allee 5 - Hörsaalzentrum Hörsaal 1, Friedrich-Hirzebruch-Allee 5 - Hörsaalzentrum summer semester 2026 Einsicht B7 08:00 10:00 Meckenheimer Allee 166 Roter Saal Geographie, Meckenheimer Allee 166 Roter Saal Geographie, Meckenheimer Allee 166 G2 Vertiefung zur Vorlesung \"Allgemeine Psychologie I\" 08:00 10:00 552101302 1. PG Seminar Prof. Dr. Ettinger, N.N., Piwkowski Prof. Dr. Ettinger, Piwkowski, N.N. Kaiser-Karl-Ring 9 Seminarraum 1, Kaiser-Karl-Ring 9 Seminarraum 1, Kaiser-Karl-Ring 9 summer semester 2026 Geodätisches Rechnen II (Ü) 08:00 10:00 729146004 (Ü) 1. PG Exercise Gaus, Prof. Dr. Kuhlmann Nußallee 17 Hörsaal XVII, Nussallee 17, Nußallee 17 Hörsaal XVII, Nussallee 17, Nußallee 17 summer semester 2026 Geodätisches Rechnen II (Ü) 08:00 10:00 729146004 (Ü) 1. PG Exercise Gaus, Prof. Dr. Kuhlmann Nußallee 17 Übungssaal I, Nussallee 17, Nußallee 17 Übungssaal I, Nussallee 17, Nußallee 17 summer semester 2026 Grundlagen der japanischen Grammatik (Basismodul Japanisch II) 08:00 10:00 508000066 1. PG Exercise Tamura-Foerster, Dr. Yukawa Tamura-Foerster Am Hof 1 / Regina-Pacis-Weg 1 Hörsaal II, Am Hof 1 / Regina-Pacis-Weg 1 Hörsaal II, Am Hof 1 / Regina-Pacis-Weg 1 summer semester 2026 Industrialisierung und Geschlechterbeziehungen - eine Symbiose? 08:00 10:00 504003410 1. PG proseminar PD Dr. Kouli PD Dr. Kouli Konviktstraße 11 114, Konviktstraße 11 114, Konviktstraße 11 summer semester 2026 Lyrik der Avantgarde 08:00 10:00 505400101 1. PG Seminar Dr. Stewart Dr. Stewart Rabinstraße 8 Rabinstr. Seminarraum 9, Rabinstraße 8 Rabinstr. Seminarraum 9, Rabinstraße 8 summer semester 2026 Metallorganic Chemistry 08:00 10:00 631123207-V1 1. PG lecture Prof. Dr. Gansäuer Prof. Dr. Gansäuer Gerhard-Domagk-Straße 1 5.093, Gerhard-Domagk-Straße 1 5.093, Gerhard-Domagk-Straße 1 summer semester 2026 O2 Entwicklungsdiagnostik und -förderung 08:00 10:00 552102402 1. PG Seminar PD Dr. Kavsek PD Dr. Kavsek Kaiser-Karl-Ring 9 Seminarraum 2, Kaiser-Karl-Ring 9 Seminarraum 2, Kaiser-Karl-Ring 9 summer semester 2026 Organic Molecules and Materials 08:00 10:00 631123120-V2 1. PG Seminar Prof. Dr. Lützen, Prof. Dr. Höger Prof. Dr. Lützen, von Krbek-Prömel Gerhard-Domagk-Straße 1 1.104, Gerhard-Domagk-Straße 1 1.104, Gerhard-Domagk-Straße 1 summer semester 2026 PGMA - Plant Genetics, Morphology and Cell Architecture (LEC) 08:00 10:00 638130030-V1 1. PG lecture Prof. Dr. Vothknecht, Prof. Dr. Dörmann Prof. Dr. Dörmann Kirschallee 1-3 SR 2.007, Kirschallee 1-3 SR 2.007, Kirschallee 1-3 summer semester 2026 Photogrammetry I (Ü) 08:00 10:00 729157002 (Ü) 1. PG Exercise Prof. Dr. Stachniss, Wiesmann Nußallee 15 Hörsaal XIV, Nussallee 15, Nußallee 15 Hörsaal XIV, Nussallee 15, Nußallee 15 summer semester 2026 physik411: Physik IV (Atome, Moleküle, Kondensierte Materie) 08:00 10:00 physik411 1. PG lecture Prof. Dr. Hofferberth Prof. Dr. Hofferberth Kreuzbergweg 28 Wolfgang-Paul-Hörsaal, Kreuzbergweg 28 Wolfgang-Paul-Hörsaal, Kreuzbergweg 28 summer semester 2026 Stress perception and signalling 08:00 10:00 780800351 1. PG lecture Prof. Dr. Meyer Wagner, Ugalde Valdivia, Prof. Dr. Meyer, Prof. Dr. Schaaf summer semester 2026 Tierphysiologie 08:00 10:00 639400120 1. PG lecture Prof. Dr. Gompel, PD Dr. Häußler PD Dr. Häußler, Prof. Dr. Gompel Nußallee 4 HS Botanik, Nußallee 4 HS Botanik, Nußallee 4 summer semester 2026 V1G6 Algorithmische Math. II 08:00 10:00 611100106 1. PG lecture Prof. Dr. Burstedde, Brandt Prof. Dr. Burstedde Wegelerstraße 10 Großer Hörsaal, Wegelerstraße 10 Großer Hörsaal, Wegelerstraße 10 summer semester 2026 V2B3 Einführung in die Komplexe Analysis 08:00 10:00 611100305 1. PG lecture Dr. Prévost Dr. Prévost Wegelerstraße 10 Kleiner Hörsaal, Wegelerstraße 10 Kleiner Hörsaal, Wegelerstraße 10 summer semester 2026 V3A4 Grz. Zahlentheorie Übung / F4A1-4 F-Number Theory Problem Sessions 08:00 10:00 611300207/611700230 1. PG Exercise Dr. Horawa Endenicher Allee 60 SemR 0.011, Endenicher Allee 60 SemR 0.011, Endenicher Allee 60 summer semester 2026 V3B2 PDG und Modellierung Übung / F4B1-1 F-PDE and Modelling Problem Sessions 08:00 10:00 611300308/611700805 1. PG Exercise Prof. Dr. Koch Endenicher Allee 60 SemR 0.008, Endenicher Allee 60 SemR 0.008, Endenicher Allee 60 summer semester 2026 V3F2 Grz. Stochastische Analysis Übung / F4F1-2 F-Stochastic Analysis Problem Sessions 08:00 10:00 611300704/611700815 1. PG Exercise Prof. Dr. Ferrari Endenicher Allee 60 SemR 0.006, Endenicher Allee 60 SemR 0.006, Endenicher Allee 60 summer semester 2026 V4A5 Advanced Algebra I Problem Sessions 08:00 10:00 611700207 1. PG Exercise Prof. Dr. Franke Prof. Dr. Franke Endenicher Allee 60 / Neubau N 0.003 - Neubau, Endenicher Allee 60 / Neubau N 0.003 - Neubau, Endenicher Allee 60 / Neubau summer semester 2026 Spatial Decision Support Systems (L) 08:00 11:00 753930201 (L) 1. PG lecture Prof. Dr. Haunert Meckenheimer Allee 172 Hörsaal VIII, Meckenheimer Allee 172, Meckenheimer Allee 172 Hörsaal VIII, Meckenheimer Allee 172, Meckenheimer Allee 172 summer semester 2026 Spatial Decision Support Systems (L) 08:00 11:00 753930201 (L) 1. PG lecture Prof. Dr. Haunert Meckenheimer Allee 172 GIS-Labor, Meckenheimer Allee 172, Meckenheimer Allee 172 GIS-Labor, Meckenheimer Allee 172, Meckenheimer Allee 172 summer semester 2026 Vorlesung Diagnose und Förderung 08:00 11:30 801110201 1. PG lecture PD Dr. Käser PD Dr. Käser Meckenheimer Allee 176, Haupthaus Hörsaal IV, Meckenheimer Allee 176, Haupthaus Hörsaal IV, Meckenheimer Allee 176, Haupthaus summer semester 2026 Food Analysis II 08:00 14:00 739601033 1. PG Internship Prof. Wüst Falk, Acir, Dr. Passon summer semester 2026 Food Analysis IV - Hyphenated Instrumental Methods / Animal Feed Analysis 08:00 16:00 739801023 1. PG Internship Prof. Wüst Dr. Passon, Acir summer semester 2026 Masterarbeit (MA) 08:00 16:00 734029001 (MA) 1. PG no event summer semester 2026 Master's Thesis (MT) Veranstaltung_1 08:00 16:00 753900901 (MT) 1. PG no event summer semester 2026 RNA and Cell-Cell communication in health and disease 08:00 16:00 638141300-P1 1. PG Practical exercise Prof. Dr. Jung, Dr. Sallach-Helbig, Bartolomey summer semester 2026 Molecular Haematology (B-Modul) 08:00 17:00 638141250-P1 1. PG Block course Dr. Sallach-Helbig, Oldenburg, Bartolomey summer semester 2026 Preventive, Predictive and Personalised Medicine (B-Modul) 08:00 17:00 638141170-P1 1. PG Block course Bartolomey, Dr. Sallach-Helbig, PrüferIn MCB summer semester 2026 RNA and Cell-Cell communication in health and disease 08:00 17:00 638141300-S1 1. PG Seminar Dr. Sallach-Helbig, Prof. Dr. Jung, Bartolomey summer semester 2026 Vorlesung Biochemie und Molekularbiologie des Menschen - Teil I 08:15 09:00 402311043 1. PG lecture summer semester 2026 BA-INF 015 - Techniken des Wissenschaftlichen Arbeitens 08:30 10:00 614400150 1. PG Exercise Dr. Goerke Friedrich-Hirzebruch-Allee 6-8 - B-IT / INF Seminarraum 0.011, Informatik VI, Friedrich-Hirzebruch-Allee 6-8 - B-IT / INF Seminarraum 0.011, Informatik VI, Friedrich-Hirzebruch-Allee 6-8 - B-IT / INF summer semester 2026 Cellular biochemistry 08:30 10:00 673100012 1. PG lecture Thiele Friedrich-Hirzebruch-Allee 5 - Hörsaalzentrum Hörsaal 5, Friedrich-Hirzebruch-Allee 5 - Hörsaalzentrum Hörsaal 5, Friedrich-Hirzebruch-Allee 5 - Hörsaalzentrum summer semester 2026 Der Wartburgkrieg – Sangspruchdichtung, Rätsel und Sprichwörter 08:30 10:00 505100301 1. PG Seminar Prof. Dr. Chlench-Priber Prof. Dr. Chlench-Priber Rabinstraße 8 Rabinstr. Seminarraum 13, Rabinstraße 8 Rabinstr. Seminarraum 13, Rabinstraße 8 summer semester 2026 Krankheitsbedingt fällt die Sitzung am... Krankheitsbedingt fällt die Sitzung am 13.4. aus. Close Französisch für Romanist*innen A2 08:30 10:00 507020401 1. PG Language course/practice Barth-Lemoine Barth-Lemoine Rabinstraße 8 Rabinstr. Seminarraum 11, Rabinstraße 8 Rabinstr. Seminarraum 11, Rabinstraße 8 summer semester 2026 Grundbegriffe und Propädeutik/Synchrone Sprachwissenschaft (Span.) 08:30 10:00 507022108 1. PG Exercise Dr. Cremer Dr. Cremer Am Hof 1 / Regina-Pacis-Weg 1 Hörsaal V, Am Hof 1 / Regina-Pacis-Weg 1 Hörsaal V, Am Hof 1 / Regina-Pacis-Weg 1 summer semester 2026 Immunology II Veranstaltung 08:30 10:00 673100044 1. PG Lecture/exercise/seminar Prof. Garbi, Förster Friedrich-Hirzebruch-Allee 5 - Hörsaalzentrum Hörsaal 7, Friedrich-Hirzebruch-Allee 5 - Hörsaalzentrum Hörsaal 7, Friedrich-Hirzebruch-Allee 5 - Hörsaalzentrum summer semester 2026 Italienisch für Romanist*innen A1 08:30 10:00 507020601 1. PG Language course/practice Dr. Masi Adenauerallee 35 Raum 3, Institut francais Bonn, Adenauerallee 35, Adenauerallee 35 Raum 3, Institut francais Bonn, Adenauerallee 35, Adenauerallee 35 summer semester 2026 Latein II für Anfänger mit Vorkenntnissen 08:30 10:00 507010070 1. PG Language course/practice Kunzendorf, Kircher Kircher Am Hof 1 / Regina-Pacis-Weg 1 Hörsaal XIV, Am Hof 1 / Regina-Pacis-Weg 1 Hörsaal XIV, Am Hof 1 / Regina-Pacis-Weg 1 summer semester 2026 Lecture Labor and Population Economics 08:30 10:00 334028013 1. PG lecture Prof. Ph.D. Hannusch Prof. Ph.D. Hannusch Juridicum (Adenauerallee 24-42) Hörsaal K, Juridicum (Adenauerallee 24-42) Hörsaal K, Juridicum (Adenauerallee 24-42) summer semester 2026 Lecture Labor and Population Economics 08:30 10:00 333021011 1. PG lecture Prof. Ph.D. Hannusch Prof. Ph.D. Hannusch Juridicum (Adenauerallee 24-42) Hörsaal K, Juridicum (Adenauerallee 24-42) Hörsaal K, Juridicum (Adenauerallee 24-42) summer semester 2026 Modul BP05 Exogene Geologie Veranstaltung_1 08:30 10:00 644100050-V1 1. PG lecture Prof. Dr. März Prof. Dr. März Meckenheimer Allee 176, Haupthaus Hörsaal II, Meckenheimer Allee 176, Haupthaus Hörsaal II, Meckenheimer Allee 176, Haupthaus summer semester 2026 Phonetik (BM II Koreanisch) 08:30 10:00 508000085 1. PG Language course/practice Dr. O-Rauch Kim Lennéstraße 6 2.016, Lennéstraße 6 2.016, Lennéstraße 6 summer semester 2026 Systematische Grammatik / Textanalyse (VM Arabisch) 08:30 10:00 508000010 1. PG Language course/practice Dr. Karam Dr. Karam Nassestraße 2 2.005, Nassestraße 2 2.005, Nassestraße 2 summer semester 2026 Theologien des Alten Testaments 08:30 10:00 1. PG lecture Prof. Dr. Saur Am Hof 1 / Regina-Pacis-Weg 1 Hörsaal XII, Am Hof 1 / Regina-Pacis-Weg 1 Hörsaal XII, Am Hof 1 / Regina-Pacis-Weg 1 summer semester 2026 Semestereröffnung V5E5 Adv Top in Numerical Analysis - Mixed Finite Element Methods 08:30 10:00 611500610 1. PG lecture Prof. Dr. Gedicke Prof. Dr. Gedicke Friedrich-Hirzebruch-Allee 7 - INS / IEL Seminarraum 2.035, Friedrich-Hirzebruch-Allee 7 - INS / IEL Seminarraum 2.035, Friedrich-Hirzebruch-Allee 7 - INS / IEL summer semester 2026 Note that this lecture starts earlier! Writing Skills I 08:30 10:00 556000402 8. PG Language course/practice Thompson Rabinstraße 8 Rabinstr. Seminarraum 7, Rabinstraße 8 Rabinstr. Seminarraum 7, Rabinstraße 8 summer semester 2026 Modul MG41 Einführung in die geologische 3D-Modellierung Veranstaltung_1 08:30 10:15 642164100-V1 1. PG lecture Dr. Valdivia-Manchego Dr. Valdivia-Manchego Meckenheimer Allee 176, Haupthaus Ü9, Meckenheimer Allee 176, Haupthaus Ü9, Meckenheimer Allee 176, Haupthaus summer semester 2026 Analytical Epidemiology with SAS and R 08:30 12:00 780770161 1. PG Practical exercise Prof. Dr. Nöthlings Prof. Dr. Nöthlings, Mark Friedrich-Hirzebruch-Allee 7 - INS / IEL CIP-Pool, Friedrich-Hirzebruch-Allee 7 - INS / IEL CIP-Pool, Friedrich-Hirzebruch-Allee 7 - INS / IEL summer semester 2026 Biotops and Indicator Organisms 08:30 12:00 780720641 1. PG Practical exercise Dr. Hamm NN, Dr. Hamm, Pätzold, Dr. Kosack Auf dem Hügel 6 HS Gartenbauwissenschaften, Auf dem Hügel 6 HS Gartenbauwissenschaften, Auf dem Hügel 6 summer semester 2026 Comparative Competition Law 08:30 12:00 2179 1. PG Event/Exercise Dr. Weck Juridicum (Adenauerallee 24-42) Fakultäts-/ Sitzungszimmer, Juridicum (Adenauerallee 24-42) Fakultäts-/ Sitzungszimmer, Juridicum (Adenauerallee 24-42) summer semester 2026 Research Project Horticultural Production and Research 08:30 12:00 780790141 1. PG Project Dr. Kraska Milyaev, Dr. Kraska Auf dem Hügel 6 Seminarraum 2.002, Auf dem Hügel 6 Seminarraum 2.002, Auf dem Hügel 6 summer semester 2026 Physik mit dem Computer-Algebra System SymPy 09:00 10:00 1. PG lecture Dr. Erben Dr. Erben Nußallee 14-16 HS, Nußallee 14-16 HS, Nußallee 14-16 summer semester 2026 Applied Linguistics: Language and AI (Seminar B) 09:00 10:14 556002402 1. PG Seminar Sherwood Sherwood Rabinstraße 8 Rabinstr. Seminarraum 8, Rabinstraße 8 Rabinstr. Seminarraum 8, Rabinstraße 8 summer semester 2026 Einführung in die Methodik der quantitativen Schnittbildgebung (MRT/CT) 09:00 10:30 401040417 1. PG Seminar summer semester 2026 FSB - Orientierungswoche (Einführung in die Theologie) 09:00 10:30 101150001 1. PG Colloquium Rabinstraße 8 Rabinstr. Seminarraum 1, Rabinstraße 8 Rabinstr. Seminarraum 1, Rabinstraße 8 summer semester 2026 M-LSI-P-013 / MA-INF 4216 - Biomedical Data Science & AI 09:00 10:30 614342160 1. PG Lecture and coursework Prof. Dr. Fröhlich Friedrich-Hirzebruch-Allee 6-8 - B-IT / INF 0.109 (b-it-max), Friedrich-Hirzebruch-Allee 6-8 - B-IT / INF 0.109 (b-it-max), Friedrich-Hirzebruch-Allee 6-8 - B-IT / INF summer semester 2026 astro811 exercise: Stars and Stellar Evolution 09:00 11:00 1. PG Exercise Schootemeijer Auf dem Hügel 71 Raum 0.006, Auf dem Hügel 71 Raum 0.006, Auf dem Hügel 71 summer semester 2026 Erstsemesterbegrüßung 09:00 11:00 661000100 1. PG Introductory course Pharmazeutisches Institut HS 1 Pharmazie, Pharmazeutisches Institut HS 1 Pharmazie, Pharmazeutisches Institut summer semester 2026 Inorganic and Analytical Chemistry 2 (Qualitative Analysis 2) 09:00 11:00 631102100-V1 1. PG lecture Prof. Dr. Glaum Prof. Dr. Glaum Gerhard-Domagk-Straße 1, Hörsaal + Cafeteria HS 1 Chemie, Gerhard-Domagk-Straße 1, Hörsaal + Cafeteria HS 1 Chemie, Gerhard-Domagk-Straße 1, Hörsaal + Cafeteria summer semester 2026 Methods of Structure Elucidation in Organic Chemistry 09:00 11:00 631104200-V1 1. PG Event/Exercise PD Dr. Engeser Prof. Dr. Dickschat, PD Dr. Engeser Gerhard-Domagk-Straße 1, Hörsaal + Cafeteria HS 2 Chemie, Gerhard-Domagk-Straße 1, Hörsaal + Cafeteria HS 2 Chemie, Gerhard-Domagk-Straße 1, Hörsaal + Cafeteria summer semester 2026 Seminar über aktuelle Probleme der Nichtlinearen Quantenoptik, pr 09:00 11:00 1. PG Advanced seminar Prof. Dr. Hofferberth Prof. Dr. Hofferberth Wegelerstr. 6-8 - RHRZ + Angew. Physik 3.020, Wegelerstr. 6-8 - RHRZ + Angew. Physik 3.020, Wegelerstr. 6-8 - RHRZ + Angew. Physik summer semester 2026 B2 Inferenzstatistik und Grundlagen multivariater Verfahren 09:00 12:00 552101401 1. PG Seminar Dr. Hilger Dr. Hilger Kaiser-Karl-Ring 9 Hörsaal, Kaiser-Karl-Ring 9 Hörsaal, Kaiser-Karl-Ring 9 summer semester 2026 C Einführung in empirisch-wissenschaftliches Arbeiten - Datenanalyse 09:00 12:00 552101501 1. PG Seminar Prof. Dr. Beauducel summer semester 2026 Principles of Sensory Evaluation 09:00 12:00 780730262 1. PG Exercise Schulze Schulze Friedrich-Hirzebruch-Allee 7 - INS / IEL Seminarraum 2 U1.023, Friedrich-Hirzebruch-Allee 7 - INS / IEL Seminarraum 2 U1.023, Friedrich-Hirzebruch-Allee 7 - INS / IEL summer semester 2026 Cognitive Neurosciences Veranstaltung_1 09:00 18:00 403100206-V1 1. PG Block course Prof. Dr. med. Surges Rüber, Prof. Dr. Lehnertz, PD Dr. rer. nat. Hoppe, Mormann, Fell, Prof. Dr. med. Surges summer semester 2026 Neuroanatomy Veranstaltung_1 09:00 18:00 403100220-V1 1. PG Block course Prof. Dr. Hofmann summer semester 2026 Neuropharmacology Veranstaltung_1 09:00 18:00 403100213-V1 1. PG Block course Pfeifer Pfeifer, Petric summer semester 2025",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cm/exa/timetable/currentLectures.xhtml?_flowId=showEventsAndExaminationsOnDate-flow&_flowExecutionKey=e5s1#navigationJump",
+    "scraped_at": "2026-04-13T14:57:44.448745",
+    "confidence": 0.8,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Title [Sortable column]",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cm/exa/timetable/currentLectures.xhtml?_flowId=showEventsAndExaminationsOnDate-flow&_flowExecutionKey=e5s1",
+    "scraped_at": "2026-04-13T14:57:44.482185",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Start [Sortable column]",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cm/exa/timetable/currentLectures.xhtml?_flowId=showEventsAndExaminationsOnDate-flow&_flowExecutionKey=e5s1",
+    "scraped_at": "2026-04-13T14:57:44.517917",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "End [Sortable column]",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cm/exa/timetable/currentLectures.xhtml?_flowId=showEventsAndExaminationsOnDate-flow&_flowExecutionKey=e5s1",
+    "scraped_at": "2026-04-13T14:57:44.518377",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Number [Sortable column]",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cm/exa/timetable/currentLectures.xhtml?_flowId=showEventsAndExaminationsOnDate-flow&_flowExecutionKey=e5s1",
+    "scraped_at": "2026-04-13T14:57:44.518832",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Parallelgroup [Sortable column]",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cm/exa/timetable/currentLectures.xhtml?_flowId=showEventsAndExaminationsOnDate-flow&_flowExecutionKey=e5s1",
+    "scraped_at": "2026-04-13T14:57:44.519289",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Kind of course [Sortable column]",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cm/exa/timetable/currentLectures.xhtml?_flowId=showEventsAndExaminationsOnDate-flow&_flowExecutionKey=e5s1",
+    "scraped_at": "2026-04-13T14:57:44.519739",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Responsible lecturer [Sortable column]",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cm/exa/timetable/currentLectures.xhtml?_flowId=showEventsAndExaminationsOnDate-flow&_flowExecutionKey=e5s1",
+    "scraped_at": "2026-04-13T14:57:44.520190",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Performing lecturer [Sortable column]",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cm/exa/timetable/currentLectures.xhtml?_flowId=showEventsAndExaminationsOnDate-flow&_flowExecutionKey=e5s1",
+    "scraped_at": "2026-04-13T14:57:44.520644",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Building [Sortable column]",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cm/exa/timetable/currentLectures.xhtml?_flowId=showEventsAndExaminationsOnDate-flow&_flowExecutionKey=e5s1",
+    "scraped_at": "2026-04-13T14:57:44.521097",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Room [Sortable column]",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cm/exa/timetable/currentLectures.xhtml?_flowId=showEventsAndExaminationsOnDate-flow&_flowExecutionKey=e5s1",
+    "scraped_at": "2026-04-13T14:57:44.521550",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Term [Sortable column]",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cm/exa/timetable/currentLectures.xhtml?_flowId=showEventsAndExaminationsOnDate-flow&_flowExecutionKey=e5s1",
+    "scraped_at": "2026-04-13T14:57:44.522017",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Remark [Sortable column]",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cm/exa/timetable/currentLectures.xhtml?_flowId=showEventsAndExaminationsOnDate-flow&_flowExecutionKey=e5s1",
+    "scraped_at": "2026-04-13T14:57:44.522575",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Solid State Chemistry and Materials",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=36651&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:44.527762",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Animal Nutrition",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=6291&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:44.533023",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "BW04 SL Pädagog. Vertief.",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=25823&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:44.536540",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Food Analysis II",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=6172&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:44.558788",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Food Analysis IV - Hyphenated Instrumental Methods / Animal Feed Analysis",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=6107&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:44.559256",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Lecture Labor and Population Economics",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=15985&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:44.569277",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Analytical Epidemiology with SAS and R",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=5417&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:44.577449",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Biotops and Indicator Organisms",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=4514&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:44.578361",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Inorganic and Analytical Chemistry 2 (Qualitative Analysis 2)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=36623&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:44.585682",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Methods of Structure Elucidation in Organic Chemistry",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=36640&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:44.586590",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Principles of Sensory Evaluation",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/startFlow.xhtml?_flowId=detailView-flow&unitId=4594&periodId=139&navigationPosition=currentLecturesGeneric",
+    "scraped_at": "2026-04-13T14:57:44.589535",
+    "confidence": 0.62,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Copy link",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cm/exa/coursecatalog/showCourseCatalog.xhtml?_flowId=showCourseCatalog-flow&_flowExecutionKey=e6s1",
+    "scraped_at": "2026-04-13T14:57:44.845973",
+    "confidence": 0.72,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Bonn",
+    "source_program_name": "Open in new window or tab",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://basis.uni-bonn.de/qisserver/pages/cm/exa/coursecatalog/showCourseCatalog.xhtml?_flowId=showCourseCatalog-flow&_flowExecutionKey=e6s1",
+    "scraped_at": "2026-04-13T14:57:44.846055",
+    "confidence": 0.72,
+    "metadata": {}
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "_comment": "Manual spots override. Match by partner_id OR (german_uni_id, partner_uni_name, partner_city). Add spots_per_semester and/or spots_per_year."
+  },
+  {
+    "partner_id": "ACCADIS_BILDUNG_GMBH_631536bbf0",
+    "spots_per_semester": 5
+  },
+  {
+    "german_uni_id": "ADBK",
+    "partner_uni_name": "INSEAMM",
+    "partner_city": "Marseille",
+    "spots_per_semester": 3
+  }
+]

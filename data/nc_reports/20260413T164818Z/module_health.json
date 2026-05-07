@@ -1,0 +1,42 @@
+[
+  {
+    "university_id": "uni_duisburg_essen",
+    "status": "failed",
+    "records_extracted": 0,
+    "records_normalized": 0,
+    "duration_ms": 409,
+    "error": "uni_duisburg_essen: no HIS records extracted",
+    "retries": 1,
+    "used_fallback_cache": false
+  },
+  {
+    "university_id": "fau_erlangen",
+    "status": "failed",
+    "records_extracted": 0,
+    "records_normalized": 0,
+    "duration_ms": 1520,
+    "error": "fau_erlangen: no HIS records extracted",
+    "retries": 1,
+    "used_fallback_cache": false
+  },
+  {
+    "university_id": "uni_bonn_static",
+    "status": "success",
+    "records_extracted": 260,
+    "records_normalized": 103,
+    "duration_ms": 2116,
+    "error": null,
+    "retries": 0,
+    "used_fallback_cache": false
+  },
+  {
+    "university_id": "lmu_muenchen",
+    "status": "success",
+    "records_extracted": 299,
+    "records_normalized": 36,
+    "duration_ms": 36363,
+    "error": null,
+    "retries": 0,
+    "used_fallback_cache": false
+  }
+]

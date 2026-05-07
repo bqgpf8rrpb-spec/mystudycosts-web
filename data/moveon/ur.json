@@ -1,0 +1,5363 @@
+{
+  "university_id": "UNIVERSITAET_REGENSBURG",
+  "university_name": "UNIVERSITAET REGENSBURG",
+  "portal_url": "https://ur.adv-pub.moveon4.de/home-page-1628/",
+  "portal_type": "advanced_publisher",
+  "scraped_at": "2026-03-15T17:13:55.142Z",
+  "strategy": "js_variable:moreinformatics",
+  "partner_count": 326,
+  "partners": [
+    {
+      "partner_name": "Universidad Argentina de la Empresa",
+      "country": "Argentinien",
+      "country_code": "AR",
+      "city": "Unknown",
+      "lat": -34.617122,
+      "lng": -58.381734,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Betriebswirtschaftslehre",
+      "moveon_id": "507"
+    },
+    {
+      "partner_name": "Universidad de Buenos Aires",
+      "country": "Argentinien",
+      "country_code": "AR",
+      "city": "Unknown",
+      "lat": -34.5999,
+      "lng": -58.3731,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Geschichte",
+      "moveon_id": "4970"
+    },
+    {
+      "partner_name": "Universidad Nacional de Córdoba",
+      "country": "Argentinien",
+      "country_code": "AR",
+      "city": "Unknown",
+      "lat": -31.4375,
+      "lng": -64.187778,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Biochemie|| Biologie",
+      "moveon_id": "3663"
+    },
+    {
+      "partner_name": "Universidad Nacional de Cuyo",
+      "country": "Argentinien",
+      "country_code": "AR",
+      "city": "Unknown",
+      "lat": -32.892721,
+      "lng": -68.833101,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [],
+      "isced_subject": null,
+      "faculty_department": "Biologie",
+      "moveon_id": "5809"
+    },
+    {
+      "partner_name": "Universidad Nacional de Mar del Plata",
+      "country": "Argentinien",
+      "country_code": "AR",
+      "city": "Unknown",
+      "lat": -34.929199,
+      "lng": -57.960129,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Biochemie|| Biologie",
+      "moveon_id": "1256"
+    },
+    {
+      "partner_name": "Bond University",
+      "country": "Australien",
+      "country_code": "AU",
+      "city": "Unknown",
+      "lat": -28.075709,
+      "lng": 153.414682,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Immobilienwirtschaft",
+      "moveon_id": "1685"
+    },
+    {
+      "partner_name": "University of Newcastle",
+      "country": "Australien",
+      "country_code": "AU",
+      "city": "Unknown",
+      "lat": -32.926357,
+      "lng": 151.78122,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Biochemie|| Biologie",
+      "moveon_id": "1207"
+    },
+    {
+      "partner_name": "University of Technology Sydney",
+      "country": "Australien",
+      "country_code": "AU",
+      "city": "Unknown",
+      "lat": -33.884026,
+      "lng": 151.201551,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Biochemie|| Biologie",
+      "moveon_id": "3954"
+    },
+    {
+      "partner_name": "University of the Sunshine Coast",
+      "country": "Australien",
+      "country_code": "AU",
+      "city": "Unknown",
+      "lat": -26.716882,
+      "lng": 153.063992,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Biologie",
+      "moveon_id": "1075"
+    },
+    {
+      "partner_name": "Victoria University",
+      "country": "Australien",
+      "country_code": "AU",
+      "city": "Unknown",
+      "lat": -37.794167,
+      "lng": 144.9,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Biologie",
+      "moveon_id": "3944"
+    },
+    {
+      "partner_name": "Haute Ecole Galilée",
+      "country": "Belgien",
+      "country_code": "BE",
+      "city": "Unknown",
+      "lat": 50.837051,
+      "lng": 4.367612,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Information und Medien, Sprache und Kultur",
+      "moveon_id": "1202"
+    },
+    {
+      "partner_name": "KU Leuven",
+      "country": "Belgien",
+      "country_code": "BE",
+      "city": "Unknown",
+      "lat": 50.877955,
+      "lng": 4.700259,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Musikwissenschaft",
+      "moveon_id": "1314"
+    },
+    {
+      "partner_name": "Université Catholique de Louvain",
+      "country": "Belgien",
+      "country_code": "BE",
+      "city": "Unknown",
+      "lat": 50.669844,
+      "lng": 4.615632,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / Promotion"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Psychologie",
+      "moveon_id": "1522"
+    },
+    {
+      "partner_name": "Université de Liège",
+      "country": "Belgien",
+      "country_code": "BE",
+      "city": "Unknown",
+      "lat": 50.640879,
+      "lng": 5.575316,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Rechtswissenschaft",
+      "moveon_id": "10"
+    },
+    {
+      "partner_name": "Université de Namur",
+      "country": "Belgien",
+      "country_code": "BE",
+      "city": "Unknown",
+      "lat": 50.466307,
+      "lng": 4.860482,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Volkswirtschaftslehre",
+      "moveon_id": "5275"
+    },
+    {
+      "partner_name": "Universiteit Antwerpen",
+      "country": "Belgien",
+      "country_code": "BE",
+      "city": "Unknown",
+      "lat": 51.222344,
+      "lng": 4.409836,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Pädagogik",
+      "moveon_id": "1235"
+    },
+    {
+      "partner_name": "Universidade Estadual Paulista (UNESP)",
+      "country": "Brasilien",
+      "country_code": "BR",
+      "city": "Unknown",
+      "lat": -22.8172,
+      "lng": -47.0694,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Biologie",
+      "moveon_id": "3707"
+    },
+    {
+      "partner_name": "Universidade Federal de São Carlos – UFSCAR",
+      "country": "Brasilien",
+      "country_code": "BR",
+      "city": "Unknown",
+      "lat": -22.015354,
+      "lng": -47.891112,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [],
+      "isced_subject": null,
+      "faculty_department": "Biologie",
+      "moveon_id": "5825"
+    },
+    {
+      "partner_name": "Universidade Federal do Pará",
+      "country": "Brasilien",
+      "country_code": "BR",
+      "city": "Unknown",
+      "lat": -1.475858,
+      "lng": -48.458316,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "6156"
+    },
+    {
+      "partner_name": "Angel Kanchev University of Ruse",
+      "country": "Bulgarien",
+      "country_code": "BG",
+      "city": "Unknown",
+      "lat": 43.835571,
+      "lng": 25.965655,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Rechtswissenschaft",
+      "moveon_id": "3726"
+    },
+    {
+      "partner_name": "Bulgarian Academy of Sciences",
+      "country": "Bulgarien",
+      "country_code": "BG",
+      "city": "Unknown",
+      "lat": 23.321867,
+      "lng": 42.697708,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Doctorate / Promotion"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Geschichte",
+      "moveon_id": "3724"
+    },
+    {
+      "partner_name": "Plovdivski Universitet 'Paisii Hilendarski'",
+      "country": "Bulgarien",
+      "country_code": "BG",
+      "city": "Unknown",
+      "lat": 42.143841,
+      "lng": 24.749562,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / Promotion"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Geschichte",
+      "moveon_id": "3725"
+    },
+    {
+      "partner_name": "Sofiiski Universitet ‘Sveti Kliment Ohridski’",
+      "country": "Bulgarien",
+      "country_code": "BG",
+      "city": "Unknown",
+      "lat": 42.697649,
+      "lng": 23.322154,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / Promotion"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Geschichte",
+      "moveon_id": "3762"
+    },
+    {
+      "partner_name": "Velikoturnovski Universitet Sv. Sv. Kiril i Metodii",
+      "country": "Bulgarien",
+      "country_code": "BG",
+      "city": "Unknown",
+      "lat": 43.082514,
+      "lng": 25.632416,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Informatik und Data Science",
+      "moveon_id": "6953"
+    },
+    {
+      "partner_name": "Universidad Austral de Chile",
+      "country": "Chile",
+      "country_code": "CL",
+      "city": "Unknown",
+      "lat": -39.827432,
+      "lng": -73.251241,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Biochemie|| Biologie",
+      "moveon_id": "3697"
+    },
+    {
+      "partner_name": "Universidad del Desarrollo",
+      "country": "Chile",
+      "country_code": "CL",
+      "city": "Unknown",
+      "lat": -36.814815,
+      "lng": -73.029257,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Rechtswissenschaft",
+      "moveon_id": "1521"
+    },
+    {
+      "partner_name": "Beijing Institute of Technology",
+      "country": "China (VR)",
+      "country_code": "CN",
+      "city": "Unknown",
+      "lat": 39.908173,
+      "lng": 116.397947,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Betriebswirtschaftslehre",
+      "moveon_id": "593"
+    },
+    {
+      "partner_name": "Hong Kong Baptist University",
+      "country": "China (VR)",
+      "country_code": "CN",
+      "city": "Unknown",
+      "lat": 22.338889,
+      "lng": 114.181944,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Biologie",
+      "moveon_id": "3806"
+    },
+    {
+      "partner_name": "Lingnan University",
+      "country": "China (VR)",
+      "country_code": "CN",
+      "city": "Unknown",
+      "lat": 22.320336,
+      "lng": 114.23905,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Informatik und Data Science",
+      "moveon_id": "6127"
+    },
+    {
+      "partner_name": "The Education University of Hong Kong (früher HKIEd)",
+      "country": "China (VR)",
+      "country_code": "CN",
+      "city": "Unknown",
+      "lat": 22.4689,
+      "lng": 114.194,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Kunsterziehung",
+      "moveon_id": "4295"
+    },
+    {
+      "partner_name": "Tongji University",
+      "country": "China (VR)",
+      "country_code": "CN",
+      "city": "Unknown",
+      "lat": 31.262,
+      "lng": 121.459,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Wirtschaftsinformatik",
+      "moveon_id": "6904"
+    },
+    {
+      "partner_name": "University of Hong Kong",
+      "country": "China (VR)",
+      "country_code": "CN",
+      "city": "Unknown",
+      "lat": 22.284167,
+      "lng": 114.137778,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Immobilienwirtschaft",
+      "moveon_id": "727"
+    },
+    {
+      "partner_name": "Aalborg Universitet",
+      "country": "Dänemark",
+      "country_code": "DK",
+      "city": "Unknown",
+      "lat": 57.017268,
+      "lng": 9.975857,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Geschichte",
+      "moveon_id": "5100"
+    },
+    {
+      "partner_name": "Aarhus Universitet",
+      "country": "Dänemark",
+      "country_code": "DK",
+      "city": "Unknown",
+      "lat": 56.171507,
+      "lng": 10.199892,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Geschichte|| Politikwissenschaft",
+      "moveon_id": "5891"
+    },
+    {
+      "partner_name": "University of Southern Denmark",
+      "country": "Dänemark",
+      "country_code": "DK",
+      "city": "Unknown",
+      "lat": 55.403756,
+      "lng": 10.40237,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Biologie",
+      "moveon_id": "760"
+    },
+    {
+      "partner_name": "Universität Regensburg",
+      "country": "Deutschland",
+      "country_code": "DE",
+      "city": "Unknown",
+      "lat": 48.998299,
+      "lng": 12.095274,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Mathematik",
+      "moveon_id": "1423"
+    },
+    {
+      "partner_name": "Tallinna Ülikool",
+      "country": "Estland",
+      "country_code": "EE",
+      "city": "Unknown",
+      "lat": 59.438744,
+      "lng": 24.771626,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Sprachen und Philologien",
+      "moveon_id": "5550"
+    },
+    {
+      "partner_name": "Tartu Ülikool",
+      "country": "Estland",
+      "country_code": "EE",
+      "city": "Unknown",
+      "lat": 58.370884,
+      "lng": 26.714828,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Rechtswissenschaft",
+      "moveon_id": "1119"
+    },
+    {
+      "partner_name": "Aalto Yliopisto",
+      "country": "Finnland",
+      "country_code": "FI",
+      "city": "Unknown",
+      "lat": null,
+      "lng": null,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Immobilienwirtschaft",
+      "moveon_id": "792"
+    },
+    {
+      "partner_name": "Åbo Akademi",
+      "country": "Finnland",
+      "country_code": "FI",
+      "city": "Unknown",
+      "lat": 60.45088,
+      "lng": 22.2779,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Germanistik",
+      "moveon_id": "3970"
+    },
+    {
+      "partner_name": "Helsingin Yliopisto",
+      "country": "Finnland",
+      "country_code": "FI",
+      "city": "Unknown",
+      "lat": 60.169482,
+      "lng": 24.950763,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Germanistik",
+      "moveon_id": "3976"
+    },
+    {
+      "partner_name": "Kuopion Yliopisto",
+      "country": "Finnland",
+      "country_code": "FI",
+      "city": "Unknown",
+      "lat": 62.895753,
+      "lng": 27.641882,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Betriebswirtschaftslehre",
+      "moveon_id": "682"
+    },
+    {
+      "partner_name": "Oulun Yliopisto",
+      "country": "Finnland",
+      "country_code": "FI",
+      "city": "Unknown",
+      "lat": 65.059301,
+      "lng": 25.466464,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Germanistik",
+      "moveon_id": "4850"
+    },
+    {
+      "partner_name": "Turun Yliopisto",
+      "country": "Finnland",
+      "country_code": "FI",
+      "city": "Unknown",
+      "lat": 60.45492,
+      "lng": 22.28571,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Pädagogik",
+      "moveon_id": "1194"
+    },
+    {
+      "partner_name": "University of Eastern Finland - Joensuu Campus",
+      "country": "Finnland",
+      "country_code": "FI",
+      "city": "Unknown",
+      "lat": 62.601016,
+      "lng": 29.763572,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Pädagogik",
+      "moveon_id": "1135"
+    },
+    {
+      "partner_name": "University of Vaasa",
+      "country": "Finnland",
+      "country_code": "FI",
+      "city": "Unknown",
+      "lat": 63.105084,
+      "lng": 21.591863,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Betriebswirtschaftslehre",
+      "moveon_id": "655"
+    },
+    {
+      "partner_name": "Aix-Marseille Université",
+      "country": "Frankreich",
+      "country_code": "FR",
+      "city": "Unknown",
+      "lat": 43.292048,
+      "lng": 5.359018,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Biologie",
+      "moveon_id": "588"
+    },
+    {
+      "partner_name": "Audencia Business School",
+      "country": "Frankreich",
+      "country_code": "FR",
+      "city": "Unknown",
+      "lat": 47.246879,
+      "lng": -1.55372,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Betriebswirtschaftslehre",
+      "moveon_id": "36"
+    },
+    {
+      "partner_name": "Avignon Université",
+      "country": "Frankreich",
+      "country_code": "FR",
+      "city": "Unknown",
+      "lat": 43.949667,
+      "lng": 4.817113,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Rechtswissenschaft",
+      "moveon_id": "5647"
+    },
+    {
+      "partner_name": "Centrale Lille Institut",
+      "country": "Frankreich",
+      "country_code": "FR",
+      "city": "Unknown",
+      "lat": 50.632533,
+      "lng": 3.120827,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Chemie",
+      "moveon_id": "5080"
+    },
+    {
+      "partner_name": "CY Cergy Paris Université",
+      "country": "Frankreich",
+      "country_code": "FR",
+      "city": "Unknown",
+      "lat": 49.038103,
+      "lng": 2.074032,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Informatik und Data Science",
+      "moveon_id": "6730"
+    },
+    {
+      "partner_name": "Ecole de Management de Normandie Caen-Le Havre",
+      "country": "Frankreich",
+      "country_code": "FR",
+      "city": "Unknown",
+      "lat": 49.489356,
+      "lng": 0.103576,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Betriebswirtschaftslehre",
+      "moveon_id": "24"
+    },
+    {
+      "partner_name": "Ecole Nationale Supérieure de Chimie de Montpellier",
+      "country": "Frankreich",
+      "country_code": "FR",
+      "city": "Unknown",
+      "lat": 43.610769,
+      "lng": 3.876716,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Chemie",
+      "moveon_id": "869"
+    },
+    {
+      "partner_name": "Ecole Normale Supérieure de Lyon",
+      "country": "Frankreich",
+      "country_code": "FR",
+      "city": "Unknown",
+      "lat": 45.764043,
+      "lng": 4.835659,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Romanistik",
+      "moveon_id": "3648"
+    },
+    {
+      "partner_name": "Ecole Normale Supérieure Paris",
+      "country": "Frankreich",
+      "country_code": "FR",
+      "city": "Unknown",
+      "lat": 48.842131,
+      "lng": 2.344116,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Physik",
+      "moveon_id": "481"
+    },
+    {
+      "partner_name": "Ecole supérieure d'art de Clermont Métropole",
+      "country": "Frankreich",
+      "country_code": "FR",
+      "city": "Unknown",
+      "lat": 45.777222,
+      "lng": 3.087025,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Kunsterziehung",
+      "moveon_id": "1001"
+    },
+    {
+      "partner_name": "Groupe ESC Clermont",
+      "country": "Frankreich",
+      "country_code": "FR",
+      "city": "Unknown",
+      "lat": 45.777222,
+      "lng": 3.087025,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Betriebswirtschaftslehre",
+      "moveon_id": "20"
+    },
+    {
+      "partner_name": "Institut Catholique de Paris",
+      "country": "Frankreich",
+      "country_code": "FR",
+      "city": "Unknown",
+      "lat": 48.856614,
+      "lng": 2.352222,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Politikwissenschaft",
+      "moveon_id": "5291"
+    },
+    {
+      "partner_name": "Nantes Université",
+      "country": "Frankreich",
+      "country_code": "FR",
+      "city": "Unknown",
+      "lat": 47.209414,
+      "lng": -1.556009,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Geschichte",
+      "moveon_id": "5844"
+    },
+    {
+      "partner_name": "NEOMA Business School",
+      "country": "Frankreich",
+      "country_code": "FR",
+      "city": "Unknown",
+      "lat": 49.463072,
+      "lng": 1.063831,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Betriebswirtschaftslehre",
+      "moveon_id": "41"
+    },
+    {
+      "partner_name": "Université Catholique de Lille",
+      "country": "Frankreich",
+      "country_code": "FR",
+      "city": "Unknown",
+      "lat": 50.632777,
+      "lng": 3.046759,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Medizin",
+      "moveon_id": "722"
+    },
+    {
+      "partner_name": "Université Clermont Auvergne",
+      "country": "Frankreich",
+      "country_code": "FR",
+      "city": "Unknown",
+      "lat": 45.777222,
+      "lng": 3.087025,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Kunstgeschichte",
+      "moveon_id": "4239"
+    },
+    {
+      "partner_name": "Université Côte d' Azur",
+      "country": "Frankreich",
+      "country_code": "FR",
+      "city": "Unknown",
+      "lat": 0,
+      "lng": 0,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Medizin",
+      "moveon_id": "5069"
+    },
+    {
+      "partner_name": "Université de Bordeaux",
+      "country": "Frankreich",
+      "country_code": "FR",
+      "city": "Unknown",
+      "lat": -0.57918,
+      "lng": 44.837789,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master",
+        "Doctorate / Promotion"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Mathematik",
+      "moveon_id": "4455"
+    },
+    {
+      "partner_name": "Université de Lille",
+      "country": "Frankreich",
+      "country_code": "FR",
+      "city": "Unknown",
+      "lat": 50.62925,
+      "lng": 3.057256,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Pharmazie",
+      "moveon_id": "4438"
+    },
+    {
+      "partner_name": "Université de Limoges",
+      "country": "Frankreich",
+      "country_code": "FR",
+      "city": "Unknown",
+      "lat": 45.833717,
+      "lng": 1.244126,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Medizin",
+      "moveon_id": "466"
+    },
+    {
+      "partner_name": "Université de Montpellier",
+      "country": "Frankreich",
+      "country_code": "FR",
+      "city": "Unknown",
+      "lat": 43.610769,
+      "lng": 3.876716,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Rechtswissenschaft",
+      "moveon_id": "4241"
+    },
+    {
+      "partner_name": "Université de Paris",
+      "country": "Frankreich",
+      "country_code": "FR",
+      "city": "Unknown",
+      "lat": 48.850883,
+      "lng": 2.341169,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Pharmazie",
+      "moveon_id": "5032"
+    },
+    {
+      "partner_name": "Université de Pau et des Pays de l'Adour",
+      "country": "Frankreich",
+      "country_code": "FR",
+      "city": "Unknown",
+      "lat": 43.311316,
+      "lng": -0.364271,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Romanistik",
+      "moveon_id": "3653"
+    },
+    {
+      "partner_name": "Université de Rennes I",
+      "country": "Frankreich",
+      "country_code": "FR",
+      "city": "Unknown",
+      "lat": 48.115988,
+      "lng": -1.673868,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Mathematik",
+      "moveon_id": "716"
+    },
+    {
+      "partner_name": "Université de Strasbourg",
+      "country": "Frankreich",
+      "country_code": "FR",
+      "city": "Unknown",
+      "lat": 48.580077,
+      "lng": 7.766799,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Chemie",
+      "moveon_id": "5760"
+    },
+    {
+      "partner_name": "Université de Toulouse",
+      "country": "Frankreich",
+      "country_code": "FR",
+      "city": "Unknown",
+      "lat": 43.561253,
+      "lng": 1.463799,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Biologie",
+      "moveon_id": "769"
+    },
+    {
+      "partner_name": "Université de Tours",
+      "country": "Frankreich",
+      "country_code": "FR",
+      "city": "Unknown",
+      "lat": 47.39633,
+      "lng": 0.682225,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / Promotion"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Mathematik",
+      "moveon_id": "1261"
+    },
+    {
+      "partner_name": "Université de Versailles Saint-Quentin-en-Yvelines",
+      "country": "Frankreich",
+      "country_code": "FR",
+      "city": "Unknown",
+      "lat": 48.79962,
+      "lng": 2.141258,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Chemie",
+      "moveon_id": "549"
+    },
+    {
+      "partner_name": "Université Grenoble Alpes",
+      "country": "Frankreich",
+      "country_code": "FR",
+      "city": "Unknown",
+      "lat": 45.188529,
+      "lng": 5.724524,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Rechtswissenschaft",
+      "moveon_id": "6197"
+    },
+    {
+      "partner_name": "Université Jean Moulin Lyon 3",
+      "country": "Frankreich",
+      "country_code": "FR",
+      "city": "Unknown",
+      "lat": 45.746331,
+      "lng": 4.868999,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Germanistik",
+      "moveon_id": "4164"
+    },
+    {
+      "partner_name": "Université Paris 1 Panthéon-Sorbonne",
+      "country": "Frankreich",
+      "country_code": "FR",
+      "city": "Unknown",
+      "lat": 48.846774,
+      "lng": 2.344894,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Rechtswissenschaft",
+      "moveon_id": "38"
+    },
+    {
+      "partner_name": "Université Paris Est Créteil – Val de Marne",
+      "country": "Frankreich",
+      "country_code": "FR",
+      "city": "Unknown",
+      "lat": 48.791218,
+      "lng": 2.446104,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Medizin",
+      "moveon_id": "5006"
+    },
+    {
+      "partner_name": "Université Paris Nanterre",
+      "country": "Frankreich",
+      "country_code": "FR",
+      "city": "Unknown",
+      "lat": 48.90356,
+      "lng": 2.211632,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Rechtswissenschaft",
+      "moveon_id": "35"
+    },
+    {
+      "partner_name": "Université Paris-Saclay",
+      "country": "Frankreich",
+      "country_code": "FR",
+      "city": "Unknown",
+      "lat": null,
+      "lng": null,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / Promotion"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Mathematik",
+      "moveon_id": "5049"
+    },
+    {
+      "partner_name": "Aristoteleio Panepistimio Thessalonikis",
+      "country": "Griechenland",
+      "country_code": "GR",
+      "city": "Unknown",
+      "lat": 40.625034,
+      "lng": 22.972547,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Rechtswissenschaft",
+      "moveon_id": "51"
+    },
+    {
+      "partner_name": "Ethniko Kai Kapodistriako Panepistimio Athinon",
+      "country": "Griechenland",
+      "country_code": "GR",
+      "city": "Unknown",
+      "lat": 37.980503,
+      "lng": 23.733333,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Pharmazie",
+      "moveon_id": "657"
+    },
+    {
+      "partner_name": "Ionio Panepistimio",
+      "country": "Griechenland",
+      "country_code": "GR",
+      "city": "Unknown",
+      "lat": 39.617794,
+      "lng": 19.919621,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / Promotion"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Wirtschaftsinformatik",
+      "moveon_id": "4336"
+    },
+    {
+      "partner_name": "Oikonomiko Panepistimio Athinon (OPA)",
+      "country": "Griechenland",
+      "country_code": "GR",
+      "city": "Unknown",
+      "lat": 37.97918,
+      "lng": 23.716647,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Betriebswirtschaftslehre",
+      "moveon_id": "48"
+    },
+    {
+      "partner_name": "Panepistimio Ioanninon",
+      "country": "Griechenland",
+      "country_code": "GR",
+      "city": "Unknown",
+      "lat": 39.65778,
+      "lng": 20.853029,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Pädagogik",
+      "moveon_id": "283"
+    },
+    {
+      "partner_name": "Panepistimio Makedonias, Oikonomikon Kai Koinonikon Epistimon",
+      "country": "Griechenland",
+      "country_code": "GR",
+      "city": "Unknown",
+      "lat": 40.625496,
+      "lng": 22.960256,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Volkswirtschaftslehre",
+      "moveon_id": "5868"
+    },
+    {
+      "partner_name": "Panepistimio Patron",
+      "country": "Griechenland",
+      "country_code": "GR",
+      "city": "Unknown",
+      "lat": 38.253799,
+      "lng": 21.73631,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Pharmazie",
+      "moveon_id": "45"
+    },
+    {
+      "partner_name": "Panepistimio Pireos",
+      "country": "Griechenland",
+      "country_code": "GR",
+      "city": "Unknown",
+      "lat": 37.939534,
+      "lng": 23.644683,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Wirtschaftsinformatik",
+      "moveon_id": "654"
+    },
+    {
+      "partner_name": "Panteion Panepistimio Kinonikon Kai Politikon Epistimon",
+      "country": "Griechenland",
+      "country_code": "GR",
+      "city": "Unknown",
+      "lat": 37.97918,
+      "lng": 23.716647,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / Promotion"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Geschichte",
+      "moveon_id": "5371"
+    },
+    {
+      "partner_name": "Indian Institute of Technology Bombay (IIT Bombay)",
+      "country": "Indien",
+      "country_code": "IN",
+      "city": "Unknown",
+      "lat": 19.017656,
+      "lng": 72.856178,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "4435"
+    },
+    {
+      "partner_name": "Maharaja Sayajirao University of Baroda",
+      "country": "Indien",
+      "country_code": "IN",
+      "city": "Unknown",
+      "lat": 22.30731,
+      "lng": 73.181098,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Rechtswissenschaft",
+      "moveon_id": "6498"
+    },
+    {
+      "partner_name": "Manipal Academy of Higher Education",
+      "country": "Indien",
+      "country_code": "IN",
+      "city": "Unknown",
+      "lat": 12.975014,
+      "lng": 77.614428,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Geschichte",
+      "moveon_id": "5370"
+    },
+    {
+      "partner_name": "Dublin Business School",
+      "country": "Irland",
+      "country_code": "IE",
+      "city": "Unknown",
+      "lat": 53.340521,
+      "lng": -6.265671,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Psychologie",
+      "moveon_id": "5475"
+    },
+    {
+      "partner_name": "St. Patrick's College Maynooth",
+      "country": "Irland",
+      "country_code": "IE",
+      "city": "Unknown",
+      "lat": 53.162792,
+      "lng": -6.908068,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Theologie",
+      "moveon_id": "788"
+    },
+    {
+      "partner_name": "Trinity College Dublin",
+      "country": "Irland",
+      "country_code": "IE",
+      "city": "Unknown",
+      "lat": 53.3445,
+      "lng": -6.26125,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Chemie",
+      "moveon_id": "459"
+    },
+    {
+      "partner_name": "University College Cork",
+      "country": "Irland",
+      "country_code": "IE",
+      "city": "Unknown",
+      "lat": 51.89217,
+      "lng": -8.49286,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Anglistik und Amerikanistik",
+      "moveon_id": "3689"
+    },
+    {
+      "partner_name": "University College Dublin",
+      "country": "Irland",
+      "country_code": "IE",
+      "city": "Unknown",
+      "lat": 53.307,
+      "lng": -6.21519,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Betriebswirtschaftslehre",
+      "moveon_id": "55"
+    },
+    {
+      "partner_name": "University of Limerick",
+      "country": "Irland",
+      "country_code": "IE",
+      "city": "Unknown",
+      "lat": 52.673162,
+      "lng": -8.569708,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [],
+      "isced_subject": null,
+      "faculty_department": "Geschichte",
+      "moveon_id": "5271"
+    },
+    {
+      "partner_name": "Ben-Gurion University of the Negev",
+      "country": "Israel",
+      "country_code": "IL",
+      "city": "Unknown",
+      "lat": 31.2503,
+      "lng": 34.798,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Biochemie|| Biologie",
+      "moveon_id": "4999"
+    },
+    {
+      "partner_name": "Hebrew University of Jerusalem",
+      "country": "Israel",
+      "country_code": "IL",
+      "city": "Unknown",
+      "lat": 31.7857,
+      "lng": 35.2007,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Biologie",
+      "moveon_id": "6701"
+    },
+    {
+      "partner_name": "Libera Università di Bolzano - Freie Universität Bozen",
+      "country": "Italien",
+      "country_code": "IT",
+      "city": "Unknown",
+      "lat": 46.495166,
+      "lng": 11.354103,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Informatik und Data Science",
+      "moveon_id": "5987"
+    },
+    {
+      "partner_name": "Scuola normale Superiore di Pisa",
+      "country": "Italien",
+      "country_code": "IT",
+      "city": "Unknown",
+      "lat": 43.724591,
+      "lng": 10.382981,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Physik",
+      "moveon_id": "768"
+    },
+    {
+      "partner_name": "Università Ca' Foscari Venezia",
+      "country": "Italien",
+      "country_code": "IT",
+      "city": "Unknown",
+      "lat": 45.434314,
+      "lng": 12.326025,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Betriebswirtschaftslehre",
+      "moveon_id": "5579"
+    },
+    {
+      "partner_name": "Università Cattolica del Sacro Cuore",
+      "country": "Italien",
+      "country_code": "IT",
+      "city": "Unknown",
+      "lat": 45.462959,
+      "lng": 9.176822,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Rechtswissenschaft",
+      "moveon_id": "59"
+    },
+    {
+      "partner_name": "Università degli Studi dell' Insubria",
+      "country": "Italien",
+      "country_code": "IT",
+      "city": "Unknown",
+      "lat": 45.814734,
+      "lng": 8.827962,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Rechtswissenschaft",
+      "moveon_id": "364"
+    },
+    {
+      "partner_name": "Università degli studi dell'Aquila",
+      "country": "Italien",
+      "country_code": "IT",
+      "city": "Unknown",
+      "lat": 42.351955,
+      "lng": 13.396531,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / Promotion"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Mathematik",
+      "moveon_id": "6226"
+    },
+    {
+      "partner_name": "Università degli studi di Bari",
+      "country": "Italien",
+      "country_code": "IT",
+      "city": "Unknown",
+      "lat": 41.121181,
+      "lng": 16.868904,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Kunstgeschichte",
+      "moveon_id": "294"
+    },
+    {
+      "partner_name": "Università degli Studi di Cagliari",
+      "country": "Italien",
+      "country_code": "IT",
+      "city": "Unknown",
+      "lat": 39.217582,
+      "lng": 9.115082,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Pädagogik",
+      "moveon_id": "1574"
+    },
+    {
+      "partner_name": "Università degli Studi di Ferrara",
+      "country": "Italien",
+      "country_code": "IT",
+      "city": "Unknown",
+      "lat": 44.833481,
+      "lng": 11.626,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Romanistik",
+      "moveon_id": "3711"
+    },
+    {
+      "partner_name": "Università degli Studi di Firenze",
+      "country": "Italien",
+      "country_code": "IT",
+      "city": "Unknown",
+      "lat": 43.778047,
+      "lng": 11.259319,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Chemie",
+      "moveon_id": "777"
+    },
+    {
+      "partner_name": "Università degli studi di Genova",
+      "country": "Italien",
+      "country_code": "IT",
+      "city": "Unknown",
+      "lat": 44.414827,
+      "lng": 8.926616,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Mathematik",
+      "moveon_id": "645"
+    },
+    {
+      "partner_name": "Università degli studi di Milano",
+      "country": "Italien",
+      "country_code": "IT",
+      "city": "Unknown",
+      "lat": 45.460444,
+      "lng": 9.19402,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Chemie",
+      "moveon_id": "372"
+    },
+    {
+      "partner_name": "Università degli Studi di Milano – Bicocca",
+      "country": "Italien",
+      "country_code": "IT",
+      "city": "Unknown",
+      "lat": 45.517425,
+      "lng": 9.213414,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Betriebswirtschaftslehre",
+      "moveon_id": "4341"
+    },
+    {
+      "partner_name": "Università degli Studi di Modena e Reggio Emilia",
+      "country": "Italien",
+      "country_code": "IT",
+      "city": "Unknown",
+      "lat": 44.645031,
+      "lng": 10.927609,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Pädagogik",
+      "moveon_id": "659"
+    },
+    {
+      "partner_name": "Università degli Studi di Padova",
+      "country": "Italien",
+      "country_code": "IT",
+      "city": "Unknown",
+      "lat": 45.409568,
+      "lng": 11.876589,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Mathematik",
+      "moveon_id": "1412"
+    },
+    {
+      "partner_name": "Università degli Studi di Palermo",
+      "country": "Italien",
+      "country_code": "IT",
+      "city": "Unknown",
+      "lat": 38.105813,
+      "lng": 13.351659,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Informatik und Data Science",
+      "moveon_id": "5984"
+    },
+    {
+      "partner_name": "Università degli Studi di Parma",
+      "country": "Italien",
+      "country_code": "IT",
+      "city": "Unknown",
+      "lat": 44.801266,
+      "lng": 10.325819,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Pharmazie",
+      "moveon_id": "65"
+    },
+    {
+      "partner_name": "Università degli studi di Pavia",
+      "country": "Italien",
+      "country_code": "IT",
+      "city": "Unknown",
+      "lat": 45.186885,
+      "lng": 9.155827,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Musikwissenschaft",
+      "moveon_id": "67"
+    },
+    {
+      "partner_name": "Università degli Studi di Perugia",
+      "country": "Italien",
+      "country_code": "IT",
+      "city": "Unknown",
+      "lat": 43.116312,
+      "lng": 12.387543,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / Promotion"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Betriebswirtschaftslehre",
+      "moveon_id": "1048"
+    },
+    {
+      "partner_name": "Università degli studi di Pisa",
+      "country": "Italien",
+      "country_code": "IT",
+      "city": "Unknown",
+      "lat": 43.716135,
+      "lng": 10.396602,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / Promotion"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Mathematik",
+      "moveon_id": "69"
+    },
+    {
+      "partner_name": "Università degli studi di Roma 'La Sapienza'",
+      "country": "Italien",
+      "country_code": "IT",
+      "city": "Unknown",
+      "lat": 41.90185,
+      "lng": 12.512096,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Rechtswissenschaft",
+      "moveon_id": "70"
+    },
+    {
+      "partner_name": "Università degli studi di Roma Tre",
+      "country": "Italien",
+      "country_code": "IT",
+      "city": "Unknown",
+      "lat": 41.902783,
+      "lng": 12.496365,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Germanistik",
+      "moveon_id": "4346"
+    },
+    {
+      "partner_name": "Università degli Studi di Roma ‘Tor Vergata’",
+      "country": "Italien",
+      "country_code": "IT",
+      "city": "Unknown",
+      "lat": 41.848606,
+      "lng": 12.597767,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Medizin",
+      "moveon_id": "71"
+    },
+    {
+      "partner_name": "Università degli Studi di Salerno",
+      "country": "Italien",
+      "country_code": "IT",
+      "city": "Unknown",
+      "lat": 40.7713,
+      "lng": 14.7907,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Geschichte",
+      "moveon_id": "6491"
+    },
+    {
+      "partner_name": "Università degli studi di Trento",
+      "country": "Italien",
+      "country_code": "IT",
+      "city": "Unknown",
+      "lat": 46.069426,
+      "lng": 11.121117,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Mathematik",
+      "moveon_id": "275"
+    },
+    {
+      "partner_name": "Università degli studi di Trieste",
+      "country": "Italien",
+      "country_code": "IT",
+      "city": "Unknown",
+      "lat": 45.657873,
+      "lng": 13.792905,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Romanistik",
+      "moveon_id": "591"
+    },
+    {
+      "partner_name": "Università degli Studi di Udine",
+      "country": "Italien",
+      "country_code": "IT",
+      "city": "Unknown",
+      "lat": 46.066445,
+      "lng": 13.232269,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Kunstgeschichte",
+      "moveon_id": "509"
+    },
+    {
+      "partner_name": "Università degli studi di Verona",
+      "country": "Italien",
+      "country_code": "IT",
+      "city": "Unknown",
+      "lat": 45.436859,
+      "lng": 11.004206,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Rechtswissenschaft",
+      "moveon_id": "77"
+    },
+    {
+      "partner_name": "Università del Salento",
+      "country": "Italien",
+      "country_code": "IT",
+      "city": "Unknown",
+      "lat": 40.353291,
+      "lng": 18.174015,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Biologie",
+      "moveon_id": "5008"
+    },
+    {
+      "partner_name": "Università Vita-Salute San Raffaele",
+      "country": "Italien",
+      "country_code": "IT",
+      "city": "Unknown",
+      "lat": 45.506049,
+      "lng": 9.265772,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Medizin",
+      "moveon_id": "669"
+    },
+    {
+      "partner_name": "Dokkyo Medical University",
+      "country": "Japan",
+      "country_code": "JP",
+      "city": "Unknown",
+      "lat": null,
+      "lng": null,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Medizin",
+      "moveon_id": "4925"
+    },
+    {
+      "partner_name": "Dokkyo University",
+      "country": "Japan",
+      "country_code": "JP",
+      "city": "Unknown",
+      "lat": 35.825355,
+      "lng": 139.805402,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Information und Medien, Sprache und Kultur",
+      "moveon_id": "4433"
+    },
+    {
+      "partner_name": "Kanazawa University",
+      "country": "Japan",
+      "country_code": "JP",
+      "city": "Unknown",
+      "lat": 36.570421,
+      "lng": 136.644254,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Biologie",
+      "moveon_id": "3909"
+    },
+    {
+      "partner_name": "Kwansei Gakuin University",
+      "country": "Japan",
+      "country_code": "JP",
+      "city": "Unknown",
+      "lat": 34.733333,
+      "lng": 135.333333,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Politikwissenschaft",
+      "moveon_id": "1295"
+    },
+    {
+      "partner_name": "Nagoya University",
+      "country": "Japan",
+      "country_code": "JP",
+      "city": "Unknown",
+      "lat": 35.155904,
+      "lng": 136.915863,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Rechtswissenschaft",
+      "moveon_id": "1035"
+    },
+    {
+      "partner_name": "Nanzan University",
+      "country": "Japan",
+      "country_code": "JP",
+      "city": "Unknown",
+      "lat": 35.155904,
+      "lng": 136.915863,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Information und Medien, Sprache und Kultur",
+      "moveon_id": "6169"
+    },
+    {
+      "partner_name": "Nara Institute of Science and Technology",
+      "country": "Japan",
+      "country_code": "JP",
+      "city": "Unknown",
+      "lat": 34.7,
+      "lng": 135.7,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Biologie",
+      "moveon_id": "1454"
+    },
+    {
+      "partner_name": "Tohoku University",
+      "country": "Japan",
+      "country_code": "JP",
+      "city": "Unknown",
+      "lat": 38.266572,
+      "lng": 140.883246,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Physik",
+      "moveon_id": "737"
+    },
+    {
+      "partner_name": "Bishop's University",
+      "country": "Kanada",
+      "country_code": "CA",
+      "city": "Unknown",
+      "lat": 45.366256,
+      "lng": -71.856514,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Biochemie|| Biologie",
+      "moveon_id": "3639"
+    },
+    {
+      "partner_name": "Université Laval",
+      "country": "Kanada",
+      "country_code": "CA",
+      "city": "Unknown",
+      "lat": 46.812754,
+      "lng": -71.215223,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Geschichte",
+      "moveon_id": "5781"
+    },
+    {
+      "partner_name": "University of Regina",
+      "country": "Kanada",
+      "country_code": "CA",
+      "city": "Unknown",
+      "lat": 50.416085,
+      "lng": -104.586934,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Biologie",
+      "moveon_id": "4305"
+    },
+    {
+      "partner_name": "University of the Fraser Valley",
+      "country": "Kanada",
+      "country_code": "CA",
+      "city": "Unknown",
+      "lat": 49.038223,
+      "lng": -122.273762,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Biologie",
+      "moveon_id": "1633"
+    },
+    {
+      "partner_name": "Universidad de Antioquia",
+      "country": "Kolumbien",
+      "country_code": "CO",
+      "city": "Unknown",
+      "lat": 6.267066,
+      "lng": -75.56941,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [],
+      "isced_subject": null,
+      "faculty_department": "Rechtswissenschaft",
+      "moveon_id": "5999"
+    },
+    {
+      "partner_name": "Universidad Nacional de Colombia",
+      "country": "Kolumbien",
+      "country_code": "CO",
+      "city": "Unknown",
+      "lat": 4.636911,
+      "lng": -74.079362,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Biochemie|| Biologie",
+      "moveon_id": "3996"
+    },
+    {
+      "partner_name": "Korea University",
+      "country": "Korea, Republik",
+      "country_code": "KR",
+      "city": "Unknown",
+      "lat": 37.532308,
+      "lng": 126.95744,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Biochemie|| Biologie",
+      "moveon_id": "4159"
+    },
+    {
+      "partner_name": "Korea University Business School (KUBS)",
+      "country": "Korea, Republik",
+      "country_code": "KR",
+      "city": "Unknown",
+      "lat": 37.59342,
+      "lng": 127.0468,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Betriebswirtschaftslehre",
+      "moveon_id": "1307"
+    },
+    {
+      "partner_name": "Pusan National University",
+      "country": "Korea, Republik",
+      "country_code": "KR",
+      "city": "Unknown",
+      "lat": 35.157871,
+      "lng": 129.054703,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Biochemie|| Biologie",
+      "moveon_id": "3990"
+    },
+    {
+      "partner_name": "University of Seoul",
+      "country": "Korea, Republik",
+      "country_code": "KR",
+      "city": "Unknown",
+      "lat": 37.566535,
+      "lng": 126.977969,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Politikwissenschaft",
+      "moveon_id": "5434"
+    },
+    {
+      "partner_name": "Juraj Dobrila University Pula",
+      "country": "Kroatien",
+      "country_code": "HR",
+      "city": "Unknown",
+      "lat": 44.866623,
+      "lng": 13.849579,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / Promotion"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Geschichte",
+      "moveon_id": "3785"
+    },
+    {
+      "partner_name": "Sveučilište u Rijeci",
+      "country": "Kroatien",
+      "country_code": "HR",
+      "city": "Unknown",
+      "lat": 45.328433,
+      "lng": 14.43637,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Geschichte",
+      "moveon_id": "3819"
+    },
+    {
+      "partner_name": "University of Zagreb",
+      "country": "Kroatien",
+      "country_code": "HR",
+      "city": "Unknown",
+      "lat": 45.815011,
+      "lng": 15.981919,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Chemie",
+      "moveon_id": "5919"
+    },
+    {
+      "partner_name": "Latvijas Universitáte",
+      "country": "Lettland",
+      "country_code": "LV",
+      "city": "Unknown",
+      "lat": 56.950521,
+      "lng": 24.1162,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Biologie",
+      "moveon_id": "3823"
+    },
+    {
+      "partner_name": "Universität Liechtenstein",
+      "country": "Liechtenstein",
+      "country_code": "LI",
+      "city": "Unknown",
+      "lat": 47.141076,
+      "lng": 9.52148,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Betriebswirtschaftslehre",
+      "moveon_id": "1268"
+    },
+    {
+      "partner_name": "Vytauto Didziojo Universitetas",
+      "country": "Litauen",
+      "country_code": "LT",
+      "city": "Unknown",
+      "lat": 54.899154,
+      "lng": 23.915063,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Betriebswirtschaftslehre",
+      "moveon_id": "3820"
+    },
+    {
+      "partner_name": "Université du Luxembourg",
+      "country": "Luxemburg",
+      "country_code": "LU",
+      "city": "Unknown",
+      "lat": 49.504395,
+      "lng": 5.950061,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Germanistik",
+      "moveon_id": "3759"
+    },
+    {
+      "partner_name": "Universiti Tunku Abdul Rahman (UTAR)",
+      "country": "Malaysia",
+      "country_code": "MY",
+      "city": "Unknown",
+      "lat": 3.039722,
+      "lng": 101.794167,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Biochemie",
+      "moveon_id": "6093"
+    },
+    {
+      "partner_name": "Centro de Investigación y Docencia Económicas (CIDE)",
+      "country": "Mexiko",
+      "country_code": "MX",
+      "city": "Unknown",
+      "lat": 19.42705,
+      "lng": -99.127571,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Rechtswissenschaft",
+      "moveon_id": "312"
+    },
+    {
+      "partner_name": "Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM)",
+      "country": "Mexiko",
+      "country_code": "MX",
+      "city": "Unknown",
+      "lat": 25.649496,
+      "lng": -100.289984,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Politikwissenschaft",
+      "moveon_id": "5486"
+    },
+    {
+      "partner_name": "Universidad Autónoma de Aguascalientes",
+      "country": "Mexiko",
+      "country_code": "MX",
+      "city": "Unknown",
+      "lat": 21.914394,
+      "lng": -102.316266,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Biochemie|| Biologie",
+      "moveon_id": "1433"
+    },
+    {
+      "partner_name": "Universidad Autónoma Metropolitana",
+      "country": "Mexiko",
+      "country_code": "MX",
+      "city": "Unknown",
+      "lat": 19.286244,
+      "lng": -99.13739,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Biologie",
+      "moveon_id": "1319"
+    },
+    {
+      "partner_name": "Universidad de Guanajuato",
+      "country": "Mexiko",
+      "country_code": "MX",
+      "city": "Unknown",
+      "lat": 21.019266,
+      "lng": -101.261455,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Biochemie|| Biologie",
+      "moveon_id": "1602"
+    },
+    {
+      "partner_name": "Universidad de Monterrey",
+      "country": "Mexiko",
+      "country_code": "MX",
+      "city": "Unknown",
+      "lat": 27.10678,
+      "lng": -99.5214,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Rechtswissenschaft",
+      "moveon_id": "4941"
+    },
+    {
+      "partner_name": "University of Otago",
+      "country": "Neuseeland",
+      "country_code": "NZ",
+      "city": "Unknown",
+      "lat": -45.86556,
+      "lng": 170.5139,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [],
+      "isced_subject": null,
+      "faculty_department": "Medizin",
+      "moveon_id": "1686"
+    },
+    {
+      "partner_name": "Hogeschool KPZ",
+      "country": "Niederlande",
+      "country_code": "NL",
+      "city": "Unknown",
+      "lat": 52.512794,
+      "lng": 6.091539,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Pädagogik",
+      "moveon_id": "5734"
+    },
+    {
+      "partner_name": "Hogeschool van Arnhem en Nijmegen",
+      "country": "Niederlande",
+      "country_code": "NL",
+      "city": "Unknown",
+      "lat": 51.97973,
+      "lng": 5.912403,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Pädagogik",
+      "moveon_id": "1313"
+    },
+    {
+      "partner_name": "Radboud Universiteit Nijmegen",
+      "country": "Niederlande",
+      "country_code": "NL",
+      "city": "Unknown",
+      "lat": 51.819234,
+      "lng": 5.860564,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Germanistik",
+      "moveon_id": "3760"
+    },
+    {
+      "partner_name": "Rijksuniversiteit Groningen",
+      "country": "Niederlande",
+      "country_code": "NL",
+      "city": "Unknown",
+      "lat": 53.219105,
+      "lng": 6.56247,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Evangelische Theologie|| Theologie",
+      "moveon_id": "5385"
+    },
+    {
+      "partner_name": "Universiteit Leiden",
+      "country": "Niederlande",
+      "country_code": "NL",
+      "city": "Unknown",
+      "lat": 52.168109,
+      "lng": 4.460559,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Mathematik",
+      "moveon_id": "1327"
+    },
+    {
+      "partner_name": "Windesheim University of Applied Sciences",
+      "country": "Niederlande",
+      "country_code": "NL",
+      "city": "Unknown",
+      "lat": 52.516775,
+      "lng": 6.083022,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Pädagogik",
+      "moveon_id": "3774"
+    },
+    {
+      "partner_name": "Universitetet i Bergen",
+      "country": "Norwegen",
+      "country_code": "NO",
+      "city": "Unknown",
+      "lat": 60.388203,
+      "lng": 5.321554,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Rechtswissenschaft",
+      "moveon_id": "89"
+    },
+    {
+      "partner_name": "Universitetet i Oslo",
+      "country": "Norwegen",
+      "country_code": "NO",
+      "city": "Unknown",
+      "lat": 59.915496,
+      "lng": 10.735044,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Psychologie",
+      "moveon_id": "626"
+    },
+    {
+      "partner_name": "Universitetet i Tromsoe -  Norges Arktiske Universitet",
+      "country": "Norwegen",
+      "country_code": "NO",
+      "city": "Unknown",
+      "lat": 69.679787,
+      "lng": 18.970854,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Pharmazie",
+      "moveon_id": "449"
+    },
+    {
+      "partner_name": "Fachhochschule Oberösterreich",
+      "country": "Österreich",
+      "country_code": "AT",
+      "city": "Unknown",
+      "lat": 48.161346,
+      "lng": 14.027788,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Informatik und Data Science|| Information und Medien, Sprache und Kultur",
+      "moveon_id": "6126"
+    },
+    {
+      "partner_name": "Pädagogische Hochschule Salzburg",
+      "country": "Österreich",
+      "country_code": "AT",
+      "city": "Unknown",
+      "lat": 47.791586,
+      "lng": 13.055982,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Pädagogik",
+      "moveon_id": "6676"
+    },
+    {
+      "partner_name": "Pädagogische Hochschule Tirol",
+      "country": "Österreich",
+      "country_code": "AT",
+      "city": "Unknown",
+      "lat": 47.253252,
+      "lng": 11.395161,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Pädagogik",
+      "moveon_id": "5295"
+    },
+    {
+      "partner_name": "Universität Graz",
+      "country": "Österreich",
+      "country_code": "AT",
+      "city": "Unknown",
+      "lat": 47.077625,
+      "lng": 15.450095,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Rechtswissenschaft",
+      "moveon_id": "3"
+    },
+    {
+      "partner_name": "Universität Innsbruck",
+      "country": "Österreich",
+      "country_code": "AT",
+      "city": "Unknown",
+      "lat": 47.263162,
+      "lng": 11.384368,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Theologie",
+      "moveon_id": "1224"
+    },
+    {
+      "partner_name": "Universität Wien",
+      "country": "Österreich",
+      "country_code": "AT",
+      "city": "Unknown",
+      "lat": 48.213,
+      "lng": 16.36062,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Germanistik",
+      "moveon_id": "5799"
+    },
+    {
+      "partner_name": "Ateneo de Manila University",
+      "country": "Philippinen",
+      "country_code": "PH",
+      "city": "Unknown",
+      "lat": 14.600657,
+      "lng": 120.98215,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Biologie",
+      "moveon_id": "3843"
+    },
+    {
+      "partner_name": "University of Silesia in Katowice",
+      "country": "Polen",
+      "country_code": "PL",
+      "city": "Unknown",
+      "lat": 50.261046,
+      "lng": 19.026033,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Pharmazie",
+      "moveon_id": "1217"
+    },
+    {
+      "partner_name": "Uniwersytet Ekonomiczny w Krakowie",
+      "country": "Polen",
+      "country_code": "PL",
+      "city": "Unknown",
+      "lat": 50.070887,
+      "lng": 19.955197,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Betriebswirtschaftslehre",
+      "moveon_id": "3882"
+    },
+    {
+      "partner_name": "Uniwersytet Ekonomiczny w Poznaniu",
+      "country": "Polen",
+      "country_code": "PL",
+      "city": "Unknown",
+      "lat": 52.406202,
+      "lng": 16.918256,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Betriebswirtschaftslehre",
+      "moveon_id": "4449"
+    },
+    {
+      "partner_name": "Uniwersytet Gdanski",
+      "country": "Polen",
+      "country_code": "PL",
+      "city": "Unknown",
+      "lat": 54.399716,
+      "lng": 18.568879,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / Promotion"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Geschichte",
+      "moveon_id": "5439"
+    },
+    {
+      "partner_name": "Uniwersytet Im. Adama Mickiewicza",
+      "country": "Polen",
+      "country_code": "PL",
+      "city": "Unknown",
+      "lat": 52.4089,
+      "lng": 16.9154,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / Promotion"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Geschichte",
+      "moveon_id": "3830"
+    },
+    {
+      "partner_name": "Uniwersytet Jagielloński",
+      "country": "Polen",
+      "country_code": "PL",
+      "city": "Unknown",
+      "lat": 50.061131,
+      "lng": 19.933204,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Biologie",
+      "moveon_id": "3856"
+    },
+    {
+      "partner_name": "Uniwersytet Kazimierza Wielkiego w Bydgoszczy",
+      "country": "Polen",
+      "country_code": "PL",
+      "city": "Unknown",
+      "lat": 53.130172,
+      "lng": 18.016548,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Geschichte",
+      "moveon_id": "3826"
+    },
+    {
+      "partner_name": "Uniwersytet Lódzki",
+      "country": "Polen",
+      "country_code": "PL",
+      "city": "Unknown",
+      "lat": 51.772012,
+      "lng": 19.473949,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Slavistik",
+      "moveon_id": "1343"
+    },
+    {
+      "partner_name": "Uniwersytet Mikolaja Kopernika w Toruniu",
+      "country": "Polen",
+      "country_code": "PL",
+      "city": "Unknown",
+      "lat": 53.018432,
+      "lng": 18.570886,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Rechtswissenschaft",
+      "moveon_id": "3884"
+    },
+    {
+      "partner_name": "Uniwersytet Opolski",
+      "country": "Polen",
+      "country_code": "PL",
+      "city": "Unknown",
+      "lat": 50.669606,
+      "lng": 17.926305,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Germanistik",
+      "moveon_id": "410"
+    },
+    {
+      "partner_name": "Uniwersytet Rzeszowski",
+      "country": "Polen",
+      "country_code": "PL",
+      "city": "Unknown",
+      "lat": 50.029272,
+      "lng": 22.015519,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Medizin",
+      "moveon_id": "6960"
+    },
+    {
+      "partner_name": "Uniwersytet SWPS",
+      "country": "Polen",
+      "country_code": "PL",
+      "city": "Unknown",
+      "lat": 52.24879,
+      "lng": 21.066792,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Psychologie",
+      "moveon_id": "3922"
+    },
+    {
+      "partner_name": "Uniwersytet Warszawski",
+      "country": "Polen",
+      "country_code": "PL",
+      "city": "Unknown",
+      "lat": 52.23984,
+      "lng": 21.017182,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Chemie",
+      "moveon_id": "3904"
+    },
+    {
+      "partner_name": "Uniwersytet Wroclawski",
+      "country": "Polen",
+      "country_code": "PL",
+      "city": "Unknown",
+      "lat": 51.113943,
+      "lng": 17.034504,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Rechtswissenschaft",
+      "moveon_id": "3914"
+    },
+    {
+      "partner_name": "Universidade de Coimbra",
+      "country": "Portugal",
+      "country_code": "PT",
+      "city": "Unknown",
+      "lat": 40.207453,
+      "lng": -8.426095,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Pharmazie",
+      "moveon_id": "105"
+    },
+    {
+      "partner_name": "Universidade de Lisboa",
+      "country": "Portugal",
+      "country_code": "PT",
+      "city": "Unknown",
+      "lat": 38.752493,
+      "lng": -9.159114,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Medizin",
+      "moveon_id": "1464"
+    },
+    {
+      "partner_name": "Universidade do Porto",
+      "country": "Portugal",
+      "country_code": "PT",
+      "city": "Unknown",
+      "lat": 41.1621,
+      "lng": -8.7043,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Geschichte|| Philosophie",
+      "moveon_id": "107"
+    },
+    {
+      "partner_name": "Universidade Lusíada de Lisboa",
+      "country": "Portugal",
+      "country_code": "PT",
+      "city": "Unknown",
+      "lat": 38.707163,
+      "lng": -9.135517,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Rechtswissenschaft",
+      "moveon_id": "106"
+    },
+    {
+      "partner_name": "Universitatea '1 Decembrie 1918' Alba Iulia",
+      "country": "Rumänien",
+      "country_code": "RO",
+      "city": "Unknown",
+      "lat": 46.073272,
+      "lng": 23.580489,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Rechtswissenschaft",
+      "moveon_id": "1267"
+    },
+    {
+      "partner_name": "Universitatea 'Alexandru Ioan Cuza'",
+      "country": "Rumänien",
+      "country_code": "RO",
+      "city": "Unknown",
+      "lat": 47.155113,
+      "lng": 27.593622,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Geschichte",
+      "moveon_id": "5298"
+    },
+    {
+      "partner_name": "Universitatea Babes-Bolyai din Cluj-Napoca",
+      "country": "Rumänien",
+      "country_code": "RO",
+      "city": "Unknown",
+      "lat": 46.785831,
+      "lng": 23.686945,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Biologie",
+      "moveon_id": "3926"
+    },
+    {
+      "partner_name": "Universitatea de Medicina si Farmacie \"Iuliu Hatieganu\"",
+      "country": "Rumänien",
+      "country_code": "RO",
+      "city": "Unknown",
+      "lat": 46.77121,
+      "lng": 23.623635,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Medizin",
+      "moveon_id": "4956"
+    },
+    {
+      "partner_name": "Universitatea de Vest din Timisoara",
+      "country": "Rumänien",
+      "country_code": "RO",
+      "city": "Unknown",
+      "lat": 45.747252,
+      "lng": 21.231321,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Rechtswissenschaft",
+      "moveon_id": "112"
+    },
+    {
+      "partner_name": "Universitatea din Bucuresti",
+      "country": "Rumänien",
+      "country_code": "RO",
+      "city": "Unknown",
+      "lat": 44.447924,
+      "lng": 26.097879,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Romanistik",
+      "moveon_id": "3924"
+    },
+    {
+      "partner_name": "Universitatea din Oradea",
+      "country": "Rumänien",
+      "country_code": "RO",
+      "city": "Unknown",
+      "lat": 47.046501,
+      "lng": 21.918944,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Evangelische Theologie",
+      "moveon_id": "846"
+    },
+    {
+      "partner_name": "Universitatea Lucian Blaga din Sibiu",
+      "country": "Rumänien",
+      "country_code": "RO",
+      "city": "Unknown",
+      "lat": 45.798327,
+      "lng": 24.125583,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / Promotion"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Theologie",
+      "moveon_id": "977"
+    },
+    {
+      "partner_name": "University of Zambia",
+      "country": "Sambia",
+      "country_code": "ZM",
+      "city": "Unknown",
+      "lat": -15.408193,
+      "lng": 28.287167,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [],
+      "isced_subject": null,
+      "faculty_department": "Medizin",
+      "moveon_id": "919"
+    },
+    {
+      "partner_name": "Högskolan i Borås",
+      "country": "Schweden",
+      "country_code": "SE",
+      "city": "Unknown",
+      "lat": 57.724487,
+      "lng": 12.94121,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Informatik und Data Science|| Information und Medien, Sprache und Kultur",
+      "moveon_id": "6120"
+    },
+    {
+      "partner_name": "Karlstads universitet",
+      "country": "Schweden",
+      "country_code": "SE",
+      "city": "Unknown",
+      "lat": 59.406512,
+      "lng": 13.581644,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Politikwissenschaft",
+      "moveon_id": "286"
+    },
+    {
+      "partner_name": "Linköpings universitet",
+      "country": "Schweden",
+      "country_code": "SE",
+      "city": "Unknown",
+      "lat": 58.398961,
+      "lng": 15.57571,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [],
+      "isced_subject": null,
+      "faculty_department": "Pädagogik",
+      "moveon_id": "6685"
+    },
+    {
+      "partner_name": "Linnaeus University - Växjö Campus",
+      "country": "Schweden",
+      "country_code": "SE",
+      "city": "Unknown",
+      "lat": 56.879004,
+      "lng": 14.805852,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Informatik und Data Science",
+      "moveon_id": "5988"
+    },
+    {
+      "partner_name": "Lunds universitet",
+      "country": "Schweden",
+      "country_code": "SE",
+      "city": "Unknown",
+      "lat": 55.707026,
+      "lng": 13.195767,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Geschichte",
+      "moveon_id": "4959"
+    },
+    {
+      "partner_name": "Stockholms universitet",
+      "country": "Schweden",
+      "country_code": "SE",
+      "city": "Unknown",
+      "lat": 59.362945,
+      "lng": 18.059721,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Pädagogik",
+      "moveon_id": "942"
+    },
+    {
+      "partner_name": "University of Gothenburg",
+      "country": "Schweden",
+      "country_code": "SE",
+      "city": "Unknown",
+      "lat": 57.696218,
+      "lng": 11.967657,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Chemie",
+      "moveon_id": "4192"
+    },
+    {
+      "partner_name": "Pädagogische Hochschule Luzern",
+      "country": "Schweiz",
+      "country_code": "CH",
+      "city": "Unknown",
+      "lat": 47.050168,
+      "lng": 8.309307,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Pädagogik",
+      "moveon_id": "1225"
+    },
+    {
+      "partner_name": "Pädagogische Hochschule Zug",
+      "country": "Schweiz",
+      "country_code": "CH",
+      "city": "Unknown",
+      "lat": 47.166167,
+      "lng": 8.515495,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Pädagogik",
+      "moveon_id": "1361"
+    },
+    {
+      "partner_name": "Universität Basel",
+      "country": "Schweiz",
+      "country_code": "CH",
+      "city": "Unknown",
+      "lat": 47.557133,
+      "lng": 7.583971,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Betriebswirtschaftslehre",
+      "moveon_id": "533"
+    },
+    {
+      "partner_name": "Universität Bern",
+      "country": "Schweiz",
+      "country_code": "CH",
+      "city": "Unknown",
+      "lat": 46.950883,
+      "lng": 7.43559,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Medizin",
+      "moveon_id": "4203"
+    },
+    {
+      "partner_name": "Universität Luzern",
+      "country": "Schweiz",
+      "country_code": "CH",
+      "city": "Unknown",
+      "lat": 47.053898,
+      "lng": 8.309669,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Geschichte",
+      "moveon_id": "526"
+    },
+    {
+      "partner_name": "Université de Fribourg",
+      "country": "Schweiz",
+      "country_code": "CH",
+      "city": "Unknown",
+      "lat": 46.802127,
+      "lng": 7.146457,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Germanistik",
+      "moveon_id": "3779"
+    },
+    {
+      "partner_name": "Université de Genève",
+      "country": "Schweiz",
+      "country_code": "CH",
+      "city": "Unknown",
+      "lat": 46.19864,
+      "lng": 6.143989,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Rechtswissenschaft",
+      "moveon_id": "374"
+    },
+    {
+      "partner_name": "Univerzitet u Novom Sadu",
+      "country": "Serbien",
+      "country_code": "RS",
+      "city": "Unknown",
+      "lat": 45.267135,
+      "lng": 19.83355,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Rechtswissenschaft",
+      "moveon_id": "5190"
+    },
+    {
+      "partner_name": "Univerzita Komenskeho v Bratislave",
+      "country": "Slowakei",
+      "country_code": "SK",
+      "city": "Unknown",
+      "lat": 48.16585,
+      "lng": 17.125545,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Chemie",
+      "moveon_id": "300"
+    },
+    {
+      "partner_name": "Univerzita Pavla Jozefa Safarika v Kosiciach",
+      "country": "Slowakei",
+      "country_code": "SK",
+      "city": "Unknown",
+      "lat": 48.719394,
+      "lng": 21.251272,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Germanistik",
+      "moveon_id": "3966"
+    },
+    {
+      "partner_name": "University of Primorska - Koper",
+      "country": "Slowenien",
+      "country_code": "SI",
+      "city": "Unknown",
+      "lat": 45.548059,
+      "lng": 13.730188,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Geschichte",
+      "moveon_id": "831"
+    },
+    {
+      "partner_name": "Univerza v Ljubljani",
+      "country": "Slowenien",
+      "country_code": "SI",
+      "city": "Unknown",
+      "lat": 46.049554,
+      "lng": 14.504194,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Chemie",
+      "moveon_id": "1402"
+    },
+    {
+      "partner_name": "Univerza v Mariboru",
+      "country": "Slowenien",
+      "country_code": "SI",
+      "city": "Unknown",
+      "lat": 46.559337,
+      "lng": 15.644503,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Betriebswirtschaftslehre",
+      "moveon_id": "1360"
+    },
+    {
+      "partner_name": "Universidad Autónoma de Madrid",
+      "country": "Spanien",
+      "country_code": "ES",
+      "city": "Unknown",
+      "lat": 40.545554,
+      "lng": -3.696804,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Physik",
+      "moveon_id": "652"
+    },
+    {
+      "partner_name": "Universidad Carlos III de Madrid",
+      "country": "Spanien",
+      "country_code": "ES",
+      "city": "Unknown",
+      "lat": 40.333578,
+      "lng": -3.766407,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Rechtswissenschaft",
+      "moveon_id": "135"
+    },
+    {
+      "partner_name": "Universidad CEU San Pablo",
+      "country": "Spanien",
+      "country_code": "ES",
+      "city": "Unknown",
+      "lat": 40.442853,
+      "lng": -3.719095,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Pharmazie",
+      "moveon_id": "138"
+    },
+    {
+      "partner_name": "Universidad Complutense de Madrid",
+      "country": "Spanien",
+      "country_code": "ES",
+      "city": "Unknown",
+      "lat": 40.445983,
+      "lng": -3.727675,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Romanistik",
+      "moveon_id": "644"
+    },
+    {
+      "partner_name": "Universidad de Alcalá",
+      "country": "Spanien",
+      "country_code": "ES",
+      "city": "Unknown",
+      "lat": 40.482807,
+      "lng": -3.363293,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Rechtswissenschaft",
+      "moveon_id": "127"
+    },
+    {
+      "partner_name": "Universidad de Cantabria",
+      "country": "Spanien",
+      "country_code": "ES",
+      "city": "Unknown",
+      "lat": 43.4717,
+      "lng": -3.8068,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Volkswirtschaftslehre",
+      "moveon_id": "141"
+    },
+    {
+      "partner_name": "Universidad de Córdoba",
+      "country": "Spanien",
+      "country_code": "ES",
+      "city": "Unknown",
+      "lat": 37.885414,
+      "lng": -4.778386,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Rechtswissenschaft",
+      "moveon_id": "131"
+    },
+    {
+      "partner_name": "Universidad de Granada",
+      "country": "Spanien",
+      "country_code": "ES",
+      "city": "Unknown",
+      "lat": 37.185879,
+      "lng": -3.714802,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Biologie",
+      "moveon_id": "610"
+    },
+    {
+      "partner_name": "Universidad de Huelva",
+      "country": "Spanien",
+      "country_code": "ES",
+      "city": "Unknown",
+      "lat": 37.259038,
+      "lng": -6.943213,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Romanistik",
+      "moveon_id": "3720"
+    },
+    {
+      "partner_name": "Universidad de Las Palmas de Gran Canaria",
+      "country": "Spanien",
+      "country_code": "ES",
+      "city": "Unknown",
+      "lat": 28.060128,
+      "lng": -15.421635,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Rechtswissenschaft",
+      "moveon_id": "292"
+    },
+    {
+      "partner_name": "Universidad de Malaga",
+      "country": "Spanien",
+      "country_code": "ES",
+      "city": "Unknown",
+      "lat": 36.718886,
+      "lng": -4.476537,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Chemie",
+      "moveon_id": "208"
+    },
+    {
+      "partner_name": "Universidad de Murcia",
+      "country": "Spanien",
+      "country_code": "ES",
+      "city": "Unknown",
+      "lat": 37.988425,
+      "lng": -1.125843,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Pädagogik",
+      "moveon_id": "5254"
+    },
+    {
+      "partner_name": "Universidad de Navarra",
+      "country": "Spanien",
+      "country_code": "ES",
+      "city": "Unknown",
+      "lat": 42.800935,
+      "lng": -1.65814,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [],
+      "isced_subject": null,
+      "faculty_department": "Medizin",
+      "moveon_id": "6944"
+    },
+    {
+      "partner_name": "Universidad de Oviedo",
+      "country": "Spanien",
+      "country_code": "ES",
+      "city": "Unknown",
+      "lat": 43.362066,
+      "lng": -5.846183,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Medizin",
+      "moveon_id": "5213"
+    },
+    {
+      "partner_name": "Universidad de Santiago de Compostela",
+      "country": "Spanien",
+      "country_code": "ES",
+      "city": "Unknown",
+      "lat": 42.878775,
+      "lng": -8.541953,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Pharmazie",
+      "moveon_id": "142"
+    },
+    {
+      "partner_name": "Universidad de Sevilla",
+      "country": "Spanien",
+      "country_code": "ES",
+      "city": "Unknown",
+      "lat": 37.381962,
+      "lng": -5.991815,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Medizin",
+      "moveon_id": "5260"
+    },
+    {
+      "partner_name": "Universidad de Zaragoza",
+      "country": "Spanien",
+      "country_code": "ES",
+      "city": "Unknown",
+      "lat": 41.640954,
+      "lng": -0.896945,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Chemie",
+      "moveon_id": "293"
+    },
+    {
+      "partner_name": "Universidad del País Vasco / Euskal Herriko Unibertsitatea",
+      "country": "Spanien",
+      "country_code": "ES",
+      "city": "Unknown",
+      "lat": 43.335224,
+      "lng": -2.980386,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Information und Medien, Sprache und Kultur",
+      "moveon_id": "550"
+    },
+    {
+      "partner_name": "Universidad Loyola Andalucía",
+      "country": "Spanien",
+      "country_code": "ES",
+      "city": "Unknown",
+      "lat": 37.888175,
+      "lng": -4.779383,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Betriebswirtschaftslehre",
+      "moveon_id": "3799"
+    },
+    {
+      "partner_name": "Universidad Pablo de Olavide",
+      "country": "Spanien",
+      "country_code": "ES",
+      "city": "Unknown",
+      "lat": 37.353898,
+      "lng": -5.937252,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Romanistik",
+      "moveon_id": "3813"
+    },
+    {
+      "partner_name": "Universitat Autònoma de Barcelona",
+      "country": "Spanien",
+      "country_code": "ES",
+      "city": "Unknown",
+      "lat": 41.504336,
+      "lng": 2.100031,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Chemie",
+      "moveon_id": "1437"
+    },
+    {
+      "partner_name": "Universitat de Barcelona",
+      "country": "Spanien",
+      "country_code": "ES",
+      "city": "Unknown",
+      "lat": 41.386554,
+      "lng": 2.164033,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Informatik und Data Science",
+      "moveon_id": "6722"
+    },
+    {
+      "partner_name": "Universitat de València",
+      "country": "Spanien",
+      "country_code": "ES",
+      "city": "Unknown",
+      "lat": 39.4791,
+      "lng": 0.3591,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Romanistik",
+      "moveon_id": "3676"
+    },
+    {
+      "partner_name": "Universitat de Vic - Universitat Central de Catalunya",
+      "country": "Spanien",
+      "country_code": "ES",
+      "city": "Unknown",
+      "lat": 41.933395,
+      "lng": 2.248301,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Betriebswirtschaftslehre",
+      "moveon_id": "6070"
+    },
+    {
+      "partner_name": "Universitat Pompeu Fabra",
+      "country": "Spanien",
+      "country_code": "ES",
+      "city": "Unknown",
+      "lat": 41.378995,
+      "lng": 2.179152,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Rechtswissenschaft",
+      "moveon_id": "129"
+    },
+    {
+      "partner_name": "Fu Jen Catholic University",
+      "country": "Taiwan",
+      "country_code": "TW",
+      "city": "Unknown",
+      "lat": 25.035806,
+      "lng": 121.433167,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Information und Medien, Sprache und Kultur",
+      "moveon_id": "3840"
+    },
+    {
+      "partner_name": "National Central University",
+      "country": "Taiwan",
+      "country_code": "TW",
+      "city": "Unknown",
+      "lat": 24.972151,
+      "lng": 121.205396,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Biochemie|| Biologie",
+      "moveon_id": "6105"
+    },
+    {
+      "partner_name": "National Sun Yat-sen University (NSYSU)",
+      "country": "Taiwan",
+      "country_code": "TW",
+      "city": "Unknown",
+      "lat": 22.631334,
+      "lng": 120.32438,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Biologie",
+      "moveon_id": "4478"
+    },
+    {
+      "partner_name": "Providence University",
+      "country": "Taiwan",
+      "country_code": "TW",
+      "city": "Unknown",
+      "lat": 24.226944,
+      "lng": 120.58,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Anglistik und Amerikanistik",
+      "moveon_id": "3808"
+    },
+    {
+      "partner_name": "Soochow University",
+      "country": "Taiwan",
+      "country_code": "TW",
+      "city": "Unknown",
+      "lat": 25.091075,
+      "lng": 121.559834,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Politikwissenschaft",
+      "moveon_id": "4922"
+    },
+    {
+      "partner_name": "Ardhi University",
+      "country": "Tansania",
+      "country_code": "TZ",
+      "city": "Unknown",
+      "lat": -6.822921,
+      "lng": 39.269661,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Immobilienwirtschaft",
+      "moveon_id": "1687"
+    },
+    {
+      "partner_name": "Mahidol University International College",
+      "country": "Thailand",
+      "country_code": "TH",
+      "city": "Unknown",
+      "lat": 13.764381,
+      "lng": 100.525685,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Biologie",
+      "moveon_id": "3833"
+    },
+    {
+      "partner_name": "Česká Zemědělská Univerzita v Praze",
+      "country": "Tschechien",
+      "country_code": "CZ",
+      "city": "Unknown",
+      "lat": 50.087811,
+      "lng": 14.42046,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Betriebswirtschaftslehre",
+      "moveon_id": "1393"
+    },
+    {
+      "partner_name": "Jihoceská Univerzita v Ceskych Budejovicich",
+      "country": "Tschechien",
+      "country_code": "CZ",
+      "city": "Unknown",
+      "lat": 48.97387,
+      "lng": 14.474946,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Biologie",
+      "moveon_id": "1373"
+    },
+    {
+      "partner_name": "Masarykova Univerzita v Brne",
+      "country": "Tschechien",
+      "country_code": "CZ",
+      "city": "Unknown",
+      "lat": 49.198665,
+      "lng": 16.605139,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / Promotion"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Chemie",
+      "moveon_id": "145"
+    },
+    {
+      "partner_name": "Ostravská Univerzita v Ostrave",
+      "country": "Tschechien",
+      "country_code": "CZ",
+      "city": "Unknown",
+      "lat": 49.837651,
+      "lng": 18.29109,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Germanistik",
+      "moveon_id": "3874"
+    },
+    {
+      "partner_name": "Palacký University Olomouc",
+      "country": "Tschechien",
+      "country_code": "CZ",
+      "city": "Unknown",
+      "lat": 49.595211,
+      "lng": 17.258763,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Rechtswissenschaft",
+      "moveon_id": "4323"
+    },
+    {
+      "partner_name": "Univerzita Hradec Králové",
+      "country": "Tschechien",
+      "country_code": "CZ",
+      "city": "Unknown",
+      "lat": 50.209163,
+      "lng": 15.830674,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Wirtschaftsinformatik",
+      "moveon_id": "6060"
+    },
+    {
+      "partner_name": "Univerzita Karlova",
+      "country": "Tschechien",
+      "country_code": "CZ",
+      "city": "Unknown",
+      "lat": 50.086129,
+      "lng": 14.423306,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Slavistik",
+      "moveon_id": "686"
+    },
+    {
+      "partner_name": "VSE - Prague University of Economics and Business",
+      "country": "Tschechien",
+      "country_code": "CZ",
+      "city": "Unknown",
+      "lat": 50.083658,
+      "lng": 14.44117,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Volkswirtschaftslehre",
+      "moveon_id": "409"
+    },
+    {
+      "partner_name": "Vysoká Skola Chemicko-Technologická v Praze",
+      "country": "Tschechien",
+      "country_code": "CZ",
+      "city": "Unknown",
+      "lat": 50.103137,
+      "lng": 14.389764,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Chemie",
+      "moveon_id": "153"
+    },
+    {
+      "partner_name": "Zapadoceska Univerzita v Plzni",
+      "country": "Tschechien",
+      "country_code": "CZ",
+      "city": "Unknown",
+      "lat": 49.724038,
+      "lng": 13.353277,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Rechtswissenschaft",
+      "moveon_id": "6114"
+    },
+    {
+      "partner_name": "Altinbas Üniversitesi",
+      "country": "Türkei",
+      "country_code": "TR",
+      "city": "Unknown",
+      "lat": 41.00527,
+      "lng": 28.97696,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Betriebswirtschaftslehre",
+      "moveon_id": "1439"
+    },
+    {
+      "partner_name": "Anadolu Universitesi",
+      "country": "Türkei",
+      "country_code": "TR",
+      "city": "Unknown",
+      "lat": 39.791792,
+      "lng": 30.499551,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Germanistik",
+      "moveon_id": "3873"
+    },
+    {
+      "partner_name": "Ankara Üniversitesi",
+      "country": "Türkei",
+      "country_code": "TR",
+      "city": "Unknown",
+      "lat": 39.936632,
+      "lng": 32.83029,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Rechtswissenschaft",
+      "moveon_id": "397"
+    },
+    {
+      "partner_name": "Bahcesehir Universitesi",
+      "country": "Türkei",
+      "country_code": "TR",
+      "city": "Unknown",
+      "lat": 41.06145,
+      "lng": 28.698256,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Rechtswissenschaft",
+      "moveon_id": "832"
+    },
+    {
+      "partner_name": "Bilkent Üniversitesi",
+      "country": "Türkei",
+      "country_code": "TR",
+      "city": "Unknown",
+      "lat": 39.943873,
+      "lng": 32.856034,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Volkswirtschaftslehre",
+      "moveon_id": "5618"
+    },
+    {
+      "partner_name": "Bursa Uludağ Üniversitesi",
+      "country": "Türkei",
+      "country_code": "TR",
+      "city": "Unknown",
+      "lat": 40.232364,
+      "lng": 28.839455,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / Promotion"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Klassische Archäologie",
+      "moveon_id": "4165"
+    },
+    {
+      "partner_name": "Ege Üniversitesi",
+      "country": "Türkei",
+      "country_code": "TR",
+      "city": "Unknown",
+      "lat": 38.456695,
+      "lng": 27.226634,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Anglistik und Amerikanistik",
+      "moveon_id": "3971"
+    },
+    {
+      "partner_name": "Marmara Üniversitesi",
+      "country": "Türkei",
+      "country_code": "TR",
+      "city": "Unknown",
+      "lat": 40.986767,
+      "lng": 29.052138,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Politikwissenschaft",
+      "moveon_id": "488"
+    },
+    {
+      "partner_name": "Orta Dogu Teknik Üniversitesi",
+      "country": "Türkei",
+      "country_code": "TR",
+      "city": "Unknown",
+      "lat": 39.943873,
+      "lng": 32.856034,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Physik",
+      "moveon_id": "451"
+    },
+    {
+      "partner_name": "Yeditepe Universitesi",
+      "country": "Türkei",
+      "country_code": "TR",
+      "city": "Unknown",
+      "lat": 40.972363,
+      "lng": 29.151834,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Psychologie",
+      "moveon_id": "6247"
+    },
+    {
+      "partner_name": "Andrássy Gyula Budapesti Német Nyelvû Egyetem",
+      "country": "Ungarn",
+      "country_code": "HU",
+      "city": "Unknown",
+      "lat": 47.492077,
+      "lng": 19.064085,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Politikwissenschaft",
+      "moveon_id": "1435"
+    },
+    {
+      "partner_name": "Debreceni Református Hittudományi Egyetem",
+      "country": "Ungarn",
+      "country_code": "HU",
+      "city": "Unknown",
+      "lat": 47.529974,
+      "lng": 21.639357,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / Promotion"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Evangelische Theologie",
+      "moveon_id": "856"
+    },
+    {
+      "partner_name": "Eötvös Loránd Tudományegyetem",
+      "country": "Ungarn",
+      "country_code": "HU",
+      "city": "Unknown",
+      "lat": 47.4933,
+      "lng": 19.0607,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Rechtswissenschaft",
+      "moveon_id": "155"
+    },
+    {
+      "partner_name": "Eszterházy Károly University",
+      "country": "Ungarn",
+      "country_code": "HU",
+      "city": "Unknown",
+      "lat": 47.903199,
+      "lng": 20.373108,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Pädagogik",
+      "moveon_id": "1094"
+    },
+    {
+      "partner_name": "Pannon Egyetem",
+      "country": "Ungarn",
+      "country_code": "HU",
+      "city": "Unknown",
+      "lat": 47.092967,
+      "lng": 17.913785,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Anglistik und Amerikanistik",
+      "moveon_id": "3853"
+    },
+    {
+      "partner_name": "Pécsi Tudományegyetem",
+      "country": "Ungarn",
+      "country_code": "HU",
+      "city": "Unknown",
+      "lat": 46.0745,
+      "lng": 18.2374,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Pharmazie",
+      "moveon_id": "4312"
+    },
+    {
+      "partner_name": "Semmelweis Egyetem",
+      "country": "Ungarn",
+      "country_code": "HU",
+      "city": "Unknown",
+      "lat": 47.4872,
+      "lng": 19.0671,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Pharmazie",
+      "moveon_id": "589"
+    },
+    {
+      "partner_name": "Szegedi Tudományegyetem",
+      "country": "Ungarn",
+      "country_code": "HU",
+      "city": "Unknown",
+      "lat": 46.2476,
+      "lng": 20.1421,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Anglistik und Amerikanistik",
+      "moveon_id": "3850"
+    },
+    {
+      "partner_name": "American University",
+      "country": "USA",
+      "country_code": "US",
+      "city": "Unknown",
+      "lat": 38.937585,
+      "lng": -77.086864,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Rechtswissenschaft",
+      "moveon_id": "229"
+    },
+    {
+      "partner_name": "Arizona State University",
+      "country": "USA",
+      "country_code": "US",
+      "city": "Unknown",
+      "lat": 33.424116,
+      "lng": -111.927507,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Biologie",
+      "moveon_id": "1085"
+    },
+    {
+      "partner_name": "Augustana College (Illinois)",
+      "country": "USA",
+      "country_code": "US",
+      "city": "Unknown",
+      "lat": 41.502787,
+      "lng": -90.549825,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Biochemie|| Biologie",
+      "moveon_id": "4091"
+    },
+    {
+      "partner_name": "Belmont University",
+      "country": "USA",
+      "country_code": "US",
+      "city": "Unknown",
+      "lat": 36.166667,
+      "lng": -86.783333,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Evangelische Theologie",
+      "moveon_id": "4022"
+    },
+    {
+      "partner_name": "Colorado College",
+      "country": "USA",
+      "country_code": "US",
+      "city": "Unknown",
+      "lat": 38.833882,
+      "lng": -104.821363,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Sportwissenschaft",
+      "moveon_id": "5380"
+    },
+    {
+      "partner_name": "Florida International University",
+      "country": "USA",
+      "country_code": "US",
+      "city": "Unknown",
+      "lat": 25.755856,
+      "lng": -80.372235,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Immobilienwirtschaft",
+      "moveon_id": "3620"
+    },
+    {
+      "partner_name": "Minnesota State University, Mankato",
+      "country": "USA",
+      "country_code": "US",
+      "city": "Unknown",
+      "lat": 44.147229,
+      "lng": -94.0006,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Informatik und Data Science",
+      "moveon_id": "6124"
+    },
+    {
+      "partner_name": "Murray State University",
+      "country": "USA",
+      "country_code": "US",
+      "city": "Unknown",
+      "lat": 36.61038,
+      "lng": -88.322411,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Betriebswirtschaftslehre",
+      "moveon_id": "436"
+    },
+    {
+      "partner_name": "University of Arkansas",
+      "country": "USA",
+      "country_code": "US",
+      "city": "Unknown",
+      "lat": 36.068414,
+      "lng": -94.16886,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Biologie",
+      "moveon_id": "4060"
+    },
+    {
+      "partner_name": "University of California, Berkeley",
+      "country": "USA",
+      "country_code": "US",
+      "city": "Unknown",
+      "lat": 37.872397,
+      "lng": -122.26623,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Doctorate / Promotion"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Geschichte",
+      "moveon_id": "4388"
+    },
+    {
+      "partner_name": "University of California, San Diego",
+      "country": "USA",
+      "country_code": "US",
+      "city": "Unknown",
+      "lat": 32.876063,
+      "lng": -117.236576,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Medizin",
+      "moveon_id": "1688"
+    },
+    {
+      "partner_name": "University of Colorado at Boulder",
+      "country": "USA",
+      "country_code": "US",
+      "city": "Unknown",
+      "lat": 40.010492,
+      "lng": -105.276843,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Biochemie|| Biologie",
+      "moveon_id": "224"
+    },
+    {
+      "partner_name": "University of Kansas",
+      "country": "USA",
+      "country_code": "US",
+      "city": "Unknown",
+      "lat": 38.956635,
+      "lng": -95.25924,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Biologie",
+      "moveon_id": "4099"
+    },
+    {
+      "partner_name": "University of North Carolina at Charlotte",
+      "country": "USA",
+      "country_code": "US",
+      "city": "Unknown",
+      "lat": 35.305224,
+      "lng": -80.740418,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Volkswirtschaftslehre",
+      "moveon_id": "5939"
+    },
+    {
+      "partner_name": "University of North Dakota (UND)",
+      "country": "USA",
+      "country_code": "US",
+      "city": "Unknown",
+      "lat": 47.909156,
+      "lng": -97.055612,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Informatik und Data Science",
+      "moveon_id": "6123"
+    },
+    {
+      "partner_name": "University of North Florida",
+      "country": "USA",
+      "country_code": "US",
+      "city": "Unknown",
+      "lat": 30.2677,
+      "lng": -81.508053,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Betriebswirtschaftslehre",
+      "moveon_id": "6088"
+    },
+    {
+      "partner_name": "University of San Diego",
+      "country": "USA",
+      "country_code": "US",
+      "city": "Unknown",
+      "lat": 32.854672,
+      "lng": -117.204533,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Immobilienwirtschaft",
+      "moveon_id": "1689"
+    },
+    {
+      "partner_name": "University of the Incarnate Word",
+      "country": "USA",
+      "country_code": "US",
+      "city": "Unknown",
+      "lat": 29.468685,
+      "lng": -98.464607,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Biochemie|| Biologie",
+      "moveon_id": "6096"
+    },
+    {
+      "partner_name": "University of Washington",
+      "country": "USA",
+      "country_code": "US",
+      "city": "Unknown",
+      "lat": 47.658345,
+      "lng": -122.303017,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Immobilienwirtschaft",
+      "moveon_id": "1690"
+    },
+    {
+      "partner_name": "Wheaton College",
+      "country": "USA",
+      "country_code": "US",
+      "city": "Unknown",
+      "lat": 41.967629,
+      "lng": -71.184308,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Biochemie|| Biologie",
+      "moveon_id": "1380"
+    },
+    {
+      "partner_name": "Williams College",
+      "country": "USA",
+      "country_code": "US",
+      "city": "Unknown",
+      "lat": 42.712738,
+      "lng": -73.204181,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Anglistik und Amerikanistik",
+      "moveon_id": "3614"
+    },
+    {
+      "partner_name": "Cardiff University",
+      "country": "Vereinigtes Königreich",
+      "country_code": "GB",
+      "city": "Unknown",
+      "lat": 51.48774,
+      "lng": -3.179152,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Anglistik und Amerikanistik",
+      "moveon_id": "5530"
+    },
+    {
+      "partner_name": "City St George’s University of London",
+      "country": "Vereinigtes Königreich",
+      "country_code": "GB",
+      "city": "Unknown",
+      "lat": 51.527221,
+      "lng": -0.101932,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Immobilienwirtschaft",
+      "moveon_id": "5093"
+    },
+    {
+      "partner_name": "Durham University",
+      "country": "Vereinigtes Königreich",
+      "country_code": "GB",
+      "city": "Unknown",
+      "lat": 54.775062,
+      "lng": -1.569329,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Germanistik",
+      "moveon_id": "3781"
+    },
+    {
+      "partner_name": "Kingston University",
+      "country": "Vereinigtes Königreich",
+      "country_code": "GB",
+      "city": "Unknown",
+      "lat": 51.41233,
+      "lng": -0.300689,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Wirtschaftsinformatik",
+      "moveon_id": "962"
+    },
+    {
+      "partner_name": "Royal Holloway, University of London",
+      "country": "Vereinigtes Königreich",
+      "country_code": "GB",
+      "city": "Unknown",
+      "lat": 51.428178,
+      "lng": -0.562632,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Germanistik",
+      "moveon_id": "3679"
+    },
+    {
+      "partner_name": "Swansea University",
+      "country": "Vereinigtes Königreich",
+      "country_code": "GB",
+      "city": "Unknown",
+      "lat": 51.608929,
+      "lng": -3.97954,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Chemie",
+      "moveon_id": "5252"
+    },
+    {
+      "partner_name": "The School of Pharmacy, University of London",
+      "country": "Vereinigtes Königreich",
+      "country_code": "GB",
+      "city": "Unknown",
+      "lat": 51.524045,
+      "lng": -0.122156,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Pharmazie",
+      "moveon_id": "182"
+    },
+    {
+      "partner_name": "The University of Warwick",
+      "country": "Vereinigtes Königreich",
+      "country_code": "GB",
+      "city": "Unknown",
+      "lat": 52.380498,
+      "lng": -1.562762,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Germanistik",
+      "moveon_id": "4472"
+    },
+    {
+      "partner_name": "University of Aberdeen",
+      "country": "Vereinigtes Königreich",
+      "country_code": "GB",
+      "city": "Unknown",
+      "lat": 57.165477,
+      "lng": -2.102337,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Rechtswissenschaft",
+      "moveon_id": "159"
+    },
+    {
+      "partner_name": "University of Bath",
+      "country": "Vereinigtes Königreich",
+      "country_code": "GB",
+      "city": "Unknown",
+      "lat": 51.375502,
+      "lng": -2.324644,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Chemie",
+      "moveon_id": "162"
+    },
+    {
+      "partner_name": "University of Leicester",
+      "country": "Vereinigtes Königreich",
+      "country_code": "GB",
+      "city": "Unknown",
+      "lat": 52.623308,
+      "lng": -1.1248,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Biologie",
+      "moveon_id": "390"
+    },
+    {
+      "partner_name": "University of Lincoln",
+      "country": "Vereinigtes Königreich",
+      "country_code": "GB",
+      "city": "Unknown",
+      "lat": 53.2288,
+      "lng": -0.547686,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Psychologie",
+      "moveon_id": "1526"
+    },
+    {
+      "partner_name": "University of Sheffield",
+      "country": "Vereinigtes Königreich",
+      "country_code": "GB",
+      "city": "Unknown",
+      "lat": 53.381056,
+      "lng": -1.490825,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Informatik und Data Science",
+      "moveon_id": "6164"
+    },
+    {
+      "partner_name": "University of Sussex",
+      "country": "Vereinigtes Königreich",
+      "country_code": "GB",
+      "city": "Unknown",
+      "lat": 50.862717,
+      "lng": -0.080423,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Biologie",
+      "moveon_id": "1394"
+    },
+    {
+      "partner_name": "University of York",
+      "country": "Vereinigtes Königreich",
+      "country_code": "GB",
+      "city": "Unknown",
+      "lat": 53.948358,
+      "lng": -1.052799,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Anglistik und Amerikanistik",
+      "moveon_id": "3688"
+    },
+    {
+      "partner_name": "Ho Chi Minh City University of Economics",
+      "country": "Vietnam",
+      "country_code": "VN",
+      "city": "Unknown",
+      "lat": 10.75918,
+      "lng": 106.662498,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Betriebswirtschaftslehre",
+      "moveon_id": "6204"
+    },
+    {
+      "partner_name": "Vietnam National University, Hanoi",
+      "country": "Vietnam",
+      "country_code": "VN",
+      "city": "Unknown",
+      "lat": 21.02425,
+      "lng": 105.854694,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Betriebswirtschaftslehre",
+      "moveon_id": "1642"
+    },
+    {
+      "partner_name": "Vietnamese-German University",
+      "country": "Vietnam",
+      "country_code": "VN",
+      "city": "Unknown",
+      "lat": 11.054632,
+      "lng": 106.6654,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Betriebswirtschaftslehre",
+      "moveon_id": "5004"
+    },
+    {
+      "partner_name": "Panepistimio Kyprou",
+      "country": "Zypern",
+      "country_code": "CY",
+      "city": "Unknown",
+      "lat": 35.167604,
+      "lng": 33.373621,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": "Geschichte",
+      "moveon_id": "5184"
+    }
+  ]
+}

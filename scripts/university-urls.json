@@ -1,0 +1,100 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "last_updated": "2026-01-27",
+    "description": "German University Erasmus Portal URLs with subject-specific entries",
+    "total_universities": 10
+  },
+  "universities": [
+    {
+      "id": "TUM_ADVANCED",
+      "name": "TUM - Erasmus Datenbank (2026)",
+      "city": "Munich",
+      "url": "https://tum.moveon4.de/publisher/3/deu",
+      "notes": "Technical University of Munich - Advanced Publisher Portal (2026)",
+      "subjectAreas": null,
+      "deepLinks": null
+    },
+    {
+      "id": "TUM_IN",
+      "name": "TUM - Informatik",
+      "city": "Munich",
+      "url": "https://tum.moveon4.de/publisher/matrix?department=IN",
+      "notes": "Technical University of Munich - Computer Science Department (Old Publisher - may be disabled)",
+      "subjectAreas": ["Computer Science", "Informatik"],
+      "deepLinks": null
+    },
+    {
+      "id": "TUM_MGT",
+      "name": "TUM - Management / BWL",
+      "city": "Munich",
+      "url": "https://tum.moveon4.de/publisher/matrix?department=MGT",
+      "notes": "Technical University of Munich - Management / Business Administration",
+      "subjectAreas": ["Business Administration", "Management", "BWL"],
+      "deepLinks": null
+    },
+    {
+      "id": "TUM_MW",
+      "name": "TUM - Maschinenbau",
+      "city": "Munich",
+      "url": "https://tum.moveon4.de/publisher/matrix?department=MW",
+      "notes": "Technical University of Munich - Mechanical Engineering",
+      "subjectAreas": ["Mechanical Engineering", "Maschinenbau"],
+      "deepLinks": null
+    },
+    {
+      "id": "TUM_EI",
+      "name": "TUM - Elektrotechnik",
+      "city": "Munich",
+      "url": "https://tum.moveon4.de/publisher/matrix?department=EI",
+      "notes": "Technical University of Munich - Electrical Engineering",
+      "subjectAreas": ["Electrical Engineering", "Elektrotechnik"],
+      "deepLinks": null
+    },
+    {
+      "id": "TUM_MED",
+      "name": "TUM - Medizin",
+      "city": "Munich",
+      "url": "https://tum.moveon4.de/publisher/matrix?department=MED",
+      "notes": "Technical University of Munich - Medicine",
+      "subjectAreas": ["Medicine", "Medizin"],
+      "deepLinks": null
+    },
+    {
+      "id": "HU_BERLIN",
+      "name": "HU Berlin",
+      "city": "Berlin",
+      "url": "https://huberlin.moveon4.de/publisher/matrix/",
+      "notes": "Humboldt University of Berlin - MoveOn Publisher - Standard Matrix",
+      "subjectAreas": null,
+      "deepLinks": null
+    },
+    {
+      "id": "RWTH",
+      "name": "RWTH Aachen",
+      "city": "Aachen",
+      "url": "https://rwth-aachen.moveon4.de/publisher/matrix/",
+      "notes": "RWTH Aachen University - MoveOn Publisher - Standard Matrix",
+      "subjectAreas": null,
+      "deepLinks": null
+    },
+    {
+      "id": "KOELN",
+      "name": "Uni Köln",
+      "city": "Cologne",
+      "url": "https://koeln.moveon4.de/publisher/matrix/",
+      "notes": "University of Cologne - MoveOn Publisher - Standard Matrix",
+      "subjectAreas": null,
+      "deepLinks": null
+    },
+    {
+      "id": "HANNOVER",
+      "name": "Uni Hannover",
+      "city": "Hanover",
+      "url": "https://hannover.adv-pub.moveon4.de/aufenthaltsmoeglichkeiten/",
+      "notes": "Leibniz University Hannover - Advanced Publisher - Stay Search",
+      "subjectAreas": null,
+      "deepLinks": null
+    }
+  ]
+}

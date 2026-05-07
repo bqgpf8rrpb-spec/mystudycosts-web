@@ -1,0 +1,12 @@
+[
+  {
+    "university_id": "tum",
+    "status": "success",
+    "records_extracted": 180,
+    "records_normalized": 147,
+    "duration_ms": 57380,
+    "error": null,
+    "retries": 0,
+    "used_fallback_cache": false
+  }
+]

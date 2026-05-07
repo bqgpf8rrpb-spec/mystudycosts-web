@@ -1,0 +1,10 @@
+{
+  "university_id": "FRIEDRICH_ALEXANDER_UNIVERSITAET_ERLANGEN_NUERNBERG",
+  "university_name": "FRIEDRICH-ALEXANDER-UNIVERSITAET ERLANGEN NUERNBERG",
+  "portal_url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=ERLANGE01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+  "portal_type": "mobility_online",
+  "scraped_at": "2026-03-15T17:32:22.948Z",
+  "strategy": "html_table",
+  "partner_count": 0,
+  "partners": []
+}

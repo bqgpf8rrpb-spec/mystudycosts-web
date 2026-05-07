@@ -17,7 +17,7 @@ export default function HeroDataMap() {
       <div className="relative w-full h-full min-h-[400px] flex items-center justify-center">
         <Image 
           src="/hero-network-map.png"
-          alt="European Data Network Visualization"
+          alt="Map of Erasmus partner universities across Europe for German study programs - interactive data network visualization"
           fill
           className="object-contain"
           priority

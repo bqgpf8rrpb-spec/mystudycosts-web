@@ -16,7 +16,9 @@ export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
-const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://mystudycosts.com';
+import { getBaseUrl } from '@/lib/site-config';
+
+const baseUrl = getBaseUrl();
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
@@ -94,16 +96,11 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       },
     },
     icons: {
-      icon: [
-        { url: '/favicon.ico', sizes: 'any' },
-        { url: '/icon-16x16.png', sizes: '16x16', type: 'image/png' },
-        { url: '/icon-32x32.png', sizes: '32x32', type: 'image/png' },
-      ],
-      apple: [
-        { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
-      ],
+      icon: [{ url: '/icon', sizes: '32x32', type: 'image/png' }],
+      apple: [{ url: '/apple-icon', sizes: '180x180', type: 'image/png' }],
+      shortcut: ['/icon'],
     },
-    manifest: '/site.webmanifest',
+    manifest: '/manifest.webmanifest',
     verification: {
       google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
     },
@@ -128,23 +125,19 @@ export default async function LocaleLayout({
   const gaId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
 
   return (
-    <html lang={locale} className="h-full">
-      <body className="min-h-full flex flex-col bg-slate-900">
-        <NextIntlClientProvider messages={messages}>
-          <CookieConsentProvider>
-            <CurrencyProvider>
-              {gaId && <ConditionalGoogleAnalytics gaId={gaId} />}
-              <Navbar />
-              <main className="flex-grow">
-                {children}
-              </main>
-              <Footer />
-              <LegalFooter />
-              <CookieConsent />
-            </CurrencyProvider>
-          </CookieConsentProvider>
-        </NextIntlClientProvider>
-      </body>
-    </html>
+    <NextIntlClientProvider messages={messages}>
+      <CookieConsentProvider>
+        <CurrencyProvider>
+          {gaId && <ConditionalGoogleAnalytics gaId={gaId} />}
+          <Navbar />
+          <main className="flex-grow">
+            {children}
+          </main>
+          <Footer />
+          <LegalFooter />
+          <CookieConsent />
+        </CurrencyProvider>
+      </CookieConsentProvider>
+    </NextIntlClientProvider>
   );
 }

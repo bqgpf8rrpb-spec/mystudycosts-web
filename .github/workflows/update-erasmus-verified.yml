@@ -1,0 +1,183 @@
+name: Update Verified Erasmus Partners
+
+on:
+  schedule:
+    - cron: '0 3 1,15 * *'  # 1st and 15th of each month at 03:00 UTC
+  workflow_dispatch:
+    inputs:
+      batch_start:
+        description: 'Start index for university batch (0-based)'
+        required: false
+        default: '0'
+      batch_size:
+        description: 'Number of universities to scrape in this batch'
+        required: false
+        default: '15'
+      rescrape:
+        description: 'Re-scrape even if cached (true/false)'
+        required: false
+        default: 'false'
+      run_discovery:
+        description: 'Run portal discovery (true/false)'
+        required: false
+        default: 'false'
+      download_eu_data:
+        description: 'Download latest EU data (true/false)'
+        required: false
+        default: 'false'
+
+permissions:
+  contents: write
+
+jobs:
+  scrape-and-merge:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Chromium for Puppeteer
+        run: npx puppeteer browsers install chrome
+
+      - name: Determine batch parameters
+        id: batch
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            START="${{ github.event.inputs.batch_start }}"
+            SIZE="${{ github.event.inputs.batch_size }}"
+            RESCRAPE="${{ github.event.inputs.rescrape }}"
+          else
+            DOY=$(date +%j)
+            START=$(( (DOY / 15) * 15 % 300 ))
+            SIZE=15
+            RESCRAPE="false"
+          fi
+          echo "start=$START" >> $GITHUB_OUTPUT
+          echo "size=$SIZE" >> $GITHUB_OUTPUT
+          echo "rescrape=$RESCRAPE" >> $GITHUB_OUTPUT
+          echo "Batch: start=$START size=$SIZE rescrape=$RESCRAPE"
+
+      - name: Download EU data (annual or on-demand)
+        if: >-
+          github.event.inputs.download_eu_data == 'true' ||
+          (github.event_name == 'schedule' && contains(github.event.schedule, '0 3 15 1 *'))
+        run: node scripts/download-erasmus-data.js
+
+      - name: Transform EU data (if downloaded)
+        if: >-
+          github.event.inputs.download_eu_data == 'true' ||
+          (github.event_name == 'schedule' && contains(github.event.schedule, '0 3 15 1 *'))
+        run: node scripts/transform-erasmus-data.js
+
+      - name: Discover MoveOn portals
+        if: >-
+          github.event.inputs.run_discovery == 'true' ||
+          !hashFiles('data/moveon_registry.json')
+        run: node scripts/discover-moveon-portals.js
+        timeout-minutes: 30
+
+      - name: Discover Mobility Online portals
+        if: >-
+          github.event.inputs.run_discovery == 'true' ||
+          !hashFiles('data/mobility_online_registry.json')
+        run: node scripts/discover-mobility-online.js
+        timeout-minutes: 30
+
+      - name: Scrape MoveOn Advanced Publisher portals (batch)
+        run: |
+          ARGS="--start=${{ steps.batch.outputs.start }} --size=${{ steps.batch.outputs.size }}"
+          if [ "${{ steps.batch.outputs.rescrape }}" = "true" ]; then
+            ARGS="$ARGS --rescrape"
+          fi
+          node scripts/scrape-moveon-universal.js $ARGS
+        env:
+          PUPPETEER_SKIP_DOWNLOAD: 'true'
+
+      - name: Scrape Mobility Online portals
+        run: |
+          ARGS=""
+          if [ "${{ steps.batch.outputs.rescrape }}" = "true" ]; then
+            ARGS="--rescrape"
+          fi
+          node scripts/scrape-mobility-online.js $ARGS
+        env:
+          PUPPETEER_SKIP_DOWNLOAD: 'true'
+
+      - name: Scrape custom university websites
+        run: node scripts/scrape-uni-websites.js || true
+        env:
+          PUPPETEER_SKIP_DOWNLOAD: 'true'
+
+      - name: Fetch EWP Registry
+        run: node scripts/fetch-ewp-registry.js || true
+
+      - name: Cross-validate and merge sources
+        run: node scripts/merge-erasmus-sources.js
+
+      - name: Map partners to study programs
+        run: node scripts/map-partners-to-programs.js
+
+      - name: Quality check
+        id: quality
+        run: |
+          node scripts/quality-check.js 2>&1 | tee quality_output.txt
+          EXIT_CODE=${PIPESTATUS[0]}
+          if [ $EXIT_CODE -eq 2 ]; then
+            echo "status=critical" >> $GITHUB_OUTPUT
+          elif [ $EXIT_CODE -eq 1 ]; then
+            echo "status=warning" >> $GITHUB_OUTPUT
+          else
+            echo "status=ok" >> $GITHUB_OUTPUT
+          fi
+        continue-on-error: true
+
+      - name: Check for changes
+        id: check-changes
+        run: |
+          CHANGED_FILES=$(git diff --name-only data/ 2>/dev/null || true)
+          if [ -z "$CHANGED_FILES" ]; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "Changed files: $CHANGED_FILES"
+          fi
+
+      - name: Configure Git
+        if: steps.check-changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+      - name: Commit and push changes
+        if: steps.check-changes.outputs.changed == 'true'
+        run: |
+          git add data/
+          git commit -m "chore: update erasmus partners (batch ${{ steps.batch.outputs.start }}-$(( ${{ steps.batch.outputs.start }} + ${{ steps.batch.outputs.size }} )), quality: ${{ steps.quality.outputs.status }}"
+          git push
+
+      - name: Summary
+        run: |
+          echo "## Erasmus Partner Update Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **Batch:** ${{ steps.batch.outputs.start }}-$(( ${{ steps.batch.outputs.start }} + ${{ steps.batch.outputs.size }} ))" >> $GITHUB_STEP_SUMMARY
+          echo "- **Changes committed:** ${{ steps.check-changes.outputs.changed }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Quality status:** ${{ steps.quality.outputs.status }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ -f data/quality_report.txt ]; then
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            cat data/quality_report.txt >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          fi

@@ -1,0 +1,60 @@
+{
+  "university_id": "UNIVERSITAET_ZU_KOELN",
+  "university_name": "UNIVERSITAET ZU KOELN",
+  "portal_url": "https://unikoeln.adv-pub.moveon4.de/home-page/",
+  "portal_type": "advanced_publisher",
+  "scraped_at": "2026-03-15T17:55:57.589Z",
+  "strategy": "js_extraction",
+  "partner_count": 7,
+  "partners": [
+    {
+      "partner_name": "Universidad Nacional de San Martín",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Monash University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "University of Sydney",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Pontificia Universidade Católica de Minas Gerais (PUC Minas)",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Pontificia Universidade Católica do Rio de Janeiro",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "Universidad Alberto Hurtado",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    },
+    {
+      "partner_name": "www.uahurtado.cl",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": null
+    }
+  ]
+}

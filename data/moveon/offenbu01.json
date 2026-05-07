@@ -1,0 +1,39 @@
+{
+  "university_id": "OFFENBU01",
+  "university_name": "Mobility-Online Portal",
+  "portal_url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=OFFENBU01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+  "portal_type": "mobility_online",
+  "scraped_at": "2026-03-15T21:03:40.411Z",
+  "strategy": "html_table",
+  "partner_count": 4,
+  "partners": [
+    {
+      "partner_name": "Budapest University of Economics and Business (BUEB)",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "404147"
+    },
+    {
+      "partner_name": "Fontys University of Applied Sciences",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "402372"
+    },
+    {
+      "partner_name": "HÖGSKOLAN I SKÖVDE",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "404622"
+    },
+    {
+      "partner_name": "Icam - Strasbourg-Europe Campus",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "429280"
+    }
+  ]
+}

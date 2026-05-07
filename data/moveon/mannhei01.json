@@ -1,0 +1,10 @@
+{
+  "university_id": "UNIVERSITAET_MANNHEIM",
+  "university_name": "UNIVERSITAET MANNHEIM",
+  "portal_url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=MANNHEI01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+  "portal_type": "mobility_online",
+  "scraped_at": "2026-03-15T21:44:05.126Z",
+  "strategy": "html_table",
+  "partner_count": 0,
+  "partners": []
+}

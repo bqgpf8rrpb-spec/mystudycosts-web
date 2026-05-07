@@ -1,0 +1,10 @@
+{
+  "university_id": "UNIVERSITAET_STUTTGART",
+  "university_name": "UNIVERSITAET STUTTGART",
+  "portal_url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=STUTTGA01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+  "portal_type": "mobility_online",
+  "scraped_at": "2026-03-15T18:58:21.688Z",
+  "strategy": "html_table",
+  "partner_count": 0,
+  "partners": []
+}

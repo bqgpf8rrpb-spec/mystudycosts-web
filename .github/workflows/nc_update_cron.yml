@@ -1,75 +1,14 @@
-name: NC Update Cron
+name: NC Update Cron (Deprecated)
 
 on:
-  schedule:
-    # Run every Monday at 04:00 UTC
-    - cron: '0 4 * * 1'
-  workflow_dispatch: # Allow manual trigger from GitHub UI
+  workflow_dispatch:
 
 jobs:
-  update-nc:
+  notice:
     runs-on: ubuntu-latest
-    
-    permissions:
-      contents: write # Required for auto-commit and push
-    
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fetch-depth: 0 # Full history for proper git diff
-    
-      - name: Set up Python 3.10
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.10'
-          cache: 'pip'
-    
-      - name: Install dependencies
+      - name: Write deprecation summary
         run: |
-          python -m pip install --upgrade pip
-          pip install -r data/scripts/requirements.txt
-    
-      - name: Run NC update script
-        id: nc_update
-        run: |
-          python data/scripts/auto_update_nc.py
-          exit_code=$?
-          echo "exit_code=$exit_code" >> $GITHUB_OUTPUT
-        continue-on-error: true
-    
-      - name: Check for changes
-        id: check_changes
-        run: |
-          if git diff --quiet data/university_programs.json; then
-            echo "changes=false" >> $GITHUB_OUTPUT
-            echo "No changes detected in university_programs.json"
-          else
-            echo "changes=true" >> $GITHUB_OUTPUT
-            echo "Changes detected in university_programs.json"
-            git diff --stat data/university_programs.json
-          fi
-    
-      - name: Configure Git
-        if: steps.check_changes.outputs.changes == 'true'
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-    
-      - name: Commit and push changes
-        if: steps.check_changes.outputs.changes == 'true'
-        run: |
-          git add data/university_programs.json
-          git commit -m "chore: automated NC update [skip ci]"
-          git push
-    
-      - name: Summary
-        if: always()
-        run: |
-          if [ "${{ steps.check_changes.outputs.changes }}" == "true" ]; then
-            echo "✅ Successfully updated and committed NC data"
-          else
-            echo "ℹ️ No changes detected - NC data is up to date"
-          fi
+          echo "## Deprecated workflow" >> $GITHUB_STEP_SUMMARY
+          echo "Use \`update-nc-data.yml\` as the single NC automation workflow." >> $GITHUB_STEP_SUMMARY
 

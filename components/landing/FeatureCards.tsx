@@ -12,6 +12,7 @@ interface FeatureCardProps {
 
 function FeatureCard({ href, icon, title, description }: FeatureCardProps) {
   return (
+    <article>
     <Link
       href={href}
       className="group relative bg-slate-900/50 border border-slate-800 p-8 rounded-3xl hover:bg-blue-900/20 transition-all cursor-pointer flex flex-col"
@@ -45,6 +46,7 @@ function FeatureCard({ href, icon, title, description }: FeatureCardProps) {
         </div>
       </div>
     </Link>
+    </article>
   );
 }
 
@@ -54,7 +56,7 @@ interface FeatureCardsProps {
 
 export default function FeatureCards({ locale }: FeatureCardsProps) {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+    <section className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8" aria-label="Feature tools">
       {/* NC Checker */}
       <FeatureCard
         href={`/${locale}/nc-checker`}
@@ -87,7 +89,7 @@ export default function FeatureCards({ locale }: FeatureCardsProps) {
           "Personalized for your city and your needs."
         ]}
       />
-    </div>
+    </section>
   );
 }
 

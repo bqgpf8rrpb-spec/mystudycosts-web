@@ -1,0 +1,624 @@
+{
+  "generated_at": "2026-03-15T22:01:05.867Z",
+  "count": 103,
+  "unmatched": [
+    {
+      "master_name": "University of Bonn",
+      "suggested_eu_id": "UNIVERSITY_OF_PASSAU",
+      "suggested_eu_name": "University of Passau",
+      "score": 0.5
+    },
+    {
+      "master_name": "Academy of Fine Arts Munich",
+      "suggested_eu_id": null,
+      "suggested_eu_name": null,
+      "score": null
+    },
+    {
+      "master_name": "EBS University of Business and Law",
+      "suggested_eu_id": null,
+      "suggested_eu_name": null,
+      "score": null
+    },
+    {
+      "master_name": "SRH Heidelberg University",
+      "suggested_eu_id": "SRH_UNIVERSITY_OF_APPLIED_SCIENCES_HEIDELBERG",
+      "suggested_eu_name": "SRH University of Applied Sciences Heidelberg",
+      "score": 0.5
+    },
+    {
+      "master_name": "University of Hildesheim",
+      "suggested_eu_id": "UNIVERSITY_OF_PASSAU",
+      "suggested_eu_name": "University of Passau",
+      "score": 0.5
+    },
+    {
+      "master_name": "University of Landau",
+      "suggested_eu_id": "UNIVERSITY_OF_PASSAU",
+      "suggested_eu_name": "University of Passau",
+      "score": 0.5
+    },
+    {
+      "master_name": "Technical University of Deggendorf",
+      "suggested_eu_id": "TECHNICAL_UNIVERSITY_OF_APPLIED_SCIENCES_MANNHEIM",
+      "suggested_eu_name": "Technical University of Applied Sciences Mannheim",
+      "score": 0.42857142857142855
+    },
+    {
+      "master_name": "Technical University of Ilmenau",
+      "suggested_eu_id": "TECHNICAL_UNIVERSITY_OF_APPLIED_SCIENCES_MANNHEIM",
+      "suggested_eu_name": "Technical University of Applied Sciences Mannheim",
+      "score": 0.42857142857142855
+    },
+    {
+      "master_name": "University of Paderborn",
+      "suggested_eu_id": "UNIVERSITY_OF_PASSAU",
+      "suggested_eu_name": "University of Passau",
+      "score": 0.5
+    },
+    {
+      "master_name": "Technical University of Clausthal",
+      "suggested_eu_id": "TECHNICAL_UNIVERSITY_OF_APPLIED_SCIENCES_MANNHEIM",
+      "suggested_eu_name": "Technical University of Applied Sciences Mannheim",
+      "score": 0.42857142857142855
+    },
+    {
+      "master_name": "University of Trier",
+      "suggested_eu_id": "TRIER_UNIVERSITY_OF_APPLIED_SCIENCES_IFAS",
+      "suggested_eu_name": "TRIER UNIVERSITY OF APPLIED SCIENCES IFAS",
+      "score": 0.5
+    },
+    {
+      "master_name": "University of Vechta",
+      "suggested_eu_id": "UNIVERSITY_OF_PASSAU",
+      "suggested_eu_name": "University of Passau",
+      "score": 0.5
+    },
+    {
+      "master_name": "University of Saarland",
+      "suggested_eu_id": "UNIVERSITY_OF_PASSAU",
+      "suggested_eu_name": "University of Passau",
+      "score": 0.5
+    },
+    {
+      "master_name": "Hochschule für Technik und Wirtschaft Mittweida",
+      "suggested_eu_id": "HOCHSCHULE_AALEN_TECHNIK_UND_WIRTSCHAFT",
+      "suggested_eu_name": "HOCHSCHULE AALEN - TECHNIK UND WIRTSCHAFT",
+      "score": 0.6666666666666666
+    },
+    {
+      "master_name": "Technical University of Wildau",
+      "suggested_eu_id": "TECHNICAL_UNIVERSITY_OF_APPLIED_SCIENCES_MANNHEIM",
+      "suggested_eu_name": "Technical University of Applied Sciences Mannheim",
+      "score": 0.42857142857142855
+    },
+    {
+      "master_name": "Technical University of Ingolstadt",
+      "suggested_eu_id": "TECHNICAL_UNIVERSITY_OF_APPLIED_SCIENCES_MANNHEIM",
+      "suggested_eu_name": "Technical University of Applied Sciences Mannheim",
+      "score": 0.42857142857142855
+    },
+    {
+      "master_name": "University of Flensburg",
+      "suggested_eu_id": "FLENSBURG_UNIVERSITY_OF_APPLIED_SCIENCES",
+      "suggested_eu_name": "FLENSBURG UNIVERSITY OF APPLIED SCIENCES",
+      "score": 0.6
+    },
+    {
+      "master_name": "Hochschule für Technik, Wirtschaft und Medien Offenburg",
+      "suggested_eu_id": "HOCHSCHULE_AALEN_TECHNIK_UND_WIRTSCHAFT",
+      "suggested_eu_name": "HOCHSCHULE AALEN - TECHNIK UND WIRTSCHAFT",
+      "score": 0.5714285714285714
+    },
+    {
+      "master_name": "University of Koblenz",
+      "suggested_eu_id": "UNIVERSITY_OF_PASSAU",
+      "suggested_eu_name": "University of Passau",
+      "score": 0.5
+    },
+    {
+      "master_name": "University of Siegen",
+      "suggested_eu_id": "UNIVERSITY_OF_PASSAU",
+      "suggested_eu_name": "University of Passau",
+      "score": 0.5
+    },
+    {
+      "master_name": "Hochschule für Wirtschaft und Technik Villingen-Schwenningen",
+      "suggested_eu_id": "HOCHSCHULE_AALEN_TECHNIK_UND_WIRTSCHAFT",
+      "suggested_eu_name": "HOCHSCHULE AALEN - TECHNIK UND WIRTSCHAFT",
+      "score": 0.5714285714285714
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Würzburg-Schweinfurt",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.5
+    },
+    {
+      "master_name": "Hochschule Kempten",
+      "suggested_eu_id": null,
+      "suggested_eu_name": null,
+      "score": null
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Bochum",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.6
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Köln",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.6
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Dortmund",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.6
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Heilbronn",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.6
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Ravensburg",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.6
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Weingarten",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.6
+    },
+    {
+      "master_name": "Hochschule für Gestaltung Karlsruhe",
+      "suggested_eu_id": "STAATLICHE_HOCHSCHULE_FUER_GESTALTUNG_KARLSRUHE",
+      "suggested_eu_name": "STAATLICHE HOCHSCHULE FUR GESTALTUNG KARLSRUHE",
+      "score": 0.6
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Biberach",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.6
+    },
+    {
+      "master_name": "Hochschule Schweinfurt",
+      "suggested_eu_id": "TECHNISCHE_HOCHSCHULE_WUERZBURG_SCHWEINFURT",
+      "suggested_eu_name": "TECHNISCHE HOCHSCHULE WUERZBURG-SCHWEINFURT",
+      "score": 0.5
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Westfälische Wilhelms-Universität Münster",
+      "suggested_eu_id": null,
+      "suggested_eu_name": null,
+      "score": null
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Esslingen",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.6
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Niederrhein",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.6
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Landshut",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN_FACHHOCHSCHULE_LAN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN FACHHOCHSCHULE LANDSHUT",
+      "score": 0.6666666666666666
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Gelsenkirchen",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.6
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Rosenheim",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.6
+    },
+    {
+      "master_name": "Hochschule für Technik und Wirtschaft Aalen",
+      "suggested_eu_id": "HOCHSCHULE_AALEN_TECHNIK_UND_WIRTSCHAFT",
+      "suggested_eu_name": "HOCHSCHULE AALEN - TECHNIK UND WIRTSCHAFT",
+      "score": 1
+    },
+    {
+      "master_name": "Hochschule für Gestaltung Pforzheim",
+      "suggested_eu_id": "HOCHSCHULE_PFORZHEIM",
+      "suggested_eu_name": "HOCHSCHULE PFORZHEIM",
+      "score": 0.6666666666666666
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Bonn-Rhein-Sieg",
+      "suggested_eu_id": "HOCHSCHULE_BONN_RHEIN_SIEG",
+      "suggested_eu_name": "Hochschule Bonn-Rhein-Sieg",
+      "score": 0.6666666666666666
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Aschaffenburg",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.6
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Ruhr West",
+      "suggested_eu_id": "HOCHSCHULE_RUHR_WEST",
+      "suggested_eu_name": "HOCHSCHULE RUHR WEST",
+      "score": 0.6
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Pforzheim",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.6
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Ludwigsburg",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.6
+    },
+    {
+      "master_name": "Hochschule für öffentliche Verwaltung Mecklenburg-Vorpommern",
+      "suggested_eu_id": "HOCHSCHULE_DES_BUNDES_FUER_OEFFENTLICHE_VERWALTUNG",
+      "suggested_eu_name": "Hochschule des Bundes für öffentliche Verwaltung",
+      "score": 0.42857142857142855
+    },
+    {
+      "master_name": "Hochschule für öffentliche Verwaltung Thüringen",
+      "suggested_eu_id": "HOCHSCHULE_DES_BUNDES_FUER_OEFFENTLICHE_VERWALTUNG",
+      "suggested_eu_name": "Hochschule des Bundes für öffentliche Verwaltung",
+      "score": 0.42857142857142855
+    },
+    {
+      "master_name": "Hochschule für öffentliche Verwaltung Saarland",
+      "suggested_eu_id": "HOCHSCHULE_DES_BUNDES_FUER_OEFFENTLICHE_VERWALTUNG",
+      "suggested_eu_name": "Hochschule des Bundes für öffentliche Verwaltung",
+      "score": 0.5
+    },
+    {
+      "master_name": "Hochschule für öffentliche Verwaltung Bremen",
+      "suggested_eu_id": "HOCHSCHULE_BREMEN",
+      "suggested_eu_name": "HOCHSCHULE BREMEN",
+      "score": 0.5
+    },
+    {
+      "master_name": "Hochschule für öffentliche Verwaltung Nordrhein-Westfalen",
+      "suggested_eu_id": "HOCHSCHULE_FUER_POLIZEI_UND_OEFFENTLICHE_VERWALTUNG_NORDRHEI",
+      "suggested_eu_name": "Hochschule für Polizei und öffentliche Verwaltung  Nordrhein-Westfalen",
+      "score": 0.7142857142857143
+    },
+    {
+      "master_name": "Hochschule für öffentliche Verwaltung Schleswig-Holstein",
+      "suggested_eu_id": "HOCHSCHULE_DES_BUNDES_FUER_OEFFENTLICHE_VERWALTUNG",
+      "suggested_eu_name": "Hochschule des Bundes für öffentliche Verwaltung",
+      "score": 0.42857142857142855
+    },
+    {
+      "master_name": "Hochschule für Finanzen Nordrhein-Westfalen",
+      "suggested_eu_id": null,
+      "suggested_eu_name": null,
+      "score": null
+    },
+    {
+      "master_name": "Hochschule für öffentliche Verwaltung Niedersachsen",
+      "suggested_eu_id": "HOCHSCHULE_DES_BUNDES_FUER_OEFFENTLICHE_VERWALTUNG",
+      "suggested_eu_name": "Hochschule des Bundes für öffentliche Verwaltung",
+      "score": 0.5
+    },
+    {
+      "master_name": "Hochschule für öffentliche Verwaltung Sachsen",
+      "suggested_eu_id": "HOCHSCHULE_DES_BUNDES_FUER_OEFFENTLICHE_VERWALTUNG",
+      "suggested_eu_name": "Hochschule des Bundes für öffentliche Verwaltung",
+      "score": 0.5
+    },
+    {
+      "master_name": "Hochschule für öffentliche Verwaltung Sachsen-Anhalt",
+      "suggested_eu_id": "HOCHSCHULE_DES_BUNDES_FUER_OEFFENTLICHE_VERWALTUNG",
+      "suggested_eu_name": "Hochschule des Bundes für öffentliche Verwaltung",
+      "score": 0.42857142857142855
+    },
+    {
+      "master_name": "Hochschule für Polizei Baden-Württemberg",
+      "suggested_eu_id": "DUALE_HOCHSCHULE_BADEN_WUERTTEMBERG_HEIDENHEIM",
+      "suggested_eu_name": "Duale Hochschule Baden-Württemberg Heidenheim",
+      "score": 0.5
+    },
+    {
+      "master_name": "Hochschule für öffentliche Verwaltung Rheinland-Pfalz",
+      "suggested_eu_id": "HOCHSCHULE_DES_BUNDES_FUER_OEFFENTLICHE_VERWALTUNG",
+      "suggested_eu_name": "Hochschule des Bundes für öffentliche Verwaltung",
+      "score": 0.42857142857142855
+    },
+    {
+      "master_name": "Hochschule für öffentliche Verwaltung und Rechtspflege",
+      "suggested_eu_id": "HOCHSCHULE_FUER_POLIZEI_UND_OEFFENTLICHE_VERWALTUNG_NORDRHEI",
+      "suggested_eu_name": "Hochschule für Polizei und öffentliche Verwaltung  Nordrhein-Westfalen",
+      "score": 0.5
+    },
+    {
+      "master_name": "Hochschule für Finanzen Rheinland-Pfalz",
+      "suggested_eu_id": "HOEV_RHEINLAND_PFALZ",
+      "suggested_eu_name": "HöV Rheinland-Pfalz",
+      "score": 0.5
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Darmstadt",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.6
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Rostock",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.6
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Weiden",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.6
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Nordhausen",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.6
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Mainz",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.6
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Greifswald",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.6
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Gera",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.6
+    },
+    {
+      "master_name": "Akademie der Bildenden Künste Dresden",
+      "suggested_eu_id": "AKADEMIE_DER_BILDENDEN_KUENSTE_MUENCHEN",
+      "suggested_eu_name": "Akademie der Bildenden Künste München",
+      "score": 0.6666666666666666
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Schmalkalden",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.6
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Wiesbaden",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.6
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Amberg-Weiden",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.5
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Magdeburg",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.6
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Stralsund",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.6
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Wismar",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.6
+    },
+    {
+      "master_name": "Akademie der Bildenden Künste Frankfurt",
+      "suggested_eu_id": "AKADEMIE_DER_BILDENDEN_KUENSTE_MUENCHEN",
+      "suggested_eu_name": "Akademie der Bildenden Künste München",
+      "score": 0.6666666666666666
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Erfurt",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.6
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Jena",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.6
+    },
+    {
+      "master_name": "Akademie der Bildenden Künste Düsseldorf",
+      "suggested_eu_id": "AKADEMIE_DER_BILDENDEN_KUENSTE_MUENCHEN",
+      "suggested_eu_name": "Akademie der Bildenden Künste München",
+      "score": 0.6666666666666666
+    },
+    {
+      "master_name": "Akademie der Bildenden Künste Köln",
+      "suggested_eu_id": "AKADEMIE_DER_BILDENDEN_KUENSTE_MUENCHEN",
+      "suggested_eu_name": "Akademie der Bildenden Künste München",
+      "score": 0.6666666666666666
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Frankfurt",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.6
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Ansbach",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN_FACHHOCHSCHULE_ANS",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN - FACHHOCHSCHULE ANSBACH",
+      "score": 0.6666666666666666
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Ingolstadt",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.6
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Nürnberg",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.6
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Trier",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.6
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Kassel",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.6
+    },
+    {
+      "master_name": "Akademie der Bildenden Künste Kassel",
+      "suggested_eu_id": "AKADEMIE_DER_BILDENDEN_KUENSTE_MUENCHEN",
+      "suggested_eu_name": "Akademie der Bildenden Künste München",
+      "score": 0.6666666666666666
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Merseburg",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.6
+    },
+    {
+      "master_name": "Akademie der Bildenden Künste Mainz",
+      "suggested_eu_id": "AKADEMIE_DER_BILDENDEN_KUENSTE_MUENCHEN",
+      "suggested_eu_name": "Akademie der Bildenden Künste München",
+      "score": 0.6666666666666666
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Gießen",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.5
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Fulda",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.6
+    },
+    {
+      "master_name": "Akademie der Bildenden Künste Leipzig",
+      "suggested_eu_id": "AKADEMIE_DER_BILDENDEN_KUENSTE_MUENCHEN",
+      "suggested_eu_name": "Akademie der Bildenden Künste München",
+      "score": 0.6666666666666666
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Regensburg",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.6
+    },
+    {
+      "master_name": "Akademie der Bildenden Künste Berlin",
+      "suggested_eu_id": "AKADEMIE_DER_BILDENDEN_KUENSTE_MUENCHEN",
+      "suggested_eu_name": "Akademie der Bildenden Künste München",
+      "score": 0.6666666666666666
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Kaiserslautern",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.6
+    },
+    {
+      "master_name": "Akademie der Bildenden Künste Braunschweig",
+      "suggested_eu_id": "AKADEMIE_DER_BILDENDEN_KUENSTE_MUENCHEN",
+      "suggested_eu_name": "Akademie der Bildenden Künste München",
+      "score": 0.6666666666666666
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Schwerin",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.6
+    },
+    {
+      "master_name": "Akademie der Bildenden Künste Münster",
+      "suggested_eu_id": "AKADEMIE_DER_BILDENDEN_KUENSTE_MUENCHEN",
+      "suggested_eu_name": "Akademie der Bildenden Künste München",
+      "score": 0.6666666666666666
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Bamberg",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.6
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Deggendorf",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.6
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Bayreuth",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.6
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Burghausen",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.6
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Weihenstephan-Triesdorf",
+      "suggested_eu_id": "HOCHSCHULE_WEIHENSTEPHAN_TRIESDORF",
+      "suggested_eu_name": "HOCHSCHULE WEIHENSTEPHAN-TRIESDORF",
+      "score": 0.6
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Schweinfurt",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.6
+    },
+    {
+      "master_name": "Hochschule für Angewandte Wissenschaften Reutlingen",
+      "suggested_eu_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "suggested_eu_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "score": 0.6
+    }
+  ]
+}

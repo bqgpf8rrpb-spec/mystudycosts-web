@@ -1,13 +1,12 @@
 'use client';
 
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
 import { useTranslations } from 'next-intl';
-import { Search, GraduationCap, ChevronDown, Check, X } from 'lucide-react';
+import { Search, GraduationCap, ChevronDown, Check, X, Loader2 } from 'lucide-react';
 import { createPortal } from 'react-dom';
-import universityProgramsData from '@/data/university_programs.json';
-import { type StudyProgram, getProgramName } from '@/data/university-program-types';
-import { getSearchTerms, matchesSearchTerms } from '@/lib/search-mapping';
+import { searchPrograms, type SearchResult } from '@/lib/api';
+import { SEARCH_DEBOUNCE_MS } from '@/lib/constants';
 
 interface HomeQuickSearchProps {
   locale: string;
@@ -18,34 +17,78 @@ export default function HomeQuickSearch({ locale }: HomeQuickSearchProps) {
   const t = useTranslations('Index');
   const [isOpen, setIsOpen] = useState(false);
   const [searchValue, setSearchValue] = useState('');
+  const [filteredPrograms, setFilteredPrograms] = useState<SearchResult[]>([]);
+  const [isLoading, setIsLoading] = useState(false);
   const [dropdownPosition, setDropdownPosition] = useState({ top: 0, left: 0, width: 0 });
   const containerRef = useRef<HTMLDivElement>(null);
   const triggerRef = useRef<HTMLDivElement>(null);
+  const debounceTimerRef = useRef<NodeJS.Timeout | null>(null);
+  const abortControllerRef = useRef<AbortController | null>(null);
 
-  // Get all unique program names
-  const allPrograms = useRef<string[]>([]);
-  
-  useEffect(() => {
-    const programSet = new Set<string>();
-    const programsData = universityProgramsData as Record<string, (string | StudyProgram)[]>;
-    
-    Object.values(programsData).forEach((programs) => {
-      programs.forEach((program) => {
-        const programName = typeof program === 'string' ? program : program.name;
-        programSet.add(programName);
-      });
-    });
-    
-    allPrograms.current = Array.from(programSet).sort();
+  // Debounced search function using the API client
+  const performSearch = useCallback(async (query: string) => {
+    // Cancel previous request
+    if (abortControllerRef.current) {
+      abortControllerRef.current.abort();
+    }
+
+    // Clear previous debounce timer
+    if (debounceTimerRef.current) {
+      clearTimeout(debounceTimerRef.current);
+    }
+
+    // If query is empty, show empty results
+    if (!query.trim()) {
+      setFilteredPrograms([]);
+      setIsLoading(false);
+      return;
+    }
+
+    // Set loading state
+    setIsLoading(true);
+
+    // Debounce before making the request
+    debounceTimerRef.current = setTimeout(async () => {
+      try {
+        // Use the type-safe API client function
+        const data = await searchPrograms(query, { limit: 10 });
+        
+        // Extract unique program names
+        const programSet = new Set<string>();
+        const programMap = new Map<string, SearchResult>();
+        
+        data.results.forEach((result) => {
+          if (!programSet.has(result.programName)) {
+            programSet.add(result.programName);
+            programMap.set(result.programName, result);
+          }
+        });
+
+        setFilteredPrograms(Array.from(programMap.values()));
+      } catch (error: any) {
+        // Error handling is done in the API client
+        console.error('Search error:', error);
+        setFilteredPrograms([]);
+      } finally {
+        setIsLoading(false);
+      }
+    }, SEARCH_DEBOUNCE_MS);
   }, []);
 
-  // Filter programs based on search
-  const filteredPrograms = searchValue.trim()
-    ? allPrograms.current.filter((program) => {
-        const searchTerms = getSearchTerms(searchValue);
-        return matchesSearchTerms(program, searchTerms);
-      }).slice(0, 10) // Limit to 10 results for quick search
-    : allPrograms.current.slice(0, 10);
+  // Trigger search when searchValue changes
+  useEffect(() => {
+    performSearch(searchValue);
+    
+    // Cleanup on unmount
+    return () => {
+      if (debounceTimerRef.current) {
+        clearTimeout(debounceTimerRef.current);
+      }
+      if (abortControllerRef.current) {
+        abortControllerRef.current.abort();
+      }
+    };
+  }, [searchValue, performSearch]);
 
   // Calculate dropdown position
   useEffect(() => {
@@ -78,8 +121,8 @@ export default function HomeQuickSearch({ locale }: HomeQuickSearchProps) {
     return () => document.removeEventListener('mousedown', handleClickOutside, true);
   }, [isOpen]);
 
-  const handleSelect = (program: string) => {
-    router.push(`/${locale}/nc-checker?program=${encodeURIComponent(program)}`);
+  const handleSelect = (program: SearchResult) => {
+    router.push(`/${locale}/nc-checker?program=${encodeURIComponent(program.programName)}`);
     setIsOpen(false);
     setSearchValue('');
   };
@@ -100,26 +143,36 @@ export default function HomeQuickSearch({ locale }: HomeQuickSearchProps) {
         }}
       >
         <div className="overflow-y-auto max-h-80">
-          {filteredPrograms.length > 0 ? (
+          {isLoading ? (
+            <div className="px-4 py-8 text-center text-white/60 text-sm">
+              <Loader2 className="w-5 h-5 animate-spin mx-auto mb-2 text-blue-400" />
+              <span>Searching...</span>
+            </div>
+          ) : filteredPrograms.length > 0 ? (
             <ul className="py-1">
               {filteredPrograms.map((program) => (
                 <li
-                  key={program}
+                  key={`${program.programName}-${program.university}`}
                   onClick={() => handleSelect(program)}
                   className="px-4 py-3 cursor-pointer transition-colors duration-150 text-white/80 hover:bg-white/10 hover:text-white"
                 >
                   <div className="flex items-center gap-3">
                     <GraduationCap className="w-4 h-4 text-blue-400 flex-shrink-0" />
-                    <span className="flex-1">{program}</span>
+                    <div className="flex-1 min-w-0">
+                      <div className="font-medium truncate">{program.programName}</div>
+                      <div className="text-xs text-white/50 truncate">
+                        {program.university} • {program.city}
+                      </div>
+                    </div>
                   </div>
                 </li>
               ))}
             </ul>
-          ) : (
+          ) : searchValue.trim() ? (
             <div className="px-4 py-8 text-center text-white/60 text-sm">
               {t('noResults')}
             </div>
-          )}
+          ) : null}
         </div>
       </div>
     );
@@ -152,7 +205,7 @@ export default function HomeQuickSearch({ locale }: HomeQuickSearchProps) {
                 e.stopPropagation();
                 setIsOpen(true);
               }}
-              placeholder="Schnellsuche: Studiengang eingeben..."
+              placeholder="Quick search: Enter study program..."
               className="flex-1 bg-transparent border-none outline-none text-white placeholder-white/40 text-lg"
             />
           </div>

@@ -1,0 +1,22 @@
+[
+  {
+    "university_id": "uni_bonn",
+    "status": "success",
+    "records_extracted": 272,
+    "records_normalized": 0,
+    "duration_ms": 16600,
+    "error": null,
+    "retries": 0,
+    "used_fallback_cache": false
+  },
+  {
+    "university_id": "lmu_muenchen",
+    "status": "success",
+    "records_extracted": 1292,
+    "records_normalized": 0,
+    "duration_ms": 191578,
+    "error": null,
+    "retries": 0,
+    "used_fallback_cache": false
+  }
+]

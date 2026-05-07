@@ -1,0 +1,7470 @@
+{
+  "university_id": "JULIUS_MAXIMILIANS_UNIVERSITAET_WUERZBURG",
+  "university_name": "JULIUS-MAXIMILIANS-UNIVERSITAET WUERZBURG",
+  "portal_url": "https://wuerzburg.adv-pub.moveon4.de/home-page-1721/",
+  "portal_type": "advanced_publisher",
+  "scraped_at": "2026-03-15T16:33:37.017Z",
+  "strategy": "js_variable:moreinformatics",
+  "partner_count": 438,
+  "partners": [
+    {
+      "partner_name": "Universidad Nacional de Rosario",
+      "country": "Argentina",
+      "country_code": "AR",
+      "city": "Rosario",
+      "lat": -32.95,
+      "lng": -60.666667,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13186"
+    },
+    {
+      "partner_name": "University of the Sunshine Coast",
+      "country": "Australia",
+      "country_code": "AU",
+      "city": "Queensland",
+      "lat": null,
+      "lng": null,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "3813"
+    },
+    {
+      "partner_name": "University of Wollongong",
+      "country": "Australia",
+      "country_code": "AU",
+      "city": "Wollongong",
+      "lat": -34.405104,
+      "lng": 150.877805,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "6534"
+    },
+    {
+      "partner_name": "Donau-Universität Krems",
+      "country": "Austria",
+      "country_code": "AT",
+      "city": "Krems",
+      "lat": 48.405985,
+      "lng": 15.58647,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "14115"
+    },
+    {
+      "partner_name": "Medizinische Universität Wien",
+      "country": "Austria",
+      "country_code": "AT",
+      "city": "Wien",
+      "lat": 48.2203,
+      "lng": 16.351979,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13818"
+    },
+    {
+      "partner_name": "Pädagogische Hochschule Kärnten",
+      "country": "Austria",
+      "country_code": "AT",
+      "city": "Klagenfurt",
+      "lat": 46.608108,
+      "lng": 14.289125,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "9366"
+    },
+    {
+      "partner_name": "Pädagogische Hochschule Salzburg",
+      "country": "Austria",
+      "country_code": "AT",
+      "city": "Salzburg",
+      "lat": 47.791586,
+      "lng": 13.055982,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "15460"
+    },
+    {
+      "partner_name": "Private Pädagogische Hochschule der Diözese Linz",
+      "country": "Austria",
+      "country_code": "AT",
+      "city": "Linz",
+      "lat": 48.297334,
+      "lng": 14.273633,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "15411"
+    },
+    {
+      "partner_name": "Technische Universität Graz",
+      "country": "Austria",
+      "country_code": "AT",
+      "city": "Graz",
+      "lat": 47.069486,
+      "lng": 15.450452,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13166"
+    },
+    {
+      "partner_name": "Technische Universität Wien",
+      "country": "Austria",
+      "country_code": "AT",
+      "city": "Wien",
+      "lat": 48.200537,
+      "lng": 16.362817,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "15155"
+    },
+    {
+      "partner_name": "Universität Graz",
+      "country": "Austria",
+      "country_code": "AT",
+      "city": "Graz",
+      "lat": 47.077625,
+      "lng": 15.450095,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "9233"
+    },
+    {
+      "partner_name": "Universität Innsbruck",
+      "country": "Austria",
+      "country_code": "AT",
+      "city": "Innsbruck",
+      "lat": 47.263162,
+      "lng": 11.384368,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "9361"
+    },
+    {
+      "partner_name": "Universität Wien",
+      "country": "Austria",
+      "country_code": "AT",
+      "city": "Wien",
+      "lat": 48.213,
+      "lng": 16.36062,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "9682"
+    },
+    {
+      "partner_name": "HELMo – Haute Ecole Libre Mosane",
+      "country": "Belgium",
+      "country_code": "BE",
+      "city": "Liège",
+      "lat": 50.640649,
+      "lng": 5.572047,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10407"
+    },
+    {
+      "partner_name": "KU Leuven",
+      "country": "Belgium",
+      "country_code": "BE",
+      "city": "Leuven",
+      "lat": 50.877955,
+      "lng": 4.700259,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10157"
+    },
+    {
+      "partner_name": "Université Catholique de Louvain",
+      "country": "Belgium",
+      "country_code": "BE",
+      "city": "Louvain-La-Neuve",
+      "lat": 50.669844,
+      "lng": 4.615632,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10413"
+    },
+    {
+      "partner_name": "Université de Liège",
+      "country": "Belgium",
+      "country_code": "BE",
+      "city": "Liège",
+      "lat": 50.640879,
+      "lng": 5.575316,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10225"
+    },
+    {
+      "partner_name": "Université Libre de Bruxelles",
+      "country": "Belgium",
+      "country_code": "BE",
+      "city": "Bruxelles",
+      "lat": 50.812278,
+      "lng": 4.382492,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10101"
+    },
+    {
+      "partner_name": "Universiteit Antwerpen",
+      "country": "Belgium",
+      "country_code": "BE",
+      "city": "Antwerpen",
+      "lat": 51.222344,
+      "lng": 4.409836,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "14851"
+    },
+    {
+      "partner_name": "Universiteit Gent",
+      "country": "Belgium",
+      "country_code": "BE",
+      "city": "Gent",
+      "lat": 51.045903,
+      "lng": 3.727601,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10130"
+    },
+    {
+      "partner_name": "Fundação Getulio Vargas – Escola de Administracão de Empresas de São Paulo",
+      "country": "Brazil",
+      "country_code": "BR",
+      "city": "São Paulo",
+      "lat": -23.548943,
+      "lng": -46.638818,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "3803"
+    },
+    {
+      "partner_name": "Pontificia Universidade Católica do Rio de Janeiro",
+      "country": "Brazil",
+      "country_code": "BR",
+      "city": "Rio de Janeiro",
+      "lat": -22.903539,
+      "lng": -43.209587,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "974"
+    },
+    {
+      "partner_name": "Universidade Católica de Brasilia (UCB)",
+      "country": "Brazil",
+      "country_code": "BR",
+      "city": "Brasilia",
+      "lat": -15.780148,
+      "lng": -47.92917,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "6540"
+    },
+    {
+      "partner_name": "Universidade de São Paulo (USP)",
+      "country": "Brazil",
+      "country_code": "BR",
+      "city": "São Paulo",
+      "lat": -23.563513,
+      "lng": -46.716124,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "4297"
+    },
+    {
+      "partner_name": "Universidade Estadual de Maringá (UEM)",
+      "country": "Brazil",
+      "country_code": "BR",
+      "city": "Maringá",
+      "lat": -23.427304,
+      "lng": -51.937505,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "963"
+    },
+    {
+      "partner_name": "Universidade Federal do Abc - UFABC",
+      "country": "Brazil",
+      "country_code": "BR",
+      "city": "Santo André",
+      "lat": -23.666574,
+      "lng": -46.532238,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "15020"
+    },
+    {
+      "partner_name": "Universidade Federal do Rio de Janeiro",
+      "country": "Brazil",
+      "country_code": "BR",
+      "city": "Rio de Janeiro",
+      "lat": null,
+      "lng": null,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "14856"
+    },
+    {
+      "partner_name": "Universidade Federal do Rio Grande do Sul (UFRGS)",
+      "country": "Brazil",
+      "country_code": "BR",
+      "city": "Porto Alegre",
+      "lat": -30.03209,
+      "lng": -51.222622,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "7868"
+    },
+    {
+      "partner_name": "Meditcinsky Universitet - Plovdiv",
+      "country": "Bulgaria",
+      "country_code": "BG",
+      "city": "Plovdiv",
+      "lat": 42.143841,
+      "lng": 24.749562,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10963"
+    },
+    {
+      "partner_name": "Sofiiski Universitet ‘Sveti Kliment Ohridski’",
+      "country": "Bulgaria",
+      "country_code": "BG",
+      "city": "Sofia",
+      "lat": 42.697649,
+      "lng": 23.322154,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10795"
+    },
+    {
+      "partner_name": "Ugozapaden Universitet 'Neophit Rilski'",
+      "country": "Bulgaria",
+      "country_code": "BG",
+      "city": "Blagoevgrad",
+      "lat": 42.022517,
+      "lng": 23.095971,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10784"
+    },
+    {
+      "partner_name": "McMaster University",
+      "country": "Canada",
+      "country_code": "CA",
+      "city": "Hamilton",
+      "lat": 43.263656,
+      "lng": -79.916412,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13307"
+    },
+    {
+      "partner_name": "Queen's University",
+      "country": "Canada",
+      "country_code": "CA",
+      "city": "Kingston",
+      "lat": 44.226212,
+      "lng": -76.494223,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "14455"
+    },
+    {
+      "partner_name": "University of British Columbia",
+      "country": "Canada",
+      "country_code": "CA",
+      "city": "Vancouver",
+      "lat": 49.266457,
+      "lng": -123.245717,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "2556"
+    },
+    {
+      "partner_name": "University of Calgary",
+      "country": "Canada",
+      "country_code": "CA",
+      "city": "Calgary",
+      "lat": 51.076963,
+      "lng": -114.130079,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12935"
+    },
+    {
+      "partner_name": "University of Saskatchewan",
+      "country": "Canada",
+      "country_code": "CA",
+      "city": "Saskatoon",
+      "lat": 52.131556,
+      "lng": -106.635198,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12943"
+    },
+    {
+      "partner_name": "Universidad Austral de Chile",
+      "country": "Chile",
+      "country_code": "CL",
+      "city": "Valdivía",
+      "lat": -39.827432,
+      "lng": -73.251241,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "15434"
+    },
+    {
+      "partner_name": "Universidad Finis Terrae",
+      "country": "Chile",
+      "country_code": "CL",
+      "city": "Providencia",
+      "lat": -33.434848,
+      "lng": -70.615731,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "3808"
+    },
+    {
+      "partner_name": "Beijing Normal University",
+      "country": "China",
+      "country_code": "CN",
+      "city": "Beijing",
+      "lat": 39.908173,
+      "lng": 116.397947,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "3807"
+    },
+    {
+      "partner_name": "Huazhong University of Science and Technology",
+      "country": "China",
+      "country_code": "CN",
+      "city": "Wuhan",
+      "lat": 30.561162,
+      "lng": 114.381419,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "4267"
+    },
+    {
+      "partner_name": "Jilin HuaQiao University of Foreign Languages",
+      "country": "China",
+      "country_code": "CN",
+      "city": "Unknown",
+      "lat": null,
+      "lng": null,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "6561"
+    },
+    {
+      "partner_name": "Lingnan University",
+      "country": "China",
+      "country_code": "CN",
+      "city": "Hong Kong",
+      "lat": 22.320336,
+      "lng": 114.23905,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "3837"
+    },
+    {
+      "partner_name": "Nanjing University",
+      "country": "China",
+      "country_code": "CN",
+      "city": "Nanjing",
+      "lat": null,
+      "lng": null,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "7641"
+    },
+    {
+      "partner_name": "Peking University",
+      "country": "China",
+      "country_code": "CN",
+      "city": "Beijing",
+      "lat": 39.991752,
+      "lng": 116.309656,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "1042"
+    },
+    {
+      "partner_name": "Renmin University of China",
+      "country": "China",
+      "country_code": "CN",
+      "city": "Beijing",
+      "lat": 39.908173,
+      "lng": 116.397947,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "6419"
+    },
+    {
+      "partner_name": "Southwest Jiaotong University",
+      "country": "China",
+      "country_code": "CN",
+      "city": "Chengdu",
+      "lat": 30.710589,
+      "lng": 104.088668,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "14872"
+    },
+    {
+      "partner_name": "Zhejiang University",
+      "country": "China",
+      "country_code": "CN",
+      "city": "Hangzhou",
+      "lat": 30.273977,
+      "lng": 120.172974,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "956"
+    },
+    {
+      "partner_name": "Pontificia Universidad Javeriana de Cali",
+      "country": "Colombia",
+      "country_code": "CO",
+      "city": "Cali",
+      "lat": 3.4,
+      "lng": -76.5,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "4070"
+    },
+    {
+      "partner_name": "Universidad del Valle",
+      "country": "Colombia",
+      "country_code": "CO",
+      "city": "Cali",
+      "lat": 3.423315,
+      "lng": -76.524536,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "1053"
+    },
+    {
+      "partner_name": "Universidad Icesi",
+      "country": "Colombia",
+      "country_code": "CO",
+      "city": "Cali",
+      "lat": 3.42332,
+      "lng": -76.524498,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "950"
+    },
+    {
+      "partner_name": "Universidad Nacional de Colombia",
+      "country": "Colombia",
+      "country_code": "CO",
+      "city": "Bogotá",
+      "lat": 4.636911,
+      "lng": -74.079362,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "3812"
+    },
+    {
+      "partner_name": "Université de Kinshasa",
+      "country": "Congo, the Dem. Rep. of the",
+      "country_code": "CD",
+      "city": "Kinshasa",
+      "lat": -4.3283,
+      "lng": 15.3247,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "959"
+    },
+    {
+      "partner_name": "Sveučilište u Rijeci",
+      "country": "Croatia",
+      "country_code": "HR",
+      "city": "Rijeka",
+      "lat": 45.328433,
+      "lng": 14.43637,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10659"
+    },
+    {
+      "partner_name": "Sveučilište u Splitu",
+      "country": "Croatia",
+      "country_code": "HR",
+      "city": "Split",
+      "lat": 43.506906,
+      "lng": 16.44245,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13280"
+    },
+    {
+      "partner_name": "Sveučilište u Zagrebu",
+      "country": "Croatia",
+      "country_code": "HR",
+      "city": "Zagreb",
+      "lat": 45.810212,
+      "lng": 15.970126,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12737"
+    },
+    {
+      "partner_name": "Panepistimio Kyprou",
+      "country": "Cyprus",
+      "country_code": "CY",
+      "city": "Nicosia",
+      "lat": 35.167604,
+      "lng": 33.373621,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10822"
+    },
+    {
+      "partner_name": "Ceské Vysoké Uceni Technické v Praze",
+      "country": "Czech Republic",
+      "country_code": "CZ",
+      "city": "Praha",
+      "lat": 50.102308,
+      "lng": 14.388506,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11091"
+    },
+    {
+      "partner_name": "Masarykova Univerzita v Brne",
+      "country": "Czech Republic",
+      "country_code": "CZ",
+      "city": "Brno",
+      "lat": 49.198665,
+      "lng": 16.605139,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10973"
+    },
+    {
+      "partner_name": "Ostravská Univerzita v Ostrave",
+      "country": "Czech Republic",
+      "country_code": "CZ",
+      "city": "Ostrava",
+      "lat": 49.837651,
+      "lng": 18.29109,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11061"
+    },
+    {
+      "partner_name": "Palacký University Olomouc",
+      "country": "Czech Republic",
+      "country_code": "CZ",
+      "city": "Olomouc",
+      "lat": 49.595211,
+      "lng": 17.258763,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10834"
+    },
+    {
+      "partner_name": "Slezska Univerzita v Opave",
+      "country": "Czech Republic",
+      "country_code": "CZ",
+      "city": "Opava",
+      "lat": 49.938821,
+      "lng": 17.898104,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11046"
+    },
+    {
+      "partner_name": "University of New York in Prague",
+      "country": "Czech Republic",
+      "country_code": "CZ",
+      "city": "Praha",
+      "lat": 14.434001,
+      "lng": 50.073509,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13489"
+    },
+    {
+      "partner_name": "Univerzita Hradec Králové",
+      "country": "Czech Republic",
+      "country_code": "CZ",
+      "city": "Hradec Kralove",
+      "lat": 50.209163,
+      "lng": 15.830674,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11019"
+    },
+    {
+      "partner_name": "Univerzita Jana Evangelisty Purkyne v Ústí Nad Labem",
+      "country": "Czech Republic",
+      "country_code": "CZ",
+      "city": "Usti Nad Labem",
+      "lat": 50.665209,
+      "lng": 14.021817,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11106"
+    },
+    {
+      "partner_name": "Univerzita Karlova",
+      "country": "Czech Republic",
+      "country_code": "CZ",
+      "city": "Praha",
+      "lat": 50.086129,
+      "lng": 14.423306,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11082"
+    },
+    {
+      "partner_name": "Zapadoceska Univerzita v Plzni",
+      "country": "Czech Republic",
+      "country_code": "CZ",
+      "city": "Plzen",
+      "lat": 49.724038,
+      "lng": 13.353277,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11063"
+    },
+    {
+      "partner_name": "Aarhus Universitet",
+      "country": "Denmark",
+      "country_code": "DK",
+      "city": "Århus",
+      "lat": 56.171507,
+      "lng": 10.199892,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11111"
+    },
+    {
+      "partner_name": "Københavns Universitet",
+      "country": "Denmark",
+      "country_code": "DK",
+      "city": "København",
+      "lat": 55.679822,
+      "lng": 12.572483,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11121"
+    },
+    {
+      "partner_name": "Syddansk Universitet",
+      "country": "Denmark",
+      "country_code": "DK",
+      "city": "Odense, Kolding, Esbjerg, Sønderborg and Slagelse",
+      "lat": 55.368033,
+      "lng": 10.42801,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11127"
+    },
+    {
+      "partner_name": "Cairo University",
+      "country": "Egypt",
+      "country_code": "EG",
+      "city": "Cairo",
+      "lat": 30.0571,
+      "lng": 31.2272,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "7866"
+    },
+    {
+      "partner_name": "Helwan University",
+      "country": "Egypt",
+      "country_code": "EG",
+      "city": "Cairo",
+      "lat": 30.0571,
+      "lng": 31.2272,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "4073"
+    },
+    {
+      "partner_name": "Tallinna Ülikool",
+      "country": "Estonia",
+      "country_code": "EE",
+      "city": "Tallinn",
+      "lat": 59.438744,
+      "lng": 24.771626,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11662"
+    },
+    {
+      "partner_name": "Tartu Ülikool",
+      "country": "Estonia",
+      "country_code": "EE",
+      "city": "Tartu",
+      "lat": 58.370884,
+      "lng": 26.714828,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10692"
+    },
+    {
+      "partner_name": "Aalto University",
+      "country": "Finland",
+      "country_code": "FI",
+      "city": "Espoo",
+      "lat": 60.205284,
+      "lng": 24.65405,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10962"
+    },
+    {
+      "partner_name": "Åbo Akademi",
+      "country": "Finland",
+      "country_code": "FI",
+      "city": "Åbo",
+      "lat": 60.45088,
+      "lng": 22.2779,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD",
+        "Short cycle"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "991"
+    },
+    {
+      "partner_name": "Helsingin Yliopisto",
+      "country": "Finland",
+      "country_code": "FI",
+      "city": "Helsinki",
+      "lat": 60.169482,
+      "lng": 24.950763,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11510"
+    },
+    {
+      "partner_name": "Itä-Suomen yliopisto",
+      "country": "Finland",
+      "country_code": "FI",
+      "city": "Joensuu, Kuopio, Savonlinna",
+      "lat": 62.601004,
+      "lng": 29.763422,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12748"
+    },
+    {
+      "partner_name": "Jyväskylän Yliopisto",
+      "country": "Finland",
+      "country_code": "FI",
+      "city": "Jyväskylä",
+      "lat": 62.237663,
+      "lng": 25.735835,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11520"
+    },
+    {
+      "partner_name": "Oulun Yliopisto",
+      "country": "Finland",
+      "country_code": "FI",
+      "city": "Oulu",
+      "lat": 65.059301,
+      "lng": 25.466464,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12761"
+    },
+    {
+      "partner_name": "Turun Yliopisto",
+      "country": "Finland",
+      "country_code": "FI",
+      "city": "Turku",
+      "lat": 60.45492,
+      "lng": 22.28571,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12768"
+    },
+    {
+      "partner_name": "Aix-Marseille Université",
+      "country": "France",
+      "country_code": "FR",
+      "city": "Marseille",
+      "lat": 43.292048,
+      "lng": 5.359018,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11483"
+    },
+    {
+      "partner_name": "Avignon Université",
+      "country": "France",
+      "country_code": "FR",
+      "city": "Avignon",
+      "lat": 43.949667,
+      "lng": 4.817113,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11435"
+    },
+    {
+      "partner_name": "CENTRE D\\'ETUDES EUROPEEN RHONE ALPES- C.E.E. RHONE ALPES",
+      "country": "France",
+      "country_code": "FR",
+      "city": "Lyon",
+      "lat": 45.77061,
+      "lng": 4.836716,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11493"
+    },
+    {
+      "partner_name": "Ecole de Commerce Europeenne (ECE) de Bordeaux",
+      "country": "France",
+      "country_code": "FR",
+      "city": "Bordeaux",
+      "lat": 44.854212,
+      "lng": -0.565887,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13134"
+    },
+    {
+      "partner_name": "Ecole de Management de Lyon",
+      "country": "France",
+      "country_code": "FR",
+      "city": "Lyon",
+      "lat": 45.786587,
+      "lng": 4.764917,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "15169"
+    },
+    {
+      "partner_name": "Ecole Nationale d'Ingénieurs de Brest",
+      "country": "France",
+      "country_code": "FR",
+      "city": "Brest",
+      "lat": 48.390604,
+      "lng": -4.486901,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10432"
+    },
+    {
+      "partner_name": "Ecole Nationale Supérieure d'Ingénieurs de Caen (ENSICAEN)",
+      "country": "France",
+      "country_code": "FR",
+      "city": "Caen",
+      "lat": 49.205008,
+      "lng": -0.384006,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10711"
+    },
+    {
+      "partner_name": "Ecole Nationale Supérieure de Céramique Industrielle",
+      "country": "France",
+      "country_code": "FR",
+      "city": "Limoges",
+      "lat": 45.835634,
+      "lng": 1.244203,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11866"
+    },
+    {
+      "partner_name": "Ecole Normale Supérieure Paris",
+      "country": "France",
+      "country_code": "FR",
+      "city": "Paris",
+      "lat": 48.842131,
+      "lng": 2.344116,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10889"
+    },
+    {
+      "partner_name": "Ecole Supérieure de Chimie Physique Electronique de Lyon (CPE)",
+      "country": "France",
+      "country_code": "FR",
+      "city": "Villeurbanne",
+      "lat": 45.763603,
+      "lng": 4.764594,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "1249"
+    },
+    {
+      "partner_name": "EPHE - Ecole Pratique des Hautes Etudes",
+      "country": "France",
+      "country_code": "FR",
+      "city": "Paris",
+      "lat": 48.85865,
+      "lng": 2.329355,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "9877"
+    },
+    {
+      "partner_name": "INSEEC Alpes-Savoie",
+      "country": "France",
+      "country_code": "FR",
+      "city": "Chambéry",
+      "lat": 45.57,
+      "lng": 5.9118,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "9740"
+    },
+    {
+      "partner_name": "Institut Catholique de Paris",
+      "country": "France",
+      "country_code": "FR",
+      "city": "Paris",
+      "lat": 48.848022,
+      "lng": 2.32948,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "9819"
+    },
+    {
+      "partner_name": "Institut Catholique de Toulouse",
+      "country": "France",
+      "country_code": "FR",
+      "city": "Toulouse",
+      "lat": 43.595423,
+      "lng": 1.44311,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "9762"
+    },
+    {
+      "partner_name": "Institut des Hautes Etudes Economiques et Commerciales (INSEEC) Paris",
+      "country": "France",
+      "country_code": "FR",
+      "city": "Paris",
+      "lat": 48.88575,
+      "lng": 2.372672,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "9889"
+    },
+    {
+      "partner_name": "Institut National des Sciences Appliquees de Rouen",
+      "country": "France",
+      "country_code": "FR",
+      "city": "Rouen",
+      "lat": 49.458445,
+      "lng": 1.069417,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10729"
+    },
+    {
+      "partner_name": "Nantes Université",
+      "country": "France",
+      "country_code": "FR",
+      "city": "Nantes",
+      "lat": 47.209414,
+      "lng": -1.556009,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "9780"
+    },
+    {
+      "partner_name": "Sorbonne Université",
+      "country": "France",
+      "country_code": "FR",
+      "city": "Paris",
+      "lat": 48.85088,
+      "lng": 2.340961,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13364"
+    },
+    {
+      "partner_name": "Université Bourgogne Europe",
+      "country": "France",
+      "country_code": "FR",
+      "city": "Dijon",
+      "lat": 47.313311,
+      "lng": 5.056813,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11800"
+    },
+    {
+      "partner_name": "Université Côte d’Azur",
+      "country": "France",
+      "country_code": "FR",
+      "city": "Nice",
+      "lat": 43.7034,
+      "lng": 7.2663,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "15043"
+    },
+    {
+      "partner_name": "Université d'Angers",
+      "country": "France",
+      "country_code": "FR",
+      "city": "Angers",
+      "lat": 47.477246,
+      "lng": -0.549306,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11426"
+    },
+    {
+      "partner_name": "Université d'Orléans",
+      "country": "France",
+      "country_code": "FR",
+      "city": "Orléans",
+      "lat": 47.849305,
+      "lng": 1.931913,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "9782"
+    },
+    {
+      "partner_name": "Université de Bordeaux",
+      "country": "France",
+      "country_code": "FR",
+      "city": "Bordeaux",
+      "lat": 44.820291,
+      "lng": -0.611094,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10398"
+    },
+    {
+      "partner_name": "Université de Caen Normandie",
+      "country": "France",
+      "country_code": "FR",
+      "city": "Caen",
+      "lat": 49.188988,
+      "lng": -0.36385,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "1041"
+    },
+    {
+      "partner_name": "Université de Haute-Alsace",
+      "country": "France",
+      "country_code": "FR",
+      "city": "Mulhouse",
+      "lat": 47.732692,
+      "lng": 7.31605,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "9757"
+    },
+    {
+      "partner_name": "Université de Lille",
+      "country": "France",
+      "country_code": "FR",
+      "city": "Lille",
+      "lat": 50.631282,
+      "lng": 3.075649,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "14302"
+    },
+    {
+      "partner_name": "Université de Limoges",
+      "country": "France",
+      "country_code": "FR",
+      "city": "Limoges",
+      "lat": 45.833717,
+      "lng": 1.244126,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11856"
+    },
+    {
+      "partner_name": "Université de Lorraine",
+      "country": "France",
+      "country_code": "FR",
+      "city": "Nancy",
+      "lat": 48.693191,
+      "lng": 6.167478,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13340"
+    },
+    {
+      "partner_name": "Université de Montpellier",
+      "country": "France",
+      "country_code": "FR",
+      "city": "Montpellier",
+      "lat": 43.626964,
+      "lng": 3.840073,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11886"
+    },
+    {
+      "partner_name": "Université de Perpignan Via Domitia",
+      "country": "France",
+      "country_code": "FR",
+      "city": "Perpignan",
+      "lat": 42.681015,
+      "lng": 2.90274,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "9593"
+    },
+    {
+      "partner_name": "Université de Poitiers",
+      "country": "France",
+      "country_code": "FR",
+      "city": "Poitiers",
+      "lat": 46.585489,
+      "lng": 0.346023,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "9599"
+    },
+    {
+      "partner_name": "Université de Strasbourg",
+      "country": "France",
+      "country_code": "FR",
+      "city": "Strasbourg",
+      "lat": 48.580077,
+      "lng": 7.766799,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "9632"
+    },
+    {
+      "partner_name": "Université de Toulouse",
+      "country": "France",
+      "country_code": "FR",
+      "city": "Toulouse",
+      "lat": 43.561253,
+      "lng": 1.463799,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "15159"
+    },
+    {
+      "partner_name": "Université de Versailles Saint-Quentin-en-Yvelines",
+      "country": "France",
+      "country_code": "FR",
+      "city": "Versailles",
+      "lat": 48.79962,
+      "lng": 2.141258,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "14660"
+    },
+    {
+      "partner_name": "Université Grenoble Alpes",
+      "country": "France",
+      "country_code": "FR",
+      "city": "Saint-Martin d\\'Hères",
+      "lat": 45.19142,
+      "lng": 5.765084,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11835"
+    },
+    {
+      "partner_name": "Université Jean Monnet, Saint-Etienne",
+      "country": "France",
+      "country_code": "FR",
+      "city": "Saint-Etienne",
+      "lat": 45.426483,
+      "lng": 4.390973,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "84"
+    },
+    {
+      "partner_name": "Université Lumière Lyon 2",
+      "country": "France",
+      "country_code": "FR",
+      "city": "Lyon",
+      "lat": 45.749162,
+      "lng": 4.83722,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11880"
+    },
+    {
+      "partner_name": "Université Paris Cité",
+      "country": "France",
+      "country_code": "FR",
+      "city": "Paris",
+      "lat": 48.829823,
+      "lng": 2.380718,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13465"
+    },
+    {
+      "partner_name": "Université Paris Nanterre",
+      "country": "France",
+      "country_code": "FR",
+      "city": "Nanterre",
+      "lat": 48.90356,
+      "lng": 2.211632,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13150"
+    },
+    {
+      "partner_name": "Université Paris-Panthéon-Assas",
+      "country": "France",
+      "country_code": "FR",
+      "city": "Paris",
+      "lat": 48.846711,
+      "lng": 2.344985,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "9793"
+    },
+    {
+      "partner_name": "Université Paris-Saclay",
+      "country": "France",
+      "country_code": "FR",
+      "city": "Gif-sur-Yvette",
+      "lat": 48.698044,
+      "lng": 2.179466,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10716"
+    },
+    {
+      "partner_name": "Université Paul Valery (Montpellier III)",
+      "country": "France",
+      "country_code": "FR",
+      "city": "Montpellier",
+      "lat": 43.631292,
+      "lng": 3.87017,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "9750"
+    },
+    {
+      "partner_name": "Université Rennes 2",
+      "country": "France",
+      "country_code": "FR",
+      "city": "Rennes",
+      "lat": 48.121507,
+      "lng": -1.704351,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10722"
+    },
+    {
+      "partner_name": "Université Sorbonne Nouvelle Paris 3",
+      "country": "France",
+      "country_code": "FR",
+      "city": "Paris",
+      "lat": 48.84884,
+      "lng": 2.343,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "9795"
+    },
+    {
+      "partner_name": "Université Sorbonne Paris Nord (USPN)",
+      "country": "France",
+      "country_code": "FR",
+      "city": "Villetaneuse",
+      "lat": 48.844154,
+      "lng": 2.233455,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11291"
+    },
+    {
+      "partner_name": "International Black Sea University",
+      "country": "Georgia",
+      "country_code": "GE",
+      "city": "Tbilisi",
+      "lat": 41.709981,
+      "lng": 44.792998,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "15436"
+    },
+    {
+      "partner_name": "Tbilisi Ivane Javakhishvili State University",
+      "country": "Georgia",
+      "country_code": "GE",
+      "city": "Tbilisi",
+      "lat": 41.709981,
+      "lng": 44.792998,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "6570"
+    },
+    {
+      "partner_name": "Aristoteleio Panepistimio Thessalonikis",
+      "country": "Greece",
+      "country_code": "GR",
+      "city": "Thessaloniki",
+      "lat": 40.625034,
+      "lng": 22.972547,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11184"
+    },
+    {
+      "partner_name": "Ethnicon Metsovion Polytechnion",
+      "country": "Greece",
+      "country_code": "GR",
+      "city": "Athína",
+      "lat": 37.97918,
+      "lng": 23.716647,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "15363"
+    },
+    {
+      "partner_name": "Ethniko Kai Kapodistriako Panepistimio Athinon",
+      "country": "Greece",
+      "country_code": "GR",
+      "city": "Athína",
+      "lat": 37.980503,
+      "lng": 23.733333,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11257"
+    },
+    {
+      "partner_name": "Geoponiko Panepistimio Athinon",
+      "country": "Greece",
+      "country_code": "GR",
+      "city": "Athína",
+      "lat": 37.97918,
+      "lng": 23.716647,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10907"
+    },
+    {
+      "partner_name": "Ionio Panepistimio",
+      "country": "Greece",
+      "country_code": "GR",
+      "city": "Corfu",
+      "lat": 39.617794,
+      "lng": 19.919621,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10914"
+    },
+    {
+      "partner_name": "Panepistimio Patron",
+      "country": "Greece",
+      "country_code": "GR",
+      "city": "Patras",
+      "lat": 38.253799,
+      "lng": 21.73631,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "9906"
+    },
+    {
+      "partner_name": "Panepistimio Thessalias",
+      "country": "Greece",
+      "country_code": "GR",
+      "city": "Volos",
+      "lat": 39.33884,
+      "lng": 22.923753,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11285"
+    },
+    {
+      "partner_name": "Panteion Panepistimio Kinonikon Kai Politikon Epistimon",
+      "country": "Greece",
+      "country_code": "GR",
+      "city": "Athína",
+      "lat": 37.97918,
+      "lng": 23.716647,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "15397"
+    },
+    {
+      "partner_name": "Universidad del Valle de Guatemala",
+      "country": "Guatemala",
+      "country_code": "GT",
+      "city": "Guatemala City",
+      "lat": 14.624795,
+      "lng": -90.532818,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "7548"
+    },
+    {
+      "partner_name": "Budapesti Corvinus Egyetem",
+      "country": "Hungary",
+      "country_code": "HU",
+      "city": "Budapest",
+      "lat": 47.4861,
+      "lng": 19.0582,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10643"
+    },
+    {
+      "partner_name": "Budapesti Műszaki és Gazdaságtudományi Egyetem",
+      "country": "Hungary",
+      "country_code": "HU",
+      "city": "Budapest",
+      "lat": 47.498403,
+      "lng": 19.040759,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10652"
+    },
+    {
+      "partner_name": "Debreceni Egyetem",
+      "country": "Hungary",
+      "country_code": "HU",
+      "city": "Debrecen",
+      "lat": 47.5342,
+      "lng": 21.6116,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10536"
+    },
+    {
+      "partner_name": "Eötvös Loránd Tudományegyetem",
+      "country": "Hungary",
+      "country_code": "HU",
+      "city": "Budapest",
+      "lat": 47.4933,
+      "lng": 19.0607,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12758"
+    },
+    {
+      "partner_name": "Pázmány Péter Katolikus Egyetem",
+      "country": "Hungary",
+      "country_code": "HU",
+      "city": "Budapest",
+      "lat": 47.4904,
+      "lng": 19.0569,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10633"
+    },
+    {
+      "partner_name": "Pécsi Tudományegyetem",
+      "country": "Hungary",
+      "country_code": "HU",
+      "city": "Pécs",
+      "lat": 46.0745,
+      "lng": 18.2374,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10522"
+    },
+    {
+      "partner_name": "Semmelweis Egyetem",
+      "country": "Hungary",
+      "country_code": "HU",
+      "city": "Budapest",
+      "lat": 47.4872,
+      "lng": 19.0671,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10923"
+    },
+    {
+      "partner_name": "Szegedi Tudományegyetem",
+      "country": "Hungary",
+      "country_code": "HU",
+      "city": "Szeged",
+      "lat": 46.2476,
+      "lng": 20.1421,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13374"
+    },
+    {
+      "partner_name": "Háskólinn á Akureyri",
+      "country": "Iceland",
+      "country_code": "IS",
+      "city": "Akureyri",
+      "lat": 65.685466,
+      "lng": -18.122377,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12482"
+    },
+    {
+      "partner_name": "Indian Institute of Science Education and Research (IISER)",
+      "country": "India",
+      "country_code": "IN",
+      "city": "Pune",
+      "lat": 18.53,
+      "lng": 73.85,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "15432"
+    },
+    {
+      "partner_name": "Indian Institute of Technology Madras (IIT Madras)",
+      "country": "India",
+      "country_code": "IN",
+      "city": "Chennai (Madras)",
+      "lat": 13.060416,
+      "lng": 80.249634,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "15383"
+    },
+    {
+      "partner_name": "MYRA School of Business",
+      "country": "India",
+      "country_code": "IN",
+      "city": "Mysore",
+      "lat": null,
+      "lng": null,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "7673"
+    },
+    {
+      "partner_name": "O.P. Jindal Global University",
+      "country": "India",
+      "country_code": "IN",
+      "city": "Sonipat",
+      "lat": 28.926585,
+      "lng": 77.056716,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "8130"
+    },
+    {
+      "partner_name": "Maynooth University",
+      "country": "Ireland",
+      "country_code": "IE",
+      "city": "Maynooth, Co. Kildare.",
+      "lat": 53.381161,
+      "lng": -6.591954,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13501"
+    },
+    {
+      "partner_name": "Ollscoil na Gaillimhe - University of Galway",
+      "country": "Ireland",
+      "country_code": "IE",
+      "city": "Galway",
+      "lat": 53.280859,
+      "lng": -9.064255,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12159"
+    },
+    {
+      "partner_name": "Pontifical University, St. Patrick's College, Maynooth",
+      "country": "Ireland",
+      "country_code": "IE",
+      "city": "Maynooth",
+      "lat": 53.381161,
+      "lng": -6.591954,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12174"
+    },
+    {
+      "partner_name": "Trinity College Dublin",
+      "country": "Ireland",
+      "country_code": "IE",
+      "city": "Dublin",
+      "lat": 53.3445,
+      "lng": -6.26125,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12146"
+    },
+    {
+      "partner_name": "University College Cork",
+      "country": "Ireland",
+      "country_code": "IE",
+      "city": "Cork",
+      "lat": 51.89217,
+      "lng": -8.49286,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "14084"
+    },
+    {
+      "partner_name": "University College Dublin",
+      "country": "Ireland",
+      "country_code": "IE",
+      "city": "Dublin",
+      "lat": 53.307,
+      "lng": -6.21519,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12937"
+    },
+    {
+      "partner_name": "University of Limerick",
+      "country": "Ireland",
+      "country_code": "IE",
+      "city": "Limerick",
+      "lat": 52.673162,
+      "lng": -8.569708,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12472"
+    },
+    {
+      "partner_name": "Technion – Israel Institute of Technology",
+      "country": "Israel",
+      "country_code": "IL",
+      "city": "Haifa",
+      "lat": 32.7938,
+      "lng": 35.0282,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "8113"
+    },
+    {
+      "partner_name": "Tel Aviv University",
+      "country": "Israel",
+      "country_code": "IL",
+      "city": "Tel Aviv",
+      "lat": 32.0554,
+      "lng": 34.7595,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "985"
+    },
+    {
+      "partner_name": "Scuola Per Mediatori Linguistici Ciels",
+      "country": "Italy",
+      "country_code": "IT",
+      "city": "Padova",
+      "lat": 0,
+      "lng": 0,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10343"
+    },
+    {
+      "partner_name": "Università Campus Bio-Medico di Roma",
+      "country": "Italy",
+      "country_code": "IT",
+      "city": "Roma",
+      "lat": 41.901905,
+      "lng": 12.603023,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10293"
+    },
+    {
+      "partner_name": "Università Cattolica del Sacro Cuore",
+      "country": "Italy",
+      "country_code": "IT",
+      "city": "Milano",
+      "lat": 45.462959,
+      "lng": 9.176822,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12803"
+    },
+    {
+      "partner_name": "Università degli Studi \"G. d’Annunzio\" Chieti-Pescara",
+      "country": "Italy",
+      "country_code": "IT",
+      "city": "Chieti",
+      "lat": 42.368851,
+      "lng": 14.150716,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10350"
+    },
+    {
+      "partner_name": "Università degli Studi 'Suor Orsola Benincasa'",
+      "country": "Italy",
+      "country_code": "IT",
+      "city": "Napoli",
+      "lat": 40.841099,
+      "lng": 14.243158,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12817"
+    },
+    {
+      "partner_name": "Università degli Studi del Molise",
+      "country": "Italy",
+      "country_code": "IT",
+      "city": "Campobasso",
+      "lat": 41.555464,
+      "lng": 14.66609,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10052"
+    },
+    {
+      "partner_name": "Università degli Studi dell' Insubria",
+      "country": "Italy",
+      "country_code": "IT",
+      "city": "Varese",
+      "lat": 45.814734,
+      "lng": 8.827962,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "9767"
+    },
+    {
+      "partner_name": "Università degli Studi dell'Aquila",
+      "country": "Italy",
+      "country_code": "IT",
+      "city": "L'Aquila",
+      "lat": 42.351955,
+      "lng": 13.396531,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12014"
+    },
+    {
+      "partner_name": "Università degli Studi della Calabria",
+      "country": "Italy",
+      "country_code": "IT",
+      "city": "Cosenza",
+      "lat": 39.352347,
+      "lng": 16.221808,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13580"
+    },
+    {
+      "partner_name": "Università degli Studi della Campania Luigi Vanvitelli",
+      "country": "Italy",
+      "country_code": "IT",
+      "city": "Caserta",
+      "lat": 41.075415,
+      "lng": 14.332195,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13636"
+    },
+    {
+      "partner_name": "Università degli Studi di Bari 'Aldo Moro'",
+      "country": "Italy",
+      "country_code": "IT",
+      "city": "Bari",
+      "lat": 41.121181,
+      "lng": 16.868904,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10498"
+    },
+    {
+      "partner_name": "Università degli Studi di Bergamo",
+      "country": "Italy",
+      "country_code": "IT",
+      "city": "Bergamo",
+      "lat": 45.704394,
+      "lng": 9.660368,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10045"
+    },
+    {
+      "partner_name": "Università degli Studi di Bologna 'Alma Mater Studiorum'",
+      "country": "Italy",
+      "country_code": "IT",
+      "city": "Bologna",
+      "lat": 44.494446,
+      "lng": 11.349231,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12789"
+    },
+    {
+      "partner_name": "Università degli Studi di Cagliari",
+      "country": "Italy",
+      "country_code": "IT",
+      "city": "Cagliari",
+      "lat": 39.217582,
+      "lng": 9.115082,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "14689"
+    },
+    {
+      "partner_name": "UNIVERSITA DEGLI STUDI DI CASSINO E DEL LAZIO MERIDIONALE",
+      "country": "Italy",
+      "country_code": "IT",
+      "city": "Cassino",
+      "lat": 41.491727,
+      "lng": 13.828288,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11903"
+    },
+    {
+      "partner_name": "Università degli Studi di Catania",
+      "country": "Italy",
+      "country_code": "IT",
+      "city": "Catania",
+      "lat": 37.503775,
+      "lng": 15.087339,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11941"
+    },
+    {
+      "partner_name": "Università degli Studi di Ferrara",
+      "country": "Italy",
+      "country_code": "IT",
+      "city": "Ferrara",
+      "lat": 44.833481,
+      "lng": 11.626,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11956"
+    },
+    {
+      "partner_name": "Università degli Studi di Firenze",
+      "country": "Italy",
+      "country_code": "IT",
+      "city": "Firenze",
+      "lat": 43.778047,
+      "lng": 11.259319,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11981"
+    },
+    {
+      "partner_name": "Università degli Studi di Genova",
+      "country": "Italy",
+      "country_code": "IT",
+      "city": "Genova",
+      "lat": 44.414827,
+      "lng": 8.926616,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11996"
+    },
+    {
+      "partner_name": "Università degli Studi di Macerata",
+      "country": "Italy",
+      "country_code": "IT",
+      "city": "Macerata",
+      "lat": 43.300746,
+      "lng": 13.456262,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10059"
+    },
+    {
+      "partner_name": "Università degli Studi di Milano",
+      "country": "Italy",
+      "country_code": "IT",
+      "city": "Milano",
+      "lat": 45.460444,
+      "lng": 9.19402,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10344"
+    },
+    {
+      "partner_name": "Università degli Studi di Napoli 'L'Orientale'",
+      "country": "Italy",
+      "country_code": "IT",
+      "city": "Napoli",
+      "lat": 40.839997,
+      "lng": 14.252871,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12032"
+    },
+    {
+      "partner_name": "Università degli Studi di Napoli Federico II",
+      "country": "Italy",
+      "country_code": "IT",
+      "city": "Napoli",
+      "lat": 40.846358,
+      "lng": 14.257278,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12020"
+    },
+    {
+      "partner_name": "Università degli Studi di Padova",
+      "country": "Italy",
+      "country_code": "IT",
+      "city": "Padova",
+      "lat": 45.409568,
+      "lng": 11.876589,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12885"
+    },
+    {
+      "partner_name": "Università degli Studi di Palermo",
+      "country": "Italy",
+      "country_code": "IT",
+      "city": "Palermo",
+      "lat": 38.105813,
+      "lng": 13.351659,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10306"
+    },
+    {
+      "partner_name": "Università degli Studi di Parma",
+      "country": "Italy",
+      "country_code": "IT",
+      "city": "Parma",
+      "lat": 44.801266,
+      "lng": 10.325819,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12044"
+    },
+    {
+      "partner_name": "Università degli Studi di Pavia",
+      "country": "Italy",
+      "country_code": "IT",
+      "city": "Pavia",
+      "lat": 45.186885,
+      "lng": 9.155827,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12053"
+    },
+    {
+      "partner_name": "Università degli Studi di Perugia",
+      "country": "Italy",
+      "country_code": "IT",
+      "city": "Perugia",
+      "lat": 43.116312,
+      "lng": 12.387543,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12565"
+    },
+    {
+      "partner_name": "UNIVERSITA DEGLI STUDI DI ROMA LA SAPIENZA",
+      "country": "Italy",
+      "country_code": "IT",
+      "city": "Roma",
+      "lat": 41.90185,
+      "lng": 12.512096,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12543"
+    },
+    {
+      "partner_name": "UNIVERSITA DEGLI STUDI DI ROMA TOR VERGATA",
+      "country": "Italy",
+      "country_code": "IT",
+      "city": "Roma",
+      "lat": 41.848606,
+      "lng": 12.597767,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "15146"
+    },
+    {
+      "partner_name": "Università degli Studi di Salerno",
+      "country": "Italy",
+      "country_code": "IT",
+      "city": "Salerno",
+      "lat": 40.7713,
+      "lng": 14.7907,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12144"
+    },
+    {
+      "partner_name": "Università degli Studi di Sassari",
+      "country": "Italy",
+      "country_code": "IT",
+      "city": "Sassari",
+      "lat": 40.725176,
+      "lng": 8.560174,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12531"
+    },
+    {
+      "partner_name": "Università degli Studi di Siena",
+      "country": "Italy",
+      "country_code": "IT",
+      "city": "Siena",
+      "lat": 43.319139,
+      "lng": 11.332582,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13390"
+    },
+    {
+      "partner_name": "Università degli Studi di Teramo",
+      "country": "Italy",
+      "country_code": "IT",
+      "city": "Teramo",
+      "lat": 42.658673,
+      "lng": 13.693318,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "15003"
+    },
+    {
+      "partner_name": "Università degli Studi di Torino",
+      "country": "Italy",
+      "country_code": "IT",
+      "city": "Torino",
+      "lat": 45.069634,
+      "lng": 7.689118,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12238"
+    },
+    {
+      "partner_name": "Università degli Studi di Trento",
+      "country": "Italy",
+      "country_code": "IT",
+      "city": "Trento",
+      "lat": 46.069426,
+      "lng": 11.121117,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12244"
+    },
+    {
+      "partner_name": "Università degli Studi di Udine",
+      "country": "Italy",
+      "country_code": "IT",
+      "city": "Udine",
+      "lat": 46.066445,
+      "lng": 13.232269,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10278"
+    },
+    {
+      "partner_name": "Università degli Studi di Urbino 'Carlo Bo'",
+      "country": "Italy",
+      "country_code": "IT",
+      "city": "Urbino",
+      "lat": 43.724747,
+      "lng": 12.636685,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "9775"
+    },
+    {
+      "partner_name": "Università degli Studi di Verona",
+      "country": "Italy",
+      "country_code": "IT",
+      "city": "Verona",
+      "lat": 45.436859,
+      "lng": 11.004206,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12286"
+    },
+    {
+      "partner_name": "Università degli studi Internazionali di Roma",
+      "country": "Italy",
+      "country_code": "IT",
+      "city": "Roma",
+      "lat": 41.859841,
+      "lng": 12.497056,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12123"
+    },
+    {
+      "partner_name": "Università degli Studi Roma Tre",
+      "country": "Italy",
+      "country_code": "IT",
+      "city": "Roma",
+      "lat": 41.862657,
+      "lng": 12.479003,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10283"
+    },
+    {
+      "partner_name": "Università di Pisa",
+      "country": "Italy",
+      "country_code": "IT",
+      "city": "Pisa",
+      "lat": 43.716135,
+      "lng": 10.396602,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10299"
+    },
+    {
+      "partner_name": "Università per Stranieri di Siena",
+      "country": "Italy",
+      "country_code": "IT",
+      "city": "Siena",
+      "lat": 43.318661,
+      "lng": 11.330514,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "15282"
+    },
+    {
+      "partner_name": "Università Politecnica delle Marche",
+      "country": "Italy",
+      "country_code": "IT",
+      "city": "Ancona",
+      "lat": 43.615828,
+      "lng": 13.518945,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10519"
+    },
+    {
+      "partner_name": "Chuo University",
+      "country": "Japan",
+      "country_code": "JP",
+      "city": "Tokyo",
+      "lat": 35.678451,
+      "lng": 139.682282,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "986"
+    },
+    {
+      "partner_name": "Hoshi University",
+      "country": "Japan",
+      "country_code": "JP",
+      "city": "Tokyo",
+      "lat": null,
+      "lng": null,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "4246"
+    },
+    {
+      "partner_name": "Hyogo College of Medicine",
+      "country": "Japan",
+      "country_code": "JP",
+      "city": "Hyogo",
+      "lat": null,
+      "lng": null,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "7861"
+    },
+    {
+      "partner_name": "Kanazawa University",
+      "country": "Japan",
+      "country_code": "JP",
+      "city": "Kanazawa",
+      "lat": 36.570421,
+      "lng": 136.644254,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "6568"
+    },
+    {
+      "partner_name": "Kwansei Gakuin University",
+      "country": "Japan",
+      "country_code": "JP",
+      "city": "Nishinomiya",
+      "lat": 34.733333,
+      "lng": 135.333333,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "7473"
+    },
+    {
+      "partner_name": "Kyushu Institute of Technology",
+      "country": "Japan",
+      "country_code": "JP",
+      "city": "Fukuoka",
+      "lat": 33.595,
+      "lng": 130.41,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "15325"
+    },
+    {
+      "partner_name": "Nagasaki University",
+      "country": "Japan",
+      "country_code": "JP",
+      "city": "Nagasaki",
+      "lat": 32.759115,
+      "lng": 129.865946,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "1005"
+    },
+    {
+      "partner_name": "Okayama University",
+      "country": "Japan",
+      "country_code": "JP",
+      "city": "Okayama",
+      "lat": 34.656691,
+      "lng": 133.927495,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "7864"
+    },
+    {
+      "partner_name": "Osaka Sangyo University",
+      "country": "Japan",
+      "country_code": "JP",
+      "city": "Osaka",
+      "lat": 0,
+      "lng": 0,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "1058"
+    },
+    {
+      "partner_name": "Ritsumeikan University",
+      "country": "Japan",
+      "country_code": "JP",
+      "city": "Kyoto",
+      "lat": 34.999624,
+      "lng": 135.753244,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "961"
+    },
+    {
+      "partner_name": "Sophia University",
+      "country": "Japan",
+      "country_code": "JP",
+      "city": "Tokyo",
+      "lat": 35.678451,
+      "lng": 139.682282,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "1320"
+    },
+    {
+      "partner_name": "The University of Tokyo",
+      "country": "Japan",
+      "country_code": "JP",
+      "city": "Tokyo",
+      "lat": 35.678451,
+      "lng": 139.682282,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "987"
+    },
+    {
+      "partner_name": "Yokohama City University",
+      "country": "Japan",
+      "country_code": "JP",
+      "city": "Yokohama",
+      "lat": 35.443708,
+      "lng": 139.638026,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "14934"
+    },
+    {
+      "partner_name": "Ajou University",
+      "country": "Korea, Republic of",
+      "country_code": "KR",
+      "city": "Suwon",
+      "lat": 37.239166,
+      "lng": 127.006943,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "984"
+    },
+    {
+      "partner_name": "Catholic University of Korea",
+      "country": "Korea, Republic of",
+      "country_code": "KR",
+      "city": "Seoul",
+      "lat": 37.566535,
+      "lng": 126.977969,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "7449"
+    },
+    {
+      "partner_name": "Ewha Womans University",
+      "country": "Korea, Republic of",
+      "country_code": "KR",
+      "city": "Seoul",
+      "lat": null,
+      "lng": null,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "14943"
+    },
+    {
+      "partner_name": "Hankuk University of Foreign Studies",
+      "country": "Korea, Republic of",
+      "country_code": "KR",
+      "city": "Seoul",
+      "lat": 37.532308,
+      "lng": 126.95744,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "980"
+    },
+    {
+      "partner_name": "Hanshin University",
+      "country": "Korea, Republic of",
+      "country_code": "KR",
+      "city": "Osan",
+      "lat": null,
+      "lng": null,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13184"
+    },
+    {
+      "partner_name": "Kangwon National University",
+      "country": "Korea, Republic of",
+      "country_code": "KR",
+      "city": "Chuncheon",
+      "lat": 37.881315,
+      "lng": 127.729971,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "3988"
+    },
+    {
+      "partner_name": "Korea University Sejong Campus",
+      "country": "Korea, Republic of",
+      "country_code": "KR",
+      "city": "Sejong City",
+      "lat": 36.487,
+      "lng": 127.282,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "8123"
+    },
+    {
+      "partner_name": "Seoul Women's University",
+      "country": "Korea, Republic of",
+      "country_code": "KR",
+      "city": "Seoul",
+      "lat": null,
+      "lng": null,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "981"
+    },
+    {
+      "partner_name": "University of Seoul",
+      "country": "Korea, Republic of",
+      "country_code": "KR",
+      "city": "Seoul",
+      "lat": 37.566535,
+      "lng": 126.977969,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "6529"
+    },
+    {
+      "partner_name": "Yeungnam University",
+      "country": "Korea, Republic of",
+      "country_code": "KR",
+      "city": "Gyeongsan",
+      "lat": 35.825056,
+      "lng": 128.741544,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "1112"
+    },
+    {
+      "partner_name": "Daugavpils Universitate",
+      "country": "Latvia",
+      "country_code": "LV",
+      "city": "Daugavpils",
+      "lat": 55.868948,
+      "lng": 26.515564,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "14088"
+    },
+    {
+      "partner_name": "Latvijas Universitáte",
+      "country": "Latvia",
+      "country_code": "LV",
+      "city": "Riga",
+      "lat": 56.950521,
+      "lng": 24.1162,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12288"
+    },
+    {
+      "partner_name": "Rīgas Stradiņa Universitāte",
+      "country": "Latvia",
+      "country_code": "LV",
+      "city": "Riga",
+      "lat": 56.946538,
+      "lng": 24.10485,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12293"
+    },
+    {
+      "partner_name": "Universität Liechtenstein",
+      "country": "Liechtenstein",
+      "country_code": "LI",
+      "city": "Vaduz",
+      "lat": 47.141076,
+      "lng": 9.52148,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12186"
+    },
+    {
+      "partner_name": "Kauno Technologijos Universitetas",
+      "country": "Lithuania",
+      "country_code": "LT",
+      "city": "Kaunas",
+      "lat": 54.916386,
+      "lng": 23.9441,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "14367"
+    },
+    {
+      "partner_name": "Kazimieras Simonavičius University",
+      "country": "Lithuania",
+      "country_code": "LT",
+      "city": "Vilnius",
+      "lat": 54.681956,
+      "lng": 25.267501,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12220"
+    },
+    {
+      "partner_name": "Vilniaus Universitetas",
+      "country": "Lithuania",
+      "country_code": "LT",
+      "city": "Vilnius",
+      "lat": 54.682699,
+      "lng": 25.286671,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12206"
+    },
+    {
+      "partner_name": "Vytauto Didziojo Universitetas",
+      "country": "Lithuania",
+      "country_code": "LT",
+      "city": "Kaunas",
+      "lat": 54.899154,
+      "lng": 23.915063,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12193"
+    },
+    {
+      "partner_name": "Université du Luxembourg",
+      "country": "Luxembourg",
+      "country_code": "LU",
+      "city": "Esch-sur-Alzette",
+      "lat": 49.504395,
+      "lng": 5.950061,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12953"
+    },
+    {
+      "partner_name": "Benemérita Universidad Autónoma de Puebla",
+      "country": "Mexico",
+      "country_code": "MX",
+      "city": "Puebla",
+      "lat": 25.42495,
+      "lng": -101.289299,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "973"
+    },
+    {
+      "partner_name": "Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM)",
+      "country": "Mexico",
+      "country_code": "MX",
+      "city": "Monterrey",
+      "lat": 25.649496,
+      "lng": -100.289984,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "1004"
+    },
+    {
+      "partner_name": "Universidad Autónoma de San Luis Potosí",
+      "country": "Mexico",
+      "country_code": "MX",
+      "city": "San Luis Potosí",
+      "lat": 22.15647,
+      "lng": -100.985541,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "1484"
+    },
+    {
+      "partner_name": "Universidad de Guadalajara",
+      "country": "Mexico",
+      "country_code": "MX",
+      "city": "Guadalajara",
+      "lat": 20.674861,
+      "lng": -103.359429,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "1001"
+    },
+    {
+      "partner_name": "Universidad Panamericana",
+      "country": "Mexico",
+      "country_code": "MX",
+      "city": "Mexico",
+      "lat": 19.432608,
+      "lng": -99.133208,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "964"
+    },
+    {
+      "partner_name": "Radboud Universiteit Nijmegen",
+      "country": "Netherlands",
+      "country_code": "NL",
+      "city": "Nijmegen",
+      "lat": 51.819234,
+      "lng": 5.860564,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10950"
+    },
+    {
+      "partner_name": "Rijksuniversiteit Groningen",
+      "country": "Netherlands",
+      "country_code": "NL",
+      "city": "Groningen",
+      "lat": 53.219105,
+      "lng": 6.56247,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10936"
+    },
+    {
+      "partner_name": "Universiteit Twente",
+      "country": "Netherlands",
+      "country_code": "NL",
+      "city": "Enschede",
+      "lat": 52.240444,
+      "lng": 6.851314,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10741"
+    },
+    {
+      "partner_name": "Universiteit Utrecht",
+      "country": "Netherlands",
+      "country_code": "NL",
+      "city": "Utrecht",
+      "lat": 52.085136,
+      "lng": 5.17556,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "14145"
+    },
+    {
+      "partner_name": "Vrije Universiteit Amsterdam",
+      "country": "Netherlands",
+      "country_code": "NL",
+      "city": "Amsterdam",
+      "lat": 52.335295,
+      "lng": 4.859734,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10735"
+    },
+    {
+      "partner_name": "Victoria University of Wellington",
+      "country": "New Zealand",
+      "country_code": "NZ",
+      "city": "Wellington",
+      "lat": -41.28648,
+      "lng": 174.776217,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "1008"
+    },
+    {
+      "partner_name": "Bayero University Kano",
+      "country": "Nigeria",
+      "country_code": "NG",
+      "city": "Kano",
+      "lat": null,
+      "lng": null,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "7626"
+    },
+    {
+      "partner_name": "University of Lagos",
+      "country": "Nigeria",
+      "country_code": "NG",
+      "city": "Lagos",
+      "lat": 6.4473,
+      "lng": 3.4393,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "7826"
+    },
+    {
+      "partner_name": "Goce Delcev University Stip",
+      "country": "North Macedonia",
+      "country_code": "MK",
+      "city": "Stip",
+      "lat": 41.736191,
+      "lng": 22.182695,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12344"
+    },
+    {
+      "partner_name": "Universiteti Shtetëror i Tetovës",
+      "country": "North Macedonia",
+      "country_code": "MK",
+      "city": "Tetovo",
+      "lat": 42.002142,
+      "lng": 20.978797,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12351"
+    },
+    {
+      "partner_name": "Norges Handelshøyskole",
+      "country": "Norway",
+      "country_code": "NO",
+      "city": "Bergen",
+      "lat": 60.422937,
+      "lng": 5.302383,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12375"
+    },
+    {
+      "partner_name": "Norges Teknisk-Naturvitenskapelige Universitet",
+      "country": "Norway",
+      "country_code": "NO",
+      "city": "Trondheim",
+      "lat": 63.419455,
+      "lng": 10.402265,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12397"
+    },
+    {
+      "partner_name": "Universitetet i Agder",
+      "country": "Norway",
+      "country_code": "NO",
+      "city": "Kristiansand",
+      "lat": 58.144695,
+      "lng": 7.998284,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12381"
+    },
+    {
+      "partner_name": "Universitetet i Bergen",
+      "country": "Norway",
+      "country_code": "NO",
+      "city": "Bergen",
+      "lat": 60.388203,
+      "lng": 5.321554,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12361"
+    },
+    {
+      "partner_name": "Universitetet i Oslo",
+      "country": "Norway",
+      "country_code": "NO",
+      "city": "Oslo",
+      "lat": 59.915496,
+      "lng": 10.735044,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12387"
+    },
+    {
+      "partner_name": "Universidad de Piura",
+      "country": "Peru",
+      "country_code": "PE",
+      "city": "Piura",
+      "lat": -5.193522,
+      "lng": -80.624786,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "15094"
+    },
+    {
+      "partner_name": "Universidad del Pacífico, Lima",
+      "country": "Peru",
+      "country_code": "PE",
+      "city": "Lima",
+      "lat": -12.093084,
+      "lng": -77.046491,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "8488"
+    },
+    {
+      "partner_name": "Universidad San Ignacio de Loyola (USIL)",
+      "country": "Peru",
+      "country_code": "PE",
+      "city": "Lima",
+      "lat": -12.093084,
+      "lng": -77.046491,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "1345"
+    },
+    {
+      "partner_name": "Akademia Pomorska w Słupsku",
+      "country": "Poland",
+      "country_code": "PL",
+      "city": "Slupsk",
+      "lat": 54.45474,
+      "lng": 17.042387,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12322"
+    },
+    {
+      "partner_name": "Civitas University",
+      "country": "Poland",
+      "country_code": "PL",
+      "city": "Warszawa",
+      "lat": 52.231828,
+      "lng": 21.005965,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11465"
+    },
+    {
+      "partner_name": "Gdański Uniwersytet Medyczny",
+      "country": "Poland",
+      "country_code": "PL",
+      "city": "Gdansk",
+      "lat": 54.366151,
+      "lng": 18.63053,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13523"
+    },
+    {
+      "partner_name": "Katolicki Uniwersytet Lubelski Jana Pawła II",
+      "country": "Poland",
+      "country_code": "PL",
+      "city": "Lublin",
+      "lat": 51.247949,
+      "lng": 22.544846,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12702"
+    },
+    {
+      "partner_name": "Panstwowa Wyzsza Szkola Zawodowa w Ciechanowie",
+      "country": "Poland",
+      "country_code": "PL",
+      "city": "Ciechanów",
+      "lat": 52.8817,
+      "lng": 20.6106,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "9705"
+    },
+    {
+      "partner_name": "Państwowa Wyższa Szkoła Zawodowa w Elblągu",
+      "country": "Poland",
+      "country_code": "PL",
+      "city": "Elbląg",
+      "lat": 54.155548,
+      "lng": 19.418676,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "9711"
+    },
+    {
+      "partner_name": "Politechnika Śląska",
+      "country": "Poland",
+      "country_code": "PL",
+      "city": "Gliwice",
+      "lat": 50.29241,
+      "lng": 18.673689,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10191"
+    },
+    {
+      "partner_name": "Politechnika Warszawska",
+      "country": "Poland",
+      "country_code": "PL",
+      "city": "Warsaw",
+      "lat": 52.220354,
+      "lng": 21.010515,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13535"
+    },
+    {
+      "partner_name": "Politechnika Wroclawska",
+      "country": "Poland",
+      "country_code": "PL",
+      "city": "Wrocław",
+      "lat": 51.107366,
+      "lng": 17.063021,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11624"
+    },
+    {
+      "partner_name": "Pomorska Akademia Medyczna",
+      "country": "Poland",
+      "country_code": "PL",
+      "city": "Szczecin",
+      "lat": 53.422989,
+      "lng": 14.554405,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12338"
+    },
+    {
+      "partner_name": "Śląski Uniwersytet Medyczny w Katowicach",
+      "country": "Poland",
+      "country_code": "PL",
+      "city": "Katowice",
+      "lat": 50.250703,
+      "lng": 19.010032,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10210"
+    },
+    {
+      "partner_name": "Uniwersytet Ekonomiczny w Katowicach",
+      "country": "Poland",
+      "country_code": "PL",
+      "city": "Katowice",
+      "lat": 50.258809,
+      "lng": 19.044429,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10197"
+    },
+    {
+      "partner_name": "Uniwersytet Gdanski",
+      "country": "Poland",
+      "country_code": "PL",
+      "city": "Gdansk",
+      "lat": 54.399716,
+      "lng": 18.568879,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "9719"
+    },
+    {
+      "partner_name": "Uniwersytet Humanistyczno-Przyrodniczy im. Jana Długosza w Częstochowie",
+      "country": "Poland",
+      "country_code": "PL",
+      "city": "Częstochowa",
+      "lat": 50.8101,
+      "lng": 19.1163,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "14336"
+    },
+    {
+      "partner_name": "Uniwersytet Jagielloński",
+      "country": "Poland",
+      "country_code": "PL",
+      "city": "Kraków",
+      "lat": 50.061131,
+      "lng": 19.933204,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10258"
+    },
+    {
+      "partner_name": "Uniwersytet Jana Kochanowskiego w Kielcach",
+      "country": "Poland",
+      "country_code": "PL",
+      "city": "Kielce",
+      "lat": 50.866714,
+      "lng": 20.63717,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10223"
+    },
+    {
+      "partner_name": "Uniwersytet Kazimierza Wielkiego w Bydgoszczy",
+      "country": "Poland",
+      "country_code": "PL",
+      "city": "Bydgoszcz",
+      "lat": 53.130172,
+      "lng": 18.016548,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12648"
+    },
+    {
+      "partner_name": "Uniwersytet Lódzki",
+      "country": "Poland",
+      "country_code": "PL",
+      "city": "Lódz",
+      "lat": 51.772012,
+      "lng": 19.473949,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13233"
+    },
+    {
+      "partner_name": "Uniwersytet Marii Curie-Sklodowskiej",
+      "country": "Poland",
+      "country_code": "PL",
+      "city": "Lublin",
+      "lat": 51.245974,
+      "lng": 22.542629,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10686"
+    },
+    {
+      "partner_name": "Uniwersytet Medyczna im. Piastów Śląskich we Wrocławiu",
+      "country": "Poland",
+      "country_code": "PL",
+      "city": "Wrocław",
+      "lat": 51.108839,
+      "lng": 17.068915,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11728"
+    },
+    {
+      "partner_name": "Uniwersytet Mikolaja Kopernika w Toruniu",
+      "country": "Poland",
+      "country_code": "PL",
+      "city": "Torun",
+      "lat": 53.018432,
+      "lng": 18.570886,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10779"
+    },
+    {
+      "partner_name": "Uniwersytet Opolski",
+      "country": "Poland",
+      "country_code": "PL",
+      "city": "Opole",
+      "lat": 50.669606,
+      "lng": 17.926305,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10764"
+    },
+    {
+      "partner_name": "Uniwersytet Papieski Jana Pawła II w Krakowie",
+      "country": "Poland",
+      "country_code": "PL",
+      "city": "Kraków",
+      "lat": 50.06465,
+      "lng": 19.94498,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10623"
+    },
+    {
+      "partner_name": "Uniwersytet Warszawski",
+      "country": "Poland",
+      "country_code": "PL",
+      "city": "Warszawa",
+      "lat": 52.23984,
+      "lng": 21.017182,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10875"
+    },
+    {
+      "partner_name": "Uniwersytet Wroclawski",
+      "country": "Poland",
+      "country_code": "PL",
+      "city": "Wroclaw",
+      "lat": 51.113943,
+      "lng": 17.034504,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11477"
+    },
+    {
+      "partner_name": "Uniwersytet Zielonogórski",
+      "country": "Poland",
+      "country_code": "PL",
+      "city": "Zielona Góra",
+      "lat": 51.939692,
+      "lng": 15.529532,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11734"
+    },
+    {
+      "partner_name": "Warszawski Uniwersytet Medyczny",
+      "country": "Poland",
+      "country_code": "PL",
+      "city": "Warszawa",
+      "lat": 52.205482,
+      "lng": 20.985643,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11459"
+    },
+    {
+      "partner_name": "Wyzsza Szkoła Administracji i Biznesu Im. Eugeniusza Kwiatkowskiego",
+      "country": "Poland",
+      "country_code": "PL",
+      "city": "Gdynia",
+      "lat": 54.507851,
+      "lng": 18.530292,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10185"
+    },
+    {
+      "partner_name": "Wyzsza Szkoła Gospodarki w Bydgoszczy",
+      "country": "Poland",
+      "country_code": "PL",
+      "city": "Bydgoszcz",
+      "lat": 53.127886,
+      "lng": 17.993524,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "9699"
+    },
+    {
+      "partner_name": "[ Duplicate ] Adam Mickiewicz University, Poznań",
+      "country": "Poland",
+      "country_code": "PL",
+      "city": "Poznan",
+      "lat": null,
+      "lng": null,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13529"
+    },
+    {
+      "partner_name": "Instituto de Ciências Biomédicas Abel Salazar",
+      "country": "Portugal",
+      "country_code": "PT",
+      "city": "Porto",
+      "lat": null,
+      "lng": null,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "14295"
+    },
+    {
+      "partner_name": "Instituto Politécnico de Bragança",
+      "country": "Portugal",
+      "country_code": "PT",
+      "city": "Bragança",
+      "lat": 41.807176,
+      "lng": -6.759191,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13506"
+    },
+    {
+      "partner_name": "Instituto Politécnico do Porto",
+      "country": "Portugal",
+      "country_code": "PT",
+      "city": "Porto",
+      "lat": 41.149968,
+      "lng": -8.610243,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "3244"
+    },
+    {
+      "partner_name": "ISCTE IUL - Instituto Universitário de Lisboa",
+      "country": "Portugal",
+      "country_code": "PT",
+      "city": "Lisboa",
+      "lat": 38.747623,
+      "lng": -9.153291,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12587"
+    },
+    {
+      "partner_name": "ISPA - Instituto Universitário de Ciências Psicológicas, Sociais e da Vida",
+      "country": "Portugal",
+      "country_code": "PT",
+      "city": "Lisboa",
+      "lat": 38.707163,
+      "lng": -9.135517,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12593"
+    },
+    {
+      "partner_name": "Lusófona University",
+      "country": "Portugal",
+      "country_code": "PT",
+      "city": "Lisboa",
+      "lat": 38.707163,
+      "lng": -9.135517,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12599"
+    },
+    {
+      "partner_name": "Universidade Católica Portuguesa",
+      "country": "Portugal",
+      "country_code": "PT",
+      "city": "Lisboa, Beiras, Braga and Porto",
+      "lat": 38.749461,
+      "lng": -9.16497,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12575"
+    },
+    {
+      "partner_name": "Universidade de Coimbra",
+      "country": "Portugal",
+      "country_code": "PT",
+      "city": "Coimbra",
+      "lat": 40.207453,
+      "lng": -8.426095,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12417"
+    },
+    {
+      "partner_name": "Universidade de Lisboa",
+      "country": "Portugal",
+      "country_code": "PT",
+      "city": "Lisboa",
+      "lat": 38.752493,
+      "lng": -9.159114,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12605"
+    },
+    {
+      "partner_name": "Universidade do Minho",
+      "country": "Portugal",
+      "country_code": "PT",
+      "city": "Braga",
+      "lat": 41.550542,
+      "lng": -8.426542,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12407"
+    },
+    {
+      "partner_name": "Universidade do Porto",
+      "country": "Portugal",
+      "country_code": "PT",
+      "city": "Porto",
+      "lat": 41.1621,
+      "lng": -8.7043,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12634"
+    },
+    {
+      "partner_name": "Universidade Nova de Lisboa",
+      "country": "Portugal",
+      "country_code": "PT",
+      "city": "Lisboa",
+      "lat": 38.733706,
+      "lng": -9.159978,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12581"
+    },
+    {
+      "partner_name": "Universitatea 'Alexandru Ioan Cuza'",
+      "country": "Romania",
+      "country_code": "RO",
+      "city": "Iaşi",
+      "lat": 47.155113,
+      "lng": 27.593622,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10073"
+    },
+    {
+      "partner_name": "Universitatea 'Lucian Blaga' din Sibiu",
+      "country": "Romania",
+      "country_code": "RO",
+      "city": "Sibiu",
+      "lat": 45.968493,
+      "lng": 24.286638,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "9965"
+    },
+    {
+      "partner_name": "Universitatea Babes-Bolyai din Cluj-Napoca",
+      "country": "Romania",
+      "country_code": "RO",
+      "city": "Cluj-Napoca",
+      "lat": 46.785831,
+      "lng": 23.686945,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "9938"
+    },
+    {
+      "partner_name": "Universitatea de Medicina si Farmacie 'Victor Babes' din Timisoara",
+      "country": "Romania",
+      "country_code": "RO",
+      "city": "Timisoara",
+      "lat": 45.747937,
+      "lng": 21.225176,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "9984"
+    },
+    {
+      "partner_name": "Universitatea de Vest din Timisoara",
+      "country": "Romania",
+      "country_code": "RO",
+      "city": "Timisoara",
+      "lat": 45.747252,
+      "lng": 21.231321,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Doctorate / PhD",
+        "Short cycle"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "9975"
+    },
+    {
+      "partner_name": "Universitatea din Bucuresti",
+      "country": "Romania",
+      "country_code": "RO",
+      "city": "Bucureşti",
+      "lat": 44.447924,
+      "lng": 26.097879,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "9497"
+    },
+    {
+      "partner_name": "Universitatea din Oradea",
+      "country": "Romania",
+      "country_code": "RO",
+      "city": "Oradea",
+      "lat": 47.044013,
+      "lng": 21.920085,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10077"
+    },
+    {
+      "partner_name": "Universitatea Transilvania din Brașov",
+      "country": "Romania",
+      "country_code": "RO",
+      "city": "Brasov",
+      "lat": 45.6556,
+      "lng": 25.6108,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11740"
+    },
+    {
+      "partner_name": "Chelyabinsk State University",
+      "country": "Russian Federation",
+      "country_code": "RU",
+      "city": "Chelyabinsk",
+      "lat": 55.159889,
+      "lng": 61.40258,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "952"
+    },
+    {
+      "partner_name": "National Research University Higher School of Economics",
+      "country": "Russian Federation",
+      "country_code": "RU",
+      "city": "Moscow",
+      "lat": 55.755786,
+      "lng": 37.617633,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "6414"
+    },
+    {
+      "partner_name": "Peter the Great St. Petersburg Polytechnic University",
+      "country": "Russian Federation",
+      "country_code": "RU",
+      "city": "Saint-Petersburg",
+      "lat": 60.00685,
+      "lng": 30.3765,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "9232"
+    },
+    {
+      "partner_name": "University of Belgrade",
+      "country": "Serbia",
+      "country_code": "RS",
+      "city": "Belgrade",
+      "lat": 44.820556,
+      "lng": 20.462222,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13251"
+    },
+    {
+      "partner_name": "University of Novi Sad",
+      "country": "Serbia",
+      "country_code": "RS",
+      "city": "Novi Sad",
+      "lat": 45.249104,
+      "lng": 19.833095,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13428"
+    },
+    {
+      "partner_name": "Univerzita Komenskeho v Bratislave",
+      "country": "Slovakia",
+      "country_code": "SK",
+      "city": "Bratislava",
+      "lat": 48.16585,
+      "lng": 17.125545,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13224"
+    },
+    {
+      "partner_name": "Fakulteta za državne in evropske študije",
+      "country": "Slovenia",
+      "country_code": "SI",
+      "city": "Kranj",
+      "lat": 46.2411,
+      "lng": 14.3617,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11527"
+    },
+    {
+      "partner_name": "Univerza v Ljubljani",
+      "country": "Slovenia",
+      "country_code": "SI",
+      "city": "Ljubljana",
+      "lat": 46.049554,
+      "lng": 14.504194,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13218"
+    },
+    {
+      "partner_name": "Univerza v Mariboru",
+      "country": "Slovenia",
+      "country_code": "SI",
+      "city": "Maribor",
+      "lat": 46.559337,
+      "lng": 15.644503,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13569"
+    },
+    {
+      "partner_name": "Stellenbosch University",
+      "country": "South Africa",
+      "country_code": "ZA",
+      "city": "Stellenbosch",
+      "lat": -33.9322,
+      "lng": 18.8586,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD",
+        "Short cycle"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "983"
+    },
+    {
+      "partner_name": "Universidad Autónoma de Madrid",
+      "country": "Spain",
+      "country_code": "ES",
+      "city": "Madrid",
+      "lat": 40.545554,
+      "lng": -3.696804,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10374"
+    },
+    {
+      "partner_name": "Universidad Complutense de Madrid",
+      "country": "Spain",
+      "country_code": "ES",
+      "city": "Madrid",
+      "lat": 40.445983,
+      "lng": -3.727675,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10095"
+    },
+    {
+      "partner_name": "Universidad de Alicante",
+      "country": "Spain",
+      "country_code": "ES",
+      "city": "Alicante",
+      "lat": 38.382199,
+      "lng": -0.514744,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11141"
+    },
+    {
+      "partner_name": "Universidad de Almería",
+      "country": "Spain",
+      "country_code": "ES",
+      "city": "Almería",
+      "lat": 37.8863,
+      "lng": -2.5428,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11148"
+    },
+    {
+      "partner_name": "Universidad de Cádiz",
+      "country": "Spain",
+      "country_code": "ES",
+      "city": "Cádiz",
+      "lat": 36.532648,
+      "lng": -6.303908,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11361"
+    },
+    {
+      "partner_name": "Universidad de Cantabria",
+      "country": "Spain",
+      "country_code": "ES",
+      "city": "Santander",
+      "lat": 43.4717,
+      "lng": -3.8068,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13117"
+    },
+    {
+      "partner_name": "Universidad de Córdoba",
+      "country": "Spain",
+      "country_code": "ES",
+      "city": "Córdoba",
+      "lat": 37.885414,
+      "lng": -4.778386,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11153"
+    },
+    {
+      "partner_name": "Universidad de Deusto",
+      "country": "Spain",
+      "country_code": "ES",
+      "city": "Bilbao",
+      "lat": 43.26979,
+      "lng": -2.931519,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11340"
+    },
+    {
+      "partner_name": "Universidad de Granada",
+      "country": "Spain",
+      "country_code": "ES",
+      "city": "Granada",
+      "lat": 37.185879,
+      "lng": -3.714802,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11596"
+    },
+    {
+      "partner_name": "Universidad de Huelva",
+      "country": "Spain",
+      "country_code": "ES",
+      "city": "Huelva",
+      "lat": 37.259038,
+      "lng": -6.943213,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11632"
+    },
+    {
+      "partner_name": "Universidad de Jaén",
+      "country": "Spain",
+      "country_code": "ES",
+      "city": "Jaén",
+      "lat": 37.7884,
+      "lng": -3.7772,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11654"
+    },
+    {
+      "partner_name": "Universidad de la Laguna",
+      "country": "Spain",
+      "country_code": "ES",
+      "city": "La Laguna",
+      "lat": 28.470856,
+      "lng": -16.305736,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13327"
+    },
+    {
+      "partner_name": "Universidad de Malaga",
+      "country": "Spain",
+      "country_code": "ES",
+      "city": "Málaga",
+      "lat": 36.718886,
+      "lng": -4.476537,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "9437"
+    },
+    {
+      "partner_name": "Universidad de Murcia",
+      "country": "Spain",
+      "country_code": "ES",
+      "city": "Murcia",
+      "lat": 37.988425,
+      "lng": -1.125843,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "9462"
+    },
+    {
+      "partner_name": "Universidad de Oviedo",
+      "country": "Spain",
+      "country_code": "ES",
+      "city": "Oviedo",
+      "lat": 43.362066,
+      "lng": -5.846183,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "9836"
+    },
+    {
+      "partner_name": "Universidad de Salamanca",
+      "country": "Spain",
+      "country_code": "ES",
+      "city": "Salamanca",
+      "lat": 40.961474,
+      "lng": -5.666986,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "1272"
+    },
+    {
+      "partner_name": "Universidad de Santiago de Compostela",
+      "country": "Spain",
+      "country_code": "ES",
+      "city": "Santiago de Compostela",
+      "lat": 42.878775,
+      "lng": -8.541953,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10107"
+    },
+    {
+      "partner_name": "Universidad de Sevilla",
+      "country": "Spain",
+      "country_code": "ES",
+      "city": "Sevilla",
+      "lat": 37.381962,
+      "lng": -5.991815,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13123"
+    },
+    {
+      "partner_name": "Universidad de Valladolid",
+      "country": "Spain",
+      "country_code": "ES",
+      "city": "Valladolid",
+      "lat": 41.656827,
+      "lng": -4.717725,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13466"
+    },
+    {
+      "partner_name": "Universidad de Zaragoza",
+      "country": "Spain",
+      "country_code": "ES",
+      "city": "Zaragoza",
+      "lat": 41.640954,
+      "lng": -0.896945,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10590"
+    },
+    {
+      "partner_name": "Universidad del País Vasco / Euskal Herriko Unibertsitatea",
+      "country": "Spain",
+      "country_code": "ES",
+      "city": "Leioa, Bilbao, San Sebastian and Vitoria",
+      "lat": 43.335224,
+      "lng": -2.980386,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11319"
+    },
+    {
+      "partner_name": "Universidad Europea de Valencia",
+      "country": "Spain",
+      "country_code": "ES",
+      "city": "Valencia",
+      "lat": 10.23,
+      "lng": -67.98,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10618"
+    },
+    {
+      "partner_name": "Universidad Loyola Andalucía",
+      "country": "Spain",
+      "country_code": "ES",
+      "city": "Córdoba, Sevilla",
+      "lat": null,
+      "lng": null,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11349"
+    },
+    {
+      "partner_name": "Universidad Miguel Hernandez de Elche",
+      "country": "Spain",
+      "country_code": "ES",
+      "city": "Elche",
+      "lat": 38.276144,
+      "lng": -0.69094,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11381"
+    },
+    {
+      "partner_name": "Universidad Nacional de Educación a Distancia (Uned)",
+      "country": "Spain",
+      "country_code": "ES",
+      "city": "Madrid",
+      "lat": 40.416741,
+      "lng": -3.70325,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13920"
+    },
+    {
+      "partner_name": "Universidad Pablo de Olavide",
+      "country": "Spain",
+      "country_code": "ES",
+      "city": "Sevilla",
+      "lat": 37.353898,
+      "lng": -5.937252,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10122"
+    },
+    {
+      "partner_name": "Universidad Pontificia de Salamanca",
+      "country": "Spain",
+      "country_code": "ES",
+      "city": "Salamanca",
+      "lat": 40.962713,
+      "lng": -5.666057,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "9869"
+    },
+    {
+      "partner_name": "Universidad Pública de Navarra",
+      "country": "Spain",
+      "country_code": "ES",
+      "city": "Pamplona",
+      "lat": 42.798338,
+      "lng": -1.633364,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "9855"
+    },
+    {
+      "partner_name": "Universitat Autónoma de Barcelona",
+      "country": "Spain",
+      "country_code": "ES",
+      "city": "Barcelona",
+      "lat": 41.504336,
+      "lng": 2.100031,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11283"
+    },
+    {
+      "partner_name": "Universitat de Barcelona",
+      "country": "Spain",
+      "country_code": "ES",
+      "city": "Barcelona",
+      "lat": 41.386554,
+      "lng": 2.164033,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD",
+        "Short cycle"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "993"
+    },
+    {
+      "partner_name": "Universitat de les Illes Balears",
+      "country": "Spain",
+      "country_code": "ES",
+      "city": "Palma de Mallorca",
+      "lat": 39.635175,
+      "lng": 2.650092,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12089"
+    },
+    {
+      "partner_name": "Universitat de València",
+      "country": "Spain",
+      "country_code": "ES",
+      "city": "Valencia",
+      "lat": 39.4791,
+      "lng": 0.3591,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11415"
+    },
+    {
+      "partner_name": "Universitat Internacional de Catalunya",
+      "country": "Spain",
+      "country_code": "ES",
+      "city": "Barcelona",
+      "lat": 41.406029,
+      "lng": 2.123112,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11310"
+    },
+    {
+      "partner_name": "Universitat Politècnica de Catalunya",
+      "country": "Spain",
+      "country_code": "ES",
+      "city": "Barcelona",
+      "lat": 41.388935,
+      "lng": 2.116881,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "7549"
+    },
+    {
+      "partner_name": "Universitat Pompeu Fabra",
+      "country": "Spain",
+      "country_code": "ES",
+      "city": "Barcelona",
+      "lat": 41.378995,
+      "lng": 2.179152,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11311"
+    },
+    {
+      "partner_name": "Universitat Rovira i Virgili",
+      "country": "Spain",
+      "country_code": "ES",
+      "city": "Tarragona",
+      "lat": 41.119736,
+      "lng": 1.260145,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "9664"
+    },
+    {
+      "partner_name": "Blekinge tekniska högskola",
+      "country": "Sweden",
+      "country_code": "SE",
+      "city": "Karlskrona",
+      "lat": 56.180511,
+      "lng": 15.589905,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "9995"
+    },
+    {
+      "partner_name": "Högskolan Väst",
+      "country": "Sweden",
+      "country_code": "SE",
+      "city": "Trollhättan",
+      "lat": 58.282734,
+      "lng": 12.291905,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10026"
+    },
+    {
+      "partner_name": "Linköpings universitet",
+      "country": "Sweden",
+      "country_code": "SE",
+      "city": "Linköping",
+      "lat": 58.398961,
+      "lng": 15.57571,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "10000"
+    },
+    {
+      "partner_name": "Stockholms universitet",
+      "country": "Sweden",
+      "country_code": "SE",
+      "city": "Stockholm",
+      "lat": 59.362945,
+      "lng": 18.059721,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "15316"
+    },
+    {
+      "partner_name": "Umeå universitet",
+      "country": "Sweden",
+      "country_code": "SE",
+      "city": "Umeå",
+      "lat": 63.819265,
+      "lng": 20.309624,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "9582"
+    },
+    {
+      "partner_name": "Université de Genève",
+      "country": "Switzerland",
+      "country_code": "CH",
+      "city": "Genève",
+      "lat": 46.19864,
+      "lng": 6.143989,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "1026"
+    },
+    {
+      "partner_name": "National Central University",
+      "country": "Taiwan",
+      "country_code": "TW",
+      "city": "Jhongli",
+      "lat": 24.972151,
+      "lng": 121.205396,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "14814"
+    },
+    {
+      "partner_name": "National Chengchi University",
+      "country": "Taiwan",
+      "country_code": "TW",
+      "city": "Taipei",
+      "lat": 25.091075,
+      "lng": 121.559834,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "1037"
+    },
+    {
+      "partner_name": "National Taiwan Normal University",
+      "country": "Taiwan",
+      "country_code": "TW",
+      "city": "Taipei",
+      "lat": null,
+      "lng": null,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "1515"
+    },
+    {
+      "partner_name": "National University of Kaohsiung",
+      "country": "Taiwan",
+      "country_code": "TW",
+      "city": "Kaohsiung",
+      "lat": 22.631334,
+      "lng": 120.32438,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "15438"
+    },
+    {
+      "partner_name": "Catholic University of Health and Allied Science",
+      "country": "Tanzania",
+      "country_code": "TZ",
+      "city": "Bugando",
+      "lat": null,
+      "lng": null,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "7862"
+    },
+    {
+      "partner_name": "Jaffery Academy",
+      "country": "Tanzania",
+      "country_code": "TZ",
+      "city": "Arusha",
+      "lat": null,
+      "lng": null,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "14682"
+    },
+    {
+      "partner_name": "Chulalongkorn University",
+      "country": "Thailand",
+      "country_code": "TH",
+      "city": "Bangkok",
+      "lat": 13.738374,
+      "lng": 100.531672,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "6426"
+    },
+    {
+      "partner_name": "Rajamangala University of Technology Krungthep",
+      "country": "Thailand",
+      "country_code": "TH",
+      "city": "Bangkok",
+      "lat": 13.753846,
+      "lng": 100.501757,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "1321"
+    },
+    {
+      "partner_name": "Rajamangala University of Technology Thanyaburi",
+      "country": "Thailand",
+      "country_code": "TH",
+      "city": "Thanyaburi",
+      "lat": 14.021111,
+      "lng": 100.734444,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "3801"
+    },
+    {
+      "partner_name": "Akdeniz Üniversitesi",
+      "country": "Türkiye",
+      "country_code": "TR",
+      "city": "Antalya",
+      "lat": 36.894995,
+      "lng": 30.651725,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13459"
+    },
+    {
+      "partner_name": "Ankara Hacı Bayram Veli Üniversitesi",
+      "country": "Türkiye",
+      "country_code": "TR",
+      "city": "Ankara",
+      "lat": 39.9272,
+      "lng": 32.8644,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11570"
+    },
+    {
+      "partner_name": "Ankara Üniversitesi",
+      "country": "Türkiye",
+      "country_code": "TR",
+      "city": "Ankara",
+      "lat": 39.936632,
+      "lng": 32.83029,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11550"
+    },
+    {
+      "partner_name": "Bahcesehir Universitesi",
+      "country": "Türkiye",
+      "country_code": "TR",
+      "city": "Istanbul",
+      "lat": 41.06145,
+      "lng": 28.698256,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12903"
+    },
+    {
+      "partner_name": "Bogaziçi Üniversitesi",
+      "country": "Türkiye",
+      "country_code": "TR",
+      "city": "Istanbul",
+      "lat": 41.088112,
+      "lng": 29.053606,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11700"
+    },
+    {
+      "partner_name": "Burdur Mehmet Akif Ersoy Üniversitesi",
+      "country": "Türkiye",
+      "country_code": "TR",
+      "city": "Burdur",
+      "lat": 37.691597,
+      "lng": 30.340655,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11623"
+    },
+    {
+      "partner_name": "Bursa Uludağ Üniversitesi",
+      "country": "Türkiye",
+      "country_code": "TR",
+      "city": "Bursa",
+      "lat": 40.232364,
+      "lng": 28.839455,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11644"
+    },
+    {
+      "partner_name": "Çukurova Üniversitesi",
+      "country": "Türkiye",
+      "country_code": "TR",
+      "city": "Adana",
+      "lat": 37.055598,
+      "lng": 35.349147,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "14932"
+    },
+    {
+      "partner_name": "Cumhuriyet Universitesi",
+      "country": "Türkiye",
+      "country_code": "TR",
+      "city": "Sivas",
+      "lat": 39.707575,
+      "lng": 37.026279,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11900"
+    },
+    {
+      "partner_name": "Dokuz Eylül Üniversitesi",
+      "country": "Türkiye",
+      "country_code": "TR",
+      "city": "Izmir",
+      "lat": 38.418698,
+      "lng": 27.129687,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12948"
+    },
+    {
+      "partner_name": "Ege Üniversitesi",
+      "country": "Türkiye",
+      "country_code": "TR",
+      "city": "Izmir",
+      "lat": 38.456695,
+      "lng": 27.226634,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11770"
+    },
+    {
+      "partner_name": "Eskisehir Osmangazi Üniversitesi",
+      "country": "Türkiye",
+      "country_code": "TR",
+      "city": "Eskisehir",
+      "lat": 39.751569,
+      "lng": 30.487365,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11690"
+    },
+    {
+      "partner_name": "Hacettepe Üniversitesi",
+      "country": "Türkiye",
+      "country_code": "TR",
+      "city": "Ankara",
+      "lat": 39.869102,
+      "lng": 32.73144,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13454"
+    },
+    {
+      "partner_name": "Halic University",
+      "country": "Türkiye",
+      "country_code": "TR",
+      "city": "Istanbul",
+      "lat": 41.012379,
+      "lng": 28.975926,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12489"
+    },
+    {
+      "partner_name": "Hitit Üniversitesi",
+      "country": "Türkiye",
+      "country_code": "TR",
+      "city": "Sungurlu/Corum",
+      "lat": 40.1651,
+      "lng": 34.3748,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11684"
+    },
+    {
+      "partner_name": "ISTANBUL ATLAS UNIVERSITESI",
+      "country": "Türkiye",
+      "country_code": "TR",
+      "city": "Istanbul",
+      "lat": 28.979128,
+      "lng": 41.097542,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "14328"
+    },
+    {
+      "partner_name": "Istanbul Aydin University",
+      "country": "Türkiye",
+      "country_code": "TR",
+      "city": "Istanbul",
+      "lat": 41.012379,
+      "lng": 28.975926,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12459"
+    },
+    {
+      "partner_name": "Istanbul Bilgi Üniversitesi",
+      "country": "Türkiye",
+      "country_code": "TR",
+      "city": "Istanbul",
+      "lat": 41.012379,
+      "lng": 28.975926,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12831"
+    },
+    {
+      "partner_name": "Istanbul Teknik Üniversitesi",
+      "country": "Türkiye",
+      "country_code": "TR",
+      "city": "Istanbul",
+      "lat": 41.012379,
+      "lng": 28.975926,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11831"
+    },
+    {
+      "partner_name": "Istanbul Üniversitesi",
+      "country": "Türkiye",
+      "country_code": "TR",
+      "city": "Istanbul",
+      "lat": 41.005035,
+      "lng": 28.939993,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11822"
+    },
+    {
+      "partner_name": "Kastamonu University",
+      "country": "Türkiye",
+      "country_code": "TR",
+      "city": "Kastamonu",
+      "lat": 41.411055,
+      "lng": 33.788103,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "15353"
+    },
+    {
+      "partner_name": "Marmara Üniversitesi",
+      "country": "Türkiye",
+      "country_code": "TR",
+      "city": "Istanbul",
+      "lat": 40.986767,
+      "lng": 29.052138,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12844"
+    },
+    {
+      "partner_name": "Mersin Universitesi",
+      "country": "Türkiye",
+      "country_code": "TR",
+      "city": "Mersin",
+      "lat": 36.783816,
+      "lng": 34.528113,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11784"
+    },
+    {
+      "partner_name": "Muğla Sıtkı Koçman University",
+      "country": "Türkiye",
+      "country_code": "TR",
+      "city": "Mugla",
+      "lat": 37.2196,
+      "lng": 28.3658,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12968"
+    },
+    {
+      "partner_name": "Namik Kemal Üniversitesi",
+      "country": "Türkiye",
+      "country_code": "TR",
+      "city": "Tekirdag",
+      "lat": 40.993147,
+      "lng": 27.5809,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11924"
+    },
+    {
+      "partner_name": "Orta Dogu Teknik Üniversitesi",
+      "country": "Türkiye",
+      "country_code": "TR",
+      "city": "Ankara",
+      "lat": 39.943873,
+      "lng": 32.856034,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13693"
+    },
+    {
+      "partner_name": "Sabanci Üniversitesi",
+      "country": "Türkiye",
+      "country_code": "TR",
+      "city": "Istanbul",
+      "lat": 40.89243,
+      "lng": 29.376869,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "14986"
+    },
+    {
+      "partner_name": "Sakarya Üniversitesi",
+      "country": "Türkiye",
+      "country_code": "TR",
+      "city": "Sakarya",
+      "lat": 40.74089,
+      "lng": 30.330242,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11887"
+    },
+    {
+      "partner_name": "Selçuk Üniversitesi",
+      "country": "Türkiye",
+      "country_code": "TR",
+      "city": "Selçuklu/Konya",
+      "lat": 38.02639,
+      "lng": 32.50972,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12962"
+    },
+    {
+      "partner_name": "Sinop Universitesi",
+      "country": "Türkiye",
+      "country_code": "TR",
+      "city": "Sinop",
+      "lat": 42.0269,
+      "lng": 35.16,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "15480"
+    },
+    {
+      "partner_name": "TED Üniversitesi",
+      "country": "Türkiye",
+      "country_code": "TR",
+      "city": "Ankara",
+      "lat": 39.9272,
+      "lng": 32.8644,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13649"
+    },
+    {
+      "partner_name": "Türkisch-Deutsche Universität (TDU)",
+      "country": "Türkiye",
+      "country_code": "TR",
+      "city": "Istanbul",
+      "lat": 41.01,
+      "lng": 28.9603,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11752"
+    },
+    {
+      "partner_name": "Ufuk Üniversitesi",
+      "country": "Türkiye",
+      "country_code": "TR",
+      "city": "Ankara",
+      "lat": 39.93,
+      "lng": 32.85,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11564"
+    },
+    {
+      "partner_name": "University of Health Sciences in Istanbul",
+      "country": "Türkiye",
+      "country_code": "TR",
+      "city": "Istanbul",
+      "lat": 41.0126,
+      "lng": 28.9596,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "14235"
+    },
+    {
+      "partner_name": "Uşak Üniversitesi",
+      "country": "Türkiye",
+      "country_code": "TR",
+      "city": "Uşak",
+      "lat": 38.6744,
+      "lng": 29.3309,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11930"
+    },
+    {
+      "partner_name": "Üsküdar University",
+      "country": "Türkiye",
+      "country_code": "TR",
+      "city": "Istanbul",
+      "lat": 41.105,
+      "lng": 29.01,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11746"
+    },
+    {
+      "partner_name": "Yasar Üniversitesi",
+      "country": "Türkiye",
+      "country_code": "TR",
+      "city": "Izmir",
+      "lat": 38.447697,
+      "lng": 27.201763,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "11776"
+    },
+    {
+      "partner_name": "Yeditepe Universitesi",
+      "country": "Türkiye",
+      "country_code": "TR",
+      "city": "Istanbul",
+      "lat": 40.972363,
+      "lng": 29.151834,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12305"
+    },
+    {
+      "partner_name": "Yildiz Teknik Üniversitesi",
+      "country": "Türkiye",
+      "country_code": "TR",
+      "city": "Istanbul",
+      "lat": 41.007435,
+      "lng": 29.045942,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "14340"
+    },
+    {
+      "partner_name": "Durham University",
+      "country": "United Kingdom",
+      "country_code": "GB",
+      "city": "Durham",
+      "lat": 54.775062,
+      "lng": -1.569329,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13061"
+    },
+    {
+      "partner_name": "Heriot-Watt University",
+      "country": "United Kingdom",
+      "country_code": "GB",
+      "city": "Edinburgh",
+      "lat": 55.912538,
+      "lng": -3.322806,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13055"
+    },
+    {
+      "partner_name": "Newcastle University",
+      "country": "United Kingdom",
+      "country_code": "GB",
+      "city": "Newcastle-Upon-Tyne",
+      "lat": 54.981405,
+      "lng": -1.614269,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13038"
+    },
+    {
+      "partner_name": "Royal Holloway, University of London",
+      "country": "United Kingdom",
+      "country_code": "GB",
+      "city": "London",
+      "lat": 51.428178,
+      "lng": -0.562632,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13044"
+    },
+    {
+      "partner_name": "Swansea University",
+      "country": "United Kingdom",
+      "country_code": "GB",
+      "city": "Swansea",
+      "lat": 51.608929,
+      "lng": -3.97954,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13026"
+    },
+    {
+      "partner_name": "The University of Warwick",
+      "country": "United Kingdom",
+      "country_code": "GB",
+      "city": "Coventry",
+      "lat": 52.380498,
+      "lng": -1.562762,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13017"
+    },
+    {
+      "partner_name": "University of Bristol",
+      "country": "United Kingdom",
+      "country_code": "GB",
+      "city": "Bristol",
+      "lat": 51.459071,
+      "lng": -2.602221,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13006"
+    },
+    {
+      "partner_name": "University of Cambridge",
+      "country": "United Kingdom",
+      "country_code": "GB",
+      "city": "Cambridge",
+      "lat": 52.20303,
+      "lng": 0.119991,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13008"
+    },
+    {
+      "partner_name": "University of Chichester",
+      "country": "United Kingdom",
+      "country_code": "GB",
+      "city": "Chichester",
+      "lat": 50.844488,
+      "lng": -0.775815,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12992"
+    },
+    {
+      "partner_name": "University of Dundee",
+      "country": "United Kingdom",
+      "country_code": "GB",
+      "city": "Dundee",
+      "lat": 56.457796,
+      "lng": -2.977316,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13066"
+    },
+    {
+      "partner_name": "University of Exeter",
+      "country": "United Kingdom",
+      "country_code": "GB",
+      "city": "Exeter",
+      "lat": 50.734769,
+      "lng": -3.535628,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13725"
+    },
+    {
+      "partner_name": "University of Kent",
+      "country": "United Kingdom",
+      "country_code": "GB",
+      "city": "Canterbury",
+      "lat": 51.296061,
+      "lng": 1.067948,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13015"
+    },
+    {
+      "partner_name": "University of Liverpool",
+      "country": "United Kingdom",
+      "country_code": "GB",
+      "city": "Liverpool",
+      "lat": 53.404517,
+      "lng": -2.964176,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13726"
+    },
+    {
+      "partner_name": "University of Portsmouth",
+      "country": "United Kingdom",
+      "country_code": "GB",
+      "city": "Portsmouth",
+      "lat": 50.795354,
+      "lng": -1.091322,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13033"
+    },
+    {
+      "partner_name": "Flagler College",
+      "country": "United States",
+      "country_code": "US",
+      "city": "St. Augustine",
+      "lat": null,
+      "lng": null,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "3176"
+    },
+    {
+      "partner_name": "Florida Gulf Coast University",
+      "country": "United States",
+      "country_code": "US",
+      "city": "Fort Myers",
+      "lat": 26.463035,
+      "lng": -81.780979,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "7600"
+    },
+    {
+      "partner_name": "Hastings College",
+      "country": "United States",
+      "country_code": "US",
+      "city": "Hastings",
+      "lat": null,
+      "lng": null,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "15174"
+    },
+    {
+      "partner_name": "Rutgers, The State University of New Jersey",
+      "country": "United States",
+      "country_code": "US",
+      "city": "New Brunswick",
+      "lat": 40.487206,
+      "lng": -74.439899,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13189"
+    },
+    {
+      "partner_name": "Saginaw Valley State University",
+      "country": "United States",
+      "country_code": "US",
+      "city": "Saginaw",
+      "lat": null,
+      "lng": null,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "14868"
+    },
+    {
+      "partner_name": "State University of New York at Oneonta",
+      "country": "United States",
+      "country_code": "US",
+      "city": "Oneanta",
+      "lat": 42.452857,
+      "lng": -75.063775,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "968"
+    },
+    {
+      "partner_name": "University of California, Berkeley",
+      "country": "United States",
+      "country_code": "US",
+      "city": "Berkeley",
+      "lat": 37.872397,
+      "lng": -122.26623,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "7924"
+    },
+    {
+      "partner_name": "University of Florida",
+      "country": "United States",
+      "country_code": "US",
+      "city": "Gainesville",
+      "lat": 29.647449,
+      "lng": -82.339392,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "12945"
+    },
+    {
+      "partner_name": "University of New Mexico",
+      "country": "United States",
+      "country_code": "US",
+      "city": "Albuquerque",
+      "lat": 35.08299,
+      "lng": -106.604214,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "7927"
+    },
+    {
+      "partner_name": "University of North Carolina at Wilmington",
+      "country": "United States",
+      "country_code": "US",
+      "city": "Wilmington",
+      "lat": 34.226264,
+      "lng": -77.876941,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "7743"
+    },
+    {
+      "partner_name": "University of Oregon",
+      "country": "United States",
+      "country_code": "US",
+      "city": "Eugene",
+      "lat": 44.028772,
+      "lng": -123.0751,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "13308"
+    },
+    {
+      "partner_name": "University of Texas at Austin",
+      "country": "United States",
+      "country_code": "US",
+      "city": "Austin",
+      "lat": 30.285758,
+      "lng": -97.73588,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "944"
+    },
+    {
+      "partner_name": "West Liberty University",
+      "country": "United States",
+      "country_code": "US",
+      "city": "West Liberty",
+      "lat": 40.165808,
+      "lng": -80.60118,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "8120"
+    },
+    {
+      "partner_name": "Hanoi University of Science and Technology",
+      "country": "Vietnam",
+      "country_code": "VN",
+      "city": "Hanoi",
+      "lat": null,
+      "lng": null,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "1492"
+    },
+    {
+      "partner_name": "Ho Chi Minh City University of Economics",
+      "country": "Vietnam",
+      "country_code": "VN",
+      "city": "Ho Chi Minh City",
+      "lat": 10.75918,
+      "lng": 106.662498,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor",
+        "Postgraduate / Master",
+        "Doctorate / PhD",
+        "Short cycle"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "14817"
+    },
+    {
+      "partner_name": "Vietnam National University of Ho Chi Minh City",
+      "country": "Vietnam",
+      "country_code": "VN",
+      "city": "Ho Chi Minh City",
+      "lat": 10.75918,
+      "lng": 106.662498,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "6530"
+    },
+    {
+      "partner_name": "Vietnamese-German University",
+      "country": "Vietnam",
+      "country_code": "VN",
+      "city": "Thu Dau Mot City",
+      "lat": null,
+      "lng": null,
+      "exchange_type": null,
+      "spots": null,
+      "study_levels": [
+        "Undergraduate / Bachelor"
+      ],
+      "isced_subject": null,
+      "faculty_department": null,
+      "moveon_id": "7659"
+    }
+  ]
+}

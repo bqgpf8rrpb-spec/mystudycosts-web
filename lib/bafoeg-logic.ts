@@ -10,6 +10,12 @@ export const BAFOEG_MAX_2026 = 1004;
 // Additional amount for Erasmus students receiving BAföG (Auslandszuschuss)
 export const BAFOEG_ERASMUS_ADDON = 250;
 
+/** Max tuition fee covered by BAföG for Erasmus (Auslands-BAföG) in EUR */
+export const BAFOEG_ERASMUS_TUITION_MAX = 5600;
+
+/** Travel cost allowance for Erasmus students (one-time, EU) in EUR */
+export const BAFOEG_ERASMUS_TRAVEL_ALLOWANCE = 500;
+
 // Total BAföG amount for Erasmus students (max + addon)
 export const BAFOEG_MAX_ERASMUS_2026 = BAFOEG_MAX_2026 + BAFOEG_ERASMUS_ADDON; // 1254
 

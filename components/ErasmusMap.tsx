@@ -1,10 +1,15 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
+import { usePathname } from 'next/navigation';
+import { useTranslations } from 'next-intl';
+import { getLocalizedCountryName, toCanonicalCountry } from '@/lib/country-i18n';
+import { formatCurrency } from '@/lib/format';
 import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import cityCoordinates from '@/data/city-coordinates.json';
+import cityAliases from '@/data/city-aliases.json';
 import AffiliateLabel from '@/components/AffiliateLabel';
 
 // Fix for default marker icons in Next.js
@@ -17,37 +22,100 @@ if (typeof window !== 'undefined') {
   });
 }
 
-interface PartnerUniversity {
-  name: string;
-  city: string;
-  country: string;
-  monthlyLivingCost: number;
-  travelCost: number;
-  insuranceCost: number;
-}
+import type { PartnerUniversity } from '@/data/erasmus-types';
 
 interface ErasmusMapProps {
   partners: PartnerUniversity[];
 }
 
-// Custom bright blue marker icon with glow for visibility on dark blue land
-const createBlueMarker = () => {
+type PartnerWithCoords = PartnerUniversity & { lat: number; lng: number };
+
+const JITTER_RAD = 0.002;
+
+const cityAliasMap = cityAliases as Record<string, string>;
+
+function resolveCityCoords(
+  city: string,
+  coordsData: Record<string, { lat: number; lng: number }>,
+  country?: string
+): { lat: number; lng: number } | null {
+  const trimmed = city.trim();
+  // Strip parenthetical suffix: "Camaiore (lu)" -> "Camaiore"
+  const baseCity = trimmed.replace(/\s*\([^)]+\)\s*$/, '').trim();
+  const candidates = trimmed !== baseCity ? [trimmed, baseCity] : [trimmed];
+
+  for (const c of candidates) {
+    // 1. Direct city lookup
+    const resolvedKey = cityAliasMap[c] ?? c;
+    let coords = coordsData[c] ?? coordsData[resolvedKey];
+    if (coords) return coords;
+
+    // 2. With country disambiguation (City|Country format)
+    if (country && country !== 'Various' && country !== 'Unknown') {
+      const cityCountryKey = `${c}|${country}`;
+      const resolvedCityCountryKey = cityAliasMap[cityCountryKey] ?? cityCountryKey;
+      coords = coordsData[cityCountryKey] ?? coordsData[resolvedCityCountryKey];
+      if (coords) return coords;
+    }
+  }
+
+  // Case-insensitive fallback: try matching coordsData keys
+  const lower = trimmed.toLowerCase();
+  for (const key of Object.keys(coordsData)) {
+    if (key.toLowerCase() === lower) return coordsData[key];
+  }
+  return null;
+}
+
+function simpleHash(str: string): number {
+  let h = 0;
+  for (let i = 0; i < str.length; i++) h = (h << 5) - h + str.charCodeAt(i);
+  return Math.abs(h);
+}
+
+function applyJitterForOverlaps(partners: PartnerWithCoords[]): PartnerWithCoords[] {
+  const byPos = new Map<string, PartnerWithCoords[]>();
+  for (const p of partners) {
+    const key = `${p.lat.toFixed(6)}-${p.lng.toFixed(6)}`;
+    if (!byPos.has(key)) byPos.set(key, []);
+    byPos.get(key)!.push(p);
+  }
+  const result: PartnerWithCoords[] = [];
+  for (const group of byPos.values()) {
+    if (group.length === 1) {
+      result.push(group[0]);
+    } else {
+      group.forEach((p, i) => {
+        const baseAngle = (simpleHash(p.name) % 360) * (Math.PI / 180);
+        const angle = baseAngle + i * 1.5;
+        result.push({
+          ...p,
+          lat: p.lat + JITTER_RAD * Math.cos(angle),
+          lng: p.lng + JITTER_RAD * Math.sin(angle),
+        });
+      });
+    }
+  }
+  return result;
+}
+
+// Custom green marker icon for verified partners (no animations for performance)
+const createVerifiedMarker = () => {
   return L.divIcon({
-    className: 'custom-blue-marker',
+    className: 'custom-verified-marker',
     html: `
       <div style="
         width: 32px;
         height: 32px;
-        background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 50%, #2563eb 100%);
-        border: 3px solid #93c5fd;
+        background: linear-gradient(135deg, #34d399 0%, #10b981 50%, #059669 100%);
+        border: 3px solid #6ee7b7;
         border-radius: 50% 50% 50% 0;
         transform: rotate(-45deg);
         box-shadow: 
-          0 0 0 3px rgba(59, 130, 246, 0.4),
-          0 4px 20px rgba(59, 130, 246, 0.8),
-          0 0 30px rgba(96, 165, 250, 0.6);
+          0 0 0 3px rgba(16, 185, 129, 0.4),
+          0 4px 20px rgba(16, 185, 129, 0.8),
+          0 0 30px rgba(52, 211, 153, 0.6);
         position: relative;
-        animation: pulse 2s ease-in-out infinite;
       ">
         <div style="
           width: 14px;
@@ -61,12 +129,77 @@ const createBlueMarker = () => {
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
         "></div>
       </div>
-      <style>
-        @keyframes pulse {
-          0%, 100% { box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.4), 0 4px 20px rgba(59, 130, 246, 0.8), 0 0 30px rgba(96, 165, 250, 0.6); }
-          50% { box-shadow: 0 0 0 5px rgba(59, 130, 246, 0.6), 0 6px 25px rgba(59, 130, 246, 1), 0 0 40px rgba(96, 165, 250, 0.8); }
-        }
-      </style>
+    `,
+    iconSize: [32, 32],
+    iconAnchor: [16, 32],
+    popupAnchor: [0, -32],
+  });
+};
+
+// Custom magenta marker for traineeships (no animations)
+const createTraineeshipMarker = () => {
+  return L.divIcon({
+    className: 'custom-traineeship-marker',
+    html: `
+      <div style="
+        width: 32px;
+        height: 32px;
+        background: linear-gradient(135deg, #e879f9 0%, #d946ef 50%, #c026d3 100%);
+        border: 3px solid #f5d0fe;
+        border-radius: 50% 50% 50% 0;
+        transform: rotate(-45deg);
+        box-shadow: 0 2px 8px rgba(192, 38, 211, 0.5);
+        position: relative;
+      ">
+        <div style="
+          width: 14px;
+          height: 14px;
+          background: white;
+          border-radius: 50%;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%) rotate(45deg);
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+        "></div>
+      </div>
+    `,
+    iconSize: [32, 32],
+    iconAnchor: [16, 32],
+    popupAnchor: [0, -32],
+  });
+};
+
+// Custom orange marker for unverified partners (no animations)
+const createUnverifiedMarker = () => {
+  return L.divIcon({
+    className: 'custom-unverified-marker',
+    html: `
+      <div style="
+        width: 32px;
+        height: 32px;
+        background: linear-gradient(135deg, #fb923c 0%, #f97316 50%, #ea580c 100%);
+        border: 3px solid #fed7aa;
+        border-radius: 50% 50% 50% 0;
+        transform: rotate(-45deg);
+        box-shadow: 
+          0 0 0 3px rgba(249, 115, 22, 0.4),
+          0 4px 20px rgba(249, 115, 22, 0.8),
+          0 0 30px rgba(251, 146, 60, 0.6);
+        position: relative;
+      ">
+        <div style="
+          width: 14px;
+          height: 14px;
+          background: white;
+          border-radius: 50%;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%) rotate(45deg);
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+        "></div>
+      </div>
     `,
     iconSize: [32, 32],
     iconAnchor: [16, 32],
@@ -75,49 +208,53 @@ const createBlueMarker = () => {
 };
 
 // Component to handle map view updates
-function MapViewUpdater({ partners }: { partners: PartnerUniversity[] }) {
+function MapViewUpdater({ partnersWithCoords }: { partnersWithCoords: PartnerWithCoords[] }) {
   const map = useMap();
 
   useEffect(() => {
-    if (partners.length === 0) return;
+    if (partnersWithCoords.length === 0) return;
 
-    const coordinates = partners
-      .map((partner) => {
-        const coords = (cityCoordinates as Record<string, { lat: number; lng: number }>)[partner.city];
-        return coords ? [coords.lat, coords.lng] : null;
-      })
-      .filter((coord): coord is [number, number] => coord !== null);
-
+    const coordinates = partnersWithCoords.map((p) => [p.lat, p.lng] as [number, number]);
     if (coordinates.length > 0) {
       const bounds = L.latLngBounds(coordinates);
       map.fitBounds(bounds, { padding: [50, 50], maxZoom: 6 });
     }
-  }, [partners, map]);
+  }, [partnersWithCoords, map]);
 
   return null;
 }
 
 export default function ErasmusMap({ partners }: ErasmusMapProps) {
+  const t = useTranslations('ErasmusSelector');
+  const pathname = usePathname();
+  const locale = (pathname?.split('/')[1] || 'de') as 'de' | 'en';
   const mapRef = useRef<L.Map | null>(null);
 
-  // Get unique partners with coordinates
+  // Get partners with coordinates (use city alias mapping to fix empty state for e.g. Austria/Wien)
+  // Skip partners with invalid city (Unknown, empty, Various) - they cannot be geocoded
+  const INVALID_CITIES = new Set(['', 'Unknown', 'Various']);
+  const coordsData = cityCoordinates as Record<string, { lat: number; lng: number }>;
   const partnersWithCoords = partners
+    .filter((partner) => !INVALID_CITIES.has((partner.city || '').trim()))
     .map((partner) => {
-      const coords = (cityCoordinates as Record<string, { lat: number; lng: number }>)[partner.city];
+      // Prefer existing lat/lng from source data (e.g. MoveOn enrichment)
+      if (typeof partner.lat === 'number' && typeof partner.lng === 'number') {
+        return { ...partner, lat: partner.lat, lng: partner.lng };
+      }
+      const canonicalCountry = toCanonicalCountry(partner.country || '');
+      const coords = resolveCityCoords(partner.city, coordsData, canonicalCountry || partner.country);
       if (!coords) return null;
       return { ...partner, lat: coords.lat, lng: coords.lng };
     })
     .filter((partner): partner is PartnerUniversity & { lat: number; lng: number } => partner !== null);
 
-  // Remove duplicates based on city
-  const uniquePartners = Array.from(
-    new Map(partnersWithCoords.map((p) => [`${p.city}-${p.country}`, p])).values()
-  );
+  // Apply jitter for partners in same city so each gets a visible pin
+  const partnersToShow = applyJitterForOverlaps(partnersWithCoords);
 
-  if (uniquePartners.length === 0) {
+  if (partnersToShow.length === 0) {
     return (
       <div className="backdrop-blur-sm bg-slate-950/80 border border-white/10 rounded-xl p-8 text-center">
-        <p className="text-white/60 text-sm">No partner locations available to display on map</p>
+        <p className="text-white/60 text-sm">{t('noPartnerLocationsOnMap')}</p>
       </div>
     );
   }
@@ -179,7 +316,9 @@ export default function ErasmusMap({ partners }: ErasmusMapProps) {
           border-color: rgba(59, 130, 246, 0.6) !important;
           color: #93c5fd !important;
         }
-        .custom-blue-marker {
+        .custom-verified-marker,
+        .custom-unverified-marker,
+        .custom-traineeship-marker {
           background: transparent !important;
           border: none !important;
         }
@@ -224,32 +363,59 @@ export default function ErasmusMap({ partners }: ErasmusMapProps) {
           url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
           subdomains={['a', 'b', 'c', 'd']}
         />
-        <MapViewUpdater partners={partners} />
-        {uniquePartners.map((partner, index) => (
-          <Marker
-            key={`${partner.city}-${partner.country}-${index}`}
-            position={[partner.lat, partner.lng]}
-            icon={createBlueMarker()}
-          >
-            <Popup>
-              <div className="text-white">
-                <h3 className="font-bold text-base mb-3 text-blue-400">{partner.name}</h3>
-                <p className="text-sm text-white mb-2">
-                  <strong className="text-white">Location:</strong> {partner.city}, {partner.country}
-                </p>
-                <p className="text-sm text-white mb-2">
-                  <strong className="text-white">Monthly Cost:</strong> €{partner.monthlyLivingCost.toLocaleString()}
-                </p>
-                <p className="text-xs text-blue-300/80 mt-3 pt-2 border-t border-white/10">
-                  Click partner tile for full details
-                </p>
+        <MapViewUpdater partnersWithCoords={partnersToShow} />
+        {partnersToShow.map((partner, index) => {
+          const isTraineeship = partner.activity_type === 'traineeship';
+          const isVerified =
+            partner.confidence === 'verified_active' || partner.confidence === 'moveon_only';
+          const icon = isTraineeship
+            ? createTraineeshipMarker()
+            : isVerified
+              ? createVerifiedMarker()
+              : createUnverifiedMarker();
+          return (
+            <Marker
+              key={`${partner.name}-${partner.city}-${partner.country}-${index}`}
+              position={[partner.lat, partner.lng]}
+              icon={icon}
+            >
+              <Popup>
+                <div className="text-white">
+                  <h3 className="font-bold text-base mb-3 text-white">
+                    {partner.name}
+                  </h3>
+                  {partner.activity_type === 'traineeship' && (
+                    <span className="inline-block px-2 py-0.5 bg-emerald-500/30 text-emerald-300 text-xs font-medium rounded-full border border-emerald-500/50 mb-2">
+                      {t('traineeshipBadge')}
+                    </span>
+                  )}
+                  <p className="text-sm text-white mb-2">
+                    <strong className="text-white">{t('location')}:</strong> {partner.city}, {getLocalizedCountryName(partner.country, locale)}
+                  </p>
+                  <p className="text-sm text-white mb-2">
+                    <strong className="text-white">{t('monthlyCost')}:</strong>{' '}
+                    {formatCurrency(partner.monthlyLivingCost, 'EUR', 1)}
+                  </p>
+                  {(partner.spotsPerSemester ?? partner.spotsPerYear) != null && (
+                    <p className="text-sm text-white mb-2">
+                      <strong className="text-white">
+                        {partner.spotsPerSemester != null
+                          ? t('spotsPerSemester', { count: partner.spotsPerSemester })
+                          : t('spotsPerYear', { count: partner.spotsPerYear })}
+                      </strong>
+                    </p>
+                  )}
+                  <p className="text-xs mt-3 pt-2 border-t border-white/10 text-blue-300/80">
+                    {t('clickPartnerForDetails')}
+                  </p>
                 <div className="mt-2 pt-2 border-t border-white/5">
                   <AffiliateLabel variant="subtle" className="text-center" />
                 </div>
               </div>
             </Popup>
           </Marker>
-        ))}
+          );
+        })}
       </MapContainer>
     </div>
   );

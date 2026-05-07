@@ -19,11 +19,7 @@ import { useWatchlist } from '@/hooks/useWatchlist';
 import WatchlistDrawer from '@/components/WatchlistDrawer';
 import AffiliateLabel from '@/components/AffiliateLabel';
 
-interface University {
-  name: string;
-  city: string;
-  type: 'public' | 'private';
-}
+import type { University } from '@/types/university';
 
 interface DegreeFinderProps {
   className?: string;
@@ -56,7 +52,7 @@ export default function DegreeFinder({ className = '' }: DegreeFinderProps) {
   const programs = useMemo(() => {
     if (!selectedUniversity) return [];
     
-    const programsFromDatabase = (universityProgramsData as Record<string, string[] | StudyProgram[]>)[selectedUniversity];
+    const programsFromDatabase = (universityProgramsData as unknown as Record<string, string[] | StudyProgram[]>)[selectedUniversity];
     if (!programsFromDatabase || programsFromDatabase.length === 0) return [];
     
     // Return programs as-is (can be string[] or StudyProgram[])

@@ -1,0 +1,225 @@
+{
+  "cached_at": "2026-04-13T16:50:53.848464",
+  "records": [
+    {
+      "university": "University of Duisburg-Essen",
+      "program": "Chemistry (B.Sc.)",
+      "nc_threshold": null,
+      "source_university_name": "Universität Duisburg-Essen",
+      "source_program_name": "Bachelor of Science (Chemie)",
+      "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C436330&P.vx=kurz",
+      "scraped_at": "2026-04-13T16:50:50.887276",
+      "confidence": 0.65,
+      "source_type": "live_scrape"
+    },
+    {
+      "university": "University of Duisburg-Essen",
+      "program": "Chemistry (M.Sc.)",
+      "nc_threshold": null,
+      "source_university_name": "Universität Duisburg-Essen",
+      "source_program_name": "Master of Science (Chemie)",
+      "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C436330&P.vx=kurz",
+      "scraped_at": "2026-04-13T16:50:50.887380",
+      "confidence": 0.65,
+      "source_type": "live_scrape"
+    },
+    {
+      "university": "University of Duisburg-Essen",
+      "program": "Computer Science (M.Sc.)",
+      "nc_threshold": null,
+      "source_university_name": "Universität Duisburg-Essen",
+      "source_program_name": "Master of Science (Water Science)",
+      "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C436330&P.vx=kurz",
+      "scraped_at": "2026-04-13T16:50:50.887676",
+      "confidence": 0.65,
+      "source_type": "live_scrape"
+    },
+    {
+      "university": "University of Duisburg-Essen",
+      "program": "Biology (B.Sc.)",
+      "nc_threshold": null,
+      "source_university_name": "Universität Duisburg-Essen",
+      "source_program_name": "Studiengang Bachelor Biologie",
+      "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438696&P.vx=kurz",
+      "scraped_at": "2026-04-13T16:50:50.898357",
+      "confidence": 0.65,
+      "source_type": "live_scrape"
+    },
+    {
+      "university": "University of Duisburg-Essen",
+      "program": "Biology (B.Sc.)",
+      "nc_threshold": null,
+      "source_university_name": "Universität Duisburg-Essen",
+      "source_program_name": "Studiengang Bachelor Aquatische Biologie",
+      "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438696&P.vx=kurz",
+      "scraped_at": "2026-04-13T16:50:50.898644",
+      "confidence": 0.65,
+      "source_type": "live_scrape"
+    },
+    {
+      "university": "University of Duisburg-Essen",
+      "program": "Biology (M.Sc.)",
+      "nc_threshold": null,
+      "source_university_name": "Universität Duisburg-Essen",
+      "source_program_name": "Studiengang Master Aquatische Biologie",
+      "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438696&P.vx=kurz",
+      "scraped_at": "2026-04-13T16:50:50.898736",
+      "confidence": 0.65,
+      "source_type": "live_scrape"
+    },
+    {
+      "university": "University of Duisburg-Essen",
+      "program": "Biology (B.Sc.)",
+      "nc_threshold": null,
+      "source_university_name": "Universität Duisburg-Essen",
+      "source_program_name": "Studiengang Bachelor Molekularbiologie",
+      "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438696&P.vx=kurz",
+      "scraped_at": "2026-04-13T16:50:50.898829",
+      "confidence": 0.65,
+      "source_type": "live_scrape"
+    },
+    {
+      "university": "University of Duisburg-Essen",
+      "program": "Biology (M.Sc.)",
+      "nc_threshold": null,
+      "source_university_name": "Universität Duisburg-Essen",
+      "source_program_name": "Studiengang Master Molekularbiologie",
+      "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438696&P.vx=kurz",
+      "scraped_at": "2026-04-13T16:50:50.898921",
+      "confidence": 0.65,
+      "source_type": "live_scrape"
+    },
+    {
+      "university": "University of Duisburg-Essen",
+      "program": "Computer Science (B.Sc.)",
+      "nc_threshold": null,
+      "source_university_name": "Universität Duisburg-Essen",
+      "source_program_name": "Lehramt Informatik",
+      "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C437870&P.vx=kurz",
+      "scraped_at": "2026-04-13T16:50:50.948610",
+      "confidence": 0.65,
+      "source_type": "live_scrape"
+    },
+    {
+      "university": "University of Duisburg-Essen",
+      "program": "German Studies (B.A.)",
+      "nc_threshold": null,
+      "source_university_name": "Universität Duisburg-Essen",
+      "source_program_name": "Bachelor Anglophone Studies",
+      "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C435609%7C437998&P.vx=kurz",
+      "scraped_at": "2026-04-13T16:50:51.462290",
+      "confidence": 0.65,
+      "source_type": "live_scrape"
+    },
+    {
+      "university": "University of Duisburg-Essen",
+      "program": "German Studies (M.A.)",
+      "nc_threshold": null,
+      "source_university_name": "Universität Duisburg-Essen",
+      "source_program_name": "Master Anglophone Studies",
+      "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C435609%7C437998&P.vx=kurz",
+      "scraped_at": "2026-04-13T16:50:51.462472",
+      "confidence": 0.65,
+      "source_type": "live_scrape"
+    },
+    {
+      "university": "University of Duisburg-Essen",
+      "program": "Philosophy (M.A.)",
+      "nc_threshold": null,
+      "source_university_name": "Universität Duisburg-Essen",
+      "source_program_name": "Master Philosophie (ab WS 12/13)",
+      "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C435609%7C436178&P.vx=kurz",
+      "scraped_at": "2026-04-13T16:50:51.534528",
+      "confidence": 0.65,
+      "source_type": "live_scrape"
+    },
+    {
+      "university": "University of Duisburg-Essen",
+      "program": "Sociology (M.A.)",
+      "nc_threshold": null,
+      "source_university_name": "Universität Duisburg-Essen",
+      "source_program_name": "Master Soziologie (zweijährig)",
+      "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438492%7C435182&P.vx=kurz",
+      "scraped_at": "2026-04-13T16:50:51.607961",
+      "confidence": 0.65,
+      "source_type": "live_scrape"
+    },
+    {
+      "university": "University of Duisburg-Essen",
+      "program": "Sociology (M.A.)",
+      "nc_threshold": null,
+      "source_university_name": "Universität Duisburg-Essen",
+      "source_program_name": "Master Soziologie (einjährig)",
+      "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438492%7C435182&P.vx=kurz",
+      "scraped_at": "2026-04-13T16:50:51.608184",
+      "confidence": 0.65,
+      "source_type": "live_scrape"
+    },
+    {
+      "university": "University of Duisburg-Essen",
+      "program": "Economics (M.Sc.)",
+      "nc_threshold": null,
+      "source_university_name": "Universität Duisburg-Essen",
+      "source_program_name": "Master Sozioökonomie",
+      "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438492%7C437437&P.vx=kurz",
+      "scraped_at": "2026-04-13T16:50:51.612756",
+      "confidence": 0.65,
+      "source_type": "live_scrape"
+    },
+    {
+      "university": "University of Duisburg-Essen",
+      "program": "Economics (B.Sc.)",
+      "nc_threshold": null,
+      "source_university_name": "Universität Duisburg-Essen",
+      "source_program_name": "Bachelor Lehramt Wirtschaft-Politik/Sozialwissenschaften",
+      "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438492%7C434990&P.vx=kurz",
+      "scraped_at": "2026-04-13T16:50:51.620684",
+      "confidence": 0.65,
+      "source_type": "live_scrape"
+    },
+    {
+      "university": "University of Duisburg-Essen",
+      "program": "Economics (B.Sc.)",
+      "nc_threshold": null,
+      "source_university_name": "Universität Duisburg-Essen",
+      "source_program_name": "Master Lehramt Wirtschaft-Politik/Sozialwissenschaften",
+      "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438492%7C434990&P.vx=kurz",
+      "scraped_at": "2026-04-13T16:50:51.620890",
+      "confidence": 0.65,
+      "source_type": "live_scrape"
+    },
+    {
+      "university": "University of Duisburg-Essen",
+      "program": "Political Science (B.A.)",
+      "nc_threshold": null,
+      "source_university_name": "Universität Duisburg-Essen",
+      "source_program_name": "Bachelor Erziehungswissenschaft (PO 2019)",
+      "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438159%7C437877&P.vx=kurz",
+      "scraped_at": "2026-04-13T16:50:51.645277",
+      "confidence": 0.65,
+      "source_type": "live_scrape"
+    },
+    {
+      "university": "University of Duisburg-Essen",
+      "program": "Mathematics (B.Sc.)",
+      "nc_threshold": null,
+      "source_university_name": "Universität Duisburg-Essen",
+      "source_program_name": "Bachelor of Science Maschinenbau",
+      "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C437065%7C436019&P.vx=kurz",
+      "scraped_at": "2026-04-13T16:50:52.197164",
+      "confidence": 0.65,
+      "source_type": "live_scrape"
+    },
+    {
+      "university": "University of Duisburg-Essen",
+      "program": "Mathematics (M.Sc.)",
+      "nc_threshold": null,
+      "source_university_name": "Universität Duisburg-Essen",
+      "source_program_name": "Master of Science Maschinenbau",
+      "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C437065%7C436019&P.vx=kurz",
+      "scraped_at": "2026-04-13T16:50:52.197259",
+      "confidence": 0.65,
+      "source_type": "live_scrape"
+    }
+  ]
+}

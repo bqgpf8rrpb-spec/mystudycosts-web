@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useMemo, useEffect, useRef } from 'react';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { useCurrency, type CurrencyCode } from '@/contexts/CurrencyContext';
 import {
   GraduationCap,
@@ -22,52 +22,23 @@ import {
   Utensils,
   Bus,
   ChevronRight,
+  Clock,
+  ExternalLink,
 } from 'lucide-react';
 import erasmusPartnersData from '@/data/erasmus-partners.json';
 import universitiesData from '@/data/universities.json';
-
-// Erasmus Grant Amounts (2026) - Monthly amounts for Study Abroad by country
-// Based on Erasmus+ 2026 grant tiers
-const ERASMUS_GRANTS_BY_COUNTRY: Record<string, number> = {
-  // €390/month: Higher living cost countries
-  'Austria': 390,
-  'Belgium': 390,
-  'Denmark': 390,
-  'Finland': 390,
-  'France': 390,
-  'Iceland': 390,
-  'Ireland': 390,
-  'Italy': 390,
-  'Liechtenstein': 390,
-  'Luxembourg': 390,
-  'Netherlands': 390,
-  'Norway': 390,
-  'Sweden': 390,
-  'Switzerland': 390,
-  'United Kingdom': 390,
-  // €330/month: Medium and lower living cost countries
-  'Cyprus': 330,
-  'Czech Republic': 330,
-  'Greece': 330,
-  'Malta': 330,
-  'Portugal': 330,
-  'Slovenia': 330,
-  'Spain': 330,
-  'Bulgaria': 330,
-  'Croatia': 330,
-  'Estonia': 330,
-  'Hungary': 330,
-  'Latvia': 330,
-  'Lithuania': 330,
-  'Poland': 330,
-  'Romania': 330,
-  'Slovakia': 330,
-  // Default fallback for countries not explicitly listed
-  'default': 330,
-};
-
-// Semester duration (months)
-const SEMESTER_DURATION = 6;
+import { getGermanUniversityId, getPartnersByGermanUniversity, getCityCostData, isVisaRelevantDestination } from '@/lib/erasmus-costs';
+import { partnerMatchesProgram } from '@/lib/program-subject-mapping';
+import type { ErasmusPartner } from '@/data/erasmus-partner-types';
+import PartnerVerificationBadge, { getPartnerCardBorderClass } from '@/components/PartnerVerificationBadge';
+import AffiliateLabel from '@/components/AffiliateLabel';
+import { trackEvent } from '@/lib/analytics';
+import { HEALTH_INSURANCE } from '@/lib/affiliate-links';
+import { AFFILIATE_ENABLED, AFFILIATE_TRACKING_ENABLED } from '@/lib/feature-flags';
+import { getErasmusGrant } from '@/lib/erasmus-grants';
+import { BAFOEG_ERASMUS_ADDON, BAFOEG_ERASMUS_TUITION_MAX, BAFOEG_ERASMUS_TRAVEL_ALLOWANCE } from '@/lib/bafoeg-logic';
+import { SEMESTER_DURATION_MONTHS, FRANKFURTER_API_URL } from '@/lib/constants';
+import { formatCurrency as formatCurrencyUtil } from '@/lib/format';
 
 // Exchange rates interface
 interface ExchangeRates {
@@ -84,20 +55,8 @@ interface FrankfurterApiResponse {
   rates: ExchangeRates;
 }
 
-interface PartnerUniversity {
-  name: string;
-  city: string;
-  country: string;
-  monthlyLivingCost: number;
-  travelCost: number;
-  insuranceCost: number;
-}
-
-interface ErasmusPartnerData {
-  germanUniversity: string;
-  courseOfStudy: string;
-  partners: PartnerUniversity[];
-}
+import type { PartnerUniversity, ErasmusPartnerData } from '@/data/erasmus-types';
+import { useErasmusStore } from '@/lib/store/useErasmusStore';
 
 interface CostBreakdown {
   partner: PartnerUniversity;
@@ -108,45 +67,38 @@ interface CostBreakdown {
   insuranceCost: number;
   totalCost: number;
   socialTopUp: number; // Social top-up amount (0 if not applicable)
+  germanUniSemesterFee: number; // Heimat-Uni Semesterbeitrag (full amount per semester)
 }
 
-interface ErasmusCalculatorProps {
-  selectedUniversity?: string;
-  selectedProgram?: string;
-  hasBAfoeg?: boolean;
-}
-
-export default function ErasmusCalculator({ 
-  selectedUniversity = '', 
-  selectedProgram = '',
-  hasBAfoeg: initialHasBAfoeg = false
-}: ErasmusCalculatorProps) {
+export default function ErasmusCalculator() {
   const t = useTranslations('Erasmus');
   const tBAfoeg = useTranslations('BAfoeg');
+  const locale = useLocale();
   const { selectedCurrency } = useCurrency();
+  const { selectedUniversity, selectedProgram, selectedPartner: initialSelectedPartner, hasBAfoeg: hasInlandsBAfoeg, setHasBAfoeg: setHasInlandsBAfoeg } = useErasmusStore();
   
-  // State for BAföG toggle
-  const [hasInlandsBAfoeg, setHasInlandsBAfoeg] = useState(initialHasBAfoeg);
-  
-  // State for cost breakdown toggle (track by partner index)
-  const [openBreakdownIndex, setOpenBreakdownIndex] = useState<number | null>(null);
-  
-  // State for selected partner university (for detailed view)
-  const [selectedPartnerIndex, setSelectedPartnerIndex] = useState<number | null>(null);
+  // State for cost breakdown toggle (expand living cost composition)
+  const [isCostBreakdownExpanded, setIsCostBreakdownExpanded] = useState(false);
   
   // State for funding deduction (total funding amount to subtract from costs)
   const [fundingDeduction, setFundingDeduction] = useState<number>(0);
+
+  // State for International Health Insurance override (null = use partner default)
+  const [internationalHealthInsuranceOverride, setInternationalHealthInsuranceOverride] = useState<number | null>(null);
+  // State for Visa & Documents (one-time cost, relevant for non-EU destinations)
+  const [visaAndDocumentsCost, setVisaAndDocumentsCost] = useState<number>(0);
   
   // Exchange rates state
   const [exchangeRates, setExchangeRates] = useState<ExchangeRates | null>(null);
   const [isLoadingRates, setIsLoadingRates] = useState(true);
+  const [hasExchangeRateError, setHasExchangeRateError] = useState(false);
 
-  // Auto-scroll to details when a partner is selected
+  // Auto-scroll to details when a partner is selected in ErasmusSelector
   useEffect(() => {
-    if (selectedPartnerIndex !== null) {
+    if (initialSelectedPartner) {
       document.getElementById('breakdown-anchor')?.scrollIntoView({ behavior: 'smooth' });
     }
-  }, [selectedPartnerIndex]);
+  }, [initialSelectedPartner]);
 
   // Fetch exchange rates on mount
   useEffect(() => {
@@ -162,7 +114,7 @@ export default function ErasmusCalculator({
           abortController.abort();
         }, 10000); // 10 second timeout
 
-        const response = await fetch('https://api.frankfurter.app/latest?from=EUR', {
+        const response = await fetch(FRANKFURTER_API_URL, {
           signal: abortController.signal,
         });
 
@@ -181,10 +133,12 @@ export default function ErasmusCalculator({
 
         if (isMounted) {
           setExchangeRates(data.rates);
+          setHasExchangeRateError(false);
         }
       } catch (error) {
         // Handle fetch errors gracefully (network errors, timeouts, invalid responses)
         if (isMounted) {
+          setHasExchangeRateError(true);
           setExchangeRates({
             USD: 1,
             INR: 1,
@@ -216,29 +170,78 @@ export default function ErasmusCalculator({
 
   const conversionRate = getRate(selectedCurrency);
 
-  // Get partner universities for selected combination
+  // Get partner universities for selected university AND program (no results when only university selected)
   const partnerUniversities = useMemo(() => {
     if (!selectedUniversity || !selectedProgram) return [];
+    
+    // Try new structure first
+    try {
+      const uniId = getGermanUniversityId(selectedUniversity);
+      if (uniId) {
+        const newPartners = getPartnersByGermanUniversity(uniId);
+        if (newPartners && newPartners.length > 0) {
+          // Convert and filter by program (subject_area)
+          return newPartners
+            .filter((partner: ErasmusPartner) =>
+              partnerMatchesProgram(partner.subject_area, selectedProgram)
+            )
+            .map((partner: ErasmusPartner) => {
+              const costData = getCityCostData(
+                partner.partner_city,
+                partner.partner_country,
+                partner.cost_index
+              );
+              return {
+                name: partner.partner_uni_name,
+                city: partner.partner_city,
+                country: partner.partner_country,
+                monthlyLivingCost: costData.monthlyLivingCost,
+                travelCost: costData.travelCost,
+                insuranceCost: costData.insuranceCost,
+                id: partner.id,
+                confidence: partner.confidence,
+                lastVerified: partner.last_verified,
+                facultyDepartment: partner.faculty_department,
+                spotsPerYear: partner.spots_per_year,
+                spotsPerSemester: partner.spots_per_semester ?? (partner.spots_per_year != null ? Math.floor(partner.spots_per_year / 2) : undefined),
+              } as PartnerUniversity;
+            });
+        }
+      }
+    } catch (error) {
+      console.error('Error loading new partner structure:', error);
+    }
+    
+    // Fallback to old structure (by university + program)
     const match = (erasmusPartnersData as ErasmusPartnerData[]).find(
       (data) =>
         data.germanUniversity === selectedUniversity &&
         data.courseOfStudy === selectedProgram
     );
-    return (match?.partners as PartnerUniversity[]) || [];
+    if (!match || match.partners === 'no_partners_available') return [];
+    return (match.partners as PartnerUniversity[]) || [];
   }, [selectedUniversity, selectedProgram]);
 
-  // Social Top-Up amount for BAföG recipients (2026)
-  const SOCIAL_TOP_UP_AMOUNT = 250;
+  // German home university semester fee (student pays while abroad)
+  const germanUniSemesterFee = useMemo(() => {
+    if (!selectedUniversity) return 0;
+    const uni = (universitiesData as Array<{ name: string; semesterFee?: number }>).find(
+      (u) => u.name === selectedUniversity
+    );
+    return uni?.semesterFee ?? 0;
+  }, [selectedUniversity]);
 
-  // Calculate cost breakdowns for each partner
+  // Calculate cost breakdowns for each partner (includes Heimat-Uni semester fee in costs)
   const costBreakdowns = useMemo((): CostBreakdown[] => {
+    const monthlySemesterFee = germanUniSemesterFee / SEMESTER_DURATION_MONTHS;
     return partnerUniversities.map((partner: PartnerUniversity) => {
-      const erasmusGrant = ERASMUS_GRANTS_BY_COUNTRY[partner.country] || ERASMUS_GRANTS_BY_COUNTRY['default'];
-      const socialTopUp = hasInlandsBAfoeg ? SOCIAL_TOP_UP_AMOUNT : 0;
+      const erasmusGrant = getErasmusGrant(partner.country).amount;
+      const socialTopUp = hasInlandsBAfoeg ? BAFOEG_ERASMUS_ADDON : 0;
       const totalGrant = erasmusGrant + socialTopUp;
-      const netMonthlyCost = partner.monthlyLivingCost - totalGrant;
-      const totalSemesterCost = netMonthlyCost * SEMESTER_DURATION;
-      const totalCost = totalSemesterCost + (partner.insuranceCost * SEMESTER_DURATION);
+      // Net monthly = Living - Grants + Insurance + Semester fee (Heimat-Uni)
+      const netMonthlyCost = partner.monthlyLivingCost - totalGrant + partner.insuranceCost + monthlySemesterFee;
+      const totalSemesterCost = netMonthlyCost * SEMESTER_DURATION_MONTHS;
+      const totalCost = totalSemesterCost;
 
       return {
         partner,
@@ -249,118 +252,82 @@ export default function ErasmusCalculator({
         insuranceCost: partner.insuranceCost,
         totalCost,
         socialTopUp, // Store separately for display
+        germanUniSemesterFee: germanUniSemesterFee,
       };
     });
-  }, [partnerUniversities, hasInlandsBAfoeg]);
+  }, [partnerUniversities, hasInlandsBAfoeg, germanUniSemesterFee]);
 
-  const formatCurrency = (amount: number): string => {
-    const converted = amount * conversionRate;
-    const rounded = Math.round(converted * 100) / 100;
-    const wholePart = Math.floor(rounded);
-    const centsPart = Math.round((rounded - wholePart) * 100);
-    const formattedWhole = wholePart.toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.');
-    
-    const currencySymbols: Record<CurrencyCode, string> = {
-      EUR: '€',
-      USD: '$',
-      INR: '₹',
-      CNY: '¥',
-      GBP: '£',
-    };
-    const symbol = currencySymbols[selectedCurrency] || '€';
-    
-    return `${symbol} ${formattedWhole},${centsPart.toString().padStart(2, '0')}`;
-  };
+  const formatCurrency = (amount: number): string =>
+    formatCurrencyUtil(amount, selectedCurrency, conversionRate);
 
-  // Only show results if we have selections and partners
+  // Show results only when university AND program selected (not when only university)
   const shouldShowResults = selectedUniversity && selectedProgram && partnerUniversities.length > 0;
+
+  // Detail view: show when partner selected in ErasmusSelector (no redundant list - selector has the partner cards)
+  const displayBreakdown = useMemo(() => {
+    if (!initialSelectedPartner || costBreakdowns.length === 0) return null;
+    return costBreakdowns.find(
+      (b) =>
+        b.partner.name === initialSelectedPartner.name &&
+        b.partner.city === initialSelectedPartner.city &&
+        b.partner.country === initialSelectedPartner.country
+    ) ?? null;
+  }, [initialSelectedPartner, costBreakdowns]);
 
   return (
     <div className="w-full max-w-4xl mx-auto px-4 pb-24">
       {shouldShowResults && costBreakdowns.length > 0 ? (
         <>
-          {/* --- LIST VIEW (Master) --- */}
-          <div className="space-y-4 mb-10">
-            <h2 className="text-xl font-bold text-white mb-4">Ergebnisse</h2>
-            
-            {/* Search Results Loop */}
-            {costBreakdowns.map((breakdown, index) => (
-              <div 
-                key={index}
-                onClick={() => setSelectedPartnerIndex(index)}
-                className={`
-                  group relative p-5 rounded-xl border cursor-pointer transition-all duration-300
-                  ${selectedPartnerIndex === index 
-                    ? 'bg-slate-800 border-cyan-500 shadow-[0_0_20px_rgba(6,182,212,0.15)]' 
-                    : 'bg-slate-900/50 border-slate-700 hover:border-cyan-500/50 hover:bg-slate-800/50'
-                  }
-                `}
-              >
-                <div className="flex justify-between items-center">
-                  <div className="flex items-center gap-4">
-                    {/* Number Badge or Icon */}
-                    <div className={`w-10 h-10 rounded-full flex items-center justify-center font-bold ${selectedPartnerIndex === index ? 'bg-cyan-500 text-slate-900' : 'bg-slate-800 text-slate-400'}`}>
-                      {breakdown.partner.name.charAt(0)}
-                    </div>
-                    <div>
-                      <h3 className="font-bold text-white">{breakdown.partner.name}</h3>
-                      <p className="text-sm text-slate-400">{breakdown.partner.city}, {breakdown.partner.country}</p>
-                    </div>
-                  </div>
-                  
-                  <div className="text-right">
-                    <div className="text-xs text-cyan-400 uppercase tracking-widest mb-1">Ø Kosten</div>
-                    <div className="text-xl font-bold text-white group-hover:text-cyan-300 transition-colors">
-                      {formatCurrency(breakdown.monthlyLivingCost)} <ChevronRight className="inline w-4 h-4" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-
-          {/* --- DETAIL VIEW (Slave) - Opens on Click --- */}
-          {selectedPartnerIndex !== null && costBreakdowns[selectedPartnerIndex] ? (
+          {hasExchangeRateError && (
+            <div className="mb-4 rounded-lg border border-yellow-500/30 bg-yellow-950/30 px-4 py-3 text-yellow-100 text-sm">
+              {t('exchangeRateFallback')}
+            </div>
+          )}
+          {/* --- DETAIL VIEW - Only when partner selected in ErasmusSelector above --- */}
+          {displayBreakdown ? (
             <div className="animate-in fade-in slide-in-from-bottom-10 duration-500 space-y-6">
               {/* Scroll Anchor */}
               <div id="breakdown-anchor" className="scroll-mt-24"></div>
               
               {(() => {
-                const breakdown = costBreakdowns[selectedPartnerIndex];
-                // Calculate Net Monthly Cost: (Living Cost - Grants + Insurance)
+                const breakdown = displayBreakdown;
+                const grantInfo = getErasmusGrant(breakdown.partner.country);
                 const baseLivingCost = breakdown.monthlyLivingCost;
-                const erasmusGrantAmount = breakdown.erasmusGrant - breakdown.socialTopUp; // Base grant without social top-up
-                const totalGrants = breakdown.erasmusGrant; // Total grants (base + social top-up if applicable)
-                const insuranceCost = breakdown.insuranceCost;
-                const netMonthlyCost = baseLivingCost - totalGrants + insuranceCost;
-                const totalSemesterCost = netMonthlyCost * SEMESTER_DURATION;
+                const erasmusGrantAmount = breakdown.erasmusGrant - breakdown.socialTopUp;
+                const totalGrants = breakdown.erasmusGrant;
+                const effectiveInsuranceCost = internationalHealthInsuranceOverride ?? breakdown.insuranceCost;
+                const monthlySemesterFee = breakdown.germanUniSemesterFee / SEMESTER_DURATION_MONTHS;
+                const visaCost = isVisaRelevantDestination(breakdown.partner.country) ? visaAndDocumentsCost : 0;
+                const netMonthlyCost = baseLivingCost - totalGrants + effectiveInsuranceCost + monthlySemesterFee;
+                const totalSemesterCost = netMonthlyCost * SEMESTER_DURATION_MONTHS;
+                const totalCost = totalSemesterCost + visaCost;
                 
                 return (
                   <>
                     {/* 1. FUNDING SECTION (The Yellow Box) */}
-                    {/* Forces render if selectedPartnerIndex exists */}
+                    {/* Funding section for selected partner */}
                     <div className="p-1 rounded-2xl bg-gradient-to-r from-amber-500/20 to-orange-500/20">
                       <div className="bg-slate-950/90 backdrop-blur-md p-6 rounded-2xl border border-amber-500/20">
                         <h3 className="text-lg font-bold text-amber-400 mb-4 flex items-center gap-2">
-                          <PiggyBank className="w-5 h-5" /> Finanzierung & Förderung
+                          <PiggyBank className="w-5 h-5" /> {t('fundingAndSupportTitle')}
                         </h3>
                         
                         {/* Erasmus Grant Summary */}
                         <div className="flex justify-between items-center mb-6 pb-6 border-b border-amber-500/10">
                           <div>
-                            <div className="text-white font-medium">Geschätzter Erasmus-Zuschuss</div>
-                            <div className="text-sm text-slate-400">Basierend auf Ländergruppe ({breakdown.partner.country})</div>
+                            <div className="text-white font-medium">{t('estimatedErasmusGrant')}</div>
+                            <div className="text-sm text-slate-400">{t('erasmusGrantBasedOn', { group: t(`erasmusGrantGroup${grantInfo.group}` as const), country: breakdown.partner.country })}</div>
                           </div>
                           <div className="text-2xl font-bold text-amber-400">
                             +{formatCurrency(erasmusGrantAmount)}
-                            <span className="text-xs text-amber-400/60">/mtl.</span>
+                            <span className="text-xs text-amber-400/60">{t('perMonthShort')}</span>
                           </div>
                         </div>
 
                         {/* BAföG Checker */}
                         <div className="space-y-4">
                           <div className="flex items-center justify-between">
-                            <span className="text-white">Beziehst du Inlands-BAföG?</span>
+                            <span className="text-white">{t('hasDomesticBafoeg')}</span>
                             <button
                               type="button"
                               onClick={() => setHasInlandsBAfoeg(!hasInlandsBAfoeg)}
@@ -382,30 +349,33 @@ export default function ErasmusCalculator({
                               <div>
                                 <div className="flex items-center gap-2 mb-3">
                                   <TrendingUp className="w-5 h-5 text-amber-400" />
-                                  <p className="text-amber-200 font-semibold">Jackpot! Im Ausland bekommst du wahrscheinlich noch mehr.</p>
+                                  <p className="text-amber-200 font-semibold">{t('bafoegEligibleTitle')}</p>
                                 </div>
                                 <ul className="space-y-2 text-sm text-amber-200">
                                   <li className="flex gap-2 items-start">
                                     <Plane className="w-4 h-4 mt-0.5 flex-shrink-0" />
-                                    <span><strong>500€</strong> Reisekostenpauschale (einmalig, EU)</span>
+                                    <span>{t('bafoegTravelAllowance', { amount: formatCurrency(BAFOEG_ERASMUS_TRAVEL_ALLOWANCE) })}</span>
                                   </li>
                                   <li className="flex gap-2 items-start">
                                     <TrendingUp className="w-4 h-4 mt-0.5 flex-shrink-0" />
-                                    <span><strong>300€</strong> Erasmus-Freibetrag (bis zu 300€ Erasmus-Geld werden NICHT angerechnet!)</span>
+                                    <span>{t('bafoegErasmusAllowance')}</span>
                                   </li>
                                   <li className="flex gap-2 items-start">
                                     <Shield className="w-4 h-4 mt-0.5 flex-shrink-0" />
-                                    <span>Krankenversicherungs-Zuschlag: ca. <strong>94€/Monat</strong> (falls zutreffend)</span>
+                                    <span>{t('bafoegInsuranceTopup')}</span>
                                   </li>
                                 </ul>
                               </div>
                             ) : (
                               <div>
                                 <p className="text-sm text-amber-200 mb-2">
-                                  <strong>Wichtig:</strong> Prüfe trotzdem deinen Anspruch!
+                                  {t('bafoegCheckStillImportant')}
                                 </p>
                                 <p className="text-sm text-amber-200/80">
-                                  <strong>Geheimtipp:</strong> Durch höhere Freibeträge im Ausland sind viele Studenten förderberechtigt, auch ohne Inlands-BAföG. Du könntest bis zu <strong>5.600€</strong> für Studiengebühren + <strong>500€</strong> Reisekosten erhalten.
+                                  {t('bafoegTipWithoutDomestic', {
+                                    tuition: formatCurrency(BAFOEG_ERASMUS_TUITION_MAX),
+                                    travel: formatCurrency(BAFOEG_ERASMUS_TRAVEL_ALLOWANCE),
+                                  })}
                                 </p>
                               </div>
                             )}
@@ -415,19 +385,53 @@ export default function ErasmusCalculator({
                     </div>
 
                     {/* 2. COST BREAKDOWN (The Calculation) */}
-                    <div className="p-8 rounded-2xl bg-slate-800 border border-slate-700">
+                    <div className={`p-8 rounded-2xl bg-slate-800 border border-slate-700 ${getPartnerCardBorderClass(breakdown.partner.confidence, true)}`}>
                       {/* Hero Section: Net Monthly Cost */}
                       <div className="mb-6">
                         <div className="text-xs text-slate-400 uppercase tracking-wider mb-2">
-                          Dein monatlicher Eigenanteil
+                          {t('yourMonthlyShare')}
                         </div>
                         <div className="text-5xl font-extrabold text-white mb-2">
                           {formatCurrency(Math.max(0, netMonthlyCost))}
                         </div>
                         <div className="text-sm text-slate-400">
-                          Gesamtkosten für 1 Semester: {formatCurrency(Math.max(0, totalSemesterCost))}
+                          {t('totalSemesterCostLabel')}: {formatCurrency(Math.max(0, totalCost))}
+                          {visaCost > 0 && (
+                            <span className="text-slate-500 ml-1">
+                              {t('includingVisaDocuments', { amount: formatCurrency(visaCost) })}
+                            </span>
+                          )}
                         </div>
                       </div>
+
+                      {/* Verification info */}
+                      {(breakdown.partner.confidence || breakdown.partner.lastVerified || breakdown.partner.facultyDepartment || breakdown.partner.spotsPerYear || breakdown.partner.spotsPerSemester) && (
+                        <div className="mb-6 flex flex-wrap gap-3 text-xs text-slate-400">
+                          {breakdown.partner.confidence && (
+                            <PartnerVerificationBadge confidence={breakdown.partner.confidence} />
+                          )}
+                          {breakdown.partner.lastVerified && (
+                            <span className="inline-flex items-center gap-1">
+                              <Clock className="w-3 h-3" />
+                              {t('verifiedOn')}: {new Date(breakdown.partner.lastVerified).toLocaleDateString(locale === 'en' ? 'en-GB' : 'de-DE')}
+                            </span>
+                          )}
+                          {breakdown.partner.facultyDepartment && (
+                            <span className="inline-flex items-center gap-1">
+                              <Book className="w-3 h-3" />
+                              {breakdown.partner.facultyDepartment.split('||')[0].trim()}
+                            </span>
+                          )}
+                          {(breakdown.partner.spotsPerSemester ?? breakdown.partner.spotsPerYear) && (
+                            <span className="inline-flex items-center gap-1">
+                              <GraduationCap className="w-3 h-3" />
+                              {breakdown.partner.spotsPerSemester != null
+                                ? t('spotsPerSemester', { count: breakdown.partner.spotsPerSemester })
+                                : t('spotsPerYear', { count: breakdown.partner.spotsPerYear })}
+                            </span>
+                          )}
+                        </div>
+                      )}
 
                       {/* Divider */}
                       <div className="border-t border-slate-700 my-6"></div>
@@ -437,7 +441,7 @@ export default function ErasmusCalculator({
                         {/* Ø Living Cost */}
                         <div 
                           className="flex items-center justify-between cursor-pointer group pb-3 border-b border-slate-700/50"
-                          onClick={() => setOpenBreakdownIndex(openBreakdownIndex === selectedPartnerIndex ? null : selectedPartnerIndex)}
+                          onClick={() => setIsCostBreakdownExpanded((prev) => !prev)}
                         >
                           <div className="flex items-center gap-2">
                             <span className="text-slate-300 text-sm">{t('monthlyLivingCost')}</span>
@@ -448,36 +452,36 @@ export default function ErasmusCalculator({
                             </div>
                             {/* Label & Arrow */}
                             <div className="flex items-center gap-1 text-teal-400 text-xs font-medium bg-teal-500/10 px-2.5 py-1 rounded-full border border-teal-500/20 group-hover:bg-teal-500/20 transition-colors">
-                              <span>Ø Durchschnitt</span>
-                              <ChevronDown className={`w-3.5 h-3.5 transition-transform duration-300 ${openBreakdownIndex === selectedPartnerIndex ? 'rotate-180' : ''}`} />
+                              <span>{t('averageLabel')}</span>
+                              <ChevronDown className={`w-3.5 h-3.5 transition-transform duration-300 ${isCostBreakdownExpanded ? 'rotate-180' : ''}`} />
                             </div>
                           </div>
                         </div>
 
                         {/* Collapsible Breakdown Table */}
-                        {openBreakdownIndex === selectedPartnerIndex && (
+                        {isCostBreakdownExpanded && (
                           <div className="mt-3 pt-3 border-t border-slate-700/50 animate-in fade-in slide-in-from-top-2 duration-300">
-                            <h4 className="text-xs uppercase tracking-wider text-slate-500 mb-3">Zusammensetzung</h4>
+                            <h4 className="text-xs uppercase tracking-wider text-slate-500 mb-3">{t('costComposition')}</h4>
                             
                             <div className="space-y-2.5 text-sm">
                               <div className="flex justify-between items-center text-slate-300">
                                 <span className="flex items-center gap-2">
                                   <Home className="w-4 h-4 text-slate-500" />
-                                  Miete (WG-Zimmer)
+                                  {t('costRentSharedRoom')}
                                 </span>
                                 <span className="font-medium">~{formatCurrency(Math.round(baseLivingCost * 0.45))}</span>
                               </div>
                               <div className="flex justify-between items-center text-slate-300">
                                 <span className="flex items-center gap-2">
                                   <Utensils className="w-4 h-4 text-slate-500" />
-                                  Lebensmittel
+                                  {t('costGroceries')}
                                 </span>
                                 <span className="font-medium">~{formatCurrency(Math.round(baseLivingCost * 0.30))}</span>
                               </div>
                               <div className="flex justify-between items-center text-slate-300">
                                 <span className="flex items-center gap-2">
                                   <Bus className="w-4 h-4 text-slate-500" />
-                                  Mobilität & Freizeit
+                                  {t('costMobilityLeisure')}
                                 </span>
                                 <span className="font-medium">~{formatCurrency(Math.round(baseLivingCost * 0.25))}</span>
                               </div>
@@ -493,23 +497,92 @@ export default function ErasmusCalculator({
 
                         {/* Social Top-Up (if BAföG recipient) */}
                         {breakdown.socialTopUp > 0 && (
-                          <div className="flex justify-between items-center text-emerald-400">
+                          <div data-testid="erasmus-social-topup" className="flex justify-between items-center text-emerald-400">
                             <span className="text-sm flex items-center gap-1">
                               <CheckCircle2 className="w-3 h-3" />
-                              {tBAfoeg('socialTopUp.monthlyAmount')}
+                              {tBAfoeg('socialTopUp.monthlyAmount', { amount: BAFOEG_ERASMUS_ADDON })}
                             </span>
                             <span className="font-medium">-{formatCurrency(breakdown.socialTopUp)}</span>
                           </div>
                         )}
 
-                        {/* Insurance (Addition) */}
-                        <div className="flex justify-between items-center text-slate-400">
-                          <span className="text-sm flex items-center gap-2">
-                            <Shield className="w-4 h-4 text-slate-500" />
-                            {t('insuranceCost')}
-                          </span>
-                          <span className="font-medium">+{formatCurrency(insuranceCost)}</span>
+                        {/* International Health Insurance (Addition) - user editable */}
+                        <div className="flex flex-col gap-1">
+                          <div className="flex justify-between items-center text-slate-400">
+                            <span className="text-sm flex items-center gap-2">
+                              <Shield className="w-4 h-4 text-slate-500" />
+                              {t('internationalHealthInsurance')}
+                              <AffiliateLabel variant="subtle" />
+                            </span>
+                            <div className="flex items-center gap-2">
+                              <input
+                                type="number"
+                                min={0}
+                                step={5}
+                                value={internationalHealthInsuranceOverride ?? effectiveInsuranceCost}
+                                onChange={(e) => {
+                                  const v = parseFloat(e.target.value);
+                                  setInternationalHealthInsuranceOverride(Number.isNaN(v) ? null : v);
+                                }}
+                                className="w-20 px-2 py-1 text-sm bg-slate-900 border border-slate-600 rounded text-white"
+                              />
+                              <span className="text-xs text-slate-500">{t('perMonthShortEuro')}</span>
+                            </div>
+                          </div>
+                          {AFFILIATE_ENABLED && HEALTH_INSURANCE && !HEALTH_INSURANCE.startsWith('YOUR_') && (
+                            <a
+                              href={HEALTH_INSURANCE}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              onClick={() => {
+                                if (AFFILIATE_TRACKING_ENABLED) trackEvent('click_affiliate_link', 'Erasmus', 'HealthInsurance');
+                              }}
+                              className="text-xs text-teal-400 hover:text-teal-300 inline-flex items-center gap-1"
+                            >
+                              {t('compareInsuranceProviders')}
+                              <ExternalLink className="w-3 h-3" />
+                            </a>
+                          )}
                         </div>
+
+                        {/* Visa & Documents (one-time) - only relevant for non-EU destinations */}
+                        <div className="flex flex-col gap-1">
+                          <div className="flex justify-between items-center text-slate-400">
+                            <span className="text-sm flex items-center gap-2" title={t('visaAndDocumentsHint')}>
+                              <Plane className="w-4 h-4 text-slate-500" />
+                              {t('visaAndDocuments')}
+                              {!isVisaRelevantDestination(breakdown.partner.country) && (
+                                <Info className="w-3.5 h-3.5 text-slate-500" aria-label={t('visaAndDocumentsHint')} />
+                              )}
+                            </span>
+                            <div className="flex items-center gap-2">
+                              <input
+                                type="number"
+                                min={0}
+                                step={10}
+                                value={visaAndDocumentsCost}
+                                onChange={(e) => setVisaAndDocumentsCost(Math.max(0, parseFloat(e.target.value) || 0))}
+                                className="w-20 px-2 py-1 text-sm bg-slate-900 border border-slate-600 rounded text-white"
+                                title={t('visaAndDocumentsHint')}
+                              />
+                              <span className="text-xs text-slate-500">€</span>
+                            </div>
+                          </div>
+                          {!isVisaRelevantDestination(breakdown.partner.country) && (
+                            <p className="text-xs text-slate-500">{t('visaAndDocumentsHint')}</p>
+                          )}
+                        </div>
+
+                        {/* Semester fee (Heimat-Uni) */}
+                        {breakdown.germanUniSemesterFee > 0 && (
+                          <div className="flex justify-between items-center text-slate-400">
+                            <span className="text-sm flex items-center gap-2">
+                              <GraduationCap className="w-4 h-4 text-slate-500" />
+                              {t('homeUniversitySemesterFee')}
+                            </span>
+                            <span className="font-medium">+{formatCurrency(breakdown.germanUniSemesterFee)}</span>
+                          </div>
+                        )}
                       </div>
                     </div>
                   </>
@@ -522,9 +595,9 @@ export default function ErasmusCalculator({
         /* Empty State Placeholder */
         <div className="mt-8 flex flex-col items-center justify-center p-12 rounded-2xl border border-dashed border-slate-700 bg-slate-900/20 text-slate-400">
           <Search className="w-12 h-12 mb-4 opacity-50" />
-          <p className="text-lg mb-2">Wohin soll es gehen?</p>
+          <p className="text-lg mb-2">{t('emptyStateTitle')}</p>
           <p className="text-sm text-center max-w-md">
-            Wähle eine Stadt oder Uni, um deine Kosten und Förderung zu berechnen.
+            {t('emptyStateSubtitle')}
           </p>
         </div>
       )}

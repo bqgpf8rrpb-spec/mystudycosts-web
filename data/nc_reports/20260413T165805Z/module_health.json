@@ -1,0 +1,12 @@
+[
+  {
+    "university_id": "fau_erlangen_static",
+    "status": "success",
+    "records_extracted": 224,
+    "records_normalized": 85,
+    "duration_ms": 38950,
+    "error": null,
+    "retries": 0,
+    "used_fallback_cache": false
+  }
+]

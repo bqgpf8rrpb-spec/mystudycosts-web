@@ -1,0 +1,737 @@
+{
+  "university_id": "HAW_HAMBURG",
+  "university_name": "HAW Hamburg",
+  "portal_url": "https://www.haw-hamburg.de/international/partnerhochschulen-a-z/",
+  "portal_type": "university_website",
+  "scraped_at": "2026-03-15T22:06:55.678Z",
+  "strategy": "custom_scraper",
+  "partner_count": 121,
+  "partners": [
+    {
+      "partner_name": "Accademia di Belle Arti, Bologna",
+      "country": "faculty-5750;faculty-5744",
+      "city": "Italien country-854",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Akdeniz University",
+      "country": "faculty-5736",
+      "city": "Türkei country-869",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Berner Fachhochschule",
+      "country": "faculty-5750",
+      "city": "Schweiz country-865",
+      "faculty_department": "HAWeltweit program-797"
+    },
+    {
+      "partner_name": "Beykent University",
+      "country": "faculty-5750;faculty-5748;faculty-5744;faculty-5738",
+      "city": "Türkei country-869",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Bezalel Academy of Arts and Design",
+      "country": "faculty-5750",
+      "city": "Israel country-878",
+      "faculty_department": "HAWeltweit program-797"
+    },
+    {
+      "partner_name": "Bogazici University",
+      "country": "faculty-5742",
+      "city": "Türkei country-869",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Budapest Metropolitan University of Applied Sciences",
+      "country": "faculty-5746",
+      "city": "Ungarn country-870",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "California State University, Long Beach",
+      "country": "faculty-5750;faculty-5748;faculty-5746;faculty-5744;faculty-5740;faculty-5738;faculty-5736;faculty-5734",
+      "city": "USA country-886",
+      "faculty_department": "HAW goes USA program-775"
+    },
+    {
+      "partner_name": "Canakkale Onsekiz Mart University",
+      "country": "faculty-5746",
+      "city": "Türkei country-869",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Chulalongkorn University",
+      "country": "faculty-5738",
+      "city": "Thailand country-885",
+      "faculty_department": "HAWeltweit program-797"
+    },
+    {
+      "partner_name": "Curtin University",
+      "country": "faculty-5750;faculty-5748;faculty-5746;faculty-5744;faculty-5738;faculty-5736",
+      "city": "Australien country-873",
+      "faculty_department": "HAW Down Under program-795"
+    },
+    {
+      "partner_name": "Czech University of Life Sciences Prague",
+      "country": "faculty-5742",
+      "city": "Tschechien country-868",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Dalarna University",
+      "country": "faculty-5742",
+      "city": "Schweden country-864",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Deakin University",
+      "country": "faculty-5750;faculty-5748;faculty-5746;faculty-5744;faculty-5742;faculty-5738;faculty-5736",
+      "city": "Australien country-873",
+      "faculty_department": "HAW Down Under program-795"
+    },
+    {
+      "partner_name": "Design School Kolding",
+      "country": "faculty-5750;faculty-5744;faculty-5738",
+      "city": "Dänemark country-847",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Deutsch-Kasachische University, Almaty",
+      "country": "faculty-5742;faculty-5738",
+      "city": "Kasachstan country-880",
+      "faculty_department": "HAWeltweit program-797"
+    },
+    {
+      "partner_name": "Drexel University, Philadelphia",
+      "country": "faculty-5748;faculty-5744;faculty-5742;faculty-5740;faculty-5736",
+      "city": "USA country-886",
+      "faculty_department": "HAW goes USA program-775"
+    },
+    {
+      "partner_name": "Durban University of Technology",
+      "country": "faculty-5746",
+      "city": "Südafrika country-882",
+      "faculty_department": "HAWeltweit program-797"
+    },
+    {
+      "partner_name": "École d'ingénieurs ESTACA, Paris",
+      "country": "faculty-5740",
+      "city": "Frankreich country-850",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Ecole de Management de Normandie",
+      "country": "faculty-5738",
+      "city": "Frankreich country-850",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Ecole Supérieure d'Arts et Médias de Caen/Cherbourg",
+      "country": "faculty-5750",
+      "city": "Frankreich country-850",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Edinburgh Napier University",
+      "country": "faculty-5738",
+      "city": "Vereinigtes Königreich country-871",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "EFAP/Groupe EDH, Paris",
+      "country": "faculty-5750;faculty-5744;faculty-5738",
+      "city": "Frankreich country-850",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "ENSAD, Paris",
+      "country": "faculty-5750;faculty-5738",
+      "city": "Frankreich country-850",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Esa Saint-Luc Bruxelles",
+      "country": "faculty-5750",
+      "city": "Belgien country-845",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Escola Massana, Barcelona",
+      "country": "faculty-5750",
+      "city": "Spanien country-867",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Escola Superior de Disseny Felicidad Duce, Barcelona",
+      "country": "",
+      "city": "Spanien country-867",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Escuela de Arte y Superior de Disefro de Valencia (EASD)",
+      "country": "faculty-5750;faculty-5748;faculty-5744;faculty-5738",
+      "city": "Spanien country-867",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Estonian Academy of Security Sciences",
+      "country": "faculty-5742",
+      "city": "Estland country-848",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Fachhochschule Graubünden",
+      "country": "faculty-5748;faculty-5744;faculty-5738",
+      "city": "Schweiz country-865",
+      "faculty_department": "HAWeltweit program-797"
+    },
+    {
+      "partner_name": "Fachhochschule Nordwestschweiz",
+      "country": "faculty-5734",
+      "city": "Schweiz country-865",
+      "faculty_department": "HAWeltweit program-797"
+    },
+    {
+      "partner_name": "FH Campus Wien - University of Applied Sciences",
+      "country": "faculty-5746;faculty-5734",
+      "city": "Österreich country-859",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "FH Joanneum Graz",
+      "country": "faculty-5746",
+      "city": "Österreich country-859",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "FH Oberösterreich",
+      "country": "faculty-5746;faculty-5742;faculty-5734",
+      "city": "Österreich country-859",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "FH St. Pölten",
+      "country": "faculty-5748",
+      "city": "Österreich country-859",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "FH Wiener Neustadt",
+      "country": "faculty-5746;faculty-5742",
+      "city": "Österreich country-859",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Glasgow Caledonian University",
+      "country": "faculty-5750;faculty-5748;faculty-5744;faculty-5738",
+      "city": "Vereinigtes Königreich country-871",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Griffith University",
+      "country": "",
+      "city": "Australien country-873",
+      "faculty_department": "HAW Down Under program-795"
+    },
+    {
+      "partner_name": "Hanoi University of Science and Technology (HUST)",
+      "country": "faculty-5748;faculty-5744;faculty-5742;faculty-5740;faculty-5738;faculty-5736",
+      "city": "Vietnam country-887",
+      "faculty_department": "HAWeltweit program-797"
+    },
+    {
+      "partner_name": "Hanzehogeschool Groningen",
+      "country": "faculty-5750;faculty-5748;faculty-5744;faculty-5738",
+      "city": "Niederlande country-857",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Harokopio University",
+      "country": "faculty-5746",
+      "city": "Griechenland country-851",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "HEAD Genéve",
+      "country": "faculty-5750",
+      "city": "Schweiz country-865",
+      "faculty_department": "HAWeltweit program-797"
+    },
+    {
+      "partner_name": "Hochschule der Künste Bern",
+      "country": "faculty-5750",
+      "city": "Schweiz country-865",
+      "faculty_department": "HAWeltweit program-797"
+    },
+    {
+      "partner_name": "Hochschule Luzern",
+      "country": "faculty-5738;faculty-5736;faculty-5734",
+      "city": "Schweiz country-865",
+      "faculty_department": "HAWeltweit program-797"
+    },
+    {
+      "partner_name": "Hogeschool Rotterdam",
+      "country": "faculty-5738",
+      "city": "Niederlande country-857",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Hogeschool Utrecht",
+      "country": "faculty-5750;faculty-5748;faculty-5746;faculty-5744;faculty-5742;faculty-5738;faculty-5736;faculty-5734",
+      "city": "Niederlande country-857",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Hogeschool van Amsterdam",
+      "country": "faculty-5738",
+      "city": "Niederlande country-857",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Hong Kong University of Science & Technology",
+      "country": "faculty-5748;faculty-5744;faculty-5740;faculty-5736;faculty-5742",
+      "city": "China country-877",
+      "faculty_department": "HAWeltweit program-797"
+    },
+    {
+      "partner_name": "Hungarian Academy of Fine Arts",
+      "country": "faculty-5750",
+      "city": "Ungarn country-870",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "HUTECH University of Technology",
+      "country": "faculty-5748;faculty-5744;faculty-5740;faculty-5738;faculty-5736",
+      "city": "Vietnam country-887",
+      "faculty_department": "HAWeltweit program-797"
+    },
+    {
+      "partner_name": "Iceland Academy of the Arts",
+      "country": "faculty-5750",
+      "city": "Island country-853",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Information Systems Management Institute (ISMA)",
+      "country": "faculty-5744",
+      "city": "Lettland country-855",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Institut Superieur d'Electronique de Paris (ISEP)",
+      "country": "faculty-5748;faculty-5744",
+      "city": "Frankreich country-850",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Instituto Politécnico de Coimbra",
+      "country": "faculty-5748;faculty-5744",
+      "city": "Portugal country-861",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Instituto Politécnico do Porto",
+      "country": "faculty-5742;faculty-5736",
+      "city": "Portugal country-861",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "JAMK University of Applied Sciences",
+      "country": "faculty-5746;faculty-5734",
+      "city": "Finnland country-849",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "KADK - The Royal Danish Academy",
+      "country": "faculty-5750",
+      "city": "Dänemark country-847",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Kanagawa University",
+      "country": "faculty-5738",
+      "city": "Japan country-986",
+      "faculty_department": "HAWeltweit program-797"
+    },
+    {
+      "partner_name": "Kangnam University",
+      "country": "faculty-5738;faculty-5734",
+      "city": "Südkorea country-883",
+      "faculty_department": "HAWeltweit program-797"
+    },
+    {
+      "partner_name": "Kaunas University of Technology",
+      "country": "faculty-5742",
+      "city": "Litauen country-856",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "KEA - Copenhagen School of Design and Technology",
+      "country": "faculty-5750;faculty-5748;faculty-5744",
+      "city": "Dänemark country-847",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "King Mongkut Institute of Technology",
+      "country": "faculty-5750",
+      "city": "Thailand country-885",
+      "faculty_department": "HAWeltweit program-797"
+    },
+    {
+      "partner_name": "Kingston University, UK",
+      "country": "faculty-5750",
+      "city": "Vereinigtes Königreich country-871",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Laurea University of Applied Sciences",
+      "country": "faculty-5746;faculty-5742;faculty-5738;faculty-5734",
+      "city": "Finnland country-849",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Leeds Trinity University",
+      "country": "faculty-5746;faculty-5744;faculty-5738;faculty-5734",
+      "city": "Vereinigtes Königreich country-871",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Liepaja University",
+      "country": "faculty-5744",
+      "city": "Lettland country-855",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Linköping University",
+      "country": "faculty-5740",
+      "city": "Schweden country-864",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Lithuanian University of Health Sciences",
+      "country": "faculty-5746",
+      "city": "Litauen country-856",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "LUCA School of Arts",
+      "country": "",
+      "city": "Belgien country-845",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Mälardalen University",
+      "country": "faculty-5742;faculty-5736",
+      "city": "Schweden country-864",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Malmö University",
+      "country": "faculty-5750",
+      "city": "Schweden country-864",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Manchester Metropolitan University",
+      "country": "faculty-5750",
+      "city": "Vereinigtes Königreich country-871",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Maryland Institute College of Art (MICA)",
+      "country": "faculty-5750",
+      "city": "USA country-886",
+      "faculty_department": "HAW goes USA program-775"
+    },
+    {
+      "partner_name": "Metropolia University of Applied Sciences",
+      "country": "faculty-5750;faculty-5748;faculty-5744;faculty-5740",
+      "city": "Finnland country-849",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "National Taiwan University of Science & Technology (Taiwan Tech)",
+      "country": "faculty-5748;faculty-5744;faculty-5742;faculty-5736",
+      "city": "Taiwan country-884",
+      "faculty_department": "HAWeltweit program-797"
+    },
+    {
+      "partner_name": "National University of Ireland",
+      "country": "faculty-5742",
+      "city": "Irland country-852",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Norwegian University of Life Sciences",
+      "country": "faculty-5746",
+      "city": "Norwegen country-858",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "OsloMet - Oslo Metropolitan University",
+      "country": "faculty-5746;faculty-5738",
+      "city": "Norwegen country-858",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Phenikaa University",
+      "country": "faculty-5748;faculty-5744;faculty-5740;faculty-5736",
+      "city": "Vietnam country-887",
+      "faculty_department": ""
+    },
+    {
+      "partner_name": "Poznan University of Economics and Business",
+      "country": "faculty-5746",
+      "city": "Polen country-860",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Radford University",
+      "country": "faculty-5746;faculty-5744",
+      "city": "USA country-886",
+      "faculty_department": "HAW goes USA program-775"
+    },
+    {
+      "partner_name": "Riga Technical University",
+      "country": "faculty-5740",
+      "city": "Lettland country-855",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "SAMK Satakunta University of Applied Sciences",
+      "country": "faculty-5748;faculty-5742",
+      "city": "Finnland country-849",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "San Diego State University",
+      "country": "faculty-5750;faculty-5748;faculty-5746;faculty-5744;faculty-5740;faculty-5738;faculty-5736",
+      "city": "USA country-886",
+      "faculty_department": "HAW goes USA program-775"
+    },
+    {
+      "partner_name": "Seoul National University of Science & Technology (Seoul Tech)",
+      "country": "faculty-5748;faculty-5744;faculty-5738;faculty-5736",
+      "city": "Südkorea country-883",
+      "faculty_department": "HAWeltweit program-797"
+    },
+    {
+      "partner_name": "Shanghai Institute of Technology",
+      "country": "faculty-5750",
+      "city": "China country-877",
+      "faculty_department": "HAWeltweit program-797"
+    },
+    {
+      "partner_name": "Shenkar College of Engineering & Design",
+      "country": "faculty-5750",
+      "city": "Israel country-878",
+      "faculty_department": "HAWeltweit program-797"
+    },
+    {
+      "partner_name": "South-Eastern Finland University of Applied Sciences",
+      "country": "faculty-5742",
+      "city": "Finnland country-849",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "State University of New York (SUNY)",
+      "country": "faculty-5744",
+      "city": "USA country-886",
+      "faculty_department": "HAW goes USA program-775"
+    },
+    {
+      "partner_name": "Tallinn University of Technology",
+      "country": "faculty-5744",
+      "city": "Estland country-848",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Tampere University of Applied Sciences / Tampere University",
+      "country": "faculty-5746;faculty-5740;faculty-5738;faculty-5736",
+      "city": "Finnland country-849",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Tec de Monterrey (ITESM)",
+      "country": "faculty-5750;faculty-5748;faculty-5746;faculty-5744;faculty-5742;faculty-5740;faculty-5738;faculty-5736;faculty-5734",
+      "city": "Mexiko country-881",
+      "faculty_department": "HAWeltweit program-797"
+    },
+    {
+      "partner_name": "Technical University of Ostrava",
+      "country": "faculty-5742",
+      "city": "Tschechien country-868",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Technical University of Sofia",
+      "country": "faculty-5736",
+      "city": "Bulgarien country-846",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "The Hague University of Applied Sciences",
+      "country": "faculty-5746",
+      "city": "Niederlande country-857",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "TU Dublin",
+      "country": "faculty-5748;faculty-5744;faculty-5738;faculty-5736",
+      "city": "Irland country-852",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Turku University of Applied Sciences",
+      "country": "faculty-5748;faculty-5746;faculty-5744;faculty-5742;faculty-5738;faculty-5734",
+      "city": "Finnland country-849",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "UNISINOS - Universidade do Vale do Rio dos Sinos",
+      "country": "",
+      "city": "Brasilien country-875",
+      "faculty_department": "HAWeltweit program-797"
+    },
+    {
+      "partner_name": "Universidad Carlos III de Madrid",
+      "country": "faculty-5738",
+      "city": "Spanien country-867",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Universidad Católica Boliviana (UCB)",
+      "country": "faculty-5748;faculty-5744;faculty-5742;faculty-5736",
+      "city": "Bolivien country-874",
+      "faculty_department": "HAWeltweit program-797"
+    },
+    {
+      "partner_name": "Universidad de Alcalá",
+      "country": "faculty-5746",
+      "city": "Spanien country-867",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Universidad de Burgos",
+      "country": "faculty-5744;faculty-5740;faculty-5736",
+      "city": "Spanien country-867",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Universidad de Cádiz",
+      "country": "faculty-5740;faculty-5736",
+      "city": "Spanien country-867",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Universidad de Huelva",
+      "country": "faculty-5736",
+      "city": "Spanien country-867",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Universidad de Málaga",
+      "country": "faculty-5746;faculty-5738;faculty-5734",
+      "city": "Spanien country-867",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Universidad de Talca",
+      "country": "faculty-5750;faculty-5748;faculty-5746;faculty-5744;faculty-5742;faculty-5738;faculty-5736;faculty-5734",
+      "city": "Chile country-876",
+      "faculty_department": "HAWeltweit program-797"
+    },
+    {
+      "partner_name": "Universidad de València",
+      "country": "faculty-5746;faculty-5742;faculty-5740;faculty-5738;faculty-5736;faculty-5734",
+      "city": "Spanien country-867",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Universidad de Zaragoza",
+      "country": "faculty-5748;faculty-5746",
+      "city": "Spanien country-867",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Universidad del Pais Vasco",
+      "country": "faculty-5742",
+      "city": "Spanien country-867",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Universidad Politécnica de Madrid",
+      "country": "faculty-5740",
+      "city": "Spanien country-867",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Universidade de Europeia",
+      "country": "faculty-5738",
+      "city": "Portugal country-861",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Universidade de Passo Fundo",
+      "country": "faculty-5748;faculty-5746;faculty-5744;faculty-5742;faculty-5738;faculty-5736;faculty-5734",
+      "city": "Brasilien country-875",
+      "faculty_department": "HAWeltweit program-797"
+    },
+    {
+      "partner_name": "Universidade Estadual de Campinas (UNICAMP)",
+      "country": "faculty-5748;faculty-5744;faculty-5740;faculty-5738;faculty-5736;faculty-5734",
+      "city": "Brasilien country-875",
+      "faculty_department": "HAWeltweit program-797"
+    },
+    {
+      "partner_name": "VIA University College",
+      "country": "faculty-5750;faculty-5748;faculty-5746;faculty-5744;faculty-5738;faculty-5736;faculty-5734",
+      "city": "Dänemark country-847",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Virginia Tech",
+      "country": "faculty-5748;faculty-5744;faculty-5740;faculty-5736",
+      "city": "USA country-886",
+      "faculty_department": "HAW goes USA program-775"
+    },
+    {
+      "partner_name": "Vives University of Applied Sciences",
+      "country": "faculty-5740",
+      "city": "Belgien country-845",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "West University of Timisoara",
+      "country": "faculty-5744",
+      "city": "Rumänien country-862",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Wichita State University",
+      "country": "faculty-5748;faculty-5746;faculty-5744;faculty-5742;faculty-5740;faculty-5738;faculty-5736",
+      "city": "USA country-886",
+      "faculty_department": "HAW goes USA program-775"
+    },
+    {
+      "partner_name": "Yamanashi Gakuin University (iCLA)",
+      "country": "faculty-5750;faculty-5738",
+      "city": "Japan country-986",
+      "faculty_department": "HAWeltweit program-797"
+    },
+    {
+      "partner_name": "Yeditepe University",
+      "country": "faculty-5746",
+      "city": "Türkei country-869",
+      "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Zürcher Hochschule für Angewandte Wissenschaften",
+      "country": "faculty-5746;faculty-5742",
+      "city": "Schweiz country-865",
+      "faculty_department": "HAWeltweit program-797"
+    }
+  ]
+}

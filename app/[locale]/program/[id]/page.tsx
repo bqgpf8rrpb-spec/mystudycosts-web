@@ -3,6 +3,10 @@ import type { Metadata } from 'next';
 import ncIndexData from '@/data/nc_search_index.json';
 import { parseProgramId, toSlug } from '@/lib/url-slug';
 import ProgramDetailContent from '@/components/program/ProgramDetailContent';
+import FAQ from '@/components/seo/FAQ';
+import TLDR from '@/components/seo/TLDR';
+import { FAQ_BY_PAGE } from '@/data/faq';
+import { getBaseUrl } from '@/lib/site-config';
 
 interface ProgramPageProps {
   params: Promise<{
@@ -73,28 +77,36 @@ export async function generateMetadata({ params }: ProgramPageProps): Promise<Me
   const { locale, id } = await params;
   const program = findProgramById(id);
   
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://mystudycosts.com';
+  const baseUrl = getBaseUrl();
   const siteUrl = `${baseUrl}/${locale}`;
   
   if (!program) {
     return {
-      title: 'Programm nicht gefunden',
-      description: 'Das angeforderte Programm konnte nicht gefunden werden.',
+      title: locale === 'de' ? 'Programm nicht gefunden' : 'Program not found',
+      description:
+        locale === 'de'
+          ? 'Das angeforderte Programm konnte nicht gefunden werden.'
+          : 'The requested program could not be found.',
     };
   }
   
   // Generate dynamic title
-  const ncText = program.nc !== null && program.nc > 0 
-    ? `NC ${program.nc}` 
-    : 'zulassungsfrei';
-  const title = `NC & Kosten: ${program.programName} an der ${program.university} ${program.city} (Stand 2026)`;
+  const title =
+    locale === 'de'
+      ? `NC fuer ${program.programName} in ${program.city} 2026 | mystudycosts`
+      : `Admission limits for ${program.programName} in ${program.city} 2026 | mystudycosts`;
   
   // Generate dynamic description
-  const ncValue = program.nc !== null && program.nc > 0 ? program.nc.toFixed(1) : 'keinen';
-  const erasmusText = program.erasmusCount > 0 
-    ? ` ${program.erasmusCount} Erasmus-Partner` 
-    : '';
-  const description = `Aktueller NC von ${ncValue}, monatliche Fixkosten von ${program.totalMonthlyCosts}€ und${erasmusText} für ${program.programName} in ${program.city}. Jetzt Studienplatz 2026 planen!`;
+  const ncValue =
+    program.nc !== null && program.nc > 0
+      ? program.nc.toFixed(1)
+      : locale === 'de'
+        ? 'zulassungsfrei'
+        : 'open admission';
+  const description =
+    locale === 'de'
+      ? `Aktueller NC (${ncValue}), monatliche Kosten (${program.totalMonthlyCosts} EUR) und Hochschulvergleich fuer ${program.programName} in ${program.city}.`
+      : `Current admission limit (${ncValue}), monthly study costs (${program.totalMonthlyCosts} EUR), and university comparison for ${program.programName} in ${program.city}.`;
   
   // Generate OG image URL (optional - can be created dynamically)
   const ogImageUrl = `${siteUrl}/og-image?title=${encodeURIComponent(program.programName)}&university=${encodeURIComponent(program.university)}`;
@@ -135,6 +147,11 @@ export async function generateMetadata({ params }: ProgramPageProps): Promise<Me
     },
     alternates: {
       canonical: `${siteUrl}/program/${id}`,
+      languages: {
+        de: `${baseUrl}/de/program/${id}`,
+        en: `${baseUrl}/en/program/${id}`,
+        'x-default': `${baseUrl}/de/program/${id}`,
+      },
     },
   };
 }
@@ -155,9 +172,23 @@ export default async function ProgramPage({ params }: ProgramPageProps) {
       : 'Uni') as 'Uni' | 'FH' | 'Privat',
   };
   
+  const faqItems = FAQ_BY_PAGE.program[locale as 'de' | 'en'] ?? FAQ_BY_PAGE.program.en;
+
+  const ncText = program.nc !== null && program.nc > 0 ? program.nc.toString() : (locale === 'de' ? 'zulassungsfrei' : 'open admission');
+  const tldrSummary =
+    locale === 'de'
+      ? `NC ${ncText}, ${program.totalMonthlyCosts}€/Monat, ${program.erasmusCount} Erasmus-Partner für ${program.programName} an der ${program.university}.`
+      : `NC ${ncText}, ${program.totalMonthlyCosts}€/month, ${program.erasmusCount} Erasmus partners for ${program.programName} at ${program.university}.`;
+
   return (
     <main className="min-h-screen bg-slate-900 py-12 px-4 pb-40">
-      <ProgramDetailContent program={programData} locale={locale} />
+      <div className="max-w-4xl mx-auto">
+        <TLDR summary={tldrSummary} />
+        <ProgramDetailContent program={programData} locale={locale} />
+        <section className="mt-16">
+          <FAQ items={faqItems} />
+        </section>
+      </div>
     </main>
   );
 }

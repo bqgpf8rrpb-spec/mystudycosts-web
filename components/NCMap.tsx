@@ -1,11 +1,13 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
+import { useEffect, useMemo, useRef } from 'react';
+import { useTranslations } from 'next-intl';
 import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import cityCoordinates from '@/data/city-coordinates.json';
 import { type ProgramMatchType } from '@/lib/nc-filter';
+import type { UniversityWithMatch } from '@/types/university';
 
 // Fix for default marker icons in Next.js
 if (typeof window !== 'undefined') {
@@ -17,26 +19,11 @@ if (typeof window !== 'undefined') {
   });
 }
 
-interface UniversityWithMatch {
-  university: {
-    name: string;
-    city: string;
-    type: 'public' | 'private';
-  };
-  program: {
-    name: string;
-    nc_threshold: number;
-    waiting_semesters: number;
-  };
-  matchType: ProgramMatchType;
-  ncThreshold: number;
-  waitingSemesters: number;
-  isNCFree: boolean;
-}
-
 interface NCMapProps {
   universities: UniversityWithMatch[];
   onMarkerClick?: (universityName: string) => void;
+  onToggleComparison?: (item: UniversityWithMatch) => void;
+  isSelectedForComparison?: (item: UniversityWithMatch) => boolean;
 }
 
 // Create color-coded marker based on match type
@@ -139,22 +126,52 @@ function MapViewUpdater({ universities }: { universities: UniversityWithMatch[] 
   return null;
 }
 
-export default function NCMap({ universities, onMarkerClick }: NCMapProps) {
+export default function NCMap({
+  universities,
+  onMarkerClick,
+  onToggleComparison,
+  isSelectedForComparison,
+}: NCMapProps) {
+  const t = useTranslations('NCChecker');
   const mapRef = useRef<L.Map | null>(null);
 
-  // Get universities with coordinates
-  const universitiesWithCoords = universities
-    .map((item) => {
-      const coords = (cityCoordinates as Record<string, { lat: number; lng: number }>)[item.university.city];
-      if (!coords) return null;
-      return { ...item, lat: coords.lat, lng: coords.lng };
-    })
-    .filter((item): item is UniversityWithMatch & { lat: number; lng: number } => item !== null);
+  // Group programs by university + city so popups can show all programs at one marker.
+  const markerGroups = useMemo(() => {
+    const map = new Map<string, {
+      key: string;
+      universityName: string;
+      city: string;
+      lat: number;
+      lng: number;
+      programs: UniversityWithMatch[];
+    }>();
 
-  if (universitiesWithCoords.length === 0) {
+    universities.forEach((item) => {
+      const coords = (cityCoordinates as Record<string, { lat: number; lng: number }>)[item.university.city];
+      if (!coords) return;
+      const groupKey = `${item.university.name}__${item.university.city}`;
+      const existing = map.get(groupKey);
+      if (existing) {
+        existing.programs.push(item);
+        return;
+      }
+      map.set(groupKey, {
+        key: groupKey,
+        universityName: item.university.name,
+        city: item.university.city,
+        lat: coords.lat,
+        lng: coords.lng,
+        programs: [item],
+      });
+    });
+
+    return Array.from(map.values());
+  }, [universities]);
+
+  if (markerGroups.length === 0) {
     return (
       <div className="backdrop-blur-sm bg-slate-950/80 border border-white/10 rounded-xl p-8 text-center">
-        <p className="text-white/60 text-sm">No university locations available to display on map</p>
+        <p className="text-white/60 text-sm">{t('noUniversityLocationsOnMap')}</p>
       </div>
     );
   }
@@ -268,46 +285,67 @@ export default function NCMap({ universities, onMarkerClick }: NCMapProps) {
           subdomains={['a', 'b', 'c', 'd']}
         />
         <MapViewUpdater universities={universities} />
-        {universitiesWithCoords.map((item, index) => (
+        {markerGroups.map((group, index) => (
           <Marker
-            key={`${item.university.name}-${item.university.city}-${index}`}
-            position={[item.lat, item.lng]}
-            icon={createColoredMarker(item.matchType)}
+            key={`${group.key}-${index}`}
+            position={[group.lat, group.lng]}
+            icon={createColoredMarker(group.programs[0]?.matchType ?? 'available')}
             eventHandlers={{
               click: () => {
                 if (onMarkerClick) {
-                  onMarkerClick(item.university.name);
+                  onMarkerClick(group.universityName);
                 }
               },
             }}
           >
             <Popup>
               <div className="text-white">
-                <h3 className="font-bold text-base mb-3 text-blue-400">{item.university.name}</h3>
+                <h3 className="font-bold text-base mb-3 text-blue-400">{group.universityName}</h3>
                 <p className="text-sm text-white mb-2">
-                  <strong className="text-white">Location:</strong> {item.university.city}
+                  <strong className="text-white">{t('location')}:</strong> {group.city}
                 </p>
-                <p className="text-sm text-white mb-2">
-                  <strong className="text-white">Program:</strong> {item.program.name}
-                </p>
-                {!item.isNCFree ? (
-                  <p className="text-sm text-white mb-2">
-                    <strong className="text-white">NC Threshold:</strong> {item.ncThreshold.toFixed(1)}
-                  </p>
-                ) : (
-                  <p className="text-sm text-green-400 mb-2">
-                    <strong>NC-free</strong>
-                  </p>
-                )}
+                <div className="mt-2 space-y-2 border-t border-white/10 pt-2">
+                  {group.programs.map((programItem, programIdx) => {
+                    const selected = isSelectedForComparison?.(programItem) ?? false;
+                    return (
+                      <div key={`${programItem.program.name}-${programIdx}`} className="rounded-md border border-white/10 bg-slate-900/60 p-2">
+                        <p className="text-xs text-white/85">
+                          <strong className="text-white">{t('programLabel')}:</strong> {programItem.program.name}
+                        </p>
+                        {!programItem.isNCFree ? (
+                          <p className="text-xs text-white/75 mt-1">
+                            <strong className="text-white">{t('ncLabel')}:</strong> {programItem.ncThreshold.toFixed(1)}
+                          </p>
+                        ) : (
+                          <p className="text-xs text-green-400 mt-1">
+                            <strong>{t('ncFreeShort')}</strong>
+                          </p>
+                        )}
+                        <button
+                          type="button"
+                          onClick={() => onToggleComparison?.(programItem)}
+                          disabled={!onToggleComparison}
+                          className={`mt-2 w-full rounded-md border px-2 py-1.5 text-xs font-medium transition-colors ${
+                            selected
+                              ? 'border-blue-300/60 bg-blue-500/20 text-blue-100'
+                              : 'border-white/20 bg-slate-800/70 text-slate-200 hover:border-blue-400/50 hover:text-white'
+                          } ${!onToggleComparison ? 'cursor-not-allowed opacity-40' : ''}`}
+                        >
+                          {selected ? t('selected') : t('compare')}
+                        </button>
+                      </div>
+                    );
+                  })}
+                </div>
                 <button
                   onClick={() => {
                     if (onMarkerClick) {
-                      onMarkerClick(item.university.name);
+                      onMarkerClick(group.universityName);
                     }
                   }}
                   className="mt-3 w-full px-4 py-2 bg-blue-500/20 hover:bg-blue-500/30 border border-blue-500/40 text-blue-300 rounded-lg text-sm font-medium transition-all duration-200"
                 >
-                  View Details
+                  {t('viewDetails')}
                 </button>
               </div>
             </Popup>

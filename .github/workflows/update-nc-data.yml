@@ -2,85 +2,127 @@ name: Update NC Data
 
 on:
   schedule:
-    # Run every Monday at 3:00 AM UTC
+    # Primary NC automation workflow (weekly)
     - cron: '0 3 * * 1'
-  workflow_dispatch: # Allow manual triggering
+  workflow_dispatch:
 
 jobs:
   update-nc-data:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     
     permissions:
-      contents: write # Required to commit and push changes
+      contents: write
     
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          fetch-depth: 0 # Fetch all history for better diff detection
+          fetch-depth: 0
       
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
           cache: 'pip'
+
+      - name: Setup Node.js (for Playwright runtime)
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
       
       - name: Install dependencies
         run: |
-          pip install requests beautifulsoup4 lxml
+          python -m pip install --upgrade pip
+          pip install -r data/scripts/requirements.txt
+          npm ci
+
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps chromium
       
-      - name: Run NC data update script
-        id: update-nc
+      - name: Run modular NC scrape pipeline
+        id: fetch-nc
         run: |
-          python data/scripts/fetch_ncs.py
-        continue-on-error: true # Continue even if some updates fail
+          python data/scripts/fetch_ncs.py --max-workers 4 --retries 1
       
-      - name: Check for changes
+      - name: Apply NC + semester updates to university_programs.json
+        id: apply-updates
+        run: |
+          node scripts/update-nc-data.js
+
+      - name: Validate JSON integrity
+        run: |
+          node -e "const fs=require('fs');JSON.parse(fs.readFileSync('data/university_programs.json','utf8'));if(fs.existsSync('data/new_nc_data.json')){JSON.parse(fs.readFileSync('data/new_nc_data.json','utf8'));}"
+
+      - name: Check for data changes
         id: check-changes
         run: |
-          if [ -n "$(git status --porcelain data/university_programs.json)" ]; then
-            echo "has_changes=true" >> $GITHUB_OUTPUT
-            echo "✅ Changes detected in university_programs.json"
+          if [ -n "$(git status --porcelain data/university_programs.json data/new_nc_data.json data/unmapped_records.json)" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "Changes detected in NC data files"
           else
-            echo "has_changes=false" >> $GITHUB_OUTPUT
-            echo "ℹ️  No changes detected"
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No changes detected"
           fi
+
+      - name: Build report metadata
+        if: always()
+        id: report-dir
+        run: |
+          LATEST_REPORT_DIR=$(ls -1dt data/nc_reports/* 2>/dev/null | head -n 1 || true)
+          echo "latest_report_dir=$LATEST_REPORT_DIR" >> $GITHUB_OUTPUT
       
       - name: Configure Git
-        if: steps.check-changes.outputs.has_changes == 'true'
+        if: steps.check-changes.outputs.changed == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
       
       - name: Commit changes
-        if: steps.check-changes.outputs.has_changes == 'true'
+        if: steps.check-changes.outputs.changed == 'true'
         run: |
-          git add data/university_programs.json
-          git commit -m "chore: update NC data from automated pipeline [skip ci]"
+          git add data/university_programs.json data/new_nc_data.json data/unmapped_records.json data/nc_reports data/nc_raw data/nc_cache
+          git commit -m "chore: update NC data from modular scraping pipeline [skip ci]"
       
       - name: Push changes
-        if: steps.check-changes.outputs.has_changes == 'true'
+        if: steps.check-changes.outputs.changed == 'true'
         run: |
-          git push origin HEAD:main
+          git push
       
       - name: Trigger Vercel deployment
-        if: steps.check-changes.outputs.has_changes == 'true'
+        if: steps.check-changes.outputs.changed == 'true'
         uses: amondnet/vercel-action@v25
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
           vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
           vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
           vercel-args: '--prod'
-        continue-on-error: true # Don't fail if Vercel deployment fails
+        continue-on-error: true
+
+      - name: Upload NC pipeline reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: nc-pipeline-reports
+          path: |
+            data/nc_reports
+            data/nc_raw
+            data/unmapped_records.json
+          retention-days: 30
       
       - name: Summary
+        if: always()
         run: |
-          if [ "${{ steps.check-changes.outputs.has_changes }}" == "true" ]; then
-            echo "✅ NC data updated successfully"
-            echo "📦 Changes committed and pushed"
-            echo "🚀 Vercel deployment triggered"
+          echo "## NC Automation Workflow" >> $GITHUB_STEP_SUMMARY
+          if [ "${{ steps.check-changes.outputs.changed }}" == "true" ]; then
+            echo "- Status: data changes committed" >> $GITHUB_STEP_SUMMARY
+            echo "- Vercel: deployment triggered" >> $GITHUB_STEP_SUMMARY
           else
-            echo "ℹ️  No updates needed"
+            echo "- Status: no data changes detected" >> $GITHUB_STEP_SUMMARY
+          fi
+          if [ -n "${{ steps.report-dir.outputs.latest_report_dir }}" ]; then
+            echo "- Report directory: \`${{ steps.report-dir.outputs.latest_report_dir }}\`" >> $GITHUB_STEP_SUMMARY
           fi
 

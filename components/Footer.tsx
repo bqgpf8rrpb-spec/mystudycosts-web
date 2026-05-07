@@ -2,25 +2,27 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { useTranslations } from 'next-intl';
 
 export default function Footer() {
   const pathname = usePathname();
-  
+  const t = useTranslations('Footer');
+
   // Extract locale from pathname (format: /de/... or /en/...)
   const locale = pathname?.split('/')[1] || 'en';
   const basePath = `/${locale}`;
 
   const mainLinks = [
-    { href: `${basePath}`, label: 'Home' },
-    { href: `${basePath}/calculator`, label: 'Calculator' },
-    { href: `${basePath}/nc-checker`, label: 'NC-Checker' },
-    { href: `${basePath}/about`, label: 'About' },
-    { href: `${basePath}/blog`, label: 'Blog' },
+    { href: `${basePath}`, label: t('home') },
+    { href: `${basePath}/calculator`, label: t('calculator') },
+    { href: `${basePath}/nc-checker`, label: t('ncChecker') },
+    { href: `${basePath}/about`, label: t('about') },
+    { href: `${basePath}/blog`, label: t('blog') },
   ];
 
   const legalLinks = [
-    { href: `${basePath}/privacy`, label: 'Privacy Policy' },
-    { href: `${basePath}/imprint`, label: 'Imprint' },
+    { href: `${basePath}/privacy`, label: t('privacyPolicy') },
+    { href: `${basePath}/imprint`, label: t('imprint') },
   ];
 
   return (
@@ -43,10 +45,20 @@ export default function Footer() {
           {/* Divider */}
           <div className="border-t border-slate-800"></div>
 
+          {/* Data Disclaimer - Erasmus & NC Values */}
+          <div className="text-center">
+            <p className="text-slate-400/80 text-xs leading-relaxed max-w-3xl mx-auto">
+              {t('dataDisclaimer')}
+            </p>
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-slate-800"></div>
+
           {/* Affiliate Disclaimer */}
           <div className="text-center">
             <p className="text-white/40 text-xs leading-relaxed max-w-2xl mx-auto">
-              Transparenz: Diese Seite wird sich in Zukunft teilweise über Partnerlinks finanzieren. Solche Links werden klar als "Anzeige" gekennzeichnet.
+              {t('affiliateDisclaimer')}
             </p>
           </div>
 
@@ -70,7 +82,7 @@ export default function Footer() {
             
             {/* Copyright */}
             <div className="text-white/50 text-xs">
-              © 2025 MyStudyCosts. All rights reserved.
+              {t('copyright')}
             </div>
           </div>
         </div>

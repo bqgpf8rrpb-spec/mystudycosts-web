@@ -1,0 +1,29 @@
+{
+  "university_id": "OSNABRUECK_UNIVERSITY_OF_APPLIED_SCIENCES",
+  "university_name": "Hochschule Osnabrück",
+  "portal_url": "https://www.hs-osnabrueck.de/vernetzung/internationale-partner/partnerhochschulen/",
+  "portal_type": "university_website",
+  "scraped_at": "2026-03-15T22:09:01.842Z",
+  "strategy": "custom_scraper",
+  "partner_count": 3,
+  "partners": [
+    {
+      "partner_name": "Anbieter",
+      "country": "sg-cookie-optin",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Laufzeit",
+      "country": "1 Jahr",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Zweck",
+      "country": "Dieses Cookie wird verwendet, um Ihre Cookie-Einstellungen für diese Website zu speichern.",
+      "city": "Unknown",
+      "faculty_department": null
+    }
+  ]
+}

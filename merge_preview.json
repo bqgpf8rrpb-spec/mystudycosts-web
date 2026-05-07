@@ -1,0 +1,4566 @@
+{
+  "generatedAt": "2026-04-28T13:40:51.232Z",
+  "dryRun": false,
+  "table": "erasmus_partners",
+  "scannedRows": 746,
+  "candidateClusters": 143,
+  "mergeRowsCount": 461,
+  "updatesPlanned": 143,
+  "deletesPlanned": 461,
+  "executed": true,
+  "clusters": [
+    {
+      "city": "Zagreb",
+      "normalizedCity": "zagreb",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "12583a8b-fbe2-4ad1-8529-a619ace98fcd",
+        "name": "Sveučilište u Zagrebu",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "60569c63-d1a3-4bef-a413-e7d97dd8ea48",
+        "332435dc-e24b-4d9d-bf32-21b0a3942685",
+        "9ab7abca-a421-4cf4-9bf2-f92eae414e36",
+        "de416925-b9b1-4d97-90f0-2f29d87fa8b6",
+        "8fc7b388-0a58-4453-ac0c-96572f91cbe0"
+      ],
+      "mergedFromNames": [
+        "Sveučilište u Zagrebu",
+        "Sveučilište u Zagrebu",
+        "Sveučilište u Zagrebu",
+        "Sveučilište u Zagrebu",
+        "Sveučilište u Zagrebu"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Electrical and Computer Engineering",
+        "Electricity and Energy",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "ED-Geodesy",
+        "ED-Architecture and Design",
+        "LS-Biosciences",
+        "LS-Brewing and Food Technology",
+        "MGT-Business Administration"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Praha",
+      "normalizedCity": "praha",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "06f4955b-c773-47b6-aa17-fc4a11e40138",
+        "name": "Ceské Vysoké Uceni Technické v Praze (CTU)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "375169bf-297b-4f47-a166-9280cabd3e61",
+        "d5fbf302-928b-4902-a7b7-bbaf92ecaa71",
+        "b5bbb061-8708-46eb-a7ec-775f3a3a94f8",
+        "f770cd21-695a-46e2-972f-33cdc47b5e18",
+        "ca13c4f7-6770-42e5-8c40-a09d7cd080bb",
+        "703bbc65-e1f0-4b51-a111-66168e13906e",
+        "e125f247-bf4e-46a2-9052-bddc574ab8ae",
+        "7251a361-511c-45d1-8ea2-71365761aa87"
+      ],
+      "mergedFromNames": [
+        "Ceské Vysoké Uceni Technické v Praze (CTU)",
+        "Ceské Vysoké Uceni Technické v Praze (CTU)",
+        "Ceské Vysoké Uceni Technické v Praze (CTU)",
+        "Ceské Vysoké Uceni Technické v Praze (CTU)",
+        "Ceské Vysoké Uceni Technické v Praze (CTU)",
+        "Ceské Vysoké Uceni Technické v Praze (CTU)",
+        "Ceské Vysoké Uceni Technické v Praze (CTU)",
+        "Ceské Vysoké Uceni Technické v Praze (CTU)"
+      ],
+      "mergedSubjectAreas": [
+        "CS-Campus Straubing for Biotechnology and Sustainability",
+        "ED-Architecture and Design",
+        "ED-Civil",
+        "Environmental",
+        "Geo Engineering",
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "LS-Landscape Architecture and Planning",
+        "CIT-Mathematics",
+        "CIT-Informatics",
+        "ED-Mechanical Engineering",
+        "NAT-Physics"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Praha",
+      "normalizedCity": "praha",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "01d3f157-cf72-40ae-b62f-8118ac1aaa9c",
+        "name": "Univerzita Karlova v Praze",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "acee7b06-c9c4-4bd3-8abb-522c8de187da",
+        "d44ebd50-1c34-4a84-807d-296f2af0f77e",
+        "73971906-0c1d-4bbf-a3b5-17200baa0265",
+        "6490ea7a-c251-4f43-a899-21cd6f72ec34"
+      ],
+      "mergedFromNames": [
+        "Univerzita Karlova v Praze",
+        "Univerzita Karlova v Praze",
+        "Univerzita Karlova v Praze",
+        "Univerzita Karlova v Praze"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Mathematics",
+        "MH-Medicine",
+        "CIT-Informatics",
+        "LS-Biosciences",
+        "SOT-Governance"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Praha",
+      "normalizedCity": "praha",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "b8d9dda9-e006-4f82-bc78-ac15d276cb8e",
+        "name": "Česká Zemědělská Univerzita v Praze (CULS)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "fa08997d-d314-410c-b60b-644d264c5594"
+      ],
+      "mergedFromNames": [
+        "Česká Zemědělská Univerzita v Praze (CULS)"
+      ],
+      "mergedSubjectAreas": [
+        "LS-Agricultural and Horticultural Sciences",
+        "LS-Forest Science and Resource Management"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Århus",
+      "normalizedCity": "arhus",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "1abe2f3e-3b53-46c2-8d65-71ec8f40f038",
+        "name": "Aarhus Universitet",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "760f4c60-34ad-484c-8e53-3851c3710f68",
+        "affdda31-45a0-4d28-8235-9aef3e520f10",
+        "74c5bc7e-66b4-478b-b0dd-38035231bcca",
+        "e28181ea-37d6-457d-b600-3fef8e218b7c",
+        "6fac8cf3-1e2c-4ce0-98a2-75609d52c269",
+        "ae26ddef-39d9-4107-9742-f496d3c27743"
+      ],
+      "mergedFromNames": [
+        "Aarhus Universitet",
+        "Aarhus Universitet",
+        "Aarhus Universitet",
+        "Aarhus Universitet",
+        "Aarhus Universitet",
+        "Aarhus Universitet"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Mathematics",
+        "LS-Agricultural and Horticultural Sciences",
+        "LS-Biosciences",
+        "LS-Forest Science and Resource Management",
+        "LS-Landscape Architecture and Planning",
+        "LS-Nutritional Sciences",
+        "MH-Medicine",
+        "MGT-Business Administration",
+        "CIT-Informatics",
+        "ED-Civil",
+        "Environmental",
+        "Geo Engineering",
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Lyngby",
+      "normalizedCity": "lyngby",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "09a58143-5db6-4456-8c8d-2d303aa023ce",
+        "name": "Danmarks Tekniske Universitet (DTU)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "cc6de773-2424-4de0-9dc6-f375acbc5594",
+        "deec59c5-4656-4fd0-90ee-527a919824e6",
+        "640fe964-2527-4b36-930d-93c0d6920748",
+        "639aa43b-d5c0-43a0-be44-38aa21a89165",
+        "ebaf6592-9d4f-4406-a771-eb8129570e07",
+        "811a282b-2cee-4fda-a1e4-74572fa86950",
+        "1b790dd1-ec18-434e-be3b-1f93ea40fb1a",
+        "aab8c8c9-f18d-4713-b64a-214d33b80c06",
+        "fe33b3f6-8b2f-4885-9b57-57fe442d974d",
+        "b59eaab2-af70-477f-b317-011d5e74eba5",
+        "165c71cc-ebb2-408b-8806-98e40dda152d",
+        "210917a0-fd2e-4813-a701-62ad2b905276"
+      ],
+      "mergedFromNames": [
+        "Danmarks Tekniske Universitet (DTU)",
+        "Danmarks Tekniske Universitet (DTU)",
+        "Danmarks Tekniske Universitet (DTU)",
+        "Danmarks Tekniske Universitet (DTU)",
+        "Danmarks Tekniske Universitet (DTU)",
+        "Danmarks Tekniske Universitet (DTU)",
+        "Danmarks Tekniske Universitet (DTU)",
+        "Danmarks Tekniske Universitet (DTU)",
+        "Danmarks Tekniske Universitet (DTU)",
+        "Danmarks Tekniske Universitet (DTU)",
+        "Danmarks Tekniske Universitet (DTU)",
+        "Danmarks Tekniske Universitet (DTU)"
+      ],
+      "mergedSubjectAreas": [
+        "LS-Agricultural and Horticultural Sciences",
+        "LS-Biosciences",
+        "LS-Brewing and Food Technology",
+        "LS-Forest Science and Resource Management",
+        "LS-Landscape Architecture and Planning",
+        "LS-Nutritional Sciences",
+        "ED-Mechanical Engineering",
+        "ED-Civil",
+        "Environmental",
+        "Geo Engineering",
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "NAT-Chemistry",
+        "MGT-Business Administration",
+        "NAT-Physics",
+        "CIT-Informatics",
+        "ED-Architecture and Design",
+        "CIT-Mathematics",
+        "ED-Interdisciplinary Engineering",
+        "CS-Campus Straubing for Biotechnology and Sustainability",
+        "ED-Aerospace",
+        "ED-Geodesy"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Tallinn",
+      "normalizedCity": "tallinn",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "155af94f-1e61-4878-97e2-839cf7cb0f07",
+        "name": "Tallinna Tehnikaülikool (TalTech)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "8d776585-cadd-4266-b209-d3328057e1bc",
+        "b151d944-a040-4a3e-a2fa-6d1dbcdf5fd3",
+        "3f8f40b2-d584-4f1b-aaa2-c854737382ee",
+        "6c9a3e26-9833-4745-b587-16bbc73c9694",
+        "e37e4ac8-ee68-40cf-874d-a7fdebd5eb63",
+        "d92d8089-c3ca-46a9-9192-b978e9f7b247"
+      ],
+      "mergedFromNames": [
+        "Tallinna Tehnikaülikool (TalTech)",
+        "Tallinna Tehnikaülikool (TalTech)",
+        "Tallinna Tehnikaülikool (TalTech)",
+        "Tallinna Tehnikaülikool (TalTech)",
+        "Tallinna Tehnikaülikool (TalTech)",
+        "Tallinna Tehnikaülikool (TalTech)"
+      ],
+      "mergedSubjectAreas": [
+        "CS-Campus Straubing for Biotechnology and Sustainability",
+        "LS-Brewing and Food Technology",
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "CIT-Informatics",
+        "MGT-Business Administration",
+        "ED-Civil",
+        "Environmental",
+        "Geo Engineering",
+        "ED-Mechanical Engineering"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Espoo",
+      "normalizedCity": "espoo",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "1ac79ef5-e037-45e0-b1a3-8350a75d13ff",
+        "name": "Aalto-yliopisto",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "a5be1f0a-18c5-41a2-9786-9dc2064d801d",
+        "e821a85f-c2e1-4486-bc4f-8664001800a9",
+        "fcf036dd-9251-4622-a12b-d8e5d638dd25",
+        "8c25dbd0-8f47-4ba6-a5b2-2644b5f2f450",
+        "b558eb41-3b4e-40bd-8c2b-a4d2c54c459f",
+        "5d00f5f9-16f8-4ebc-9478-f6e66b109d08",
+        "cfd79670-967d-40bc-8732-58d958b67434",
+        "91e9a594-e9ae-4558-996a-c7f5e9b8f87e",
+        "a1d5d2dc-443c-4231-a678-7aa35bdfa78d",
+        "b3758441-fb7b-403a-b091-611168a0e537"
+      ],
+      "mergedFromNames": [
+        "Aalto-yliopisto",
+        "Aalto-yliopisto",
+        "Aalto-yliopisto",
+        "Aalto-yliopisto",
+        "Aalto-yliopisto",
+        "Aalto-yliopisto",
+        "Aalto-yliopisto",
+        "Aalto-yliopisto",
+        "Aalto-yliopisto",
+        "Aalto-yliopisto"
+      ],
+      "mergedSubjectAreas": [
+        "ED-Mechanical Engineering",
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "CIT-Informatics",
+        "CIT-Mathematics",
+        "ED-Architecture and Design",
+        "NAT-Physics",
+        "NAT-Chemistry",
+        "MGT-Business Administration",
+        "ED-Civil",
+        "Environmental",
+        "Geo Engineering",
+        "ED-Geodesy",
+        "CS-Campus Straubing for Biotechnology and Sustainability"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Helsinki -  YLIOPISTO",
+      "normalizedCity": "helsinki yliopisto",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "2ab655aa-6e77-4b4c-bbeb-002cc3265fcf",
+        "name": "Helsingin yliopisto",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "b3c59e8a-31ce-4b33-86a0-e99ab17c9335",
+        "d0eb0b07-d8be-4690-81b0-3b1b940e88b7",
+        "309a0ca2-d1cf-4212-b19b-51287643156d",
+        "93a04c96-c478-4d87-afe9-4bda4d62c775"
+      ],
+      "mergedFromNames": [
+        "Helsingin yliopisto",
+        "Helsingin yliopisto",
+        "Helsingin yliopisto",
+        "Helsingin yliopisto"
+      ],
+      "mergedSubjectAreas": [
+        "NAT-Physics",
+        "LS-Agricultural and Horticultural Sciences",
+        "LS-Biosciences",
+        "LS-Brewing and Food Technology",
+        "LS-Nutritional Sciences",
+        "LS-Forest Science and Resource Management",
+        "LS-Landscape Architecture and Planning",
+        "CIT-Informatics",
+        "CIT-Mathematics",
+        "NAT-Chemistry"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Tampere",
+      "normalizedCity": "tampere",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "1b6bd085-d12a-4788-92b7-f07517f72032",
+        "name": "Tampere University (Tampereen yliopisto)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "29ab182d-0cc4-48af-89b2-c7808d44c408",
+        "8041d91e-470d-46ac-acf5-ddf1bae5ee7b",
+        "e6a5a927-d5c2-4eb4-94b5-c6345fc38cb6",
+        "b3081efc-6731-4789-8d26-5675f5af77f1"
+      ],
+      "mergedFromNames": [
+        "Tampere University (Tampereen yliopisto)",
+        "Tampere University (Tampereen yliopisto)",
+        "Tampere University (Tampereen yliopisto)",
+        "Tampere University (Tampereen yliopisto)"
+      ],
+      "mergedSubjectAreas": [
+        "LS-Agricultural and Horticultural Sciences",
+        "LS-Biosciences",
+        "LS-Brewing and Food Technology",
+        "LS-Nutritional Sciences",
+        "LS-Forest Science and Resource Management",
+        "LS-Landscape Architecture and Planning",
+        "CIT-Informatics",
+        "ED-Mechanical Engineering",
+        "MGT-Business Administration",
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Marseille",
+      "normalizedCity": "marseille",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "5be6a710-a3e7-4218-873b-c6ff8a7ab488",
+        "name": "École Centrale Marseille",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "c640db98-073b-49c9-988e-fe5029583f59",
+        "d63eb110-1dd2-4e24-bb7a-125ec711c13c"
+      ],
+      "mergedFromNames": [
+        "École Centrale Marseille",
+        "École Centrale Marseille"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Electrical and Computer Engineering",
+        "Electricity and Energy",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "ED-Mechanical Engineering",
+        "ED-Interdisciplinary Engineering"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Lyon",
+      "normalizedCity": "lyon",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "1798b81c-0fe2-48b3-8fab-cd4f28febfd5",
+        "name": "Ecole Supérieure de Chimie Physique Electronique de Lyon (CPE)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "6f688806-1aa6-407a-9d86-02cb03817dc9",
+        "5b976864-1bdf-4998-a1f1-5e22434b2265",
+        "d84167b6-0008-42c4-a32f-6b6e5cc144f5"
+      ],
+      "mergedFromNames": [
+        "Ecole Supérieure de Chimie Physique Electronique de Lyon (CPE)",
+        "Ecole Supérieure de Chimie Physique Electronique de Lyon (CPE)",
+        "Ecole Supérieure de Chimie Physique Electronique de Lyon (CPE)"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Electrical and Computer Engineering",
+        "Electricity and Energy",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "NAT-Chemistry",
+        "CS-Campus Straubing for Biotechnology and Sustainability",
+        "LS-Agricultural and Horticultural Sciences",
+        "LS-Biosciences",
+        "LS-Brewing and Food Technology",
+        "LS-Nutritional Sciences",
+        "LS-Forest Science and Resource Management",
+        "LS-Landscape Architecture and Planning"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Lyon",
+      "normalizedCity": "lyon",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "2e680fd3-3b46-4b2b-99d8-279472fb105e",
+        "name": "Institut National des Sciences Appliquées de Lyon",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "e32cf6c7-2c0e-457f-9ddb-8c8984237619"
+      ],
+      "mergedFromNames": [
+        "Institut National des Sciences Appliquées de Lyon"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "ED-Civil",
+        "Environmental",
+        "Geo Engineering"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Lyon",
+      "normalizedCity": "lyon",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "4b796434-f7d8-4668-9c59-90f1ff73b735",
+        "name": "Ecole Normale Superieure de Lyon",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "57e419ac-f8ef-4a3a-b380-cbd0b05049b0",
+        "9dcb2b26-a56c-4297-af02-3175c57b0406",
+        "d5131ecd-c04b-4501-837f-77e2558395c7"
+      ],
+      "mergedFromNames": [
+        "Ecole Normale Superieure de Lyon",
+        "Ecole Normale Superieure de Lyon",
+        "Ecole Normale Superieure de Lyon"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Informatics",
+        "LS-Biosciences",
+        "NAT-Physics",
+        "CIT-Mathematics"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Toulouse",
+      "normalizedCity": "toulouse",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "78e11ea0-775a-4a4e-963e-46e3be20ed5f",
+        "name": "Ecole Nationale de l'Aviation Civile (ENAC)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "aba88e88-f5bc-42e1-8c7e-cdb21d594f1b"
+      ],
+      "mergedFromNames": [
+        "Ecole Nationale de l'Aviation Civile (ENAC)"
+      ],
+      "mergedSubjectAreas": [
+        "ED-Aerospace",
+        "CIT-Electrical and Computer Engineering",
+        "Electricity and Energy",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Sophia Antipolis",
+      "normalizedCity": "sophia antipolis",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "2b014bea-8e85-4546-ad1b-d0c6147df5f2",
+        "name": "EURECOM",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "bd411045-6e27-4e6e-ae8b-e5f980f561af"
+      ],
+      "mergedFromNames": [
+        "EURECOM"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Electrical and Computer Engineering",
+        "Electricity and Energy",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "CIT-Informatics"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Paris",
+      "normalizedCity": "paris",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "0c853c48-95e1-4130-a94a-b642ea6f087b",
+        "name": "Sorbonne Université",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "30cb7a3a-67f0-42e5-ae36-f2bc62972e90",
+        "43ba9146-60fd-40a0-ac33-c1e45a75cc4c",
+        "ff52214f-05c3-4165-a085-63b0274b8436",
+        "871da696-6bbb-4d1d-84af-fb124563acbf"
+      ],
+      "mergedFromNames": [
+        "Sorbonne Université",
+        "Sorbonne Université",
+        "Sorbonne Université",
+        "Sorbonne Université"
+      ],
+      "mergedSubjectAreas": [
+        "ED-Mechanical Engineering",
+        "CIT-Mathematics",
+        "NAT-Chemistry",
+        "CIT-Informatics",
+        "NAT-Physics"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Paris",
+      "normalizedCity": "paris",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "f71c4811-1b8f-4ab4-9ed0-875cedc9a37d",
+        "name": "Ecole Nationale Supérieure d'Architecture de Paris Belleville",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "c48b051e-30f3-43f2-8305-376cf5a47e85"
+      ],
+      "mergedFromNames": [
+        "Ecole Nationale Supérieure d'Architecture de Paris-La Villette"
+      ],
+      "mergedSubjectAreas": [
+        "ED-Architecture and Design"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Paris",
+      "normalizedCity": "paris",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "9ae034da-6926-4979-a3f3-c0dff6f9f3b4",
+        "name": "Institut d'Etudes Politiques de Paris (Sciences Po)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "bf8d21f0-6700-42c9-a5e7-ed7acec17b80"
+      ],
+      "mergedFromNames": [
+        "Institut d'Etudes Politiques de Paris (Sciences Po)"
+      ],
+      "mergedSubjectAreas": [
+        "MGT-Business Administration",
+        "SOT-Governance"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Paris",
+      "normalizedCity": "paris",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "7c969fa5-2f0e-4eb8-9bde-3092751203f4",
+        "name": "Telecom Paris Tech (TPT)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "c2048eed-2e90-41ff-9877-9a8c90ed0344"
+      ],
+      "mergedFromNames": [
+        "Telecom Paris Tech (TPT)"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Informatics",
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Athína",
+      "normalizedCity": "athina",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "2fec70ae-a8dc-43f4-94bd-58ad0b53c0ba",
+        "name": "Ethniko Metsovio Polytechnio (NTUA)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "fa3e8885-40eb-4d69-994c-6051eccbcf04",
+        "770f7439-0a66-4254-be1e-a6496b21a03a",
+        "de001241-e670-47cf-8a6e-696c0b885be2",
+        "d88fe594-364d-49b1-9640-ecccb11b5efd"
+      ],
+      "mergedFromNames": [
+        "Ethniko Metsovio Polytechnio (NTUA)",
+        "Ethniko Metsovio Polytechnio (NTUA)",
+        "Ethniko Metsovio Polytechnio (NTUA)",
+        "Ethniko Metsovio Polytechnio (NTUA)"
+      ],
+      "mergedSubjectAreas": [
+        "ED-Mechanical Engineering",
+        "NAT-Chemistry",
+        "ED-Civil",
+        "Environmental",
+        "Geo Engineering",
+        "ED-Architecture and Design",
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Athína",
+      "normalizedCity": "athina",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "1063637b-d026-4821-8dac-61a411404ef8",
+        "name": "Oikonomiko Panepistimio Athinon (OPA)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "54cf48b8-cc85-4930-943d-4220a70a447b"
+      ],
+      "mergedFromNames": [
+        "Oikonomiko Panepistimio Athinon (OPA)"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Informatics",
+        "MGT-Business Administration"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Budapest",
+      "normalizedCity": "budapest",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "1e918536-9760-4b50-be38-c5347e1b7ed5",
+        "name": "Budapesti Müszaki és Gazdaságtudományi Egyetem (BME)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "e68fa335-4f77-4bdf-b817-ce4a38735e43",
+        "7ea4b63b-f855-472f-8a47-299bf877152f",
+        "768d94f6-3dae-4847-9ab5-ad42b9e3985e",
+        "5ed20bfe-a2a1-49e0-94e1-4722d96657be",
+        "2ce6eb4b-d163-433b-b978-16d0397875ac",
+        "ff120fba-3662-453a-a19b-53402da6cd55",
+        "64ef5a84-4261-4ed9-825e-11d3ba234d69"
+      ],
+      "mergedFromNames": [
+        "Budapesti Müszaki és Gazdaságtudományi Egyetem (BME)",
+        "Budapesti Müszaki és Gazdaságtudományi Egyetem (BME)",
+        "Budapesti Müszaki és Gazdaságtudományi Egyetem (BME)",
+        "Budapesti Müszaki és Gazdaságtudományi Egyetem (BME)",
+        "Budapesti Müszaki és Gazdaságtudományi Egyetem (BME)",
+        "Budapesti Müszaki és Gazdaságtudományi Egyetem (BME)",
+        "Budapesti Müszaki és Gazdaságtudományi Egyetem (BME)"
+      ],
+      "mergedSubjectAreas": [
+        "ED-Civil",
+        "Environmental",
+        "Geo Engineering",
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "NAT-Physics",
+        "ED-Mechanical Engineering",
+        "CIT-Informatics",
+        "MGT-Business Administration",
+        "ED-Architecture and Design",
+        "CIT-Mathematics"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Budapest",
+      "normalizedCity": "budapest",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "9aba34e7-ddd3-4096-85df-79d369a8ce85",
+        "name": "Eötvös Loránd Tudományegyetem",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "b580cc04-a623-4efb-94e0-0d77be98380c",
+        "e5a3c241-1854-4143-a245-f00fbc0220fd"
+      ],
+      "mergedFromNames": [
+        "Eötvös Loránd Tudományegyetem",
+        "Eötvös Loránd Tudományegyetem"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Informatics",
+        "SOT-Education",
+        "CIT-Mathematics"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Gödöllö",
+      "normalizedCity": "godollo",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "3ab18374-8c79-43af-afc1-2fcb0eb38221",
+        "name": "MATE Szent István Egyetem",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "40fe1cbf-2d6e-43c6-b5b8-830ee44eaea6",
+        "e8770ed5-34b7-4d83-9da5-121dafca98b1",
+        "91aa6695-bf91-4496-b66f-e5f80c303b17"
+      ],
+      "mergedFromNames": [
+        "MATE Szent István Egyetem",
+        "MATE Szent István Egyetem",
+        "MATE Szent István Egyetem"
+      ],
+      "mergedSubjectAreas": [
+        "LS-Agricultural and Horticultural Sciences",
+        "LS-Brewing and Food Technology",
+        "LS-Landscape Architecture and Planning",
+        "CS-Campus Straubing for Biotechnology and Sustainability"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Reykjavík",
+      "normalizedCity": "reykjavik",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "a3fcf197-1337-4c31-9e66-76fa156dc71d",
+        "name": "Haskoli Islands",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "ad53c013-7049-4c50-8a30-3f839ad51a77",
+        "bd0ee9cb-2c02-44c7-ad33-65a8cd2249a2",
+        "be5c473f-33d5-4ba0-b935-267536bad6cf",
+        "f9d7c436-2932-4de5-b136-6d7d2204b843"
+      ],
+      "mergedFromNames": [
+        "Haskoli Islands",
+        "Haskoli Islands",
+        "Haskoli Islands",
+        "Haskoli Islands"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "LS-Biosciences",
+        "CIT-Mathematics",
+        "CIT-Informatics",
+        "ED-Mechanical Engineering"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Reykjavík",
+      "normalizedCity": "reykjavik",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "0ae06984-14af-494f-98ce-5bd0334272e9",
+        "name": "Háskólinn í Reykjavík ehf",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "7701641c-da02-4701-b789-a04803a6a02b",
+        "a1f8fd28-694d-466c-9478-b8de9f644175"
+      ],
+      "mergedFromNames": [
+        "Háskólinn í Reykjavík ehf",
+        "Háskólinn í Reykjavík ehf"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Informatics",
+        "MGT-Business Administration",
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Dublin",
+      "normalizedCity": "dublin",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "391d33b0-a6cb-43d1-b704-00b70f1d3d0c",
+        "name": "Trinity College Dublin",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "b33bc9b5-5e84-46c4-ac10-4f37a13cf015",
+        "4e65ae0a-b9c3-4b93-b92d-ee27387fbef2",
+        "bbb2a7f8-a213-40fd-a3d2-2dd8fe422aef"
+      ],
+      "mergedFromNames": [
+        "Trinity College Dublin",
+        "Trinity College Dublin",
+        "Trinity College Dublin"
+      ],
+      "mergedSubjectAreas": [
+        "MGT-Business Administration",
+        "CIT-Mathematics",
+        "NAT-Physics",
+        "CIT-Informatics"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Dublin",
+      "normalizedCity": "dublin",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "8a81866b-6222-4bcd-ae0a-5cda0f57bbea",
+        "name": "University College Dublin, National University of Ireland, Dublin",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "efae469e-dc7a-4af6-892b-735b6d75eaf1"
+      ],
+      "mergedFromNames": [
+        "University College Dublin, National University of Ireland, Dublin"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Informatics",
+        "ED-Architecture and Design"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Bolzano",
+      "normalizedCity": "bolzano",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "6b272494-2c1a-4c5a-90c9-a12db699330b",
+        "name": "Libera Università di Bolzano - Freie Universität Bozen",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "dc5395a3-c207-4f87-bbc1-3ae38fff5058",
+        "f6b48729-0189-4ce9-8463-9aeb0acc9e44",
+        "93daf029-4417-46be-aaab-7cb2f5563a00"
+      ],
+      "mergedFromNames": [
+        "Libera Università di Bolzano - Freie Universität Bozen",
+        "Libera Università di Bolzano - Freie Universität Bozen",
+        "Libera Università di Bolzano - Freie Universität Bozen"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "LS-Agricultural and Horticultural Sciences",
+        "LS-Brewing and Food Technology",
+        "ED-Mechanical Engineering"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Roma",
+      "normalizedCity": "roma",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "104a560e-64bd-4cd4-a59e-4fce9b622852",
+        "name": "Università degli Studi di Roma La Sapienza",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "1e1e6dd9-8e80-4b94-b36e-9a7f6d582a65",
+        "f952cc8d-d1e5-457e-8250-32d131599f02",
+        "409f8226-3f15-4b14-8712-782b26b5086e",
+        "eeb560cd-c7e7-405f-a0f9-08aa0669ae6f",
+        "19995ba5-c239-4a90-9613-fb72bfebc99a",
+        "c246b4e3-2d2b-4119-8be8-b1a719dc1d12",
+        "da234b38-a3c1-40df-8a0b-37e7b974ff7b",
+        "3be9cf97-5505-4d53-a60a-9f7d696bf9fd"
+      ],
+      "mergedFromNames": [
+        "Università degli Studi di Roma La Sapienza",
+        "Università degli Studi di Roma La Sapienza",
+        "Università degli Studi di Roma La Sapienza",
+        "Università degli Studi di Roma La Sapienza",
+        "Università degli Studi di Roma La Sapienza",
+        "Università degli Studi di Roma La Sapienza",
+        "Università degli Studi di Roma La Sapienza",
+        "Università degli Studi di Roma La Sapienza"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "NAT-Chemistry",
+        "LS-Landscape Architecture and Planning",
+        "CIT-Mathematics",
+        "ED-Architecture and Design",
+        "ED-Mechanical Engineering",
+        "CIT-Informatics",
+        "MGT-Business Administration",
+        "NAT-Physics"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Roma",
+      "normalizedCity": "roma",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "560953dd-60b7-4eab-a056-88e7bd719b11",
+        "name": "Università degli Studi di Roma Tor Vergata",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "b93ae65f-b195-4f82-9a44-6a68f5836e4b",
+        "69bb459f-aadb-4540-9f23-167c690739ea"
+      ],
+      "mergedFromNames": [
+        "Università degli Studi di Roma Tor Vergata",
+        "Università degli Studi di Roma Tor Vergata"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "MH-Medicine",
+        "ED-Interdisciplinary Engineering"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Roma",
+      "normalizedCity": "roma",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "0a62487e-cfdc-43ea-84f8-8fa45ef0858d",
+        "name": "Università degli Studi Roma Tre",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "4e6d8c7f-5425-4c10-aefb-0037d2e9dab4"
+      ],
+      "mergedFromNames": [
+        "Università degli Studi Roma Tre"
+      ],
+      "mergedSubjectAreas": [
+        "ED-Architecture and Design",
+        "SOT-Education"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Milano",
+      "normalizedCity": "milano",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "84d709c8-11f8-44d3-b9c7-5ca53e65bca9",
+        "name": "Università Commerciale 'Luigi Bocconi' di Milano",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "b13b2ffa-b37d-4a72-9948-688f4636bcd8"
+      ],
+      "mergedFromNames": [
+        "Università Commerciale 'Luigi Bocconi' di Milano"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Informatics",
+        "MGT-Business Administration"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Milano",
+      "normalizedCity": "milano",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "aabc7aaf-6969-4b8f-bed3-c28fc67ca085",
+        "name": "Università degli Studi di Milano",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "ddc8ca24-96ea-485f-9a30-d7ea0e667989",
+        "eb32d8de-a861-418e-961f-4a937c60f665"
+      ],
+      "mergedFromNames": [
+        "Università degli Studi di Milano",
+        "Università degli Studi di Milano"
+      ],
+      "mergedSubjectAreas": [
+        "LS-Agricultural and Horticultural Sciences",
+        "MH-Medicine",
+        "NAT-Physics"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Milano",
+      "normalizedCity": "milano",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "23dfb504-76bd-4dfe-9bc0-02fd87aa4568",
+        "name": "Politecnico di Milano",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "6ea5ec00-35f4-45e6-a18e-023e922edb71",
+        "375d0617-6f09-4b13-8d75-3995306ec2c7",
+        "cc066688-b970-42dc-8301-1a32ea8cc32b",
+        "7aae4b8c-e2b8-4c32-b42b-00a79b268b9d",
+        "8c4ea2c1-529c-4a0a-af42-b6add41e138a",
+        "395bed98-3c20-414b-908c-18cc9447e19c",
+        "be9ce0c1-ca3b-4400-b1c3-f4e8f0fd623a",
+        "49e70420-c67c-4f54-84da-af31e9aa0f5f"
+      ],
+      "mergedFromNames": [
+        "Politecnico di Milano",
+        "Politecnico di Milano",
+        "Politecnico di Milano",
+        "Politecnico di Milano",
+        "Politecnico di Milano",
+        "Politecnico di Milano",
+        "Politecnico di Milano",
+        "Politecnico di Milano"
+      ],
+      "mergedSubjectAreas": [
+        "ED-Architecture and Design",
+        "ED-Mechanical Engineering",
+        "ED-Civil",
+        "Environmental",
+        "Geo Engineering",
+        "ED-Aerospace",
+        "MGT-Business Administration",
+        "ED-Interdisciplinary Engineering",
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "CIT-Informatics",
+        "CIT-Mathematics"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Milano",
+      "normalizedCity": "milano",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "136db42b-0cd8-4496-8e90-e6ab0fb440de",
+        "name": "Università degli Studi di Milano - Bicocca",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "e47d7ce6-2571-440b-b594-bd916cbed67d"
+      ],
+      "mergedFromNames": [
+        "Università degli Studi di Milano - Bicocca"
+      ],
+      "mergedSubjectAreas": [
+        "NAT-Chemistry",
+        "NAT-Physics"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Bologna",
+      "normalizedCity": "bologna",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "574b4cf7-8ffe-4c17-9818-1bbe7f980d2a",
+        "name": "Università degli Studi di Bologna 'Alma Mater Studiorum'",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "872da344-f81d-4f42-b800-7d37347a320d",
+        "f711e16b-df83-4d49-821a-15b9f66eb3f3",
+        "c44398d6-c53d-4ad6-8a0f-9ab3b8c957e5",
+        "e1ff2caa-168d-41f5-9ded-d14fbd9db220",
+        "b048bb46-8d91-4c9c-b317-7153b652c98f"
+      ],
+      "mergedFromNames": [
+        "Università degli Studi di Bologna 'Alma Mater Studiorum'",
+        "Università degli Studi di Bologna 'Alma Mater Studiorum'",
+        "Università degli Studi di Bologna 'Alma Mater Studiorum'",
+        "Università degli Studi di Bologna 'Alma Mater Studiorum'",
+        "Università degli Studi di Bologna 'Alma Mater Studiorum'"
+      ],
+      "mergedSubjectAreas": [
+        "NAT-Chemistry",
+        "CIT-Mathematics",
+        "ED-Architecture and Design",
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "LS-Agricultural and Horticultural Sciences",
+        "MGT-Business Administration"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Cagliari",
+      "normalizedCity": "cagliari",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "af10fb36-4115-4390-9a04-00f84d82d819",
+        "name": "Università degli Studi di Cagliari",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "e009d377-18ec-4909-bc20-0059dcbc15ef"
+      ],
+      "mergedFromNames": [
+        "Università degli Studi di Cagliari"
+      ],
+      "mergedSubjectAreas": [
+        "NAT-Chemistry",
+        "NAT-Physics"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Firenze",
+      "normalizedCity": "firenze",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "01b72f57-b518-4205-bb76-87b8871f1e94",
+        "name": "Universita degli Studi di Firenze",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "693f511a-e950-4745-85b8-cbb8ff308c18",
+        "46ecd741-b3e7-4a99-a9d5-195af84c0f83",
+        "bd596894-ec09-4270-87fc-6bdfb42af8a1",
+        "fb064623-c97c-44c2-bdca-3f289809987d",
+        "b2082faf-de4e-48f2-8a41-6f584f1a9446"
+      ],
+      "mergedFromNames": [
+        "Universita degli Studi di Firenze",
+        "Universita degli Studi di Firenze",
+        "Universita degli Studi di Firenze",
+        "Universita degli Studi di Firenze",
+        "Universita degli Studi di Firenze"
+      ],
+      "mergedSubjectAreas": [
+        "LS-Nutritional Sciences",
+        "LS-Forest Science and Resource Management",
+        "MH-Medicine",
+        "ED-Architecture and Design",
+        "MH-Sport and Health Science",
+        "SOT-Governance"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Napoli",
+      "normalizedCity": "napoli",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "22954708-7c81-41ff-b286-9c3bf55859c4",
+        "name": "Università degli Studi di Napoli Federico II",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "3a38f194-6478-4124-a25b-c3623877da3a"
+      ],
+      "mergedFromNames": [
+        "Università degli Studi di Napoli Federico II"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "ED-Architecture and Design"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Perugia",
+      "normalizedCity": "perugia",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "32b7b9ba-4f76-424e-b40a-3d2801d030bd",
+        "name": "Università degli Studi di Perugia",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "8e95cebb-bfa6-482c-b744-a1d458da95ba"
+      ],
+      "mergedFromNames": [
+        "Università degli Studi di Perugia"
+      ],
+      "mergedSubjectAreas": [
+        "LS-Biosciences",
+        "LS-Brewing and Food Technology"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Trento",
+      "normalizedCity": "trento",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "828d62a9-167a-43f1-974c-b118b2c573bb",
+        "name": "Università degli Studi di Trento",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "f2f676f6-a464-4c69-be8a-e7736933aee0",
+        "92b4d6b6-a6ac-45ed-9e62-e4277ee41b63",
+        "e40043cc-6b9b-47a4-9572-5819d1c62f36",
+        "c541c6f1-6e7a-4516-87c3-77142354a7ff"
+      ],
+      "mergedFromNames": [
+        "Università degli Studi di Trento",
+        "Università degli Studi di Trento",
+        "Università degli Studi di Trento",
+        "Università degli Studi di Trento"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "ED-Mechanical Engineering",
+        "ED-Civil",
+        "Environmental",
+        "Geo Engineering",
+        "SOT-Governance",
+        "ED-Interdisciplinary Engineering"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Riga",
+      "normalizedCity": "riga",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "2e7ec936-51db-4d8f-afc8-d6d597c95399",
+        "name": "RIGAS TEHNISKA UNIVERSITATE",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "a257ba0e-1ff4-430a-bb28-350ab4c3f978",
+        "74db29cd-12ef-46fe-82f8-5eb063a0541f"
+      ],
+      "mergedFromNames": [
+        "RIGAS TEHNISKA UNIVERSITATE",
+        "RIGAS TEHNISKA UNIVERSITATE"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "ED-Architecture and Design",
+        "ED-Mechanical Engineering"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Delft",
+      "normalizedCity": "delft",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "0ab35aa6-985c-4d6d-ab74-8fddaec7c86f",
+        "name": "Technische Universiteit Delft (TU Delft)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "3b8c3c56-972e-40cf-ad07-3dfd573d5572",
+        "867ef70e-f860-413c-9e98-11ffbfc0d82e",
+        "41886662-b3f0-4058-8bd3-53ffe4631e90",
+        "afeedce5-7823-4f3b-a2f7-420daa28c5be",
+        "2dad5b51-c525-426d-811d-4df3fb995a69",
+        "34676018-22be-4c3d-b15e-993efe80e253",
+        "5a3a275a-0edd-46fb-ad3e-19de0161db25",
+        "fd881a63-0daa-4df1-a0eb-64a2c63686ef"
+      ],
+      "mergedFromNames": [
+        "Technische Universiteit Delft (TU Delft)",
+        "Technische Universiteit Delft (TU Delft)",
+        "Technische Universiteit Delft (TU Delft)",
+        "Technische Universiteit Delft (TU Delft)",
+        "Technische Universiteit Delft (TU Delft)",
+        "Technische Universiteit Delft (TU Delft)",
+        "Technische Universiteit Delft (TU Delft)",
+        "Technische Universiteit Delft (TU Delft)"
+      ],
+      "mergedSubjectAreas": [
+        "ED-Architecture and Design",
+        "CIT-Electrical and Computer Engineering",
+        "Electricity and Energy",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "NAT-Physics",
+        "ED-Mechanical Engineering",
+        "ED-Civil",
+        "Environmental",
+        "Geo Engineering",
+        "LS-Biosciences",
+        "MGT-Business Administration",
+        "CIT-Mathematics",
+        "CIT-Informatics"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Eindhoven",
+      "normalizedCity": "eindhoven",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "0d1615ad-0fa6-4444-b7fd-be8464732781",
+        "name": "Technische Universiteit Eindhoven (TU/e)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "a166c33c-5900-4f99-b6a8-f51d71991112",
+        "f2d35a82-7a47-4086-86e9-014ba1396fca",
+        "2e323944-787a-4749-a2ef-d80c90b186fb",
+        "2db270e2-d6aa-4e64-af01-957cbd4a1112",
+        "b3ab3a2d-6cc0-427d-a70c-b2d94ec611ae",
+        "89bee760-ac4f-4b5c-becb-f72704f6d5fd",
+        "925cf56d-a842-4d29-adf7-152bdf89bd89"
+      ],
+      "mergedFromNames": [
+        "Technische Universiteit Eindhoven (TU/e)",
+        "Technische Universiteit Eindhoven (TU/e)",
+        "Technische Universiteit Eindhoven (TU/e)",
+        "Technische Universiteit Eindhoven (TU/e)",
+        "Technische Universiteit Eindhoven (TU/e)",
+        "Technische Universiteit Eindhoven (TU/e)",
+        "Technische Universiteit Eindhoven (TU/e)"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "ED-Architecture and Design",
+        "MGT-Business Administration",
+        "CIT-Informatics",
+        "ED-Mechanical Engineering",
+        "NAT-Physics",
+        "SOT-Governance",
+        "CS-Campus Straubing for Biotechnology and Sustainability"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Enschede",
+      "normalizedCity": "enschede",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "2dcdf960-c486-4bf5-8a75-539948bf2f8c",
+        "name": "Universiteit Twente (UT)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "51a1a452-a1e8-4517-a9df-6f1a62b56263",
+        "84064cb6-7b1a-4ffa-a567-be6da1ac0264",
+        "5b8529c3-5815-40cc-8dad-0a3bbdc1519a",
+        "4a0495fb-f70b-426c-91e8-6c8f3348bad3",
+        "62c39ba3-763f-4234-9b89-1ade46edef4d",
+        "6e1c12b1-da72-4373-b35a-341b623a96c9"
+      ],
+      "mergedFromNames": [
+        "Universiteit Twente (UT)",
+        "Universiteit Twente (UT)",
+        "Universiteit Twente (UT)",
+        "Universiteit Twente (UT)",
+        "Universiteit Twente (UT)",
+        "Universiteit Twente (UT)"
+      ],
+      "mergedSubjectAreas": [
+        "SOT-Education",
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "MGT-Business Administration",
+        "CIT-Informatics",
+        "SOT-Department of Science",
+        "Technology and Society",
+        "ED-Civil",
+        "Environmental",
+        "Geo Engineering",
+        "ED-Mechanical Engineering"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Wageningen",
+      "normalizedCity": "wageningen",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "0ea3c4d9-f04c-40c2-8e4e-ca6f1d1bf5d1",
+        "name": "Wageningen University & Research (WUR)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "e7e63174-1ee1-4cf9-b4bc-41de73e7736c"
+      ],
+      "mergedFromNames": [
+        "Wageningen University & Research (WUR)"
+      ],
+      "mergedSubjectAreas": [
+        "MGT-Business Administration",
+        "LS-Agricultural and Horticultural Sciences",
+        "LS-Biosciences",
+        "LS-Brewing and Food Technology",
+        "LS-Forest Science and Resource Management",
+        "LS-Landscape Architecture and Planning",
+        "LS-Nutritional Sciences"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Aas",
+      "normalizedCity": "aas",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "505e14e3-294a-469f-855a-27db8a16bf5a",
+        "name": "Universitetet for miljø- og biovitenskap (NMBU)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "c8427a66-8507-4e79-8c74-d387329f9b28",
+        "bd68eb96-0235-48a1-8d1f-d42315611254",
+        "ac62385b-11e5-423e-a9be-ddf49c1b6194",
+        "97dc403c-3898-4e6e-8e5c-469482b2738d",
+        "cd5cf7f0-201d-4315-aa45-062eec05460e"
+      ],
+      "mergedFromNames": [
+        "Universitetet for miljø- og biovitenskap (NMBU)",
+        "Universitetet for miljø- og biovitenskap (NMBU)",
+        "Universitetet for miljø- og biovitenskap (NMBU)",
+        "Universitetet for miljø- og biovitenskap (NMBU)",
+        "Universitetet for miljø- og biovitenskap (NMBU)"
+      ],
+      "mergedSubjectAreas": [
+        "ED-Civil",
+        "Environmental",
+        "Geo Engineering",
+        "LS-Forest Science and Resource Management",
+        "LS-Landscape Architecture and Planning",
+        "LS-Agricultural and Horticultural Sciences",
+        "LS-Brewing and Food Technology",
+        "ED-Geodesy"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Kristiansand",
+      "normalizedCity": "kristiansand",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "091685ff-4877-43fc-b741-3c73d0aab647",
+        "name": "Universitetet i Agder (UiA)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "336a5257-def3-4a5e-a13a-b9371a14b957",
+        "311c3cb6-b6ca-404f-8fea-22aef1f80e01",
+        "7ff7bb40-1b1d-4bf9-be7e-57a69944a231",
+        "f0180a5f-c6a4-49d9-8671-03b0ada6d408"
+      ],
+      "mergedFromNames": [
+        "Universitetet i Agder (UiA)",
+        "Universitetet i Agder (UiA)",
+        "Universitetet i Agder (UiA)",
+        "Universitetet i Agder (UiA)"
+      ],
+      "mergedSubjectAreas": [
+        "ED-Mechanical Engineering",
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "CIT-Informatics",
+        "MGT-Business Administration",
+        "ED-Civil",
+        "Environmental",
+        "Geo Engineering"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Bergen",
+      "normalizedCity": "bergen",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "28dc3bf4-ff5c-45ea-9a22-16b39ecb9628",
+        "name": "Universitetet i Bergen (UiB)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "576243f1-516a-4298-9da6-f0ee47470bdf",
+        "ffd5f3f6-6649-43d6-8604-38135b090b24",
+        "94bcb3b3-1d96-4b56-bd29-a10b401b6063",
+        "dc797460-366a-443d-8125-8b141c14fa5d"
+      ],
+      "mergedFromNames": [
+        "Universitetet i Bergen (UiB)",
+        "Universitetet i Bergen (UiB)",
+        "Universitetet i Bergen (UiB)",
+        "Universitetet i Bergen (UiB)"
+      ],
+      "mergedSubjectAreas": [
+        "LS-Nutritional Sciences",
+        "NAT-Chemistry",
+        "CIT-Mathematics",
+        "NAT-Physics",
+        "CIT-Informatics"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Stavanger",
+      "normalizedCity": "stavanger",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "0bfb84a0-9621-4623-b369-216f21ae2246",
+        "name": "Universitetet i Stavanger (UiS)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "4a09a8e8-5ab8-4567-81ca-6d94063ab34a",
+        "e66f0a53-6ea0-444c-9c00-4d675107e7f6",
+        "4bb019b7-5893-4f82-830f-c21a24b3fd77",
+        "b48a8a78-b308-4301-87bb-181d22fb1aae",
+        "f7b06361-3afa-48a6-aa61-a4cee04ce745"
+      ],
+      "mergedFromNames": [
+        "Universitetet i Stavanger (UiS)",
+        "Universitetet i Stavanger (UiS)",
+        "Universitetet i Stavanger (UiS)",
+        "Universitetet i Stavanger (UiS)",
+        "Universitetet i Stavanger (UiS)"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "SOT-Governance",
+        "CIT-Informatics",
+        "ED-Mechanical Engineering",
+        "ED-Civil",
+        "Environmental",
+        "Geo Engineering",
+        "NAT-Physics"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Warszawa",
+      "normalizedCity": "warszawa",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "09a372b5-5d29-4ae8-b79a-c7c9bc545908",
+        "name": "Politechnika Warszawska",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "6c4e1b82-0818-4c04-89ef-a1f7667d9e8f",
+        "6546fd17-d8f8-45db-aceb-8aa32dc1cb33"
+      ],
+      "mergedFromNames": [
+        "Politechnika Warszawska",
+        "Politechnika Warszawska"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "ED-Architecture and Design",
+        "ED-Civil",
+        "Environmental",
+        "Geo Engineering"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Warszawa",
+      "normalizedCity": "warszawa",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "54d92634-cd33-474f-947c-aafd3b3a3242",
+        "name": "Szkola Glowna Gospodarstwa Wiejskiego (SGGW)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "d9a69df3-93fb-47d8-8e0c-643e0138e703"
+      ],
+      "mergedFromNames": [
+        "Szkola Glowna Gospodarstwa Wiejskiego (SGGW)"
+      ],
+      "mergedSubjectAreas": [
+        "LS-Brewing and Food Technology",
+        "LS-Forest Science and Resource Management"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Lisboa",
+      "normalizedCity": "lisboa",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "09697b46-cec8-40bb-9b99-9552c8693a43",
+        "name": "Universidade de Lisboa",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "95f944d8-aae1-4571-89de-8eb6435398df",
+        "5d17a774-d6e7-4d76-9482-2ef433d6da55",
+        "62db0c9d-b20a-486c-af9f-1f53f7f55923",
+        "7303e8f8-7756-43cb-8a3a-4db7ce703089",
+        "30564576-ca26-495c-8d41-74d1e290e1db",
+        "4c7bfe52-5230-4df7-b190-576ee64639a4",
+        "0c014ff4-4b7a-45f8-8bc0-75c76619217c",
+        "ab730afe-8eab-450d-81b6-ab60010cf211",
+        "d10477ab-5ea2-4f70-b56e-304a180a40f0",
+        "be63327d-33e6-4990-818f-a2d96adfebec",
+        "3aae8bc8-ad8e-4bbc-8740-ed33ccd48a68",
+        "c30f2ed5-03b4-4b8d-8de3-2d1002ca24a8"
+      ],
+      "mergedFromNames": [
+        "Universidade de Lisboa",
+        "Universidade de Lisboa",
+        "Universidade de Lisboa",
+        "Universidade de Lisboa",
+        "Universidade de Lisboa",
+        "Universidade de Lisboa",
+        "Universidade de Lisboa",
+        "Universidade de Lisboa",
+        "Universidade de Lisboa",
+        "Universidade de Lisboa",
+        "Universidade de Lisboa",
+        "Universidade de Lisboa"
+      ],
+      "mergedSubjectAreas": [
+        "MH-Sport and Health Science",
+        "MH-Sport and Exercise Science",
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "ED-Mechanical Engineering",
+        "ED-Medical Technology",
+        "ED-Aerospace",
+        "MH-Medicine",
+        "ED-Architecture and Design",
+        "MGT-Business Administration",
+        "CIT-Informatics",
+        "CIT-Mathematics",
+        "NAT-Chemistry",
+        "NAT-Physics",
+        "LS-Biosciences",
+        "ED-Civil",
+        "Environmental",
+        "Geo Engineering"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Lisboa",
+      "normalizedCity": "lisboa",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "2dd35dde-9583-4c16-a10d-c9479d9fa226",
+        "name": "UNIVERSIDADE CATOLICA PORTUGUESA",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "d57e14fc-7182-4984-b058-a7b5787559d1"
+      ],
+      "mergedFromNames": [
+        "UNIVERSIDADE CATOLICA PORTUGUESA"
+      ],
+      "mergedSubjectAreas": [
+        "LS-Brewing and Food Technology",
+        "MGT-Business Administration"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Porto",
+      "normalizedCity": "porto",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "3bcceb08-fed0-44af-bf49-553f3c2f7594",
+        "name": "Universidade do Porto",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "809bd09a-ab94-47ee-ab0e-d100b539231a",
+        "86e4a96d-45ab-48cc-ae8e-fcfb7411c4ae",
+        "ea2495e9-2a9d-4d28-8056-da66a4d78072",
+        "aef9dd83-d4d0-4a03-8186-b607281aff52",
+        "c52d3afb-2739-4ded-ae8d-5d892190b522"
+      ],
+      "mergedFromNames": [
+        "Universidade do Porto",
+        "Universidade do Porto",
+        "Universidade do Porto",
+        "Universidade do Porto",
+        "Universidade do Porto"
+      ],
+      "mergedSubjectAreas": [
+        "ED-Civil",
+        "Environmental",
+        "Geo Engineering",
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "CIT-Informatics",
+        "ED-Architecture and Design",
+        "MGT-Business Administration",
+        "ED-Mechanical Engineering"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Ljubljana",
+      "normalizedCity": "ljubljana",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "35a8df48-3c74-432c-8e53-41c486d8a841",
+        "name": "Univerza v Ljubljani",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "8aab0e83-c4c7-40a0-a319-4db3ed307426",
+        "f864ec29-786e-499d-aa0f-ac341f7e7476",
+        "912ce3bd-62bc-4d8b-8a84-a689e85c8db4",
+        "508da30a-fa35-48ab-bbf5-d59860216dbf",
+        "7cb933a5-a8f6-45ed-97f6-a4786f3cb8f3",
+        "703812fb-015e-486a-b534-d2588b5b8b2e",
+        "b42836bf-11d2-456c-aa9f-3efc70a75214",
+        "75abe565-e6ee-4fcf-9e8d-31e496434fbc",
+        "fe618089-ce0c-4c93-9573-be3af23072f4",
+        "7727b34d-62a1-4630-9a28-ff8a401955ff",
+        "7ac3032e-49b9-4f0d-a1c4-4694cb83d077",
+        "f3b4e51c-e674-4cec-88fa-099e5129c8f0"
+      ],
+      "mergedFromNames": [
+        "Univerza v Ljubljani",
+        "Univerza v Ljubljani",
+        "Univerza v Ljubljani",
+        "Univerza v Ljubljani",
+        "Univerza v Ljubljani",
+        "Univerza v Ljubljani",
+        "Univerza v Ljubljani",
+        "Univerza v Ljubljani",
+        "Univerza v Ljubljani",
+        "Univerza v Ljubljani",
+        "Univerza v Ljubljani",
+        "Univerza v Ljubljani"
+      ],
+      "mergedSubjectAreas": [
+        "CS-Campus Straubing for Biotechnology and Sustainability",
+        "ED-Civil",
+        "Environmental",
+        "Geo Engineering",
+        "LS-Agricultural and Horticultural Sciences",
+        "LS-Brewing and Food Technology",
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "ED-Architecture and Design",
+        "LS-Landscape Architecture and Planning",
+        "CIT-Mathematics",
+        "LS-Forest Science and Resource Management",
+        "LS-Biosciences",
+        "MGT-Business Administration",
+        "NAT-Physics",
+        "ED-Geodesy"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Madrid",
+      "normalizedCity": "madrid",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "1feaefed-ae52-4e3b-9187-c4d31cb3dc71",
+        "name": "Universidad Carlos III de Madrid (UC3M)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "86747d2b-2c15-4a1e-ab62-e2c95cad83d0",
+        "2a93cfad-185f-4407-8d6a-7405b1ffb13d"
+      ],
+      "mergedFromNames": [
+        "Universidad Carlos III de Madrid (UC3M)",
+        "Universidad Carlos III de Madrid (UC3M)"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "CIT-Informatics",
+        "MGT-Business Administration"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Madrid",
+      "normalizedCity": "madrid",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "011cdee4-f789-47a7-8345-bce8dcaf3e74",
+        "name": "Universidad Politécnica de Madrid (UPM)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "f20b12ea-34e8-48b1-b26b-2e6cb14b869a",
+        "4af771a1-4d9a-4295-aa17-991b33c5bd7d",
+        "c1a74bde-c273-4d13-8f7a-cec35a4b1d2a",
+        "d1d4f9e8-d53a-41cd-805c-b9ecae385838",
+        "d6799d7d-6bf8-4ca3-8e85-999fd770fea0",
+        "ff94e37e-1823-4467-89d1-8ee6204e3293",
+        "03be3425-0b22-494c-b4ca-68563c7210c6",
+        "4e722e6b-8244-4cd8-8ba4-1822a87f84fb",
+        "c45b54da-922b-432a-be55-158fff6d48a1",
+        "d411b3cd-5b43-4666-b29b-2d9612a0a0b2",
+        "07cb8625-0048-4627-bb84-bed1aa4d4b07",
+        "53b62153-0ba1-44ae-bf63-2882c3a21565",
+        "c0363e63-97bf-48e4-82fd-5caf7dc8f39d"
+      ],
+      "mergedFromNames": [
+        "Universidad Politécnica de Madrid (UPM)",
+        "Universidad Politécnica de Madrid (UPM)",
+        "Universidad Politécnica de Madrid (UPM)",
+        "Universidad Politécnica de Madrid (UPM)",
+        "Universidad Politécnica de Madrid (UPM)",
+        "Universidad Politécnica de Madrid (UPM)",
+        "Universidad Politécnica de Madrid (UPM)",
+        "Universidad Politécnica de Madrid (UPM)",
+        "Universidad Politécnica de Madrid (UPM)",
+        "Universidad Politécnica de Madrid (UPM)",
+        "Universidad Politécnica de Madrid (UPM)",
+        "Universidad Politécnica de Madrid (UPM)",
+        "Universidad Politécnica de Madrid (UPM)"
+      ],
+      "mergedSubjectAreas": [
+        "LS-Landscape Architecture and Planning",
+        "MH-Sport and Health Science",
+        "ED-Aerospace",
+        "ED-Civil",
+        "Environmental",
+        "Geo Engineering",
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "LS-Agricultural and Horticultural Sciences",
+        "CIT-Informatics",
+        "ED-Mechanical Engineering",
+        "ED-Architecture and Design",
+        "LS-Forest Science and Resource Management",
+        "ED-Geodesy",
+        "LS-Biosciences",
+        "LS-Brewing and Food Technology",
+        "CS-Campus Straubing for Biotechnology and Sustainability"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Madrid",
+      "normalizedCity": "madrid",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "881bfe46-e1f2-467a-879b-d930a085cd1d",
+        "name": "Universidad Autónoma de Madrid (UAM)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "e5342f79-6813-437c-8695-6c43d69dc183"
+      ],
+      "mergedFromNames": [
+        "Universidad Autónoma de Madrid (UAM)"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Informatics",
+        "MH-Medicine"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Madrid",
+      "normalizedCity": "madrid",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "0b85c1be-2b43-4ea2-8549-77d3cf35c2fb",
+        "name": "Universidad Complutense de Madrid (UCM)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "cf3c29ac-b6bc-4c4c-abbb-a7ea81a898a6"
+      ],
+      "mergedFromNames": [
+        "Universidad Complutense de Madrid (UCM)"
+      ],
+      "mergedSubjectAreas": [
+        "NAT-Physics",
+        "CIT-Mathematics"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Madrid",
+      "normalizedCity": "madrid",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "0efdea35-7848-4758-8f9c-21e87f008be7",
+        "name": "Universidad Rey Juan Carlos (URJC)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "f4617ae5-9ef8-4951-acf5-afc516d92e11",
+        "218f9535-d305-420f-951a-655f0093c7a3"
+      ],
+      "mergedFromNames": [
+        "Universidad Rey Juan Carlos (URJC)",
+        "Universidad Rey Juan Carlos (URJC)"
+      ],
+      "mergedSubjectAreas": [
+        "LS-Landscape Architecture and Planning",
+        "ED-Aerospace",
+        "LS-Biosciences"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Granada",
+      "normalizedCity": "granada",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "0d4ffe85-9f88-45c6-adad-e84ce6c407f7",
+        "name": "Universidad de Granada",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "0de324df-7829-4890-829a-89a1edd2d631",
+        "77553622-b7db-4e0b-a9ce-f700765437ca",
+        "896baec2-3e78-4ca7-be75-a70af1631773",
+        "8500cd9e-9089-47e5-9e84-cda4d06fd33e",
+        "7ab2cb67-69eb-4e7a-9a51-a54be6816132",
+        "fe83f5e8-406b-4d3b-a4d6-ba4a67883a78",
+        "429b0c9d-3533-4a5b-b828-6e02c9cc136c"
+      ],
+      "mergedFromNames": [
+        "Universidad de Granada",
+        "Universidad de Granada",
+        "Universidad de Granada",
+        "Universidad de Granada",
+        "Universidad de Granada",
+        "Universidad de Granada",
+        "Universidad de Granada"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "ED-Civil",
+        "Environmental",
+        "Geo Engineering",
+        "NAT-Physics",
+        "MH-Sport and Health Science",
+        "CIT-Mathematics",
+        "ED-Architecture and Design",
+        "CIT-Informatics",
+        "MGT-Business Administration"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Málaga",
+      "normalizedCity": "malaga",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "11c3b00f-1bb6-485a-8b24-b17a73e6afa0",
+        "name": "Universidad de Málaga",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "1d9e5996-f561-448b-bc1a-74588b305e01",
+        "b03dda90-3294-468a-a91c-951ec5a2b6b6"
+      ],
+      "mergedFromNames": [
+        "Universidad de Málaga",
+        "Universidad de Málaga"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "ED-Mechanical Engineering",
+        "LS-Biosciences"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Sevilla",
+      "normalizedCity": "sevilla",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "03082529-1109-47e0-aadf-f61054392e17",
+        "name": "Universidad de Sevilla",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "1537f66f-90ef-4e04-8762-802c4d615a07",
+        "e2c5bc27-07d5-4f56-842b-92fcd5daec7c",
+        "5de572cd-cc83-4321-9d59-5749f6afb63f",
+        "28df117e-e57e-456c-975c-0981cc9ee930",
+        "bec49448-a8e6-4ee9-b2a6-620bb64fb29a",
+        "fd0269bf-fb24-4907-90a0-bef1054af3cd"
+      ],
+      "mergedFromNames": [
+        "Universidad de Sevilla",
+        "Universidad de Sevilla",
+        "Universidad de Sevilla",
+        "Universidad de Sevilla",
+        "Universidad de Sevilla",
+        "Universidad de Sevilla"
+      ],
+      "mergedSubjectAreas": [
+        "MH-Sport and Health Science",
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "ED-Mechanical Engineering",
+        "ED-Aerospace",
+        "ED-Architecture and Design",
+        "CIT-Mathematics",
+        "CIT-Informatics"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Vigo",
+      "normalizedCity": "vigo",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "a160ad32-571d-4abc-8096-715889cbd021",
+        "name": "Universidad de Vigo",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "df76e3b4-65f1-422b-9aae-722df2546316",
+        "c70a23fc-00fe-42dc-91be-195e1fd84bfc"
+      ],
+      "mergedFromNames": [
+        "Universidad de Vigo",
+        "Universidad de Vigo"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "ED-Mechanical Engineering",
+        "ED-Civil",
+        "Environmental",
+        "Geo Engineering"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Barcelona",
+      "normalizedCity": "barcelona",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "99906f43-1bc9-43b3-b248-78bc6f81b4c5",
+        "name": "Universidad Pompeu Fabra (UPF)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "bd1568b0-cd0d-4ae6-914a-dbbc6d16a24b",
+        "e680047c-dc5f-41f4-bebf-e7e2450c1763"
+      ],
+      "mergedFromNames": [
+        "Universidad Pompeu Fabra (UPF)",
+        "Universidad Pompeu Fabra (UPF)"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Informatics",
+        "MGT-Business Administration",
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Barcelona",
+      "normalizedCity": "barcelona",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "8acf2b9a-7efa-4369-8fc8-73792e032371",
+        "name": "Universitat Autónoma de Barcelona (UAB)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "a3b14c44-c951-49fd-8af1-a577039924a6"
+      ],
+      "mergedFromNames": [
+        "Universitat Autónoma de Barcelona (UAB)"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "MGT-Business Administration"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Barcelona",
+      "normalizedCity": "barcelona",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "11e0d122-5288-4fee-80c8-c1919fb751cc",
+        "name": "Universitat de Barcelona",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "2c664ddb-55c7-4b8a-ae17-3b948ad7be82",
+        "73bc69fe-a11b-4606-9ab2-70f5a8bc444e",
+        "e5789ea6-8d8d-4f26-9919-cd312259d57b",
+        "2b542f37-998d-4158-9975-28a290e065aa",
+        "c0ce7f35-ef54-498f-8f8b-fb84174078de",
+        "2f745cf4-3092-4dca-b1ca-b793bbba7477",
+        "bca24d90-8eba-4dce-9f6c-f4895be72865",
+        "a4d57d6d-3ca4-471a-83e4-8946825ab5db"
+      ],
+      "mergedFromNames": [
+        "Universitat de Barcelona",
+        "Universitat de Barcelona",
+        "Universitat de Barcelona",
+        "Universitat de Barcelona",
+        "Universitat de Barcelona",
+        "Universitat de Barcelona",
+        "Universitat de Barcelona",
+        "Universitat de Barcelona"
+      ],
+      "mergedSubjectAreas": [
+        "MH-Medicine",
+        "NAT-Physics",
+        "NAT-Chemistry",
+        "CIT-Informatics",
+        "CIT-Mathematics",
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "LS-Biosciences",
+        "LS-Nutritional Sciences",
+        "LS-Brewing and Food Technology",
+        "MGT-Business Administration"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Göteborg",
+      "normalizedCity": "goteborg",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "1719b4bb-cdf8-42ee-babc-1ff07bae7a05",
+        "name": "Chalmers tekniska hoegskola AB",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "c183ac6b-d588-497c-a285-a26dc4576860",
+        "1f3c4548-ee94-44b8-8d74-f6b2856b0b32",
+        "6e4ba405-9d6d-49d1-98ff-a34386557bb8",
+        "4d8ecbc9-4863-4a50-88eb-f8b4dab4d06f",
+        "2044c4d6-30eb-42e5-92d6-7e3471f2852f",
+        "2af17bb1-20ce-4ed3-82a4-cdc5bcacab00",
+        "92860438-ca86-489e-9462-c02b19ad0ab3",
+        "e706c8c8-e53b-4a9e-b732-da351d5680ea",
+        "2972eb3a-033a-439e-b256-132acedc2411"
+      ],
+      "mergedFromNames": [
+        "Chalmers tekniska hoegskola AB",
+        "Chalmers tekniska hoegskola AB",
+        "Chalmers tekniska hoegskola AB",
+        "Chalmers tekniska hoegskola AB",
+        "Chalmers tekniska hoegskola AB",
+        "Chalmers tekniska hoegskola AB",
+        "Chalmers tekniska hoegskola AB",
+        "Chalmers tekniska hoegskola AB",
+        "Chalmers tekniska hoegskola AB"
+      ],
+      "mergedSubjectAreas": [
+        "ED-Civil",
+        "Environmental",
+        "Geo Engineering",
+        "CS-Campus Straubing for Biotechnology and Sustainability",
+        "CIT-Mathematics",
+        "ED-Mechanical Engineering",
+        "CIT-Informatics",
+        "MGT-Business Administration",
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "NAT-Chemistry",
+        "NAT-Physics",
+        "ED-Architecture and Design"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Göteborg",
+      "normalizedCity": "goteborg",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "0a103483-28c0-4216-8451-c56701dc4e12",
+        "name": "Göteborgs Universitet",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "8e40a855-f15d-4e09-9843-94ed5d9b2cbd",
+        "b762d890-2bf0-4581-94d2-985a0baebaca"
+      ],
+      "mergedFromNames": [
+        "Göteborgs Universitet",
+        "Göteborgs Universitet"
+      ],
+      "mergedSubjectAreas": [
+        "NAT-Physics",
+        "CIT-Mathematics",
+        "MH-Sport and Health Science"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Stockholm",
+      "normalizedCity": "stockholm",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "0023344a-a97c-40de-9c69-e2406298ee2f",
+        "name": "Kungliga Tekniska Högskolan (KTH)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "0084cdad-bee3-4065-a014-f8559bff580e",
+        "19634d2b-1df2-46af-8ad7-0198f8eb0b65",
+        "0762c06c-8bcb-4799-9b44-a9b3de75817a",
+        "41672bc3-ae7f-4dd6-9b8a-8afd2f1533c4",
+        "9b278682-08f2-4b7d-a2ff-93d2a0316974",
+        "6c5af089-903f-486a-bd9a-70c358968995",
+        "c086856b-e275-49d9-9ac6-1386b4701f08",
+        "b6c4c819-27fc-4f7a-8ef8-959c86dc9d9e",
+        "a4d1ee92-5f04-4437-8adc-1f5685c1e2eb",
+        "5ee51408-081c-421c-bd43-d604342ab698"
+      ],
+      "mergedFromNames": [
+        "Kungliga Tekniska Högskolan (KTH)",
+        "Kungliga Tekniska Högskolan (KTH)",
+        "Kungliga Tekniska Högskolan (KTH)",
+        "Kungliga Tekniska Högskolan (KTH)",
+        "Kungliga Tekniska Högskolan (KTH)",
+        "Kungliga Tekniska Högskolan (KTH)",
+        "Kungliga Tekniska Högskolan (KTH)",
+        "Kungliga Tekniska Högskolan (KTH)",
+        "Kungliga Tekniska Högskolan (KTH)",
+        "Kungliga Tekniska Högskolan (KTH)"
+      ],
+      "mergedSubjectAreas": [
+        "ED-Mechanical Engineering",
+        "ED-Architecture and Design",
+        "CIT-Informatics",
+        "NAT-Chemistry",
+        "NAT-Physics",
+        "CIT-Mathematics",
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "MGT-Business Administration",
+        "LS-Biosciences",
+        "ED-Civil",
+        "Environmental",
+        "Geo Engineering",
+        "ED-Medical Technology"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Stockholm",
+      "normalizedCity": "stockholm",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "382ff991-6845-45fd-9f4f-cf26b310b224",
+        "name": "Stockholms universitet",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "c34e086f-a4c0-4e54-b22f-dfe6e64a1d56",
+        "e5a9d79d-6331-4209-8eb2-19aeb7fa5c58"
+      ],
+      "mergedFromNames": [
+        "Stockholms universitet",
+        "Stockholms universitet"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Mathematics",
+        "CIT-Informatics",
+        "MH-Sport and Health Science"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Linköping",
+      "normalizedCity": "linkoping",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "0e54f8ce-3b5e-4438-afd7-78589beb8ae5",
+        "name": "Linköpings universitet (LiU)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "8dcca18b-198b-4f7c-b4ec-604c73ce9c6e",
+        "aec58c1e-2c62-4315-81f9-c168c609ee4f",
+        "6eddae4b-321e-47cb-ab66-96adb510b199",
+        "492b38e8-965e-4b44-afef-e12165917d68",
+        "9c6a0c73-de09-456a-912d-fb93e9853bf8",
+        "5984cda2-7dd3-4f8b-88bf-97eab2acacc3"
+      ],
+      "mergedFromNames": [
+        "Linköpings universitet (LiU)",
+        "Linköpings universitet (LiU)",
+        "Linköpings universitet (LiU)",
+        "Linköpings universitet (LiU)",
+        "Linköpings universitet (LiU)",
+        "Linköpings universitet (LiU)"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "ED-Mechanical Engineering",
+        "ED-Aerospace",
+        "CIT-Informatics",
+        "LS-Biosciences",
+        "MGT-Business Administration",
+        "CIT-Mathematics"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Klagenfurt",
+      "normalizedCity": "klagenfurt",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "156fcc61-7952-4570-96d1-320d4b6c3cf4",
+        "name": "Alpen-Adria-Universität Klagenfurt",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "1a9f7596-e2c8-4f0e-8235-422f17367a7e"
+      ],
+      "mergedFromNames": [
+        "Alpen-Adria-Universität Klagenfurt"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "SOT-Education"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Graz",
+      "normalizedCity": "graz",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "201db667-63e2-439c-8d59-48161b827f9a",
+        "name": "Technische Universitaet Graz",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "f567bf2a-febe-4d27-a17e-b90f63051672",
+        "639fb50b-84f2-4a1a-b009-0104010db216"
+      ],
+      "mergedFromNames": [
+        "Technische Universitaet Graz",
+        "Technische Universitaet Graz"
+      ],
+      "mergedSubjectAreas": [
+        "ED-Geodesy",
+        "ED-Architecture and Design",
+        "ED-Mechanical Engineering"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Bruxelles",
+      "normalizedCity": "bruxelles",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "1e1a9c60-8008-4882-af61-0424957c555b",
+        "name": "Université libre de Bruxelles",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "d37340e3-e1f1-4ee6-9d6f-41277ffb40f0",
+        "85164280-9ee7-44fd-b1f1-2046ed7af080"
+      ],
+      "mergedFromNames": [
+        "Université libre de Bruxelles",
+        "Université libre de Bruxelles"
+      ],
+      "mergedSubjectAreas": [
+        "ED-Mechanical Engineering",
+        "MH-Medicine",
+        "MGT-Business Administration"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Antwerpen",
+      "normalizedCity": "antwerpen",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "bffe326d-d182-4ba9-8a38-f8db239dc5cc",
+        "name": "Universiteit Antwerpen",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "f3e8fec2-ac66-414b-8fa7-112883f43dcb"
+      ],
+      "mergedFromNames": [
+        "Universiteit Antwerpen"
+      ],
+      "mergedSubjectAreas": [
+        "ED-Architecture and Design",
+        "MGT-Business Administration"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Gent",
+      "normalizedCity": "gent",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "7f686b2a-974f-4960-8e37-faf0a2812862",
+        "name": "Universiteit Gent",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "fe8491ba-ce56-4021-a9fc-fb1b47678a62",
+        "eaeb37b3-cfb4-4ab7-9afb-abe093cb0724",
+        "cd1e88d2-d7fe-40cd-9a40-0db6886bd054",
+        "9b88aab8-9efb-419a-bf27-e2da975fb11a"
+      ],
+      "mergedFromNames": [
+        "Universiteit Gent",
+        "Universiteit Gent",
+        "Universiteit Gent",
+        "Universiteit Gent"
+      ],
+      "mergedSubjectAreas": [
+        "SOT-Education",
+        "MGT-Business Administration",
+        "ED-Architecture and Design",
+        "NAT-Chemistry",
+        "LS-Biosciences"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Rijeka",
+      "normalizedCity": "rijeka",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "11dd704a-86ad-43bb-a45e-214cd82954df",
+        "name": "Sveučilište u Rijeci",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "291ef590-2ffb-4570-a0c7-8742e54199a6"
+      ],
+      "mergedFromNames": [
+        "Sveučilište u Rijeci"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "ED-Interdisciplinary Engineering"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Brno Stred",
+      "normalizedCity": "brno stred",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "30223553-2fc3-48c5-a29f-f16a8815dac8",
+        "name": "Masarykova univerzita",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "c9fc1e93-020e-448a-980e-f1a861c0db27"
+      ],
+      "mergedFromNames": [
+        "Masarykova univerzita"
+      ],
+      "mergedSubjectAreas": [
+        "MH-Sport and Health Science",
+        "CIT-Informatics"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Brno",
+      "normalizedCity": "brno",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "970b0670-5e8a-4d99-ba52-9606dfa66679",
+        "name": "Mendelova univerzita v Brně",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "cebf7498-9b9d-4ec3-88f1-ae71a60fc54b"
+      ],
+      "mergedFromNames": [
+        "Mendelova univerzita v Brně"
+      ],
+      "mergedSubjectAreas": [
+        "LS-Landscape Architecture and Planning",
+        "LS-Forest Science and Resource Management"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "København",
+      "normalizedCity": "k benhavn",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "0aae29f7-f8b0-4d6b-9ef9-44f790be3878",
+        "name": "Københavns Universitet",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "b9720f4b-8f41-414f-bee9-b01a3a5449a9",
+        "1856180e-8907-4120-9c98-0e2604e2783e"
+      ],
+      "mergedFromNames": [
+        "Københavns Universitet",
+        "Københavns Universitet"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Informatics",
+        "CIT-Mathematics",
+        "LS-Agricultural and Horticultural Sciences",
+        "LS-Biosciences",
+        "LS-Brewing and Food Technology",
+        "LS-Forest Science and Resource Management",
+        "LS-Landscape Architecture and Planning",
+        "LS-Nutritional Sciences",
+        "MH-Sport and Health Science"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Tartu",
+      "normalizedCity": "tartu",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "5aaa6003-2631-4ea2-b53c-23f0a59de3d6",
+        "name": "Eesti Maaülikool",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "5ba39d69-55a7-433f-84be-e375d1df8af0",
+        "ec8c2bba-8d68-44eb-ac6f-49703d9cf462"
+      ],
+      "mergedFromNames": [
+        "Eesti Maaülikool",
+        "Eesti Maaülikool"
+      ],
+      "mergedSubjectAreas": [
+        "LS-Agricultural and Horticultural Sciences",
+        "LS-Landscape Architecture and Planning",
+        "CS-Campus Straubing for Biotechnology and Sustainability"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Kuopio",
+      "normalizedCity": "kuopio",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "39f19221-392e-4caa-afa2-6cc2edb132d5",
+        "name": "Itä-Suomen yliopisto (UEF)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "e012dbde-d039-4f4c-b3d4-b6faa0b02826"
+      ],
+      "mergedFromNames": [
+        "Itä-Suomen yliopisto (UEF)"
+      ],
+      "mergedSubjectAreas": [
+        "LS-Forest Science and Resource Management",
+        "MH-Medicine"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Jyväskylä",
+      "normalizedCity": "jyvaskyla",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "4fa754a4-61dd-4b30-9d45-67f159ea1e91",
+        "name": "Jyvaskylan yliopisto",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "60f8108e-7be6-4aba-8c4d-a8ef196ddde8",
+        "b95ee07e-a981-47e6-8ab0-3c9564657ea0"
+      ],
+      "mergedFromNames": [
+        "Jyvaskylan yliopisto",
+        "Jyvaskylan yliopisto"
+      ],
+      "mergedSubjectAreas": [
+        "MGT-Business Administration",
+        "MH-Sport and Health Science",
+        "CIT-Informatics"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Lappeenranta",
+      "normalizedCity": "lappeenranta",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "0cfd7a49-cc31-41da-b5b9-73b90c47cc00",
+        "name": "Lappeenrannan Teknillinen Yliopisto",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "e555a207-cadf-4425-bf84-b437b70e5b0f"
+      ],
+      "mergedFromNames": [
+        "Lappeenrannan Teknillinen Yliopisto"
+      ],
+      "mergedSubjectAreas": [
+        "ED-Mechanical Engineering",
+        "CIT-Informatics"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Oulu",
+      "normalizedCity": "oulu",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "4cc1a9c5-0800-4474-b900-5ad0b21cb4e7",
+        "name": "Oulun yliopisto",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "4f6ad7c5-caf0-4042-9ba4-09fba50216cd",
+        "985dfc44-1111-49a9-b0ff-32aab402dcbf",
+        "71100fef-e64e-477a-ba95-ebeb2de23361",
+        "cc15b5c7-a781-46d1-b4b1-5bbb507cdf69"
+      ],
+      "mergedFromNames": [
+        "Oulun yliopisto",
+        "Oulun yliopisto",
+        "Oulun yliopisto",
+        "Oulun yliopisto"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "MGT-Business Administration",
+        "ED-Architecture and Design",
+        "CIT-Informatics",
+        "SOT-Education"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Turku",
+      "normalizedCity": "turku",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "7c2d340a-405f-4ec3-9171-769404a3c771",
+        "name": "Turun Yliopisto",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "c82ad34f-0506-43d6-a65e-2ff51b325bae",
+        "d499f5e1-55ad-4876-a7ef-3d586c9ba81c"
+      ],
+      "mergedFromNames": [
+        "Turun Yliopisto",
+        "Turun Yliopisto"
+      ],
+      "mergedSubjectAreas": [
+        "SOT-Education",
+        "NAT-Chemistry",
+        "LS-Biosciences"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Gif sur Yvette",
+      "normalizedCity": "gif sur yvette",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "27c21a5d-e083-42c4-a847-97c4151476d9",
+        "name": "CentraleSupélec",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "700ccbc2-7ed4-4f8e-8518-0672bd3fc936",
+        "684618cc-8849-4630-944b-79fb07406eb3",
+        "afda0755-ecd2-4b36-8ad3-d41a3e7a5734"
+      ],
+      "mergedFromNames": [
+        "CentraleSupélec",
+        "CentraleSupélec",
+        "CentraleSupélec"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "ED-Mechanical Engineering",
+        "CIT-Informatics",
+        "ED-Interdisciplinary Engineering"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Ecully",
+      "normalizedCity": "ecully",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "3f4fd15c-0412-4f21-9a1d-e045ea94d339",
+        "name": "École Centrale de Lyon",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "48903149-b413-4fe6-924d-18283f76cfea"
+      ],
+      "mergedFromNames": [
+        "École Centrale de Lyon"
+      ],
+      "mergedSubjectAreas": [
+        "ED-Mechanical Engineering",
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Grenoble",
+      "normalizedCity": "grenoble",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "3a0bbca5-4447-4e77-aa67-0d3be0ebc627",
+        "name": "Institut polytechnique de Grenoble (INP)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "694142af-f1ac-47f9-8af8-d89f3e3fbc6f",
+        "4bc9338b-2c09-4040-9585-1d5053ef0c7e",
+        "762fc9f4-0835-4c64-bf5a-81974953cf42",
+        "7dc85e6e-4dcc-4b4b-adde-c0bccf48fca4"
+      ],
+      "mergedFromNames": [
+        "Institut polytechnique de Grenoble (INP)",
+        "Institut polytechnique de Grenoble (INP)",
+        "Institut polytechnique de Grenoble (INP)",
+        "Institut polytechnique de Grenoble (INP)"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "NAT-Physics",
+        "CIT-Mathematics",
+        "CIT-Informatics"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Marne-la-Vallée",
+      "normalizedCity": "marne la vallee",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "e32990ee-c0a0-47f5-afb8-d84f595267f1",
+        "name": "École des Ponts ParisTech (ENPC)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "f4404b5e-4f21-48e7-8f99-2d5b7159867c",
+        "ee4ecec5-7667-42d4-83f9-8daff87e89f2"
+      ],
+      "mergedFromNames": [
+        "École des Ponts ParisTech (ENPC)",
+        "École des Ponts ParisTech (ENPC)"
+      ],
+      "mergedSubjectAreas": [
+        "ED-Civil",
+        "Environmental",
+        "Geo Engineering",
+        "CIT-Mathematics",
+        "SOT-Governance"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Bordeaux",
+      "normalizedCity": "bordeaux",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "1d788021-8fa7-49f8-8da8-ae941e2ca41b",
+        "name": "Ecole nationale supérieure d'architecture et de paysage de Bordeaux",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "ffef92fb-a0d3-452e-a13c-86915f5e0e18"
+      ],
+      "mergedFromNames": [
+        "Ecole nationale supérieure d'architecture et de paysage de Bordeaux"
+      ],
+      "mergedSubjectAreas": [
+        "LS-Landscape Architecture and Planning",
+        "ED-Architecture and Design"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Bordeaux",
+      "normalizedCity": "bordeaux",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "a1972c95-c130-485f-ba79-eed2ec308723",
+        "name": "Ecole Nationale Supérieure des Sciences Agronomiques de Bordeaux-Aquitaine (Bordeaux Sciences Agro)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "d8ff9a07-8455-4140-aca5-ffc45b442554"
+      ],
+      "mergedFromNames": [
+        "Ecole Nationale Supérieure des Sciences Agronomiques de Bordeaux-Aquitaine (Bordeaux Sciences Agro)"
+      ],
+      "mergedSubjectAreas": [
+        "LS-Agricultural and Horticultural Sciences",
+        "LS-Forest Science and Resource Management"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Palaiseau",
+      "normalizedCity": "palaiseau",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "04c6a6bd-be08-4f55-b777-4e7eb7d43f1f",
+        "name": "École Polytechnique (l'X)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "c6895057-4f50-4754-95dd-c720b679d538",
+        "7f324918-e1a6-48e6-9870-f9c35fa4d809",
+        "b1bbac5b-7785-43da-a37d-127aabd3d9ba",
+        "a0f26d34-0c85-42ad-b8e2-a0ce5b3732f8",
+        "e5e7c003-707a-4e5f-8bb3-3bf15a66775f",
+        "c63f022c-a286-4aaf-8c05-96b76073fd4c"
+      ],
+      "mergedFromNames": [
+        "École Polytechnique (l'X)",
+        "École Polytechnique (l'X)",
+        "École Polytechnique (l'X)",
+        "École Polytechnique (l'X)",
+        "École Polytechnique (l'X)",
+        "École Polytechnique (l'X)"
+      ],
+      "mergedSubjectAreas": [
+        "ED-Civil",
+        "Environmental",
+        "Geo Engineering",
+        "ED-Mechanical Engineering",
+        "CIT-Mathematics",
+        "NAT-Physics",
+        "CIT-Informatics",
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "ED-Interdisciplinary Engineering"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Montpellier, Rennes-Angers, Dijon",
+      "normalizedCity": "montpellier rennes angers dijon",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "5af7c8d7-2336-4ad0-adfd-24d6a1c859ad",
+        "name": "L'institut Agro",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "ad407246-d8b0-4d7f-a026-4791f46e2c8c"
+      ],
+      "mergedFromNames": [
+        "L'institut Agro"
+      ],
+      "mergedSubjectAreas": [
+        "LS-Agricultural and Horticultural Sciences",
+        "LS-Landscape Architecture and Planning"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Mont-Saint-Aignan",
+      "normalizedCity": "mont saint aignan",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "7057e75e-b17e-4b29-ab36-f3588f6611f7",
+        "name": "NEOMA Business School",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "be1d816c-0712-40cc-a8ef-9cdfed4926d9"
+      ],
+      "mergedFromNames": [
+        "NEOMA Business School"
+      ],
+      "mergedSubjectAreas": [
+        "MGT-Business Administration",
+        "CS-Campus Straubing for Biotechnology and Sustainability"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Thessaloniki",
+      "normalizedCity": "thessaloniki",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "04ab63dd-da73-4529-b951-74fd6fa14049",
+        "name": "Aristoteleio Panepistimio Thessalonikis (AUTh)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "993fe207-77e5-4ce2-983e-ad7cf91733ea"
+      ],
+      "mergedFromNames": [
+        "Aristoteleio Panepistimio Thessalonikis (AUTh)"
+      ],
+      "mergedSubjectAreas": [
+        "ED-Geodesy",
+        "LS-Biosciences"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Cork",
+      "normalizedCity": "cork",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "3eb5ef17-51dc-4d8e-b2a2-58afeca9d745",
+        "name": "University College Cork – National University of Ireland, Cork",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "7c30ea03-e357-4eff-8b0b-75f9ccbb0753"
+      ],
+      "mergedFromNames": [
+        "University College Cork – National University of Ireland, Cork"
+      ],
+      "mergedSubjectAreas": [
+        "NAT-Chemistry",
+        "CIT-Mathematics"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Limerick",
+      "normalizedCity": "limerick",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "60f8b3a9-f273-4e9d-a5dc-079004c7cdbd",
+        "name": "University of Limerick",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "fa36ed66-6349-4391-ae98-34049ad32bdc"
+      ],
+      "mergedFromNames": [
+        "University of Limerick"
+      ],
+      "mergedSubjectAreas": [
+        "SOT-Governance",
+        "MGT-Business Administration"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Torino",
+      "normalizedCity": "torino",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "3a5b5cab-04cb-4936-aa2d-363463f36bda",
+        "name": "Politecnico di Torino",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "c94bdbbf-d1d9-4340-8152-d8cc6fde331f",
+        "4cc29e2e-a84b-44dc-b00e-d5fd1ebafed6",
+        "599a3528-c00f-43a9-96cc-e640627b5eac"
+      ],
+      "mergedFromNames": [
+        "Politecnico di Torino",
+        "Politecnico di Torino",
+        "Politecnico di Torino"
+      ],
+      "mergedSubjectAreas": [
+        "ED-Aerospace",
+        "ED-Mechanical Engineering",
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "ED-Civil",
+        "Environmental",
+        "Geo Engineering"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Torino",
+      "normalizedCity": "torino",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "6767799a-7346-4085-8a9c-34c64146443b",
+        "name": "Università degli Studi di Torino",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "733e6e8b-0d35-4d55-afe5-45bffbd2794a",
+        "c99140ee-f14a-4dd3-b1a2-13d794f98932"
+      ],
+      "mergedFromNames": [
+        "Università degli Studi di Torino",
+        "Università degli Studi di Torino"
+      ],
+      "mergedSubjectAreas": [
+        "NAT-Physics",
+        "CS-Campus Straubing for Biotechnology and Sustainability",
+        "NAT-Chemistry"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Caserta",
+      "normalizedCity": "caserta",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "4a000066-4ef9-491c-a546-790303b2efa9",
+        "name": "Università degli Studi della Campania Luigi Vanvitelli",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "5347351c-5322-471e-be94-62efa990dd6e"
+      ],
+      "mergedFromNames": [
+        "Università degli Studi della Campania Luigi Vanvitelli"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Informatics",
+        "NAT-Physics"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Genova",
+      "normalizedCity": "genova",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "1082fb27-13bb-47f5-a4c1-5d1756ea5c31",
+        "name": "Università degli Studi di Genova",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "9fa6e82f-6528-4bee-83f2-e75aacb75ef1",
+        "2b8f028f-2a04-46a0-96d5-2639911b5c4b"
+      ],
+      "mergedFromNames": [
+        "Università degli Studi di Genova",
+        "Università degli Studi di Genova"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "ED-Architecture and Design",
+        "LS-Landscape Architecture and Planning"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Padova",
+      "normalizedCity": "padova",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "0dab3238-d8ee-4c67-ba12-3fa809a74fd0",
+        "name": "Universita degli Studi di Padova",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "8d85eb01-6d12-4e86-a7ab-7a2c8d808510",
+        "4c0c7f6a-10bc-4d48-8d9a-417c935fe49e",
+        "51b79eb1-2ab6-4076-ae3e-55fc0e6caf00",
+        "3a6a3fe5-647d-44ff-8134-fddfe61894dc",
+        "b7281fc5-edf1-48f6-8b2a-122ace64547e",
+        "cdf4f6c6-bf90-4003-a7d3-7d60209d2b6c",
+        "6274377f-dd54-44da-b0df-12e24d294151"
+      ],
+      "mergedFromNames": [
+        "Universita degli Studi di Padova",
+        "Universita degli Studi di Padova",
+        "Universita degli Studi di Padova",
+        "Universita degli Studi di Padova",
+        "Universita degli Studi di Padova",
+        "Universita degli Studi di Padova",
+        "Universita degli Studi di Padova"
+      ],
+      "mergedSubjectAreas": [
+        "MH-Medicine",
+        "LS-Forest Science and Resource Management",
+        "NAT-Chemistry",
+        "ED-Aerospace",
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "LS-Biosciences",
+        "LS-Brewing and Food Technology",
+        "SOT-Education"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Parma",
+      "normalizedCity": "parma",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "5e45f6b7-f991-4bec-b830-5dc012fd8457",
+        "name": "Università degli Studi di Parma",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "c8b8d3df-41c0-4782-836a-362501cd344b"
+      ],
+      "mergedFromNames": [
+        "Università degli Studi di Parma"
+      ],
+      "mergedSubjectAreas": [
+        "LS-Agricultural and Horticultural Sciences",
+        "LS-Brewing and Food Technology"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Verona",
+      "normalizedCity": "verona",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "7f483b33-0ec0-409e-a49e-35fc632a60c7",
+        "name": "Università degli Studi di Verona",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "d5b7dcd0-c0c7-4ae9-a0ac-9ab59b3c2abe"
+      ],
+      "mergedFromNames": [
+        "Università degli Studi di Verona"
+      ],
+      "mergedSubjectAreas": [
+        "MGT-Business Administration",
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Pisa",
+      "normalizedCity": "pisa",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "5424eb52-8971-4ffa-8a9e-561bc14cfe84",
+        "name": "Università di Pisa",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "8997b798-4bbd-4d67-98ae-cca6d61c8fd7"
+      ],
+      "mergedFromNames": [
+        "Università di Pisa"
+      ],
+      "mergedSubjectAreas": [
+        "ED-Aerospace",
+        "CIT-Informatics"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Jelgava",
+      "normalizedCity": "jelgava",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "5a63c066-26c4-4b2d-972f-9662b452eede",
+        "name": "Latvijas Lauksaimniecîbas Universitâte",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "dcd4ef45-aaaf-4011-ad79-3a10beef987b"
+      ],
+      "mergedFromNames": [
+        "Latvijas Lauksaimniecîbas Universitâte"
+      ],
+      "mergedSubjectAreas": [
+        "LS-Agricultural and Horticultural Sciences",
+        "LS-Forest Science and Resource Management"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Vilnius",
+      "normalizedCity": "vilnius",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "4b2a4771-83f3-4594-9441-8b66375a7817",
+        "name": "Vilniaus Gedimino Technikos Universitetas (VGTU)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "98a40d56-f266-43d2-aa15-9ce8ade50290",
+        "a83efb8c-f275-4da9-a6a9-be4c27f7d01e"
+      ],
+      "mergedFromNames": [
+        "Vilniaus Gedimino Technikos Universitetas (VGTU)",
+        "Vilniaus Gedimino Technikos Universitetas (VGTU)"
+      ],
+      "mergedSubjectAreas": [
+        "ED-Civil",
+        "Environmental",
+        "Geo Engineering",
+        "ED-Architecture and Design",
+        "MGT-Business Administration"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Luxembourg",
+      "normalizedCity": "luxembourg",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "b00e0cc9-738f-440c-98e4-01d62e484093",
+        "name": "Université du Luxembourg",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "b8df1255-1e9f-43bd-b035-50bc146f9aac"
+      ],
+      "mergedFromNames": [
+        "Université du Luxembourg"
+      ],
+      "mergedSubjectAreas": [
+        "ED-Interdisciplinary Engineering",
+        "ED-Architecture and Design"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Groningen",
+      "normalizedCity": "groningen",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "24c0307c-832e-449a-b344-a4e24bd4ba7d",
+        "name": "Rijksuniversiteit Groningen (RUG)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "6c705bf8-dfa1-4230-863a-62273e4d2a80",
+        "48b3831a-57bf-41d7-91fe-432866b14ec2",
+        "83284824-f413-4f84-a535-ac256776c6e6",
+        "886a8aa6-1848-46e5-9a61-a9febdb2cebc",
+        "d57c51e9-18d8-4d2b-ad84-3d658bc2e49e"
+      ],
+      "mergedFromNames": [
+        "Rijksuniversiteit Groningen (RUG)",
+        "Rijksuniversiteit Groningen (RUG)",
+        "Rijksuniversiteit Groningen (RUG)",
+        "Rijksuniversiteit Groningen (RUG)",
+        "Rijksuniversiteit Groningen (RUG)"
+      ],
+      "mergedSubjectAreas": [
+        "NAT-Chemistry",
+        "LS-Biosciences",
+        "NAT-Physics",
+        "CIT-Mathematics",
+        "CIT-Informatics",
+        "MGT-Business Administration"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Maastricht",
+      "normalizedCity": "maastricht",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "3e241976-292c-437e-ba28-7a03c7f21c95",
+        "name": "Universiteit Maastricht (UM)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "fb6ac188-b1b7-4771-87e8-4eb6e9ebb1f0",
+        "d419eb3f-57a5-49bf-ba56-102d78f08550"
+      ],
+      "mergedFromNames": [
+        "Universiteit Maastricht (UM)",
+        "Universiteit Maastricht (UM)"
+      ],
+      "mergedSubjectAreas": [
+        "LS-Nutritional Sciences",
+        "MH-Sport and Health Science",
+        "SOT-Governance"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Utrecht",
+      "normalizedCity": "utrecht",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "53c8c38b-ff48-4c8e-9cd0-177fc7332785",
+        "name": "Universiteit Utrecht (UU)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "ac841a10-70d0-4359-8c44-482ae1475ff6",
+        "b1a5a503-318e-4b68-9b15-4bf3a8ed43b1",
+        "f5ad8887-1768-455d-a975-b461484331e5"
+      ],
+      "mergedFromNames": [
+        "Universiteit Utrecht (UU)",
+        "Universiteit Utrecht (UU)",
+        "Universiteit Utrecht (UU)"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Mathematics",
+        "CIT-Informatics",
+        "NAT-Chemistry",
+        "NAT-Physics"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Amsterdam",
+      "normalizedCity": "amsterdam",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "9eed4abb-ec1a-4af4-95ea-1cbe286be595",
+        "name": "Universiteit van Amsterdam (UvA)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "b76188d7-a1a7-46d4-ba3e-e30bd17a2725",
+        "b69c2a57-e710-45db-8ee1-afe1f10d9122"
+      ],
+      "mergedFromNames": [
+        "Universiteit van Amsterdam (UvA)",
+        "Universiteit van Amsterdam (UvA)"
+      ],
+      "mergedSubjectAreas": [
+        "MGT-Business Administration",
+        "CIT-Mathematics",
+        "SOT-Governance"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Amsterdam",
+      "normalizedCity": "amsterdam",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "3a9646de-6108-4b84-aeac-e5bb51f3bad3",
+        "name": "Vrije Universiteit Amsterdam (VU)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "ccd381f6-ea1d-4770-9f86-e20a612d22e2",
+        "e71bcb1b-8114-46b2-a7f8-3bc1702dbbb4"
+      ],
+      "mergedFromNames": [
+        "Vrije Universiteit Amsterdam (VU)",
+        "Vrije Universiteit Amsterdam (VU)"
+      ],
+      "mergedSubjectAreas": [
+        "MH-Sport and Health Science",
+        "LS-Brewing and Food Technology",
+        "LS-Biosciences"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Oslo",
+      "normalizedCity": "oslo",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "70199110-5149-49a7-88b3-9949d8db1297",
+        "name": "Universitetet i Oslo",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "dbeefdfb-c51d-4e0d-9feb-51d10e025255"
+      ],
+      "mergedFromNames": [
+        "Universitetet i Oslo"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Informatics",
+        "SOT-Governance"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Trondheim",
+      "normalizedCity": "trondheim",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "00773c20-89e6-468e-a292-b80cf25d8c37",
+        "name": "Norges Teknisk-Naturvitenskapelige Universitet (NTNU)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "fa8e1578-4794-44b0-869e-f12ca8a80401",
+        "0c2a0683-2af6-4273-9718-9c62495eeefb",
+        "9e2ee663-e4d6-4d81-855d-bac71548dcbe",
+        "32b72ad5-306b-411f-aee5-8fc2d2d90597",
+        "30970715-ab89-4abb-b602-219aa9cc181f",
+        "1a848914-cae4-4f24-973e-24457b0c63a5",
+        "e1d96e21-f16f-432f-a88b-0c2474cc0a78",
+        "c54bb551-7638-4e6d-a589-6778888ad1b3",
+        "3c9b7171-def5-487f-a730-6df69c3ff2ee",
+        "4a8cbedf-bedf-4455-b8b4-3979af00b1cf",
+        "ab38f055-10f0-4bf2-aca3-704a456df7e1",
+        "2714af3d-d7bc-451c-abb5-4c73120f2c91"
+      ],
+      "mergedFromNames": [
+        "Norges Teknisk-Naturvitenskapelige Universitet (NTNU)",
+        "Norges Teknisk-Naturvitenskapelige Universitet (NTNU)",
+        "Norges Teknisk-Naturvitenskapelige Universitet (NTNU)",
+        "Norges Teknisk-Naturvitenskapelige Universitet (NTNU)",
+        "Norges Teknisk-Naturvitenskapelige Universitet (NTNU)",
+        "Norges Teknisk-Naturvitenskapelige Universitet (NTNU)",
+        "Norges Teknisk-Naturvitenskapelige Universitet (NTNU)",
+        "Norges Teknisk-Naturvitenskapelige Universitet (NTNU)",
+        "Norges Teknisk-Naturvitenskapelige Universitet (NTNU)",
+        "Norges Teknisk-Naturvitenskapelige Universitet (NTNU)",
+        "Norges Teknisk-Naturvitenskapelige Universitet (NTNU)",
+        "Norges Teknisk-Naturvitenskapelige Universitet (NTNU)"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Informatics",
+        "ED-Civil",
+        "Environmental",
+        "Geo Engineering",
+        "ED-Mechanical Engineering",
+        "MGT-Business Administration",
+        "ED-Architecture and Design",
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "NAT-Physics",
+        "MH-Medicine",
+        "CIT-Mathematics",
+        "NAT-Chemistry",
+        "LS-Biosciences",
+        "MH-Sport and Health Science",
+        "CS-Campus Straubing for Biotechnology and Sustainability"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Tromsø",
+      "normalizedCity": "troms",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "1157eff9-f566-4df4-9f1a-3c3ff2d7e2c9",
+        "name": "Universitetet i Tromsø – Norges arktiske universitet (UiT)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "ecaf8215-cf8c-4e82-880e-75d9846f682b",
+        "d8bc4070-475d-4192-adb0-dd305443ffe6",
+        "9f347160-cdbd-4054-92c4-c42196aedec5"
+      ],
+      "mergedFromNames": [
+        "Universitetet i Tromsø – Norges arktiske universitet (UiT)",
+        "Universitetet i Tromsø – Norges arktiske universitet (UiT)",
+        "Universitetet i Tromsø – Norges arktiske universitet (UiT)"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Informatics",
+        "MH-Sport and Health Science",
+        "ED-Mechanical Engineering",
+        "CIT-Mathematics"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Kraków",
+      "normalizedCity": "krakow",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "245a8aaf-b469-4159-a78e-8a8c378dbac0",
+        "name": "Politechnika Krakowska",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "805939da-0ee0-44b3-9917-6b573cff5d4b"
+      ],
+      "mergedFromNames": [
+        "Politechnika Krakowska"
+      ],
+      "mergedSubjectAreas": [
+        "ED-Civil",
+        "Environmental",
+        "Geo Engineering",
+        "ED-Architecture and Design"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Kraków",
+      "normalizedCity": "krakow",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "46cc1364-f59a-47b5-bc4e-f29ed1b1f6ab",
+        "name": "Uniwersytet Jagielloński (UJ)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "dc98f29e-4263-45e1-b65a-589ad1ec35c4"
+      ],
+      "mergedFromNames": [
+        "Uniwersytet Jagielloński (UJ)"
+      ],
+      "mergedSubjectAreas": [
+        "MH-Medicine",
+        "CS-Campus Straubing for Biotechnology and Sustainability"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Wrocław",
+      "normalizedCity": "wroc aw",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "414806cf-3716-48c3-965e-81182cc3a4a4",
+        "name": "Politechnika Wroclawska",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "79826daf-00ac-4dd6-b93b-71946b85fc8b",
+        "9cebca52-c9dc-4be3-a52b-ca14f486f7bd",
+        "ff851c93-9a9f-4214-afc9-8bc1cca5a0c6",
+        "da6bbe80-71b7-4212-bc41-b1d104254497"
+      ],
+      "mergedFromNames": [
+        "Politechnika Wroclawska",
+        "Politechnika Wroclawska",
+        "Politechnika Wroclawska",
+        "Politechnika Wroclawska"
+      ],
+      "mergedSubjectAreas": [
+        "ED-Mechanical Engineering",
+        "NAT-Physics",
+        "CIT-Informatics",
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "ED-Civil",
+        "Environmental",
+        "Geo Engineering"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Wrocław",
+      "normalizedCity": "wroc aw",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "5e17e785-109a-4ca6-87de-11cc5aff579a",
+        "name": "Uniwersytet Wroclawski (UWr)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "7db55980-fabc-4ca3-ac3b-6e2d605fe82b"
+      ],
+      "mergedFromNames": [
+        "Uniwersytet Wroclawski (UWr)"
+      ],
+      "mergedSubjectAreas": [
+        "NAT-Physics",
+        "CIT-Mathematics"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Coimbra",
+      "normalizedCity": "coimbra",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "02dcdee9-99cb-475f-b2ce-4d4f14c98dee",
+        "name": "Universidade de Coimbra",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "8a635aca-6994-4e9a-9302-0cff8c299078"
+      ],
+      "mergedFromNames": [
+        "Universidade de Coimbra"
+      ],
+      "mergedSubjectAreas": [
+        "NAT-Physics",
+        "SOT-Governance"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Bratislava",
+      "normalizedCity": "bratislava",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "3ef7d055-ed39-42bd-a7a0-16ae8609bb2a",
+        "name": "Slovenská Technická Univerzita v Bratislave (STU)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "916dfd41-443b-490f-af4d-6d8844a81d41",
+        "c8e8f7a8-23cd-456f-8d7d-76bd3c0eefff"
+      ],
+      "mergedFromNames": [
+        "Slovenská Technická Univerzita v Bratislave (STU)",
+        "Slovenská Technická Univerzita v Bratislave (STU)"
+      ],
+      "mergedSubjectAreas": [
+        "ED-Civil",
+        "Environmental",
+        "Geo Engineering",
+        "ED-Architecture and Design",
+        "CIT-Electrical and Computer Engineering",
+        "Electricity and Energy",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Madrid & Segovia",
+      "normalizedCity": "madrid segovia",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "49a65e4d-1da6-40e3-b0c4-c47d96d6cb7f",
+        "name": "IE Universidad",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "98818ab1-ee4a-432a-8356-cca3898afd7d",
+        "54417f27-b258-4767-8366-e1f99e7b1413"
+      ],
+      "mergedFromNames": [
+        "IE Universidad",
+        "IE Universidad"
+      ],
+      "mergedSubjectAreas": [
+        "SOT-Governance",
+        "MGT-Business Administration",
+        "ED-Architecture and Design"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Cádiz",
+      "normalizedCity": "cadiz",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "0e8c9639-f5ad-4e01-ba11-1466a1b4d21a",
+        "name": "Universidad de Cádiz (UCA)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "6ab73834-1b4a-409c-bc37-b99945195c56"
+      ],
+      "mergedFromNames": [
+        "Universidad de Cádiz (UCA)"
+      ],
+      "mergedSubjectAreas": [
+        "LS-Biosciences",
+        "NAT-Chemistry"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Leioa, Bilbao, San Sebastian and Vitoria",
+      "normalizedCity": "leioa bilbao san sebastian and vitoria",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "98c74c37-0d23-4b68-9534-22573b9670ea",
+        "name": "Universidad del País Vasco / Euskal Herriko Unibertsitatea (UPV/EHU)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "a693227c-1f51-48b7-b356-8d81622fc3a9"
+      ],
+      "mergedFromNames": [
+        "Universidad del País Vasco / Euskal Herriko Unibertsitatea (UPV/EHU)"
+      ],
+      "mergedSubjectAreas": [
+        "NAT-Physics",
+        "ED-Mechanical Engineering"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "San Cristobal de la Laguna",
+      "normalizedCity": "san cristobal de la laguna",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "2727419b-86e2-41fe-a6ae-4fb6adea2ff0",
+        "name": "Universidad de la Laguna (ULL)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "ac563c72-52c5-4241-89a7-c13426e99e69"
+      ],
+      "mergedFromNames": [
+        "Universidad de la Laguna (ULL)"
+      ],
+      "mergedSubjectAreas": [
+        "LS-Agricultural and Horticultural Sciences",
+        "NAT-Physics"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Donostia-San Sebastián",
+      "normalizedCity": "donostia san sebastian",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "863ef006-51f6-47d6-9079-3b7c3dd2543a",
+        "name": "Universidad de Navarra",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "bf52d100-927a-4b26-8107-3163b2de3aca"
+      ],
+      "mergedFromNames": [
+        "Universidad de Navarra"
+      ],
+      "mergedSubjectAreas": [
+        "ED-Mechanical Engineering",
+        "MGT-Business Administration"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Zaragoza",
+      "normalizedCity": "zaragoza",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "1fb786fe-f6e4-4a24-a0a3-1c8c54f6b41b",
+        "name": "Universidad de Zaragoza",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "8cceebcc-4045-4187-8d41-2a7e5119b8f2",
+        "2aa2cf0b-777c-4c75-a936-1d20c791af37",
+        "28685958-f5b4-465e-ab71-20ec696ff9df",
+        "35ccd21a-6275-4823-b2ac-731029dfc9d5"
+      ],
+      "mergedFromNames": [
+        "Universidad de Zaragoza",
+        "Universidad de Zaragoza",
+        "Universidad de Zaragoza",
+        "Universidad de Zaragoza"
+      ],
+      "mergedSubjectAreas": [
+        "NAT-Chemistry",
+        "MH-Sport and Health Science",
+        "MH-Medicine",
+        "CIT-Mathematics",
+        "CIT-Informatics"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Halmstad",
+      "normalizedCity": "halmstad",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "824b7f48-c877-4649-a571-baf19c81493f",
+        "name": "Högskolan i Halmstad",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "fbce4023-5893-4ccc-83a4-81662d3acf31"
+      ],
+      "mergedFromNames": [
+        "Högskolan i Halmstad"
+      ],
+      "mergedSubjectAreas": [
+        "MH-Sport and Health Science",
+        "CIT-Informatics"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Luleå",
+      "normalizedCity": "lulea",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "53e12d19-d5c2-4045-b22a-03b02369c0e7",
+        "name": "Luleå tekniska universitet",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "8cc91055-5b3d-410c-8f94-adfd07f6c319"
+      ],
+      "mergedFromNames": [
+        "Luleå tekniska universitet"
+      ],
+      "mergedSubjectAreas": [
+        "ED-Civil",
+        "Environmental",
+        "Geo Engineering",
+        "ED-Mechanical Engineering"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Lund",
+      "normalizedCity": "lund",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "2c710708-6696-4d61-a5e5-7bff6e076284",
+        "name": "Lunds universitet",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "cb855c91-5d9b-4426-bb62-11c4d76af41b",
+        "dc3777ce-d861-4e34-af32-e530b8bc2d14",
+        "45b44571-0d1a-4e76-aa2b-33f1a3ad94c6",
+        "3d23d019-a824-4aa4-ae6c-fade954496be",
+        "35244b98-5179-48b7-b7b9-fb56a3a5e289",
+        "46c75fca-16e6-4747-a1c8-4384df46453a",
+        "9b3656e7-198f-4476-bf0e-62be2dab0a93",
+        "82ba96b5-e9df-46ca-87f0-e2534872c84a"
+      ],
+      "mergedFromNames": [
+        "Lunds universitet",
+        "Lunds universitet",
+        "Lunds universitet",
+        "Lunds universitet",
+        "Lunds universitet",
+        "Lunds universitet",
+        "Lunds universitet",
+        "Lunds universitet"
+      ],
+      "mergedSubjectAreas": [
+        "LS-Brewing and Food Technology",
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "ED-Mechanical Engineering",
+        "NAT-Physics",
+        "MGT-Business Administration",
+        "CIT-Informatics",
+        "NAT-Chemistry",
+        "ED-Civil",
+        "Environmental",
+        "Geo Engineering",
+        "CIT-Mathematics"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Uppsala, Umeå, Alnarp and Skara",
+      "normalizedCity": "uppsala umea alnarp and skara",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "0486f911-7cf2-452b-81ea-2d52d5c880aa",
+        "name": "Sveriges lantbruksuniversitet (SLU)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "06882875-e652-4c32-b20f-ee12b58667dc",
+        "b95af629-9864-4f5f-bb05-dbe99f0ca34c"
+      ],
+      "mergedFromNames": [
+        "Sveriges lantbruksuniversitet (SLU)",
+        "Sveriges lantbruksuniversitet (SLU)"
+      ],
+      "mergedSubjectAreas": [
+        "LS-Forest Science and Resource Management",
+        "LS-Agricultural and Horticultural Sciences",
+        "LS-Landscape Architecture and Planning"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Umeå",
+      "normalizedCity": "umea",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "24d8669f-e277-4514-a943-55f7c7e8d718",
+        "name": "Umea universitet",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "b41570c6-1fe6-4cd8-aa4b-e10afd0ecc62",
+        "ad7cfbbc-1422-4e15-9916-ce414b8b01c5"
+      ],
+      "mergedFromNames": [
+        "Umea universitet",
+        "Umea universitet"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Informatics",
+        "NAT-Chemistry",
+        "CIT-Mathematics"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Uppsala",
+      "normalizedCity": "uppsala",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "5f671774-ba65-4705-9b48-81126e96dd9c",
+        "name": "Uppsala universitet",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "6cf7b2e6-b943-4289-a343-048c6dfd9d0d",
+        "c42d494c-d98d-49de-a7b1-6eea4ab56c0f",
+        "78628cb8-0ba3-49bd-97d5-72d597accefd",
+        "a0655907-55c3-4cdf-88be-040583636b51",
+        "e78ba212-1ab1-44dd-ab45-1caa17ee12fb",
+        "86d0c064-85da-4e05-8baa-22c0d07cfafa",
+        "c7c03a3e-2537-44fa-836f-ec20061694e5"
+      ],
+      "mergedFromNames": [
+        "Uppsala universitet",
+        "Uppsala universitet",
+        "Uppsala universitet",
+        "Uppsala universitet",
+        "Uppsala universitet",
+        "Uppsala universitet",
+        "Uppsala universitet"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Mathematics",
+        "LS-Biosciences",
+        "CIT-Informatics",
+        "NAT-Chemistry",
+        "ED-Mechanical Engineering",
+        "NAT-Physics",
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "ED-Civil",
+        "Environmental",
+        "Geo Engineering"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Istanbul",
+      "normalizedCity": "istanbul",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "2744e3b4-7aa2-48f8-9560-75221c81683a",
+        "name": "Bogaziçi Üniversitesi",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "4caa96b9-538f-4f33-8941-2895199d5952",
+        "b447ab99-492d-4598-83c2-4a782268883d",
+        "493f0462-70ae-4f18-b5a3-6753931d4198",
+        "b92ed355-5069-46e5-9880-18aae1033597",
+        "4318ebb1-7900-4430-a8b1-f22c36454ece",
+        "ee416eed-7fd4-4079-b5de-8a8366c2082e",
+        "f5ce624b-fa83-4b97-97cd-485b6fe7e5e7"
+      ],
+      "mergedFromNames": [
+        "Bogaziçi Üniversitesi",
+        "Bogaziçi Üniversitesi",
+        "Bogaziçi Üniversitesi",
+        "Bogaziçi Üniversitesi",
+        "Bogaziçi Üniversitesi",
+        "Bogaziçi Üniversitesi",
+        "Bogaziçi Üniversitesi"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "NAT-Physics",
+        "NAT-Chemistry",
+        "CIT-Mathematics",
+        "CIT-Informatics",
+        "ED-Mechanical Engineering",
+        "ED-Civil",
+        "Environmental",
+        "Geo Engineering",
+        "MGT-Business Administration"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Istanbul",
+      "normalizedCity": "istanbul",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "01466241-e810-403e-b159-e98c399c64d0",
+        "name": "Istanbul Teknik Üniversitesi (ITU)",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "4504ade0-2cd1-45ff-b7e7-a97d553ed66b",
+        "c2ed820c-37c3-4791-91e1-656ba8d92885",
+        "a7056e62-b306-4c6f-834e-516ba52cc84d",
+        "f519e5e1-90a9-4be2-9724-8452dc801a78",
+        "387ec3be-4113-4515-8e62-9bcd8b8e287b",
+        "c92f45ed-81ab-495d-ba31-09b405ba4027",
+        "0fd96452-2b2d-4bc4-81b4-ff1c2751178e"
+      ],
+      "mergedFromNames": [
+        "Istanbul Teknik Üniversitesi (ITU)",
+        "Istanbul Teknik Üniversitesi (ITU)",
+        "Istanbul Teknik Üniversitesi (ITU)",
+        "Istanbul Teknik Üniversitesi (ITU)",
+        "Istanbul Teknik Üniversitesi (ITU)",
+        "Istanbul Teknik Üniversitesi (ITU)",
+        "Istanbul Teknik Üniversitesi (ITU)"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Informatics",
+        "MGT-Business Administration",
+        "CIT-Electrical and Computer Engineering",
+        "Electricity",
+        "Energy",
+        "Electronics and Automation",
+        "LS-Brewing and Food Technology",
+        "NAT-Chemistry",
+        "ED-Architecture and Design",
+        "LS-Landscape Architecture and Planning",
+        "SOT-Department of Science",
+        "Technology and Society"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Istanbul",
+      "normalizedCity": "istanbul",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "524e48f0-302e-48b5-99fd-e845ca15b441",
+        "name": "Koç University",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "79048e80-15ac-41a0-8e70-e49711fa71cc",
+        "a0cee3d0-f309-4be0-bf99-07f98a6471da",
+        "e9970bc0-ea63-4483-9aad-59d762cd9c47",
+        "ed2985ab-35ca-45cb-9a89-6b1e3b6aca84"
+      ],
+      "mergedFromNames": [
+        "Koç University",
+        "Koç University",
+        "Koç University",
+        "Koç University"
+      ],
+      "mergedSubjectAreas": [
+        "CIT-Mathematics",
+        "MGT-Business Administration",
+        "NAT-Chemistry",
+        "CIT-Informatics",
+        "MH-Medicine"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    },
+    {
+      "city": "Istanbul",
+      "normalizedCity": "istanbul",
+      "nameSimilarityThreshold": 0.86,
+      "master": {
+        "id": "e761bfbe-3811-4175-8032-a373775c06f4",
+        "name": "Sabanci Üniversitesi",
+        "completenessScore": 8
+      },
+      "mergeIds": [
+        "ee495a01-a6ce-4c6b-9b36-de986a9f39c5"
+      ],
+      "mergedFromNames": [
+        "Sabanci Üniversitesi"
+      ],
+      "mergedSubjectAreas": [
+        "MGT-Business Administration",
+        "CS-Campus Straubing for Biotechnology and Sustainability"
+      ],
+      "mergedDepartments": [],
+      "websiteBefore": null,
+      "websiteAfter": null
+    }
+  ]
+}

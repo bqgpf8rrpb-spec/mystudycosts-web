@@ -361,6 +361,11 @@ def generate_nc_index():
             semester_fee_monthly = (semester_fee / 6.0) if semester_fee else 0.0
             total_monthly_costs = monthly_rent + semester_fee_monthly
             
+            # Get instruction language if available
+            instruction_language = None
+            if isinstance(program, dict):
+                instruction_language = program.get('instructionLanguage')
+            
             # Create index entry
             index_entry = {
                 "programName": program_name,
@@ -369,7 +374,8 @@ def generate_nc_index():
                 "state": state,
                 "type": "FH" if is_fh else "Uni",
                 "nc": float(nc_threshold) if nc_threshold is not None and nc_threshold > 0 else None,
-                "totalMonthlyCosts": round(total_monthly_costs, 2)
+                "totalMonthlyCosts": round(total_monthly_costs, 2),
+                "instructionLanguage": instruction_language  # Include instruction language if available
             }
             
             index.append(index_entry)

@@ -1,0 +1,35 @@
+{
+  "university_id": "FRANKFURT_SCHOOL_OF_FINANCE_MANAGEMENT_GEMEINNUETZIGE_GMBH",
+  "university_name": "Frankfurt School of Finance",
+  "portal_url": "https://www.frankfurt-school.de/en/study/international/partner-universities",
+  "portal_type": "university_website",
+  "scraped_at": "2026-03-15T22:12:19.572Z",
+  "strategy": "custom_scraper",
+  "partner_count": 4,
+  "partners": [
+    {
+      "partner_name": "Executive & Professional Education",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "International Advisory Services",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Research & Faculty",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Students & Alumni",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    }
+  ]
+}

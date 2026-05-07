@@ -1,0 +1,298 @@
+{
+  "university_id": "NORDHAU01",
+  "university_name": "Mobility-Online Portal",
+  "portal_url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=NORDHAU01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+  "portal_type": "mobility_online",
+  "scraped_at": "2026-03-15T21:03:02.338Z",
+  "strategy": "html_table",
+  "partner_count": 41,
+  "partners": [
+    {
+      "partner_name": "ACADEMIA DE STUDII ECONOMICE DIN BUCURESTI",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "372902"
+    },
+    {
+      "partner_name": "Andrássy Gyula Budapesti Német Nyelvû Egyetem",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "376273"
+    },
+    {
+      "partner_name": "Artesis Plantijn Hogeschool Antwerpen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "475469"
+    },
+    {
+      "partner_name": "Dokuz Eylul University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "373971"
+    },
+    {
+      "partner_name": "Ecole Pratique des Hautes Etudes Commerciales",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "375649"
+    },
+    {
+      "partner_name": "École Supérieure du Commerce Extérieur",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "375382"
+    },
+    {
+      "partner_name": "Ekonomikas un Kultūras augstskola",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "373310"
+    },
+    {
+      "partner_name": "Fachhochschule Nordwestschweiz",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "480863"
+    },
+    {
+      "partner_name": "Hogeschool Windesheim",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "373744"
+    },
+    {
+      "partner_name": "IMC Fachhochschule Krems GmbH",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "375577"
+    },
+    {
+      "partner_name": "Istanbul Teknik Üniversitesi",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "373863"
+    },
+    {
+      "partner_name": "KAHRAMANMARAS SUTCU IMAM UNIVERSITESI",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "375537"
+    },
+    {
+      "partner_name": "KATHOLIEKE HOGESCHOOL ZUID-WEST-VLAANDEREN",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "375755"
+    },
+    {
+      "partner_name": "Metropolia Ammattikorkeakoulu",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "373307"
+    },
+    {
+      "partner_name": "Moravská Vysoká Škola Olomouc",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "500286"
+    },
+    {
+      "partner_name": "Mykolo Romerio Universitetas",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "373177"
+    },
+    {
+      "partner_name": "Politechnika Częstochowska",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "374120"
+    },
+    {
+      "partner_name": "Rēzeknes Tehnoloģiju Akadēmija",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "373252"
+    },
+    {
+      "partner_name": "Rīgas Tehniskā Universitāte",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "373255"
+    },
+    {
+      "partner_name": "Sveučilište U Splitu",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "376159"
+    },
+    {
+      "partner_name": "Tallinna Tehnikaúlikool",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "372700"
+    },
+    {
+      "partner_name": "Tampereen Ammattikorkeakoulu",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "373384"
+    },
+    {
+      "partner_name": "UNIVERSIDAD DE CÁDIZ",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "376735"
+    },
+    {
+      "partner_name": "Universidad de Jaén",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "375037"
+    },
+    {
+      "partner_name": "Universidad de Oviedo",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "373503"
+    },
+    {
+      "partner_name": "Universidad Miguel Hernandez de Elche",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "376814"
+    },
+    {
+      "partner_name": "Università degli Studi di Bergamo",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "376316"
+    },
+    {
+      "partner_name": "UNIVERSITATEA \"POLITEHNICA\" DIN TIMISOARA",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "373109"
+    },
+    {
+      "partner_name": "Universitatea 'Babes-Bolyai' din Cluj-Napoca",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "372972"
+    },
+    {
+      "partner_name": "Université de Liège",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "375760"
+    },
+    {
+      "partner_name": "Université Paris Nanterre",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "375332"
+    },
+    {
+      "partner_name": "Univerza v Ljubljani",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "373457"
+    },
+    {
+      "partner_name": "Univerza v Mariboru",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "373488"
+    },
+    {
+      "partner_name": "Univerzita Komenského v Bratislave",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "373595"
+    },
+    {
+      "partner_name": "Univerzita Tomáše Bati Ve Zlíně",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "372695"
+    },
+    {
+      "partner_name": "Uniwersytet Ekonomiczny w Katowicach",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "374262"
+    },
+    {
+      "partner_name": "Uniwersytet Gdański",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "374150"
+    },
+    {
+      "partner_name": "Uniwersytet Śląski w Katowicach",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "374261"
+    },
+    {
+      "partner_name": "Vilniaus Gedimino Technikos Universitetas",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "373162"
+    },
+    {
+      "partner_name": "Visoka Poslovna Škola PAR",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "567158"
+    },
+    {
+      "partner_name": "Vytauto Didziojo Universitetas",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "373077"
+    }
+  ]
+}

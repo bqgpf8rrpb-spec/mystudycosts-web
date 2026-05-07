@@ -1,0 +1,46 @@
+=== Erasmus Partner Database Quality Report ===
+Date: 2026-03-15T21:38:31.839Z
+
+--- Overview ---
+Universities:        533
+Total partners:      75269
+  Study:             49264
+  Traineeship:       26005
+Portal coverage:     75 unis (14.1%)
+
+--- Confidence Distribution ---
+  verified_active       12592 (16.7%)
+  moveon_only             109 (0.1%)
+  likely_active         18691 (24.8%)
+  possibly_active       11353 (15.1%)
+  historical             6922 (9.2%)
+  traineeship           25602 (34.0%)
+
+--- Quality Metrics ---
+Verified rate:       25.8% of study partners
+Likely active rate:  37.9% of study partners
+High confidence:     63.7% of study partners
+
+All checks passed.
+
+--- Top 20 Universities by Study Partners ---
+   1152 WESTFAELISCHE WILHELMS-UNIVERSITAET MUENSTER
+   1108 TECHNISCHE UNIVERSITAET MUENCHEN
+    934 UNIVERSITAET LEIPZIG
+    894 LUDWIG-MAXIMILIANS-UNIVERSITAET MUENCHEN
+    839 UNIVERSITAET ZU KOELN
+    828 JOHANNES GUTENBERG-UNIVERSITAT MAINZ
+    824 RHEINISCH-WESTFAELISCHE TECHNISCHE HOCHSCHULE AACHEN
+    797 ALBERT-LUDWIGS-UNIVERSITAET FREIBURG
+    791 EBERHARD KARLS UNIVERSITAET TUEBINGEN
+    786 FREIE UNIVERSITAET BERLIN
+    768 UNIVERSITAET BREMEN
+    743 CHRISTIAN-ALBRECHTS-UNIVERSITAET  ZU KIEL
+    719 UNIVERSITAET GOETTINGEN
+    707 RUPRECHT-KARLS-UNIVERSITAET HEIDELBERG
+    658 RUHR-UNIVERSITAET BOCHUM
+    651 GOTTFRIED WILHELM LEIBNIZ UNIVERSITAET HANNOVER
+    635 JOHANN WOLFGANG GOETHE-UNIVERSITAET FRANKFURT AM MAIN
+    634 TECHNISCHE UNIVERSITAET DRESDEN
+    625 FRIEDRICH-ALEXANDER-UNIVERSITAET ERLANGEN NUERNBERG
+    616 JUSTUS-LIEBIG-UNIVERSITAET GIESSEN

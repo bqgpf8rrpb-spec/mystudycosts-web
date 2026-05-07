@@ -1,0 +1,32 @@
+[
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München",
+    "source_program_name": "Veranstaltungssuche:",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=user&type=0",
+    "scraped_at": "2026-04-13T14:51:43.798856",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München",
+    "source_program_name": "Vorlesungsverzeichnis (SoSe 2026)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&category=veranstaltung.browse&navigationPosition=functions%2Clectureindex&breadcrumb=lectureindex&topitem=locallinks&subitem=lectureindex",
+    "scraped_at": "2026-04-13T14:51:43.812138",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München",
+    "source_program_name": "Sie sind hier: Einrichtungen und Personen",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=2&category=einrichtung.browse&navigationPosition=functions%2Cunistructure&breadcrumb=unistructure&topitem=locallinks&subitem=unistructure",
+    "scraped_at": "2026-04-13T14:51:43.827307",
+    "confidence": 0.65,
+    "metadata": {}
+  }
+]

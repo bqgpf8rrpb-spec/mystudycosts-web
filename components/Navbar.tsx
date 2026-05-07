@@ -1,18 +1,28 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
-import { Menu, X, Calculator } from 'lucide-react';
+import { usePathname, useRouter } from 'next/navigation';
+import { Menu, X, Calculator, Settings } from 'lucide-react';
 import { useCurrency } from '@/contexts/CurrencyContext';
+import cityCoordinates from '@/data/city-coordinates.json';
+import { useUserStore } from '@/lib/store/useUserStore';
+import { useTranslations } from 'next-intl';
+import OnboardingHint from '@/components/OnboardingHint';
 
 type CurrencyCode = 'EUR' | 'USD' | 'INR';
 
 export default function Navbar() {
+  const t = useTranslations('Navbar');
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
   const pathname = usePathname();
+  const router = useRouter();
   const { selectedCurrency, setSelectedCurrency } = useCurrency();
+  const { userGpa, homeCity, setUserGpa, setHomeCity, language, setLanguage, isFirstVisit, setIsFirstVisit } = useUserStore();
+  const [profileOpen, setProfileOpen] = useState(false);
+  const [gpaInput, setGpaInput] = useState('');
+  const [citySearch, setCitySearch] = useState('');
   
   // Currency toggle options (simplified for Navbar)
   const currencyOptions: CurrencyCode[] = ['EUR', 'USD', 'INR'];
@@ -27,13 +37,25 @@ export default function Navbar() {
   const basePath = `/${locale}`;
 
   const menuItems = [
-    { href: `${basePath}`, label: 'Home' },
-    { href: `${basePath}/calculator`, label: 'Calculator' },
-    { href: `${basePath}/nc-checker`, label: 'NC-Checker' },
-    { href: `${basePath}/erasmus`, label: 'Erasmus' },
-    { href: `${basePath}/about`, label: 'About' },
-    { href: `${basePath}/blog`, label: 'Blog' },
+    { href: `${basePath}`, label: t('home') },
+    { href: `${basePath}/calculator`, label: t('calculator') },
+    { href: `${basePath}/nc-checker`, label: t('ncChecker') },
+    { href: `${basePath}/erasmus`, label: t('erasmus') },
+    { href: `${basePath}/about`, label: t('about') },
+    { href: `${basePath}/blog`, label: t('blog') },
   ];
+
+  const availableCities = useMemo(() => {
+    return Object.keys(cityCoordinates as Record<string, { lat: number; lng: number }>).sort((a, b) =>
+      a.localeCompare(b)
+    );
+  }, []);
+
+  const filteredCities = useMemo(() => {
+    if (!citySearch.trim()) return availableCities.slice(0, 15);
+    const search = citySearch.toLowerCase();
+    return availableCities.filter((city) => city.toLowerCase().includes(search)).slice(0, 15);
+  }, [availableCities, citySearch]);
 
   const isActive = (href: string) => {
     const currentPath = pathname || '';
@@ -53,6 +75,18 @@ export default function Navbar() {
     setMounted(true);
   }, []);
 
+  useEffect(() => {
+    if (locale === 'de' || locale === 'en') {
+      if (language !== locale) {
+        setLanguage(locale);
+      }
+    }
+  }, [locale, language, setLanguage]);
+
+  useEffect(() => {
+    setGpaInput(userGpa == null ? '' : userGpa.toFixed(1));
+  }, [userGpa]);
+
   const handleCurrencyChange = (currency: CurrencyCode) => {
     const previousCurrency = selectedCurrency;
     setSelectedCurrency(currency);
@@ -63,6 +97,37 @@ export default function Navbar() {
         previous_currency: previousCurrency,
       });
     }
+  };
+
+  const handleGpaCommit = () => {
+    const normalized = gpaInput.replace(',', '.').trim();
+    if (!normalized) {
+      setUserGpa(null);
+      return;
+    }
+    const parsed = Number.parseFloat(normalized);
+    if (!Number.isFinite(parsed) || parsed <= 0 || parsed > 4) return;
+    setUserGpa(Number(parsed.toFixed(2)));
+  };
+
+  const switchLanguage = (targetLocale: 'de' | 'en') => {
+    if (!pathname) return;
+    const segments = pathname.split('/');
+    if (segments.length > 1 && (segments[1] === 'de' || segments[1] === 'en')) {
+      segments[1] = targetLocale;
+    } else {
+      segments.splice(1, 0, targetLocale);
+    }
+    const targetPath = segments.join('/') || `/${targetLocale}`;
+    setLanguage(targetLocale);
+    router.push(targetPath);
+  };
+
+  const handleProfileToggle = () => {
+    if (isFirstVisit) {
+      setIsFirstVisit(false);
+    }
+    setProfileOpen((prev) => !prev);
   };
 
   return (
@@ -126,6 +191,89 @@ export default function Navbar() {
                 ))
               )}
             </div>
+
+            <div className="flex items-center gap-1 rounded-full border border-white/10 bg-slate-900/50 p-1">
+              {(['de', 'en'] as const).map((lang) => (
+                <button
+                  key={lang}
+                  type="button"
+                  onClick={() => switchLanguage(lang)}
+                  className={`px-2.5 py-1 text-xs font-semibold rounded-full transition-colors ${
+                    locale === lang ? 'bg-blue-600 text-white' : 'text-white/70 hover:text-white'
+                  }`}
+                  aria-label={lang === 'de' ? t('switchToGerman') : t('switchToEnglish')}
+                >
+                  {lang.toUpperCase()}
+                </button>
+              ))}
+            </div>
+
+            <div className="relative">
+              <button
+                type="button"
+                onClick={handleProfileToggle}
+                className="inline-flex items-center justify-center rounded-full border border-white/15 bg-slate-900/60 p-2 text-white/80 transition-colors hover:border-blue-400/50 hover:text-white"
+                aria-label={t('profileSettings')}
+              >
+                <Settings className="h-4 w-4" />
+              </button>
+              {isFirstVisit && (
+                <OnboardingHint
+                  text={t('onboardingHint')}
+                  buttonLabel={t('onboardingGotIt')}
+                  onDismiss={() => setIsFirstVisit(false)}
+                />
+              )}
+              {profileOpen && (
+                <div className="absolute right-0 top-12 z-50 w-80 rounded-xl border border-white/15 bg-slate-950/95 p-4 shadow-2xl backdrop-blur-md">
+                  <p className="text-sm font-semibold text-white">{t('profileSettings')}</p>
+                  <p className="mt-1 text-xs text-white/60">{t('profileSettingsHint')}</p>
+
+                  <div className="mt-4">
+                    <label className="mb-1 block text-xs text-white/70">{t('gpaLabel')}</label>
+                    <input
+                      type="text"
+                      inputMode="decimal"
+                      value={gpaInput}
+                      onChange={(event) => setGpaInput(event.target.value)}
+                      onBlur={handleGpaCommit}
+                      placeholder={t('gpaPlaceholder')}
+                      className="w-full rounded-md border border-white/15 bg-slate-900/70 px-3 py-2 text-sm text-white outline-none transition-colors focus:border-blue-400/60"
+                    />
+                  </div>
+
+                  <div className="mt-4">
+                    <label className="mb-1 block text-xs text-white/70">{t('homeCityLabel')}</label>
+                    <input
+                      type="text"
+                      value={citySearch}
+                      onChange={(event) => setCitySearch(event.target.value)}
+                      placeholder={homeCity || t('homeCityPlaceholder')}
+                      className="w-full rounded-md border border-white/15 bg-slate-900/70 px-3 py-2 text-sm text-white outline-none transition-colors focus:border-blue-400/60"
+                    />
+                    <div className="mt-2 max-h-36 overflow-y-auto rounded-md border border-white/10 bg-slate-900/60">
+                      {filteredCities.map((city) => (
+                        <button
+                          key={city}
+                          type="button"
+                          onClick={() => {
+                            setHomeCity(city);
+                            setCitySearch('');
+                          }}
+                          className={`block w-full px-3 py-1.5 text-left text-xs transition-colors ${
+                            homeCity === city
+                              ? 'bg-blue-500/20 text-blue-200'
+                              : 'text-white/80 hover:bg-white/10'
+                          }`}
+                        >
+                          {city}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              )}
+            </div>
           </div>
 
           {/* Mobile Menu Button */}
@@ -133,7 +281,7 @@ export default function Navbar() {
             type="button"
             className="md:hidden text-white/80 hover:text-white transition-colors"
             onClick={toggleMobileMenu}
-            aria-label="Toggle menu"
+            aria-label={t('toggleMenu')}
           >
             {isMobileMenuOpen ? (
               <X className="w-6 h-6" />
@@ -167,7 +315,7 @@ export default function Navbar() {
               
               {/* Mobile Currency Toggle */}
               <div className="px-2 pt-2 border-t border-slate-800">
-                <div className="text-white/60 text-xs mb-2">Currency</div>
+                <div className="text-white/60 text-xs mb-2">{t('currency')}</div>
                 <div className="flex items-center gap-1 bg-slate-900/50 border border-white/10 rounded-full p-1 w-fit">
                   {!mounted ? (
                     // Skeleton placeholder - matches exact dimensions of currency buttons
@@ -196,6 +344,68 @@ export default function Navbar() {
                       </button>
                     ))
                   )}
+                </div>
+              </div>
+
+              <div className="px-2 pt-2 border-t border-slate-800">
+                <div className="text-white/60 text-xs mb-2">{t('language')}</div>
+                <div className="flex items-center gap-1 rounded-full border border-white/10 bg-slate-900/50 p-1 w-fit">
+                  {(['de', 'en'] as const).map((lang) => (
+                    <button
+                      key={`mobile-${lang}`}
+                      type="button"
+                      onClick={() => {
+                        switchLanguage(lang);
+                        closeMobileMenu();
+                      }}
+                      className={`px-3 py-1 rounded-full text-xs font-semibold transition-colors ${
+                        locale === lang ? 'bg-blue-600 text-white' : 'text-white/70 hover:text-white'
+                      }`}
+                    >
+                      {lang.toUpperCase()}
+                    </button>
+                  ))}
+                </div>
+              </div>
+
+              <div className="px-2 pt-2 border-t border-slate-800">
+                <div className="text-white/60 text-xs mb-2">{t('profile')}</div>
+                <label className="block text-xs text-white/70 mb-1">{t('gpaLabel')}</label>
+                <input
+                  type="text"
+                  inputMode="decimal"
+                  value={gpaInput}
+                  onChange={(event) => setGpaInput(event.target.value)}
+                  onBlur={handleGpaCommit}
+                  placeholder={t('gpaPlaceholder')}
+                  className="w-full rounded-md border border-white/15 bg-slate-900/70 px-3 py-2 text-sm text-white outline-none transition-colors focus:border-blue-400/60"
+                />
+                <label className="block text-xs text-white/70 mt-3 mb-1">{t('homeCityLabel')}</label>
+                <input
+                  type="text"
+                  value={citySearch}
+                  onChange={(event) => setCitySearch(event.target.value)}
+                  placeholder={homeCity || t('homeCityPlaceholder')}
+                  className="w-full rounded-md border border-white/15 bg-slate-900/70 px-3 py-2 text-sm text-white outline-none transition-colors focus:border-blue-400/60"
+                />
+                <div className="mt-2 max-h-32 overflow-y-auto rounded-md border border-white/10 bg-slate-900/60">
+                  {filteredCities.map((city) => (
+                    <button
+                      key={city}
+                      type="button"
+                      onClick={() => {
+                        setHomeCity(city);
+                        setCitySearch('');
+                      }}
+                      className={`block w-full px-3 py-1.5 text-left text-xs transition-colors ${
+                        homeCity === city
+                          ? 'bg-blue-500/20 text-blue-200'
+                          : 'text-white/80 hover:bg-white/10'
+                      }`}
+                    >
+                      {city}
+                    </button>
+                  ))}
                 </div>
               </div>
             </div>

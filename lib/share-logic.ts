@@ -87,8 +87,8 @@ export async function shareErasmusComparison(
   text?: string
 ): Promise<boolean> {
   const shareLink = generateShareLink(data);
-  const defaultTitle = 'Erasmus Kostenvergleich';
-  const defaultText = 'Schau dir diesen Erasmus Kostenvergleich an!';
+  const defaultTitle = 'Erasmus Cost Comparison';
+  const defaultText = 'Check out this Erasmus cost comparison!';
   
   const shareData: ShareData = {
     title: title || defaultTitle,
@@ -160,8 +160,8 @@ export function isWebShareAvailable(): boolean {
  */
 export function getShareButtonText(): string {
   if (isWebShareAvailable()) {
-    return 'Teilen';
+    return 'Share';
   }
-  return 'Link kopieren';
+  return 'Copy Link';
 }
 

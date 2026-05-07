@@ -1,0 +1,4262 @@
+{
+  "last_updated": "2026-03-15T21:13:56.951Z",
+  "total_universities": 533,
+  "portals_found": 424,
+  "portals_not_found": 109,
+  "portals": [
+    {
+      "university_id": "ACCADIS_BILDUNG_GMBH",
+      "university_name": "accadis Bildung GmbH",
+      "portal_url": "https://accadis-bildung-gmbh.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "accadis-bildung-gmbh",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:32:52.356Z"
+    },
+    {
+      "university_id": "ACCADIS_HOCHSCHULE_BAD_HOMBURG",
+      "university_name": "accadis Hochschule Bad Homburg",
+      "portal_url": "https://bad_homburg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "bad_homburg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:32:55.379Z"
+    },
+    {
+      "university_id": "AKKON_HOCHSCHULE_FUER_HUMANWISSENSCHAFTEN",
+      "university_name": "Akkon Hochschule für Humanwissenschaften",
+      "portal_url": "https://fuer_humanwissenschaften.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "fuer_humanwissenschaften",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:33:09.855Z"
+    },
+    {
+      "university_id": "ALANUS_HOCHSCHULE",
+      "university_name": "Alanus Hochschule",
+      "portal_url": "https://alanus-hochschule.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "alanus-hochschule",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:33:11.321Z"
+    },
+    {
+      "university_id": "ALANUS_HOCHSCHULE_GGMBH",
+      "university_name": "Alanus Hochschule gGmbH",
+      "portal_url": "https://uni-ggmbh.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-ggmbh",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:33:26.207Z"
+    },
+    {
+      "university_id": "ALBERT_LUDWIGS_UNIVERSITAET_FREIBURG",
+      "university_name": "ALBERT-LUDWIGS-UNIVERSITAET FREIBURG",
+      "portal_url": "https://uni-freiburg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-freiburg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:33:40.222Z"
+    },
+    {
+      "university_id": "ALICE_SALOMON_HOCHSCHULE_BERLIN",
+      "university_name": "Alice Salomon Hochschule Berlin",
+      "portal_url": "https://uni-berlin.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-berlin",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:33:55.645Z"
+    },
+    {
+      "university_id": "ASH_BERLIN",
+      "university_name": "ASH Berlin",
+      "portal_url": "https://ash-berlin.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "ash-berlin",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:33:56.986Z"
+    },
+    {
+      "university_id": "AUGUSTANA_HOCHSCHULE",
+      "university_name": "Augustana-Hochschule",
+      "portal_url": "https://augustana-hochschule.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "augustana-hochschule",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:33:58.116Z"
+    },
+    {
+      "university_id": "BARD_COLLEGE_BERLIN",
+      "university_name": "BARD COLLEGE BERLIN",
+      "portal_url": "https://bard-college-berlin.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "bard-college-berlin",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:33:59.317Z"
+    },
+    {
+      "university_id": "BAUHAUS_UNIVERSITAET_WEIMAR",
+      "university_name": "BAUHAUS-UNIVERSITAET WEIMAR",
+      "portal_url": "https://weimar.adv-pub.moveon4.de/start/",
+      "portal_type": "advanced_publisher",
+      "slug": "weimar",
+      "source": "known",
+      "discovered_at": "2026-03-15T18:33:59.317Z"
+    },
+    {
+      "university_id": "BBW_HOCHSCHULE",
+      "university_name": "bbw Hochschule",
+      "portal_url": "https://bbw-hochschule.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "bbw-hochschule",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:34:00.431Z"
+    },
+    {
+      "university_id": "BERGISCHE_UNIVERSITAET_WUPPERTAL",
+      "university_name": "BERGISCHE UNIVERSITAET  WUPPERTAL",
+      "portal_url": "https://uni-wuppertal.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-wuppertal",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:34:14.530Z"
+    },
+    {
+      "university_id": "BERLINER_HOCHSCHULE_FUER_TECHNIK",
+      "university_name": "BERLINER HOCHSCHULE FUER TECHNIK",
+      "portal_url": "https://fuer_technik.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "fuer_technik",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:34:15.602Z"
+    },
+    {
+      "university_id": "BERUFSAKADEMIE_SACHSEN",
+      "university_name": "Berufsakademie Sachsen",
+      "portal_url": "https://berufsakademie-sachsen.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "berufsakademie-sachsen",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:34:16.689Z"
+    },
+    {
+      "university_id": "BEUTH_HOCHSCHULE_FUER_TECHNIK_BERLIN",
+      "university_name": "BEUTH-HOCHSCHULE FUER TECHNIK BERLIN",
+      "portal_url": "https://uni-berlin.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-berlin",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:34:31.590Z"
+    },
+    {
+      "university_id": "BRANDENBURGISCHE_TECHNISCHE_UNIVERSITAET_COTTBUS_SENFTENBERG",
+      "university_name": "BRANDENBURGISCHE TECHNISCHE UNIVERSITAT COTTBUS-SENFTENBERG",
+      "portal_url": "https://cottbus_senftenberg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "cottbus_senftenberg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:34:32.655Z"
+    },
+    {
+      "university_id": "BUCERIUS_LAW_SCHOOL_HOCHSCHULE_FUER_RECHTSWISSENSCHAFT_GEMEI",
+      "university_name": "Bucerius Law School - Hochschule für Rechtswissenschaft gemeinnützige GmbH",
+      "portal_url": "https://uni-gemei.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-gemei",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:34:47.558Z"
+    },
+    {
+      "university_id": "BURG_GIEBICHENSTEIN_KUNSTHOCHSCHULE_HALLE",
+      "university_name": "BURG GIEBICHENSTEIN Kunsthochschule Halle",
+      "portal_url": "https://uni-halle.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-halle",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:35:02.544Z"
+    },
+    {
+      "university_id": "CARL_VON_OSSIETZKY_UNIVERSITAET_OLDENBURG",
+      "university_name": "CARL VON OSSIETZKY UNIVERSITAET OLDENBURG",
+      "portal_url": "https://uni-oldenburg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-oldenburg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:35:16.957Z"
+    },
+    {
+      "university_id": "CHRISTIAN_ALBRECHTS_UNIVERSITAET_ZU_KIEL",
+      "university_name": "CHRISTIAN-ALBRECHTS-UNIVERSITAET  ZU KIEL",
+      "portal_url": "https://uni-kiel.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-kiel",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:35:30.773Z"
+    },
+    {
+      "university_id": "COLOGNE_BUSINESS_SCHOOL",
+      "university_name": "Cologne Business School",
+      "portal_url": "https://cologne-business-school.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "cologne-business-school",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:35:31.982Z"
+    },
+    {
+      "university_id": "CONSTRUCTOR_UNIVERSITY",
+      "university_name": "CONSTRUCTOR UNIVERSITY",
+      "portal_url": "https://constructor-university.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "constructor-university",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:35:33.091Z"
+    },
+    {
+      "university_id": "CUSANUS_HOCHSCHULE_UNSELBSTAENDIGE_STIFTUNG_PRIVATEN_RECHTS_",
+      "university_name": "Cusanus Hochschule unselbständige Stiftung privaten Rechts in der Cusanus Treuhand gGmbH",
+      "portal_url": "https://unselbstaendige_stiftung_privaten_rechts_.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "unselbstaendige_stiftung_privaten_rechts_",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:35:34.140Z"
+    },
+    {
+      "university_id": "CVJM_HOCHSCHULE",
+      "university_name": "CVJM-Hochschule",
+      "portal_url": "https://cvjm-hochschule.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "cvjm-hochschule",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:35:35.345Z"
+    },
+    {
+      "university_id": "CVJM_HOCHSCHULE_YMCA_UNIVERSITY_OF_APPLIED_SCIENCES",
+      "university_name": "CVJM-Hochschule - YMCA University of Applied Sciences",
+      "portal_url": "https://ymca_university_of_applied_sciences.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "ymca_university_of_applied_sciences",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:35:36.392Z"
+    },
+    {
+      "university_id": "DEKRA_HOCHSCHULE_FUER_MEDIEN_BERLIN",
+      "university_name": "DEKRA Hochschule für Medien, Berlin",
+      "portal_url": "https://uni-berlin.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-berlin",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:35:50.219Z"
+    },
+    {
+      "university_id": "DESIGN_AKADEMIE_BERLIN_SRH_HOCHSCHULE_FUER_KOMMUNIKATION_UND",
+      "university_name": "design akademie berlin, SRH Hochschule für Kommunikation und Design",
+      "portal_url": "https://uni-und.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-und",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:36:04.974Z"
+    },
+    {
+      "university_id": "DEUTSCHE_HOCHSCHULE_DER_POLIZEI",
+      "university_name": "DEUTSCHE HOCHSCHULE DER POLIZEI",
+      "portal_url": "https://der_polizei.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "der_polizei",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:36:06.136Z"
+    },
+    {
+      "university_id": "DEUTSCHE_SPORTHOCHSCHULE_KOELN",
+      "university_name": "DEUTSCHE SPORTHOCHSCHULE KOLN",
+      "portal_url": "https://uni-koeln.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-koeln",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:36:20.276Z"
+    },
+    {
+      "university_id": "DHBW_HEIDENHEIM",
+      "university_name": "DHBW Heidenheim",
+      "portal_url": "https://dhbw-heidenheim.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "dhbw-heidenheim",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:36:21.490Z"
+    },
+    {
+      "university_id": "DHBW_KARLSRUHE",
+      "university_name": "DHBW Karlsruhe",
+      "portal_url": "https://dhbw-karlsruhe.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "dhbw-karlsruhe",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:36:22.563Z"
+    },
+    {
+      "university_id": "DHBW_LOERRACH",
+      "university_name": "DHBW Lörrach",
+      "portal_url": "https://dhbw-loerrach.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "dhbw-loerrach",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:36:24.109Z"
+    },
+    {
+      "university_id": "DHBW_MANNHEIM",
+      "university_name": "DHBW Mannheim",
+      "portal_url": "https://dhbw-mannheim.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "dhbw-mannheim",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:36:25.187Z"
+    },
+    {
+      "university_id": "DHBW_MOSBACH",
+      "university_name": "DHBW Mosbach",
+      "portal_url": "https://dhbw-mosbach.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "dhbw-mosbach",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:36:26.226Z"
+    },
+    {
+      "university_id": "DHBW_STUTTGART",
+      "university_name": "DHBW Stuttgart",
+      "portal_url": "https://dhbw-stuttgart.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "dhbw-stuttgart",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:36:27.317Z"
+    },
+    {
+      "university_id": "DHBW_VILLINGEN_SCHWENNINGEN",
+      "university_name": "DHBW Villingen-Schwenningen",
+      "portal_url": "https://dhbw-villingen-schwenningen.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "dhbw-villingen-schwenningen",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:36:28.502Z"
+    },
+    {
+      "university_id": "DHGS_DEUTSCHE_HOCHSCHULE_FUER_GESUNDHEIT_UND_SPORT",
+      "university_name": "DHGS Deutsche Hochschule für Gesundheit und Sport",
+      "portal_url": "https://uni-sport.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-sport",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:36:42.342Z"
+    },
+    {
+      "university_id": "DHV_SPEYER",
+      "university_name": "DHV SPEYER",
+      "portal_url": "https://dhv-speyer.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "dhv-speyer",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:36:43.523Z"
+    },
+    {
+      "university_id": "DMT_LB_THGA",
+      "university_name": "DMT - LB / THGA",
+      "portal_url": "https://dmt-lb-thga.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "dmt-lb-thga",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:36:44.609Z"
+    },
+    {
+      "university_id": "DUALE_HOCHSCHULE_BADEN_WUERTTEMBERG_HEIDENHEIM",
+      "university_name": "Duale Hochschule Baden-Württemberg Heidenheim",
+      "portal_url": "https://baden_wuerttemberg_heidenheim.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "baden_wuerttemberg_heidenheim",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:36:45.906Z"
+    },
+    {
+      "university_id": "DUALE_HOCHSCHULE_BADEN_WUERTTEMBERG_HEILBRONN",
+      "university_name": "Duale Hochschule Baden-Württemberg Heilbronn",
+      "portal_url": "https://baden_wuerttemberg_heilbronn.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "baden_wuerttemberg_heilbronn",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:36:47.231Z"
+    },
+    {
+      "university_id": "DUALE_HOCHSCHULE_BADEN_WUERTTEMBERG_KARLSRUHE",
+      "university_name": "Duale Hochschule Baden-Württemberg Karlsruhe",
+      "portal_url": "https://baden_wuerttemberg_karlsruhe.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "baden_wuerttemberg_karlsruhe",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:36:49.720Z"
+    },
+    {
+      "university_id": "DUALE_HOCHSCHULE_BADEN_WUERTTEMBERG_LOERRACH",
+      "university_name": "Duale Hochschule Baden-Württemberg Lörrach",
+      "portal_url": "https://baden_wuerttemberg_loerrach.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "baden_wuerttemberg_loerrach",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:36:54.320Z"
+    },
+    {
+      "university_id": "DUALE_HOCHSCHULE_BADEN_WUERTTEMBERG_MANNHEIM",
+      "university_name": "Duale Hochschule Baden-Württemberg Mannheim",
+      "portal_url": "https://baden_wuerttemberg_mannheim.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "baden_wuerttemberg_mannheim",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:36:55.484Z"
+    },
+    {
+      "university_id": "DUALE_HOCHSCHULE_BADEN_WUERTTEMBERG_MOSBACH",
+      "university_name": "Duale Hochschule Baden-Württemberg Mosbach",
+      "portal_url": "https://baden_wuerttemberg_mosbach.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "baden_wuerttemberg_mosbach",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:36:56.643Z"
+    },
+    {
+      "university_id": "DUALE_HOCHSCHULE_BADEN_WUERTTEMBERG_RAVENSBURG",
+      "university_name": "DUALE HOCHSCHULE BADEN-WURTTEMBERG RAVENSBURG",
+      "portal_url": "https://baden_wuerttemberg_ravensburg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "baden_wuerttemberg_ravensburg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:36:57.985Z"
+    },
+    {
+      "university_id": "DUALE_HOCHSCHULE_BADEN_WUERTTEMBERG_STUTTGART",
+      "university_name": "Duale Hochschule Baden-Württemberg Stuttgart",
+      "portal_url": "https://baden_wuerttemberg_stuttgart.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "baden_wuerttemberg_stuttgart",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:36:59.103Z"
+    },
+    {
+      "university_id": "DUALE_HOCHSCHULE_BADEN_WUERTTEMBERG_VILLINGEN_SCHWENNINGEN",
+      "university_name": "Duale Hochschule Baden-Württemberg Villingen-Schwenningen",
+      "portal_url": "https://baden_wuerttemberg_villingen_schwenningen.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "baden_wuerttemberg_villingen_schwenningen",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:37:00.296Z"
+    },
+    {
+      "university_id": "DUALE_HOCHSCHULE_SACHSEN",
+      "university_name": "Duale Hochschule Sachsen",
+      "portal_url": "https://uni-sachsen.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-sachsen",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:37:14.978Z"
+    },
+    {
+      "university_id": "EAH_JENA",
+      "university_name": "EAH JENA",
+      "portal_url": "https://eah-jena.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "eah-jena",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:37:16.067Z"
+    },
+    {
+      "university_id": "EBERHARD_KARLS_UNIVERSITAET_TUEBINGEN",
+      "university_name": "EBERHARD KARLS UNIVERSITAET TUEBINGEN",
+      "portal_url": "https://uni-tuebingen.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-tuebingen",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:37:33.090Z"
+    },
+    {
+      "university_id": "EBS_UNIVERSITAET",
+      "university_name": "EBS Universität",
+      "portal_url": "https://ebs-universitaet.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "ebs-universitaet",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:37:34.170Z"
+    },
+    {
+      "university_id": "EBS_UNIVERSITAET_FUER_WIRTSCHAFT_UND_RECHT",
+      "university_name": "EBS Universität für Wirtschaft und Recht",
+      "portal_url": "https://fuer_wirtschaft_und_recht.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "fuer_wirtschaft_und_recht",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:37:35.269Z"
+    },
+    {
+      "university_id": "EHS_DRESDEN",
+      "university_name": "ehs Dresden",
+      "portal_url": "https://ehs-dresden.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "ehs-dresden",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:37:36.478Z"
+    },
+    {
+      "university_id": "ERNST_ABBE_HOCHSCHULE_JENA",
+      "university_name": "ERNST-ABBE-HOCHSCHULE JENA",
+      "portal_url": "https://uni-jena.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-jena",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:37:51.165Z"
+    },
+    {
+      "university_id": "ESAB_LAND_BRANDENBURG",
+      "university_name": "ESAB Land Brandenburg",
+      "portal_url": "https://esab-land-brandenburg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "esab-land-brandenburg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:37:52.249Z"
+    },
+    {
+      "university_id": "ESCP_BERLIN",
+      "university_name": "ESCP Berlin",
+      "portal_url": "https://escp-berlin.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "escp-berlin",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:37:53.460Z"
+    },
+    {
+      "university_id": "ESCP_EUROPE_WIRTSCHAFTSHOCHSCHULE_BERLIN_EV",
+      "university_name": "ESCP EUROPE WIRTSCHAFTSHOCHSCHULE BERLIN EV",
+      "portal_url": "https://berlin_ev.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "berlin_ev",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:37:54.612Z"
+    },
+    {
+      "university_id": "EUROPAEISCHE_FACHHOCHSCHULE_RHEINERFT_GMBH",
+      "university_name": "Europäische Fachhochschule Rhein/Erft GmbH",
+      "portal_url": "https://rheinerft_gmbh.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "rheinerft_gmbh",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:38:24.053Z"
+    },
+    {
+      "university_id": "EUROPA_UNIVERSITAET_FLENSBURG",
+      "university_name": "EUROPA-UNIVERSITAT FLENSBURG",
+      "portal_url": "https://flensburg.adv-pub.moveon4.de/start/",
+      "portal_type": "advanced_publisher",
+      "slug": "flensburg",
+      "source": "known",
+      "discovered_at": "2026-03-15T18:38:24.053Z"
+    },
+    {
+      "university_id": "EUROPA_UNIVERSITAET_VIADRINA_FRANKFURT_ODER",
+      "university_name": "EUROPA-UNIVERSITAET VIADRINA FRANKFURT (ODER)",
+      "portal_url": "https://viadrina_frankfurt_oder.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "viadrina_frankfurt_oder",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:38:25.315Z"
+    },
+    {
+      "university_id": "EVANGELISCHE_HOCHSCHULE_BERLIN",
+      "university_name": "Evangelische Hochschule Berlin",
+      "portal_url": "https://uni-berlin.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-berlin",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:38:42.826Z"
+    },
+    {
+      "university_id": "EVANGELISCHE_HOCHSCHULE_DARMSTADT",
+      "university_name": "EVANGELISCHE HOCHSCHULE DARMSTADT",
+      "portal_url": "https://uni-darmstadt.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-darmstadt",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:38:58.883Z"
+    },
+    {
+      "university_id": "EVANGELISCHE_HOCHSCHULE_DRESDEN_EHS_UNIVERSITY_OF_APPLIED_SC",
+      "university_name": "Evangelische Hochschule Dresden (ehs) University of Applied Sciences for Social Work, Education and Nursing",
+      "portal_url": "https://dresden_ehs_university_of_applied_sc.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "dresden_ehs_university_of_applied_sc",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:38:59.933Z"
+    },
+    {
+      "university_id": "EVANGELISCHE_HOCHSCHULE_FREIBURG",
+      "university_name": "Evangelische Hochschule Freiburg",
+      "portal_url": "https://uni-freiburg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-freiburg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:39:14.427Z"
+    },
+    {
+      "university_id": "EVANGELISCHE_HOCHSCHULE_FUER_KIRCHENMUSIK_TUEBINGEN",
+      "university_name": "Evangelische Hochschule für Kirchenmusik Tübingen",
+      "portal_url": "https://uni-tuebingen.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-tuebingen",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:39:30.358Z"
+    },
+    {
+      "university_id": "EVANGELISCHE_HOCHSCHULE_FUER_SOZIALE_ARBEIT_DIAKONIE",
+      "university_name": "Evangelische Hochschule für Soziale Arbeit & Diakonie",
+      "portal_url": "https://uni-diakonie.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-diakonie",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:39:44.815Z"
+    },
+    {
+      "university_id": "EVANGELISCHE_HOCHSCHULE_FUER_SOZIALE_ARBEIT_DIAKONIE_HAMBURG",
+      "university_name": "Evangelische Hochschule für Soziale Arbeit & Diakonie Hamburg",
+      "portal_url": "https://uni-hamburg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-hamburg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:39:58.994Z"
+    },
+    {
+      "university_id": "EVANGELISCHE_HOCHSCHULE_LUDWIGSBURG",
+      "university_name": "Evangelische Hochschule Ludwigsburg",
+      "portal_url": "https://uni-ludwigsburg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-ludwigsburg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:40:13.635Z"
+    },
+    {
+      "university_id": "EVANGELISCHE_HOCHSCHULE_MORITZBURG",
+      "university_name": "Evangelische Hochschule Moritzburg",
+      "portal_url": "https://uni-moritzburg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-moritzburg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:40:28.234Z"
+    },
+    {
+      "university_id": "EVANGELISCHE_HOCHSCHULE_NUERNBERG",
+      "university_name": "Evangelische Hochschule Nürnberg",
+      "portal_url": "https://uni-nuernberg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-nuernberg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:40:42.521Z"
+    },
+    {
+      "university_id": "EVANGELISCHE_HOCHSCHULE_RHEINLAND_WESTFALEN_LIPPE_PROTESTANT",
+      "university_name": "Evangelische Hochschule Rheinland-Westfalen-Lippe, Protestant University of Applied Sciences",
+      "portal_url": "https://rheinland_westfalen_lippe_protestant.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "rheinland_westfalen_lippe_protestant",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:40:43.636Z"
+    },
+    {
+      "university_id": "EVH_BOCHUM",
+      "university_name": "EvH Bochum",
+      "portal_url": "https://evh-bochum.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "evh-bochum",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:40:44.834Z"
+    },
+    {
+      "university_id": "FACHHOCHSCHULE_AACHEN",
+      "university_name": "FACHHOCHSCHULE AACHEN",
+      "portal_url": "https://uni-aachen.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-aachen",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:40:59.278Z"
+    },
+    {
+      "university_id": "FACHHOCHSCHULE_ALBSTADT_SIGMARINGEN",
+      "university_name": "FACHHOCHSCHULE ALBSTADT-SIGMARINGEN",
+      "portal_url": "https://albstadt_sigmaringen.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "albstadt_sigmaringen",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:41:00.343Z"
+    },
+    {
+      "university_id": "FACHHOCHSCHULE_BIELEFELD",
+      "university_name": "FACHHOCHSCHULE BIELEFELD",
+      "portal_url": "https://uni-bielefeld.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-bielefeld",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:41:14.234Z"
+    },
+    {
+      "university_id": "FACHHOCHSCHULE_DER_DIAKONIE",
+      "university_name": "FACHHOCHSCHULE DER DIAKONIE",
+      "portal_url": "https://der_diakonie.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "der_diakonie",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:41:15.589Z"
+    },
+    {
+      "university_id": "FACHHOCHSCHULE_DER_WIRTSCHAFT_NORDRHEIN_WESTFALEN_GGMBH",
+      "university_name": "Fachhochschule der Wirtschaft Nordrhein-Westfalen gGmbH",
+      "portal_url": "https://der_wirtschaft_nordrhein_westfalen_ggmbh.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "der_wirtschaft_nordrhein_westfalen_ggmbh",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:41:16.629Z"
+    },
+    {
+      "university_id": "FACHHOCHSCHULE_DES_MITTELSTANDES_FHM_GMBH_UNIVERSITY_OF_APPL",
+      "university_name": "FACHHOCHSCHULE DES MITTELSTANDES (FHM) GMBH - UNIVERSITY OF APPLIED SCIENCE -",
+      "portal_url": "https://des_mittelstandes_fhm_gmbh_university_of_appl.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "des_mittelstandes_fhm_gmbh_university_of_appl",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:41:17.752Z"
+    },
+    {
+      "university_id": "FACHHOCHSCHULE_DORTMUND",
+      "university_name": "Fachhochschule Dortmund",
+      "portal_url": "https://uni-dortmund.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-dortmund",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:41:31.794Z"
+    },
+    {
+      "university_id": "FACHHOCHSCHULE_DRESDEN_PRIVATE_FACHHOCHSCHULE_GEMEINNUETZIGE",
+      "university_name": "FACHHOCHSCHULE DRESDEN PRIVATE FACHHOCHSCHULE GEMEINNUTZIGE GMBH",
+      "portal_url": "https://dresden_private_fachhochschule_gemeinnuetzige.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "dresden_private_fachhochschule_gemeinnuetzige",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:41:33.058Z"
+    },
+    {
+      "university_id": "FACHHOCHSCHULE_DRESDEN_PRIVATE_FACHHOCHSCHULE_GMBH",
+      "university_name": "FACHHOCHSCHULE DRESDEN PRIVATE FACHHOCHSCHULE GMBH",
+      "portal_url": "https://dresden_private_fachhochschule_gmbh.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "dresden_private_fachhochschule_gmbh",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:41:34.473Z"
+    },
+    {
+      "university_id": "FACHHOCHSCHULE_ERFURT",
+      "university_name": "FACHHOCHSCHULE ERFURT",
+      "portal_url": "https://uni-erfurt.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-erfurt",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:41:48.307Z"
+    },
+    {
+      "university_id": "FACHHOCHSCHULE_FUER_DIE_WIRTSCHAFT_HANNOVER_GEMEINNUETZIGE_G",
+      "university_name": "Fachhochschule für die Wirtschaft Hannover, gemeinnützige GmbH",
+      "portal_url": "https://uni-g.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-g",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:42:01.944Z"
+    },
+    {
+      "university_id": "FACHHOCHSCHULE_KIEL",
+      "university_name": "FACHHOCHSCHULE KIEL",
+      "portal_url": "https://uni-kiel.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-kiel",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:42:15.682Z"
+    },
+    {
+      "university_id": "FACHHOCHSCHULE_MUNSTER",
+      "university_name": "FACHHOCHSCHULE MUNSTER",
+      "portal_url": "https://uni-munster.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-munster",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:42:29.227Z"
+    },
+    {
+      "university_id": "FACHHOCHSCHULE_POTSDAM",
+      "university_name": "FACHHOCHSCHULE POTSDAM",
+      "portal_url": "https://potsdam.adv-pub.moveon4.de/start/",
+      "portal_type": "advanced_publisher",
+      "slug": "potsdam",
+      "source": "known",
+      "discovered_at": "2026-03-15T18:42:29.227Z"
+    },
+    {
+      "university_id": "FACHHOCHSCHULE_ROSENHEIM_UNIVERSITY_APPLIED_SCIENCES",
+      "university_name": "FACHHOCHSCHULE ROSENHEIM /UNIVERSITY APPLIED SCIENCES",
+      "portal_url": "https://rosenheim_university_applied_sciences.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "rosenheim_university_applied_sciences",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:42:30.386Z"
+    },
+    {
+      "university_id": "FACHHOCHSCHULE_SUDWESTFALEN",
+      "university_name": "FACHHOCHSCHULE SUDWESTFALEN",
+      "portal_url": "https://uni-sudwestfalen.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-sudwestfalen",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:42:44.413Z"
+    },
+    {
+      "university_id": "FACHHOCHSCHULE_WEDEL_GGMBH",
+      "university_name": "Fachhochschule Wedel gGmbH",
+      "portal_url": "https://wedel_ggmbh.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "wedel_ggmbh",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:42:45.474Z"
+    },
+    {
+      "university_id": "FACHHOCHSCHULE_WESTKUESTE",
+      "university_name": "Fachhochschule Westküste",
+      "portal_url": "https://uni-westkueste.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-westkueste",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:42:59.482Z"
+    },
+    {
+      "university_id": "FERNUNIVERSITAT_IN_HAGEN",
+      "university_name": "FERNUNIVERSITAT IN HAGEN",
+      "portal_url": "https://fernuniversitat-in-hagen.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "fernuniversitat-in-hagen",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:43:13.135Z"
+    },
+    {
+      "university_id": "FHDW_HANNOVER",
+      "university_name": "FHDW Hannover",
+      "portal_url": "https://fhdw-hannover.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "fhdw-hannover",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:43:14.286Z"
+    },
+    {
+      "university_id": "FHSV_MEISSEN",
+      "university_name": "FHSV Meißen",
+      "portal_url": "https://fhsv-meissen.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "fhsv-meissen",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:43:27.689Z"
+    },
+    {
+      "university_id": "FH_ERFURT",
+      "university_name": "FH ERFURT",
+      "portal_url": "https://fh-erfurt.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "fh-erfurt",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:43:28.838Z"
+    },
+    {
+      "university_id": "FILMUNIVERSITAET_BABELSBERG_KONRAD_WOLF",
+      "university_name": "Filmuniversität Babelsberg KONRAD WOLF",
+      "portal_url": "https://babelsberg_konrad_wolf.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "babelsberg_konrad_wolf",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:43:29.898Z"
+    },
+    {
+      "university_id": "FLIEDNER_FACHHOCHSCHULE",
+      "university_name": "Fliedner Fachhochschule",
+      "portal_url": "https://fliedner-fachhochschule.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "fliedner-fachhochschule",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:43:31.094Z"
+    },
+    {
+      "university_id": "FLIEDNER_FACHHOCHSCHULE_DUESSELDORF_UNIVERSITY_OF_APPLIED_SC",
+      "university_name": "Fliedner Fachhochschule Düsseldorf, University of Applied Sciences",
+      "portal_url": "https://duesseldorf_university_of_applied_sc.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "duesseldorf_university_of_applied_sc",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:43:32.099Z"
+    },
+    {
+      "university_id": "FOLKWANG_UNIVERSITAET_DER_KUENSTE",
+      "university_name": "Folkwang Universität der Künste",
+      "portal_url": "https://der_kuenste.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "der_kuenste",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:43:33.142Z"
+    },
+    {
+      "university_id": "FOM_HOCHSCHULE",
+      "university_name": "FOM Hochschule",
+      "portal_url": "https://fom-hochschule.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "fom-hochschule",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:43:34.207Z"
+    },
+    {
+      "university_id": "FOM_HOCHSCHULE_FUER_OEKONOMIE_MANAGEMENT_GEMEINNUETZIGE_GMBH",
+      "university_name": "FOM Hochschule für Oekonomie &  Management gemeinnützige GmbH",
+      "portal_url": "https://uni-gmbh.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-gmbh",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:43:47.868Z"
+    },
+    {
+      "university_id": "FREIE_HOCHSCHULE_STUTTGART_SEMINAR_FUER_WALDORFPAEDAGOGIK",
+      "university_name": "Freie Hochschule Stuttgart Seminar für Waldorfpädagogik",
+      "portal_url": "https://stuttgart_seminar_fuer_waldorfpaedagogik.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "stuttgart_seminar_fuer_waldorfpaedagogik",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:43:48.882Z"
+    },
+    {
+      "university_id": "FREIE_THEOLOGISCHE_HOCHSCHULE_GIESSEN",
+      "university_name": "Freie Theologische Hochschule Giessen",
+      "portal_url": "https://giessen.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "giessen",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:43:49.984Z"
+    },
+    {
+      "university_id": "FREIE_UNIVERSITAET_BERLIN",
+      "university_name": "FREIE UNIVERSITAET BERLIN",
+      "portal_url": "https://fuberlin.adv-pub.moveon4.de/report-page-1606/",
+      "portal_type": "advanced_publisher",
+      "slug": "fuberlin",
+      "source": "known",
+      "discovered_at": "2026-03-15T16:27:16.015Z"
+    },
+    {
+      "university_id": "FRIEDRICH_ALEXANDER_UNIVERSITAET_ERLANGEN_NUERNBERG",
+      "university_name": "FRIEDRICH-ALEXANDER-UNIVERSITAET ERLANGEN NUERNBERG",
+      "portal_url": "https://erlangen_nuernberg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "erlangen_nuernberg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:43:51.056Z"
+    },
+    {
+      "university_id": "FRIEDRICH_SCHILLER_UNIVERSITAET_JENA",
+      "university_name": "FRIEDRICH-SCHILLER-UNIVERSITAET JENA",
+      "portal_url": "https://unijena.adv-pub.moveon4.de/home-page-1634/",
+      "portal_type": "advanced_publisher",
+      "slug": "unijena",
+      "source": "known",
+      "discovered_at": "2026-03-15T16:27:16.017Z"
+    },
+    {
+      "university_id": "GOTTFRIED_WILHELM_LEIBNIZ_UNIVERSITAET_HANNOVER",
+      "university_name": "GOTTFRIED WILHELM LEIBNIZ UNIVERSITAET HANNOVER",
+      "portal_url": "https://hannover.adv-pub.moveon4.de/aufenthaltsmoeglichkeiten/",
+      "portal_type": "advanced_publisher",
+      "slug": "hannover",
+      "source": "known",
+      "discovered_at": "2026-03-15T16:27:16.015Z"
+    },
+    {
+      "university_id": "HAFENCITY_UNIVERSITAET_HAMBURG",
+      "university_name": "HafenCity Universität Hamburg",
+      "portal_url": "https://uni-hamburg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-hamburg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:44:04.874Z"
+    },
+    {
+      "university_id": "HAWK_HHG",
+      "university_name": "HAWK HHG",
+      "portal_url": "https://hawk-hhg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "hawk-hhg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:44:18.821Z"
+    },
+    {
+      "university_id": "HAWK_HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFT_UND_KUNST_FACHH",
+      "university_name": "HAWK HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFT UND KUNST FACHHOCHSCHULE HILDESHEIM/HOLZMINDEN/GOTTINGEN",
+      "portal_url": "https://uni-fachh.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-fachh",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:44:34.001Z"
+    },
+    {
+      "university_id": "HAWK_HOCHSCHULE_HILDESHEIMHOLZMINDENGOETTINGEN",
+      "university_name": "HAWK HOCHSCHULE HILDESHEIM/HOLZMINDEN/GOETTINGEN",
+      "portal_url": "https://hildesheimholzmindengoettingen.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "hildesheimholzmindengoettingen",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:44:35.097Z"
+    },
+    {
+      "university_id": "HAW_KEMPTEN",
+      "university_name": "HAW Kempten",
+      "portal_url": "https://haw-kempten.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "haw-kempten",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:44:36.182Z"
+    },
+    {
+      "university_id": "HBK_ESSEN",
+      "university_name": "HBK Essen",
+      "portal_url": "https://hbk-essen.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "hbk-essen",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:44:50.155Z"
+    },
+    {
+      "university_id": "HBK_ESSEN_GMBH",
+      "university_name": "HBK Essen GmbH",
+      "portal_url": "https://hbk-essen-gmbh.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "hbk-essen-gmbh",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:44:51.323Z"
+    },
+    {
+      "university_id": "HEINRICH_HEINE_UNIVERSITAET_DUESSELDORF",
+      "university_name": "HEINRICH-HEINE-UNIVERSITAET DUESSELDORF",
+      "portal_url": "https://hhu.adv-pub.moveon4.de/home-page-1591/",
+      "portal_type": "advanced_publisher",
+      "slug": "hhu",
+      "source": "known",
+      "discovered_at": "2026-03-15T16:27:16.017Z"
+    },
+    {
+      "university_id": "HELMUT_SCHMIDT_UNIVERSITAET_UNIVERSITAET_DER_BUNDESWEHR_HAMB",
+      "university_name": "HELMUT SCHMIDT UNIVERSITAT UNIVERSITAT DER BUNDESWEHR HAMBURG",
+      "portal_url": "https://universitaet_der_bundeswehr_hamb.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "universitaet_der_bundeswehr_hamb",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:44:52.438Z"
+    },
+    {
+      "university_id": "HFG_OFFENBACH",
+      "university_name": "HfG Offenbach",
+      "portal_url": "https://hfg-offenbach.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "hfg-offenbach",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:45:07.030Z"
+    },
+    {
+      "university_id": "HFK_BREMEN",
+      "university_name": "HfK Bremen",
+      "portal_url": "https://hfk-bremen.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "hfk-bremen",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:45:08.190Z"
+    },
+    {
+      "university_id": "HFM_KA",
+      "university_name": "HfM KA",
+      "portal_url": "https://hfm-ka.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "hfm-ka",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:45:09.517Z"
+    },
+    {
+      "university_id": "HFM_WEIMAR",
+      "university_name": "HfM Weimar",
+      "portal_url": "https://hfm-weimar.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "hfm-weimar",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:45:10.709Z"
+    },
+    {
+      "university_id": "HFWU_NUERTINGEN_GEISLINGEN",
+      "university_name": "HFWU NÜRTINGEN-GEISLINGEN",
+      "portal_url": "https://hfwu-nuertingen-geislingen.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "hfwu-nuertingen-geislingen",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:45:51.625Z"
+    },
+    {
+      "university_id": "HFWU_NURTINGEN_GEISLINGEN",
+      "university_name": "HFWU NURTINGEN-GEISLINGEN",
+      "portal_url": "https://hfwu-nurtingen-geislingen.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "hfwu-nurtingen-geislingen",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:45:52.955Z"
+    },
+    {
+      "university_id": "HGB_LEIPZIG",
+      "university_name": "HGB Leipzig",
+      "portal_url": "https://hgb-leipzig.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "hgb-leipzig",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:45:54.268Z"
+    },
+    {
+      "university_id": "HHL_GEMEINNUETZIGE_GMBH",
+      "university_name": "HHL GEMEINNUTZIGE GMBH",
+      "portal_url": "https://hhl-gemeinnuetzige-gmbh.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "hhl-gemeinnuetzige-gmbh",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:45:55.392Z"
+    },
+    {
+      "university_id": "HKM_TUEBINGEN",
+      "university_name": "HKM Tuebingen",
+      "portal_url": "https://hkm-tuebingen.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "hkm-tuebingen",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:45:56.705Z"
+    },
+    {
+      "university_id": "HKS_OTTERSBERG",
+      "university_name": "HKS Ottersberg",
+      "portal_url": "https://hks-ottersberg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "hks-ottersberg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:45:57.906Z"
+    },
+    {
+      "university_id": "HMDK_STUTTGART",
+      "university_name": "HMDK Stuttgart",
+      "portal_url": "https://hmdk-stuttgart.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "hmdk-stuttgart",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:45:59.011Z"
+    },
+    {
+      "university_id": "HMKW_HOCHSCHULE_FUER_MEDIEN_KOMMUNIKATION_UND_WIRTSCHAFT_GMB",
+      "university_name": "HMKW - HOCHSCHULE FUR MEDIEN KOMMUNIKATION UND WIRTSCHAFT GMBH",
+      "portal_url": "https://uni-gmb.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-gmb",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:46:13.077Z"
+    },
+    {
+      "university_id": "HMT_LEIPZIG",
+      "university_name": "HMT LEIPZIG",
+      "portal_url": "https://hmt-leipzig.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "hmt-leipzig",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:46:14.259Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_AALEN_TECHNIK_UND_WIRTSCHAFT",
+      "university_name": "HOCHSCHULE AALEN - TECHNIK UND WIRTSCHAFT",
+      "portal_url": "https://aalen_technik_und_wirtschaft.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "aalen_technik_und_wirtschaft",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:46:15.451Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_ANHALT",
+      "university_name": "HOCHSCHULE ANHALT",
+      "portal_url": "https://uni-anhalt.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-anhalt",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:46:29.126Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_BIBERACH",
+      "university_name": "HOCHSCHULE BIBERACH",
+      "portal_url": "https://biberach.adv-pub.moveon4.de/start/",
+      "portal_type": "advanced_publisher",
+      "slug": "biberach",
+      "source": "known",
+      "discovered_at": "2026-03-15T18:46:29.126Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_BIELEFELD_UNIVERSITY_OF_APPLIED_SCIENCES_AND_ARTS",
+      "university_name": "HOCHSCHULE BIELEFELD - UNIVERSITY OF APPLIED SCIENCES AND ARTS",
+      "portal_url": "https://bielefeld_university_of_applied_sciences_and_arts.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "bielefeld_university_of_applied_sciences_and_arts",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:46:30.428Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_BOCHUM",
+      "university_name": "HOCHSCHULE BOCHUM",
+      "portal_url": "https://uni-bochum.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-bochum",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:46:46.001Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_BONN_RHEIN_SIEG",
+      "university_name": "Hochschule Bonn-Rhein-Sieg",
+      "portal_url": "https://bonn_rhein_sieg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "bonn_rhein_sieg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:46:47.181Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_BREMEN",
+      "university_name": "HOCHSCHULE BREMEN",
+      "portal_url": "https://uni-bremen.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-bremen",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:47:02.405Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_BREMERHAVEN_UNIVERSITY_OF_APPLIED_SCIENCES",
+      "university_name": "HOCHSCHULE BREMERHAVEN - UNIVERSITY OF APPLIED SCIENCES",
+      "portal_url": "https://bremerhaven_university_of_applied_sciences.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "bremerhaven_university_of_applied_sciences",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:47:03.476Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_COBURG",
+      "university_name": "Hochschule Coburg",
+      "portal_url": "https://coburg.adv-pub.moveon4.de/start/",
+      "portal_type": "advanced_publisher",
+      "slug": "coburg",
+      "source": "known",
+      "discovered_at": "2026-03-15T18:47:03.476Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_DARMSTADT",
+      "university_name": "HOCHSCHULE DARMSTADT",
+      "portal_url": "https://uni-darmstadt.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-darmstadt",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:47:17.561Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_DARMSTADT_UNIVERSITY_OF_APPLIED_SCIENCES_H_DA",
+      "university_name": "HOCHSCHULE DARMSTADT (UNIVERSITY OF APPLIED SCIENCES H-DA)",
+      "portal_url": "https://darmstadt_university_of_applied_sciences_h_da.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "darmstadt_university_of_applied_sciences_h_da",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:47:18.709Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_DER_BILDENDEN_KUENSTE_HBK_ESSEN_UNIVERSITY_OF_FIN",
+      "university_name": "Hochschule der bildenden Künste (HBK) Essen, University of fine Arts Essen",
+      "portal_url": "https://der_bildenden_kuenste_hbk_essen_university_of_fin.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "der_bildenden_kuenste_hbk_essen_university_of_fin",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:47:19.812Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_DER_BILDENDEN_KUENSTE_SAAR",
+      "university_name": "Hochschule der Bildenden Künste Saar",
+      "portal_url": "https://der_bildenden_kuenste_saar.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "der_bildenden_kuenste_saar",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:47:20.968Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_DER_BUNDESAGENTUR_FUER_ARBEIT",
+      "university_name": "HOCHSCHULE DER BUNDESAGENTUR FUER ARBEIT",
+      "portal_url": "https://der_bundesagentur_fuer_arbeit.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "der_bundesagentur_fuer_arbeit",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:47:22.053Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_DER_MEDIEN",
+      "university_name": "HOCHSCHULE DER MEDIEN",
+      "portal_url": "https://der_medien.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "der_medien",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:47:23.155Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_DER_MEDIEN_STUTTGART",
+      "university_name": "HOCHSCHULE DER MEDIEN STUTTGART",
+      "portal_url": "https://der_medien_stuttgart.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "der_medien_stuttgart",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:47:24.226Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_DER_WIRTSCHAFT_FUER_MANAGEMENT_GGMBH",
+      "university_name": "HOCHSCHULE DER WIRTSCHAFT FUR MANAGEMENT",
+      "portal_url": "https://der_wirtschaft_fuer_management_ggmbh.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "der_wirtschaft_fuer_management_ggmbh",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:47:25.436Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_DES_BUNDES_FUER_OEFFENTLICHE_VERWALTUNG",
+      "university_name": "Hochschule des Bundes für öffentliche Verwaltung",
+      "portal_url": "https://des_bundes_fuer_oeffentliche_verwaltung.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "des_bundes_fuer_oeffentliche_verwaltung",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:47:26.482Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_DUESSELDORF",
+      "university_name": "HOCHSCHULE DUSSELDORF",
+      "portal_url": "https://uni-duesseldorf.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-duesseldorf",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:47:39.905Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_EMDENLEER",
+      "university_name": "HOCHSCHULE EMDEN/LEER",
+      "portal_url": "https://uni-emdenleer.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-emdenleer",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:47:53.771Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_EMDEN_LEER",
+      "university_name": "HOCHSCHULE EMDEN LEER",
+      "portal_url": "https://emden_leer.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "emden_leer",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:47:54.880Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_ESSLINGEN",
+      "university_name": "HOCHSCHULE ESSLINGEN",
+      "portal_url": "https://uni-esslingen.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-esslingen",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:48:08.971Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FLENSBURG",
+      "university_name": "HOCHSCHULE FLENSBURG",
+      "portal_url": "https://flensburg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "flensburg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:48:10.297Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FRESENIUS_GEMEINNUETZIGEGMBH",
+      "university_name": "HOCHSCHULE FRESENIUS GEMEINNUTZIGEGMBH",
+      "portal_url": "https://fresenius_gemeinnuetzigegmbh.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "fresenius_gemeinnuetzigegmbh",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:48:11.458Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_ANGEWANDTES_MANAGEMENT_GMBH",
+      "university_name": "Hochschule für angewandtes Management GmbH",
+      "portal_url": "https://uni-gmbh.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-gmbh",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:48:25.245Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN",
+      "university_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN",
+      "portal_url": "https://uni-wissenschaften.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-wissenschaften",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:48:41.484Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN_AUGSBURG",
+      "university_name": "Hochschule für angewandte Wissenschaften Augsburg",
+      "portal_url": "https://uni-augsburg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-augsburg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:48:56.567Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN_COBURG",
+      "university_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN COBURG",
+      "portal_url": "https://uni-coburg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-coburg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:49:18.339Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN_FACHHOCHSCHULE_ANS",
+      "university_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN - FACHHOCHSCHULE ANSBACH",
+      "portal_url": "https://uni-ans.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-ans",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:49:32.379Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN_FACHHOCHSCHULE_LAN",
+      "university_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN FACHHOCHSCHULE LANDSHUT",
+      "portal_url": "https://uni-lan.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-lan",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:49:48.681Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN_HOF",
+      "university_name": "Hochschule für Angewandte Wissenschaften Hof",
+      "portal_url": "https://hof.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "hof",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:49:50.411Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN_KEMPTEN",
+      "university_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN KEMPTEN",
+      "portal_url": "https://uni-kempten.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-kempten",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:50:04.288Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN_MUENCHEN",
+      "university_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN MUNCHEN",
+      "portal_url": "https://uni-muenchen.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-muenchen",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:50:17.929Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN_NEU_ULM",
+      "university_name": "Hochschule für Angewandte Wissenschaften Neu-Ulm",
+      "portal_url": "https://ulm.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "ulm",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:50:19.573Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_BILDENDE_KUENSTE_BRAUNSCHWEIG",
+      "university_name": "Hochschule für Bildende Künste Braunschweig",
+      "portal_url": "https://uni-braunschweig.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-braunschweig",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:50:33.544Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_BILDENDE_KUENSTE_DRESDEN",
+      "university_name": "Hochschule für Bildende Künste Dresden",
+      "portal_url": "https://uni-dresden.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-dresden",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:50:47.113Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_BILDENDE_KUENSTE_HAMBURG",
+      "university_name": "Hochschule für bildende Künste Hamburg",
+      "portal_url": "https://uni-hamburg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-hamburg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:51:00.823Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_BILDENDE_KUNSTE_DRESDEN",
+      "university_name": "HOCHSCHULE FUR BILDENDE KUNSTE DRESDEN",
+      "portal_url": "https://uni-dresden.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-dresden",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:51:14.314Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_DEN_OEFFENTLICHEN_DIENST_IN_BAYERN",
+      "university_name": "HOCHSCHULE FUR DEN OFFENTLICHEN DIENST IN BAYERN",
+      "portal_url": "https://uni-bayern.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-bayern",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:51:27.995Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_FORSTWIRTSCHAFT_ROTTENBURG",
+      "university_name": "HOCHSCHULE FUER FORSTWIRTSCHAFT ROTTENBURG",
+      "portal_url": "https://uni-rottenburg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-rottenburg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:51:41.733Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_GESTALTUNG_OFFENBACH_AM_MAIN",
+      "university_name": "Hochschule für Gestaltung Offenbach am Main",
+      "portal_url": "https://uni-main.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-main",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:51:55.420Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_GESTALTUNG_SCHWAEBISCH_GMUEND",
+      "university_name": "Hochschule für Gestaltung Schwäbisch Gmünd",
+      "portal_url": "https://uni-gmuend.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-gmuend",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:52:09.124Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_GESUNDHEIT",
+      "university_name": "Hochschule für Gesundheit",
+      "portal_url": "https://fuer_gesundheit.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "fuer_gesundheit",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:52:10.180Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_GRAFIK_UND_BUCHKUNST_LEIPZIG_ACADEMY_OF_FINE",
+      "university_name": "Hochschule fuer Grafik und Buchkunst Leipzig / Academy of Fine Arts",
+      "portal_url": "https://uni-fine.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-fine",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:52:24.115Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_JUEDISCHE_STUDIEN_HFJS",
+      "university_name": "Hochschule für Jüdische Studien (HfJS)",
+      "portal_url": "https://uni-hfjs.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-hfjs",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:52:37.859Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_KATHOLISCHE_KIRCHENMUSIK_UND_MUSIKPAEDAGOGIK",
+      "university_name": "Hochschule für katholische Kirchenmusik und Musikpädagogik Regensburg",
+      "portal_url": "https://uni-musikpaedagogik.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-musikpaedagogik",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:52:51.370Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_KUENSTE_IM_SOZIALEN_OTTERSBERG",
+      "university_name": "Hochschule für Künste im Sozialen, Ottersberg",
+      "portal_url": "https://uni-ottersberg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-ottersberg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:53:05.224Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_MUIK_UND_THEATER_MUENCHEN",
+      "university_name": "Hochschule für Muik und Theater München",
+      "portal_url": "https://uni-muenchen.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-muenchen",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:53:18.761Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_MUSIK",
+      "university_name": "Hochschule für Musik",
+      "portal_url": "https://fuer_musik.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "fuer_musik",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:53:19.982Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_MUSIK_DETMOLD",
+      "university_name": "Hochschule für Musik Detmold",
+      "portal_url": "https://uni-detmold.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-detmold",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:53:33.900Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_MUSIK_FRANZ_LISZT_WEIMAR",
+      "university_name": "Hochschule fuer Musik Franz Liszt Weimar",
+      "portal_url": "https://weimar.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "weimar",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:53:35.097Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_MUSIK_FREIBURG",
+      "university_name": "Hochschule für Musik Freiburg",
+      "portal_url": "https://uni-freiburg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-freiburg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:53:48.575Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_MUSIK_HANNS_EISLER_BERLIN",
+      "university_name": "Hochschule für Musik \"Hanns Eisler\" Berlin",
+      "portal_url": "https://uni-berlin.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-berlin",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:54:02.454Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_MUSIK_KARLSRUHE",
+      "university_name": "Hochschule fuer Musik Karlsruhe",
+      "portal_url": "https://uni-karlsruhe.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-karlsruhe",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:54:16.667Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_MUSIK_NUERNBERG",
+      "university_name": "Hochschule fuer Musik Nuernberg",
+      "portal_url": "https://uni-nuernberg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-nuernberg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:54:30.717Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_MUSIK_SAAR",
+      "university_name": "Hochschule für Musik Saar",
+      "portal_url": "https://uni-saar.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-saar",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:54:44.154Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_MUSIK_THEATER_UND_MEDIEN_HANNOVER",
+      "university_name": "HOCHSCHULE FUER MUSIK, THEATER UND MEDIEN HANNOVER",
+      "portal_url": "https://hannover.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "hannover",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:54:45.530Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_MUSIK_UND_DARSTELLENDE_KUNST_FRANKFURT_AM_MA",
+      "university_name": "Hochschule für Musik und Darstellende Kunst Frankfurt am Main",
+      "portal_url": "https://uni-ma.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-ma",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:55:01.580Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_MUSIK_UND_TANZ_KOELN",
+      "university_name": "HOCHSCHULE FUR MUSIK UND TANZ KOLN",
+      "portal_url": "https://uni-koeln.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-koeln",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:55:15.151Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_MUSIK_UND_THEATER_FELIX_MENDELSSOHN_BARTHOLD",
+      "university_name": "HOCHSCHULE FUR MUSIK UND THEATER FELIX MENDELSSOHN BARTHOLDY LEIPZIG",
+      "portal_url": "https://uni-barthold.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-barthold",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:55:29.040Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_MUSIK_UND_THEATER_HAMBURG",
+      "university_name": "HOCHSCHULE FUER MUSIK UND THEATER HAMBURG",
+      "portal_url": "https://uni-hamburg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-hamburg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:55:42.912Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_MUSIK_UND_THEATER_MUENCHEN",
+      "university_name": "Hochschule für Musik und Theater München",
+      "portal_url": "https://uni-muenchen.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-muenchen",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:55:57.620Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_MUSIK_UND_THEATER_ROSTOCK",
+      "university_name": "Hochschule für Musik und Theater Rostock",
+      "portal_url": "https://uni-rostock.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-rostock",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:56:12.336Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_MUSIK_WUERZBURG",
+      "university_name": "Hochschule für Musik Würzburg",
+      "portal_url": "https://wuerzburg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "wuerzburg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:56:13.585Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_NACHHALTIGE_ENTWICKLUNG_EBERSWALDE",
+      "university_name": "HOCHSCHULE FUR NACHHALTIGE ENTWICKLUNG EBERSWALDE",
+      "portal_url": "https://uni-eberswalde.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-eberswalde",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:56:27.692Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_OEFFENTLICHE_VERWALTUNG",
+      "university_name": "HOCHSCHULE FUR OFFENTLICHE VERWALTUNG",
+      "portal_url": "https://uni-verwaltung.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-verwaltung",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:56:41.654Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_OEFFENTLICHE_VERWALTUNG_KEHL",
+      "university_name": "HOCHSCHULE FUR OFFENTLICHE VERWALTUNG KEHL",
+      "portal_url": "https://uni-kehl.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-kehl",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:56:55.415Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_OEFFENTLICHE_VERWALTUNG_UND_FINANZEN_LUDWIGS",
+      "university_name": "HOCHSCHULE FUER OEFFENTLICHE VERWALTUNG UND FINANZEN LUDWIGSBURG",
+      "portal_url": "https://uni-ludwigs.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-ludwigs",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:57:10.330Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_PHILOSOPHIE_MUENCHEN",
+      "university_name": "Hochschule für Philosophie München/ Philosophische Fakultät SJ",
+      "portal_url": "https://uni-muenchen.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-muenchen",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:57:24.419Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_POLIZEI_UND_OEFFENTLICHE_VERWALTUNG_NORDRHEI",
+      "university_name": "Hochschule für Polizei und öffentliche Verwaltung  Nordrhein-Westfalen",
+      "portal_url": "https://uni-nordrhei.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-nordrhei",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:57:38.570Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_SCHAUSPIELKUNST_ERNST_BUSCH",
+      "university_name": "Hochschule für Schauspielkunst Ernst Busch",
+      "portal_url": "https://uni-busch.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-busch",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:57:53.100Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_TECHNIK_STUTTGART",
+      "university_name": "HOCHSCHULE FUR TECHNIK STUTTGART",
+      "portal_url": "https://uni-stuttgart.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-stuttgart",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:58:06.741Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_TECHNIK_UND_WIRTSCHAFT",
+      "university_name": "HOCHSCHULE FUR TECHNIK UND WIRTSCHAFT",
+      "portal_url": "https://uni-wirtschaft.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-wirtschaft",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T18:58:20.515Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_TECHNIK_UND_WIRTSCHAFT_DES_SAARLANDES",
+      "university_name": "HOCHSCHULE FUR TECHNIK UND WIRTSCHAFT DES SAARLANDES",
+      "portal_url": "https://htwsaar.adv-pub.moveon4.de/outgoing/",
+      "portal_type": "advanced_publisher",
+      "slug": "htwsaar",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:46:11.623Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_TECHNIK_UND_WIRTSCHAFT_DRESDEN",
+      "university_name": "Hochschule fuer Technik und Wirtschaft Dresden",
+      "portal_url": "https://uni-dresden.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-dresden",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:46:27.761Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_TECHNIK_WIRTSCHAFT_UND_KULTUR_LEIPZIG",
+      "university_name": "HOCHSCHULE FUR TECHNIK WIRTSCHAFT UND KULTUR LEIPZIG",
+      "portal_url": "https://uni-leipzig.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-leipzig",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:46:42.369Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_TELEKOMMUNIKATION_LEIPZIG",
+      "university_name": "Hochschule für Telekommunikation Leipzig",
+      "portal_url": "https://uni-leipzig.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-leipzig",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:46:57.664Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_WIRTSCHAFT_TECHNIK_UND_KULTUR_GGMBH",
+      "university_name": "Hochschule fuer Wirtschaft, Technik und Kultur gGmbH",
+      "portal_url": "https://uni-ggmbh.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-ggmbh",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:47:12.633Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_WIRTSCHAFT_UND_GESELLSCHAFT_LUDWIGSHAFEN",
+      "university_name": "Hochschule für Wirtschaft und Gesellschaft Ludwigshafen",
+      "portal_url": "https://uni-ludwigshafen.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-ludwigshafen",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:47:28.475Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_WIRTSCHAFT_UND_RECHT_BERLIN",
+      "university_name": "HOCHSCHULE FUR WIRTSCHAFT UND RECHT BERLIN",
+      "portal_url": "https://uni-berlin.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-berlin",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:47:42.896Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_WIRTSCHAFT_UND_UMWELT_NUERTINGEN_GEISLINGEN",
+      "university_name": "HOCHSCHULE FUER WIRTSCHAFT UND UMWELT NUERTINGEN-GEISLINGEN",
+      "portal_url": "https://uni-geislingen.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-geislingen",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:47:58.254Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FULDA_UNIVERSITY_OF_APPLIED_SCIENCES",
+      "university_name": "HOCHSCHULE FULDA-UNIVERSITY OF APPLIED SCIENCES",
+      "portal_url": "https://fulda_university_of_applied_sciences.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "fulda_university_of_applied_sciences",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:47:59.804Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_FURTWANGEN",
+      "university_name": "HOCHSCHULE FURTWANGEN",
+      "portal_url": "https://uni-furtwangen.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-furtwangen",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:48:14.160Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_GEISENHEIM",
+      "university_name": "HOCHSCHULE GEISENHEIM",
+      "portal_url": "https://uni-geisenheim.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-geisenheim",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:48:29.395Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_GEMEINNUETZIGE_GMBH",
+      "university_name": "hochschule 21 gemeinnützige GmbH",
+      "portal_url": "https://gemeinnuetzige_gmbh.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "gemeinnuetzige_gmbh",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:48:30.655Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_HAMM_LIPPSTADT",
+      "university_name": "HOCHSCHULE HAMM-LIPPSTADT",
+      "portal_url": "https://hamm_lippstadt.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "hamm_lippstadt",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:48:31.798Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_HANNOVER",
+      "university_name": "HOCHSCHULE HANNOVER",
+      "portal_url": "https://hannover.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "hannover",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:48:33.338Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_HARZ",
+      "university_name": "HOCHSCHULE HARZ",
+      "portal_url": "https://uni-harz.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-harz",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:48:48.170Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_HEILBRONN",
+      "university_name": "HOCHSCHULE HEILBRONN",
+      "portal_url": "https://uni-heilbronn.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-heilbronn",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:49:03.150Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_KAISERSLAUTERN",
+      "university_name": "HOCHSCHULE KAISERSLAUTERN",
+      "portal_url": "https://uni-kaiserslautern.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-kaiserslautern",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:49:17.922Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_KARLSRUHE_TECHNIK_UND_WIRTSCHAFT",
+      "university_name": "HOCHSCHULE KARLSRUHE-TECHNIK UND WIRTSCHAFT",
+      "portal_url": "https://karlsruhe_technik_und_wirtschaft.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "karlsruhe_technik_und_wirtschaft",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:49:19.263Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_KOBLENZ",
+      "university_name": "Hochschule Koblenz",
+      "portal_url": "https://uni-koblenz.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-koblenz",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:49:35.652Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_KONSTANZ_TECHNIK_WIRTSCHAFT_UND_GESTALTUNG",
+      "university_name": "HOCHSCHULE KONSTANZ TECHNIK WIRTSCHAFT UND GESTALTUNG",
+      "portal_url": "https://konstanz_technik_wirtschaft_und_gestaltung.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "konstanz_technik_wirtschaft_und_gestaltung",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:49:37.054Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_MAGDEBURG_STENDAL",
+      "university_name": "HOCHSCHULE MAGDEBURG-STENDAL",
+      "portal_url": "https://magdeburg_stendal.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "magdeburg_stendal",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:49:38.319Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_MAINZ_UNIVERSITY_OF_APPLIED_SCIENCES",
+      "university_name": "HOCHSCHULE MAINZ UNIVERSITY OF APPLIED SCIENCES",
+      "portal_url": "https://mainz_university_of_applied_sciences.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "mainz_university_of_applied_sciences",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:49:39.552Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_MANNHEIM",
+      "university_name": "HOCHSCHULE MANNHEIM",
+      "portal_url": "https://uni-mannheim.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-mannheim",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:49:54.099Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_MERSEBURG",
+      "university_name": "HOCHSCHULE MERSEBURG",
+      "portal_url": "https://uni-merseburg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-merseburg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:50:09.504Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_MITTWEIDA",
+      "university_name": "HOCHSCHULE MITTWEIDA",
+      "portal_url": "https://mittweida.adv-pub.moveon4.de/start/",
+      "portal_type": "advanced_publisher",
+      "slug": "mittweida",
+      "source": "known",
+      "discovered_at": "2026-03-15T20:50:09.504Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_MITTWEIDA_FH",
+      "university_name": "HOCHSCHULE MITTWEIDA (FH)",
+      "portal_url": "https://mittweida_fh.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "mittweida_fh",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:50:10.760Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_MUENCHEN",
+      "university_name": "HOCHSCHULE MUENCHEN",
+      "portal_url": "https://uni-muenchen.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-muenchen",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:50:25.401Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_NEUBRANDENBURG",
+      "university_name": "HOCHSCHULE NEUBRANDENBURG",
+      "portal_url": "https://uni-neubrandenburg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-neubrandenburg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:50:41.376Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_NEU_ULM",
+      "university_name": "Hochschule Neu-Ulm",
+      "portal_url": "https://neu_ulm.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "neu_ulm",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:50:42.615Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_NIEDERRHEIN",
+      "university_name": "HOCHSCHULE NIEDERRHEIN",
+      "portal_url": "https://uni-niederrhein.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-niederrhein",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:50:57.509Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_NORDHAUSEN",
+      "university_name": "HOCHSCHULE NORDHAUSEN",
+      "portal_url": "https://uni-nordhausen.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-nordhausen",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:51:13.016Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_OFFENBURG",
+      "university_name": "HOCHSCHULE OFFENBURG",
+      "portal_url": "https://uni-offenburg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-offenburg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:51:27.443Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_PFORZHEIM",
+      "university_name": "HOCHSCHULE PFORZHEIM",
+      "portal_url": "https://uni-pforzheim.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-pforzheim",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:51:41.780Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_RAVENSBURG_WEINGARTEN",
+      "university_name": "HOCHSCHULE RAVENSBURG-WEINGARTEN",
+      "portal_url": "https://ravensburg_weingarten.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "ravensburg_weingarten",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:51:42.940Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_REUTLINGEN_TECHNIK_WIRTSCHAFT_INFORMATIK_DESIGN",
+      "university_name": "HOCHSCHULE REUTLINGEN - TECHNIK-WIRTSCHAFT-INFORMATIK-DESIGN",
+      "portal_url": "https://reutlingen_technik_wirtschaft_informatik_design.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "reutlingen_technik_wirtschaft_informatik_design",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:51:44.200Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_RHEINMAIN",
+      "university_name": "Hochschule RheinMain",
+      "portal_url": "https://uni-rheinmain.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-rheinmain",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:51:58.294Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_RHEIN_WAAL",
+      "university_name": "HOCHSCHULE RHEIN-WAAL",
+      "portal_url": "https://hsrw.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "hsrw",
+      "source": "known",
+      "discovered_at": "2026-03-15T20:51:58.294Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_RHEIN_WAAL_HSRW_RHINE_WAAL_UNIVERSITY_OF_APPLIED_",
+      "university_name": "HOCHSCHULE RHEIN-WAAL-HSRW RHINE-WAAL UNIVERSITY OF APPLIED SCIENCES",
+      "portal_url": "https://hsrw.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "hsrw",
+      "source": "known",
+      "discovered_at": "2026-03-15T16:27:32.221Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_RUHR_WEST",
+      "university_name": "HOCHSCHULE RUHR WEST",
+      "portal_url": "https://ruhr_west.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "ruhr_west",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:51:59.626Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_SCHMALKALDEN",
+      "university_name": "HOCHSCHULE SCHMALKALDEN",
+      "portal_url": "https://uni-schmalkalden.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-schmalkalden",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:52:13.952Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_STRALSUND",
+      "university_name": "HOCHSCHULE STRALSUND",
+      "portal_url": "https://stralsund.adv-pub.moveon4.de/start/",
+      "portal_type": "advanced_publisher",
+      "slug": "stralsund",
+      "source": "known",
+      "discovered_at": "2026-03-15T20:52:13.952Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_TRIER",
+      "university_name": "HOCHSCHULE TRIER",
+      "portal_url": "https://uni-trier.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-trier",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:52:28.449Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_WEIHENSTEPHAN_TRIESDORF",
+      "university_name": "HOCHSCHULE WEIHENSTEPHAN-TRIESDORF",
+      "portal_url": "https://hswt.adv-pub.moveon4.de/start/",
+      "portal_type": "advanced_publisher",
+      "slug": "hswt",
+      "source": "known",
+      "discovered_at": "2026-03-15T20:52:28.449Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_WISMAR",
+      "university_name": "HOCHSCHULE WISMAR",
+      "portal_url": "https://uni-wismar.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-wismar",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:52:42.946Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_WORMS",
+      "university_name": "HOCHSCHULE WORMS",
+      "portal_url": "https://worms.adv-pub.moveon4.de/start/",
+      "portal_type": "advanced_publisher",
+      "slug": "worms",
+      "source": "known",
+      "discovered_at": "2026-03-15T20:52:42.946Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_ZITTAUGOERLITZ",
+      "university_name": "HOCHSCHULE ZITTAU/GOERLITZ",
+      "portal_url": "https://uni-zittaugoerlitz.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-zittaugoerlitz",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:52:58.099Z"
+    },
+    {
+      "university_id": "HOCHSCHULE_ZITTAU_GORLITZ",
+      "university_name": "HOCHSCHULE ZITTAU-GORLITZ",
+      "portal_url": "https://zittau_gorlitz.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "zittau_gorlitz",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:52:59.653Z"
+    },
+    {
+      "university_id": "HOEV_RHEINLAND_PFALZ",
+      "university_name": "HöV Rheinland-Pfalz",
+      "portal_url": "https://hoev-rheinland-pfalz.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "hoev-rheinland-pfalz",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:53:00.838Z"
+    },
+    {
+      "university_id": "HSPV_NRW",
+      "university_name": "HSPV NRW",
+      "portal_url": "https://hspv-nrw.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "hspv-nrw",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:53:28.138Z"
+    },
+    {
+      "university_id": "HS_BREMERHAVEN",
+      "university_name": "HS Bremerhaven",
+      "portal_url": "https://hs-bremerhaven.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "hs-bremerhaven",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:53:42.442Z"
+    },
+    {
+      "university_id": "HS_HARZ",
+      "university_name": "HS HARZ",
+      "portal_url": "https://hs-harz.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "hs-harz",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:53:43.671Z"
+    },
+    {
+      "university_id": "HS_MD_SDL",
+      "university_name": "HS MD SDL",
+      "portal_url": "https://hs-md-sdl.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "hs-md-sdl",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:53:44.884Z"
+    },
+    {
+      "university_id": "HTWG_HOCHSCHULE_KONSTANZ_TECHNIK_WIRTSCHAFT_UND_GESTALTUNG",
+      "university_name": "HTWG HOCHSCHULE KONSTANZ TECHNIK WIRTSCHAFT UND GESTALTUNG",
+      "portal_url": "https://konstanz_technik_wirtschaft_und_gestaltung.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "konstanz_technik_wirtschaft_und_gestaltung",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:53:46.062Z"
+    },
+    {
+      "university_id": "HTW_AALEN",
+      "university_name": "HTW AALEN",
+      "portal_url": "https://htw-aalen.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "htw-aalen",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:53:47.352Z"
+    },
+    {
+      "university_id": "HUMBOLDT_UNIVERSITAET_ZU_BERLIN",
+      "university_name": "HUMBOLDT-UNIVERSITAET ZU BERLIN",
+      "portal_url": "https://huberlin.adv-pub.moveon4.de/home-page-1757/",
+      "portal_type": "advanced_publisher",
+      "slug": "huberlin",
+      "source": "known",
+      "discovered_at": "2026-03-15T16:27:16.015Z"
+    },
+    {
+      "university_id": "HVF_LUDWIGSBURG",
+      "university_name": "HVF LUDWIGSBURG",
+      "portal_url": "https://hvf-ludwigsburg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "hvf-ludwigsburg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:53:48.478Z"
+    },
+    {
+      "university_id": "IB_HOCHSCHULE_BERLIN_IB_GESELLSCHAFT_FUER_INTERDISZIPLINAERE",
+      "university_name": "IB-Hochschule Berlin, IB Gesellschaft für interdisziplinäre Studien gGmbH (IB GIS)",
+      "portal_url": "https://berlin_ib_gesellschaft_fuer_interdisziplinaere.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "berlin_ib_gesellschaft_fuer_interdisziplinaere",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:53:50.063Z"
+    },
+    {
+      "university_id": "INTERNATIONALE_HOCHSCHULE_FUER_WIRTSCHAFT_TECHNIK_UND_KULTUR",
+      "university_name": "Internationale Hochschule für Wirtschaft, Technik und Kultur gGmbH",
+      "portal_url": "https://uni-kultur.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-kultur",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:54:17.752Z"
+    },
+    {
+      "university_id": "IPU_BERLIN_GGMBH",
+      "university_name": "IPU Berlin gGmbH",
+      "portal_url": "https://ipu-berlin-ggmbh.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "ipu-berlin-ggmbh",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:54:18.878Z"
+    },
+    {
+      "university_id": "IST_HOCHSCHULE_FUER_MANAGEMENT_GMBH",
+      "university_name": "IST-HOCHSCHULE FUR MANAGEMENT GMBH",
+      "portal_url": "https://uni-gmbh.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-gmbh",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:54:33.450Z"
+    },
+    {
+      "university_id": "ITCINSTITIUID_TEICNEOLAIOCHTA_CEATHARLACH",
+      "university_name": "ITCINSTITIUID TEICNEOLAIOCHTA CEATHARLACH",
+      "portal_url": "https://itcinstitiuid-teicneolaiochta-ceatharlach.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "itcinstitiuid-teicneolaiochta-ceatharlach",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:54:34.659Z"
+    },
+    {
+      "university_id": "IU_INTERNATIONALE_HOCHSCHULE",
+      "university_name": "IU Internationale Hochschule",
+      "portal_url": "https://iu-internationale-hochschule.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "iu-internationale-hochschule",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:54:35.896Z"
+    },
+    {
+      "university_id": "JADE_HOCHSCHULE_WILHELMSHAVEN_OLDENBURG_ELSFLETH",
+      "university_name": "JADE HOCHSCHULE WILHELMSHAVEN/OLDENBURG/ELSFLETH",
+      "portal_url": "https://wilhelmshaven_oldenburg_elsfleth.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "wilhelmshaven_oldenburg_elsfleth",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:54:37.159Z"
+    },
+    {
+      "university_id": "JOHANNES_GUTENBERG_UNIVERSITAET_MAINZ",
+      "university_name": "JOHANNES GUTENBERG-UNIVERSITAT MAINZ",
+      "portal_url": "https://uni-mainz.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-mainz",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:54:52.463Z"
+    },
+    {
+      "university_id": "JOHANN_WOLFGANG_GOETHE_UNIVERSITAET_FRANKFURT_AM_MAIN",
+      "university_name": "JOHANN WOLFGANG GOETHE-UNIVERSITAET FRANKFURT AM MAIN",
+      "portal_url": "https://frankfurt_am_main.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "frankfurt_am_main",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:54:53.713Z"
+    },
+    {
+      "university_id": "JULIUS_MAXIMILIANS_UNIVERSITAET_WUERZBURG",
+      "university_name": "JULIUS-MAXIMILIANS-UNIVERSITAET WUERZBURG",
+      "portal_url": "https://wuerzburg.adv-pub.moveon4.de/home-page-1721/",
+      "portal_type": "advanced_publisher",
+      "slug": "wuerzburg",
+      "source": "known",
+      "discovered_at": "2026-03-15T16:27:16.017Z"
+    },
+    {
+      "university_id": "JUSTUS_LIEBIG_UNIVERSITAET_GIESSEN",
+      "university_name": "JUSTUS-LIEBIG-UNIVERSITAET GIESSEN",
+      "portal_url": "https://giessen.adv-pub.moveon4.de/home-page-1579/",
+      "portal_type": "advanced_publisher",
+      "slug": "giessen",
+      "source": "known",
+      "discovered_at": "2026-03-15T16:27:16.017Z"
+    },
+    {
+      "university_id": "KARLSHOCHSCHULE_GEMEINNUETZIGE_GMBH",
+      "university_name": "Karlshochschule gemeinnützige GmbH",
+      "portal_url": "https://gemeinnuetzige_gmbh.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "gemeinnuetzige_gmbh",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:55:08.255Z"
+    },
+    {
+      "university_id": "KARLSHOCHSCHULE_INTERNATIONAL_UNIVERSITY",
+      "university_name": "Karlshochschule International University",
+      "portal_url": "https://international_university.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "international_university",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:55:09.490Z"
+    },
+    {
+      "university_id": "KARLSRUHER_INSTITUT_FUER_TECHNOLOGIE",
+      "university_name": "KARLSRUHER INSTITUT FUER TECHNOLOGIE",
+      "portal_url": "https://kit-karlsruhe.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "kit-karlsruhe",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:55:23.958Z"
+    },
+    {
+      "university_id": "KATHOLISCHE_FACHHOCHSCHULE_NORDRHEIN_WESTFALEN",
+      "university_name": "KATHOLISCHE FACHHOCHSCHULE NORDRHEIN-WESTFALEN",
+      "portal_url": "https://nordrhein_westfalen.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "nordrhein_westfalen",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:55:25.177Z"
+    },
+    {
+      "university_id": "KATHOLISCHE_HOCHSCHULE_FREIBURG",
+      "university_name": "KATHOLISCHE HOCHSCHULE FREIBURG GGMBH",
+      "portal_url": "https://uni-freiburg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-freiburg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:55:40.077Z"
+    },
+    {
+      "university_id": "KATHOLISCHE_HOCHSCHULE_FUER_SOZIALWESEN_BERLIN_KHSB",
+      "university_name": "Katholische Hochschule für Sozialwesen Berlin (KHSB)",
+      "portal_url": "https://uni-khsb.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-khsb",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:55:54.834Z"
+    },
+    {
+      "university_id": "KATHOLISCHE_HOCHSCHULE_MAINZ",
+      "university_name": "Katholische Hochschule Mainz",
+      "portal_url": "https://uni-mainz.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-mainz",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:56:09.060Z"
+    },
+    {
+      "university_id": "KATHOLISCHE_STIFTUNGSHOCHSCHULE_MUENCHEN",
+      "university_name": "Katholische Stiftungshochschule München Hochschule für angewandte Wissenschaften der Kirchlichen",
+      "portal_url": "https://uni-muenchen.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-muenchen",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:56:23.605Z"
+    },
+    {
+      "university_id": "KATHOLISCHE_UNIVERSITAET_EICHSTAETT_INGOLSTADT",
+      "university_name": "KATHOLISCHE UNIVERSITAT EICHSTATT-INGOLSTADT",
+      "portal_url": "https://eichstaett_ingolstadt.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "eichstaett_ingolstadt",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:56:24.783Z"
+    },
+    {
+      "university_id": "KATHO_NRW",
+      "university_name": "KatHO NRW",
+      "portal_url": "https://katho-nrw.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "katho-nrw",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:56:26.211Z"
+    },
+    {
+      "university_id": "KIRCHLICHE_HOCHSCHULE_WUPPERTALBETHEL",
+      "university_name": "Kirchliche Hochschule Wuppertal/Bethel",
+      "portal_url": "https://uni-wuppertalbethel.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-wuppertalbethel",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:56:40.710Z"
+    },
+    {
+      "university_id": "KUEHNE_LOGISTICS_UNIVERSITY",
+      "university_name": "KUEHNE LOGISTICS UNIVERSITY",
+      "portal_url": "https://kuehne-logistics-university.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "kuehne-logistics-university",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:56:42.063Z"
+    },
+    {
+      "university_id": "KUNSTAKADEMIE_KARLSRUHE",
+      "university_name": "Kunstakademie Karlsruhe",
+      "portal_url": "https://kunstakademie-karlsruhe.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "kunstakademie-karlsruhe",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:56:43.300Z"
+    },
+    {
+      "university_id": "KUNSTAKADEMIE_MUENSTER_HOCHSCHULE_FUER_BILDENDE_KUENSTE",
+      "university_name": "Kunstakademie Münster - Hochschule für Bildende Künste",
+      "portal_url": "https://uni-kuenste.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-kuenste",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:56:57.807Z"
+    },
+    {
+      "university_id": "KUNSTAKADEMIE_STUTTGART_ABK",
+      "university_name": "Kunstakademie Stuttgart; ABK",
+      "portal_url": "https://kunstakademie-stuttgart-abk.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "kunstakademie-stuttgart-abk",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:56:58.958Z"
+    },
+    {
+      "university_id": "KUNSTHOCHSCHULE_BERLIN_WEISSENSEE",
+      "university_name": "KUNSTHOCHSCHULE BERLIN-WEISSENSEE HOCHSCHULE FUER GESTALTUNG",
+      "portal_url": "https://berlin_weissensee.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "berlin_weissensee",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:57:00.198Z"
+    },
+    {
+      "university_id": "LEUPHANA_UNIVERSITAET_LUENEBURG",
+      "university_name": "LEUPHANA UNIVERSITAET LUENEBURG",
+      "portal_url": "https://uni-lueneburg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-lueneburg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:57:14.554Z"
+    },
+    {
+      "university_id": "LEUPHANA_UNIVERSITAT_LUENEBURG",
+      "university_name": "LEUPHANA UNIVERSITAT LUNEBURG",
+      "portal_url": "https://leuphana-universitat-lueneburg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "leuphana-universitat-lueneburg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:57:15.733Z"
+    },
+    {
+      "university_id": "LUDWIG_MAXIMILIANS_UNIVERSITAET_MUENCHEN",
+      "university_name": "LUDWIG-MAXIMILIANS-UNIVERSITAET MUENCHEN",
+      "portal_url": "https://lmu.adv-pub.moveon4.de/home-page-2558/",
+      "portal_type": "advanced_publisher",
+      "slug": "lmu",
+      "source": "known",
+      "discovered_at": "2026-03-15T16:27:16.015Z"
+    },
+    {
+      "university_id": "MACROMEDIA_GMBH",
+      "university_name": "Macromedia GmbH",
+      "portal_url": "https://macromedia-gmbh.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "macromedia-gmbh",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:57:30.046Z"
+    },
+    {
+      "university_id": "MARTIN_LUTHER_UNIVERSITAET_HALLE_WITTENBERG",
+      "university_name": "MARTIN-LUTHER-UNIVERSITAET HALLE-WITTENBERG",
+      "portal_url": "https://halle.adv-pub.moveon4.de/start/",
+      "portal_type": "advanced_publisher",
+      "slug": "halle",
+      "source": "known",
+      "discovered_at": "2026-03-15T20:57:30.046Z"
+    },
+    {
+      "university_id": "MEDIZINISCHE_HOCHSCHULE_BRANDENBURG",
+      "university_name": "Medizinische Hochschule Brandenburg",
+      "portal_url": "https://uni-brandenburg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-brandenburg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:57:44.970Z"
+    },
+    {
+      "university_id": "MEDIZINISCHE_HOCHSCHULE_HANNOVER",
+      "university_name": "MEDIZINISCHE HOCHSCHULE HANNOVER",
+      "portal_url": "https://hannover.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "hannover",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:57:46.163Z"
+    },
+    {
+      "university_id": "MERZ_AKADEMIE_GGMBH",
+      "university_name": "Merz Akademie gGmbh",
+      "portal_url": "https://merz-akademie-ggmbh.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "merz-akademie-ggmbh",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:57:47.319Z"
+    },
+    {
+      "university_id": "MERZ_AKADEMIE_HOCHSCHULE",
+      "university_name": "Merz Akademie Hochschule",
+      "portal_url": "https://merz-akademie-hochschule.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "merz-akademie-hochschule",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:57:48.611Z"
+    },
+    {
+      "university_id": "MUNICH_BUSINESS_SCHOOL",
+      "university_name": "Munich Business School",
+      "portal_url": "https://munich-business-school.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "munich-business-school",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:57:49.937Z"
+    },
+    {
+      "university_id": "MUSIKHOCHSCHULE_LUEBECK",
+      "university_name": "Musikhochschule Lübeck",
+      "portal_url": "https://luebeck.adv-pub.moveon4.de/partnerhochschulen/",
+      "portal_type": "advanced_publisher",
+      "slug": "luebeck",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:57:53.725Z"
+    },
+    {
+      "university_id": "MUTHESIUS_KUNSTHOCHSCHULE",
+      "university_name": "MUTHESIUS KUNSTHOCHSCHULE",
+      "portal_url": "https://muthesius-kunsthochschule.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "muthesius-kunsthochschule",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:57:54.947Z"
+    },
+    {
+      "university_id": "NORDAKADEMIE_HOCHSCHULE_DER_WIRTSCHAFT",
+      "university_name": "Nordakademie - Hochschule der Wirtschaft",
+      "portal_url": "https://der_wirtschaft.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "der_wirtschaft",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:58:09.449Z"
+    },
+    {
+      "university_id": "OSTBAYERISCHE_TECHNISCHE_HOCHSCHULE_REGENSBURG",
+      "university_name": "OSTBAYERISCHE TECHNISCHE HOCHSCHULE REGENSBURG",
+      "portal_url": "https://uni-regensburg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-regensburg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:58:23.839Z"
+    },
+    {
+      "university_id": "OSTFALIA_HOCHSCHULE_FUER_ANGEWANDTE_WISSENSCHAFTEN_HOCHSCHUL",
+      "university_name": "OSTFALIA HOCHSCHULE FUER ANGEWANDTE WISSENSCHAFTEN HOCHSCHULE BRAUNSCHWEIG WOLFENBUTTEL",
+      "portal_url": "https://uni-hochschul.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-hochschul",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:58:37.892Z"
+    },
+    {
+      "university_id": "OTH_AMBERG_WEIDEN",
+      "university_name": "OTH Amberg-Weiden",
+      "portal_url": "https://oth-amberg-weiden.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "oth-amberg-weiden",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:58:39.156Z"
+    },
+    {
+      "university_id": "OTTO_FRIEDRICH_UNIVERSITAET_BAMBERG",
+      "university_name": "OTTO-FRIEDRICH-UNIVERSITAET BAMBERG",
+      "portal_url": "https://uni-bamberg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-bamberg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:58:53.258Z"
+    },
+    {
+      "university_id": "OTTO_VON_GUERICKE_UNIVERSITAET_MAGDEBURG",
+      "university_name": "OTTO-VON-GUERICKE-UNIVERSITAET MAGDEBURG",
+      "portal_url": "https://ovgu.adv-pub.moveon4.de/austauschdatenbank/",
+      "portal_type": "advanced_publisher",
+      "slug": "ovgu",
+      "source": "known",
+      "discovered_at": "2026-03-15T16:27:16.017Z"
+    },
+    {
+      "university_id": "PADAGOGISCHE_HOCHSCHULE_SCHWABISCH_GMUND",
+      "university_name": "PADAGOGISCHE HOCHSCHULE SCHWABISCH GMUND",
+      "portal_url": "https://schwabisch_gmund.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "schwabisch_gmund",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:58:54.554Z"
+    },
+    {
+      "university_id": "PAEDAGOGISCHE_HOCHSCHULE_FREIBURG",
+      "university_name": "Pädagogische Hochschule Freiburg",
+      "portal_url": "https://uni-freiburg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-freiburg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:59:09.234Z"
+    },
+    {
+      "university_id": "PAEDAGOGISCHE_HOCHSCHULE_HEIDELBERG",
+      "university_name": "PADAGOGISCHE HOCHSCHULE HEIDELBERG",
+      "portal_url": "https://uni-heidelberg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-heidelberg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:59:24.347Z"
+    },
+    {
+      "university_id": "PAEDAGOGISCHE_HOCHSCHULE_KARLSRUHE",
+      "university_name": "PAEDAGOGISCHE HOCHSCHULE KARLSRUHE",
+      "portal_url": "https://uni-karlsruhe.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-karlsruhe",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:59:39.143Z"
+    },
+    {
+      "university_id": "PAEDAGOGISCHE_HOCHSCHULE_LUDWIGSBURG",
+      "university_name": "PADAGOGISCHE HOCHSCHULE LUDWIGSBURG",
+      "portal_url": "https://uni-ludwigsburg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-ludwigsburg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T20:59:53.857Z"
+    },
+    {
+      "university_id": "PAEDAGOGISCHE_HOCHSCHULE_WEINGARTEN",
+      "university_name": "PAEDAGOGISCHE HOCHSCHULE WEINGARTEN",
+      "portal_url": "https://uni-weingarten.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-weingarten",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:00:08.247Z"
+    },
+    {
+      "university_id": "PALUCCA_HOCHSCHULE_FUER_TANZ_DRESDEN",
+      "university_name": "Palucca Hochschule für Tanz Dresden",
+      "portal_url": "https://uni-dresden.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-dresden",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:00:22.300Z"
+    },
+    {
+      "university_id": "PFH_PRIVATE_HOCHSCHULE_GOETTINGEN",
+      "university_name": "PFH - PRIVATE HOCHSCHULE GOETTINGEN",
+      "portal_url": "https://goettingen.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "goettingen",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:00:23.658Z"
+    },
+    {
+      "university_id": "PHILIPPS_UNIVERSITAET_MARBURG",
+      "university_name": "PHILIPPS UNIVERSITAET MARBURG",
+      "portal_url": "https://marburg.adv-pub.moveon4.de/start/",
+      "portal_type": "advanced_publisher",
+      "slug": "marburg",
+      "source": "known",
+      "discovered_at": "2026-03-15T21:00:23.658Z"
+    },
+    {
+      "university_id": "PHILOSOPHISCH_THEOLOGISCHE_HOCHSCHULE_SANKT_GEORGEN",
+      "university_name": "PHILOSOPHISCH THEOLOGISCHE HOCHSCHULE SANKT GEORGEN",
+      "portal_url": "https://sankt_georgen.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "sankt_georgen",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:00:24.864Z"
+    },
+    {
+      "university_id": "POLIZEIAKADEMIE_NIEDERSACHSEN",
+      "university_name": "Polizeiakademie Niedersachsen",
+      "portal_url": "https://polizeiakademie-niedersachsen.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "polizeiakademie-niedersachsen",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:00:39.138Z"
+    },
+    {
+      "university_id": "PRIVATE_UNIVERSITAET_WITTENHERDECKE_GGMBH",
+      "university_name": "Private Universitaet Witten/Herdecke gGmbH",
+      "portal_url": "https://wittenherdecke_ggmbh.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "wittenherdecke_ggmbh",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:00:40.566Z"
+    },
+    {
+      "university_id": "PTH_SANKT",
+      "university_name": "PTH SANKT",
+      "portal_url": "https://pth-sankt.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "pth-sankt",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:00:41.887Z"
+    },
+    {
+      "university_id": "REUTLINGEN_UNIVERSITY",
+      "university_name": "Reutlingen University",
+      "portal_url": "https://reutlingen-university.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "reutlingen-university",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:00:43.159Z"
+    },
+    {
+      "university_id": "RFH_KOELN_GGMBH",
+      "university_name": "RFH-Koeln gGmbh",
+      "portal_url": "https://rfh-koeln-ggmbh.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "rfh-koeln-ggmbh",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:00:44.344Z"
+    },
+    {
+      "university_id": "RHEINISCH_WESTFAELISCHE_TECHNISCHE_HOCHSCHULE_AACHEN",
+      "university_name": "RHEINISCH-WESTFAELISCHE TECHNISCHE HOCHSCHULE AACHEN",
+      "portal_url": "https://rwthaachen.adv-pub.moveon4.de/results/",
+      "portal_type": "advanced_publisher",
+      "slug": "rwthaachen",
+      "source": "known",
+      "discovered_at": "2026-03-15T16:27:16.015Z"
+    },
+    {
+      "university_id": "ROBERT_SCHUMANN_HOCHSCHULE_DUESSELDORF",
+      "university_name": "ROBERT SCHUMANN HOCHSCHULE DUSSELDORF",
+      "portal_url": "https://uni-duesseldorf.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-duesseldorf",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:00:59.986Z"
+    },
+    {
+      "university_id": "RPTU_KAISERSLAUTERN_LANDAU",
+      "university_name": "RPTU Kaiserslautern-Landau",
+      "portal_url": "https://rptu-kaiserslautern-landau.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "rptu-kaiserslautern-landau",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:01:01.130Z"
+    },
+    {
+      "university_id": "RUHR_UNIVERSITAET_BOCHUM",
+      "university_name": "RUHR-UNIVERSITAET BOCHUM",
+      "portal_url": "https://rub.adv-pub.moveon4.de/home-page-1581/",
+      "portal_type": "advanced_publisher",
+      "slug": "rub",
+      "source": "known",
+      "discovered_at": "2026-03-15T16:27:16.017Z"
+    },
+    {
+      "university_id": "RUPRECHT_KARLS_UNIVERSITAET_HEIDELBERG",
+      "university_name": "RUPRECHT-KARLS-UNIVERSITAET HEIDELBERG",
+      "portal_url": "https://uni-heidelberg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-heidelberg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:01:15.666Z"
+    },
+    {
+      "university_id": "SDI_MUENCHEN",
+      "university_name": "SDI München",
+      "portal_url": "https://sdi-muenchen.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "sdi-muenchen",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:01:16.929Z"
+    },
+    {
+      "university_id": "SRH_FERNHOCHSCHULE_GMBH",
+      "university_name": "SRH Fernhochschule GmbH",
+      "portal_url": "https://uni-gmbh.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-gmbh",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:01:31.261Z"
+    },
+    {
+      "university_id": "SRH_FERNHOCHSCHULE_THE_MOBILE_UNIVERSITY",
+      "university_name": "SRH Fernhochschule - The Mobile University",
+      "portal_url": "https://the_mobile_university.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "the_mobile_university",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:01:32.466Z"
+    },
+    {
+      "university_id": "SRH_HOCHSCHULEN_GMBH",
+      "university_name": "SRH Hochschulen GmbH",
+      "portal_url": "https://srh-hochschulen-gmbh.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "srh-hochschulen-gmbh",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:01:33.679Z"
+    },
+    {
+      "university_id": "SRH_HOCHSCHULE_BERLIN",
+      "university_name": "SRH Hochschule Berlin",
+      "portal_url": "https://uni-berlin.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-berlin",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:01:47.901Z"
+    },
+    {
+      "university_id": "SRH_HOCHSCHULE_DER_POPULAEREN_KUENSTE_HDPK",
+      "university_name": "SRH Hochschule der populären Künste (hdpk)",
+      "portal_url": "https://der_populaeren_kuenste_hdpk.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "der_populaeren_kuenste_hdpk",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:01:49.033Z"
+    },
+    {
+      "university_id": "SRH_HOCHSCHULE_FUER_GESUNDHEIT",
+      "university_name": "SRH Hochschule für Gesundheit",
+      "portal_url": "https://fuer_gesundheit.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "fuer_gesundheit",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:01:50.225Z"
+    },
+    {
+      "university_id": "SRH_HOCHSCHULE_FUER_GESUNDHEIT_GMBH",
+      "university_name": "SRH Hochschule für Gesundheit GmbH",
+      "portal_url": "https://uni-gmbh.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-gmbh",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:02:04.630Z"
+    },
+    {
+      "university_id": "SRH_HOCHSCHULE_HEIDELBERG_GMBH",
+      "university_name": "SRH HOCHSCHULE HEIDELBERG GMBH",
+      "portal_url": "https://heidelberg_gmbh.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "heidelberg_gmbh",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:02:05.840Z"
+    },
+    {
+      "university_id": "STAATLICHE_HOCHSCHULE_FUER_GESTALTUNG_KARLSRUHE",
+      "university_name": "STAATLICHE HOCHSCHULE FUR GESTALTUNG KARLSRUHE",
+      "portal_url": "https://uni-karlsruhe.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-karlsruhe",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:02:20.191Z"
+    },
+    {
+      "university_id": "STAATLICHE_HOCHSCHULE_FUER_MUSIK_TROSSINGEN",
+      "university_name": "Staatliche Hochschule für Musik Trossingen",
+      "portal_url": "https://uni-trossingen.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-trossingen",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:02:34.734Z"
+    },
+    {
+      "university_id": "STAATLICHE_HOCHSCHULE_FUER_MUSIK_UND_DARSTELLENDE_KUNST_MANN",
+      "university_name": "Staatliche Hochschule für Musik und Darstellende Kunst Mannheim",
+      "portal_url": "https://uni-mann.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-mann",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:02:48.994Z"
+    },
+    {
+      "university_id": "STAATLICHE_HOCHSCHULE_FUER_MUSIK_UND_DARSTELLENDE_KUNST_STUT",
+      "university_name": "Staatliche Hochschule für Musik und Darstellende Kunst Stuttgart",
+      "portal_url": "https://uni-stut.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-stut",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:03:03.402Z"
+    },
+    {
+      "university_id": "STAATLICHE_MUSIKHOCHSCHULE_MANNHEIM",
+      "university_name": "Staatliche Musikhochschule Mannheim",
+      "portal_url": "https://uni-mannheim.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-mannheim",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:03:17.811Z"
+    },
+    {
+      "university_id": "STAATL_HOCHSCHULE_FUER_MUSIK_TROSSINGEN",
+      "university_name": "Staatl. Hochschule für Musik Trossingen",
+      "portal_url": "https://uni-trossingen.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-trossingen",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:03:32.052Z"
+    },
+    {
+      "university_id": "STIFTUNG_FACHHOCHSCHULE_OSNABRUECK",
+      "university_name": "STIFTUNG FACHHOCHSCHULE OSNABRUECK",
+      "portal_url": "https://osnabrueck.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "osnabrueck",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:03:46.805Z"
+    },
+    {
+      "university_id": "STIFTUNG_TIERAERZTLICHE_HOCHSCHULE_HANNOVER",
+      "university_name": "STIFTUNG TIERAERZTLICHE HOCHSCHULE HANNOVER",
+      "portal_url": "https://hannover.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "hannover",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:03:47.950Z"
+    },
+    {
+      "university_id": "STIFTUNG_UNIVERSITAET_HILDESHEIM",
+      "university_name": "STIFTUNG UNIVERSITAT HILDESHEIM",
+      "portal_url": "https://uni-hildesheim.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-hildesheim",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:04:02.063Z"
+    },
+    {
+      "university_id": "TECHNISCHE_HOCHSCHULE_ASCHAFFENBURG",
+      "university_name": "Technische Hochschule Aschaffenburg",
+      "portal_url": "https://uni-aschaffenburg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-aschaffenburg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:04:16.595Z"
+    },
+    {
+      "university_id": "TECHNISCHE_HOCHSCHULE_AUGSBURG",
+      "university_name": "Technische Hochschule Augsburg",
+      "portal_url": "https://uni-augsburg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-augsburg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:04:30.754Z"
+    },
+    {
+      "university_id": "TECHNISCHE_HOCHSCHULE_BINGEN",
+      "university_name": "Technische Hochschule Bingen",
+      "portal_url": "https://uni-bingen.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-bingen",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:04:45.179Z"
+    },
+    {
+      "university_id": "TECHNISCHE_HOCHSCHULE_BRANDENBURG",
+      "university_name": "TECHNISCHE HOCHSCHULE BRANDENBURG",
+      "portal_url": "https://uni-brandenburg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-brandenburg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:04:59.430Z"
+    },
+    {
+      "university_id": "TECHNISCHE_HOCHSCHULE_DEGGENDORF",
+      "university_name": "TECHNISCHE HOCHSCHULE DEGGENDORF",
+      "portal_url": "https://uni-deggendorf.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-deggendorf",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:05:13.720Z"
+    },
+    {
+      "university_id": "TECHNISCHE_HOCHSCHULE_INGOLSTADT",
+      "university_name": "TECHNISCHE HOCHSCHULE INGOLSTADT",
+      "portal_url": "https://uni-ingolstadt.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-ingolstadt",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:05:27.828Z"
+    },
+    {
+      "university_id": "TECHNISCHE_HOCHSCHULE_KOELN",
+      "university_name": "TECHNISCHE HOCHSCHULE KOLN",
+      "portal_url": "https://uni-koeln.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-koeln",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:05:42.033Z"
+    },
+    {
+      "university_id": "TECHNISCHE_HOCHSCHULE_LUEBECK",
+      "university_name": "TECHNISCHE HOCHSCHULE LUBECK",
+      "portal_url": "https://luebeck.adv-pub.moveon4.de/partnerhochschulen/",
+      "portal_type": "advanced_publisher",
+      "slug": "luebeck",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:05:45.642Z"
+    },
+    {
+      "university_id": "TECHNISCHE_HOCHSCHULE_MITTELHESSEN",
+      "university_name": "TECHNISCHE HOCHSCHULE MITTELHESSEN",
+      "portal_url": "https://uni-mittelhessen.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-mittelhessen",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:06:00.040Z"
+    },
+    {
+      "university_id": "TECHNISCHE_HOCHSCHULE_NUERNBERG_GEORG_SIMON_OHM",
+      "university_name": "TECHNISCHE HOCHSCHULE NURNBERG GEORG SIMON OHM",
+      "portal_url": "https://nuernberg_georg_simon_ohm.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "nuernberg_georg_simon_ohm",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:06:01.280Z"
+    },
+    {
+      "university_id": "TECHNISCHE_HOCHSCHULE_OSTWESTFALEN_LIPPE",
+      "university_name": "TECHNISCHE HOCHSCHULE OSTWESTFALEN-LIPPE",
+      "portal_url": "https://ostwestfalen_lippe.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "ostwestfalen_lippe",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:06:02.468Z"
+    },
+    {
+      "university_id": "TECHNISCHE_HOCHSCHULE_ROSENHEIM",
+      "university_name": "TECHNISCHE HOCHSCHULE ROSENHEIM",
+      "portal_url": "https://uni-rosenheim.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-rosenheim",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:06:16.592Z"
+    },
+    {
+      "university_id": "TECHNISCHE_HOCHSCHULE_ROSENHEIM_TECHNICAL_UNIVERSITY_OF_APPL",
+      "university_name": "TECHNISCHE HOCHSCHULE ROSENHEIM / TECHNICAL UNIVERSITY OF APPLIED SCIENCES",
+      "portal_url": "https://rosenheim_technical_university_of_appl.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "rosenheim_technical_university_of_appl",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:06:17.736Z"
+    },
+    {
+      "university_id": "TECHNISCHE_HOCHSCHULE_ULM",
+      "university_name": "TECHNISCHE HOCHSCHULE ULM",
+      "portal_url": "https://ulm.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "ulm",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:06:19.116Z"
+    },
+    {
+      "university_id": "TECHNISCHE_HOCHSCHULE_WILDAU",
+      "university_name": "TECHNISCHE HOCHSCHULE WILDAU",
+      "portal_url": "https://uni-wildau.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-wildau",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:06:33.396Z"
+    },
+    {
+      "university_id": "TECHNISCHE_HOCHSCHULE_WUERZBURG_SCHWEINFURT",
+      "university_name": "TECHNISCHE HOCHSCHULE WUERZBURG-SCHWEINFURT",
+      "portal_url": "https://wuerzburg_schweinfurt.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "wuerzburg_schweinfurt",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:06:34.664Z"
+    },
+    {
+      "university_id": "TECHNISCHE_UNIVERSITAET_BERGAKADEMIE_FREIBERG",
+      "university_name": "TECHNISCHE UNIVERSITAET BERGAKADEMIE FREIBERG",
+      "portal_url": "https://bergakademie_freiberg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "bergakademie_freiberg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:06:35.880Z"
+    },
+    {
+      "university_id": "TECHNISCHE_UNIVERSITAET_BERLIN",
+      "university_name": "TECHNISCHE UNIVERSITAT BERLIN",
+      "portal_url": "https://uni-berlin.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-berlin",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:06:49.997Z"
+    },
+    {
+      "university_id": "TECHNISCHE_UNIVERSITAET_BRAUNSCHWEIG",
+      "university_name": "TECHNISCHE UNIVERSITAET BRAUNSCHWEIG",
+      "portal_url": "https://tubs.adv-pub.moveon4.de/exchange/",
+      "portal_type": "advanced_publisher",
+      "slug": "tubs",
+      "source": "known",
+      "discovered_at": "2026-03-15T16:27:16.017Z"
+    },
+    {
+      "university_id": "TECHNISCHE_UNIVERSITAET_CHEMNITZ",
+      "university_name": "TECHNISCHE UNIVERSITAET CHEMNITZ",
+      "portal_url": "https://uni-chemnitz.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-chemnitz",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:07:04.228Z"
+    },
+    {
+      "university_id": "TECHNISCHE_UNIVERSITAET_DRESDEN",
+      "university_name": "TECHNISCHE UNIVERSITAET DRESDEN",
+      "portal_url": "https://uni-dresden.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-dresden",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:07:18.965Z"
+    },
+    {
+      "university_id": "TECHNISCHE_UNIVERSITAET_HAMBURG",
+      "university_name": "TECHNISCHE UNIVERSITAET HAMBURG",
+      "portal_url": "https://uni-hamburg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-hamburg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:07:33.128Z"
+    },
+    {
+      "university_id": "TECHNISCHE_UNIVERSITAET_ILMENAU",
+      "university_name": "TECHNISCHE UNIVERSITAET ILMENAU",
+      "portal_url": "https://uni-ilmenau.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-ilmenau",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:07:47.347Z"
+    },
+    {
+      "university_id": "TECHNISCHE_UNIVERSITAET_KAISERSLAUTERN",
+      "university_name": "TECHNISCHE UNIVERSITAET KAISERSLAUTERN",
+      "portal_url": "https://uni-kaiserslautern.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-kaiserslautern",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:08:01.898Z"
+    },
+    {
+      "university_id": "TECHNISCHE_UNIVERSITAET_MUENCHEN",
+      "university_name": "TECHNISCHE UNIVERSITAET MUENCHEN",
+      "portal_url": "https://tum.adv-pub.moveon4.de/report-page-5027/",
+      "portal_type": "advanced_publisher",
+      "slug": "tum",
+      "source": "known",
+      "discovered_at": "2026-03-15T16:27:16.015Z"
+    },
+    {
+      "university_id": "TECHNISCHE_UNIVERSITAT_CLAUSTHAL",
+      "university_name": "TECHNISCHE UNIVERSITAT CLAUSTHAL",
+      "portal_url": "https://technische-universitat-clausthal.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "technische-universitat-clausthal",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:08:03.098Z"
+    },
+    {
+      "university_id": "TECHNISCHE_UNIVERSITAT_DARMSTADT",
+      "university_name": "TECHNISCHE UNIVERSITAT DARMSTADT",
+      "portal_url": "https://technische-universitat-darmstadt.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "technische-universitat-darmstadt",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:08:04.356Z"
+    },
+    {
+      "university_id": "TECHNISCHE_UNIVERSITAT_DORTMUND",
+      "university_name": "TECHNISCHE UNIVERSITAT DORTMUND",
+      "portal_url": "https://tudo.adv-pub.moveon4.de/home-page-3745/",
+      "portal_type": "advanced_publisher",
+      "slug": "tudo",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T17:12:49.363Z"
+    },
+    {
+      "university_id": "TECHNISCHE_UNIVERSITAT_HAMBURG",
+      "university_name": "TECHNISCHE UNIVERSITAT HAMBURG",
+      "portal_url": "https://technische-universitat-hamburg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "technische-universitat-hamburg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:08:05.483Z"
+    },
+    {
+      "university_id": "THEOLOGISCHE_FAKULTAET_FULDA",
+      "university_name": "Theologische Fakultät Fulda",
+      "portal_url": "https://theologische-fakultaet-fulda.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "theologische-fakultaet-fulda",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:08:06.725Z"
+    },
+    {
+      "university_id": "THEOLOGISCHE_FAKULTAET_TRIER",
+      "university_name": "Theologische Fakultät Trier",
+      "portal_url": "https://theologische-fakultaet-trier.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "theologische-fakultaet-trier",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:08:07.888Z"
+    },
+    {
+      "university_id": "THEOLOGISCHE_HOCHSCHULE_FRIEDENSAU",
+      "university_name": "Theologische Hochschule Friedensau",
+      "portal_url": "https://uni-friedensau.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-friedensau",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:08:22.167Z"
+    },
+    {
+      "university_id": "TH_OWL",
+      "university_name": "TH OWL",
+      "portal_url": "https://th-owl.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "th-owl",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:08:23.480Z"
+    },
+    {
+      "university_id": "TH_WILDAU",
+      "university_name": "TH WILDAU",
+      "portal_url": "https://th-wildau.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "th-wildau",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:08:24.603Z"
+    },
+    {
+      "university_id": "UNIBW_M",
+      "university_name": "UniBw M",
+      "portal_url": "https://unibw-m.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "unibw-m",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:09:05.294Z"
+    },
+    {
+      "university_id": "UNIVERSITAET_AUGSBURG",
+      "university_name": "UNIVERSITAET AUGSBURG",
+      "portal_url": "https://uni-augsburg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-augsburg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:09:33.120Z"
+    },
+    {
+      "university_id": "UNIVERSITAET_BAYREUTH",
+      "university_name": "UNIVERSITAET BAYREUTH",
+      "portal_url": "https://bayreuth.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "bayreuth",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:09:34.464Z"
+    },
+    {
+      "university_id": "UNIVERSITAET_BERN",
+      "university_name": "UNIVERSITAET BERN",
+      "portal_url": "https://uni-bern.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-bern",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:09:49.051Z"
+    },
+    {
+      "university_id": "UNIVERSITAET_BIELEFELD",
+      "university_name": "UNIVERSITAET BIELEFELD",
+      "portal_url": "https://uni-bielefeld.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-bielefeld",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:10:03.225Z"
+    },
+    {
+      "university_id": "UNIVERSITAET_BREMEN",
+      "university_name": "UNIVERSITAET BREMEN",
+      "portal_url": "https://uni-bremen.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-bremen",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:10:17.756Z"
+    },
+    {
+      "university_id": "UNIVERSITAET_DER_BUNDESWEHR_MUENCHEN",
+      "university_name": "UNIVERSITAET DER BUNDESWEHR MUENCHEN",
+      "portal_url": "https://der_bundeswehr_muenchen.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "der_bundeswehr_muenchen",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:10:19.000Z"
+    },
+    {
+      "university_id": "UNIVERSITAET_DER_KUENSTE_BERLIN",
+      "university_name": "UNIVERSITAT DER KUNSTE BERLIN",
+      "portal_url": "https://der_kuenste_berlin.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "der_kuenste_berlin",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:10:20.284Z"
+    },
+    {
+      "university_id": "UNIVERSITAET_DUISBURG_ESSEN",
+      "university_name": "UNIVERSITAET DUISBURG-ESSEN",
+      "portal_url": "https://unidue.adv-pub.moveon4.de/home-page-1570/",
+      "portal_type": "advanced_publisher",
+      "slug": "unidue",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T17:12:49.363Z"
+    },
+    {
+      "university_id": "UNIVERSITAET_ERFURT",
+      "university_name": "UNIVERSITAET ERFURT",
+      "portal_url": "https://uni-erfurt.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-erfurt",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:10:34.590Z"
+    },
+    {
+      "university_id": "UNIVERSITAET_GOETTINGEN",
+      "university_name": "UNIVERSITAET GOETTINGEN",
+      "portal_url": "https://goettingen.adv-pub.moveon4.de/report-page-1856/",
+      "portal_type": "advanced_publisher",
+      "slug": "goettingen",
+      "source": "known",
+      "discovered_at": "2026-03-15T16:27:32.220Z"
+    },
+    {
+      "university_id": "UNIVERSITAET_GREIFSWALD",
+      "university_name": "UNIVERSITAET GREIFSWALD",
+      "portal_url": "https://uni-greifswald.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-greifswald",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:10:49.039Z"
+    },
+    {
+      "university_id": "UNIVERSITAET_HAMBURG",
+      "university_name": "UNIVERSITAET HAMBURG",
+      "portal_url": "https://uni-hamburg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-hamburg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:11:03.156Z"
+    },
+    {
+      "university_id": "UNIVERSITAET_HOHENHEIM",
+      "university_name": "UNIVERSITAET HOHENHEIM",
+      "portal_url": "https://uni-hohenheim.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-hohenheim",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:11:18.623Z"
+    },
+    {
+      "university_id": "UNIVERSITAET_KASSEL",
+      "university_name": "UNIVERSITAET KASSEL",
+      "portal_url": "https://unikassel.adv-pub.moveon4.de/home-page-1577/",
+      "portal_type": "advanced_publisher",
+      "slug": "unikassel",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T17:12:49.363Z"
+    },
+    {
+      "university_id": "UNIVERSITAET_KOBLENZ",
+      "university_name": "UNIVERSITAET KOBLENZ",
+      "portal_url": "https://uni-koblenz.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-koblenz",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:11:32.726Z"
+    },
+    {
+      "university_id": "UNIVERSITAET_KOBLENZ_LANDAU",
+      "university_name": "UNIVERSITAET KOBLENZ-LANDAU",
+      "portal_url": "https://koblenz_landau.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "koblenz_landau",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:11:34.001Z"
+    },
+    {
+      "university_id": "UNIVERSITAET_KONSTANZ",
+      "university_name": "UNIVERSITAT KONSTANZ",
+      "portal_url": "https://uni-konstanz.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-konstanz",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:11:48.225Z"
+    },
+    {
+      "university_id": "UNIVERSITAET_LEIPZIG",
+      "university_name": "UNIVERSITAET LEIPZIG",
+      "portal_url": "https://unileipzig.adv-pub.moveon4.de/stu-out_deu/",
+      "portal_type": "advanced_publisher",
+      "slug": "unileipzig",
+      "source": "known",
+      "discovered_at": "2026-03-15T16:27:16.017Z"
+    },
+    {
+      "university_id": "UNIVERSITAET_MANNHEIM",
+      "university_name": "UNIVERSITAET MANNHEIM",
+      "portal_url": "https://uni-mannheim.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-mannheim",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:12:02.782Z"
+    },
+    {
+      "university_id": "UNIVERSITAET_OSNABRUECK",
+      "university_name": "UNIVERSITAET OSNABRUECK",
+      "portal_url": "https://osnabrueck.adv-pub.moveon4.de/home-page-uos/",
+      "portal_type": "advanced_publisher",
+      "slug": "osnabrueck",
+      "source": "known",
+      "discovered_at": "2026-03-15T16:27:16.017Z"
+    },
+    {
+      "university_id": "UNIVERSITAET_PADERBORN",
+      "university_name": "UNIVERSITAET PADERBORN",
+      "portal_url": "https://uni-paderborn.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-paderborn",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:12:17.390Z"
+    },
+    {
+      "university_id": "UNIVERSITAET_PASSAU",
+      "university_name": "Universität Passau",
+      "portal_url": "https://passau.adv-pub.moveon4.de/start/",
+      "portal_type": "advanced_publisher",
+      "slug": "passau",
+      "source": "known",
+      "discovered_at": "2026-03-15T16:27:16.017Z"
+    },
+    {
+      "university_id": "UNIVERSITAET_POTSDAM",
+      "university_name": "UNIVERSITAET POTSDAM",
+      "portal_url": "https://potsdam.adv-pub.moveon4.de/ins-ausland-mit-der-up-startseite/",
+      "portal_type": "advanced_publisher",
+      "slug": "potsdam",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T17:12:49.363Z"
+    },
+    {
+      "university_id": "UNIVERSITAET_REGENSBURG",
+      "university_name": "UNIVERSITAET REGENSBURG",
+      "portal_url": "https://ur.adv-pub.moveon4.de/home-page-1628/",
+      "portal_type": "advanced_publisher",
+      "slug": "ur",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T17:12:49.363Z"
+    },
+    {
+      "university_id": "UNIVERSITAET_ROSTOCK",
+      "university_name": "UNIVERSITAET ROSTOCK",
+      "portal_url": "https://uni-rostock.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-rostock",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:12:31.806Z"
+    },
+    {
+      "university_id": "UNIVERSITAET_SIEGEN",
+      "university_name": "UNIVERSITAET SIEGEN",
+      "portal_url": "https://siegen.adv-pub.moveon4.de/stay-search/",
+      "portal_type": "advanced_publisher",
+      "slug": "siegen",
+      "source": "known",
+      "discovered_at": "2026-03-15T16:27:16.017Z"
+    },
+    {
+      "university_id": "UNIVERSITAET_STUTTGART",
+      "university_name": "UNIVERSITAET STUTTGART",
+      "portal_url": "https://uni-stuttgart.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-stuttgart",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:12:46.351Z"
+    },
+    {
+      "university_id": "UNIVERSITAET_ULM",
+      "university_name": "UNIVERSITAET ULM",
+      "portal_url": "https://ulm.adv-pub.moveon4.de/home-page-1582/",
+      "portal_type": "advanced_publisher",
+      "slug": "ulm",
+      "source": "known",
+      "discovered_at": "2026-03-15T16:27:16.017Z"
+    },
+    {
+      "university_id": "UNIVERSITAET_VECHTA",
+      "university_name": "UNIVERSITAET VECHTA",
+      "portal_url": "https://uni-vechta.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-vechta",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:13:00.369Z"
+    },
+    {
+      "university_id": "UNIVERSITAET_WITTEN_HERDECKE",
+      "university_name": "UNIVERSITAET WITTEN HERDECKE",
+      "portal_url": "https://witten_herdecke.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "witten_herdecke",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:13:01.566Z"
+    },
+    {
+      "university_id": "UNIVERSITAET_ZU_KOELN",
+      "university_name": "UNIVERSITAET ZU KOELN",
+      "portal_url": "https://koeln.adv-pub.moveon4.de/start/",
+      "portal_type": "advanced_publisher",
+      "slug": "koeln",
+      "source": "known",
+      "discovered_at": "2026-03-15T21:13:01.566Z"
+    },
+    {
+      "university_id": "UNIVERSITAET_ZU_LUEBECK",
+      "university_name": "UNIVERSITAET ZU LUEBECK",
+      "portal_url": "https://luebeck.adv-pub.moveon4.de/austauschmoeglichkeiten/",
+      "portal_type": "advanced_publisher",
+      "slug": "luebeck",
+      "source": "known",
+      "discovered_at": "2026-03-15T16:27:16.017Z"
+    },
+    {
+      "university_id": "UNIVERSITAT_DES_SAARLANDES",
+      "university_name": "UNIVERSITAT DES SAARLANDES",
+      "portal_url": "https://universitat-des-saarlandes.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "universitat-des-saarlandes",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:13:02.698Z"
+    },
+    {
+      "university_id": "UNIVERSITAT_ERFURT",
+      "university_name": "UNIVERSITAT ERFURT",
+      "portal_url": "https://universitat-erfurt.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "universitat-erfurt",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:13:03.960Z"
+    },
+    {
+      "university_id": "UNIVERSITAT_TRIER",
+      "university_name": "UNIVERSITAT TRIER",
+      "portal_url": "https://universitat-trier.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "universitat-trier",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:13:05.228Z"
+    },
+    {
+      "university_id": "UNIVERSITAT_ZU_LUEBECK",
+      "university_name": "UNIVERSITAT ZU LUBECK",
+      "portal_url": "https://universitat-zu-luebeck.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "universitat-zu-luebeck",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:13:06.435Z"
+    },
+    {
+      "university_id": "UNIVERSITY_OF_PASSAU",
+      "university_name": "University of Passau",
+      "portal_url": "https://university-of-passau.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "university-of-passau",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:13:07.670Z"
+    },
+    {
+      "university_id": "UNI_KASSEL",
+      "university_name": "UNI KASSEL",
+      "portal_url": "https://uni-kassel.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-kassel",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:13:08.783Z"
+    },
+    {
+      "university_id": "UNI_OLDENBURG",
+      "university_name": "Uni Oldenburg",
+      "portal_url": "https://uni-oldenburg.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-oldenburg",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:13:09.929Z"
+    },
+    {
+      "university_id": "WEISSENSEE_KUNSTHOCHSCHULE_BERLIN",
+      "university_name": "Weißensee Kunsthochschule Berlin",
+      "portal_url": "https://uni-berlin.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "uni-berlin",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:13:37.161Z"
+    },
+    {
+      "university_id": "WESTFAELISCHE_WILHELMS_UNIVERSITAET_MUENSTER",
+      "university_name": "WESTFAELISCHE WILHELMS-UNIVERSITAET MUENSTER",
+      "portal_url": "https://wwum.adv-pub.moveon4.de/home-page-university-of-muenster/",
+      "portal_type": "advanced_publisher",
+      "slug": "wwum",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T17:12:49.361Z"
+    },
+    {
+      "university_id": "WESTFALISCHE_HOCHSCHULE_GELSENKIRCHEN_BOCHOLT_RECKLINGHAUSEN",
+      "university_name": "WESTFALISCHE HOCHSCHULE GELSENKIRCHEN, BOCHOLT, RECKLINGHAUSEN",
+      "portal_url": "https://gelsenkirchen_bocholt_recklinghausen.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "gelsenkirchen_bocholt_recklinghausen",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:13:38.362Z"
+    },
+    {
+      "university_id": "WESTSACHSISCHE_HOCHSCHULE_ZWICKAU",
+      "university_name": "WESTSACHSISCHE HOCHSCHULE ZWICKAU",
+      "portal_url": "https://zwickau.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "zwickau",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:13:40.126Z"
+    },
+    {
+      "university_id": "WESTSAECHSISCHE_HOCHSCHULE_ZWICKAU",
+      "university_name": "WESTSAECHSISCHE HOCHSCHULE ZWICKAU",
+      "portal_url": "https://zwickau.adv-pub.moveon4.de/start/",
+      "portal_type": "advanced_publisher",
+      "slug": "zwickau",
+      "source": "known",
+      "discovered_at": "2026-03-15T21:13:40.126Z"
+    },
+    {
+      "university_id": "WH_GELSENKIRCHEN",
+      "university_name": "WH Gelsenkirchen",
+      "portal_url": "https://wh-gelsenkirchen.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "wh-gelsenkirchen",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:13:41.370Z"
+    },
+    {
+      "university_id": "ZEPPELIN_UNIVERSITAET",
+      "university_name": "ZEPPELIN UNIVERSITAET",
+      "portal_url": "https://zeppelin-universitaet.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "zeppelin-universitaet",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:13:55.650Z"
+    },
+    {
+      "university_id": "ZEPPELIN_UNIVERSITAET_GEMEINNUETZIGE_GMBH",
+      "university_name": "Zeppelin Universität gemeinnützige GmbH",
+      "portal_url": "https://gemeinnuetzige_gmbh.adv-pub.moveon4.de/home-page/",
+      "portal_type": "advanced_publisher",
+      "slug": "gemeinnuetzige_gmbh",
+      "source": "discovered",
+      "discovered_at": "2026-03-15T21:13:56.951Z"
+    }
+  ],
+  "not_found": [
+    {
+      "university_id": "ADBK",
+      "university_name": "ADBK"
+    },
+    {
+      "university_id": "AKADEMIE_DER_BILDENDEN_KUENSTE_MUENCHEN",
+      "university_name": "Akademie der Bildenden Künste München"
+    },
+    {
+      "university_id": "AKADEMIE_DER_BILDENDEN_KUENSTE_NUERNBERG",
+      "university_name": "Akademie der Bildenden Künste Nürnberg"
+    },
+    {
+      "university_id": "AKADEMIE_DER_POLIZEI_HAMBURG",
+      "university_name": "Akademie der Polizei Hamburg"
+    },
+    {
+      "university_id": "BADEN_WUERTTEMBERG_COOPERATIVE_STATE_UNIVERSITY_HEILBRONN",
+      "university_name": "Baden-Württemberg Cooperative State University Heilbronn"
+    },
+    {
+      "university_id": "BADEN_WUERTTEMBERG_COOPERATIVE_STATE_UNIVERSITY_RAVENSBURG",
+      "university_name": "BADEN WUERTTEMBERG COOPERATIVE STATE UNIVERSITY RAVENSBURG"
+    },
+    {
+      "university_id": "BARD_COLLEGE_BERLIN_A_LIBERAL_ARTSUNIVERSITY_GGMBH",
+      "university_name": "BARD COLLEGE BERLIN, A LIBERAL ARTSUNIVERSITY GGMBH"
+    },
+    {
+      "university_id": "BAU_HIGHER_EDUCATION_SERVICE",
+      "university_name": "B.A.U. Higher Education Service"
+    },
+    {
+      "university_id": "BAYERISCHE_THEATERAKADEMIE_AUGUST_EVERDING_IM_PRINZREGENTENT",
+      "university_name": "BAYERISCHE THEATERAKADEMIE AUGUST EVERDING IM PRINZREGENTENTHEATER"
+    },
+    {
+      "university_id": "BERLIN_INTERNATIONAL_UNIVERSITY_OF_APPLIED_SCIENCES",
+      "university_name": "Berlin International University of Applied Sciences"
+    },
+    {
+      "university_id": "BERLIN_UNIVERSITY_OF_APPLIED_SCIENCES_AND_TECHNOLOGY",
+      "university_name": "BERLIN UNIVERSITY OF APPLIED SCIENCES AND TECHNOLOGY"
+    },
+    {
+      "university_id": "BILDUNGSZENTRUM_FINFORMATIONSVERARBEITENDE_BERUFEGEMEINNUETZ",
+      "university_name": "Bildungszentrum f.informationsverarbeitende Berufe,gemeinnützige GmbH"
+    },
+    {
+      "university_id": "BREMEN_UNIVERSITY_OF_APPLIED_SCIENCES",
+      "university_name": "BREMEN UNIVERSITY OF APPLIED SCIENCES"
+    },
+    {
+      "university_id": "BSP_BUSINESS_LAW_SCHOOL",
+      "university_name": "BSP Business & Law School"
+    },
+    {
+      "university_id": "BSP_BUSINESS_SCHOOL_BERLIN_GMBH",
+      "university_name": "BSP Business School Berlin GmbH"
+    },
+    {
+      "university_id": "BUCERIUS_LAW_SCHOOL_GGMBH",
+      "university_name": "Bucerius Law School gGmbH"
+    },
+    {
+      "university_id": "BURG_GIEBICHENSTEIN_UNIVERSITY_OF_ART_AND_DESIGN_HALLE",
+      "university_name": "Burg Giebichenstein University of Art and Design Halle"
+    },
+    {
+      "university_id": "CATHOLIC_UNIVERSITY_OF_APPLIED_SCIENCES_FREIBURG",
+      "university_name": "CATHOLIC UNIVERSITY OF APPLIED SCIENCES FREIBURG"
+    },
+    {
+      "university_id": "CBS_COLOGNE_BUSINESS_SCHOOL_GMBH",
+      "university_name": "CBS Cologne Business School GmbH"
+    },
+    {
+      "university_id": "CBS_INTERNATIONAL_BUSINESS_SCHOOL",
+      "university_name": "CBS International Business School"
+    },
+    {
+      "university_id": "CODE_UNIVERSITY_OF_APPLIED_SCIENCES",
+      "university_name": "CODE University of Applied Sciences"
+    },
+    {
+      "university_id": "CONSTRUCTOR_UNIVERSITY_BREMEN_GGMBH",
+      "university_name": "CONSTRUCTOR UNIVERSITY BREMEN GGMBH"
+    },
+    {
+      "university_id": "DMT_GESELLSCHAFT_FUER_LEHRE_UND_BILDUNG_MBH_TECHNISCHE_HOCHS",
+      "university_name": "DMT - Gesellschaft für Lehre und Bildung mbH - Technische Hochschule Georg Agricola"
+    },
+    {
+      "university_id": "EBC_EURO_BUSINESS_COLLEGE_GMBH",
+      "university_name": "EBC Euro-Business-College Gmbh"
+    },
+    {
+      "university_id": "EBZ_BUSINESS_SCHOOL_UNIVERSITY_OF_APPLIED_SCIENCES",
+      "university_name": "EBZ Business School - University of Applied Sciences"
+    },
+    {
+      "university_id": "ESMT",
+      "university_name": "ESMT"
+    },
+    {
+      "university_id": "ESMT_EUROPEAN_SCHOOL_OF_MANAGEMENT_AND_TECHNOLOGY_GMBH",
+      "university_name": "ESMT EUROPEAN SCHOOL OF MANAGEMENT AND TECHNOLOGY GMBH"
+    },
+    {
+      "university_id": "ESTONIAN_UNIVERSITY_OF_LIFE_SCIENCES_EMU",
+      "university_name": "ESTONIAN UNIVERSITY OF LIFE SCIENCES EMU"
+    },
+    {
+      "university_id": "EUFH",
+      "university_name": "EUFH"
+    },
+    {
+      "university_id": "FERNUNI",
+      "university_name": "FERNUNI"
+    },
+    {
+      "university_id": "FHM",
+      "university_name": "FHM"
+    },
+    {
+      "university_id": "FH_MUENSTER_UNIVERSITY_OF_APPLIED_SCIENCES",
+      "university_name": "FH Münster University of Applied Sciences"
+    },
+    {
+      "university_id": "FLENSBURG_UNIVERSITY_OF_APPLIED_SCIENCES",
+      "university_name": "FLENSBURG UNIVERSITY OF APPLIED SCIENCES"
+    },
+    {
+      "university_id": "FRANKFURT_SCHOOL_OF_FINANCE_MANAGEMENT_GEMEINNUETZIGE_GMBH",
+      "university_name": "FRANKFURT SCHOOL OF FINANCE & MANAGEMENT GEMEINNUTZIGE GMBH"
+    },
+    {
+      "university_id": "FRANKFURT_UNIVERSITY_OF_APPLIED_SCIENCES",
+      "university_name": "FRANKFURT UNIVERSITY OF APPLIED SCIENCES"
+    },
+    {
+      "university_id": "FREMDSPRACHENINSTITUT_LHM_FACHAKADEMIE_FUER_UEBERSETZEN_UND_",
+      "university_name": "Fremdspracheninstitut LHM - Fachakademie für Übersetzen und Dolmetschen"
+    },
+    {
+      "university_id": "GERMAN_UNIVERSITY_OF_ADMINISTRATIVE_SCIENCES",
+      "university_name": "GERMAN UNIVERSITY OF ADMINISTRATIVE SCIENCES"
+    },
+    {
+      "university_id": "GESELLSCHAFT_FUER_PRAXISBEZOGENE_FORSCHUNG_UND_WISSENSCHAFTL",
+      "university_name": "GESELLSCHAFT FÜR PRAXISBEZOGENE FORSCHUNG UND WISSENSCHAFTLICHE LEHRE GGMBH"
+    },
+    {
+      "university_id": "HAM",
+      "university_name": "HAM"
+    },
+    {
+      "university_id": "HAMBURG_MEDIA_SCHOOL_GMBH",
+      "university_name": "Hamburg Media School GmbH"
+    },
+    {
+      "university_id": "HAMBURG_SCHOOL_OF_BUSINESS_ADMINISTRATION_GGMBH",
+      "university_name": "HAMBURG SCHOOL OF BUSINESS ADMINISTRATION GGMBH"
+    },
+    {
+      "university_id": "HAW_HAMBURG",
+      "university_name": "HOCHSCHULE FUR ANGEWANDTE WISSENSCHAFTEN HAMBURG"
+    },
+    {
+      "university_id": "HBKSAAR",
+      "university_name": "HBKsaar"
+    },
+    {
+      "university_id": "HERTIE_SCHOOL_OF_GOVERNANCE_GGMBH",
+      "university_name": "HERTIE SCHOOL OF GOVERNANCE GEMMEINNUTZIGE GMBH"
+    },
+    {
+      "university_id": "HFG",
+      "university_name": "HFG"
+    },
+    {
+      "university_id": "HFOV",
+      "university_name": "HFOV"
+    },
+    {
+      "university_id": "HFR",
+      "university_name": "HFR"
+    },
+    {
+      "university_id": "HFS",
+      "university_name": "HfS"
+    },
+    {
+      "university_id": "HOCHSCHULE_FUER_TECHNIK_UND_WIRTSCHAFT_BERLIN",
+      "university_name": "Hochschule für Technik und Wirtschaft Berlin"
+    },
+    {
+      "university_id": "HRW_UNIVERSITYOF_APPLIED_SCIENCES",
+      "university_name": "HRW UNIVERSITYOF APPLIED SCIENCES"
+    },
+    {
+      "university_id": "HSF",
+      "university_name": "HSF"
+    },
+    {
+      "university_id": "HSNB",
+      "university_name": "HSNB"
+    },
+    {
+      "university_id": "HSW",
+      "university_name": "HSW"
+    },
+    {
+      "university_id": "HS_FUER_MUSIK_UND_DARSTELLENDE_KUNST_FFM",
+      "university_name": "HS für Musik und Darstellende Kunst FFM"
+    },
+    {
+      "university_id": "HTW_SAAR_UNIVERSITY_OF_APPLIED_SCIENCES",
+      "university_name": "HTW SAAR - UNIVERSITY OF APPLIED SCIENCES"
+    },
+    {
+      "university_id": "IES_MAESTRE_DE_CALATRAVA",
+      "university_name": "IES Maestre de Calatrava"
+    },
+    {
+      "university_id": "IFA",
+      "university_name": "IFA"
+    },
+    {
+      "university_id": "INSTITUT_FUER_FREMDSPRACHEN_BERUFE_GMBH_FACHAKADEMIE_FUER_SP",
+      "university_name": "Institut fuer Fremdsprachen-Berufe GmbH - Fachakademie fuer Sprachen und internationale Kommunikation"
+    },
+    {
+      "university_id": "INSTITUT_FUER_FREMDSPRACHEN_UND_AUSLANDSKUNDE_BEI_DER_UNIVER",
+      "university_name": "Institut für Fremdsprachen und Auslandskunde bei der Universität Erlangen-Nürnberg"
+    },
+    {
+      "university_id": "INTERNATIONAL_PSYCHOANALYTIC_UNIVERSITY_BERLIN_GGMBH",
+      "university_name": "International Psychoanalytic University Berlin gGmbH"
+    },
+    {
+      "university_id": "ISM_INTERNATIONAL_SCHOOL_OF_MANAGEMENT_GMBH_GEMEINNUETZIGE_G",
+      "university_name": "ISM International School of Management GmbH - Gemeinnuetzige Gesellschaft"
+    },
+    {
+      "university_id": "JACOBS_UNIVERSITY_BREMEN_GGMBH",
+      "university_name": "JACOBS UNIVERSITY BREMEN GGMBH"
+    },
+    {
+      "university_id": "JULIUS_MAXIMILIANS_UNIVERSITAT_WUERZBURG",
+      "university_name": "JULIUS-MAXIMILIANS-UNIVERSITAT WURZBURG"
+    },
+    {
+      "university_id": "KARELIA_UAS_KARELIA_UNIVERSITY_OF_APPLIED_SCIENCES",
+      "university_name": "KARELIA UAS KARELIA UNIVERSITY OF APPLIED SCIENCES"
+    },
+    {
+      "university_id": "KARLSHOCHSCHULE",
+      "university_name": "Karlshochschule"
+    },
+    {
+      "university_id": "KUHNE_LOGISTICS_UNIVERSITY_GGMBH",
+      "university_name": "KUHNE LOGISTICS UNIVERSITY GGMBH"
+    },
+    {
+      "university_id": "LA_INMACULADA_PADRES_ESCOLAPIOS",
+      "university_name": "La Inmaculada- Padres Escolapios"
+    },
+    {
+      "university_id": "LYIT",
+      "university_name": "LYIT"
+    },
+    {
+      "university_id": "MAINZ_UNIVERSITY_OF_APPLIED_SCIENCES",
+      "university_name": "MAINZ UNIVERSITY OF APPLIED SCIENCES"
+    },
+    {
+      "university_id": "MSB_MEDICAL_SCHOOL_BERLIN",
+      "university_name": "MSB Medical School Berlin GmbH"
+    },
+    {
+      "university_id": "MSH_MEDICAL_SCHOOL_HAMBURG_GMBH",
+      "university_name": "MSH Medical School Hamburg GmbH"
+    },
+    {
+      "university_id": "MUNICH_BUSINESS_SCHOOL_GMBH",
+      "university_name": "Munich Business School GmbH"
+    },
+    {
+      "university_id": "MUTHESIUS_UNIVERSITY_OF_FINE_ARTS_AND_DESIGN",
+      "university_name": "MUTHESIUS UNIVERSITY OF FINE ARTS AND DESIGN"
+    },
+    {
+      "university_id": "MU_MEDIA_UNIVERSITY_OF_APPLIED_SCIENCES_GMBH",
+      "university_name": "MU - Media University of Applied Sciences GmbH"
+    },
+    {
+      "university_id": "NBS_NORTHERN_BUSINESS_SCHOOL_UNIVERSITY_OF_APPLIED_SCIENCES",
+      "university_name": "NBS Northern Business School University of Applied Sciences"
+    },
+    {
+      "university_id": "NORDAKADEMIE",
+      "university_name": "Nordakademie"
+    },
+    {
+      "university_id": "NORTHERN_BUSINESS_SCHOOL_GGMBH",
+      "university_name": "Northern Business School gGmbH"
+    },
+    {
+      "university_id": "OSNABRUECK_UNIVERSITY_OF_APPLIED_SCIENCES",
+      "university_name": "Osnabrück University of Applied Sciences"
+    },
+    {
+      "university_id": "OSTBAYERISCHE_TECHNISCHE_HOCHSCHULEAMBERG_WEIDEN",
+      "university_name": "OSTBAYERISCHE TECHNISCHE HOCHSCHULEAMBERG-WEIDEN"
+    },
+    {
+      "university_id": "OSTFALIA_UNIVERSITY_OF_APPLIED_SCIENCES",
+      "university_name": "OSTFALIA UNIVERSITY OF APPLIED SCIENCES"
+    },
+    {
+      "university_id": "PHSG",
+      "university_name": "PHSG"
+    },
+    {
+      "university_id": "POPAKADEMIE_BADEN_WUERTTEMBERG_GMBH",
+      "university_name": "Popakademie Baden-Württemberg GmbH"
+    },
+    {
+      "university_id": "RHEINISCHE_FRIEDRICH_WILHELMS_UNIVERSITAT_BONN",
+      "university_name": "RHEINISCHE FRIEDRICH-WILHELMS-UNIVERSITAT BONN"
+    },
+    {
+      "university_id": "RH_KOELN_UNIVERSITY_OF_APPLIED_SCIENCES",
+      "university_name": "RH Köln - University of applied sciences"
+    },
+    {
+      "university_id": "SPRACHEN_UND_DOLMETSCHER_INSTITUTMUENCHEN_EV",
+      "university_name": "SPRACHEN- UND DOLMETSCHER-INSTITUTMUNCHEN EV"
+    },
+    {
+      "university_id": "SRH_HOCHSCHULEN_BERLIN_GMBH",
+      "university_name": "SRH HOCHSCHULEN BERLIN GMBH"
+    },
+    {
+      "university_id": "SRH_UNIVERSITY_OF_APPLIED_SCIENCES_HEIDELBERG",
+      "university_name": "SRH University of Applied Sciences Heidelberg"
+    },
+    {
+      "university_id": "STAATLICHE_AKADEMIE_DER_BILDENDEN_KUENSTE_KARLSRUHE",
+      "university_name": "Staatliche Akademie der Bildenden Künste Karlsruhe"
+    },
+    {
+      "university_id": "STAATLICHE_AKADEMIE_DER_BILDENDEN_KUENSTE_STUTTGART",
+      "university_name": "Staatliche Akademie der Bildenden Künste Stuttgart"
+    },
+    {
+      "university_id": "STAATLICHE_STUDIENAKADEMIE_DRESDEN_BERUFSAKADEMIE_SACHSEN",
+      "university_name": "Staatliche Studienakademie Dresden, Berufsakademie Sachsen"
+    },
+    {
+      "university_id": "STAEDELSCHULE",
+      "university_name": "Staedelschule"
+    },
+    {
+      "university_id": "TECHNICAL_UNIVERSITY_OF_APPLIED_SCIENCES_MANNHEIM",
+      "university_name": "Technical University of Applied Sciences Mannheim"
+    },
+    {
+      "university_id": "TRIER_UNIVERSITY_OF_APPLIED_SCIENCES_IFAS",
+      "university_name": "TRIER UNIVERSITY OF APPLIED SCIENCES IFAS"
+    },
+    {
+      "university_id": "TSNUK",
+      "university_name": "TSNUK"
+    },
+    {
+      "university_id": "TUL",
+      "university_name": "TUL"
+    },
+    {
+      "university_id": "UB",
+      "university_name": "UB"
+    },
+    {
+      "university_id": "UNITS",
+      "university_name": "UNITS"
+    },
+    {
+      "university_id": "UNIVERSITY_OF_APPLIED_MANAGEMENT_STUDIES",
+      "university_name": "UNIVERSITY OF APPLIED MANAGEMENT STUDIES"
+    },
+    {
+      "university_id": "UNIVERSITY_OF_APPLIED_SCIENCES",
+      "university_name": "UNIVERSITY OF APPLIED SCIENCES"
+    },
+    {
+      "university_id": "UNIVERSITY_OF_APPLIED_SCIENCES_WUERZBURG_SCHWEINFURT",
+      "university_name": "University of Applied Sciences Wuerzburg-Schweinfurt"
+    },
+    {
+      "university_id": "UNIVERSITY_OF_EUROPE_FOR_APPLIED_SCIENCES",
+      "university_name": "University of Europe for Applied Sciences"
+    },
+    {
+      "university_id": "UNIVERSITY_OF_EUROPE_FOR_APPLIED_SCIENCES_GMBH",
+      "university_name": "University of Europe for Applied Sciences GmbH"
+    },
+    {
+      "university_id": "UNIVERSITY_OF_MUSIC_CARL_MARIA_VON_WEBER_DRESDEN",
+      "university_name": "University of Music Carl Maria von Weber Dresden"
+    },
+    {
+      "university_id": "UNIVERSITY_OF_MUSIC_DRESDEN",
+      "university_name": "University of Music Dresden"
+    },
+    {
+      "university_id": "UNIVERSITY_OF_THE_ARTS_BREMEN",
+      "university_name": "University of the Arts Bremen"
+    },
+    {
+      "university_id": "VICTORIA_INTERNATIONAL_UNIVERSITY_OF_APPLIED_SCIENCES",
+      "university_name": "VICTORIA | International University of Applied Sciences"
+    },
+    {
+      "university_id": "VSMU",
+      "university_name": "VSMU"
+    },
+    {
+      "university_id": "WHU_OTTO_BEISHEIM_SCHOOL_OF_MANAGEMENT",
+      "university_name": "WHU - Otto Beisheim School of Management"
+    },
+    {
+      "university_id": "WUT",
+      "university_name": "WUT"
+    }
+  ]
+}

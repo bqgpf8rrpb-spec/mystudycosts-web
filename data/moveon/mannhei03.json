@@ -1,0 +1,340 @@
+{
+  "university_id": "MANNHEI03",
+  "university_name": "Mobility-Online Portal",
+  "portal_url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=MANNHEI03&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+  "portal_type": "mobility_online",
+  "scraped_at": "2026-03-15T21:01:39.833Z",
+  "strategy": "html_table",
+  "partner_count": 47,
+  "partners": [
+    {
+      "partner_name": "Algebra University College",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1628952"
+    },
+    {
+      "partner_name": "École supérieure d'art et de design Toulon Provence Méditerranée",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "2236237"
+    },
+    {
+      "partner_name": "Ecole Supérieure d'Arts et Médias de Caen/Cherbourg",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1628939"
+    },
+    {
+      "partner_name": "Ecole Superieure d'Arts et Métiers Paristech",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1628935"
+    },
+    {
+      "partner_name": "Ecole Supérieure d'Ingénieurs en Génie Electrique (ESIGELEC)",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1628940"
+    },
+    {
+      "partner_name": "Escola Municipal d'Art I Disseny Terrassa",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1984352"
+    },
+    {
+      "partner_name": "FH Campus Wien",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1628960"
+    },
+    {
+      "partner_name": "Gdańsk University of Technology",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1629007"
+    },
+    {
+      "partner_name": "Häme University of Applied Sciences (HAMK)",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "2104613"
+    },
+    {
+      "partner_name": "HAN University of Applied Sciences",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1628955"
+    },
+    {
+      "partner_name": "Hanze University of Applied Sciences Groningen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1628954"
+    },
+    {
+      "partner_name": "Institut Limayrac",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1628941"
+    },
+    {
+      "partner_name": "Instituto Politecnico do Porto",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1628968"
+    },
+    {
+      "partner_name": "Istanbul Technical University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1628986"
+    },
+    {
+      "partner_name": "Jan Dlugosz University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1628963"
+    },
+    {
+      "partner_name": "Jönköping University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1628970"
+    },
+    {
+      "partner_name": "Kajaani University of Applied Sciences",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1628934"
+    },
+    {
+      "partner_name": "Kocaeli Üniversitesi",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1628987"
+    },
+    {
+      "partner_name": "Marmara University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1628988"
+    },
+    {
+      "partner_name": "Obuda University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1628992"
+    },
+    {
+      "partner_name": "Opole University of Technology",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1628965"
+    },
+    {
+      "partner_name": "Pamukkale University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1628989"
+    },
+    {
+      "partner_name": "Slovak University of Technology in Bratislava",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1628974"
+    },
+    {
+      "partner_name": "Stockholm University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1628971"
+    },
+    {
+      "partner_name": "Technische Universität Wien",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1628961"
+    },
+    {
+      "partner_name": "Thomas More University of Applied Sciences",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1628922"
+    },
+    {
+      "partner_name": "Tomas Bata University in Zlín",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1628984"
+    },
+    {
+      "partner_name": "Türkisch-Deutsche Universität",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1628990"
+    },
+    {
+      "partner_name": "Universidad Complutense de Madrid",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1628978"
+    },
+    {
+      "partner_name": "Universidad de Oviedo",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1628975"
+    },
+    {
+      "partner_name": "Universidad de Sevilla",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1628979"
+    },
+    {
+      "partner_name": "Universidad Europea Miguel de Cervantes",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1628981"
+    },
+    {
+      "partner_name": "Universidad Politécnica de Madrid, Escuela Técnica Superior de Ingeniería y Sistemas de Telecomunicación (ETSIST)",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1628976"
+    },
+    {
+      "partner_name": "Universidad Politécnica de Madrid, Escuela Técnica Superior de Ingenieros de Telecomunicación (ETSIT)",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1628977"
+    },
+    {
+      "partner_name": "Universidad Politécnica de Valencia",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1628980"
+    },
+    {
+      "partner_name": "Université de Lorraine, Ecole Nationale Supérieure des Industries Chimiques (ENSIC)",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1628936"
+    },
+    {
+      "partner_name": "Université de Lorraine, Ecole Nationale Supérieure en Génie des Systèmes et de l'Innovation (ENSGSI)",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1628938"
+    },
+    {
+      "partner_name": "University of Bologna",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1628946"
+    },
+    {
+      "partner_name": "University of Gdansk, Intercollegiate Faculty of Biotechnology",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1628966"
+    },
+    {
+      "partner_name": "University of Leeds",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1628942"
+    },
+    {
+      "partner_name": "University of Limerick",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1628945"
+    },
+    {
+      "partner_name": "University of South-Eastern Norway",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1628958"
+    },
+    {
+      "partner_name": "University of Szeged",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1628993"
+    },
+    {
+      "partner_name": "University of Wroclaw",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1628967"
+    },
+    {
+      "partner_name": "VIA University College",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1628932"
+    },
+    {
+      "partner_name": "Western Norway University of Applied Sciences (HVL)",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1628959"
+    },
+    {
+      "partner_name": "Yildiz Technical University",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null,
+      "moveon_id": "1628991"
+    }
+  ]
+}

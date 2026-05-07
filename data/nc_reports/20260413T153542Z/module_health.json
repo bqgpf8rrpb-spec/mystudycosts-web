@@ -1,0 +1,22 @@
+[
+  {
+    "university_id": "uni_bonn",
+    "status": "failed",
+    "records_extracted": 0,
+    "records_normalized": 0,
+    "duration_ms": 586,
+    "error": "uni_bonn: fetch failed (403 Client Error: 403 for url: https://basis.uni-bonn.de/qisserver/pages/zul/applicant/searchCourseOfStudies.xhtml?_flowId=searchCourseOfStudiesAPP-flow&navigationPosition=studiesOffered,searchCourseOfStudyAPP&recordRequest=true)",
+    "retries": 1,
+    "used_fallback_cache": false
+  },
+  {
+    "university_id": "lmu_muenchen",
+    "status": "success",
+    "records_extracted": 383,
+    "records_normalized": 0,
+    "duration_ms": 46559,
+    "error": null,
+    "retries": 0,
+    "used_fallback_cache": false
+  }
+]

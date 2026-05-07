@@ -1,0 +1,274 @@
+[
+  {
+    "relation_id": "2049",
+    "core_id": "744",
+    "country_id": "63",
+    "country": "EG",
+    "country_fullname": "Ägypten",
+    "logo": "",
+    "latitude": "30.0571",
+    "longitude": "31.2272",
+    "universityname": "American University in Cairo",
+    "flagname": "Ägypten - American University in Cairo",
+    "informatics": [
+      {
+        "relations": [
+          {
+            "shortname": "Austauschprogramm / exchange program",
+            "fullname": "Direktaustausch Studium"
+          },
+          {
+            "shortname": "Anzahl Austauschplätze (akademisches Jahr)",
+            "fullname": "8 ( 2026/27 )"
+          },
+          {
+            "shortname": "Dauer Plätze insgesamt (akademisches Jahr)",
+            "fullname": "-"
+          },
+          {
+            "shortname": "Studienniveau / level of studies",
+            "fullname": "Undergraduate / Bachelor|| Postgraduate / Master|| Doctorate / Promotion"
+          },
+          {
+            "shortname": "ISCED - subject area",
+            "fullname": "-"
+          },
+          {
+            "shortname": "Name der Austauschmöglichkeit",
+            "fullname": "DA_Studierende - American University in Cairo"
+          },
+          {
+            "shortname": "Erneuerung",
+            "fullname": "Zu erneuern"
+          }
+        ],
+        "institutions": [
+          {
+            "shortname": "City",
+            "fullname": "Cairo"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "relation_id": "12815",
+    "core_id": "713",
+    "country_id": "10",
+    "country": "AR",
+    "country_fullname": "Argentinien",
+    "logo": "",
+    "latitude": "-34.5999",
+    "longitude": "-58.3731",
+    "universityname": "Universidad de Buenos Aires",
+    "flagname": "Argentinien - Universidad de Buenos Aires",
+    "informatics": [
+      {
+        "relations": [
+          {
+            "shortname": "Austauschprogramm / exchange program",
+            "fullname": "Direktaustausch Studium"
+          },
+          {
+            "shortname": "Fachrichtung - Institut / subject area - Institute",
+            "fullname": "Geowissenschaften|| Geschichte - Friedrich-Meinecke-Institut|| Institut für Dt. und Niederl. Phil. - Deutsche Philologie|| Institut für Dt. und Niederl. Phil. - Niederländische Philologie|| Institut für Englische Philologie|| Institut für Griechische und Lateinische Philologie|| Institut für Philosophie|| Institut für Sozial- und Kulturanthropologie|| JFKI für Nordamerikastudien|| Lateinamerika-Institut|| Peter-Szondi-Institut für Allgemeine und Vergleichende Literaturwissenschaft|| WB Erziehungswissenschaft, Grundschulpädagogik, Sonderpädagogik"
+          },
+          {
+            "shortname": "Anzahl Austauschplätze (akademisches Jahr)",
+            "fullname": "4 ( 2026/27 )"
+          },
+          {
+            "shortname": "Dauer Plätze insgesamt (akademisches Jahr)",
+            "fullname": "-"
+          },
+          {
+            "shortname": "Studienniveau / level of studies",
+            "fullname": "Undergraduate / Bachelor|| Postgraduate / Master"
+          },
+          {
+            "shortname": "ISCED - subject area",
+            "fullname": "-"
+          },
+          {
+            "shortname": "Name der Austauschmöglichkeit",
+            "fullname": "DA_Studierende - Universidad de Buenos Aires"
+          }
+        ],
+        "institutions": [
+          {
+            "shortname": "City",
+            "fullname": "Buenos Aires"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "relation_id": "1901",
+    "core_id": "617",
+    "country_id": "13",
+    "country": "AU",
+    "country_fullname": "Australien",
+    "logo": "",
+    "latitude": "-35.27637",
+    "longitude": "149.120489",
+    "universityname": "Australian National University",
+    "flagname": "Australien - Australian National University",
+    "informatics": [
+      {
+        "relations": [
+          {
+            "shortname": "Austauschprogramm / exchange program",
+            "fullname": "Direktaustausch Studium"
+          },
+          {
+            "shortname": "Fachrichtung - Institut / subject area - Institute",
+            "fullname": "*Direktaustausch: alle Fächer außer Pharmazie, Veterinärmedizin, Charité"
+          },
+          {
+            "shortname": "Anzahl Austauschplätze (akademisches Jahr)",
+            "fullname": "4 ( 2026/27 )"
+          },
+          {
+            "shortname": "Dauer Plätze insgesamt (akademisches Jahr)",
+            "fullname": "-"
+          },
+          {
+            "shortname": "Studienniveau / level of studies",
+            "fullname": "Undergraduate / Bachelor|| Postgraduate / Master"
+          },
+          {
+            "shortname": "ISCED - subject area",
+            "fullname": "-"
+          },
+          {
+            "shortname": "Name der Austauschmöglichkeit",
+            "fullname": "DA_Studierende - Australian National University"
+          },
+          {
+            "shortname": "Erneuerung",
+            "fullname": "Zu erneuern"
+          }
+        ],
+        "institutions": [
+          {
+            "shortname": "City",
+            "fullname": "Canberra"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "relation_id": "1861",
+    "core_id": "620",
+    "country_id": "13",
+    "country": "AU",
+    "country_fullname": "Australien",
+    "logo": "",
+    "latitude": "-33.917547",
+    "longitude": "151.231055",
+    "universityname": "University of New South Wales",
+    "flagname": "Australien - University of New South Wales",
+    "informatics": [
+      {
+        "relations": [
+          {
+            "shortname": "Austauschprogramm / exchange program",
+            "fullname": "Direktaustausch Studium"
+          },
+          {
+            "shortname": "Fachrichtung - Institut / subject area - Institute",
+            "fullname": "*Direktaustausch: alle Fächer außer Pharmazie, Veterinärmedizin, Charité"
+          },
+          {
+            "shortname": "Anzahl Austauschplätze (akademisches Jahr)",
+            "fullname": "6 ( 2026/27 )"
+          },
+          {
+            "shortname": "Dauer Plätze insgesamt (akademisches Jahr)",
+            "fullname": "-"
+          },
+          {
+            "shortname": "Studienniveau / level of studies",
+            "fullname": "Undergraduate / Bachelor|| Postgraduate / Master"
+          },
+          {
+            "shortname": "ISCED - subject area",
+            "fullname": "-"
+          },
+          {
+            "shortname": "Name der Austauschmöglichkeit",
+            "fullname": "DA_Studierende - University of New South Wales"
+          },
+          {
+            "shortname": "Erneuerung",
+            "fullname": "Automatische Erneuerung"
+          }
+        ],
+        "institutions": [
+          {
+            "shortname": "City",
+            "fullname": "Sydney"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "relation_id": "1870",
+    "core_id": "621",
+    "country_id": "13",
+    "country": "AU",
+    "country_fullname": "Australien",
+    "logo": "",
+    "latitude": "-33.887926",
+    "longitude": "151.186923",
+    "universityname": "University of Sydney",
+    "flagname": "Australien - University of Sydney",
+    "informatics": [
+      {
+        "relations": [
+          {
+            "shortname": "Austauschprogramm / exchange program",
+            "fullname": "Direktaustausch Studium"
+          },
+          {
+            "shortname": "Fachrichtung - Institut / subject area - Institute",
+            "fullname": "*Direktaustausch: alle Fächer außer Pharmazie, Veterinärmedizin, Charité"
+          },
+          {
+            "shortname": "Anzahl Austauschplätze (akademisches Jahr)",
+            "fullname": "14 ( 2026/27 )"
+          },
+          {
+            "shortname": "Dauer Plätze insgesamt (akademisches Jahr)",
+            "fullname": "-"
+          },
+          {
+            "shortname": "Studienniveau / level of studies",
+            "fullname": "Undergraduate / Bachelor|| Postgraduate / Master"
+          },
+          {
+            "shortname": "ISCED - subject area",
+            "fullname": "-"
+          },
+          {
+            "shortname": "Name der Austauschmöglichkeit",
+            "fullname": "DA_Studierende - University of Sydney"
+          },
+          {
+            "shortname": "Erneuerung",
+            "fullname": "Zu erneuern"
+          }
+        ],
+        "institutions": [
+          {
+            "shortname": "City",
+            "fullname": "Sydney"
+          }
+        ]
+      }
+    ]
+  }
+]

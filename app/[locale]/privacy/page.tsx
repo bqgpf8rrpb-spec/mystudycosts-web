@@ -1,9 +1,42 @@
 import { getTranslations } from 'next-intl/server';
 import { Lock, Shield, FileText, Cookie, AlertCircle, Mail, MapPin, Phone } from 'lucide-react';
 import ProtectedEmail from '@/components/ProtectedEmail';
+import type { Metadata } from 'next';
+import { AFFILIATE_POLICY_SECTION_ENABLED } from '@/lib/feature-flags';
 
-export default async function PrivacyPage() {
-  const t = await getTranslations('Privacy');
+import { getBaseUrl } from '@/lib/site-config';
+
+const baseUrl = getBaseUrl();
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'Privacy' });
+
+  return {
+    title: t('title'),
+    description: t('introductionText'),
+    alternates: {
+      canonical: `${baseUrl}/${locale}/privacy`,
+    },
+  };
+}
+
+export default async function PrivacyPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'Privacy' });
+  const formattedDate = new Date().toLocaleDateString(locale === 'de' ? 'de-DE' : 'en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  });
 
   return (
     <main className="min-h-screen bg-slate-900 py-12 px-4 sm:px-6 lg:px-8">
@@ -19,7 +52,7 @@ export default async function PrivacyPage() {
             {t('title')}
           </h1>
           <p className="text-white/70 text-lg">
-            {t('lastUpdated')}: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+            {t('lastUpdated')}: {formattedDate}
           </p>
         </div>
 
@@ -46,18 +79,24 @@ export default async function PrivacyPage() {
             <div className="text-white/80 space-y-3">
               <p>{t('responsibleText')}</p>
               <div className="bg-slate-900/50 rounded-lg p-4 space-y-2">
-                <p className="font-semibold text-white">Maurice Sill</p>
+                <p className="font-semibold text-white">{t('placeholderFullName')}</p>
                 <div className="flex items-start gap-2">
                   <MapPin className="w-4 h-4 text-blue-400 flex-shrink-0 mt-0.5" />
                   <div>
-                    <p>Altenbekener Damm 10</p>
-                    <p>30173 Hannover</p>
-                    <p>Germany</p>
+                    <p>{t('placeholderStreet')}</p>
+                    <p>{t('placeholderCityZip')}</p>
+                    <p>{t('placeholderCountry')}</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-2">
                   <Mail className="w-4 h-4 text-blue-400" />
-                  <ProtectedEmail email="contact.mystudycosts@gmail.com" />
+                  <ProtectedEmail email={t('placeholderEmail')} />
+                </div>
+                <div className="flex items-center gap-2">
+                  <Phone className="w-4 h-4 text-blue-400" />
+                  <a href={`tel:${t('placeholderPhoneDial')}`} className="text-blue-400 hover:text-blue-300 transition-colors">
+                    {t('placeholderPhone')}
+                  </a>
                 </div>
               </div>
             </div>
@@ -130,6 +169,24 @@ export default async function PrivacyPage() {
             </div>
           </section>
 
+          {/* Affiliate Link Tracking */}
+          {AFFILIATE_POLICY_SECTION_ENABLED && (
+            <section>
+              <div className="flex items-center gap-3 mb-4">
+                <FileText className="w-6 h-6 text-blue-400" />
+                <h2 className="text-2xl font-bold text-white">
+                  {t('affiliateTrackingTitle')}
+                </h2>
+              </div>
+              <div className="text-white/70 space-y-3">
+                <p className="leading-relaxed">{t('affiliateTrackingText')}</p>
+                <p className="leading-relaxed">{t('affiliateTrackingData')}</p>
+                <p className="leading-relaxed">{t('affiliateTrackingPurpose')}</p>
+                <p className="leading-relaxed">{t('affiliateTrackingBasis')}</p>
+              </div>
+            </section>
+          )}
+
           {/* Cookies */}
           <section>
             <div className="flex items-center gap-3 mb-4">
@@ -186,17 +243,23 @@ export default async function PrivacyPage() {
             <div className="text-white/70 space-y-3">
               <p>{t('contactText')}</p>
               <div className="bg-slate-900/50 rounded-lg p-4 space-y-2">
-                <p className="font-semibold text-white">Maurice Sill</p>
+                <p className="font-semibold text-white">{t('placeholderFullName')}</p>
                 <div className="flex items-start gap-2">
                   <MapPin className="w-4 h-4 text-blue-400 flex-shrink-0 mt-0.5" />
                   <div>
-                    <p>Altenbekener Damm 10</p>
-                    <p>30173 Hannover, Germany</p>
+                    <p>{t('placeholderStreet')}</p>
+                    <p>{t('placeholderCityZipCountry')}</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-2">
                   <Mail className="w-4 h-4 text-blue-400" />
-                  <ProtectedEmail email="contact.mystudycosts@gmail.com" />
+                  <ProtectedEmail email={t('placeholderEmail')} />
+                </div>
+                <div className="flex items-center gap-2">
+                  <Phone className="w-4 h-4 text-blue-400" />
+                  <a href={`tel:${t('placeholderPhoneDial')}`} className="text-blue-400 hover:text-blue-300 transition-colors">
+                    {t('placeholderPhone')}
+                  </a>
                 </div>
               </div>
             </div>

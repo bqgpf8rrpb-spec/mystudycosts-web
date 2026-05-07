@@ -1,0 +1,322 @@
+{
+  "timestamp": "2026-03-15T21:38:31.839Z",
+  "totalUniversities": 533,
+  "totalPartners": 75269,
+  "studyPartners": 49264,
+  "traineeshipPartners": 26005,
+  "confidence": {
+    "verified_active": 12592,
+    "moveon_only": 109,
+    "likely_active": 18691,
+    "possibly_active": 11353,
+    "historical": 6922,
+    "traineeship": 25602
+  },
+  "unisWithPortal": 75,
+  "portalCoverage": "14.1",
+  "verifiedRate": "25.8",
+  "likelyActiveRate": "37.9",
+  "highConfidenceRate": "63.7",
+  "top50": [
+    {
+      "id": "WESTFAELISCHE_WILHELMS_UNIVERSITAET_MUENSTER",
+      "name": "WESTFAELISCHE WILHELMS-UNIVERSITAET MUENSTER",
+      "partners": 1818,
+      "study": 1152
+    },
+    {
+      "id": "TECHNISCHE_UNIVERSITAET_MUENCHEN",
+      "name": "TECHNISCHE UNIVERSITAET MUENCHEN",
+      "partners": 1887,
+      "study": 1108
+    },
+    {
+      "id": "UNIVERSITAET_LEIPZIG",
+      "name": "UNIVERSITAET LEIPZIG",
+      "partners": 1482,
+      "study": 934
+    },
+    {
+      "id": "LUDWIG_MAXIMILIANS_UNIVERSITAET_MUENCHEN",
+      "name": "LUDWIG-MAXIMILIANS-UNIVERSITAET MUENCHEN",
+      "partners": 1343,
+      "study": 894
+    },
+    {
+      "id": "UNIVERSITAET_ZU_KOELN",
+      "name": "UNIVERSITAET ZU KOELN",
+      "partners": 1250,
+      "study": 839
+    },
+    {
+      "id": "JOHANNES_GUTENBERG_UNIVERSITAET_MAINZ",
+      "name": "JOHANNES GUTENBERG-UNIVERSITAT MAINZ",
+      "partners": 995,
+      "study": 828
+    },
+    {
+      "id": "RHEINISCH_WESTFAELISCHE_TECHNISCHE_HOCHSCHULE_AACHEN",
+      "name": "RHEINISCH-WESTFAELISCHE TECHNISCHE HOCHSCHULE AACHEN",
+      "partners": 1339,
+      "study": 824
+    },
+    {
+      "id": "ALBERT_LUDWIGS_UNIVERSITAET_FREIBURG",
+      "name": "ALBERT-LUDWIGS-UNIVERSITAET FREIBURG",
+      "partners": 1268,
+      "study": 797
+    },
+    {
+      "id": "EBERHARD_KARLS_UNIVERSITAET_TUEBINGEN",
+      "name": "EBERHARD KARLS UNIVERSITAET TUEBINGEN",
+      "partners": 1164,
+      "study": 791
+    },
+    {
+      "id": "FREIE_UNIVERSITAET_BERLIN",
+      "name": "FREIE UNIVERSITAET BERLIN",
+      "partners": 1140,
+      "study": 786
+    },
+    {
+      "id": "UNIVERSITAET_BREMEN",
+      "name": "UNIVERSITAET BREMEN",
+      "partners": 1102,
+      "study": 768
+    },
+    {
+      "id": "CHRISTIAN_ALBRECHTS_UNIVERSITAET_ZU_KIEL",
+      "name": "CHRISTIAN-ALBRECHTS-UNIVERSITAET  ZU KIEL",
+      "partners": 884,
+      "study": 743
+    },
+    {
+      "id": "UNIVERSITAET_GOETTINGEN",
+      "name": "UNIVERSITAET GOETTINGEN",
+      "partners": 880,
+      "study": 719
+    },
+    {
+      "id": "RUPRECHT_KARLS_UNIVERSITAET_HEIDELBERG",
+      "name": "RUPRECHT-KARLS-UNIVERSITAET HEIDELBERG",
+      "partners": 1296,
+      "study": 707
+    },
+    {
+      "id": "RUHR_UNIVERSITAET_BOCHUM",
+      "name": "RUHR-UNIVERSITAET BOCHUM",
+      "partners": 989,
+      "study": 658
+    },
+    {
+      "id": "GOTTFRIED_WILHELM_LEIBNIZ_UNIVERSITAET_HANNOVER",
+      "name": "GOTTFRIED WILHELM LEIBNIZ UNIVERSITAET HANNOVER",
+      "partners": 779,
+      "study": 651
+    },
+    {
+      "id": "JOHANN_WOLFGANG_GOETHE_UNIVERSITAET_FRANKFURT_AM_MAIN",
+      "name": "JOHANN WOLFGANG GOETHE-UNIVERSITAET FRANKFURT AM MAIN",
+      "partners": 797,
+      "study": 635
+    },
+    {
+      "id": "TECHNISCHE_UNIVERSITAET_DRESDEN",
+      "name": "TECHNISCHE UNIVERSITAET DRESDEN",
+      "partners": 1166,
+      "study": 634
+    },
+    {
+      "id": "FRIEDRICH_ALEXANDER_UNIVERSITAET_ERLANGEN_NUERNBERG",
+      "name": "FRIEDRICH-ALEXANDER-UNIVERSITAET ERLANGEN NUERNBERG",
+      "partners": 1000,
+      "study": 625
+    },
+    {
+      "id": "JUSTUS_LIEBIG_UNIVERSITAET_GIESSEN",
+      "name": "JUSTUS-LIEBIG-UNIVERSITAET GIESSEN",
+      "partners": 846,
+      "study": 616
+    },
+    {
+      "id": "PHILIPPS_UNIVERSITAET_MARBURG",
+      "name": "PHILIPPS UNIVERSITAET MARBURG",
+      "partners": 711,
+      "study": 590
+    },
+    {
+      "id": "UNIVERSITAET_DUISBURG_ESSEN",
+      "name": "UNIVERSITAET DUISBURG-ESSEN",
+      "partners": 867,
+      "study": 588
+    },
+    {
+      "id": "UNIVERSITAET_HAMBURG",
+      "name": "UNIVERSITAET HAMBURG",
+      "partners": 831,
+      "study": 575
+    },
+    {
+      "id": "FRIEDRICH_SCHILLER_UNIVERSITAET_JENA",
+      "name": "FRIEDRICH-SCHILLER-UNIVERSITAT JENA",
+      "partners": 783,
+      "study": 572
+    },
+    {
+      "id": "UNIVERSITAET_REGENSBURG",
+      "name": "UNIVERSITAET REGENSBURG",
+      "partners": 851,
+      "study": 568
+    },
+    {
+      "id": "JULIUS_MAXIMILIANS_UNIVERSITAET_WUERZBURG",
+      "name": "JULIUS-MAXIMILIANS-UNIVERSITAET WUERZBURG",
+      "partners": 663,
+      "study": 556
+    },
+    {
+      "id": "UNIVERSITAET_POTSDAM",
+      "name": "UNIVERSITAET POTSDAM",
+      "partners": 628,
+      "study": 533
+    },
+    {
+      "id": "MARTIN_LUTHER_UNIVERSITAET_HALLE_WITTENBERG",
+      "name": "MARTIN-LUTHER-UNIVERSITAET HALLE-WITTENBERG",
+      "partners": 628,
+      "study": 525
+    },
+    {
+      "id": "TECHNISCHE_UNIVERSITAT_DORTMUND",
+      "name": "TECHNISCHE UNIVERSITAT DORTMUND",
+      "partners": 584,
+      "study": 502
+    },
+    {
+      "id": "KARLSRUHER_INSTITUT_FUER_TECHNOLOGIE",
+      "name": "KARLSRUHER INSTITUT FUER TECHNOLOGIE",
+      "partners": 719,
+      "study": 489
+    },
+    {
+      "id": "UNIVERSITAET_MANNHEIM",
+      "name": "UNIVERSITAET MANNHEIM",
+      "partners": 598,
+      "study": 481
+    },
+    {
+      "id": "UNIVERSITAET_KONSTANZ",
+      "name": "UNIVERSITAT KONSTANZ",
+      "partners": 715,
+      "study": 461
+    },
+    {
+      "id": "BERGISCHE_UNIVERSITAET_WUPPERTAL",
+      "name": "BERGISCHE UNIVERSITAET  WUPPERTAL",
+      "partners": 715,
+      "study": 431
+    },
+    {
+      "id": "UNIVERSITAET_BERN",
+      "name": "UNIVERSITAET BERN",
+      "partners": 472,
+      "study": 429
+    },
+    {
+      "id": "UNIVERSITAET_STUTTGART",
+      "name": "UNIVERSITAET STUTTGART",
+      "partners": 671,
+      "study": 418
+    },
+    {
+      "id": "TECHNISCHE_UNIVERSITAET_BERLIN",
+      "name": "TECHNISCHE UNIVERSITAT BERLIN",
+      "partners": 525,
+      "study": 413
+    },
+    {
+      "id": "UNIVERSITAET_KASSEL",
+      "name": "UNIVERSITAET KASSEL",
+      "partners": 547,
+      "study": 408
+    },
+    {
+      "id": "RHEINISCHE_FRIEDRICH_WILHELMS_UNIVERSITAT_BONN",
+      "name": "RHEINISCHE FRIEDRICH-WILHELMS-UNIVERSITAT BONN",
+      "partners": 520,
+      "study": 395
+    },
+    {
+      "id": "HUMBOLDT_UNIVERSITAET_ZU_BERLIN",
+      "name": "HUMBOLDT-UNIVERSITAET ZU BERLIN",
+      "partners": 630,
+      "study": 373
+    },
+    {
+      "id": "OTTO_FRIEDRICH_UNIVERSITAET_BAMBERG",
+      "name": "OTTO-FRIEDRICH-UNIVERSITAET BAMBERG",
+      "partners": 459,
+      "study": 373
+    },
+    {
+      "id": "FRANKFURT_UNIVERSITY_OF_APPLIED_SCIENCES",
+      "name": "FRANKFURT UNIVERSITY OF APPLIED SCIENCES",
+      "partners": 408,
+      "study": 364
+    },
+    {
+      "id": "UNIVERSITAET_PASSAU",
+      "name": "UNIVERSITAT PASSAU",
+      "partners": 570,
+      "study": 352
+    },
+    {
+      "id": "HEINRICH_HEINE_UNIVERSITAET_DUESSELDORF",
+      "name": "HEINRICH-HEINE-UNIVERSITAET DUESSELDORF",
+      "partners": 464,
+      "study": 347
+    },
+    {
+      "id": "STIFTUNG_FACHHOCHSCHULE_OSNABRUECK",
+      "name": "STIFTUNG FACHHOCHSCHULE OSNABRUECK",
+      "partners": 392,
+      "study": 342
+    },
+    {
+      "id": "EUROPA_UNIVERSITAET_VIADRINA_FRANKFURT_ODER",
+      "name": "EUROPA-UNIVERSITAET VIADRINA FRANKFURT (ODER)",
+      "partners": 414,
+      "study": 330
+    },
+    {
+      "id": "UNIVERSITAET_OSNABRUECK",
+      "name": "UNIVERSITAET OSNABRUECK",
+      "partners": 478,
+      "study": 329
+    },
+    {
+      "id": "TECHNISCHE_UNIVERSITAET_CHEMNITZ",
+      "name": "TECHNISCHE UNIVERSITAET CHEMNITZ",
+      "partners": 423,
+      "study": 328
+    },
+    {
+      "id": "UNIVERSITAET_BIELEFELD",
+      "name": "UNIVERSITAET BIELEFELD",
+      "partners": 445,
+      "study": 320
+    },
+    {
+      "id": "TECHNISCHE_UNIVERSITAET_BRAUNSCHWEIG",
+      "name": "TECHNISCHE UNIVERSITAET BRAUNSCHWEIG",
+      "partners": 420,
+      "study": 319
+    },
+    {
+      "id": "UNIVERSITAT_DES_SAARLANDES",
+      "name": "UNIVERSITAT DES SAARLANDES",
+      "partners": 753,
+      "study": 317
+    }
+  ]
+}

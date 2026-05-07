@@ -1,5 +1,26 @@
 import Link from 'next/link';
 import { Calculator, Target, Shield, Globe, ArrowRight } from 'lucide-react';
+import type { Metadata } from 'next';
+
+import { getBaseUrl } from '@/lib/site-config';
+
+const baseUrl = getBaseUrl();
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+
+  return {
+    title: 'About MyStudyCosts',
+    description: 'Empowering international students to make informed decisions about studying in Germany.',
+    alternates: {
+      canonical: `${baseUrl}/${locale}/about`,
+    },
+  };
+}
 
 export default async function AboutPage({
   params

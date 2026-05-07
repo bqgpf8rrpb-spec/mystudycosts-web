@@ -1,0 +1,30 @@
+# Project Rules for mystudycosts.com (Bilingual MSC)
+
+## Core Tech
+- Framework: Next.js 15
+- Styling: Tailwind CSS with dark blue theme
+- State management: Zustand with persistence
+
+## Mandatory Bilingualism (i18n)
+- This project is strictly 100% bilingual: German (de) and English (en), implemented with `next-intl`.
+- Never add a user-facing string as a hardcoded literal.
+- Always update both `messages/de.json` and `messages/en.json` simultaneously when adding or changing UI elements.
+- Ensure components support dynamic locale switching, including:
+  - localized date/time formats
+  - NC labels and terminology (e.g. "Zulassungsfrei" vs "Open Admission")
+
+## UI Logic
+- On NC-related pages/components, always include `NCDataDisclaimer` and provide the required `lastUpdated` prop.
+- For any external or private university link/mention, use the `<AffiliateLabel />` component.
+
+## Data Integrity
+- When modifying NC data logic, follow and preserve the structure used by `scripts/update-nc-data.js`.
+- For database tasks, respect dynamic schema probing and city field fallback logic (`city` -> `partner_city`).
+
+## Communication Style
+- Developer-facing communication: German.
+- User-facing communication: fully localized according to current locale (German or English).
+
+## Non-Negotiable Policy
+- Zero Hardcoded Strings: all user-visible text must come from translations.
+- Strict Bilingualism: every user-facing feature/change must be implemented in both German and English at the same time.

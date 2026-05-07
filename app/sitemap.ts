@@ -2,8 +2,11 @@ import { MetadataRoute } from 'next';
 import { routing } from '@/i18n/routing';
 import ncIndexData from '@/data/nc_search_index.json';
 import { generateProgramId } from '@/lib/url-slug';
+import { getAllCities } from '@/lib/city-data';
 
-const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://mystudycosts.com';
+import { getBaseUrl } from '@/lib/site-config';
+
+const baseUrl = getBaseUrl();
 
 // Date for lastModified (January 2026)
 const LAST_MODIFIED_DATE = new Date('2026-01-15');
@@ -14,6 +17,7 @@ const staticRoutes = [
   '/calculator',
   '/nc-checker',
   '/erasmus',
+  '/degree',
   '/about',
   '/blog',
   '/imprint',
@@ -54,6 +58,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
           languages: {
             de: `${baseUrl}/de/program/${programId}`,
             en: `${baseUrl}/en/program/${programId}`,
+          },
+        },
+      });
+    });
+
+    // Dynamic city routes
+    const cities = getAllCities();
+    cities.forEach((city) => {
+      routes.push({
+        url: `${baseUrl}/${locale}/city/${city.slug}`,
+        lastModified: LAST_MODIFIED_DATE,
+        changeFrequency: 'monthly',
+        priority: 0.7,
+        alternates: {
+          languages: {
+            de: `${baseUrl}/de/city/${city.slug}`,
+            en: `${baseUrl}/en/city/${city.slug}`,
           },
         },
       });

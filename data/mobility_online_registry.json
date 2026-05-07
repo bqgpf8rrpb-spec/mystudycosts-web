@@ -1,0 +1,598 @@
+{
+  "last_updated": "2026-03-15T18:56:43.192Z",
+  "total_codes_tested": 2440,
+  "portals_found": 71,
+  "portals": [
+    {
+      "erasmus_code": "AACHEN02",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=AACHEN02&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "PortalServlet",
+      "partner_count": 0,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:33:46.323Z",
+      "portal_servlet_url": "https://www.service4mobility.com/europe/PortalServlet?identifier=AACHEN02&kz_bew_art=OUT&kz_bew_pers=S&sprache=en"
+    },
+    {
+      "erasmus_code": "AALEN01",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=AALEN01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 159,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:33:56.541Z"
+    },
+    {
+      "erasmus_code": "AMBERG01",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=AMBERG01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "PortalServlet",
+      "partner_count": 0,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:34:07.109Z",
+      "portal_servlet_url": "https://www.service4mobility.com/europe/PortalServlet?identifier=AMBERG01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en"
+    },
+    {
+      "erasmus_code": "AUGSBUR01",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=AUGSBUR01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "PortalServlet",
+      "partner_count": 0,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:34:44.187Z",
+      "portal_servlet_url": "https://www.service4mobility.com/europe/PortalServlet?identifier=AUGSBUR01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en"
+    },
+    {
+      "erasmus_code": "BERLIN04",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=BERLIN04&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 186,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:35:17.403Z"
+    },
+    {
+      "erasmus_code": "BERLIN14",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=BERLIN14&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "PortalServlet",
+      "partner_count": 0,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:35:22.652Z",
+      "portal_servlet_url": "https://www.service4mobility.com/europe/PortalServlet?identifier=BERLIN14&kz_bew_art=OUT&kz_bew_pers=S&sprache=en"
+    },
+    {
+      "erasmus_code": "BIELEFE01",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=BIELEFE01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 383,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:35:26.521Z"
+    },
+    {
+      "erasmus_code": "BIELEFE02",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=BIELEFE02&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 155,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:35:27.564Z"
+    },
+    {
+      "erasmus_code": "BREMEN01",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=BREMEN01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 546,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:36:22.790Z"
+    },
+    {
+      "erasmus_code": "BREMEN04",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=BREMEN04&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 131,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:36:24.520Z"
+    },
+    {
+      "erasmus_code": "CHEMNIT01",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=CHEMNIT01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 247,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:36:46.709Z"
+    },
+    {
+      "erasmus_code": "DARMSTA03",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=DARMSTA03&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 55,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:37:31.571Z"
+    },
+    {
+      "erasmus_code": "DORTMUN02",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=DORTMUN02&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 134,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:38:02.889Z"
+    },
+    {
+      "erasmus_code": "DRESDEN02",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=DRESDEN02&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 513,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:38:14.529Z"
+    },
+    {
+      "erasmus_code": "DRESDEN13",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=DRESDEN13&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 2,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:38:22.973Z"
+    },
+    {
+      "erasmus_code": "DUSSELD03",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=DUSSELD03&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 141,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:38:29.615Z"
+    },
+    {
+      "erasmus_code": "FLENSBU02",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=FLENSBU02&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 45,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:39:46.696Z"
+    },
+    {
+      "erasmus_code": "FRANKFU01",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=FRANKFU01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 907,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:39:57.314Z"
+    },
+    {
+      "erasmus_code": "FRANKFU02",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=FRANKFU02&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "PortalServlet",
+      "partner_count": 0,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:39:58.781Z",
+      "portal_servlet_url": "https://www.service4mobility.com/europe/PortalServlet?identifier=FRANKFU02&kz_bew_art=OUT&kz_bew_pers=S&sprache=en"
+    },
+    {
+      "erasmus_code": "FRANKFU04",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=FRANKFU04&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "PortalServlet",
+      "partner_count": 0,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:39:59.885Z",
+      "portal_servlet_url": "https://www.service4mobility.com/europe/PortalServlet?identifier=FRANKFU04&kz_bew_art=OUT&kz_bew_pers=S&sprache=en"
+    },
+    {
+      "erasmus_code": "FRANKFU07",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=FRANKFU07&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 204,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:40:01.565Z"
+    },
+    {
+      "erasmus_code": "FREIBUR02",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=FREIBUR02&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "PortalServlet",
+      "partner_count": 0,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:40:10.092Z",
+      "portal_servlet_url": "https://www.service4mobility.com/europe/PortalServlet?identifier=FREIBUR02&kz_bew_art=OUT&kz_bew_pers=S&sprache=en"
+    },
+    {
+      "erasmus_code": "FREIBUR04",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=FREIBUR04&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 60,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:40:11.532Z"
+    },
+    {
+      "erasmus_code": "FRIEDRI01",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=FRIEDRI01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 99,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:40:20.952Z"
+    },
+    {
+      "erasmus_code": "FULDA01",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=FULDA01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "PortalServlet",
+      "partner_count": 0,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:40:31.423Z",
+      "portal_servlet_url": "https://www.service4mobility.com/europe/PortalServlet?identifier=FULDA01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en"
+    },
+    {
+      "erasmus_code": "HALLE01",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=HALLE01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 533,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:41:45.949Z"
+    },
+    {
+      "erasmus_code": "HAMBURG01",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=HAMBURG01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "PortalServlet",
+      "partner_count": 0,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:41:56.529Z",
+      "portal_servlet_url": "https://www.service4mobility.com/europe/PortalServlet?identifier=HAMBURG01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en"
+    },
+    {
+      "erasmus_code": "HAMBURG03",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=HAMBURG03&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 166,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:41:57.746Z"
+    },
+    {
+      "erasmus_code": "HAMBURG06",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=HAMBURG06&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 113,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:42:00.364Z"
+    },
+    {
+      "erasmus_code": "HAMBURG12",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=HAMBURG12&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 9,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:42:03.577Z"
+    },
+    {
+      "erasmus_code": "HAMBURG19",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=HAMBURG19&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 70,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:42:07.421Z"
+    },
+    {
+      "erasmus_code": "HEILBRO01",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=HEILBRO01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "PortalServlet",
+      "partner_count": 0,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:42:32.385Z",
+      "portal_servlet_url": "https://www.service4mobility.com/europe/PortalServlet?identifier=HEILBRO01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en"
+    },
+    {
+      "erasmus_code": "ILMENAU01",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=ILMENAU01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "PortalServlet",
+      "partner_count": 0,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:43:06.913Z",
+      "portal_servlet_url": "https://www.service4mobility.com/europe/PortalServlet?identifier=ILMENAU01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en"
+    },
+    {
+      "erasmus_code": "ISERLOH01",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=ISERLOH01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 73,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:43:28.261Z"
+    },
+    {
+      "erasmus_code": "KARLSRU01",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=KARLSRU01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 210,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:43:54.734Z"
+    },
+    {
+      "erasmus_code": "KARLSRU05",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=KARLSRU05&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 356,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:43:59.304Z"
+    },
+    {
+      "erasmus_code": "KEMPTEN01",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=KEMPTEN01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 121,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:44:18.278Z"
+    },
+    {
+      "erasmus_code": "KIEL01",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=KIEL01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 552,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:44:28.637Z"
+    },
+    {
+      "erasmus_code": "KIEL03",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=KIEL03&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 108,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:44:30.223Z"
+    },
+    {
+      "erasmus_code": "KOBLENZ02",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=KOBLENZ02&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "PortalServlet",
+      "partner_count": 0,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:44:32.425Z",
+      "portal_servlet_url": "https://www.service4mobility.com/europe/PortalServlet?identifier=KOBLENZ02&kz_bew_art=OUT&kz_bew_pers=S&sprache=en"
+    },
+    {
+      "erasmus_code": "KONSTAN02",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=KONSTAN02&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "PortalServlet",
+      "partner_count": 0,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:44:45.953Z",
+      "portal_servlet_url": "https://www.service4mobility.com/europe/PortalServlet?identifier=KONSTAN02&kz_bew_art=OUT&kz_bew_pers=S&sprache=en"
+    },
+    {
+      "erasmus_code": "KREFELD01",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=KREFELD01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 137,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:44:56.883Z"
+    },
+    {
+      "erasmus_code": "LANDSHU01",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=LANDSHU01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 89,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:45:17.968Z"
+    },
+    {
+      "erasmus_code": "LEIPZIG02",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=LEIPZIG02&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 118,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:45:29.084Z"
+    },
+    {
+      "erasmus_code": "MAGDEBU04",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=MAGDEBU04&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 109,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:46:23.898Z"
+    },
+    {
+      "erasmus_code": "MAINZ05",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=MAINZ05&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "PortalServlet",
+      "partner_count": 0,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:46:35.071Z",
+      "portal_servlet_url": "https://www.service4mobility.com/europe/PortalServlet?identifier=MAINZ05&kz_bew_art=OUT&kz_bew_pers=S&sprache=en"
+    },
+    {
+      "erasmus_code": "MAINZ08",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=MAINZ08&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 211,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:46:37.066Z"
+    },
+    {
+      "erasmus_code": "MANNHEI01",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=MANNHEI01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "PortalServlet",
+      "partner_count": 0,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:46:45.505Z",
+      "portal_servlet_url": "https://www.service4mobility.com/europe/PortalServlet?identifier=MANNHEI01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en"
+    },
+    {
+      "erasmus_code": "MANNHEI03",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=MANNHEI03&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 61,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:46:47.694Z"
+    },
+    {
+      "erasmus_code": "MARBURG01",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=MARBURG01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 379,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:46:57.704Z"
+    },
+    {
+      "erasmus_code": "MULHEIM01",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=MULHEIM01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 51,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:47:50.704Z"
+    },
+    {
+      "erasmus_code": "MUNCHEN04",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=MUNCHEN04&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 45,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:48:02.719Z"
+    },
+    {
+      "erasmus_code": "NORDHAU01",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=NORDHAU01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 122,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:48:33.690Z"
+    },
+    {
+      "erasmus_code": "OFFENBU01",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=OFFENBU01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 88,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:49:17.190Z"
+    },
+    {
+      "erasmus_code": "OSNABRU02",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=OSNABRU02&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 388,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:49:39.544Z"
+    },
+    {
+      "erasmus_code": "PFORZHE01",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=PFORZHE01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 165,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:50:11.686Z"
+    },
+    {
+      "erasmus_code": "POTSDAM03",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=POTSDAM03&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "PortalServlet",
+      "partner_count": 0,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:50:22.988Z",
+      "portal_servlet_url": "https://www.service4mobility.com/europe/PortalServlet?identifier=POTSDAM03&kz_bew_art=OUT&kz_bew_pers=S&sprache=en"
+    },
+    {
+      "erasmus_code": "RAVENSB01",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=RAVENSB01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "PortalServlet",
+      "partner_count": 0,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:50:32.766Z",
+      "portal_servlet_url": "https://www.service4mobility.com/europe/PortalServlet?identifier=RAVENSB01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en"
+    },
+    {
+      "erasmus_code": "REGENSB02",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=REGENSB02&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "PortalServlet",
+      "partner_count": 0,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:50:43.653Z",
+      "portal_servlet_url": "https://www.service4mobility.com/europe/PortalServlet?identifier=REGENSB02&kz_bew_art=OUT&kz_bew_pers=S&sprache=en"
+    },
+    {
+      "erasmus_code": "ROSTOCK01",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=ROSTOCK01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 342,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:51:17.852Z"
+    },
+    {
+      "erasmus_code": "STUTTGA01",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=STUTTGA01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "PortalServlet",
+      "partner_count": 0,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:52:34.382Z",
+      "portal_servlet_url": "https://www.service4mobility.com/europe/PortalServlet?identifier=STUTTGA01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en"
+    },
+    {
+      "erasmus_code": "STUTTGA02",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=STUTTGA02&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "PortalServlet",
+      "partner_count": 0,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:52:35.044Z",
+      "portal_servlet_url": "https://www.service4mobility.com/europe/PortalServlet?identifier=STUTTGA02&kz_bew_art=OUT&kz_bew_pers=S&sprache=en"
+    },
+    {
+      "erasmus_code": "STUTTGA04",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=STUTTGA04&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 73,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:52:36.344Z"
+    },
+    {
+      "erasmus_code": "STUTTGA05",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=STUTTGA05&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "PortalServlet",
+      "partner_count": 0,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:52:37.665Z",
+      "portal_servlet_url": "https://www.service4mobility.com/europe/PortalServlet?identifier=STUTTGA05&kz_bew_art=OUT&kz_bew_pers=S&sprache=en"
+    },
+    {
+      "erasmus_code": "TUEBINGE01",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=TUEBINGE01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 495,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:53:07.795Z"
+    },
+    {
+      "erasmus_code": "ULM01",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=ULM01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 192,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:53:18.875Z"
+    },
+    {
+      "erasmus_code": "ULM03",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=ULM03&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "PortalServlet",
+      "partner_count": 0,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:53:20.188Z",
+      "portal_servlet_url": "https://www.service4mobility.com/europe/PortalServlet?identifier=ULM03&kz_bew_art=OUT&kz_bew_pers=S&sprache=en"
+    },
+    {
+      "erasmus_code": "WEIMAR01",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=WEIMAR01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "PortalServlet",
+      "partner_count": 0,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:53:53.520Z",
+      "portal_servlet_url": "https://www.service4mobility.com/europe/PortalServlet?identifier=WEIMAR01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en"
+    },
+    {
+      "erasmus_code": "WIESBAD01",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=WIESBAD01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 236,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:54:04.140Z"
+    },
+    {
+      "erasmus_code": "WUPPERT01",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=WUPPERT01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 246,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:55:07.428Z"
+    },
+    {
+      "erasmus_code": "ZITTAU01",
+      "url": "https://www.service4mobility.com/europe/MobilitySearchServlet?identifier=ZITTAU01&kz_bew_art=OUT&kz_bew_pers=S&sprache=en",
+      "type": "MobilitySearchServlet",
+      "partner_count": 172,
+      "title": "Mobility-Online Portal",
+      "discovered_at": "2026-03-15T18:55:38.987Z"
+    }
+  ]
+}
