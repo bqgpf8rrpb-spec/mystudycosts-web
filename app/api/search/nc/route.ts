@@ -54,6 +54,46 @@ function normalizeText(value: string): string {
   return value.trim().toLowerCase().replace(/\s+/g, ' ');
 }
 
+function stripDegreeSuffix(value: string): string {
+  return value.replace(/\s*\([^)]*\)\s*$/g, '').trim();
+}
+
+function getProgramRelevanceRank(programName: string, queryText: string): number {
+  const programNormalized = normalizeText(programName);
+  const programWithoutDegree = normalizeText(stripDegreeSuffix(programName));
+  const queryNormalized = normalizeText(queryText);
+  const queryWithoutDegree = normalizeText(stripDegreeSuffix(queryText));
+
+  // Rule A: Exact match (case-insensitive), including suffix-insensitive equality.
+  if (
+    programNormalized === queryNormalized ||
+    programWithoutDegree === queryNormalized ||
+    (queryWithoutDegree.length > 0 && programWithoutDegree === queryWithoutDegree)
+  ) {
+    return 0;
+  }
+
+  // Rule B: Query appears at start of program name.
+  if (
+    programNormalized.startsWith(queryNormalized) ||
+    programWithoutDegree.startsWith(queryNormalized) ||
+    (queryWithoutDegree.length > 0 && programWithoutDegree.startsWith(queryWithoutDegree))
+  ) {
+    return 1;
+  }
+
+  // Rule C: Partial match.
+  if (
+    programNormalized.includes(queryNormalized) ||
+    programWithoutDegree.includes(queryNormalized) ||
+    (queryWithoutDegree.length > 0 && programWithoutDegree.includes(queryWithoutDegree))
+  ) {
+    return 2;
+  }
+
+  return 3;
+}
+
 function loadLocalNcIndex(): NCIndexEntry[] {
   const now = Date.now();
   if (cachedLocalIndex && now - localIndexCacheTimestamp < CACHE_DURATION_MS) {
@@ -286,11 +326,15 @@ export async function GET(request: NextRequest) {
       if (!localMap.has(key)) localMap.set(key, entry);
     }
 
+    const queryNormalized = normalizeText(queryText);
+    const queryWithoutDegree = normalizeText(stripDegreeSuffix(queryText));
+
     let results: NCIndexEntry[] = rows.map((row) => {
-      const key = `${normalizeText(row.university)}::${normalizeText(row.program_name)}`;
+      const rowEnglishProgramName = getEnglishProgramName(row.program_name);
+      const key = `${normalizeText(row.university)}::${normalizeText(rowEnglishProgramName)}`;
       const local = localMap.get(key);
       return {
-        programName: getEnglishProgramName(row.program_name),
+        programName: rowEnglishProgramName,
         university: row.university,
         city: local?.city ?? '',
         state: local?.state ?? '',
@@ -302,6 +346,24 @@ export async function GET(request: NextRequest) {
         instructionLanguage: local?.instructionLanguage,
       };
     });
+
+    // Fallback for cross-language and slightly imprecise queries:
+    // if DB lookup (program_name ILIKE) returns no rows, search local index with normalized includes.
+    if (results.length === 0) {
+      const localFallback = localIndex.filter((entry) => {
+        const nameNormalized = normalizeText(entry.programName);
+        const nameNoDegree = normalizeText(stripDegreeSuffix(entry.programName));
+        return (
+          nameNormalized.includes(queryNormalized) ||
+          queryNormalized.includes(nameNormalized) ||
+          (queryWithoutDegree.length > 0 && nameNoDegree.includes(queryWithoutDegree))
+        );
+      });
+
+      if (localFallback.length > 0) {
+        results = localFallback.slice(offset, offset + limit);
+      }
+    }
 
     if (params.city?.trim()) {
       const cityLower = params.city.trim().toLowerCase();
@@ -323,6 +385,10 @@ export async function GET(request: NextRequest) {
 
     const userGpa = params.userGpa ? Number.parseFloat(params.userGpa) : undefined;
     results.sort((a, b) => {
+      const relevanceA = getProgramRelevanceRank(a.programName, queryText);
+      const relevanceB = getProgramRelevanceRank(b.programName, queryText);
+      if (relevanceA !== relevanceB) return relevanceA - relevanceB;
+
       const bandA = classifyAdmissionBand(userGpa, a.nc);
       const bandB = classifyAdmissionBand(userGpa, b.nc);
       if (bandA !== bandB) return bandA - bandB;
