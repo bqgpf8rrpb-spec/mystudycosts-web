@@ -1,36 +1,36 @@
 {
-  "cached_at": "2026-04-13T12:34:57.898455",
+  "cached_at": "2026-05-11T06:46:43.992874",
   "records": [
     {
-      "university": "Universität zu Köln (Cologne)",
-      "program": "Rechtswissenschaft (M.A.)",
+      "university": "University of Cologne",
+      "program": "Law (State Examination)",
       "nc_threshold": 1.4,
       "source_university_name": "Universität zu Köln",
       "source_program_name": "Rechtswissenschaft",
-      "source_url": "https://verwaltung.uni-koeln.de/studsek/content/e143864/e62135/e105478/20260311_Verfahrensergebnisse_SoSe_26_ger.pdf",
-      "scraped_at": "2026-04-13T12:34:57.897386",
+      "source_url": "https://studsek.uni-koeln.de/e143864/e62135/e105478/20260311_Verfahrensergebnisse_SoSe_26_ger.pdf",
+      "scraped_at": "2026-05-11T06:46:43.902066",
       "confidence": 0.9,
       "source_type": "live_scrape"
     },
     {
-      "university": "Universität zu Köln (Cologne)",
-      "program": "Management (LL.M.)",
+      "university": "University of Cologne",
+      "program": "Betriebswirtschaftslehre (BWL)",
       "nc_threshold": 1.2,
       "source_university_name": "Universität zu Köln",
       "source_program_name": "Betriebswirtschaftslehre",
-      "source_url": "https://verwaltung.uni-koeln.de/studsek/content/e143864/e62135/e105478/20260311_Verfahrensergebnisse_SoSe_26_ger.pdf",
-      "scraped_at": "2026-04-13T12:34:57.897396",
+      "source_url": "https://studsek.uni-koeln.de/e143864/e62135/e105478/20260311_Verfahrensergebnisse_SoSe_26_ger.pdf",
+      "scraped_at": "2026-05-11T06:46:43.902081",
       "confidence": 0.9,
       "source_type": "live_scrape"
     },
     {
-      "university": "Universität zu Köln (Cologne)",
-      "program": "Wirtschaftsingenieurwesen (M.A.)",
+      "university": "University of Cologne",
+      "program": "Betriebswirtschaftslehre (BWL)",
       "nc_threshold": 1.5,
       "source_university_name": "Universität zu Köln",
       "source_program_name": "Volkswirtschaftslehre",
-      "source_url": "https://verwaltung.uni-koeln.de/studsek/content/e143864/e62135/e105478/20260311_Verfahrensergebnisse_SoSe_26_ger.pdf",
-      "scraped_at": "2026-04-13T12:34:57.897399",
+      "source_url": "https://studsek.uni-koeln.de/e143864/e62135/e105478/20260311_Verfahrensergebnisse_SoSe_26_ger.pdf",
+      "scraped_at": "2026-05-11T06:46:43.902087",
       "confidence": 0.9,
       "source_type": "live_scrape"
     }

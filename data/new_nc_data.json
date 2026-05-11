@@ -1,8 +1,1508 @@
 [
   {
-    "university": "University of Erlangen-Nuremberg (FAU)",
-    "program": "American Studies (B.A.)",
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Altorientalistik (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "American History, Culture and Society (M.A.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Antike und Orient (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Archäologie, Vor- und Frühgeschichtliche (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Archäologie: Europa und Vorderer Orient (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Buddhistische und Südasiatische Studien (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Business Administration (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Business Administration (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Byzantinistik (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Chinese Studies (B.A.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Chinese Studies (M.A.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Classical Archaeology (M.A.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Classical Studies (Bachelor of Arts)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Computer Science (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Computerlinguistik (mit Nebenfach)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Cultural and Cognitive Linguistics (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Deutsch (Lehramt an Grundschulen)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Deutsch (Lehramt an Gymnasien)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Deutsch (Lehramt an Mittelschulen)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Deutsch (Lehramt an Realschulen)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Deutsch als Fremdsprache (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Digital Cultural Heritage (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Digital Humanities - Sprachwissenschaften (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Economics (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Economics (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Empirische Kulturwissenschaft und Europäische Ethnologie (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Empirische Kulturwissenschaft und Europäische Ethnologie (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Englisch (Lehramt an Gymnasien)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Evolution, Ecology and Systematics (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Finnougristik (Master)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "French Studies (B.A.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Geobiology and Paleobiology (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Geography (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Geology (Master)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Griechische Studien (Bachelor of Arts)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Human Biology - Principles of Health and Disease (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Human Geography and Sustainability: Monitoring, Modeling and Management (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Informatik mit integriertem Anwendungsfach (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Interkulturelle Kommunikation (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Italienstudien (Master)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Japanese Studies (B.A.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Japanese Studies (M.A.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Kunstgeschichte, spätantike und byzantinische (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Kunstpädagogik (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Management and Digital Technologies (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Medienkulturwissenschaft (Bachelor of Arts)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Molecular and Cellular Biology (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Musikpädagogik (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Naher und Mittlerer Osten (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Naher und Mittlerer Osten (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Neogräzistik (Master)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Nordamerikastudien (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Physics (Master)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Physik (Bachelor)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Physik plus Meteorologie (Bachelor)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Plant Sciences (Master)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Politik und Gesellschaft (Lehramt an Gymnasien)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Politik und Gesellschaft (Lehramt an Realschulen)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Quantitative Economics (Master)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Religion und Philosophie in Asien (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Social and Cultural Anthropology (B.A.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Social and Cultural Anthropology (M.A.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Sports Science (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Sprache, Literatur, Kultur (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Statistik und Data Science (Bachelor)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Theoretical and Mathematical Physics (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Umweltsysteme und Nachhaltigkeit - Monitoring, Modellierung und Management (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Vergleichende Kultur- und Religionswissenschaft (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Wirtschaftspädagogik mit integriertem Wahlfach (Wirtschaftspädagogik II)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Ägyptologie und Koptologie (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "AI in Biomedicine (Master of Science)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Aerospace Engineering (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Aerospace Engineering (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Agrarsystemwissenschaften (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Agrarwissenschaften und Gartenbauwissenschaften (B.Sc.)",
     "nc_threshold": 0.0
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "AgriFood Economics, Policy and Regulation (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Agricultural Biosciences (Master of Science)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Architecture (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Architecture (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Automotive Engineering (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Bauingenieurwesen (B.Sc.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Bauingenieurwesen (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Biochemistry (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Biochemistry (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Bioengineering (B.Sc.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Bioengineering (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Biology (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Biology (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Biomedical Engineering and Medical Physics (Master of Science)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Biomedical Neuroscience (Master of Science)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Brauwesen und Getränketechnologie (B.Sc.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Brauwesen und Getränketechnologie (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Cartography (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Chemical Biotechnology (Master of Science)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Chemical Engineering (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Chemieingenieurwesen (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Chemieingenieurwesen (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Chemische Biotechnologie (Bachelor of Science)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Chemistry (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Chemistry (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Communications and Electronics Engineering (Master of Science)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Computational Mechanics (Master of Science)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Computational Science and Engineering (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Computer Science (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Computer Science (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Data & Society (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Data Engineering and Analytics (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "ESPACE - Earth Oriented Space Science and Technology (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Electronics and Data Engineering (Bachelor of Engineering)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Elektrotechnik und Informationstechnik (B.Sc.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Elektrotechnik und Informationstechnik (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Energie- und Prozesstechnik (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Entwicklung, Produktion und Management im Maschinenbau (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Environmental Engineering (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Finance and Information Management (FIM)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Food Technology (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Forst- und Holzwissenschaft (Master of Science)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Forstwissenschaft und Ressourcenmanagement (Bachelor of Science)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Geodesy and Geoinformation (B.Sc.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Geodesy and Geoinformation (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Gesundheitswissenschaft (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Green Electronics (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Health Science  Prevention and Health Promotion (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Human Factors Engineering (Master of Science)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Industrielle Biotechnologie (Master of Science)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Informatics (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Informatics (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Information Engineering am Campus Heilbronn (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Information Engineering am Campus Heilbronn (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Information Systems (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Information Systems (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Information Technologies for the Built Environment (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Ingenieur- und Hydrogeologie (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Ingenieurwissenschaften (Engineering Science)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Integrated Circuit Design (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Land Management and Geospatial Science (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Landschaftsarchitektur (Master of Arts)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Landschaftsarchitektur und Landschaftsplanung (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Lebensmittelchemie (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Lebensmittelchemie (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Lebensmitteltechnologie (B.Sc.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Lebensmitteltechnologie (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Lehramt an Gymnasien - Naturwissenschaftliche Bildung Mathematik/ Sport (B.Sc.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Lehramt an Gymnasien - Naturwissenschaftliche Bildung Mathematik/ Sport (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Lehramt an beruflichen Schulen - Masterstudiengang Berufliche Bildung Integriert - Fachrichtung Metalltechnik (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Life Sciences Ernährungswissenschaft (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Logistics Engineering and Management (Master of Science)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Management am Campus Heilbronn (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Management and Technology (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Materials Science and Engineering (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Mathematical Finance and Actuarial Science (Master of Science)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Mathematics (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Mathematics (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Mathematics in Data Science (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Mechatronics, Robotics and Biomechanical Engineering (Master of Science)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Medizintechnik (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Microelectronics and Chip Design (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Molecular Biotechnology (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Molecular Biotechnology (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Naturschutz und Landschaftsplanung (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Nutrition and Biomedicine (Master of Science)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Nutritional Science (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Pharmazeutische Bioprozesstechnik (B.Sc.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Pharmazeutische Bioprozesstechnik (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Physics (Applied and Engineering Physics)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Physics (B.Sc.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Physics (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Physik (Kern-, Teilchen- und Astrophysik)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Physik (Physik der kondensierten Materie)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Politics & Technology (Master of Science)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Process Engineering (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Quantum Science & Technology (Master of Science)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Rail and Urban Transport (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Responsibility in Science, Engineering and Technology (RESET)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Ressourceneffizientes und Nachhaltiges Bauen (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Risk and Safety (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Robotics, Cognition, Intelligence (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Science and Technology Studies (STS)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Science and Technology of Materials (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Sport and Exercise Science (Master of Science)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Sports Science (B.Sc.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Sustainable Energy and Processes (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Sustainable Management and Technology (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Sustainable Real Estate (Master of Advanced Studies)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Sustainable Resource Management (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Transportation Systems (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Urbanistik - Landschaft und Stadt (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Wirtschaftspädagogik I (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
+    "program": "Wirtschaftspädagogik II mit Unterrichtsfach (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Bonn",
+    "program": "Agricultural Sciences (B.Sc.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Bonn",
+    "program": "Agricultural Sciences (M.Sc.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Bonn",
+    "program": "Archaeology (M.A.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Bonn",
+    "program": "Art History (M.A.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Bonn",
+    "program": "Asian Studies (M.A.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Bonn",
+    "program": "Biochemistry (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Bonn",
+    "program": "Biology (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Bonn",
+    "program": "Biology (M.Sc.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Bonn",
+    "program": "Chemistry (B.Sc.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Bonn",
+    "program": "Chemistry (M.Sc.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Bonn",
+    "program": "Computer Science (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Bonn",
+    "program": "Computer Science (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Bonn",
+    "program": "Economics (B.Sc.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Bonn",
+    "program": "Economics (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Bonn",
+    "program": "English Studies (B.A.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Bonn",
+    "program": "English Studies (M.A.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Bonn",
+    "program": "Geodesy and Geoinformation (B.Sc.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Bonn",
+    "program": "Geodesy and Geoinformation (M.Sc.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Bonn",
+    "program": "Geography (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Bonn",
+    "program": "Geography (M.Sc.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Bonn",
+    "program": "Geology (M.Sc.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Bonn",
+    "program": "German Studies (B.A.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Bonn",
+    "program": "German Studies (M.A.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Bonn",
+    "program": "History (B.A.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Bonn",
+    "program": "History (M.A.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Bonn",
+    "program": "Islamic Studies (M.A.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Bonn",
+    "program": "Latin Studies (B.A.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Bonn",
+    "program": "Mathematics (B.Sc.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Bonn",
+    "program": "Mathematics (M.Sc.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Bonn",
+    "program": "Meteorology (B.Sc.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Bonn",
+    "program": "Nutritional Science (B.Sc.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Bonn",
+    "program": "Nutritional Science (M.Sc.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Bonn",
+    "program": "Oriental Studies (M.A.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Bonn",
+    "program": "Philosophy (M.A.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Bonn",
+    "program": "Physics (B.Sc.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Bonn",
+    "program": "Physics (M.Sc.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Bonn",
+    "program": "Political Science (B.A.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Bonn",
+    "program": "Political Science (M.A.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Bonn",
+    "program": "Psychology (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Bonn",
+    "program": "Psychology (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Bonn",
+    "program": "Religious Studies (M.A.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Bonn",
+    "program": "Romance Studies (B.A.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Bonn",
+    "program": "Romance Studies (M.A.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Bonn",
+    "program": "Sinology (B.A.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Bonn",
+    "program": "Sociology (M.A.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Bonn",
+    "program": "Sports Science (B.Sc.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Bonn",
+    "program": "Sports Science (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Bonn",
+    "program": "Theology (M.A.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Cologne",
+    "program": "Betriebswirtschaftslehre (BWL)",
+    "nc_threshold": 1.2
+  },
+  {
+    "university": "University of Cologne",
+    "program": "Law (State Examination)",
+    "nc_threshold": 1.4
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Angewandte Kognitions- und Medienwissenschaft (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Angewandte Philosophie (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Anglophone Popular Culture (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Anglophone Studies (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Anglophone Studies (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Arbeit - Organisation - Gesellschaft (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Automotive Engineering & Mobility Management (Master of Science)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Behavioural Data Science (Master of Arts)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Biodiversität (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Biology (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Chemistry (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Chemistry (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Christliche Studien (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Christliche Studien (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Computational Mechanics, ISE (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Computer Engineering, ISE (Master of Science)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Computer Science (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Computer Science (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Cyber Physical Systems (Master of Science)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Development and Governance (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Economics (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Economics (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Elektrotechnik und Informationstechnik (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Erwachsenenbildung / Weiterbildung (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Erziehungswissenschaft (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Gesundheitsökonomik (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Internationale Beziehungen und Entwicklungspolitik (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Lernbereich I - Sprachliche Grundbildung (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Management and Technology of Water and Waste Water, ISE (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Maschinenbau (Master of Science)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Mathematik (Bachelor of Science)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Mathematik (Master of Science)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Medizinische Biologie (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Medizinische Biologie (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Medizintechnik (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Medizintechnik (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Menschzentrierte Informatik und Psychologie (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Migration und Globalisierung (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Molekularbiologie (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Molekularbiologie (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Märkte und Unternehmen (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Philosophie, Politikwissenschaft & Sozioökonomie (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Philosophy (M.A.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Physik (Bachelor of Science)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Physik (Master of Science)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Politikmanagement, Public Policy u. öffentl. Verw. (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Psychologie: Schwerpunkt Arbeit, Gesundheit und Bildung (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Psychologie: Schwerpunkt Klinische Psychologie und Psychotherapie (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Sociology (M.A.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Software Engineering (Bachelor of Science)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Software and Network Engineering (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Soziologie (einjährig)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Sport (Bachelor mit Lehramts­option Haupt-, Real-, Sekundar und Gesamtschulen)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Sprache (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Technische Logistik (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Theorie des Sozialen (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Theorie und Vergleich politischer Systeme im Wandel (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Türkeistudien (Bachelor of Arts 2 Fächer)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Water Science Wasser: Chemie, Analytik, Mikrobiologie (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Wirtschaftsingenieurwesen (Master of Science)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Advanced Materials and Processes (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Advanced Optical Technologies (M.Sc.)",
+    "nc_threshold": null
   },
   {
     "university": "University of Erlangen-Nuremberg (FAU)",
@@ -12,6 +1512,26 @@
   {
     "university": "University of Erlangen-Nuremberg (FAU)",
     "program": "Art History (M.A.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Artificial Intelligence (B.Sc.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Artificial Intelligence (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Autonomy Technologies (B.Sc.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Autonomy Technologies (M.Sc.)",
     "nc_threshold": null
   },
   {
@@ -26,12 +1546,52 @@
   },
   {
     "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Chemical Engineering - Nachhaltige Chemische Technologien (B.Sc.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Chemical Engineering - Nachhaltige Chemische Technologien (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
     "program": "Chemistry (B.Sc.)",
     "nc_threshold": 0.0
   },
   {
     "university": "University of Erlangen-Nuremberg (FAU)",
     "program": "Chemistry (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Chinese Studies with an Optional Focus (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Clean Energy Processes (B.Sc.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Clean Energy Processes (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Communications and Multimedia Engineering (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Computational Engineering (Master of Science)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Computational and Applied Mathematics (M.Sc.)",
     "nc_threshold": null
   },
   {
@@ -46,6 +1606,31 @@
   },
   {
     "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Development Economics and International Studies (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Digital Business & AI (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Digital Humanities (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Digitale Geistes- und Sozialwissenschaften (B.Sc.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Digitale Japanstudien (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
     "program": "Economics (B.Sc.)",
     "nc_threshold": 0.0
   },
@@ -56,7 +1641,37 @@
   },
   {
     "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Elektromobilität - ACES (B.Sc.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Elektromobilität - ACES (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
     "program": "English Studies (M.A.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "English and American Studies (Bachelor of Arts)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Ethik der Textkulturen (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Finance, Auditing, Controlling, Taxation (FACT)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "GeoThermie/ GeoEnergie (M.Sc.)",
     "nc_threshold": null
   },
   {
@@ -67,6 +1682,16 @@
   {
     "university": "University of Erlangen-Nuremberg (FAU)",
     "program": "German Studies (B.A.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Global Business Management (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Griechische Philologie (B.Sc.)",
     "nc_threshold": 0.0
   },
   {
@@ -91,13 +1716,43 @@
   },
   {
     "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Informatik / IT-Sicherheit (B.Sc.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
     "program": "Information Systems (B.Sc.)",
     "nc_threshold": 0.0
   },
   {
     "university": "University of Erlangen-Nuremberg (FAU)",
-    "program": "Information Systems (M.Sc.)",
+    "program": "Information and Communication Technology (M.Sc.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Integrated Immunology (M.Sc.)",
     "nc_threshold": null
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "International Business Studies (MIBS)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "International Economic Studies (B.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "International Information Systems (Master of Science)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "International Production Engineering and Management (B.Sc.)",
+    "nc_threshold": 0.0
   },
   {
     "university": "University of Erlangen-Nuremberg (FAU)",
@@ -106,12 +1761,42 @@
   },
   {
     "university": "University of Erlangen-Nuremberg (FAU)",
-    "program": "Italian Studies (M.A.)",
-    "nc_threshold": null
+    "program": "Kulturgeschichte des Christentums (B.Sc.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Lateinische Philologie (B.Sc.)",
+    "nc_threshold": 0.0
   },
   {
     "university": "University of Erlangen-Nuremberg (FAU)",
     "program": "Law (State Examination)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Learning Design - Digitale Transformation in der Bildung (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Lebensmittelchemie (Staatsexamen)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Linguistik (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Literaturstudien - medial und transkulturell (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Logopädie (B.Sc.)",
     "nc_threshold": 0.0
   },
   {
@@ -122,6 +1807,11 @@
   {
     "university": "University of Erlangen-Nuremberg (FAU)",
     "program": "Materials Science (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Materials Science and Engineering (Master of Science)",
     "nc_threshold": null
   },
   {
@@ -151,12 +1841,37 @@
   },
   {
     "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Medical Process Management (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Medien - Ethik - Religion (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Mittellatein und Neulatein (B.Sc.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Molecular Medicine (M.Sc.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
     "program": "Music Education (B.A.)",
     "nc_threshold": 0.0
   },
   {
     "university": "University of Erlangen-Nuremberg (FAU)",
     "program": "Music Education (M.A.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "North American Studies: Culture and Literature (M.Sc.)",
     "nc_threshold": null
   },
   {
@@ -172,6 +1887,16 @@
   {
     "university": "University of Erlangen-Nuremberg (FAU)",
     "program": "Philosophy (M.A.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Physical Activity and Health (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Physical Geography: Climate & Environmental Sciences (M.Sc.)",
     "nc_threshold": null
   },
   {
@@ -196,6 +1921,11 @@
   },
   {
     "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Psychologie mit Schwerpunkt Klinische Psychologie und Psychotherapie (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
     "program": "Psychology (B.Sc.)",
     "nc_threshold": 0.0
   },
@@ -216,7 +1946,17 @@
   },
   {
     "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Schriftmedienkultur und Digitale Transformation (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
     "program": "Sociology (M.A.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Sustainability Management (M.Sc.)",
     "nc_threshold": null
   },
   {
@@ -227,6 +1967,16 @@
   {
     "university": "University of Erlangen-Nuremberg (FAU)",
     "program": "Theatre Studies (M.A.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Zahnmedizin (Staatsexamen)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Zell- und Molekularbiologie (M.Sc.)",
     "nc_threshold": null
   }
 ]
