@@ -1,0 +1,2992 @@
+[
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Betriebswirtschaftslehre (PStO 2024)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822707&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.728954",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Betriebswirtschaftslehre (PStO 2015)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822707&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.729125",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Wirtschaftspädagogik (Wirtschaftspädagogik I) (PStO 2024)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822707&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.729295",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Wirtschaftspädagogik (Wirtschaftspädagogik I) (PStO 2015)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822707&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.729475",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Wirtschaftspädagogik mit integriertem Wahlfach (Wirtschaftspädagogik II) (PStO 2024)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822707&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.729657",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Wirtschaftspädagogik mit integriertem Wahlfach (Wirtschaftspädagogik II) (PStO 2015)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822707&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.729841",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Betriebswirtschaftslehre (PStO 2024)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822707&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.730011",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Betriebswirtschaftslehre (PStO 2018)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822707&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.730165",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Wirtschaftspädagogik (Wirtschaftspädagogik I) (PStO 2024)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822707&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.730328",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Wirtschaftspädagogik (Wirtschaftspädagogik I) (PStO 2018)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822707&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.730512",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Wirtschaftspädagogik mit integriertem Wahlfach (Wirtschaftspädagogik II) (PStO 2024)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822707&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.730687",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Wirtschaftspädagogik mit integriertem Wahlfach (Wirtschaftspädagogik II) (PStO 2018)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822707&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.730864",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Management and Digital Technologies (PStO 2024)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822707&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.731030",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Management and Digital Technologies (PStO 2021)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822707&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.731188",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Lehramt Wirtschaftswissenschaften (PStO 2024)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822707&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.731343",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Nebenfach und Lehramt (PStOs vor 2024)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822707&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.731675",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master of Business Research",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822707&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.731825",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor of Science Volkswirtschaftslehre (PStO 2025) - Immatrikulation AB dem WiSe 2025/26",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C818055&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.742647",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor of Science Volkswirtschaftslehre (PStO 2013) - Immatrikulation VOR dem WiSe 2025/26",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C818055&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.742832",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master of Science in Economics (PStO 2025) - Immatrikulation AB dem WiSe 2025/26",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C818055&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.743007",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master of Science in Economics (PStO 2013) - Immatrikulation VOR dem WiSe 2025/26",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C818055&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.743178",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master of Science in Quantitative Economics (PStO 2025) - Immatrikulation AB dem WiSe 2025/26",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C818055&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.743348",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master of Science in Quantitative Economics (PStO 2017) - Immatrikulation VOR dem WiSe 2025/26",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C818055&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.743532",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Promotion Naher und Mittlerer Osten",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.810397",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Vorderasiatische Archäologie (Magister)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.811575",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Ägyptologie und Koptologie (Hauptfach und Nebenfach SLK)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.812014",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Alter Orient (Hauptfach)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.812176",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Archäologie: Europa und Vorderer Orient (Hauptfach)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.812338",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Buddhistische und Südasiatische Studien (Hauptfach)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.812516",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Classical Studies (Hauptfach)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.812671",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Ethnologie (Hauptfach)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.812820",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Griechische Studien (Hauptfach)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.812970",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Empirische Kulturwissenschaft und Europäische Ethnologie (Hauptfach)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.813136",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Japanologie (Hauptfach)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.813290",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Naher und Mittlerer Osten (Hauptfach)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.813460",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Sinologie (Hauptfach)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.813608",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Sinologie (Nebenfach)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.813753",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Antike und Orient (Nebenfach)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.813902",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Vergleichende Kultur- und Religionswissenschaft (Nebenfach)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.814066",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Ägyptologie und Koptologie",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.814223",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Altorientalistik (PStO 2018)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.814382",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Byzantinistik",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.814529",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Digital Cultural Heritage",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.814675",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Empirische Kulturwissenschaft und Europäische Ethnologie*",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.814837",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Ethnologie",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.814987",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Interkulturelle Kommunikation",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.815132",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Japanologie",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.815271",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Klassische Archäologie",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.815424",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Naher und Mittlerer Osten",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.815573",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Neogräzistik",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.815716",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Provinzialrömische Archäologie",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.815863",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Religion und Philosophie in Asien",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.816016",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Sinologie",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.816158",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Spätantike und Byzantinische Kunstgeschichte",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.816310",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Vorderasiatische Archäologie",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.816472",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Vor- und Frühgeschichtliche Archäologie",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.816628",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Profilbereich (Master)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.816776",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Vst.-Nr. Veranstaltung Vst.-Art Aktion Mündliches Staatsexamen - Sprachpraxis - Kotzor Prüfung",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.865748",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Mündliches Staatsexamen - Sprachpraxis - Kotzor",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.865893",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "B.A. HF \"Historische und Allgemeine Sprachwissenschaft\" (2019)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.866003",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "B.A./M.A.-Studiengang Sprachtherapie",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.866857",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "B.A. Nebenfach 'Digital Humanities - Sprach- & Literaturwissenschaften (DH-S&L)'",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.867024",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "B.A. Nebenfach 'Sprache, Literatur, Kultur'",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.867185",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "M.A. Literarisches Übersetzen",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.869558",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Mündliches Staatsexamen - Sprachpraxis",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=1138822&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung",
+    "scraped_at": "2026-05-18T07:04:43.871104",
+    "confidence": 0.55,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C811633&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.891324",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C811633&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.891489",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Lehramt",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C811633&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.891625",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Artificial Intelligence as a major Minor (AIM@LMU) / NF Künstliche Intelligenz Veranstaltungen aus dem (Bachelor-)Nebenfach Künstliche Intelligenz finden Sie unter: Fakultät für Mathematik, Informatik und Statistik -> 2. Informatik -> Nebenfächer Informatik, Medieninformatik und Künstliche Intelligenz -> Nebenfach: Künstliche Intelligenz im Umfang von 30 und 60 ECTS (2023)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C807977%7C825618&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.987796",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Veranstaltungen aus dem (Bachelor-)Nebenfach Künstliche Intelligenz finden Sie unter: Fakultät für Mathematik, Informatik und Statistik -> 2. Informatik -> Nebenfächer Informatik, Medieninformatik und Künstliche Intelligenz -> Nebenfach: Künstliche Intelligenz im Umfang von 30 und 60 ECTS (2023)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C807977%7C825618&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:43.988001",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "el mundo - Zertifikatsprogramm BNE im Lehramt (30 ECTS)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C807977%7C820428&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.056847",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "el mundo - Zertifikatsprogramm BNE im Lehramt (45 ECTS)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C807977%7C820428&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.057036",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor HF Religionswissenschaft",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C807977%7C803366&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.072042",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Religions- und Kulturwissenschaft",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C807977%7C803366&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.072207",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Orientierungsphase Lehramt",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C807977%7C806438&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.113904",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Vst.-Nr. Veranstaltung Vst.-Art Aktion 12076 Master- und Doktorandenkolloquium - Metzner-Nebelsick , Teegen Kolloquium 12264 Hybridität, Kreolisierung: Wege zum Verständnis der Verbreitung von antiken Institutionen und sozialen Praktiken Hauptseminar",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C807977%7C819566&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.128061",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master- und Doktorandenkolloquium - Metzner-Nebelsick , Teegen",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C807977%7C819566&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.128204",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master- und Doktorandenkolloquium",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=1108516&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung",
+    "scraped_at": "2026-05-18T07:04:44.129124",
+    "confidence": 0.55,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Promotion",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C812276%7C826293&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.156114",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Lehramt Gymnasium",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C812276%7C801183&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.172780",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Lehramt Realschule",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C812276%7C801183&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.172932",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Lehramt Grundschule Unterrichtsfach",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C812276%7C801183&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.173082",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Lehramt Mittelschule Unterrichtsfach",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C812276%7C801183&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.173233",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Lehramt Grundschule Didaktikfach",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C812276%7C801183&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.173393",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Lehramt Mittelschule Didaktikfach",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C812276%7C801183&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.173540",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Diplom (nicht modularisiert)/Magister-Nebenfach",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C812276%7C812255&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.182050",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Studiengang Evangelische Theologie für das Lehramt an Grundschulen als Didaktikfach (PStO 2019)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C809028%7C816000&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.200065",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Studiengang Evangelische Theologie für das Lehramt an Mittelschulen als Didaktikfach (PStO 2019)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C809028%7C816000&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.200277",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Studiengang Evangelische Theologie für das Lehramt an Grundschulen als Unterrichtsfach (PStO 2019)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C809028%7C816000&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.200491",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Studiengang Evangelische Theologie für das Lehramt an Mittelschulen als Unterrichtsfach (PStO 2019)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C809028%7C816000&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.200695",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Studiengang Evangelische Theologie für das Lehramt an Realschulen als Unterrichtsfach (PStO 2019)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C809028%7C816000&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.200895",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Studiengang Evangelische Theologie für das Lehramt an Gymnasien (PStO 2019)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C809028%7C816000&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.201087",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Studiengang Evangelische Theologie für das Lehramt an Grundschulen als Didaktikfach (alt, PStO 2014)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C809028%7C816000&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.201287",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Studiengang Evangelische Theologie für das Lehramt an Mittelschulen als Didaktikfach (PStO 2014)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C809028%7C816000&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.201500",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Studiengang Evangelische Theologie für das Lehramt an Grundschulen als Unterrichtsfach (PStO 2012)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C809028%7C816000&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.201724",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Studiengang Evangelische Theologie für das Lehramt an Mittelschulen als Unterrichtsfach (PStO 2012)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C809028%7C816000&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.201927",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Studiengang Evangelische Theologie für das Lehramt an Realschulen als Unterrichtsfach (PStO 2012)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C809028%7C816000&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.202120",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Studiengang Evangelische Theologie für das Lehramt an Gymnasien (PStO 2010)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C809028%7C816000&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.202305",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Magister/Magistra Theologiae PStO 2010 (Studienbeginn vor 1.4.2019)",
+    "source_nc_text": "1.4",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C809028%7C811999&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.213262",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Magister / Magistra Theologiae PStO 2019 (Studienbeginn 1.4.2019)",
+    "source_nc_text": "1.4",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C809028%7C811999&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.213458",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "VIII. Aufbaustudiengänge (LL.M.), Zertifikatsstudium",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C800994%7C824623&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.225462",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Lehramt Gymnasium Wirtschaftswissenschaften",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822707%7C811870&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.442975",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Lehramt Realschule Wirtschaftswissenschaften",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822707%7C811870&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.443138",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Nebenfächer",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822707%7C816379&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.454690",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Lehramt gemäß neuer LPO I (2008) (Studienbeginn an der LMU ab WS 2010/11)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822707%7C816379&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.454873",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "4. Bachelor-Thesis-Kolloquium",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C818055%7C823306&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.483262",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Colloquium Master's Thesis in Economics",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C818055%7C811241&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.490008",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Colloquium Master's Thesis in Quantitative Economics",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C818055%7C811242&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.502164",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "1. Bachelor-Nebenfach Volkswirtschaftslehre",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C818055%7C802054&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.521869",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "4.1. Master's program Epidemiology",
+    "source_nc_text": "4.1",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C802559%7C806048&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.572300",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "5. Doctor of Philosophy (PhD) in Medical Research at the Faculty of Medicine The “Ph.D. in Program “Medical Research” is a 3-year (180 ECTS) structured program at the LMU’s Medical Faculty. It is open to students with a degree (Master’s, medical degree) from an institute of higher education in medicine, veterinary science, natural sciences, pharmacy, public health or a related field and offers participating students interdisciplinary courses, as well as research topic specific modules. Students are required to complete 30 ECTS in courses (methodology, practicals, seminars, skills, etc.), as well as working on their thesis (140 ECTS) and completing an oral defence (10 ECTS) at the end of the program. There are currently three core areas, as well as several associated research training groups. For more information on the Ph.D., please see https://www.med.lmu.de/de/promotion/",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C802559%7C811671&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.579665",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "The “Ph.D. in Program “Medical Research” is a 3-year (180 ECTS) structured program at the LMU’s Medical Faculty. It is open to students with a degree (Master’s, medical degree) from an institute of higher education in medicine, veterinary science, natural sciences, pharmacy, public health or a related field and offers participating students interdisciplinary courses, as well as research topic specific modules. Students are required to complete 30 ECTS in courses (methodology, practicals, seminars, skills, etc.), as well as working on their thesis (140 ECTS) and completing an oral defence (10 ECTS) at the end of the program. There are currently three core areas, as well as several associated research training groups. For more information on the Ph.D., please see https://www.med.lmu.de/de/promotion/",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C802559%7C811671&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.580021",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "https://www.med.lmu.de/de/promotion/",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://www.med.lmu.de/de/promotion/",
+    "scraped_at": "2026-05-18T07:04:44.581946",
+    "confidence": 0.55,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "6. Graduate School of Systemic Neurosciences at the Faculty of Medicine The Master International Occupational Safety and Health is a two-year part-time program (60 ECTS). Students graduate with a “Master of Science (MSc)“ degree from the Ludwig-Maximilians-Universität München. Working languages are Spanish (1st and 2nd year) and English (2nd year). The Master offers an international and interdisciplinary education in global Occupational Safety and Health with a focus on project-based learning. In order to ensure maximum flexibility and efficiency, the Master’s program is based on a blended learning concept combining on-site courses, online-modules and tutor guided work on projects. For more information please please refer towww.osh-munich.de or contact the Administration Office 0049-89-5160-2485.",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C802559%7C811897&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.586788",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "The Master International Occupational Safety and Health is a two-year part-time program (60 ECTS). Students graduate with a “Master of Science (MSc)“ degree from the Ludwig-Maximilians-Universität München. Working languages are Spanish (1st and 2nd year) and English (2nd year). The Master offers an international and interdisciplinary education in global Occupational Safety and Health with a focus on project-based learning. In order to ensure maximum flexibility and efficiency, the Master’s program is based on a blended learning concept combining on-site courses, online-modules and tutor guided work on projects. For more information please please refer towww.osh-munich.de or contact the Administration Office 0049-89-5160-2485.",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C802559%7C811897&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.587101",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Wahlpflichtlehrveranstaltungen für Bachelorstudiengang Archäologie (Bachelor of Arts) und Doktorandenprogramm ArchaeoBioCenter",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C826611%7C826120&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.677219",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Studienberatung, Einführung, Eignungsverfahren Master Geschichte",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C802389%7C820566&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.731470",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "1. Bachelor-HAUPTFACH Philosophie",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C813165%7C814289&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.750681",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "2. Bachelor-NEBENFACH Philosophie",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C813165%7C814289&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.750843",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "5. Philosophie-Angebot im Gemeinsamen Geistes- und Sozialwissenschaftlichen Profilbereich (Master)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C813165%7C814289&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.751286",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Diplomstudiengang Psychologie und Nebenfach Psychologie (Magister)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C807909%7C816851&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.772684",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Sonderpädagogik (Lehramt an Sonderschulen, Magister und Promotion)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C807909%7C826937&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.781831",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Vst.-Nr. Veranstaltung Vst.-Art Aktion Kolloquium für Bachelor / Master / Zulassungsarbeiten - Rauthmann Kolloquium nur priorisiert belegbar",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C807909%7C825643&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.791591",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Kolloquium für Bachelor / Master / Zulassungsarbeiten - Rauthmann",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C807909%7C825643&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.791738",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor (PIR)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C807909%7C825643&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.791828",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Lehramt Sonderschule",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C807909%7C825643&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.791972",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Lehramt Mittelschule",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C807909%7C825643&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.792114",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Kolloquium für Bachelor / Master / Zulassungsarbeiten",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=1138576&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung",
+    "scraped_at": "2026-05-18T07:04:44.793599",
+    "confidence": 0.55,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Lehramt Grundschule",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C807909%7C806332&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.802348",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Lehramt Sonderpädagogik",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C807909%7C806332&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.802938",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Vst.-Nr. Veranstaltung Vst.-Art Aktion 12011 Cultural Heritage Theory: Concepts, Debates, and Global Perspectives Vorlesung belegen/abmelden 12012 Critical Heritage (with cultural site visits) Seminar belegen/abmelden 12018 Seminar in Machine Learning Applications in Digital Cultural Heritage II Seminar belegen/abmelden 12019 Hands-on Exercises in Machine Learning Applications in Digital Cultural Heritage II Übung belegen/abmelden 12020 Intermediate Programming for Humanists Wissenschaftliche Übung belegen/abmelden 12021 Advanced Digital Photogrammetry for Digital Cultural Heritage Wissenschaftliche Übung belegen/abmelden 12022 Oberseminar/Colloquium for PhD Candidates Oberseminar belegen/abmelden 12023 Topics in LLMs and Linked Open Data for Digital Cultural Heritage Seminar belegen/abmelden 12024 Master's Colloquium Kolloquium 12025 Laser Scanning & Mapping for Cultural Heritage and Archaeology Wissenschaftliche Übung belegen/abmelden 12026 Museology and Digitalisation: The Example of the State Museum of Egyptian Art - N. N. (Kulturwissenschaften) Wissenschaftliche Übung belegen/abmelden 12027 CULTURE-Tech – Prototype for Museums & Cultural Heritage with No/Low Code AI Tools (Fabian Heil) Wissenschaftliche Übung belegen/abmelden 12028 3D modeling, Animation and Interactive Visualisation for Digital Cultural Heritage Wissenschaftliche Übung belegen/abmelden 12029 Introduction to Semantic Web Technologies Wissenschaftliche Übung belegen/abmelden 12972 Internship I Praktikum belegen/abmelden",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608%7C814432&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.825609",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master's Colloquium",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608%7C814432&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.826289",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Kurse für das B.A.-Nebenfach 'Sprache, Literatur, Kultur'",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608%7C809412&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.903515",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Vorderasiatische Archäologie (Magister) Institut für Vorderasiatische Archäologie Studienberatung s. Homepage, www.vaa.fak12.uni-muenchen.de",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608%7C826886&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.925509",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Lehrangebot für B.A. Nebenfach \"Sprache, Literatur, Kultur\"",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608%7C823429&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:44.933389",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Classical Studies (Hauptfach) In den ersten beiden Fachsemestern werden die beteiligten Fächer Alte Geschichte, Griechische Philologie, Klassische Archäologie und Lateinische Philologie studiert. Hierfür müssen die Module P 1 - P 9 absolviert werden. Ab dem dritten Fachsemester werden jeweils ein Kernfach- und ein Ergänzungsbereich gewählt. Zudem müssen die Classical Studies Module P 10 und P 11 sowie zwei Module aus dem Ancient Worlds Pool absolviert werden. Wichti g: Mit der Wahl des Kernfachbereichs im 3. Semester ist automatisch die Wahl des Bachelorarbeitsfaches verbunden!",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608%7C827359&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.002477",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Vst.-Nr. Veranstaltung Vst.-Art Aktion 12359 Infostunde zum Master Ethnologie - Hempel , Odierna Informationsveranstaltung",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608%7C815405&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.015513",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Infostunde zum Master Ethnologie - Hempel , Odierna",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608%7C815405&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.015657",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Paul Hempel, M.A.",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://www.ethnologie.uni-muenchen.de/personen/verwaltung/hempel/index.html",
+    "scraped_at": "2026-05-18T07:04:45.018321",
+    "confidence": 0.55,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Infostunde zum Master Ethnologie",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=1114318&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung",
+    "scraped_at": "2026-05-18T07:04:45.018380",
+    "confidence": 0.55,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Vst.-Nr. Veranstaltung Vst.-Art Aktion 12458 Infostunde zum Master Empirische Kulturwissenschaft und Europäische Ethnologie - Hempel Informationsveranstaltung",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608%7C808369&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.050942",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Infostunde zum Master Empirische Kulturwissenschaft und Europäische Ethnologie - Hempel",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608%7C808369&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.051092",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Infostunde zum Master Empirische Kulturwissenschaft und Europäische Ethnologie",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=1115411&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung",
+    "scraped_at": "2026-05-18T07:04:45.053998",
+    "confidence": 0.55,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Japanologie (Hauptfach) Informationen zum Japan-Zentrum unter http://www.japan.lmu.de Studiengangskoordinator/Fachstudienberatung: Dr. Yumiko Murata, Raum D 104, Tel.: 2180-9823 , e-mail: y.murata@lrz.uni-muenchen.de Die BELEGUNG erfolgt über den Modulbaum. Eine Anleitung dazu findet sich auf unserer Homepage.",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608%7C826800&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.061885",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Naher und Mittlerer Osten (Hauptfach) Institut für den Nahen und Mittleren Osten Veterinärstr. 1 80539 München www.naher-osten.lmu.de Studienberatung, Studiengangskoordinatorin: Dr. Sabrina Zahren Sabrina.Zahren@lmu.de Sprechzeiten: Mo 10 - 11:30 Uhr, Mi 10 - 11:30 Uhr Betreuung BA-Abschlussarbeiten: Arabistik: Kaplony, Daga Portillo, Singer, El Bulbeisi Iranistik: Rahimi-Bahmany, Catanzaro, Newid, Kiyanrad Judaistik: Vollandt, Brill, Busa, Trauer, Ioppolo Turkologie: Hacisalihoglu, Lischewski, Özsoy",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608%7C807665&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.071763",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Lehrangebot für B.A.-Nebenfach 'Sprache, Literatur, Kultur'",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608%7C807665&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.073155",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Digital Cultural Heritage In order to complete your study program, you have to complete all Mandatory Modules . Also, you have to complete one out of the three Introductory Modules , and to choose five modules from the remaining elective modules . While choosing from the elective modules, you have to respect the following election rules: You may choose up to three Computer Science modules . These modules usually require Bachelor-level skills and knowledge in Computer Science. Please inform yourself about potential requirements before enrolling in these modules. From the modules offered in the Topics in the Study of Cultures section of the curriculum, you may likewise choose up to three modules , but you have to respect the following rules: You may choose one module from modules WP 13 to WP 29 . You may choose one module from modules WP 38-WP 43 and modules WP 45-WP 55 . You may choose one module from modules WP 44 and WP 61-WP 76 . These modules usually require previous knowledge in the respective discipline. Also, as the respective study programs are taught in German, most courses require at least a good understanding of German. Few disciplines also offer courses in English. Please contact your program coordinator in advance, if you are interested in taking courses in one of these disciplines and understand how to enroll. ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** For any questions about the curriculum and the organization of your studies, contact your program coordinator: Dr. Evan Eames ( evan.eames@lmu.de ). ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608%7C802496&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.167764",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "In order to complete your study program, you have to complete all Mandatory Modules . Also, you have to complete one out of the three Introductory Modules , and to choose five modules from the remaining elective modules . While choosing from the elective modules, you have to respect the following election rules: You may choose up to three Computer Science modules . These modules usually require Bachelor-level skills and knowledge in Computer Science. Please inform yourself about potential requirements before enrolling in these modules. From the modules offered in the Topics in the Study of Cultures section of the curriculum, you may likewise choose up to three modules , but you have to respect the following rules: You may choose one module from modules WP 13 to WP 29 . You may choose one module from modules WP 38-WP 43 and modules WP 45-WP 55 . You may choose one module from modules WP 44 and WP 61-WP 76 . These modules usually require previous knowledge in the respective discipline. Also, as the respective study programs are taught in German, most courses require at least a good understanding of German. Few disciplines also offer courses in English. Please contact your program coordinator in advance, if you are interested in taking courses in one of these disciplines and understand how to enroll. ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** For any questions about the curriculum and the organization of your studies, contact your program coordinator: Dr. Evan Eames ( evan.eames@lmu.de ). ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608%7C802496&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.168497",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Paul Hempel M.A.",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://www.ethnologie.uni-muenchen.de/personen/verwaltung/hempel/index.html",
+    "scraped_at": "2026-05-18T07:04:45.186006",
+    "confidence": 0.55,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "https://www.ethnologie.uni-muenchen.de/studium/master/index.html",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://www.ethnologie.uni-muenchen.de/studium/master/index.html",
+    "scraped_at": "2026-05-18T07:04:45.186083",
+    "confidence": 0.55,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Japanologie Informationen zum Japan-Zentrum unter http://www.japan.lmu.de Studiengangskoordinator/Fachstudienberatung: Dr. Yumiko Murata, Raum D 104, Tel.: 2180-9823 e-mail:y.murata@lrz.uni-muenchen.de Die BELEGUNG erfolgt über den Modulbaum. Eine Anleitung dazu findet sich auf unserer Homepage.",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608%7C812573&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.205636",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Naher und Mittlerer Osten Institut für den Nahen und Mittleren Osten Veterinärstr. 1 80539 München www.naher-osten.lmu.de Studienberatung, Studiengangskoordinatorin: Dr. Sabrina Zahren Sabrina.Zahren@lmu.de Sprechstunden : Mo 10-11:30 Uhr, Mi 10-11:30 Uhr Betreuung MA-Abschlussarbeiten: Arabistik: Kaplony, El Bulbeisi Iranistik: Rahimi Bahmany, Catanzaro, Kiyanrad Judaistik: Vollandt, Busa, Trauer Turkologie: Hacisalihoglu, Özsoy, Lischewski",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608%7C803056&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.227194",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Vst.-Nr. Veranstaltung Vst.-Art Aktion 12258 Römisches und koptisches Ägypten - Rösch , Kranz Übung belegen/abmelden 12085 Studienberatung (Institut) - Ortisi n/a 12090 Kolloquium: für Master-Studiengang und Doktoranden - Ortisi Kolloquium 12079 Vortragsreihe Vor- und Frühgeschichtliche Archäologie und Provinzialrömische Archäologie - Metzner-Nebelsick , Päffgen , Stockhammer , Ortisi , Teegen Vortrag",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608%7C816081&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.246041",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Kolloquium: für Master-Studiengang und Doktoranden - Ortisi",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608%7C816081&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.246326",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Kolloquium: für Master-Studiengang und Doktoranden",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=1106672&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung",
+    "scraped_at": "2026-05-18T07:04:45.248142",
+    "confidence": 0.55,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Spätantike und Byzantinische Kunstgeschichte Für ein Praktikum wenden Sie sich an die Fachstudienberatung.",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608%7C811122&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.276057",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "P 4 Vorderasiatische Archäologie für Master II (6 ECTS)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608%7C801203&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.287676",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Vor- und Frühgeschichtliche Archäologie Die Veranstaltungen im Wintersemester 23/24 werden noch bekannt gegeben.",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608%7C815026&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.304215",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Vst.-Nr. Veranstaltung Vst.-Art Aktion 12076 Master- und Doktorandenkolloquium - Metzner-Nebelsick , Teegen Kolloquium 12077 Master- und Doktorandenkolloquium - Päffgen Kolloquium 12078 Doktorandenkolloquium Stockhammer - Stockhammer Kolloquium 12079 Vortragsreihe Vor- und Frühgeschichtliche Archäologie und Provinzialrömische Archäologie - Metzner-Nebelsick , Päffgen , Stockhammer , Ortisi , Teegen Vortrag",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608%7C815026&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.304811",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master- und Doktorandenkolloquium - Päffgen",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608%7C815026&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.305037",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Computerlinguistik",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C800687&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.348854",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Computerlinguistik",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C800687&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.349013",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Informatik plus Computerlinguistik",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C800687&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.349166",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Informatik mit integriertem Anwendungsfach",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C800687&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.349322",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Magister / Aufbaustudium / Promotion",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C800687&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.349489",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "B.A. Nebenfach 'Digital Humanities - Sprach- & Literaturwissenschaften (DH-S&L)' Kontakt: Studiengangskoordinator und Fachstudienberatung: Dr. Markus Frank M.P.A. Markus.Frank@itg.uni-muenchen.de Büro: Amalienstraße 73a 009 Sprechzeiten: siehe Homepage des Studiengangs",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C810625&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.378313",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Hauptfach",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C825934&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.399875",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Hauptfach",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C825934&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.400030",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master: AVL Angebote für den Gemeinsamen Geistes- und Sozialwiss. Profilbereich (2012)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C825934&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.400394",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master: AVL Angebote für den Gemeinsamen Geistes- und Sozialwiss. Profilbereich (2020)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C825934&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.400587",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "M.A. HF 'Cultural and Cognitive Linguistics' (CCL)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C810638&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.442049",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Veranstaltungen für den Master-Profilbereich",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C810638&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.442236",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Veranstaltungen für B.A. NF 'Sprache, Literatur, Kultur'",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C810638&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.442495",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Nordamerikastudien 2019 (120 Punkte)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C813969&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.450759",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master American History, Culture, and Society 2019 (120 Punkte)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C813969&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.450936",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Kurse für B.A. Nebenfach 'Sprache, Literatur, Kultur'",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C813969&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.451237",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Hauptfach Deutsch als Fremdsprache (PO-Version 2021)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C815975&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.463042",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Hauptfach Deutsch als Fremdsprache (PO-Version 2015)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C815975&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.463223",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Nebenfach Deutsch als Fremdsprache (PO-Version 2021)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C815975&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.463403",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Nebenfach Deutsch als Fremdsprache (PO-Version 2015)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C815975&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.463568",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Deutsch als Fremdsprache (PO-Version 2019)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C815975&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.463730",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Internationaler Master Deutsch als Fremdsprache (PO-Version 2012",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C815975&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.463896",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Internationaler Master Deutsch als Fremdsprache (PO-Version 2012)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C815975&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.464064",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Module für den M.A. Geistes- und Sozialwissenschaftlichen Profilbereich (PO 2012)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C815975&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.464250",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Module für den M.A. Geistes- und Sozialwissenschaftlichen Profilbereich (PO 2020)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C815975&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.464452",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Module für B.A. Wirtschaftspädagogik II (PO-Version 2015)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C815975&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.464635",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Module für B.A. Wirtschaftspädagogik II (PO-Version 2024)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C815975&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.464810",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Module für M.A. Wirtschaftspädagogik II (PO-Version 2015 und 2018)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C815975&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.464995",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Module für M.A. Wirtschaftspädagogik II (PO-Version 2024)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C815975&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.465171",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "B.A. Nebenfach 'Sprache, Literatur, Kultur' - Studienschwerpunkt DaF",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C815975&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.465638",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor-Hauptfach 'Germanistik' (PStO 2009 und 2010)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C816965&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.486625",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor-Hauptfach Germanistik (PStO 2024)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C816965&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.486795",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor-Nebenfach Germanistik (PStO 2024)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C816965&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.486954",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Medienkulturwissenschaft (2024)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C816965&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.487108",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor-Nebenfach 'Sprache, Literatur, Kultur' Kursangebot Germanistik",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C816965&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.487268",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Germanistische Linguistik",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C816965&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.487434",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Germanistische Linguistik (2019)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C816965&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.487587",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Germanistische Literaturwissenschaft",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C816965&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.487738",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Germanistische Literaturwissenschaft (2018)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C816965&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.487892",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master-Nebenfach Neuere deutsche Literatur",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C816965&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.488214",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Deutsch Lehramt an Gymnasien LAGY (modularisiert)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C816965&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.488385",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Deutsch Lehramt an Gymnasien LAGY (2024)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C816965&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.488548",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Deutsch Lehramt an Realschulen LARS (modularisiert)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C816965&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.488768",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Deutsch Lehramt an Realschulen LARS (2024)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C816965&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.488935",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Deutsch Lehramt an Mittelschulen Unterrichtsfach LAHS (modularisiert)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C816965&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.489102",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Deutsch Lehramt an Mittelschulen LAMS (2024)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C816965&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.489263",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Deutsch Lehramt an Grundschulen Unterrichtsfach LAGS (modularisiert)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C816965&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.489443",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Deutsch Lehramt an Grundschulen LAGS (2024)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C816965&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.489605",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Berufliche Bildung (TUM)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C816965&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.490523",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Berufliche Bildung (TUM) ab 2023",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C816965&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.490677",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Berufliche Bildung (TUM)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C816965&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.490828",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Berufliche Bildung (TUM) ab 2023",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C816965&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.490979",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Wirtschaftspädagogik",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C816965&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.491193",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Wirtschaftspädagogik (ab 2024)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C816965&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.491364",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Wirtschaftspädagogik",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C816965&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.491519",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Wirtschaftspädagogik (ab 2024)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C816965&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.491672",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "INFORMATIONSVERANSTALTUNGEN für ERSTSEMESTER _________________________________________________ Lehramt Gymnasium: 26.3.2026, 16:00-18:00 Zoom BA Anglistik: 25.03.2026 16:00-18:00 Zoom Weitere Informationen finden Sie auf der Homepage der Anglistik _______________________________________________",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C811381&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.509747",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Lehramt Haupt/Mittelschule",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C811381&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.510697",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Wirtschaftspädagogik II (PStO 2015)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C811381&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.512498",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Wirtschaftspädagogik II (PStO 2024)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C811381&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.512661",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Wirtschaftspädagogik II (PStO 2015)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C811381&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.512819",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Wirtschaftspädagogik II (PStO 2024)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C811381&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.512974",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Finnougristik B.A.",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C800453&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.521945",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Finnougristik Master",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C800453&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.522102",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Lehrangebot für B.A. Nebenfach 'Sprache, Literatur, Kultur'",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C800453&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.522274",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "M.A. Albanologie",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C821887&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.531336",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master VIS",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C821887&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.531498",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "M.A. Profilbereich",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C821887&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.531644",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "B.A. Nebenfach 'Sprache, Literatur, Kultur' - Studienschwerpunkt Indogermanistik und Historische Sprachwissenschaft",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C821887&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.531821",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Angebot im \"Gemeinsamen Geistes- und Sozialwissenschaftlichen Profilbereich\" (Master)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C807311&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.538767",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "B.A. Hauptfach Italianistik",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C821640&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.565380",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Modularisiertes Lehramt vertieft Italienisch (LAGy)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C821640&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.565546",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "M.A. Italienstudien (MAIt)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C821640&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.565702",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "M.A. Romanistik/Italianistik und Profilbereich RomIt",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C821640&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.565861",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "B.A. Nebenfach 'Sprache, Literatur, Kultur' (SLK)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C821640&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.566021",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "B.A.-Studiengänge Romanistik (HF) und 'Sprache, Literatur, Kultur' (NF)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C820642&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.577864",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "M.A. Romanistik / M.A. Profilbereich RomIt",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C820642&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.578048",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Slavische Philologie",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C820483&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.595079",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Slavische Philologie (2010)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C820483&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.595245",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Slavische Philologie (2023)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C820483&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.595412",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Nebenfach 'Sprache, Literatur, Kultur'",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C820483&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.595569",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Slavische Philologie (Master 2017)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C820483&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.595724",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Lehramt Gymnasium Russisch (modularisiert)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C820483&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.595877",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Lehramt Gymnasium Russisch (modularisiert) (2009)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C820483&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.596030",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Lehramt Gymnasium Russisch (modularisiert) (2023)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C820483&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.596184",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Lehramt Polnisch (nicht modularisiert) (Polnisch als Erweiterungsfach am Gymnasium)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C820483&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.596364",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Lehramt Tschechisch (nicht modularisiert) (Tschechisch als Erweiterungsfach am Gymnasium)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C820483&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.596539",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor-Hauptfach Politikwissenschaft 120 ECTS-Punkte",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C810551%7C807518&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.639599",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor-Nebenfach Politikwissenschaft 60 ECTS-Punkte",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C810551%7C807518&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.639772",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor-Nebenfach Politikwissenschaft 30 ECTS-Punkte",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C810551%7C807518&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.639932",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Lehramt Politik und Gesellschaft",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C810551%7C807518&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.640087",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Hauptfach 120 ECTS",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C810551%7C808869&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.648957",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Nebenfach 60 ECTS",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C810551%7C808869&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.649114",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Nebenfach 30 ECTS",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C810551%7C808869&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.649262",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master 120 ECTS Punkte",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C810551%7C808869&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.649545",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Politik und Gesellschaft Lehramt (Teilfach Soziologie)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C810551%7C808869&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.649704",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "1. Mathematik Studienberatung: Mathematik (Bachelor und Master): Dr. Simon Gritschacher, Anfragen per E-Mail an studienberatung.mathematik@math.lmu.de Wirtschaftsmathematik (Bachelor) und Finanz- und Versicherungsmathematik (Master): Anfragen per Kontaktformular Staatsexamen (Lehramt Gymnasium) und Wirtschaftspädagogik (Bachelor und Master): Dr. Ralf Gerkmann, n. Vereinb. per E-Mail: Ralf.Gerkmann@math.lmu.de Mathematik als Unterrichtsfach (Lehramt Grund-, Mittel-, Realschule): Dr. Erwin Schörner, n. Vereinb., Zi. B 322, Tel. 2180-4498 Fachdidaktik und Didaktik der Mathematik (Lehramt Grundschule): Kathrin Nilsson, n. Vereinb., Zi. B 207, Tel. 2180-4634 Fachdidaktik und Didaktik der Mathematik (Lehramt Mittel-, Realschule, Gymnasium): Dr. Alexander Rachel, n. Vereinb., Zi. B 221, Tel. 2180-4480",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C820915%7C813384&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.672827",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Studienberatung: Mathematik (Bachelor und Master): Dr. Simon Gritschacher, Anfragen per E-Mail an studienberatung.mathematik@math.lmu.de Wirtschaftsmathematik (Bachelor) und Finanz- und Versicherungsmathematik (Master): Anfragen per Kontaktformular Staatsexamen (Lehramt Gymnasium) und Wirtschaftspädagogik (Bachelor und Master): Dr. Ralf Gerkmann, n. Vereinb. per E-Mail: Ralf.Gerkmann@math.lmu.de Mathematik als Unterrichtsfach (Lehramt Grund-, Mittel-, Realschule): Dr. Erwin Schörner, n. Vereinb., Zi. B 322, Tel. 2180-4498 Fachdidaktik und Didaktik der Mathematik (Lehramt Grundschule): Kathrin Nilsson, n. Vereinb., Zi. B 207, Tel. 2180-4634 Fachdidaktik und Didaktik der Mathematik (Lehramt Mittel-, Realschule, Gymnasium): Dr. Alexander Rachel, n. Vereinb., Zi. B 221, Tel. 2180-4480",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C820915%7C813384&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.673196",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Statistik und Data Science (PO 2021)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C820915%7C800568&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.691753",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Statistics and Data Science (PO 2021)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C820915%7C800568&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.691913",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Data Science ESG",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C820915%7C800568&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.692059",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Physik (Bachelor)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C811633%7C803541&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.703904",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Physik plus Meteorologie (Bachelor)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C811633%7C803541&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.704065",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Physics (Master)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C811633%7C801250&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.712345",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Astrophysics (Master)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C811633%7C801250&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.712519",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Meteorology (Master)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C811633%7C801250&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.712665",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Theoretical and Mathematical Physics (TMP-Master)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C811633%7C801250&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.712824",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Quantum Science & Technology (Master)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C811633%7C801250&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.712984",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Lehramt Gymnasium (Unterrichtsfach)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C811633%7C809101&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.720294",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Lehramt Realschule (Unterrichtsfach)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C811633%7C809101&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.720465",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Lehramt Mittelschule (Unterrichtsfach)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C811633%7C809101&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.720619",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Lehramt Grundschule (Unterrichtsfach)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C811633%7C809101&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.720767",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Lehramt Mittelschule im Rahmen einer Fächergruppe (Didaktikfach)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C811633%7C809101&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.720932",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Lehramt Grundschule im Rahmen einer Fächergruppe (Didaktikfach)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C811633%7C809101&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.721103",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Courses in the Master Program Biochemistry",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C816596%7C816065&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.808645",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Klausur Statistik (Modul P20 im Bachelor-Studiengang Biologie) - Metzler",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C824227%7C819923&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.834211",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Nachklausur Statistik (Modul P20 im Bachelor-Studiengang Biologie) - Metzler",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C824227%7C819923&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.834306",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Klausur Statistik (Modul P20 im Bachelor-Studiengang Biologie)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=1115296&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung",
+    "scraped_at": "2026-05-18T07:04:45.836912",
+    "confidence": 0.55,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Nachklausur Statistik (Modul P20 im Bachelor-Studiengang Biologie)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=1115297&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung",
+    "scraped_at": "2026-05-18T07:04:45.836961",
+    "confidence": 0.55,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "master-neurosci@lmu.de",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "mailto:master-neurosci@lmu.de",
+    "scraped_at": "2026-05-18T07:04:45.868073",
+    "confidence": 0.55,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "A) Bachelor Start ab WS 20/21",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C824227%7C825229&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.877108",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "A) Bachelor Start vor WS 19/20",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C824227%7C825229&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.877276",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "B) Master Human Biology - principles of health and disease",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C824227%7C825229&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.877453",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "B) Master Molecular and Cellular Biology",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C824227%7C825229&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.877618",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "B) Master Neuroscience",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C824227%7C825229&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.877768",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "B) Master Plant Sciences",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C824227%7C825229&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.877915",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "B) Master Evolution, Ecology and Systematics",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C824227%7C825229&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.878072",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "E) Lehramt Start ab WS 20/21",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C824227%7C825229&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.878229",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "E) Lehramt Start vor WS 20/21",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C824227%7C825229&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.878398",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Geographie - Hauptfach",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822068%7C816220&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.903324",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Bachelor Geographie - Nebenfach",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822068%7C816220&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.903499",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Umweltsysteme und Nachhaltigkeit - Monitoring, Modellierung und Management",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822068%7C816220&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.903811",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Human Geography and Sustainability - Monitoring, Modeling and Management",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822068%7C816220&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.903989",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Gemeinsamer Bachelor-Studiengang Geowissenschaften LMU / TUM",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822068%7C827319&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.912762",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Nebenfach Bachelor Geophysik (30 ECTS)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822068%7C827319&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.912932",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master Geomaterials and Geochemistry (LMU/TUM)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822068%7C827319&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.913245",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Master-Studiengang Geobiology and Paleobiology",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822068%7C827319&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.913416",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "Gemeinsamer Master-Studiengang Ingenieur- und Hydrogeologie TUM/LMU",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822068%7C827319&P.vx=kurz",
+    "scraped_at": "2026-05-18T07:04:45.913579",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
+    "source_program_name": "https://www.pags.pa.uni-muenchen.de/bachelor/index.html",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://www.pags.pa.uni-muenchen.de/bachelor/index.html",
+    "scraped_at": "2026-05-18T07:04:45.931065",
+    "confidence": 0.55,
+    "metadata": {}
+  }
+]

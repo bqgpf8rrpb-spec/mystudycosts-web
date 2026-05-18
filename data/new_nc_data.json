@@ -591,6 +591,11 @@
   },
   {
     "university": "Technical University of Munich (TUM)",
+    "program": "Geodesy and Earth Observation (Bachelor of Science)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Technical University of Munich (TUM)",
     "program": "Geodesy and Geoinformation (B.Sc.)",
     "nc_threshold": 0.0
   },
