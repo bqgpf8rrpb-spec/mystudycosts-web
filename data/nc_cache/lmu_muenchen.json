@@ -1,5 +1,5 @@
 {
-  "cached_at": "2026-05-18T07:04:58.393739",
+  "cached_at": "2026-05-25T07:22:44.397038",
   "records": [
     {
       "university": "Ludwig Maximilian University of Munich (LMU)",
@@ -8,7 +8,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Bachelor Betriebswirtschaftslehre (PStO 2024)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822707&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.728954",
+      "scraped_at": "2026-05-25T07:22:29.787331",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -19,7 +19,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Bachelor Betriebswirtschaftslehre (PStO 2015)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822707&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.729125",
+      "scraped_at": "2026-05-25T07:22:29.787505",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -30,7 +30,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Bachelor Wirtschaftspädagogik (Wirtschaftspädagogik I) (PStO 2024)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822707&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.729295",
+      "scraped_at": "2026-05-25T07:22:29.787679",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -41,7 +41,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Bachelor Wirtschaftspädagogik (Wirtschaftspädagogik I) (PStO 2015)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822707&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.729475",
+      "scraped_at": "2026-05-25T07:22:29.787849",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -52,7 +52,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Bachelor Wirtschaftspädagogik mit integriertem Wahlfach (Wirtschaftspädagogik II) (PStO 2024)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822707&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.729657",
+      "scraped_at": "2026-05-25T07:22:29.788039",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -63,7 +63,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Bachelor Wirtschaftspädagogik mit integriertem Wahlfach (Wirtschaftspädagogik II) (PStO 2015)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822707&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.729841",
+      "scraped_at": "2026-05-25T07:22:29.788223",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -74,7 +74,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Master Betriebswirtschaftslehre (PStO 2024)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822707&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.730011",
+      "scraped_at": "2026-05-25T07:22:29.788388",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -85,7 +85,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Master Betriebswirtschaftslehre (PStO 2018)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822707&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.730165",
+      "scraped_at": "2026-05-25T07:22:29.788539",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -96,7 +96,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Master Wirtschaftspädagogik (Wirtschaftspädagogik I) (PStO 2024)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822707&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.730328",
+      "scraped_at": "2026-05-25T07:22:29.788701",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -107,7 +107,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Master Wirtschaftspädagogik (Wirtschaftspädagogik I) (PStO 2018)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822707&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.730512",
+      "scraped_at": "2026-05-25T07:22:29.788867",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -118,7 +118,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Master Wirtschaftspädagogik mit integriertem Wahlfach (Wirtschaftspädagogik II) (PStO 2024)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822707&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.730687",
+      "scraped_at": "2026-05-25T07:22:29.789055",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -129,7 +129,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Master Wirtschaftspädagogik mit integriertem Wahlfach (Wirtschaftspädagogik II) (PStO 2018)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822707&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.730864",
+      "scraped_at": "2026-05-25T07:22:29.789234",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -140,7 +140,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Master Management and Digital Technologies (PStO 2024)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822707&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.731030",
+      "scraped_at": "2026-05-25T07:22:29.789404",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -151,7 +151,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Master Management and Digital Technologies (PStO 2021)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822707&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.731188",
+      "scraped_at": "2026-05-25T07:22:29.789567",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -162,7 +162,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Lehramt Wirtschaftswissenschaften (PStO 2024)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822707&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.731343",
+      "scraped_at": "2026-05-25T07:22:29.789726",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -173,7 +173,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Bachelor of Science Volkswirtschaftslehre (PStO 2025) - Immatrikulation AB dem WiSe 2025/26",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C818055&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.742647",
+      "scraped_at": "2026-05-25T07:22:29.799712",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -184,7 +184,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Bachelor of Science Volkswirtschaftslehre (PStO 2013) - Immatrikulation VOR dem WiSe 2025/26",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C818055&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.742832",
+      "scraped_at": "2026-05-25T07:22:29.799895",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -195,7 +195,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Master of Science in Economics (PStO 2025) - Immatrikulation AB dem WiSe 2025/26",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C818055&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.743007",
+      "scraped_at": "2026-05-25T07:22:29.800084",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -206,7 +206,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Master of Science in Economics (PStO 2013) - Immatrikulation VOR dem WiSe 2025/26",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C818055&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.743178",
+      "scraped_at": "2026-05-25T07:22:29.800254",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -217,7 +217,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Master of Science in Quantitative Economics (PStO 2025) - Immatrikulation AB dem WiSe 2025/26",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C818055&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.743348",
+      "scraped_at": "2026-05-25T07:22:29.800425",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -228,7 +228,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Master of Science in Quantitative Economics (PStO 2017) - Immatrikulation VOR dem WiSe 2025/26",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C818055&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.743532",
+      "scraped_at": "2026-05-25T07:22:29.800595",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -239,7 +239,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Promotion Naher und Mittlerer Osten",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.810397",
+      "scraped_at": "2026-05-25T07:22:29.869702",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -250,7 +250,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Bachelor Archäologie: Europa und Vorderer Orient (Hauptfach)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.812338",
+      "scraped_at": "2026-05-25T07:22:29.871657",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -261,7 +261,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Bachelor Buddhistische und Südasiatische Studien (Hauptfach)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.812516",
+      "scraped_at": "2026-05-25T07:22:29.871826",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -272,7 +272,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Bachelor Classical Studies (Hauptfach)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.812671",
+      "scraped_at": "2026-05-25T07:22:29.871994",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -283,7 +283,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Bachelor Ethnologie (Hauptfach)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.812820",
+      "scraped_at": "2026-05-25T07:22:29.872143",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -294,7 +294,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Bachelor Griechische Studien (Hauptfach)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.812970",
+      "scraped_at": "2026-05-25T07:22:29.872291",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -305,7 +305,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Bachelor Empirische Kulturwissenschaft und Europäische Ethnologie (Hauptfach)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.813136",
+      "scraped_at": "2026-05-25T07:22:29.872455",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -316,7 +316,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Bachelor Japanologie (Hauptfach)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.813290",
+      "scraped_at": "2026-05-25T07:22:29.872611",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -327,7 +327,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Bachelor Naher und Mittlerer Osten (Hauptfach)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.813460",
+      "scraped_at": "2026-05-25T07:22:29.872763",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -338,7 +338,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Bachelor Sinologie (Hauptfach)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.813608",
+      "scraped_at": "2026-05-25T07:22:29.872912",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -349,7 +349,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Bachelor Sinologie (Nebenfach)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.813753",
+      "scraped_at": "2026-05-25T07:22:29.873070",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -360,7 +360,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Bachelor Antike und Orient (Nebenfach)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.813902",
+      "scraped_at": "2026-05-25T07:22:29.873219",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -371,7 +371,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Bachelor Vergleichende Kultur- und Religionswissenschaft (Nebenfach)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.814066",
+      "scraped_at": "2026-05-25T07:22:29.873377",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -382,7 +382,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Master Ägyptologie und Koptologie",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.814223",
+      "scraped_at": "2026-05-25T07:22:29.873533",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -393,7 +393,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Master Altorientalistik (PStO 2018)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.814382",
+      "scraped_at": "2026-05-25T07:22:29.873686",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -404,7 +404,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Master Byzantinistik",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.814529",
+      "scraped_at": "2026-05-25T07:22:29.873832",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -415,7 +415,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Master Digital Cultural Heritage",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.814675",
+      "scraped_at": "2026-05-25T07:22:29.873989",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -426,7 +426,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Master Empirische Kulturwissenschaft und Europäische Ethnologie*",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.814837",
+      "scraped_at": "2026-05-25T07:22:29.874150",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -437,7 +437,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Master Ethnologie",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.814987",
+      "scraped_at": "2026-05-25T07:22:29.874301",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -448,7 +448,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Master Interkulturelle Kommunikation",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.815132",
+      "scraped_at": "2026-05-25T07:22:29.874449",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -459,7 +459,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Master Japanologie",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.815271",
+      "scraped_at": "2026-05-25T07:22:29.874593",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -470,7 +470,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Master Klassische Archäologie",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.815424",
+      "scraped_at": "2026-05-25T07:22:29.874739",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -481,7 +481,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Master Naher und Mittlerer Osten",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.815573",
+      "scraped_at": "2026-05-25T07:22:29.874890",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -492,7 +492,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Master Neogräzistik",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.815716",
+      "scraped_at": "2026-05-25T07:22:29.875048",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -503,7 +503,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Master Religion und Philosophie in Asien",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.816016",
+      "scraped_at": "2026-05-25T07:22:29.875356",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -514,7 +514,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Master Sinologie",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.816158",
+      "scraped_at": "2026-05-25T07:22:29.875500",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -525,7 +525,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Master Spätantike und Byzantinische Kunstgeschichte",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.816310",
+      "scraped_at": "2026-05-25T07:22:29.875654",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -536,7 +536,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Master Vor- und Frühgeschichtliche Archäologie",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.816628",
+      "scraped_at": "2026-05-25T07:22:29.875974",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -547,7 +547,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "B.A. Nebenfach 'Digital Humanities - Sprach- & Literaturwissenschaften (DH-S&L)'",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.867024",
+      "scraped_at": "2026-05-25T07:22:29.893363",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -558,7 +558,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "B.A. Nebenfach 'Sprache, Literatur, Kultur'",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:43.867185",
+      "scraped_at": "2026-05-25T07:22:29.893526",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -569,7 +569,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Studiengang Evangelische Theologie für das Lehramt an Gymnasien (PStO 2019)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C809028%7C816000&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:44.201087",
+      "scraped_at": "2026-05-25T07:22:30.276660",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -580,7 +580,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Studiengang Evangelische Theologie für das Lehramt an Gymnasien (PStO 2010)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C809028%7C816000&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:44.202305",
+      "scraped_at": "2026-05-25T07:22:30.277839",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -591,7 +591,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Lehramt Gymnasium Wirtschaftswissenschaften",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822707%7C811870&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:44.442975",
+      "scraped_at": "2026-05-25T07:22:30.520135",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -602,7 +602,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Lehramt Realschule Wirtschaftswissenschaften",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822707%7C811870&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:44.443138",
+      "scraped_at": "2026-05-25T07:22:30.520303",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -613,7 +613,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Lehramt Grundschule",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C807909%7C806332&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:44.802348",
+      "scraped_at": "2026-05-25T07:22:30.884964",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -624,7 +624,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Lehramt Sonderpädagogik",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C807909%7C806332&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:44.802938",
+      "scraped_at": "2026-05-25T07:22:30.885553",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -635,7 +635,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Infostunde zum Master Empirische Kulturwissenschaft und Europäische Ethnologie - Hempel",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C821608%7C808369&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.051092",
+      "scraped_at": "2026-05-25T07:22:31.140459",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -646,7 +646,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Infostunde zum Master Empirische Kulturwissenschaft und Europäische Ethnologie",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=1115411&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung",
-      "scraped_at": "2026-05-18T07:04:45.053998",
+      "scraped_at": "2026-05-25T07:22:31.143398",
       "confidence": 0.55,
       "source_type": "live_scrape"
     },
@@ -657,7 +657,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Bachelor Computerlinguistik",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C800687&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.348854",
+      "scraped_at": "2026-05-25T07:22:31.439797",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -668,7 +668,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Master Computerlinguistik",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C800687&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.349013",
+      "scraped_at": "2026-05-25T07:22:31.439978",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -679,7 +679,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Bachelor Informatik plus Computerlinguistik",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C800687&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.349166",
+      "scraped_at": "2026-05-25T07:22:31.440136",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -690,7 +690,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Bachelor Informatik mit integriertem Anwendungsfach",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C800687&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.349322",
+      "scraped_at": "2026-05-25T07:22:31.440298",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -701,7 +701,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "M.A. HF 'Cultural and Cognitive Linguistics' (CCL)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C810638&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.442049",
+      "scraped_at": "2026-05-25T07:22:31.498741",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -712,7 +712,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Bachelor Nordamerikastudien 2019 (120 Punkte)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C813969&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.450759",
+      "scraped_at": "2026-05-25T07:22:31.507644",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -723,7 +723,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Master American History, Culture, and Society 2019 (120 Punkte)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C813969&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.450936",
+      "scraped_at": "2026-05-25T07:22:31.507823",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -734,7 +734,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Master Deutsch als Fremdsprache (PO-Version 2019)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C815975&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.463730",
+      "scraped_at": "2026-05-25T07:22:31.563831",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -745,7 +745,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Bachelor Medienkulturwissenschaft (2024)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C816965&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.487108",
+      "scraped_at": "2026-05-25T07:22:31.586086",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -756,7 +756,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Deutsch Lehramt an Gymnasien LAGY (modularisiert)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C816965&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.488385",
+      "scraped_at": "2026-05-25T07:22:31.587350",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -767,7 +767,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Deutsch Lehramt an Gymnasien LAGY (2024)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C816965&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.488548",
+      "scraped_at": "2026-05-25T07:22:31.587513",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -778,7 +778,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Deutsch Lehramt an Realschulen LARS (modularisiert)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C816965&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.488768",
+      "scraped_at": "2026-05-25T07:22:31.587672",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -789,7 +789,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Deutsch Lehramt an Realschulen LARS (2024)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C816965&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.488935",
+      "scraped_at": "2026-05-25T07:22:31.587830",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -800,7 +800,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Deutsch Lehramt an Mittelschulen LAMS (2024)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C816965&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.489263",
+      "scraped_at": "2026-05-25T07:22:31.588176",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -811,7 +811,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Deutsch Lehramt an Grundschulen LAGS (2024)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C816965&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.489605",
+      "scraped_at": "2026-05-25T07:22:31.588506",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -822,7 +822,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Bachelor Wirtschaftspädagogik",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C816965&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.491193",
+      "scraped_at": "2026-05-25T07:22:31.590110",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -833,7 +833,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Master Wirtschaftspädagogik",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C816965&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.491519",
+      "scraped_at": "2026-05-25T07:22:31.590412",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -844,7 +844,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Bachelor Wirtschaftspädagogik II (PStO 2015)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C811381&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.512498",
+      "scraped_at": "2026-05-25T07:22:31.612497",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -855,7 +855,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Bachelor Wirtschaftspädagogik II (PStO 2024)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C811381&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.512661",
+      "scraped_at": "2026-05-25T07:22:31.612659",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -866,7 +866,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Master Wirtschaftspädagogik II (PStO 2015)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C811381&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.512819",
+      "scraped_at": "2026-05-25T07:22:31.612816",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -877,7 +877,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Master Wirtschaftspädagogik II (PStO 2024)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C811381&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.512974",
+      "scraped_at": "2026-05-25T07:22:31.612985",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -888,7 +888,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Finnougristik B.A.",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C800453&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.521945",
+      "scraped_at": "2026-05-25T07:22:31.622002",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -899,7 +899,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Finnougristik Master",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C800453&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.522102",
+      "scraped_at": "2026-05-25T07:22:31.622158",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -910,7 +910,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "M.A. Italienstudien (MAIt)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C821640&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.565702",
+      "scraped_at": "2026-05-25T07:22:31.666071",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -921,7 +921,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "B.A. Nebenfach 'Sprache, Literatur, Kultur' (SLK)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C821640&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.566021",
+      "scraped_at": "2026-05-25T07:22:31.666388",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -932,7 +932,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Bachelor Nebenfach 'Sprache, Literatur, Kultur'",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C805134%7C820483&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.595569",
+      "scraped_at": "2026-05-25T07:22:31.695970",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -943,7 +943,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Lehramt Politik und Gesellschaft",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C810551%7C807518&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.640087",
+      "scraped_at": "2026-05-25T07:22:31.738544",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -954,7 +954,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Politik und Gesellschaft Lehramt (Teilfach Soziologie)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C810551%7C808869&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.649704",
+      "scraped_at": "2026-05-25T07:22:31.750068",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -965,7 +965,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Bachelor Statistik und Data Science (PO 2021)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C820915%7C800568&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.691753",
+      "scraped_at": "2026-05-25T07:22:31.792568",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -976,7 +976,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Master Statistics and Data Science (PO 2021)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C820915%7C800568&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.691913",
+      "scraped_at": "2026-05-25T07:22:31.792729",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -987,7 +987,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Master Data Science ESG",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C820915%7C800568&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.692059",
+      "scraped_at": "2026-05-25T07:22:31.792875",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -998,7 +998,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Physik (Bachelor)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C811633%7C803541&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.703904",
+      "scraped_at": "2026-05-25T07:22:31.804599",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -1009,7 +1009,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Physik plus Meteorologie (Bachelor)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C811633%7C803541&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.704065",
+      "scraped_at": "2026-05-25T07:22:31.804764",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -1020,7 +1020,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Physics (Master)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C811633%7C801250&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.712345",
+      "scraped_at": "2026-05-25T07:22:31.811373",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -1031,7 +1031,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Astrophysics (Master)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C811633%7C801250&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.712519",
+      "scraped_at": "2026-05-25T07:22:31.811528",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -1042,7 +1042,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Meteorology (Master)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C811633%7C801250&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.712665",
+      "scraped_at": "2026-05-25T07:22:31.811676",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -1053,7 +1053,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Theoretical and Mathematical Physics (TMP-Master)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C811633%7C801250&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.712824",
+      "scraped_at": "2026-05-25T07:22:31.811836",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -1064,7 +1064,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Quantum Science & Technology (Master)",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C811633%7C801250&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.712984",
+      "scraped_at": "2026-05-25T07:22:31.812005",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -1075,7 +1075,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "B) Master Human Biology - principles of health and disease",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C824227%7C825229&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.877453",
+      "scraped_at": "2026-05-25T07:22:31.976355",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -1086,7 +1086,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "B) Master Molecular and Cellular Biology",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C824227%7C825229&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.877618",
+      "scraped_at": "2026-05-25T07:22:31.976515",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -1097,7 +1097,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "B) Master Evolution, Ecology and Systematics",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C824227%7C825229&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.878072",
+      "scraped_at": "2026-05-25T07:22:31.976970",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -1108,7 +1108,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Bachelor Geographie - Hauptfach",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822068%7C816220&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.903324",
+      "scraped_at": "2026-05-25T07:22:32.000562",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -1119,7 +1119,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Bachelor Geographie - Nebenfach",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822068%7C816220&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.903499",
+      "scraped_at": "2026-05-25T07:22:32.000720",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -1130,7 +1130,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Master Umweltsysteme und Nachhaltigkeit - Monitoring, Modellierung und Management",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822068%7C816220&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.903811",
+      "scraped_at": "2026-05-25T07:22:32.001044",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -1141,7 +1141,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Master Human Geography and Sustainability - Monitoring, Modeling and Management",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822068%7C816220&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.903989",
+      "scraped_at": "2026-05-25T07:22:32.001224",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -1152,7 +1152,7 @@
       "source_university_name": "Ludwig-Maximilians-Universität München (Munich)",
       "source_program_name": "Master-Studiengang Geobiology and Paleobiology",
       "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C822068%7C827319&P.vx=kurz",
-      "scraped_at": "2026-05-18T07:04:45.913416",
+      "scraped_at": "2026-05-25T07:22:32.010471",
       "confidence": 0.65,
       "source_type": "live_scrape"
     }

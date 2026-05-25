@@ -1,0 +1,72 @@
+[
+  {
+    "university_id": "uni_bonn",
+    "status": "failed",
+    "records_extracted": 0,
+    "records_normalized": 0,
+    "duration_ms": 2185,
+    "error": "uni_bonn: fetch failed (403 Client Error: 403 for url: https://basis.uni-bonn.de/qisserver/pages/zul/applicant/searchCourseOfStudies.xhtml?_flowId=searchCourseOfStudiesAPP-flow&navigationPosition=studiesOffered,searchCourseOfStudyAPP&recordRequest=true)",
+    "retries": 1,
+    "used_fallback_cache": false
+  },
+  {
+    "university_id": "uni_bonn_static",
+    "status": "success",
+    "records_extracted": 261,
+    "records_normalized": 104,
+    "duration_ms": 29038,
+    "error": null,
+    "retries": 0,
+    "used_fallback_cache": false
+  },
+  {
+    "university_id": "tum",
+    "status": "success",
+    "records_extracted": 181,
+    "records_normalized": 149,
+    "duration_ms": 71336,
+    "error": null,
+    "retries": 0,
+    "used_fallback_cache": false
+  },
+  {
+    "university_id": "uni_koeln",
+    "status": "success",
+    "records_extracted": 3,
+    "records_normalized": 3,
+    "duration_ms": 5972,
+    "error": null,
+    "retries": 0,
+    "used_fallback_cache": false
+  },
+  {
+    "university_id": "fau_erlangen_static",
+    "status": "success",
+    "records_extracted": 225,
+    "records_normalized": 130,
+    "duration_ms": 99420,
+    "error": null,
+    "retries": 0,
+    "used_fallback_cache": false
+  },
+  {
+    "university_id": "uni_duisburg_essen",
+    "status": "success",
+    "records_extracted": 348,
+    "records_normalized": 75,
+    "duration_ms": 86310,
+    "error": null,
+    "retries": 0,
+    "used_fallback_cache": false
+  },
+  {
+    "university_id": "lmu_muenchen",
+    "status": "success",
+    "records_extracted": 299,
+    "records_normalized": 105,
+    "duration_ms": 134524,
+    "error": null,
+    "retries": 0,
+    "used_fallback_cache": false
+  }
+]
