@@ -1101,16 +1101,9 @@
   {
     "reason": "program_unmapped",
     "university": "Technical University of Munich (TUM)",
-    "source_program_name": "Berufliche Bildung Fachrichtung Bautechnik (Lehramt an beruflichen Schulen) - Master of Education (M.Ed.)",
+    "source_program_name": "Berufliche Bildung Fachrichtung Agrarwirtschaft (Lehramt an beruflichen Schulen) - Master of Education (M.Ed.)",
     "source_nc_text": "EFV",
-    "source_url": "https://www.tum.de/studium/studienangebot/detail/berufliche-bildung-fachrichtung-bautechnik-lehramt-an-beruflichen-schulen-master-of-education-med"
-  },
-  {
-    "reason": "program_unmapped",
-    "university": "Technical University of Munich (TUM)",
-    "source_program_name": "Berufliche Bildung Fachrichtung Bautechnik (Lehramt an beruflichen Schulen) - Bachelor of Education (B.Ed.)",
-    "source_nc_text": "zulassungsfrei",
-    "source_url": "https://www.tum.de/studium/studienangebot/detail/berufliche-bildung-fachrichtung-bautechnik-lehramt-an-beruflichen-schulen-bachelor-of-education-bed"
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/berufliche-bildung-fachrichtung-agrarwirtschaft-lehramt-an-beruflichen-schulen-master-of-education-med"
   },
   {
     "reason": "program_unmapped",
@@ -1122,9 +1115,9 @@
   {
     "reason": "program_unmapped",
     "university": "Technical University of Munich (TUM)",
-    "source_program_name": "Berufliche Bildung Fachrichtung Agrarwirtschaft (Lehramt an beruflichen Schulen) - Master of Education (M.Ed.)",
-    "source_nc_text": "EFV",
-    "source_url": "https://www.tum.de/studium/studienangebot/detail/berufliche-bildung-fachrichtung-agrarwirtschaft-lehramt-an-beruflichen-schulen-master-of-education-med"
+    "source_program_name": "Berufliche Bildung Fachrichtung Bautechnik (Lehramt an beruflichen Schulen) - Bachelor of Education (B.Ed.)",
+    "source_nc_text": "zulassungsfrei",
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/berufliche-bildung-fachrichtung-bautechnik-lehramt-an-beruflichen-schulen-bachelor-of-education-bed"
   },
   {
     "reason": "program_unmapped",
@@ -1143,9 +1136,16 @@
   {
     "reason": "program_unmapped",
     "university": "Technical University of Munich (TUM)",
-    "source_program_name": "Berufliche Bildung Fachrichtung Ernährungs- und Hauswirtschaftswissenschaft (Lehramt an beruflichen Schulen) - Master of Education (M.Ed.)",
+    "source_program_name": "Berufliche Bildung Fachrichtung Bautechnik (Lehramt an beruflichen Schulen) - Master of Education (M.Ed.)",
     "source_nc_text": "EFV",
-    "source_url": "https://www.tum.de/studium/studienangebot/detail/berufliche-bildung-fachrichtung-ernaehrungs-und-hauswirtschaftswissenschaft-lehramt-an-beruflichen-schulen-master-of-education-med"
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/berufliche-bildung-fachrichtung-bautechnik-lehramt-an-beruflichen-schulen-master-of-education-med"
+  },
+  {
+    "reason": "program_unmapped",
+    "university": "Technical University of Munich (TUM)",
+    "source_program_name": "Berufliche Bildung Fachrichtung Elektrotechnik und Informationstechnik (Lehramt an beruflichen Schulen) - Master of Education (M.Ed.)",
+    "source_nc_text": "EFV",
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/berufliche-bildung-fachrichtung-elektrotechnik-und-informationstechnik-lehramt-an-beruflichen-schulen-master-of-education-med"
   },
   {
     "reason": "program_unmapped",
@@ -1157,9 +1157,9 @@
   {
     "reason": "program_unmapped",
     "university": "Technical University of Munich (TUM)",
-    "source_program_name": "Berufliche Bildung Fachrichtung Elektrotechnik und Informationstechnik (Lehramt an beruflichen Schulen) - Master of Education (M.Ed.)",
+    "source_program_name": "Berufliche Bildung Fachrichtung Ernährungs- und Hauswirtschaftswissenschaft (Lehramt an beruflichen Schulen) - Master of Education (M.Ed.)",
     "source_nc_text": "EFV",
-    "source_url": "https://www.tum.de/studium/studienangebot/detail/berufliche-bildung-fachrichtung-elektrotechnik-und-informationstechnik-lehramt-an-beruflichen-schulen-master-of-education-med"
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/berufliche-bildung-fachrichtung-ernaehrungs-und-hauswirtschaftswissenschaft-lehramt-an-beruflichen-schulen-master-of-education-med"
   },
   {
     "reason": "program_unmapped",
@@ -1185,16 +1185,16 @@
   {
     "reason": "program_unmapped",
     "university": "Technical University of Munich (TUM)",
-    "source_program_name": "Bodenordnung und Landentwicklung (Bachelorteilstudiengang) - Sonstiges",
+    "source_program_name": "Brauwesen (Abschluss Diplombraumeister) - Diplom-Braumeister",
     "source_nc_text": "zulassungsfrei",
-    "source_url": "https://www.tum.de/studium/studienangebot/detail/bodenordnung-und-landentwicklung-bachelorteilstudiengang-sonstiges"
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/brauwesen-abschluss-diplombraumeister-diplom-braumeister"
   },
   {
     "reason": "program_unmapped",
     "university": "Technical University of Munich (TUM)",
-    "source_program_name": "Brauwesen (Abschluss Diplombraumeister) - Diplom-Braumeister",
+    "source_program_name": "Bodenordnung und Landentwicklung (Bachelorteilstudiengang) - Sonstiges",
     "source_nc_text": "zulassungsfrei",
-    "source_url": "https://www.tum.de/studium/studienangebot/detail/brauwesen-abschluss-diplombraumeister-diplom-braumeister"
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/bodenordnung-und-landentwicklung-bachelorteilstudiengang-sonstiges"
   },
   {
     "reason": "program_unmapped",
@@ -1227,16 +1227,16 @@
   {
     "reason": "program_unmapped",
     "university": "Technical University of Munich (TUM)",
-    "source_program_name": "Lehramt an Grundschulen – Didaktikfach Sport - Staatsexamen",
+    "source_program_name": "Lehramt an Grundschulen und Mittelschulen – Unterrichtsfach Sport - Staatsexamen",
     "source_nc_text": "Art der Zulassung Weitere Informationen zur Zulassung",
-    "source_url": "https://www.tum.de/studium/studienangebot/detail/lehramt-an-grundschulen-didaktikfach-sport-staatsexamen"
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/lehramt-an-grundschulen-und-mittelschulen-unterrichtsfach-sport-staatsexamen"
   },
   {
     "reason": "program_unmapped",
     "university": "Technical University of Munich (TUM)",
-    "source_program_name": "Lehramt an Grundschulen und Mittelschulen – Unterrichtsfach Sport - Staatsexamen",
+    "source_program_name": "Lehramt an Grundschulen – Didaktikfach Sport - Staatsexamen",
     "source_nc_text": "Art der Zulassung Weitere Informationen zur Zulassung",
-    "source_url": "https://www.tum.de/studium/studienangebot/detail/lehramt-an-grundschulen-und-mittelschulen-unterrichtsfach-sport-staatsexamen"
+    "source_url": "https://www.tum.de/studium/studienangebot/detail/lehramt-an-grundschulen-didaktikfach-sport-staatsexamen"
   },
   {
     "reason": "program_unmapped",
@@ -1731,9 +1731,9 @@
   {
     "reason": "program_unmapped",
     "university": "University of Erlangen-Nuremberg (FAU)",
-    "source_program_name": "Law (LLM) (LL.M.)",
-    "source_nc_text": "Eignungsfeststellungsverfahren",
-    "source_url": "https://www.fau.eu/degree-program/law-llm-ll-m/"
+    "source_program_name": "Law (LLM) (Magister)",
+    "source_nc_text": "NC",
+    "source_url": "https://www.fau.eu/degree-program/law-llm-magister/"
   },
   {
     "reason": "program_unmapped",
@@ -2018,27 +2018,6 @@
   {
     "reason": "program_unmapped",
     "university": "University of Duisburg-Essen",
-    "source_program_name": "Vst.-Nr. Veranstaltung Vst.-Art Aktion Bachelor Kolloquium - Chernikov , Firk Kolloquium",
-    "source_nc_text": "NC",
-    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C435352&P.vx=kurz"
-  },
-  {
-    "reason": "program_unmapped",
-    "university": "University of Duisburg-Essen",
-    "source_program_name": "Bachelor Kolloquium - Chernikov , Firk",
-    "source_nc_text": "NC",
-    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C435352&P.vx=kurz"
-  },
-  {
-    "reason": "program_unmapped",
-    "university": "University of Duisburg-Essen",
-    "source_program_name": "Bachelor Kolloquium",
-    "source_nc_text": "NC",
-    "source_url": "https://campus.uni-due.de/lsf/rds?state=verpublish&status=init&vmfile=no&publishid=444717&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung"
-  },
-  {
-    "reason": "program_unmapped",
-    "university": "University of Duisburg-Essen",
     "source_program_name": "Bachelor Lehramtsstudiengänge",
     "source_nc_text": "NC",
     "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C436330&P.vx=kurz"
@@ -2217,20 +2196,6 @@
     "source_program_name": "Master Sustainable Urban Development",
     "source_nc_text": "NC",
     "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C436443&P.vx=kurz"
-  },
-  {
-    "reason": "program_unmapped",
-    "university": "University of Duisburg-Essen",
-    "source_program_name": "Vst.-Nr. Veranstaltung Vst.-Art Semester FB / Einrichtung Aktion Bachelor Kolloquium - Chernikov , Firk Kolloquium SoSe 2026 Betriebswirtschaftslehre",
-    "source_nc_text": "NC",
-    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C435352&P.vx=mittel"
-  },
-  {
-    "reason": "program_unmapped",
-    "university": "University of Duisburg-Essen",
-    "source_program_name": "M.Sc. Chernikov",
-    "source_nc_text": "NC",
-    "source_url": "https://campus.uni-due.de/lsf/rds?state=verpublish&status=init&vmfile=no&moduleCall=webInfo&publishConfFile=webInfoPerson&publishSubDir=personal&keep=y&purge=y&personal.pid=61671"
   },
   {
     "reason": "program_unmapped",
