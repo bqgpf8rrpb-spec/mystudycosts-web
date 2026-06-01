@@ -3,7 +3,7 @@
   "university_name": "HWR Berlin",
   "portal_url": "https://www.hwr-berlin.de/international/wege-ins-ausland/partnerhochschulen/",
   "portal_type": "university_website",
-  "scraped_at": "2026-03-15T22:05:38.164Z",
+  "scraped_at": "2026-06-01T09:25:09.062Z",
   "strategy": "custom_scraper",
   "partner_count": 344,
   "partners": [
@@ -1436,13 +1436,19 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Internationale Austausch- und COIL-ProjekteProjekt UKollaborateCOIL4all @HWR BerlinBeCOILBlended Intensive ProgrammesUAS7 Virtual AcademyProjekt Toolip",
+      "partner_name": "Internationale Austausch- und COIL-ProjekteProjekt UKollaborateErasmus+ KurzzeitprogrammeCOIL4all @HWR BerlinBeCOILUAS7 Virtual AcademyProjekt Toolip",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
     },
     {
       "partner_name": "Projekt UKollaborate",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Erasmus+ Kurzzeitprogramme",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -1455,12 +1461,6 @@
     },
     {
       "partner_name": "BeCOIL",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "Blended Intensive Programmes",
       "country": "",
       "city": "Unknown",
       "faculty_department": null

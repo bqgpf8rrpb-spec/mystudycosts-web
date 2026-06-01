@@ -3,9 +3,9 @@
   "university_name": "Universität Rostock",
   "portal_url": "https://www.uni-rostock.de/internationales/wege-ins-ausland/erasmus/partnerhochschulen/",
   "portal_type": "university_website",
-  "scraped_at": "2026-03-15T22:04:14.234Z",
+  "scraped_at": "2026-06-01T09:23:29.781Z",
   "strategy": "custom_scraper",
-  "partner_count": 263,
+  "partner_count": 264,
   "partners": [
     {
       "partner_name": "Studierende/Studierendenportal",
@@ -177,6 +177,12 @@
     },
     {
       "partner_name": "Graduiertenakademie",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Lehrtransferzentrum",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -380,7 +386,7 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Willkommenskultur",
+      "partner_name": "Willkommen an der Uni Rostock",
       "country": "",
       "city": "Unknown",
       "faculty_department": null

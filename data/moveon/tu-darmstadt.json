@@ -3,9 +3,9 @@
   "university_name": "TU Darmstadt",
   "portal_url": "https://www.tu-darmstadt.de/studieren/studieninteressierte/internationale_studieninteressierte/erasmus_incoming/erasmus_kooperationen/index.de.jsp",
   "portal_type": "university_website",
-  "scraped_at": "2026-03-15T22:03:47.610Z",
+  "scraped_at": "2026-06-01T09:23:11.002Z",
   "strategy": "custom_scraper",
-  "partner_count": 233,
+  "partner_count": 240,
   "partners": [
     {
       "partner_name": "Mathematik",
@@ -326,7 +326,7 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Publikationen",
+      "partner_name": "Uni-Magazin hoch³",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -1328,25 +1328,7 @@
       "faculty_department": null
     },
     {
-      "partner_name": "TUDa Open Campus  Übersicht Bühne",
-      "country": "Vorlesungen",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "Bühne",
-      "country": "Vorlesungen",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "Ausstellungen",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "Anfahrt",
+      "partner_name": "Mitten in der Gesellschaft  Übersicht Öffentliche Vorlesungsreihen Campusführungen Wissenschaftsschloss Fördern und Spenden  Übersicht Unsere FördererWissenschafts­kommunikation",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -1401,6 +1383,66 @@
     },
     {
       "partner_name": "Error404",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "LinkedIn-Seite der TU Darmstadt",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Instagram-Kanal der TU Darmstadt",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Bluesky-Kanal der TU Darmstadt",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Facebook-Seite der TU Darmstadt",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "YouTube-Kanal der TU Darmstadt",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Sitemap",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Impressum",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Barrierefreiheit",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Datenschutzerklärung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Webseitenanalyse",
       "country": "",
       "city": "Unknown",
       "faculty_department": null

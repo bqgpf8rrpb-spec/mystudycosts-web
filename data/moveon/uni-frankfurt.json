@@ -3,9 +3,9 @@
   "university_name": "Goethe-Universität Frankfurt",
   "portal_url": "https://www.uni-frankfurt.de/35791816/Erasmus_Partneruniversitäten",
   "portal_type": "university_website",
-  "scraped_at": "2026-03-15T22:01:18.232Z",
+  "scraped_at": "2026-06-01T09:20:32.566Z",
   "strategy": "custom_scraper",
-  "partner_count": 53,
+  "partner_count": 51,
   "partners": [
     {
       "partner_name": "Goethe-Universität: Information",
@@ -20,7 +20,7 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Webmagazin",
+      "partner_name": "Newsroom",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -45,12 +45,6 @@
     },
     {
       "partner_name": "Use the search function at the top right of the page to search for the content you are looking for",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "prospective students",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -219,12 +213,6 @@
     },
     {
       "partner_name": "About the University",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "News-in-brief",
       "country": "",
       "city": "Unknown",
       "faculty_department": null

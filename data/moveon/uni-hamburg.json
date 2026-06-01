@@ -3,9 +3,9 @@
   "university_name": "Universität Hamburg",
   "portal_url": "https://www.uni-hamburg.de/internationales/studieren-im-ausland/erasmus/partnerhochschulen.html",
   "portal_type": "university_website",
-  "scraped_at": "2026-03-15T22:01:42.937Z",
+  "scraped_at": "2026-06-01T09:21:02.445Z",
   "strategy": "custom_scraper",
-  "partner_count": 132,
+  "partner_count": 133,
   "partners": [
     {
       "partner_name": "Zur Metanavigation",
@@ -776,13 +776,19 @@
       "faculty_department": null
     },
     {
-      "partner_name": "KontaktCampus-KarteNotfall & SicherheitAntidiskriminierung",
+      "partner_name": "KontaktCampus-KarteUHHAppNotfall & SicherheitAntidiskriminierung",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
     },
     {
       "partner_name": "Campus-Karte",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "UHHApp",
       "country": "",
       "city": "Unknown",
       "faculty_department": null

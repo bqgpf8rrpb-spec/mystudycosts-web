@@ -3,30 +3,18 @@
   "university_name": "DHBW Ravensburg",
   "portal_url": "https://www.dhbw-ravensburg.de/studium/internationales/partnerhochschulen",
   "portal_type": "university_website",
-  "scraped_at": "2026-03-15T22:13:42.878Z",
+  "scraped_at": "2026-06-01T09:32:50.576Z",
   "strategy": "custom_scraper",
-  "partner_count": 58,
+  "partner_count": 54,
   "partners": [
     {
-      "partner_name": "DHBW RavensburgWir über unsZahlen & FaktenOrganisationsstrukturAnsprechpersonenStellenangeboteGleichstellung & FamilieNachhaltigkeitFördervereinTermine",
+      "partner_name": "DHBW RavensburgWir über unsAnsprechpersonenStellenangeboteFördervereinTermine",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
     },
     {
       "partner_name": "Wir über uns",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "Zahlen & Fakten",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "Organisationsstruktur",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -39,18 +27,6 @@
     },
     {
       "partner_name": "Stellenangebote",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "Gleichstellung & Familie",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "Nachhaltigkeit",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -98,6 +74,12 @@
       "faculty_department": null
     },
     {
+      "partner_name": "StudiumBewerbung und ZulassungStudienkosten & -finanzierungAllgemeine StudienberatungStudium GeneraleStudentisches LebenStudienabschlüsseInformationen für AlumniInformationen für Schulen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
       "partner_name": "Bewerbung und Zulassung",
       "country": "",
       "city": "Unknown",
@@ -129,12 +111,6 @@
     },
     {
       "partner_name": "Studienabschlüsse",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "Lehrbeauftragte",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -212,19 +188,19 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Service & EinrichtungenDokumente & DownloadsQualitätsmanagementPrüfungsamtBibliothekInternational OfficeEducation Support CenterIT.Service CenterPresseSeezeit Studierendenwerk",
+      "partner_name": "Service & EinrichtungenLehrbeauftragteDokumente & DownloadsPrüfungsamtBibliothekInternational OfficeEducation Support CenterIT.Service CenterPresseSeezeit Studierendenwerk",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Lehrbeauftragte",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
     },
     {
       "partner_name": "Dokumente & Downloads",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "Qualitätsmanagement",
       "country": "",
       "city": "Unknown",
       "faculty_department": null

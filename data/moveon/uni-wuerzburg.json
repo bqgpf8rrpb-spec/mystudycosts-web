@@ -3,9 +3,9 @@
   "university_name": "Universität Würzburg",
   "portal_url": "https://www.uni-wuerzburg.de/studium/studieninteressierte/studium-im-ausland/erasmus/partneruniversitaeten/",
   "portal_type": "university_website",
-  "scraped_at": "2026-03-15T22:08:07.318Z",
+  "scraped_at": "2026-06-01T09:27:21.685Z",
   "strategy": "custom_scraper",
-  "partner_count": 183,
+  "partner_count": 184,
   "partners": [
     {
       "partner_name": "Universität",
@@ -482,7 +482,7 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Lehren",
+      "partner_name": "Unterstützung und Weiterbildung",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -494,25 +494,31 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Weiterbilden",
+      "partner_name": "Leitbild Lehre",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
     },
     {
-      "partner_name": "Service für Lehrende",
+      "partner_name": "Internationalisierung",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
     },
     {
-      "partner_name": "Aktuelles aus der Lehre",
+      "partner_name": "Zentrum für wissenschaftliche Bildung und Lehre",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
     },
     {
-      "partner_name": "Internationalisierung der Lehre",
+      "partner_name": "Professional School of Education",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Tag der Lehre",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -524,19 +530,13 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Zertifizierung und Akkreditierung",
+      "partner_name": "Akkreditierung",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
     },
     {
-      "partner_name": "Lehrpreise",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "Ideenpool für gute Lehre",
+      "partner_name": "Für den Start in die Lehre",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -548,37 +548,37 @@
       "faculty_department": null
     },
     {
-      "partner_name": "IT-Kurse und Multimedia",
+      "partner_name": "Lehrkräftebildung",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
     },
     {
-      "partner_name": "Ausschreibungen",
+      "partner_name": "KI in Studium und Lehre",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
     },
     {
-      "partner_name": "Glossar Lehre",
+      "partner_name": "IT und Multimedia",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
     },
     {
-      "partner_name": "Lecture",
+      "partner_name": "Lehrpreise",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
     },
     {
-      "partner_name": "WueCampus",
+      "partner_name": "Fonds für innovative Lehrprojekte",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
     },
     {
-      "partner_name": "WueStudy",
+      "partner_name": "Good Practices",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -789,12 +789,6 @@
     },
     {
       "partner_name": "Forschen in Würzburg",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "Internationalisierung",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -1035,6 +1029,18 @@
     },
     {
       "partner_name": "Dienste",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "WueStudy",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "WueCampus",
       "country": "",
       "city": "Unknown",
       "faculty_department": null

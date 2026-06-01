@@ -3,7 +3,7 @@
   "university_name": "Universität des Saarlandes",
   "portal_url": "https://www.uni-saarland.de/studium/international/auslandsaufenthalt/erasmus/partneruniversitaeten.html",
   "portal_type": "university_website",
-  "scraped_at": "2026-03-15T22:02:58.929Z",
+  "scraped_at": "2026-06-01T09:22:19.767Z",
   "strategy": "custom_scraper",
   "partner_count": 166,
   "partners": [
@@ -92,19 +92,13 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Hochschulsport",
+      "partner_name": "Unisport",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
     },
     {
       "partner_name": "Gasthörerstudium",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "Personalabteilung",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -902,13 +896,19 @@
       "faculty_department": null
     },
     {
+      "partner_name": "Oder möchten Sie den Chatbot befragen? Klicken Sie hierfür einfach auf das runde Sprechblasen-Icon unten rechts.",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
       "partner_name": "Sie können Ihren Browser-Cache leeren.",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
     },
     {
-      "partner_name": "Vielleicht möchten Sie den Fehler melden: wwwadm",
+      "partner_name": "Vielleicht möchten Sie den Fehler melden: webteam@uni-saarland.de",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -986,13 +986,13 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Beschäftigtenportal",
+      "partner_name": "Dezernate",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
     },
     {
-      "partner_name": "Dezernate",
+      "partner_name": "Stellen",
       "country": "",
       "city": "Unknown",
       "faculty_department": null

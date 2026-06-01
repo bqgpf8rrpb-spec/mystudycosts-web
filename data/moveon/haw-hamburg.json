@@ -3,9 +3,9 @@
   "university_name": "HAW Hamburg",
   "portal_url": "https://www.haw-hamburg.de/international/partnerhochschulen-a-z/",
   "portal_type": "university_website",
-  "scraped_at": "2026-03-15T22:06:55.678Z",
+  "scraped_at": "2026-06-01T09:26:12.569Z",
   "strategy": "custom_scraper",
-  "partner_count": 121,
+  "partner_count": 122,
   "partners": [
     {
       "partner_name": "Accademia di Belle Arti, Bologna",
@@ -479,7 +479,7 @@
       "partner_name": "Phenikaa University",
       "country": "faculty-5748;faculty-5744;faculty-5740;faculty-5736",
       "city": "Vietnam country-887",
-      "faculty_department": ""
+      "faculty_department": "HAWeltweit program-797"
     },
     {
       "partner_name": "Poznan University of Economics and Business",
@@ -682,6 +682,12 @@
     {
       "partner_name": "Universidade Estadual de Campinas (UNICAMP)",
       "country": "faculty-5748;faculty-5744;faculty-5740;faculty-5738;faculty-5736;faculty-5734",
+      "city": "Brasilien country-875",
+      "faculty_department": "HAWeltweit program-797"
+    },
+    {
+      "partner_name": "Universidade Federal de Santa Catarina (UFSC)",
+      "country": "faculty-5748;faculty-5744;faculty-5740;faculty-5736",
       "city": "Brasilien country-875",
       "faculty_department": "HAWeltweit program-797"
     },

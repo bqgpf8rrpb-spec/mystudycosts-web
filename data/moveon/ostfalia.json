@@ -3,7 +3,7 @@
   "university_name": "Ostfalia Hochschule",
   "portal_url": "https://www.ostfalia.de/cms/de/io/partnerhochschulen/",
   "portal_type": "university_website",
-  "scraped_at": "2026-03-15T22:13:13.618Z",
+  "scraped_at": "2026-06-01T09:32:25.132Z",
   "strategy": "custom_scraper",
   "partner_count": 290,
   "partners": [
@@ -68,19 +68,7 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Internationales",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "Jetzt noch einschreiben",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "Semesterbeitrag",
+      "partner_name": "Krankenversicherung und Semesterbeitrag",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -135,6 +123,12 @@
     },
     {
       "partner_name": "Gasthörerschaft",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Internationales",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -248,25 +242,25 @@
       "faculty_department": null
     },
     {
-      "partner_name": "International Unterseiten von \"International\" anzeigen Studierende aus dem Ausland  FYI - for your integration  Wege ins Ausland  Praktikum im Ausland  Sprachen lernen",
+      "partner_name": "Dein Weg an die Ostfalia",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
     },
     {
-      "partner_name": "Studierende aus dem Ausland",
+      "partner_name": "FYI - Internationale Studierende",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
     },
     {
-      "partner_name": "FYI - for your integration",
+      "partner_name": "Wege ins Ausland Unterseiten von \"Wege ins Ausland\" anzeigen Studienaufenthalte im Ausland  Praktikum im Ausland  Sprachen lernen",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
     },
     {
-      "partner_name": "Wege ins Ausland",
+      "partner_name": "Studienaufenthalte im Ausland",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -470,7 +464,13 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Veranstaltungen",
+      "partner_name": "Veranstaltungen Unterseiten von \"Veranstaltungen\" anzeigen Recruiting Night Duales Studium",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Recruiting Night Duales Studium",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -590,6 +590,12 @@
       "faculty_department": null
     },
     {
+      "partner_name": "Veranstaltungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
       "partner_name": "Schwerpunkte",
       "country": "Forschung",
       "city": "Unknown",
@@ -651,6 +657,12 @@
     },
     {
       "partner_name": "Dekanat und Gremien",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Projekt Nawaro - Hier wächst Zukunft!",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -920,7 +932,7 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Präsidentin",
+      "partner_name": "Präsident*in",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -1262,31 +1274,19 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Erfahrungsberichte & Best Practices",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
       "partner_name": "AG Internationalisierung",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
     },
     {
-      "partner_name": "International Student Office Unterseiten von \"International Student Office\" anzeigen Aktuelles  Meet the team  Incoming Students",
+      "partner_name": "International Student Office Unterseiten von \"International Student Office\" anzeigen Meet the team",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
     },
     {
       "partner_name": "Meet the team",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "Incoming Students",
       "country": "",
       "city": "Unknown",
       "faculty_department": null

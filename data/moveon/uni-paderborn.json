@@ -3,7 +3,7 @@
   "university_name": "Universität Paderborn",
   "portal_url": "https://www.uni-paderborn.de/studium/erasmus/partnerhochschulen",
   "portal_type": "university_website",
-  "scraped_at": "2026-03-15T22:03:26.377Z",
+  "scraped_at": "2026-06-01T09:22:40.859Z",
   "strategy": "custom_scraper",
   "partner_count": 144,
   "partners": [
@@ -134,12 +134,6 @@
       "faculty_department": null
     },
     {
-      "partner_name": "KI in der Lehre",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
       "partner_name": "Digitale Lehre",
       "country": "",
       "city": "Unknown",
@@ -249,6 +243,12 @@
     },
     {
       "partner_name": "Tag der Lehre",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Lehrprojekte",
       "country": "",
       "city": "Unknown",
       "faculty_department": null

@@ -3,9 +3,9 @@
   "university_name": "WHU Vallendar",
   "portal_url": "https://www.whu.edu/studium/auslandssemester/partneruniversitaeten/",
   "portal_type": "university_website",
-  "scraped_at": "2026-03-15T22:09:29.502Z",
+  "scraped_at": "2026-06-01T09:28:32.640Z",
   "strategy": "custom_scraper",
-  "partner_count": 173,
+  "partner_count": 172,
   "partners": [
     {
       "partner_name": "Programme",
@@ -38,13 +38,7 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Bachelor Programme",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "Bachelor in Wirtschaftspsychologie",
+      "partner_name": "Bachelor Programm",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -57,12 +51,6 @@
     },
     {
       "partner_name": "Master Programme",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "Master in Business Analytics",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -314,12 +302,6 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Rankings und Akkreditierungen",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
       "partner_name": "Geschichte der WHU",
       "country": "",
       "city": "Unknown",
@@ -332,6 +314,12 @@
       "faculty_department": null
     },
     {
+      "partner_name": "Rankings und Akkreditierungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
       "partner_name": "In Praxi - WHU Alumni Association",
       "country": "",
       "city": "Unknown",
@@ -339,18 +327,6 @@
     },
     {
       "partner_name": "Campusleben",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "Karriere",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "Rekrutierung an der WHU",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -369,6 +345,18 @@
     },
     {
       "partner_name": "Code of Conduct",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Karriere",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Rekrutierung an der WHU",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -986,6 +974,12 @@
       "faculty_department": null
     },
     {
+      "partner_name": "Digitale Entwicklung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
       "partner_name": "Onboarding",
       "country": "",
       "city": "Unknown",
@@ -1004,6 +998,12 @@
       "faculty_department": null
     },
     {
+      "partner_name": "Professor für Leadership",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
       "partner_name": "BSc-MSc",
       "country": "",
       "city": "Unknown",
@@ -1017,12 +1017,6 @@
     },
     {
       "partner_name": "Jobdatenbank",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "Digitale Entwicklung",
       "country": "",
       "city": "Unknown",
       "faculty_department": null

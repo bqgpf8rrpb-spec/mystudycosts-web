@@ -3,9 +3,9 @@
   "university_name": "Hochschule Mainz",
   "portal_url": "https://www.hs-mainz.de/international/profil/partnerhochschulen/",
   "portal_type": "university_website",
-  "scraped_at": "2026-03-15T22:10:50.350Z",
+  "scraped_at": "2026-06-01T09:29:48.301Z",
   "strategy": "custom_scraper",
-  "partner_count": 254,
+  "partner_count": 255,
   "partners": [
     {
       "partner_name": "Studium",
@@ -182,13 +182,13 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Unsere Projekte",
+      "partner_name": "Projekte",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
     },
     {
-      "partner_name": "Unsere Forschungslandschaft",
+      "partner_name": "Forschungsstrukturen",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -399,6 +399,12 @@
     },
     {
       "partner_name": "Gleichstellung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Schwer­be­hin­der­ten­ver­tret­ung",
       "country": "",
       "city": "Unknown",
       "faculty_department": null

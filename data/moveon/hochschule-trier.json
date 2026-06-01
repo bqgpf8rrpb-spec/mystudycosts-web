@@ -3,9 +3,9 @@
   "university_name": "Hochschule Trier",
   "portal_url": "https://www.hochschule-trier.de/index.php?id=5593",
   "portal_type": "university_website",
-  "scraped_at": "2026-03-15T22:10:17.589Z",
+  "scraped_at": "2026-06-01T09:29:16.485Z",
   "strategy": "custom_scraper",
-  "partner_count": 109,
+  "partner_count": 110,
   "partners": [
     {
       "partner_name": "Hauptcampus",
@@ -621,6 +621,12 @@
     },
     {
       "partner_name": "Schwerbehindertenvertretungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Informationssicherheit",
       "country": "",
       "city": "Unknown",
       "faculty_department": null

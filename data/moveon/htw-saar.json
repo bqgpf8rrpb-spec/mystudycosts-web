@@ -3,9 +3,9 @@
   "university_name": "HTW Saar",
   "portal_url": "https://www.htwsaar.de/studium/international/partnerhochschulen",
   "portal_type": "university_website",
-  "scraped_at": "2026-03-15T22:11:34.147Z",
+  "scraped_at": "2026-06-01T09:30:35.236Z",
   "strategy": "custom_scraper",
-  "partner_count": 40,
+  "partner_count": 41,
   "partners": [
     {
       "partner_name": "Zum Hauptmenü springen",
@@ -123,6 +123,12 @@
     },
     {
       "partner_name": "Erklärung zur Barrierefreiheit",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Cookieeinstellungen",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
