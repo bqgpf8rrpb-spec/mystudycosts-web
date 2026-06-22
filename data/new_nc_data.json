@@ -1961,6 +1961,16 @@
   },
   {
     "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Sports Science (B.Sc.)",
+    "nc_threshold": 0.0
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Sports Science (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
     "program": "Sustainability Management (M.Sc.)",
     "nc_threshold": null
   },

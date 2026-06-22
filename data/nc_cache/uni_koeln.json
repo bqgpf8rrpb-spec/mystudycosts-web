@@ -1,5 +1,5 @@
 {
-  "cached_at": "2026-06-15T09:29:56.011260",
+  "cached_at": "2026-06-22T09:16:46.341634",
   "records": [
     {
       "university": "University of Cologne",
@@ -8,7 +8,7 @@
       "source_university_name": "Universität zu Köln",
       "source_program_name": "Rechtswissenschaft",
       "source_url": "https://studsek.uni-koeln.de/e143864/e62135/e105478/20260311_Verfahrensergebnisse_SoSe_26_ger.pdf",
-      "scraped_at": "2026-06-15T09:29:55.914503",
+      "scraped_at": "2026-06-22T09:16:46.244612",
       "confidence": 0.9,
       "source_type": "live_scrape"
     },
@@ -19,7 +19,7 @@
       "source_university_name": "Universität zu Köln",
       "source_program_name": "Betriebswirtschaftslehre",
       "source_url": "https://studsek.uni-koeln.de/e143864/e62135/e105478/20260311_Verfahrensergebnisse_SoSe_26_ger.pdf",
-      "scraped_at": "2026-06-15T09:29:55.914519",
+      "scraped_at": "2026-06-22T09:16:46.244632",
       "confidence": 0.9,
       "source_type": "live_scrape"
     },
@@ -30,7 +30,7 @@
       "source_university_name": "Universität zu Köln",
       "source_program_name": "Volkswirtschaftslehre",
       "source_url": "https://studsek.uni-koeln.de/e143864/e62135/e105478/20260311_Verfahrensergebnisse_SoSe_26_ger.pdf",
-      "scraped_at": "2026-06-15T09:29:55.914525",
+      "scraped_at": "2026-06-22T09:16:46.244638",
       "confidence": 0.9,
       "source_type": "live_scrape"
     }

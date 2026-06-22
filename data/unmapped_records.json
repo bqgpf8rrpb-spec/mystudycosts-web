@@ -3243,23 +3243,9 @@
   {
     "reason": "program_unmapped",
     "university": "University of Erlangen-Nuremberg (FAU)",
-    "source_program_name": "Geosciences (B.Sc.) – Geology, mineralogy and paleontology",
-    "source_nc_text": "zulassungsfrei",
-    "source_url": "https://www.fau.eu/degree-program/geosciences-b-sc/"
-  },
-  {
-    "reason": "program_unmapped",
-    "university": "University of Erlangen-Nuremberg (FAU)",
     "source_program_name": "Geosciences for Teaching (additional studies) (Certificate) – Additional studies in teaching",
     "source_nc_text": "NC",
     "source_url": "https://www.fau.eu/degree-program/geosciences-for-teaching-additional-studies-certificate/"
-  },
-  {
-    "reason": "program_unmapped",
-    "university": "University of Erlangen-Nuremberg (FAU)",
-    "source_program_name": "Geosciences (M.Sc.) – Geology, Mineralogy, Palaeontology",
-    "source_nc_text": "Eignungsfeststellungsverfahren",
-    "source_url": "https://www.fau.eu/degree-program/geosciences-m-sc/"
   },
   {
     "reason": "program_unmapped",
@@ -4111,7 +4097,7 @@
   {
     "reason": "program_unmapped",
     "university": "Ludwig Maximilian University of Munich (LMU)",
-    "source_program_name": "Vst.-Nr. Veranstaltung Vst.-Art Aktion Kolloquium für Bachelor / Master / Zulassungsarbeiten - Rauthmann Kolloquium nur priorisiert belegbar 11981 Staatsprüfung EWS - Alles was man wissen muss! - Meinhardt , Kollmannsberger , Meyer , Oberhuber Informationsveranstaltung belegen/abmelden",
+    "source_program_name": "Vst.-Nr. Veranstaltung Vst.-Art Aktion Kolloquium für Bachelor / Master / Zulassungsarbeiten - Rauthmann Kolloquium nur priorisiert belegbar 11981 Staatsprüfung EWS - Alles was man wissen muss! - Meinhardt , Kollmannsberger , Gärtner , Oberhuber Informationsveranstaltung belegen/abmelden",
     "source_nc_text": "NC",
     "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120261=817250%7C807909%7C825643&P.vx=kurz"
   },

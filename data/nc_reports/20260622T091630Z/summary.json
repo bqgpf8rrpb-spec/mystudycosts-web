@@ -1,0 +1,26 @@
+{
+  "run_id": "20260622T091630Z",
+  "modules_total": 7,
+  "modules_success": 6,
+  "modules_failed": 1,
+  "modules_fallback_cache": 1,
+  "records_extracted": 1131,
+  "records_normalized": 399,
+  "records_invalid_or_unmapped": 712,
+  "new_data_entries": 399,
+  "failed_modules": [
+    {
+      "university_id": "uni_bonn",
+      "error": "uni_bonn: fetch failed (403 Client Error: 403 for url: https://basis.uni-bonn.de/qisserver/pages/zul/applicant/searchCourseOfStudies.xhtml?_flowId=searchCourseOfStudiesAPP-flow&navigationPosition=studiesOffered,searchCourseOfStudyAPP&recordRequest=true)"
+    }
+  ],
+  "by_university": {
+    "Technical University of Munich (TUM)": 120,
+    "University of Bonn": 48,
+    "University of Cologne": 2,
+    "University of Duisburg-Essen": 60,
+    "University of Erlangen-Nuremberg (FAU)": 99,
+    "Ludwig Maximilian University of Munich (LMU)": 70
+  },
+  "hard_fail": false
+}
