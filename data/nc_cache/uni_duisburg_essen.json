@@ -1,5 +1,5 @@
 {
-  "cached_at": "2026-07-13T06:26:49.235187",
+  "cached_at": "2026-07-20T06:23:44.632409",
   "records": [
     {
       "university": "University of Duisburg-Essen",
@@ -8,7 +8,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "M.Sc. Märkte und Unternehmen",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438747&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:31.623957",
+      "scraped_at": "2026-07-20T06:23:33.273356",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -19,7 +19,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Bachelor of Science (Chemie)",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C436330&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:31.665593",
+      "scraped_at": "2026-07-20T06:23:33.296046",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -30,7 +30,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Master of Science (Chemie)",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C436330&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:31.665763",
+      "scraped_at": "2026-07-20T06:23:33.296155",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -41,7 +41,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Master of Science (Medizinisch-Biologische Chemie)",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C436330&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:31.665925",
+      "scraped_at": "2026-07-20T06:23:33.296266",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -52,7 +52,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Bachelor of Science (Water Science - Wasser: Chemie, Analytik, Mikrobiologie)",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C436330&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:31.666100",
+      "scraped_at": "2026-07-20T06:23:33.296394",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -63,7 +63,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Master of Science (Water Science)",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C436330&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:31.666267",
+      "scraped_at": "2026-07-20T06:23:33.296513",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -74,7 +74,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Studiengang Lehramt Bachelor",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438696&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:31.689795",
+      "scraped_at": "2026-07-20T06:23:33.309575",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -85,7 +85,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Studiengang Bachelor Biologie",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438696&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:31.690133",
+      "scraped_at": "2026-07-20T06:23:33.309798",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -96,7 +96,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Studiengang Medizinische Biologie (Bachelor)",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438696&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:31.690313",
+      "scraped_at": "2026-07-20T06:23:33.309913",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -107,7 +107,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Studiengang Medizinische Biologie (Master)",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438696&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:31.690490",
+      "scraped_at": "2026-07-20T06:23:33.310029",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -118,7 +118,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Studiengang Bachelor Aquatische Biologie",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438696&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:31.690663",
+      "scraped_at": "2026-07-20T06:23:33.310149",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -129,7 +129,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Studiengang Master Aquatische Biologie",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438696&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:31.690833",
+      "scraped_at": "2026-07-20T06:23:33.310264",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -140,7 +140,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Studiengang Bachelor Molekularbiologie",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438696&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:31.691003",
+      "scraped_at": "2026-07-20T06:23:33.310390",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -151,7 +151,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Studiengang Master Molekularbiologie",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438696&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:31.691173",
+      "scraped_at": "2026-07-20T06:23:33.310503",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -162,7 +162,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Studiengang Master Biodiversität / Biodiversity",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438696&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:31.691692",
+      "scraped_at": "2026-07-20T06:23:33.310842",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -173,7 +173,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Lehrveranstaltungen M.A. Internationale Beziehungen und Entwicklungspolitik",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438825&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:31.710358",
+      "scraped_at": "2026-07-20T06:23:33.322641",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -184,7 +184,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Lehramt Informatik",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C437870&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:31.772888",
+      "scraped_at": "2026-07-20T06:23:33.418988",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -195,7 +195,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Bachelor Anglophone Studies",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C435609%7C437998&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:32.970419",
+      "scraped_at": "2026-07-20T06:23:34.013325",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -206,7 +206,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Master Anglophone Studies",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C435609%7C437998&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:32.970738",
+      "scraped_at": "2026-07-20T06:23:34.013548",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -217,7 +217,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Master Anglophone Popular Culture",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C435609%7C437998&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:32.970902",
+      "scraped_at": "2026-07-20T06:23:34.013661",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -228,7 +228,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "LA Sprachliche Grundbildung Gr Bachelor (PO 2014)",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C435609%7C438368&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:33.023018",
+      "scraped_at": "2026-07-20T06:23:34.046321",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -239,7 +239,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Bachelor Angewandte Philosophie (ab WS 12/13)",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C435609%7C436178&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:33.103475",
+      "scraped_at": "2026-07-20T06:23:34.096287",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -250,7 +250,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Bachelor Philosophie, Politikwissenschaft und Sozioökonomie (PPE)",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C435609%7C436178&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:33.103656",
+      "scraped_at": "2026-07-20T06:23:34.096425",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -261,7 +261,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Master Philosophie (ab WS 12/13)",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C435609%7C436178&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:33.103830",
+      "scraped_at": "2026-07-20T06:23:34.096546",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -272,7 +272,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Bachelor Christliche Studien",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C435609%7C437194&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:33.129051",
+      "scraped_at": "2026-07-20T06:23:34.166960",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -283,7 +283,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Master Christliche Studien",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C435609%7C437194&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:33.130100",
+      "scraped_at": "2026-07-20T06:23:34.167663",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -294,7 +294,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Türkeistudien Bachelor",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C435609%7C439164&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:33.144322",
+      "scraped_at": "2026-07-20T06:23:34.180826",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -305,7 +305,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "II. Master Internationale Beziehungen und Entwicklungspolitik",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438492%7C436273&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:33.193736",
+      "scraped_at": "2026-07-20T06:23:34.212678",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -316,7 +316,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "III. Master Politikmanagement, Public Policy und öffentliche Verwaltung",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438492%7C436273&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:33.193931",
+      "scraped_at": "2026-07-20T06:23:34.212808",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -327,7 +327,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "IV. Master Theorie und Vergleich politischer Systeme im Wandel (TuV)",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438492%7C436273&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:33.194123",
+      "scraped_at": "2026-07-20T06:23:34.212945",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -338,7 +338,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "V. Master Development and Governance",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438492%7C436273&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:33.194302",
+      "scraped_at": "2026-07-20T06:23:34.213063",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -349,7 +349,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Master Soziologie (zweijährig)",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438492%7C435182&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:33.205914",
+      "scraped_at": "2026-07-20T06:23:34.221591",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -360,7 +360,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Master Theorie des Sozialen (TDS)",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438492%7C435182&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:33.206085",
+      "scraped_at": "2026-07-20T06:23:34.221706",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -371,7 +371,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Master Soziologie (einjährig)",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438492%7C435182&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:33.206255",
+      "scraped_at": "2026-07-20T06:23:34.221818",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -382,7 +382,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Master Arbeit, Organisation, Gesellschaft (AOG)",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438492%7C435182&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:33.206457",
+      "scraped_at": "2026-07-20T06:23:34.221934",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -393,7 +393,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Master Behavioural Data Science (BDS)",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438492%7C435182&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:33.206623",
+      "scraped_at": "2026-07-20T06:23:34.222044",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -404,7 +404,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Master Migration und Globalisierung (MIG)",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438492%7C435182&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:33.206790",
+      "scraped_at": "2026-07-20T06:23:34.222154",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -415,7 +415,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Master Sozioökonomie",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438492%7C437437&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:33.214195",
+      "scraped_at": "2026-07-20T06:23:34.226858",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -426,7 +426,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Bachelor Lehramt Wirtschaft-Politik/Sozialwissenschaften",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438492%7C434990&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:33.228946",
+      "scraped_at": "2026-07-20T06:23:34.236197",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -437,7 +437,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Master Lehramt Wirtschaft-Politik/Sozialwissenschaften",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438492%7C434990&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:33.229318",
+      "scraped_at": "2026-07-20T06:23:34.236437",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -448,7 +448,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Bachelor Erziehungswissenschaft (PO 2019)",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438159%7C437877&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:33.331332",
+      "scraped_at": "2026-07-20T06:23:34.264659",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -459,7 +459,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Master Erwachsenenbildung/Weiterbildung (PO 2020)",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438159%7C437877&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:33.331515",
+      "scraped_at": "2026-07-20T06:23:34.264780",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -470,7 +470,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Bachelor of Science (PO 2016)",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438159%7C436430&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:33.339791",
+      "scraped_at": "2026-07-20T06:23:34.269836",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -481,7 +481,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Bachelor of Science (PO 2021)",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438159%7C436430&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:33.339956",
+      "scraped_at": "2026-07-20T06:23:34.269944",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -492,7 +492,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Bachelor of Science (PO 2023)",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438159%7C436430&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:33.340111",
+      "scraped_at": "2026-07-20T06:23:34.270050",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -503,7 +503,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Master of Science (PO 2016)",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438159%7C436430&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:33.340267",
+      "scraped_at": "2026-07-20T06:23:34.270156",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -514,7 +514,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Master of Science (PO 2021)",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438159%7C436430&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:33.340432",
+      "scraped_at": "2026-07-20T06:23:34.270260",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -525,7 +525,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Master of Science (PO 2022) - Klinische Psychologie und Psychotherapie (KLIPS)",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438159%7C436430&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:33.340605",
+      "scraped_at": "2026-07-20T06:23:34.270389",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -536,7 +536,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Master of Science (PO 2022) - Schwerpunkt Arbeit, Gesundheit und Bildung (AGB)",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438159%7C436430&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:33.340783",
+      "scraped_at": "2026-07-20T06:23:34.270524",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -547,7 +547,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "M.Sc. Gesundheitsökonomik",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438747%7C438549&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:33.398256",
+      "scraped_at": "2026-07-20T06:23:34.307147",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -558,7 +558,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Lehramt Bachelor Haupt-, Real-, Sekundar-, Gesamtschule",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438026%7C435661&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:33.524862",
+      "scraped_at": "2026-07-20T06:23:34.403350",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -569,7 +569,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Lehramt Bachelor Sonderpädagogik Haupt-, Real-, Sekundar-, Gesamtschule",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C438026%7C435661&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:33.525221",
+      "scraped_at": "2026-07-20T06:23:34.403599",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -580,7 +580,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Bachelor of Science Medizintechnik (alte PO)",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C437065%7C435390&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:34.325117",
+      "scraped_at": "2026-07-20T06:23:34.934212",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -591,7 +591,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Master of Science Medizintechnik (alte PO)",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C437065%7C435390&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:34.325283",
+      "scraped_at": "2026-07-20T06:23:34.934332",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -602,7 +602,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "ISE Master of Science Management and Technology of Water and Waste Water (PO 19)",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C437065%7C436019&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:34.343026",
+      "scraped_at": "2026-07-20T06:23:34.944276",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -613,7 +613,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "ISE Master of Science Management and Technology of Water and Waste Water (PO 24)",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C437065%7C436019&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:34.343210",
+      "scraped_at": "2026-07-20T06:23:34.944413",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -624,7 +624,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Master of Science Technische Logistik (PO19)",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C437065%7C436019&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:34.344396",
+      "scraped_at": "2026-07-20T06:23:34.945217",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -635,7 +635,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Master of Science Technische Logistik (PO24)",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C437065%7C436019&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:34.344557",
+      "scraped_at": "2026-07-20T06:23:34.945354",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -646,7 +646,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Bachelor of Science Maschinenbau",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C437065%7C436019&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:34.344717",
+      "scraped_at": "2026-07-20T06:23:34.945463",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -657,7 +657,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Master of Science Maschinenbau",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C437065%7C436019&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:34.344875",
+      "scraped_at": "2026-07-20T06:23:34.945570",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -668,7 +668,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Bachelor Richtung Elektrotechnik und Informationstechnik (PO24)",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C437065%7C438897&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:34.367704",
+      "scraped_at": "2026-07-20T06:23:34.960617",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -679,7 +679,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Master of Science Automotive Engineering & Mobility Management - Vertiefung Elektrotechnik (PO24)",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C437065%7C438897&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:34.369800",
+      "scraped_at": "2026-07-20T06:23:34.962048",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -690,7 +690,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Master of Science Automotive Engineering & Mobility Management - Vertiefung Maschinenbau (PO24)",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C437065%7C438897&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:34.369983",
+      "scraped_at": "2026-07-20T06:23:34.962172",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -701,7 +701,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Master of Science Wirtschaftsingenieurwesen (PO24)",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C437065%7C438897&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:34.370154",
+      "scraped_at": "2026-07-20T06:23:34.962285",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -712,7 +712,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Master Computational Mechanics",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C436920%7C437897&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:34.390935",
+      "scraped_at": "2026-07-20T06:23:34.974659",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -723,7 +723,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Angewandte Kognitions- und Medienwissenschaft (KOMEDIA), Bachelor of Science",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C437870%7C435514&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:35.640259",
+      "scraped_at": "2026-07-20T06:23:35.522827",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -734,7 +734,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Angewandte Kognitions- und Medienwissenschaft (KOMEDIA), Master of Science",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C437870%7C435514&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:35.640470",
+      "scraped_at": "2026-07-20T06:23:35.522965",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -745,7 +745,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Informatik, Bachelor of Science",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C437870%7C435511&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:35.657069",
+      "scraped_at": "2026-07-20T06:23:35.527036",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -756,7 +756,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Informatik, Master of Science",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C437870%7C435511&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:35.657240",
+      "scraped_at": "2026-07-20T06:23:35.527149",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -767,7 +767,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Computer Engineering (Software), Bachelor of Science",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C437870%7C435501&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:35.672611",
+      "scraped_at": "2026-07-20T06:23:35.531241",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -778,7 +778,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Computer Engineering, Master of Science",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C437870%7C435501&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:35.672788",
+      "scraped_at": "2026-07-20T06:23:35.531368",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -789,7 +789,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Cyber-Physical Systems - Informatik, Master of Science",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C437870%7C438217&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:35.690762",
+      "scraped_at": "2026-07-20T06:23:35.535448",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -800,7 +800,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Cyber-Physical Systems - Ingenieurwissenschaften, Master of Science",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C437870%7C438217&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:35.690950",
+      "scraped_at": "2026-07-20T06:23:35.535574",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -811,7 +811,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "Menschzentrierte Informatik und Psychologie, Master of Science",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C437870%7C451646&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:35.724513",
+      "scraped_at": "2026-07-20T06:23:35.545833",
       "confidence": 0.65,
       "source_type": "live_scrape"
     },
@@ -822,7 +822,7 @@
       "source_university_name": "Universität Duisburg-Essen",
       "source_program_name": "M.Sc. Software and Network Engineering (PO 2016)",
       "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120261=438759%7C437870%7C437733&P.vx=kurz",
-      "scraped_at": "2026-07-13T06:26:35.742456",
+      "scraped_at": "2026-07-20T06:23:35.550402",
       "confidence": 0.65,
       "source_type": "live_scrape"
     }

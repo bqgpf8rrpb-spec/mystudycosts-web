@@ -926,6 +926,13 @@
   {
     "reason": "program_unmapped",
     "university": "University of Bonn",
+    "source_program_name": "M Weiterbildender Master Schutz vor sexualisierter Gewalt und Machtmissbrauch in Organisationen Ein-Fach Deutsch Örtlich zulassungsbeschränkt",
+    "source_nc_text": "örtlich zulassungsbeschränkt",
+    "source_url": "https://www.uni-bonn.de/de/studium/studienangebot/studiengaenge-a-z/schutz-vor-sexualisierter-gewalt-und-machtmissbrauch-in-organisationen-wm"
+  },
+  {
+    "reason": "program_unmapped",
+    "university": "University of Bonn",
     "source_program_name": "B Bachelor of Arts Skandinavistik Zwei-Fach Deutsch Zulassungsfrei",
     "source_nc_text": "zulassungsfrei",
     "source_url": "https://www.uni-bonn.de/de/studium/studienangebot/studiengaenge-a-z/skandinavistik-bazf"
@@ -3838,6 +3845,27 @@
   {
     "reason": "program_unmapped",
     "university": "Ludwig Maximilian University of Munich (LMU)",
+    "source_program_name": "Vst.-Nr. Veranstaltung Vst.-Art Aktion Einführungsveranstaltungen Kath. Theologie - Magister / Bachelor / Lehramt - Stoib , Felix Einführungsveranstaltung",
+    "source_nc_text": "NC",
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120262=851121%7C836523%7C845988&P.vx=kurz"
+  },
+  {
+    "reason": "program_unmapped",
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "source_program_name": "Einführungsveranstaltungen Kath. Theologie - Magister / Bachelor / Lehramt - Stoib , Felix",
+    "source_nc_text": "NC",
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120262=851121%7C836523%7C845988&P.vx=kurz"
+  },
+  {
+    "reason": "program_unmapped",
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "source_program_name": "Einführungsveranstaltungen Kath. Theologie - Magister / Bachelor / Lehramt",
+    "source_nc_text": "NC",
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=1144437&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung"
+  },
+  {
+    "reason": "program_unmapped",
+    "university": "Ludwig Maximilian University of Munich (LMU)",
     "source_program_name": "Promotion",
     "source_nc_text": "NC",
     "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120262=851121%7C836523%7C834110&P.vx=kurz"
@@ -4139,6 +4167,13 @@
   {
     "reason": "program_unmapped",
     "university": "Ludwig Maximilian University of Munich (LMU)",
+    "source_program_name": "Sonderpädagogik (Lehramt an Sonderschulen, Magister und Promotion)",
+    "source_nc_text": "NC",
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120262=851121%7C850684%7C828368&P.vx=kurz"
+  },
+  {
+    "reason": "program_unmapped",
+    "university": "Ludwig Maximilian University of Munich (LMU)",
     "source_program_name": "Lehramt Mittelschule",
     "source_nc_text": "NC",
     "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120262=851121%7C850684%7C842962&P.vx=kurz"
@@ -4412,7 +4447,7 @@
   {
     "reason": "program_unmapped",
     "university": "Ludwig Maximilian University of Munich (LMU)",
-    "source_program_name": "Vst.-Nr. Veranstaltung Vst.-Art Aktion 13268 Ringvorlesung Graduiertenkolleg 2845 \"Family Matters. Figuren der Ent-Bindung\" , Keck , Schulz , Döring , Vinken , von Koppenfels , Lüdemann , Reichlin , Kammer , Otto , Prade-Weiss , Villa Braslavsky , Schiedermair , Jessen Ringvorlesung 13595 Orientierungsveranstaltung Bachelor AVL - von Koppenfels , Willner , Prade-Weiss , Bullmann Einführungsveranstaltung",
+    "source_program_name": "Vst.-Nr. Veranstaltung Vst.-Art Aktion 13268 Ringvorlesung Graduiertenkolleg 2845 \"Family Matters. Figuren der Ent-Bindung\" , Keck , Schulz , Vinken , von Koppenfels , Lüdemann , Reichlin , Kammer , Otto , Prade-Weiss , Villa Braslavsky , Schiedermair , Jessen , Döring Ringvorlesung 13595 Orientierungsveranstaltung Bachelor AVL - von Koppenfels , Willner , Prade-Weiss , Bullmann Einführungsveranstaltung",
     "source_nc_text": "NC",
     "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120262=851121%7C850377%7C845090&P.vx=kurz"
   },
@@ -4692,7 +4727,7 @@
   {
     "reason": "program_unmapped",
     "university": "Ludwig Maximilian University of Munich (LMU)",
-    "source_program_name": "INFORMATIONSVERANSTALTUNGEN für ERSTSEMESTER _________________________________________________ Lehrämter: Im Rahmen der Orientierungsphase Lehramt des MZL BA Anglistik: t.b.a. MA English Studies: t.b.a. _______________________________________________",
+    "source_program_name": "INFORMATIONSVERANSTALTUNGEN für ERSTSEMESTER _________________________________________________ Lehrämter: Im Rahmen der Orientierungsphase Lehramt des MZL BA Anglistik: 1.10.2026, 10-12, Zoom ( mehr Informationen ) MA English Studies: 1.10.2026, 14-16, Zoom ( mehr Informationen ) _______________________________________________",
     "source_nc_text": "NC",
     "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120262=851121%7C850377%7C840570&P.vx=kurz"
   },
@@ -4993,7 +5028,7 @@
   {
     "reason": "program_unmapped",
     "university": "Ludwig Maximilian University of Munich (LMU)",
-    "source_program_name": "Vst.-Nr. Veranstaltung Vst.-Art Aktion WH MP Fachliche Grundlagen der Botanik und Ökologie im Unterricht der Mittelschule MS DF - Aufleger , Traub Wiederholungsprüfung WH MP Gestaltung von Biologieunterricht - Naturwissenschaftliche Arbeitsweisen Gym - Bjarsch , Traub Wiederholungsprüfung WH MP Grundlagen der Biologiedidaktik GS, MS UF - Neuhaus , Traub Wiederholungsprüfung WH MP Konzeption von Biologieunterricht - Unterrichtsmodelle GS DF, UF - Braumiller , Henle , Traub Wiederholungsprüfung WH MP Konzeption von Biologieunterricht - Unterrichtsmodelle MS DF, MS/ RS-UF - Bjarsch , Traub Wiederholungsprüfung 19075 Make up exam The Good, The Bad & The Ugly - from Stem Cells over Cancer Cells and Aging Cells - Meilinger , Leonhardt Wiederholungsprüfung 19076 WH-Prüfung Einführung Medizinische Mikrobiologie und Immunologie - H. Jung , Landgraf Prüfung 19077 Make-up exam - Statistics for Master`s (75 minutes) - Metzler , Mueller Wiederholungsprüfung 19078 Make-up Exam for EES Module P1 “Analysis and Presentation of Data” (100 minutes) - Metzler , Mueller Wiederholungsprüfung 19079 Wdh Klausur Artenvielfalt Zoologie - Heß Wiederholungsprüfung 19080 Klausur Artenvielfalt Botanik , Facher , Kadereit Klausur 19081 WH-Klausur Artenvielfalt Botanik - Facher , Kadereit Wiederholungsprüfung 19082 2. Semester WH-Prüfung Modul Physiologie - K. Jung , Landgraf , Geigenberger , Pecka Wiederholungsprüfung 19083 WH-Klausur Zelluläre Biochemie - Bölter Wiederholungsprüfung 19084 Make up Exam - The good, the bad, the ugly - Meilinger , Leonhardt Wiederholungsprüfung 19085 Make up Exam lecture: Epigenetics - Meilinger , Leonhardt Prüfung 19086 Exam - The good, the bad, the ugly - Meilinger Klausur 19087 Klausur Schwerpunkt Evolutionsbiologie - Parsch Prüfung 19088 Wdh-Klausur Schwerpunkt Evolutionsbiologie - Grath , Parsch Wiederholungsprüfung 19089 WH-Klausur Computergestützte Biologie I: Mathematische Modelle dynamischer Systeme - Nägele , Mlynarski Wiederholungsprüfung 19671 Exam: Genomics of Human Diseases - Enard Klausur 19672 Make-up exam: Genomics of Human Diseases - Enard Wiederholungsprüfung 19673 Exam: Human Evolution - Enard Klausur 19674 Make-up exam: Human Evolution - Enard Wiederholungsprüfung 19090 Nachklausur Statistik (Modul P20 im Bachelor-Studiengang Biologie) - Metzler Wiederholungsprüfung 19091 Statistik für Lehramt (Modul P20 aus dem Bachelor Biologie) - Metzler Wiederholungsprüfung",
+    "source_program_name": "Vst.-Nr. Veranstaltung Vst.-Art Aktion WH MP Fachliche Grundlagen der Botanik und Ökologie im Unterricht der Mittelschule MS DF - Aufleger , Traub Wiederholungsprüfung WH MP Gestaltung von Biologieunterricht - Naturwissenschaftliche Arbeitsweisen Gym - Bjarsch , Traub Wiederholungsprüfung WH MP Grundlagen der Biologiedidaktik GS, MS UF - Neuhaus , Traub Wiederholungsprüfung WH MP Konzeption von Biologieunterricht - Unterrichtsmodelle GS DF, UF - Braumiller , Henle , Traub Wiederholungsprüfung WH MP Konzeption von Biologieunterricht - Unterrichtsmodelle MS DF, MS/ RS-UF - Bjarsch , Traub Wiederholungsprüfung 19075 Make up exam The Good, The Bad & The Ugly - from Stem Cells over Cancer Cells and Aging Cells - Meilinger , Leonhardt Wiederholungsprüfung 19076 WH-Prüfung Einführung Medizinische Mikrobiologie und Immunologie - Weiß , H. Jung , Landgraf Wiederholungsprüfung belegen/abmelden 19077 Make-up exam - Statistics for Master`s (75 minutes) - Metzler , Mueller Wiederholungsprüfung 19078 Make-up Exam for EES Module P1 “Analysis and Presentation of Data” (100 minutes) - Metzler , Mueller Wiederholungsprüfung 19079 Wdh Klausur Artenvielfalt Zoologie - Heß Wiederholungsprüfung 19080 Klausur Artenvielfalt Botanik , Facher , Kadereit Klausur belegen/abmelden 19081 WH-Klausur Artenvielfalt Botanik - Facher , Kadereit Wiederholungsprüfung 19082 2. Semester WH-Prüfung Modul Physiologie - K. Jung , Landgraf , Geigenberger , Pecka Wiederholungsprüfung 19083 WH-Klausur Zelluläre Biochemie - Bölter Wiederholungsprüfung 19084 Make up Exam - The good, the bad, the ugly - Meilinger , Leonhardt Wiederholungsprüfung 19085 Make up Exam lecture: Epigenetics - Meilinger , Leonhardt Prüfung belegen/abmelden 19086 Exam - The good, the bad, the ugly - Meilinger Klausur belegen/abmelden 19087 Klausur Schwerpunkt Evolutionsbiologie - Parsch Prüfung belegen/abmelden 19088 Wdh-Klausur Schwerpunkt Evolutionsbiologie - Grath , Parsch Wiederholungsprüfung 19089 WH-Klausur Computergestützte Biologie I: Mathematische Modelle dynamischer Systeme - Nägele , Mlynarski Wiederholungsprüfung 19671 Exam: Genomics of Human Diseases - Enard Klausur 19672 Make-up exam: Genomics of Human Diseases - Enard Wiederholungsprüfung 19673 Exam: Human Evolution - Enard Klausur belegen/abmelden 19674 Make-up exam: Human Evolution - Enard Wiederholungsprüfung 19090 Nachklausur Statistik (Modul P20 im Bachelor-Studiengang Biologie) - Metzler Wiederholungsprüfung 19091 Statistik für Lehramt (Modul P20 aus dem Bachelor Biologie) - Metzler Wiederholungsprüfung",
     "source_nc_text": "NC",
     "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120262=851121%7C836443%7C850701&P.vx=kurz"
   },
@@ -5042,34 +5077,6 @@
   {
     "reason": "program_unmapped",
     "university": "Ludwig Maximilian University of Munich (LMU)",
-    "source_program_name": "Master make up exam: Genetics and More Pharmaceutical Practise - Müller",
-    "source_nc_text": "NC",
-    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120262=851121%7C836443%7C828991&P.vx=kurz"
-  },
-  {
-    "reason": "program_unmapped",
-    "university": "Ludwig Maximilian University of Munich (LMU)",
-    "source_program_name": "Master make up exam: Mechanisms of Animal Development - Mikeladze-Dvali",
-    "source_nc_text": "NC",
-    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120262=851121%7C836443%7C828991&P.vx=kurz"
-  },
-  {
-    "reason": "program_unmapped",
-    "university": "Ludwig Maximilian University of Munich (LMU)",
-    "source_program_name": "Master make up exam: Genetics and More Pharmaceutical Practise",
-    "source_nc_text": "NC",
-    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=1133333&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung"
-  },
-  {
-    "reason": "program_unmapped",
-    "university": "Ludwig Maximilian University of Munich (LMU)",
-    "source_program_name": "Master make up exam: Mechanisms of Animal Development",
-    "source_nc_text": "NC",
-    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=1133353&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung"
-  },
-  {
-    "reason": "program_unmapped",
-    "university": "Ludwig Maximilian University of Munich (LMU)",
     "source_program_name": "master-neurosci@lmu.de",
     "source_nc_text": "NC",
     "source_url": "mailto:master-neurosci@lmu.de"
@@ -5092,6 +5099,13 @@
     "reason": "program_unmapped",
     "university": "Ludwig Maximilian University of Munich (LMU)",
     "source_program_name": "B) Master Neuroscience",
+    "source_nc_text": "NC",
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120262=851121%7C836443%7C848746&P.vx=kurz"
+  },
+  {
+    "reason": "program_unmapped",
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "source_program_name": "B) Master Plant Sciences",
     "source_nc_text": "NC",
     "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120262=851121%7C836443%7C848746&P.vx=kurz"
   },
