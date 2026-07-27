@@ -156,6 +156,11 @@
   },
   {
     "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Geobiology and Paleobiology (M.Sc.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
     "program": "Geography (B.Sc.)",
     "nc_threshold": null
   },
@@ -1872,6 +1877,11 @@
   {
     "university": "University of Erlangen-Nuremberg (FAU)",
     "program": "Philosophy (M.A.)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Erlangen-Nuremberg (FAU)",
+    "program": "Photon Science and Technology (M.Sc.)",
     "nc_threshold": null
   },
   {
