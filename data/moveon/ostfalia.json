@@ -3,9 +3,9 @@
   "university_name": "Ostfalia Hochschule",
   "portal_url": "https://www.ostfalia.de/cms/de/io/partnerhochschulen/",
   "portal_type": "university_website",
-  "scraped_at": "2026-06-01T09:32:25.132Z",
+  "scraped_at": "2026-08-01T06:35:00.864Z",
   "strategy": "custom_scraper",
-  "partner_count": 290,
+  "partner_count": 303,
   "partners": [
     {
       "partner_name": "Suchformular      Suchbegriff       Suche ausführen",
@@ -44,8 +44,44 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Newsletter",
+      "partner_name": "Wirtschaft",
       "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Psychologie",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Gesundheit",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Mobilität",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Informatik",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Technik",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Nachhaltigkeit",
+      "country": "Energie",
       "city": "Unknown",
       "faculty_department": null
     },
@@ -62,7 +98,19 @@
       "faculty_department": null
     },
     {
+      "partner_name": "Newsletter",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
       "partner_name": "Fakultäten",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Jetzt noch bewerben",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -140,6 +188,12 @@
       "faculty_department": null
     },
     {
+      "partner_name": "Lerncoaching",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
       "partner_name": "Studienorganisation Unterseiten von \"Studienorganisation\" anzeigen Semestertermine  Rückmeldung  Pflichtpraktikum  Prüfungen  Beurlaubung  Teilzeitfähige Studiengänge  Exmatrikulation",
       "country": "",
       "city": "Unknown",
@@ -182,7 +236,7 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Beratung & Hilfe",
+      "partner_name": "Beratung & Hilfe Unterseiten von \"Beratung & Hilfe\" anzeigen Lerncoaching",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -452,7 +506,31 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Gründen",
+      "partner_name": "Gründen Unterseiten von \"Gründen\" anzeigen GO Pilot  Downloads für deine Gründung  Team Gründen@Ostfalia  Kontakt",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "GO Pilot",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Downloads für deine Gründung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Team Gründen@Ostfalia",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Kontakt",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -662,12 +740,6 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Projekt Nawaro - Hier wächst Zukunft!",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
       "partner_name": "Forschungs- und Arbeitsgruppen",
       "country": "",
       "city": "Unknown",
@@ -675,12 +747,6 @@
     },
     {
       "partner_name": "Kontakt/Anschrift",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "Lerncoaching",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -728,7 +794,13 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Handel und Soziale Arbeit Unterseiten von \"Handel und Soziale Arbeit\" anzeigen Nachrichten  Veranstaltungen  Erstsemesterinfos  Fakultätsteam  Labore",
+      "partner_name": "Handel und Soziale Arbeit Unterseiten von \"Handel und Soziale Arbeit\" anzeigen Nachrichten  Veranstaltungen  Erstsemesterinfos  Organisation und Ansprechpartner  Labore",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Organisation und Ansprechpartner",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -770,12 +842,6 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Sozialkompetenz-Workshops",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
       "partner_name": "Der Fachschaftsrat - Eure Stimme im Studium",
       "country": "",
       "city": "Unknown",
@@ -789,6 +855,24 @@
     },
     {
       "partner_name": "Schulkontakte",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "International: Incoming / Outgoing",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "MatheLift - Gestreckter Studieneinstieg",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Sozialkompetenz-Workshops",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -920,6 +1004,12 @@
       "faculty_department": null
     },
     {
+      "partner_name": "Auszeichnungen",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
       "partner_name": "Lerncoaching an der Fakultät Wirtschaft - Dein Studium. Deine Entwicklung.",
       "country": "",
       "city": "Unknown",
@@ -932,7 +1022,7 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Präsident*in",
+      "partner_name": "Präsident",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -1220,13 +1310,7 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Gleichstellungsbüro Unterseiten von \"Gleichstellungsbüro\" anzeigen Anmeldeformular Filmvorführung  Veranstaltungen",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "Anmeldeformular Filmvorführung",
+      "partner_name": "Gleichstellungsbüro Unterseiten von \"Gleichstellungsbüro\" anzeigen Veranstaltungen",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -1280,7 +1364,7 @@
       "faculty_department": null
     },
     {
-      "partner_name": "International Student Office Unterseiten von \"International Student Office\" anzeigen Meet the team",
+      "partner_name": "International Student Office Unterseiten von \"International Student Office\" anzeigen Aktuelles  Meet the team",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -1557,12 +1641,6 @@
     },
     {
       "partner_name": "Leitbild",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "Kontakt",
       "country": "",
       "city": "Unknown",
       "faculty_department": null

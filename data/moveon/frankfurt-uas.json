@@ -3,9 +3,9 @@
   "university_name": "Frankfurt University of Applied Sciences",
   "portal_url": "https://www.frankfurt-university.de/de/studium/internationales/erasmus/partnerhochschulen",
   "portal_type": "university_website",
-  "scraped_at": "2026-06-01T09:25:52.155Z",
+  "scraped_at": "2026-08-01T06:28:38.637Z",
   "strategy": "custom_scraper",
-  "partner_count": 116,
+  "partner_count": 115,
   "partners": [
     {
       "partner_name": "Studieninteressierte",
@@ -278,7 +278,7 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Forschung Forschung / EinstiegForschungsschwerpunkteKompetenzzentrenForschen in EuropaForschungsberichtForschungsdatenmanagementPromotionsförderungJobportalPreiseAnsprechpersonenKontaktformular",
+      "partner_name": "Forschung Forschung / EinstiegForschungsschwerpunkteKompetenzzentrenForschen in EuropaForschungsberichtForschungsdatenmanagementPromotionsförderungJobportalPreiseAnsprechpersonen",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -344,13 +344,7 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Kontaktformular",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "Wissens- und Technologietransfer Wissens- und TechnologietransferTransferstrategieKooperationenTransferprojekteExistenzgründungHoST",
+      "partner_name": "Transfer Wissens- und TechnologietransferTransferstrategieKooperationenTransferprojekteExistenzgründungHoST",
       "country": "",
       "city": "Unknown",
       "faculty_department": null

@@ -3,9 +3,9 @@
   "university_name": "HAW Hamburg",
   "portal_url": "https://www.haw-hamburg.de/international/partnerhochschulen-a-z/",
   "portal_type": "university_website",
-  "scraped_at": "2026-06-01T09:26:12.569Z",
+  "scraped_at": "2026-08-01T06:29:11.023Z",
   "strategy": "custom_scraper",
-  "partner_count": 122,
+  "partner_count": 123,
   "partners": [
     {
       "partner_name": "Accademia di Belle Arti, Bologna",
@@ -696,6 +696,12 @@
       "country": "faculty-5750;faculty-5748;faculty-5746;faculty-5744;faculty-5738;faculty-5736;faculty-5734",
       "city": "Dänemark country-847",
       "faculty_department": "Erasmus+ program-794"
+    },
+    {
+      "partner_name": "Vietnamese-German University",
+      "country": "faculty-5748;faculty-5744;faculty-5740;faculty-5736",
+      "city": "Vietnam country-887",
+      "faculty_department": "HAWeltweit program-797"
     },
     {
       "partner_name": "Virginia Tech",

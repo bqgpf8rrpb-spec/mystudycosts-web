@@ -3,9 +3,9 @@
   "university_name": "WHU Vallendar",
   "portal_url": "https://www.whu.edu/studium/auslandssemester/partneruniversitaeten/",
   "portal_type": "university_website",
-  "scraped_at": "2026-06-01T09:28:32.640Z",
+  "scraped_at": "2026-08-01T06:31:50.342Z",
   "strategy": "custom_scraper",
-  "partner_count": 172,
+  "partner_count": 173,
   "partners": [
     {
       "partner_name": "Programme",
@@ -903,6 +903,12 @@
     },
     {
       "partner_name": "WHU CustomGPT Makerthon",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Exec4Def",
       "country": "",
       "city": "Unknown",
       "faculty_department": null

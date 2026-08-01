@@ -3,9 +3,9 @@
   "university_name": "Universität Rostock",
   "portal_url": "https://www.uni-rostock.de/internationales/wege-ins-ausland/erasmus/partnerhochschulen/",
   "portal_type": "university_website",
-  "scraped_at": "2026-06-01T09:23:29.781Z",
+  "scraped_at": "2026-08-01T06:26:28.091Z",
   "strategy": "custom_scraper",
-  "partner_count": 264,
+  "partner_count": 263,
   "partners": [
     {
       "partner_name": "Studierende/Studierendenportal",
@@ -1016,13 +1016,13 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Forschungssicherheit",
+      "partner_name": "Gute Wissenschaftliche Praxis",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
     },
     {
-      "partner_name": "Gute Wissenschaftliche Praxis",
+      "partner_name": "Forschungssicherheit",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -1149,12 +1149,6 @@
     },
     {
       "partner_name": "Kontakt & Öffnungszeiten",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "X-Mas Party",
       "country": "",
       "city": "Unknown",
       "faculty_department": null

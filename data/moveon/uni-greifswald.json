@@ -3,9 +3,9 @@
   "university_name": "Universität Greifswald",
   "portal_url": "https://www.uni-greifswald.de/international/outgoing/erasmus/partneruniversitaeten/",
   "portal_type": "university_website",
-  "scraped_at": "2026-06-01T09:24:13.002Z",
+  "scraped_at": "2026-08-01T06:27:14.075Z",
   "strategy": "custom_scraper",
-  "partner_count": 218,
+  "partner_count": 219,
   "partners": [
     {
       "partner_name": "Studieninteressierte",
@@ -164,7 +164,13 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Klima und Universität",
+      "partner_name": "Nachhaltigkeit und Klimaschutz",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "KI und Universität",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -788,6 +794,12 @@
       "faculty_department": null
     },
     {
+      "partner_name": "Forschungsdatenmanagement",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
       "partner_name": "Open Access",
       "country": "",
       "city": "Unknown",
@@ -813,12 +825,6 @@
     },
     {
       "partner_name": "Internationales Profil",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "HSI-Monitor im Fokus – Profildaten zur Hochschulinternationalität",
       "country": "",
       "city": "Unknown",
       "faculty_department": null

@@ -3,9 +3,9 @@
   "university_name": "Hochschule Bremen",
   "portal_url": "https://www.hs-bremen.de/en/study/during-your-studies/going-abroad/partner-universities/",
   "portal_type": "university_website",
-  "scraped_at": "2026-07-01T08:07:20.225Z",
+  "scraped_at": "2026-08-01T06:29:39.542Z",
   "strategy": "custom_scraper",
-  "partner_count": 153,
+  "partner_count": 155,
   "partners": [
     {
       "partner_name": "CampInO",
@@ -536,6 +536,12 @@
       "faculty_department": null
     },
     {
+      "partner_name": "People of HSB",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
       "partner_name": "Location and access",
       "country": "",
       "city": "Unknown",
@@ -597,6 +603,12 @@
     },
     {
       "partner_name": "Any further questions?",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "HSB Merchandise",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -674,7 +686,7 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Campus Life     Location and access     History     Culture     Sports and activities",
+      "partner_name": "Campus Life     People of HSB     Location and access     History     Culture     Sports and activities",
       "country": "",
       "city": "Unknown",
       "faculty_department": null

@@ -3,18 +3,24 @@
   "university_name": "DHBW Ravensburg",
   "portal_url": "https://www.dhbw-ravensburg.de/studium/internationales/partnerhochschulen",
   "portal_type": "university_website",
-  "scraped_at": "2026-06-01T09:32:50.576Z",
+  "scraped_at": "2026-08-01T06:35:29.923Z",
   "strategy": "custom_scraper",
-  "partner_count": 54,
+  "partner_count": 50,
   "partners": [
     {
-      "partner_name": "DHBW RavensburgWir über unsAnsprechpersonenStellenangeboteFördervereinTermine",
+      "partner_name": "DHBW RavensburgWir über unsEinrichtungenAnsprechpersonenStellenangeboteTermineFörderverein",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
     },
     {
       "partner_name": "Wir über uns",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Einrichtungen",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -32,13 +38,13 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Förderverein",
+      "partner_name": "Termine",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
     },
     {
-      "partner_name": "Termine",
+      "partner_name": "Förderverein",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -74,7 +80,7 @@
       "faculty_department": null
     },
     {
-      "partner_name": "StudiumBewerbung und ZulassungStudienkosten & -finanzierungAllgemeine StudienberatungStudium GeneraleStudentisches LebenStudienabschlüsseInformationen für AlumniInformationen für Schulen",
+      "partner_name": "StudiumBewerbung und ZulassungStudienkosten & -finanzierungAllgemeine StudienberatungBibliothekStudium GeneraleStudentisches LebenStudienabschlüsseInformationen für AlumniWichtige Anlaufstellen",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -93,6 +99,12 @@
     },
     {
       "partner_name": "Allgemeine Studienberatung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Bibliothek",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -122,25 +134,7 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Informationen für Schulen",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "Duale PartnerInformationen für Duale PartnerListe Dualer Partner",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "Informationen für Duale Partner",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "Liste Dualer Partner",
+      "partner_name": "Wichtige Anlaufstellen",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -188,7 +182,19 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Service & EinrichtungenLehrbeauftragteDokumente & DownloadsPrüfungsamtBibliothekInternational OfficeEducation Support CenterIT.Service CenterPresseSeezeit Studierendenwerk",
+      "partner_name": "Service & ZusammenarbeitDuale PartnerInformationen für SchulenLehrbeauftragteDokumente & DownloadsPresseSeezeit Studierendenwerk",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Duale Partner",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Informationen für Schulen",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -201,36 +207,6 @@
     },
     {
       "partner_name": "Dokumente & Downloads",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "Prüfungsamt",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "Bibliothek",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "International Office",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "Education Support Center",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "IT.Service Center",
       "country": "",
       "city": "Unknown",
       "faculty_department": null

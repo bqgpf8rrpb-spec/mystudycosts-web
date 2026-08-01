@@ -3,9 +3,9 @@
   "university_name": "HWR Berlin",
   "portal_url": "https://www.hwr-berlin.de/international/wege-ins-ausland/partnerhochschulen/",
   "portal_type": "university_website",
-  "scraped_at": "2026-06-01T09:25:09.062Z",
+  "scraped_at": "2026-08-01T06:27:59.307Z",
   "strategy": "custom_scraper",
-  "partner_count": 344,
+  "partner_count": 347,
   "partners": [
     {
       "partner_name": "Zum Menü springen",
@@ -296,19 +296,13 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Studieren mit FamilieFlexible Kinderbetreuung der HWR BerlinFerienbetreuung",
+      "partner_name": "Studieren mit FamilieFlexible Kinderbetreuung der HWR Berlin",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
     },
     {
       "partner_name": "Flexible Kinderbetreuung der HWR Berlin",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "Ferienbetreuung",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -2048,6 +2042,12 @@
       "faculty_department": null
     },
     {
+      "partner_name": "Cookies",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
       "partner_name": "Bluesky",
       "country": "",
       "city": "Unknown",
@@ -2067,6 +2067,24 @@
     },
     {
       "partner_name": "LinkedIn",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Notwendige Cookies",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Marketing",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Statistik",
       "country": "",
       "city": "Unknown",
       "faculty_department": null

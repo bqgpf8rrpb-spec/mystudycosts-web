@@ -3,123 +3,15 @@
   "university_name": "Universität zu Köln",
   "portal_url": "https://zib.phil-fak.uni-koeln.de/koelner-studierende/erasmus/erasmus-partnerschaften/englisches-seminar-i-und-ii",
   "portal_type": "university_website",
-  "scraped_at": "2026-06-01T09:34:37.205Z",
+  "scraped_at": "2026-08-01T06:37:03.990Z",
   "strategy": "custom_scraper",
-  "partner_count": 305,
+  "partner_count": 304,
   "partners": [
     {
       "partner_name": "Belgien",
-      "country": "Antwerpen",
-      "city": "Universiteit Antwerpen",
-      "faculty_department": "2, B/M|| 1, B|| 4 (je ein Semester), B/M|| 2 (je ein Semester), B|| 3 (je ein Semester, BA, MA, PhD)|| 1 (je ein Semester), B/M|| Philosophische Fakultät - Historisches Institut|| Philosophische Fakultät - Philosophisches Seminar|| 1, B/M/PhD|| 2 (je ein Semester), B/M|| 2, B/M und 2 (je ein Semester) M"
-    },
-    {
-      "partner_name": "Bulgarien",
-      "country": "Sofia",
-      "city": "Sofia University - St. Kliment Ohridski",
-      "faculty_department": "2, B/M|| 3 (ganzes Akademisches Jahr, BA, MA, PhD)|| 2 (je ein Semester, PhD)|| 1 (akademisches Jahr, BA, MA, PhD)|| Philosophische Fakultät - Philosophisches Seminar"
-    },
-    {
-      "partner_name": "Dänemark",
-      "country": "Odense",
-      "city": "Syddansk Universitet",
-      "faculty_department": "3, B"
-    },
-    {
-      "partner_name": "Finnland",
-      "country": "Helsinki",
-      "city": "Helsingin Yliopisto",
-      "faculty_department": "2, B/M|| 2, M|| 1, B/M|| Philosophische Fakultät - Philosophisches Seminar"
-    },
-    {
-      "partner_name": "Frankreich (La Réunion)",
-      "country": "Saint-Denis",
-      "city": "Université de la Reunion",
-      "faculty_department": "4 (je ein Semester), B"
-    },
-    {
-      "partner_name": "Großbritannien",
-      "country": "Aberdeen",
-      "city": "University of Aberdeen",
-      "faculty_department": "4 (je ein Semester), B|| 4, B|| 1 (je ein ganzes akademisches Jahr), B|| 6, B|| 10, B|| 8 (je ein Semester), B. Es werden keine Bewerbungen von Masterstudierenden akzeptiert.|| 2, B|| Philosophische Fakultät - Philosophisches Seminar"
-    },
-    {
-      "partner_name": "Irland",
-      "country": "Cork",
-      "city": "University College Cork",
-      "faculty_department": "6 (je ein Semester), B|| 4, B"
-    },
-    {
-      "partner_name": "Italien",
-      "country": "Fisciano",
-      "city": "Università degli Studi di Salerno",
-      "faculty_department": "3 (je ein Semester), B/M/PhD|| 2 (je ein Semester), B|| 4 (je ein Semester), B/M/PhD|| 2, B/M/PhD|| 1, B|| 8 (je ein Semester), B/PhD|| 5 (davon 1 nur ein Semester), B/M|| 14, B|| 2 (je ein Semester, BA, MA und PhD)|| 2 pro B/M/PhD|| Philosophische Fakultät - Historisches Institut|| Philosophische Fakultät - Philosophisches Seminar|| 2 (je ein Semester), B/M|| 2 (je ein Semester), B/M/PhD|| 3, B/M/PhD|| 1 B; 2 M"
-    },
-    {
-      "partner_name": "Lettland",
-      "country": "Riga",
-      "city": "Latvijas Universitáte",
-      "faculty_department": "2 (je ein Semester), B|| Philosophische Fakultät - Historisches Institut|| 1 (je ein Semester), B/M/PhD"
-    },
-    {
-      "partner_name": "Litauen",
-      "country": "Kaunas",
-      "city": "Vytauto Didziojo Universitetas",
-      "faculty_department": "3 (je ein Semester), B|| Philosophische Fakultät - Philosophisches Seminar"
-    },
-    {
-      "partner_name": "Polen",
-      "country": "Krakau",
-      "city": "Uniwersytet Jagiellonski",
-      "faculty_department": "2 (je ein Semester), B/M/PhD|| 3 (je ein Semester, BA, MA und PhD)|| 4 (je ein Semester, BA, MA und PhD)|| 6 (je ein Semester, BA, MA und PhD)|| Philosophische Fakultät - Historisches Institut|| Philosophische Fakultät - Philosophisches Seminar|| 3 (je ein Semester), B/M/PhD|| 2, B/M/PhD"
-    },
-    {
-      "partner_name": "Rumänien",
-      "country": "Bukarest",
-      "city": "Universitatea din Bucuresti",
-      "faculty_department": "2, B/M|| 6, B|| Philosophische Fakultät - Historisches Institut|| Philosophische Fakultät - Philosophisches Seminar"
-    },
-    {
-      "partner_name": "Schweiz",
-      "country": "Lausanne",
-      "city": "Université de Lausanne",
-      "faculty_department": "2, B/M|| 2, B/M/PhD|| Philosophische Fakultät - Historisches Institut|| Philosophische Fakultät - Philosophisches Seminar|| 2 (je ein Semester), B|| 3, B/M|| 1, B/M/PhD"
-    },
-    {
-      "partner_name": "Slowakei",
-      "country": "Zilina",
-      "city": "University of Zilina",
-      "faculty_department": "2 (je ein Semester), B/M|| 5 (je ein Semester, BA, MA und PhD)"
-    },
-    {
-      "partner_name": "Spanien",
-      "country": "Barcelona",
-      "city": "Universitat de Barcelona",
-      "faculty_department": "4, B|| 3, B/M|| 6 (je ein Semester), B|| 5, B|| 5, B/M/PhD|| 2 (je ein Semester), B/M|| 2, B|| Philosophische Fakultät - Historisches Institut|| Philosophische Fakultät - Philosophisches Seminar|| 4, B/M|| 5 (je ein Semester), B|| 1, B|| 7, B|| 2, B/M|| 6, B/M"
-    },
-    {
-      "partner_name": "Tschechische Republik",
-      "country": "Brünn",
-      "city": "Masarykova Univerzita v Brno",
-      "faculty_department": "4 (je ein Semester), B/M|| 2 (je ein Semester), B/M|| 4, B/M/PhD"
-    },
-    {
-      "partner_name": "Türkei",
-      "country": "Ankara",
-      "city": "Middle East Technical University",
-      "faculty_department": "2, B|| 3, B|| 2 (je ein Semester), B/M|| 2 (je ein Semester), B/M/PhD|| 1, B/M/PhD|| Philosophische Fakultät - Historisches Institut|| Philosophische Fakultät - Philosophisches Seminar|| 2, B/M"
-    },
-    {
-      "partner_name": "Ungarn",
-      "country": "Budapest",
-      "city": "Eötvös Loránd Tudományegyetem",
-      "faculty_department": "4 (je ein Semester), B/M/PhD|| Philosophische Fakultät - Philosophisches Seminar"
-    },
-    {
-      "partner_name": "Zypern",
-      "country": "Larnaka",
-      "city": "University of Central Lancashire",
-      "faculty_department": "2, B|| 2, B/M"
+      "country": "Liège",
+      "city": "Université de Liège",
+      "faculty_department": "4 (je ein Semester), B/M|| 2 (je ein Semester), B|| 3 (je ein Semester, BA, MA, PhD)|| 1 (je ein Semester), B/M|| Philosophische Fakultät - Historisches Institut|| Philosophische Fakultät - Philosophisches Seminar|| 1, B/M/PhD|| 2 (je ein Semester), B/M|| 2, B/M und 2 (je ein Semester) M"
     },
     {
       "partner_name": "Frankreich",
@@ -134,10 +26,28 @@
       "faculty_department": "2, B/M/PhD"
     },
     {
+      "partner_name": "Italien",
+      "country": "Bologna",
+      "city": "Universitá di Bologna",
+      "faculty_department": "5 (davon 1 nur ein Semester), B/M|| 14, B|| 2, B|| 2 (je ein Semester, BA, MA und PhD)|| 2 pro B/M/PhD|| Philosophische Fakultät - Historisches Institut|| Philosophische Fakultät - Philosophisches Seminar|| 2 (je ein Semester), B/M|| 4 (je ein Semester), B|| 2 (je ein Semester), B/M/PhD|| 2, B/M|| 3 (je ein Semester), B|| 3, B/M/PhD|| 1 B; 2 M|| 1, B"
+    },
+    {
+      "partner_name": "Bulgarien",
+      "country": "Sofia",
+      "city": "Sofiiski Universitet \"Sv. Kliment Okhridski\"",
+      "faculty_department": "3 (ganzes Akademisches Jahr, BA, MA, PhD)|| 2 (je ein Semester, PhD)|| 1 (akademisches Jahr, BA, MA, PhD)|| Philosophische Fakultät - Philosophisches Seminar"
+    },
+    {
       "partner_name": "Kroatien",
       "country": "Rijeka",
       "city": "Sveučilište u Rijeci",
       "faculty_department": "2 (je ein Semester, BA, MA und PhD)|| 4 (je ein Semester), B/M"
+    },
+    {
+      "partner_name": "Polen",
+      "country": "Danzig",
+      "city": "Uniwersytet Gdański",
+      "faculty_department": "3 (je ein Semester, BA, MA und PhD)|| 4 (je ein Semester, BA, MA und PhD)|| 6 (je ein Semester, BA, MA und PhD)|| Philosophische Fakultät - Historisches Institut|| Philosophische Fakultät - Philosophisches Seminar|| 3 (je ein Semester), B/M/PhD|| 2 (je ein Semester), B|| 2 (je ein Semester), B/M/PhD|| 2, B/M/PhD"
     },
     {
       "partner_name": "Serbien",
@@ -146,16 +56,46 @@
       "faculty_department": "3 (je ein Semester, BA, MA und PhD)"
     },
     {
+      "partner_name": "Slowakei",
+      "country": "Bratislava",
+      "city": "Univerzita Komenského v Bratislave",
+      "faculty_department": "5 (je ein Semester, BA, MA und PhD)"
+    },
+    {
       "partner_name": "Slowenien",
       "country": "Ljubljana",
       "city": "Univerza v Ljubljani",
       "faculty_department": "5 (je ein Semester, BA, MA und PhD)"
     },
     {
+      "partner_name": "Finnland",
+      "country": "Helsinki",
+      "city": "Helsingin Yliopisto (University of Helsinki)",
+      "faculty_department": "1, B/M|| Philosophische Fakultät - Philosophisches Seminar"
+    },
+    {
+      "partner_name": "Großbritannien",
+      "country": "York",
+      "city": "University of York",
+      "faculty_department": "2, B|| Philosophische Fakultät - Philosophisches Seminar"
+    },
+    {
       "partner_name": "Niederlande",
       "country": "Groningen",
       "city": "Rijksuniversiteit Groningen",
       "faculty_department": "3 (je ein Semester), B/M/PhD|| Philosophische Fakultät - Philosophisches Seminar|| 2 (je ein Semester), B/M/PhD"
+    },
+    {
+      "partner_name": "Spanien",
+      "country": "Barcelona",
+      "city": "Universitat de Barcelona",
+      "faculty_department": "2 (je ein Semester), B/M|| 3, B|| 2, B|| Philosophische Fakultät - Historisches Institut|| Philosophische Fakultät - Philosophisches Seminar|| 4, B/M|| 5 (je ein Semester), B|| 1, B|| 7, B|| 2, B/M|| 5, B/M/PhD|| 6, B/M"
+    },
+    {
+      "partner_name": "Schweiz",
+      "country": "Basel",
+      "city": "Universität Basel",
+      "faculty_department": "2, B/M/PhD|| Philosophische Fakultät - Historisches Institut|| Philosophische Fakultät - Philosophisches Seminar|| 2 (je ein Semester), B|| 3, B/M|| 1, B/M/PhD"
     },
     {
       "partner_name": "Estland",
@@ -170,10 +110,34 @@
       "faculty_department": "Philosophische Fakultät - Historisches Institut|| 4, B/M/PhD"
     },
     {
+      "partner_name": "Lettland",
+      "country": "Riga",
+      "city": "Latvijas Universitate",
+      "faculty_department": "Philosophische Fakultät - Historisches Institut|| 1 (je ein Semester), B/M/PhD"
+    },
+    {
       "partner_name": "Norwegen",
       "country": "Oslo",
       "city": "Universitetet i Oslo",
       "faculty_department": "Philosophische Fakultät - Historisches Institut"
+    },
+    {
+      "partner_name": "Rumänien",
+      "country": "Cluj-Napoca",
+      "city": "Universitatea Babes-Bolyai",
+      "faculty_department": "Philosophische Fakultät - Historisches Institut|| Philosophische Fakultät - Philosophisches Seminar|| 2"
+    },
+    {
+      "partner_name": "Türkei",
+      "country": "Antalya",
+      "city": "Akdeniz Üniversitesi",
+      "faculty_department": "Philosophische Fakultät - Historisches Institut|| Philosophische Fakultät - Philosophisches Seminar|| 2, B/M"
+    },
+    {
+      "partner_name": "Litauen",
+      "country": "Kaunas",
+      "city": "Vytauto Didziojo Universitetas",
+      "faculty_department": "Philosophische Fakultät - Philosophisches Seminar"
     },
     {
       "partner_name": "Luxemburg",
@@ -186,6 +150,18 @@
       "country": "Porto",
       "city": "Universidade do Porto",
       "faculty_department": "Philosophische Fakultät - Philosophisches Seminar|| 3, B/M"
+    },
+    {
+      "partner_name": "Ungarn",
+      "country": "Budapest",
+      "city": "Eötvös Loránd Tudományegyetem",
+      "faculty_department": "Philosophische Fakultät - Philosophisches Seminar|| 4 (je ein Semester), B/M/PhD"
+    },
+    {
+      "partner_name": "Tschechische Republik",
+      "country": "Prag",
+      "city": "Univerzita Karlova v Praze",
+      "faculty_department": "4, B/M/PhD"
     },
     {
       "partner_name": "Suche öffnen",
@@ -243,6 +219,12 @@
     },
     {
       "partner_name": "Erasmus/Exchange",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Juristische Fakultät - ZIB Jura"
+    },
+    {
+      "partner_name": "Wirtschaftsrecht",
       "country": "",
       "city": "Unknown",
       "faculty_department": "Juristische Fakultät - ZIB Jura"
@@ -318,6 +300,12 @@
       "country": "",
       "city": "Unknown",
       "faculty_department": "Juristische Fakultät - ZIB Jura|| Medizinische Fakultät - ZIB Med|| Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo|| Mathematisch-Naturwissenschaftliche Fakultät|| Humanwissenschaftliche Fakultät - ZiB"
+    },
+    {
+      "partner_name": "Leichte Sprache",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Juristische Fakultät - ZIB Jura|| Medizinische Fakultät - ZIB Med|| Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo|| Mathematisch-Naturwissenschaftliche Fakultät"
     },
     {
       "partner_name": "Sitemap",
@@ -1004,6 +992,12 @@
       "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
     },
     {
+      "partner_name": "WiSo BUDDY Engagement",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
+    },
+    {
       "partner_name": "Studienorganisation",
       "country": "",
       "city": "Unknown",
@@ -1286,7 +1280,7 @@
       "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
     },
     {
-      "partner_name": "International Buddy Programme",
+      "partner_name": "International Exchange Buddy Programme",
       "country": "",
       "city": "Unknown",
       "faculty_department": "Wirtschafts- und Sozialwissenschaftliche Fakultät - WiSo"
