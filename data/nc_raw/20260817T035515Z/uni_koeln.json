@@ -1,0 +1,38 @@
+[
+  {
+    "source_university_name": "Universität zu Köln",
+    "source_program_name": "Rechtswissenschaft",
+    "source_nc_text": "1,4",
+    "semester": null,
+    "source_url": "https://studsek.uni-koeln.de/e143864/e62135/e105478/20260311_Verfahrensergebnisse_SoSe_26_ger.pdf",
+    "scraped_at": "2026-08-17T03:55:35.279612",
+    "confidence": 0.9,
+    "metadata": {
+      "secondary_cutoff": "2,2"
+    }
+  },
+  {
+    "source_university_name": "Universität zu Köln",
+    "source_program_name": "Betriebswirtschaftslehre",
+    "source_nc_text": "1,2",
+    "semester": null,
+    "source_url": "https://studsek.uni-koeln.de/e143864/e62135/e105478/20260311_Verfahrensergebnisse_SoSe_26_ger.pdf",
+    "scraped_at": "2026-08-17T03:55:35.279629",
+    "confidence": 0.9,
+    "metadata": {
+      "secondary_cutoff": "1,6"
+    }
+  },
+  {
+    "source_university_name": "Universität zu Köln",
+    "source_program_name": "Volkswirtschaftslehre",
+    "source_nc_text": "1,5",
+    "semester": null,
+    "source_url": "https://studsek.uni-koeln.de/e143864/e62135/e105478/20260311_Verfahrensergebnisse_SoSe_26_ger.pdf",
+    "scraped_at": "2026-08-17T03:55:35.279635",
+    "confidence": 0.9,
+    "metadata": {
+      "secondary_cutoff": "2,4"
+    }
+  }
+]
