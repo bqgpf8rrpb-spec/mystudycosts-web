@@ -3719,6 +3719,20 @@
   {
     "reason": "program_unmapped",
     "university": "Ludwig Maximilian University of Munich (LMU)",
+    "source_program_name": "Vst.-Nr. Veranstaltung Vst.-Art Aktion Mündliches Staatsexamen - Sprachpraxis - Kotzor Prüfung 13112 CoL Doktorandenkolloquium Doktorandenkolloquium",
+    "source_nc_text": "NC",
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120262=851121%7C850377&P.vx=kurz"
+  },
+  {
+    "reason": "program_unmapped",
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "source_program_name": "Mündliches Staatsexamen - Sprachpraxis - Kotzor",
+    "source_nc_text": "NC",
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120262=851121%7C850377&P.vx=kurz"
+  },
+  {
+    "reason": "program_unmapped",
+    "university": "Ludwig Maximilian University of Munich (LMU)",
     "source_program_name": "B.A. HF \"Historische und Allgemeine Sprachwissenschaft\" (2019)",
     "source_nc_text": "NC",
     "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120262=851121%7C850377&P.vx=kurz"
@@ -3736,6 +3750,13 @@
     "source_program_name": "M.A. Literarisches Übersetzen",
     "source_nc_text": "NC",
     "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=wtree&search=1&trex=step&root120262=851121%7C850377&P.vx=kurz"
+  },
+  {
+    "reason": "program_unmapped",
+    "university": "Ludwig Maximilian University of Munich (LMU)",
+    "source_program_name": "Mündliches Staatsexamen - Sprachpraxis",
+    "source_nc_text": "NC",
+    "source_url": "https://lsf.verwaltung.uni-muenchen.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=1159974&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung"
   },
   {
     "reason": "program_unmapped",
