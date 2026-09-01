@@ -3,7 +3,7 @@
   "university_name": "WHU Vallendar",
   "portal_url": "https://www.whu.edu/studium/auslandssemester/partneruniversitaeten/",
   "portal_type": "university_website",
-  "scraped_at": "2026-08-01T06:31:50.342Z",
+  "scraped_at": "2026-09-01T09:13:10.079Z",
   "strategy": "custom_scraper",
   "partner_count": 173,
   "partners": [
@@ -638,6 +638,12 @@
       "faculty_department": null
     },
     {
+      "partner_name": "Behavioral Accounting",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
       "partner_name": "Behavioral Finance",
       "country": "",
       "city": "Unknown",
@@ -885,12 +891,6 @@
     },
     {
       "partner_name": "Forum Mittelstand",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "CSR",
       "country": "",
       "city": "Unknown",
       "faculty_department": null

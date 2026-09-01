@@ -3,9 +3,9 @@
   "university_name": "TU Darmstadt",
   "portal_url": "https://www.tu-darmstadt.de/studieren/studieninteressierte/internationale_studieninteressierte/erasmus_incoming/erasmus_kooperationen/index.de.jsp",
   "portal_type": "university_website",
-  "scraped_at": "2026-08-01T06:26:00.007Z",
+  "scraped_at": "2026-09-01T09:07:36.082Z",
   "strategy": "custom_scraper",
-  "partner_count": 239,
+  "partner_count": 240,
   "partners": [
     {
       "partner_name": "Mathematik",
@@ -1322,7 +1322,13 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Mitten in der Gesellschaft Übersicht Öffentliche Vorlesungsreihen Campusführungen Wissenschaftsschloss Fördern und Spenden Übersicht Unsere FördererWissenschafts­kommunikation",
+      "partner_name": "Mitten in der Gesellschaft Übersicht 150 Jahre TU Darmstadt Öffentliche Vorlesungsreihen Campusführungen Wissenschaftsschloss Fördern und Spenden Übersicht Unsere FördererWissenschafts­kommunikation",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "150 Jahre TU Darmstadt",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
