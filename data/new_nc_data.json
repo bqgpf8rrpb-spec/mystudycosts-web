@@ -321,6 +321,11 @@
   },
   {
     "university": "Ludwig Maximilian University of Munich (LMU)",
+    "program": "Statistik und Data Science (Bachelor)",
+    "nc_threshold": null
+  },
+  {
+    "university": "Ludwig Maximilian University of Munich (LMU)",
     "program": "Theoretical and Mathematical Physics (M.Sc.)",
     "nc_threshold": null
   },
@@ -1186,13 +1191,8 @@
   },
   {
     "university": "University of Cologne",
-    "program": "Betriebswirtschaftslehre (BWL)",
-    "nc_threshold": 1.2
-  },
-  {
-    "university": "University of Cologne",
     "program": "Law (State Examination)",
-    "nc_threshold": 1.4
+    "nc_threshold": 1.3
   },
   {
     "university": "University of Duisburg-Essen",
