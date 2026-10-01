@@ -3,7 +3,7 @@
   "university_name": "Universität Greifswald",
   "portal_url": "https://www.uni-greifswald.de/international/outgoing/erasmus/partneruniversitaeten/",
   "portal_type": "university_website",
-  "scraped_at": "2026-09-01T09:08:42.677Z",
+  "scraped_at": "2026-10-01T10:43:01.429Z",
   "strategy": "custom_scraper",
   "partner_count": 219,
   "partners": [
@@ -260,6 +260,12 @@
       "faculty_department": null
     },
     {
+      "partner_name": "ZLB",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
       "partner_name": "Archiv",
       "country": "",
       "city": "Unknown",
@@ -428,12 +434,6 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Studienbeginn",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
       "partner_name": "Termine und Fristen",
       "country": "",
       "city": "Unknown",
@@ -596,7 +596,7 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Behindertenbeauftragte",
+      "partner_name": "Behindertenbeauftragter",
       "country": "",
       "city": "Unknown",
       "faculty_department": null

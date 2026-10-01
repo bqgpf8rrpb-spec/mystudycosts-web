@@ -3,7 +3,7 @@
   "university_name": "WHU Vallendar",
   "portal_url": "https://www.whu.edu/studium/auslandssemester/partneruniversitaeten/",
   "portal_type": "university_website",
-  "scraped_at": "2026-09-01T09:13:10.079Z",
+  "scraped_at": "2026-10-01T10:47:28.156Z",
   "strategy": "custom_scraper",
   "partner_count": 173,
   "partners": [
@@ -542,12 +542,6 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Center for EUropean Studies",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
       "partner_name": "Center for Non-Profit Management and Social Impact",
       "country": "",
       "city": "Unknown",
@@ -860,12 +854,6 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Asia Center",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
       "partner_name": "Center for Collaborative Commerce",
       "country": "",
       "city": "Unknown",
@@ -1005,6 +993,18 @@
     },
     {
       "partner_name": "Professor für Leadership",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Juniorprofessor für Financial Accounting",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Juniorprofessor für Finance",
       "country": "",
       "city": "Unknown",
       "faculty_department": null

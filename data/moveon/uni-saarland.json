@@ -3,7 +3,7 @@
   "university_name": "Universität des Saarlandes",
   "portal_url": "https://www.uni-saarland.de/studium/international/auslandsaufenthalt/erasmus/partneruniversitaeten.html",
   "portal_type": "university_website",
-  "scraped_at": "2026-09-01T09:06:52.967Z",
+  "scraped_at": "2026-10-01T10:40:53.140Z",
   "strategy": "custom_scraper",
   "partner_count": 167,
   "partners": [
@@ -692,7 +692,7 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Hochschulrat",
+      "partner_name": "Senat und Hochschulrat",
       "country": "",
       "city": "Unknown",
       "faculty_department": null

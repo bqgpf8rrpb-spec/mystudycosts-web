@@ -3,7 +3,7 @@
   "university_name": "DHBW Ravensburg",
   "portal_url": "https://www.dhbw-ravensburg.de/studium/internationales/partnerhochschulen",
   "portal_type": "university_website",
-  "scraped_at": "2026-09-01T09:16:35.690Z",
+  "scraped_at": "2026-10-01T10:51:35.212Z",
   "strategy": "custom_scraper",
   "partner_count": 50,
   "partners": [
@@ -80,7 +80,13 @@
       "faculty_department": null
     },
     {
-      "partner_name": "StudiumBewerbung und ZulassungStudienkosten & -finanzierungAllgemeine StudienberatungBibliothekStudium GeneraleStudentisches LebenStudienabschlüsseInformationen für AlumniWichtige Anlaufstellen",
+      "partner_name": "StudiumDuales Studium erklärtBewerbung und ZulassungAllgemeine StudienberatungStudienstartRund ums StudiumWichtige AnlaufstellenBibliothekStudienabschlüsseIn Verbindung bleiben",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Duales Studium erklärt",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -92,13 +98,25 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Studienkosten & -finanzierung",
+      "partner_name": "Allgemeine Studienberatung",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
     },
     {
-      "partner_name": "Allgemeine Studienberatung",
+      "partner_name": "Studienstart",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Rund ums Studium",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Wichtige Anlaufstellen",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -110,31 +128,13 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Studium Generale",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "Studentisches Leben",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
       "partner_name": "Studienabschlüsse",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
     },
     {
-      "partner_name": "Informationen für Alumni",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "Wichtige Anlaufstellen",
+      "partner_name": "In Verbindung bleiben",
       "country": "",
       "city": "Unknown",
       "faculty_department": null

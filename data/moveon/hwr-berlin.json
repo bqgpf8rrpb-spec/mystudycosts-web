@@ -3,9 +3,9 @@
   "university_name": "HWR Berlin",
   "portal_url": "https://www.hwr-berlin.de/international/wege-ins-ausland/partnerhochschulen/",
   "portal_type": "university_website",
-  "scraped_at": "2026-09-01T09:09:28.996Z",
+  "scraped_at": "2026-10-01T10:43:56.583Z",
   "strategy": "custom_scraper",
-  "partner_count": 347,
+  "partner_count": 344,
   "partners": [
     {
       "partner_name": "Zum Menü springen",
@@ -1430,7 +1430,7 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Internationale Austausch- und COIL-ProjekteProjekt UKollaborateErasmus+ KurzzeitprogrammeCOIL4all @HWR BerlinBeCOILUAS7 Virtual AcademyProjekt Toolip",
+      "partner_name": "Internationale Austausch- und COIL-ProjekteProjekt UKollaborateErasmus+ KurzzeitprogrammeHow to COIL",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -1448,25 +1448,7 @@
       "faculty_department": null
     },
     {
-      "partner_name": "COIL4all @HWR Berlin",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "BeCOIL",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "UAS7 Virtual Academy",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "Projekt Toolip",
+      "partner_name": "How to COIL",
       "country": "",
       "city": "Unknown",
       "faculty_department": null

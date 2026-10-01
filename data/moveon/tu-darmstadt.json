@@ -3,7 +3,7 @@
   "university_name": "TU Darmstadt",
   "portal_url": "https://www.tu-darmstadt.de/studieren/studieninteressierte/internationale_studieninteressierte/erasmus_incoming/erasmus_kooperationen/index.de.jsp",
   "portal_type": "university_website",
-  "scraped_at": "2026-09-01T09:07:36.082Z",
+  "scraped_at": "2026-10-01T10:41:40.366Z",
   "strategy": "custom_scraper",
   "partner_count": 240,
   "partners": [
@@ -1256,13 +1256,7 @@
       "faculty_department": null
     },
     {
-      "partner_name": "xchange-Circles Übersicht Hydrogen / H2 Sustainable Mobility & Transport / M&T Sustainable Industry",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "Hydrogen / H2",
+      "partner_name": "xchange-Circles Übersicht Sustainable Mobility & Transport / M&T Sustainable Industry Hydrogen / H2",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -1275,6 +1269,12 @@
     },
     {
       "partner_name": "Sustainable Industry",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Hydrogen / H2",
       "country": "",
       "city": "Unknown",
       "faculty_department": null

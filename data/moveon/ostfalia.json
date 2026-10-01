@@ -3,9 +3,9 @@
   "university_name": "Ostfalia Hochschule",
   "portal_url": "https://www.ostfalia.de/cms/de/io/partnerhochschulen/",
   "portal_type": "university_website",
-  "scraped_at": "2026-09-01T09:16:14.022Z",
+  "scraped_at": "2026-10-01T10:51:05.951Z",
   "strategy": "custom_scraper",
-  "partner_count": 303,
+  "partner_count": 304,
   "partners": [
     {
       "partner_name": "Suchformular      Suchbegriff       Suche ausführen",
@@ -506,7 +506,7 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Gründen Unterseiten von \"Gründen\" anzeigen GO Pilot  Downloads für deine Gründung  Team Gründen@Ostfalia  Kontakt",
+      "partner_name": "Gründen Unterseiten von \"Gründen\" anzeigen GO Pilot  Downloads für deine Gründung  Unser Team  Kontakt",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -524,7 +524,7 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Team Gründen@Ostfalia",
+      "partner_name": "Unser Team",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -812,6 +812,12 @@
       "faculty_department": null
     },
     {
+      "partner_name": "Anfahrt Raumplan Mensa",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
       "partner_name": "Studium Digital Technologies",
       "country": "",
       "city": "Unknown",
@@ -824,13 +830,25 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Studium Informatik / Wirtschaftsinformatik",
+      "partner_name": "Studium",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
     },
     {
-      "partner_name": "Studium",
+      "partner_name": "Forschung",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Erstsemesterinfos Präsenzstudiengänge",
+      "country": "",
+      "city": "Unknown",
+      "faculty_department": null
+    },
+    {
+      "partner_name": "Erstsemesterinfos Online-Studium",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
@@ -902,19 +920,7 @@
       "faculty_department": null
     },
     {
-      "partner_name": "Prüfungsamt",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
       "partner_name": "Praxisamt",
-      "country": "",
-      "city": "Unknown",
-      "faculty_department": null
-    },
-    {
-      "partner_name": "Forschung",
       "country": "",
       "city": "Unknown",
       "faculty_department": null
