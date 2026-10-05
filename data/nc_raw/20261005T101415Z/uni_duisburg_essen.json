@@ -1,0 +1,3362 @@
+[
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Lehramt",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455302&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:01.966629",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Erziehungswissenschaft (ohne Lehramt)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455468&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:01.972520",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "M.Sc. Econometrics",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455855&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:01.982301",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "M.Sc. Märkte und Unternehmen",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455855&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:01.982433",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Die Fakultät für Betriebswirtschaftslehre bietet u.a. die folgenden Studiengänge an: - den Bachelor-/Masterstudiengang Betriebswirtschaftslehre - den Bachelor-/Masterstudiengang Wirtschaftspädagogik - den Bachelor-/Masterstudiengang Wirtschaftsingenieurwesen (in Zusammenarbeit mit der FK Ingenieurwissenschaften) - den Bachelor-/Masterstudiengang Menschzentrierte Informatik und Psychologie (in Zusammenarbeit mit der FK Informatik) - den Bachelor-/Masterstudiengang Kulturwirt (in Zusammenarbeit mit der FK Geisteswissenschaften) - Bachelor-/Masterstudiengänge im Bereich Ostasienwissenschaften (in Zusammenarbeit mit der FK Gesellschaftswissenschaften).",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453108&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:01.989295",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bachelor of Science (Chemie)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455702&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.011891",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master of Science (Chemie)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455702&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.012023",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master of Science (Medizinisch-Biologische Chemie)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455702&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.012146",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bachelor of Science (Water Science - Wasser: Chemie, Analytik, Mikrobiologie)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455702&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.012277",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master of Science (Water Science)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455702&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.012400",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bachelor Lehramtsstudiengänge",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455702&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.012521",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master Lehramtsstudiengänge",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455702&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.012641",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Studiengang Lehramt Bachelor",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453733&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.029172",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Studiengang Lehramt Master",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453733&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.029298",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Studiengang Bachelor Biologie",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453733&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.029415",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Studiengang Medizinische Biologie (Bachelor)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453733&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.029538",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Studiengang Medizinische Biologie (Master)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453733&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.029661",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Studiengang Bachelor Aquatische Biologie",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453733&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.029781",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Studiengang Master Aquatische Biologie",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453733&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.029899",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Studiengang Bachelor Molekularbiologie",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453733&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.030027",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Studiengang Master Molekularbiologie",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453733&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.030143",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Lehramt Grundschule (LGr und BA)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453733&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.030257",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Lehramt Grundschule (Master)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453733&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.030369",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Studiengang Master Biodiversität / Biodiversity",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453733&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.030492",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Lehrveranstaltungen Lehramt Grundschule/ Sonderpädagogische Förderung B.A. Sachunterricht Geographie (LA Ba G)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455580&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.041218",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Lehrveranstaltungen Lehramt Grundschule M. Ed. Sachunterricht (LA Ma G)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455580&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.041381",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Lehrveranstaltungen B.Sc. BWL (MSM)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455580&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.041513",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Lehrveranstaltungen B.Sc. BWL (Wirtschaftswissenschaften)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455580&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.041640",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Lehrveranstaltungen B.Sc. VWL (Wirtschaftswissenschaften)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455580&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.041768",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Lehrveranstaltungen M.A. Kulturwirt",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455580&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.041891",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Lehrveranstaltungen M.Sc. Technische Logistik",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455580&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.042023",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Lehrveranstaltungen M.A. Sozioökonomie",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455580&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.042150",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Lehramt für Berufskolleg",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452596&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.049105",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Lehramt Informatik",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C454510&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.087537",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bachelor Lehramt Grundschulen Sachunterricht",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455400&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.099635",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master Lehramt Grundschulen Sachunterricht",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455400&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.099765",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master Sustainable Urban Development",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C456298&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.134861",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master Sustainable Urban Technologies",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C456298&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.134988",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Verkehr 5 - Verkehrsmodellierung Belegpflicht WiSe 2026/27 Seminar/Übung 4 SWS ECTS-Punkte: 6 https://www.uni-due.de/imobis/studium Abteilungen Bauwissenschaften Teilnehmer/-in: 22 maximal Zugeordnete Lehrpersonen : Professor Dr.-Ing. Wittowsky , M.Sc. Landtau , Dr.-Ing. Sharif Belegungsfrist: WS2627_imobis 14.09.2026 - 02.10.2026 23:59:59 Termin Aktion Tag Zeit Rhythmus Dauer fällt aus am Lehrperson Raum Bemerkung Zug Donnerstag 09:00 bis 12:00 wöch. Maximal 22 Teilnehmer/-in vormerken Zur Zeit keine Belegung möglich",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C456298&P.vx=lang",
+    "scraped_at": "2026-10-05T10:15:02.758319",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "M.Sc. Landtau",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=verpublish&status=init&vmfile=no&moduleCall=webInfo&publishConfFile=webInfoPerson&publishSubDir=personal&keep=y&purge=y&personal.pid=63586",
+    "scraped_at": "2026-10-05T10:15:02.759553",
+    "confidence": 0.55,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Schulbesuch Keine Belegpflicht WiSe 2026/27 ohne Veranstaltungsart Zentrale Einrichtung Akademisches Beratungs-Zentrum Studium und Beruf Teilnehmer/-in: 40 erwartet 45 maximal Zugeordnete Lehrperson : Dipl.Päd. Schulz Termin Aktion Tag Zeit Rhythmus Dauer fällt aus am Lehrperson Raum Bemerkung Zug Mittwoch 08:00 bis 11:30 EinzelT 14.10.2026 bis 14.10.2026 LC / LC 026 Maximal 50 Teilnehmer/-in vormerken Schulbesuch Keine Belegpflicht WiSe 2026/27 Einzelveranstaltung Zentrale Einrichtung Akademisches Beratungs-Zentrum Studium und Beruf Zugeordnete Lehrperson : Dipl. Soz.-Wiss. Linder Termin Aktion Tag Zeit Rhythmus Dauer fällt aus am Lehrperson Raum Bemerkung Zug Montag 10:00 bis 12:00 EinzelT 23.11.2026 bis 23.11.2026 LC / LC 026 Maximal 30 Teilnehmer/-in vormerken Vortrag zur Studienorientierung Keine Belegpflicht WiSe 2026/27 Vortrag Zentrale Einrichtung Akademisches Beratungs-Zentrum Studium und Beruf Zugeordnete Lehrperson : Diplom Sozial-Wissenschaftler Postler Termin Aktion Tag Zeit Rhythmus Dauer fällt aus am Lehrperson Raum Bemerkung Zug Mittwoch 10:00 bis 13:00 EinzelT 14.10.2026 bis 14.10.2026 R12S / R12 S05 H81 findet statt vormerken Vortrag zur Studienorientierung Keine Belegpflicht WiSe 2026/27 Vortrag Zentrale Einrichtung Akademisches Beratungs-Zentrum Studium und Beruf Zugeordnete Lehrperson : Diplom Sozial-Wissenschaftler Postler Termin Aktion Tag Zeit Rhythmus Dauer fällt aus am Lehrperson Raum Bemerkung Zug Donnerstag 10:00 bis 13:00 EinzelT 15.10.2026 bis 15.10.2026 LB / LB 104 findet statt vormerken",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C462901&P.vx=lang",
+    "scraped_at": "2026-10-05T10:15:02.789453",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Diplom Sozial-Wissenschaftler Postler",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=verpublish&status=init&vmfile=no&moduleCall=webInfo&publishConfFile=webInfoPerson&publishSubDir=personal&keep=y&purge=y&personal.pid=55310",
+    "scraped_at": "2026-10-05T10:15:02.790924",
+    "confidence": 0.55,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Vst.-Nr. Veranstaltung Vst.-Art Aktion 0001 Tutorium: Einführung ins Studium der Geisteswissenschaften für 2-Fach-BAs - Hülbusch , Wenk, M.A. Tutorium Zur Zeit keine Belegung möglich 0002 Erstsemesterbegrüßung der Fakultät für Geisteswissenschaften Vortrag 0003 Praktisches aus der Schreibforschung - Wenk Anleitung zum selbständigen wiss. Arbeiten belegen/abmelden Geisteswissenschaften in der digitalen Gesellschaft - Goman Seminar belegen/abmelden Perspektiven 2026 - Berufsmesse für Geisteswissenschaftler:innen - Schlicht Sonderveranstaltung (Tagung/Kongress) belegen/abmelden",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453794&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.820446",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Tutorium: Einführung ins Studium der Geisteswissenschaften für 2-Fach-BAs - Hülbusch , Wenk, M.A.",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453794&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.820601",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Wenk, M.A.",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=verpublish&status=init&vmfile=no&moduleCall=webInfo&publishConfFile=webInfoPerson&publishSubDir=personal&keep=y&purge=y&personal.pid=49466",
+    "scraped_at": "2026-10-05T10:15:02.821424",
+    "confidence": 0.55,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Masterstudiengang für das Lehramt für sonderpädagogische Förderung",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C456377&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.826579",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Lehramtsstudiengänge mit Bachelor-Abschluss",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C454957&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.840325",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bachelor Anglophone Studies",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C454957&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.840457",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master of Education",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C454957&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.840572",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master Anglophone Studies",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C454957&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.840683",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master Anglophone Popular Culture",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C454957&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.840798",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master DaF/DaZ",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453260&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.858894",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Teilstudiengang Deutsch als Zweitsprache - LA Gr Bachelor",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453260&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.859139",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Teilstudiengang Deutsch als Zweitsprache - LA Gr Master",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453260&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.859276",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "DaZ-Modul Bachelor BK",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453260&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.859500",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "DaZ-Modul Bachelor Grundschule",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453260&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.859614",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "DaZ-Modul Bachelor GyGe",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453260&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.859726",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "DaZ-Modul Bachelor HRSGe",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453260&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.859836",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "DaZ-Modul Bachelor SoPäd",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453260&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.859950",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "DaZ-Modul Master Grundschule",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453260&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.860073",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "DaZ-Modul Master HRSGe",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453260&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.860186",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "2-Fach-Master Germanistik 2019 (ehem. Germanistik: SuK 2012)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453260&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.860399",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "2-Fach-Bachelor Germanistik 2019 (ehem. Germanistik: SLKuK 2014)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453260&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.860531",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Germanistik: LA HRSGe Bachelor (2016)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453260&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.860755",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Germanistik: LA Sonderpädagogik Deutsch HRSGe Master",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453260&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.860886",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Germanistik: LA HRGe Bachelor (2014)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453260&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.861021",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Germanistik LA Sprachliche Grundbildung Gr Bachelor (2014)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453260&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.861155",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Germanistik LA Sprachliche Grundbildung Gr Bachelor (2016 und 2019)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453260&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.861292",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Germanistik: LA GyGe Bachelor (2016 und 2019)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453260&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.861481",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Germanistik: LA GyGe Bachelor (2014)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453260&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.861605",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Germanistik: LA BK Bachelor (2016 und 2019)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453260&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.861727",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Germanistik: LA BK Bachelor (2014)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453260&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.861852",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Germanistik: LA HRGe Master",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453260&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.861970",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Germanistik: LA HRSGe Master (2016)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453260&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.862102",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Germanistik: LA GyGe Master",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453260&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.862221",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Germanistik: LA GyGe Master (2016)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453260&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.862336",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Germanistik: LA BK Master (2016)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453260&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.862456",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Germanistik: LA BK Master",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453260&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.862571",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Schule abseits der Einsprachigkeit. Ein historischer Blick auf Bildung. (Workshop) - Purkarthofer , Grigoriadou, M.A.",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C454320&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.881484",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "2-Fach-Bachelor Germanistik (PO 2019)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C454320&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.881567",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "LA Sprachliche Grundbildung Gr Bachelor (PO 2019 und PO 2016)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C454320&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.881708",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "LA HRSGe Bachelor (PO 2019)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C454320&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.881838",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "LA GyGe Bachelor (PO 2019 und PO 2016)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C454320&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.881986",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "LA BK Bachelor (PO 2019 und PO 2016)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C454320&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.882214",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "LA Sonderpädagogik Sprachliche Grundbildung Bachelor (PO 2022)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C454320&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.882362",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "LA Sonderpädagogik Deutsch HRSGe Bachelor (PO 2022)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C454320&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.882504",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "2-Fach Master LuM (PO 2025 und 2013)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C454320&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.882636",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "2-Fach-Master Germanistische Literaturwissenschaft (PO 2026)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C454320&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.882766",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "2-Fach-Master Germanistische Linguistik (PO 2026)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C454320&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.882892",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "2-Fach-Master Germanistik (PO 2019)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C454320&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.883037",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "LA Sprachliche Grundbildung Gr Master (Schwerpunkt – nicht Sprachliche Grundbildung) (PO 2016)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C454320&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.883203",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "LA Sprachliche Grundbildung Gr Master (Schwerpunkt – Sprachliche Grundbildung) (PO 2016)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C454320&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.883370",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "LA HRSGe Master (PO 2016)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C454320&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.883505",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "LA GyGe Master (PO 2016)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C454320&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.883623",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "LA BK Master (PO 2016)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C454320&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.883737",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "LA Sonderpädagogik Sprachliche Grundbildung Master",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C454320&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.883866",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "LA Sonderpädagogik Deutsch HRSGe Master",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C454320&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.884005",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "LA Sprachliche Grundbildung Gr Bachelor (PO 2014)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C454320&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.884136",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "LA HRSGe Bachelor (PO 2016)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C454320&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.884258",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "LA HRGe Bachelor (PO 2014)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C454320&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.884377",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "LA GyGe Bachelor (PO 2014)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C454320&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.884493",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "LA BK Bachelor (PO 2014)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C454320&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.884607",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "LA Sprachliche Grundbildung Gr Master (Schwerpunkt – nicht Sprachliche Grundbildung) (PO 2014)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C454320&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.884848",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "LA Sprachliche Grundbildung Gr Master (Schwerpunkt – Sprachliche Grundbildung) (PO 2014)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C454320&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.885014",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "LA HRGe Master (PO 2014)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C454320&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.885145",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "LA GyGe Master (PO 2014)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C454320&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.885373",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "LA BK Master (PO 2014)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C454320&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.885487",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Grigoriadou, M.A.",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=verpublish&status=init&vmfile=no&moduleCall=webInfo&publishConfFile=webInfoPerson&publishSubDir=personal&keep=y&purge=y&personal.pid=62254",
+    "scraped_at": "2026-10-05T10:15:02.887362",
+    "confidence": 0.55,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Oberseminare (Master)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453048&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.898607",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Vst.-Nr. Veranstaltung Vst.-Art Aktion Einführung Bachelor - Kolb , Pitsch Überblicksveranstaltung Einführung Master - Kolb , Pitsch Überblicksveranstaltung Kowi-Kolloquium - Pitsch Kolloquium N.N. LAe WS26_27 - Kolb , Pitsch Seminar N.N. LAe WS26_27 - Kolb , Pitsch Seminar Perspektiven 2026 - Berufsmesse für Geisteswissenschaftler:innen - Schlicht Sonderveranstaltung (Tagung/Kongress) belegen/abmelden",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C465152&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.907238",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Einführung Bachelor - Kolb , Pitsch",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C465152&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.907363",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Einführung Master - Kolb , Pitsch",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C465152&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.907425",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bachelor",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C465152&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.907687",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C465152&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.907795",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Einführung Bachelor",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=verpublish&status=init&vmfile=no&publishid=446610&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung",
+    "scraped_at": "2026-10-05T10:15:02.908501",
+    "confidence": 0.55,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Einführung Master",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=verpublish&status=init&vmfile=no&publishid=446611&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung",
+    "scraped_at": "2026-10-05T10:15:02.908536",
+    "confidence": 0.55,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Promotion",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C455662&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.915425",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bachelor-Veranstaltungen Spach- und Kulturwissenschaft Englisch",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453809&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.922787",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bachelor-Veranstaltungen Spach- und Kulturwissenschaft Französisch",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453809&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.922931",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bachelor-Veranstaltungen Spach- und Kulturwissenschaft Niederländisch",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453809&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.923083",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bachelor-Veranstaltungen Spach- und Kulturwissenschaft Spanisch",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453809&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.923214",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bachelor-Veranstaltungen Wirtschaftswissenschaften (MSM)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453809&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.923340",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master-Studiengang",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453809&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.923456",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Vst.-Nr. Veranstaltung Vst.-Art Aktion Infoveranstaltung O-Woche (Erstsemester) - Boorsma, M.A. , Wallrich Einführung Intensivkurs Niederländisch 19.10-22.10.26 - Boorsma, M.A. Blockseminar belegen/abmelden",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C452882&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.931324",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Infoveranstaltung O-Woche (Erstsemester) - Boorsma, M.A. , Wallrich",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C452882&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.931443",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Intensivkurs Niederländisch 19.10-22.10.26 - Boorsma, M.A.",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C452882&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.931516",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "2-Fach Bachelor Niederlandistik (ehem. Sprache und Kultur)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C452882&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.931601",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "2-Fach Master Niederlandistik (ehem. Sprache und Kultur)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C452882&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.931733",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bachelor Kulturwirt",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C452882&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.931849",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master Kulturwirt",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C452882&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.931956",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Boorsma, M.A.",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=verpublish&status=init&vmfile=no&moduleCall=webInfo&publishConfFile=webInfoPerson&publishSubDir=personal&keep=y&purge=y&personal.pid=46996",
+    "scraped_at": "2026-10-05T10:15:02.932729",
+    "confidence": 0.55,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "FRANZÖSISCH: Lehramt GyGe / BK (Bachelor)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C452875&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.941821",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "FRANZÖSISCH: Lehramt HRSGe (Bachelor)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C452875&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.941955",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "FRANZÖSISCH: Master of Education GyGe / BK",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C452875&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.942096",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "FRANZÖSISCH: Master of Education HRSGe",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C452875&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.942222",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "FRANZÖSISCH: 2-Fach-Bachelor",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C452875&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.942344",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "FRANZÖSISCH: 2-Fach-Master",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C452875&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.942464",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "FRANZÖSISCH: Kulturwirt B.A.",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C452875&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.942585",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "FRANZÖSISCH: Kulturwirt 1-Fach-Master",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C452875&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.942707",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "SPANISCH: Lehramt GyGe / BK (Bachelor)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C452875&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.942832",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "SPANISCH: Lehramt HRSGe (Bachelor)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C452875&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.942952",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "SPANISCH: Master of Education GyGe / BK",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C452875&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.943085",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "SPANISCH: Master of Education HRSGe",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C452875&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.943205",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "SPANISCH: 2-Fach-Bachelor",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C452875&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.943321",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "SPANISCH: 2-Fach-Master",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C452875&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.943433",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "SPANISCH: Kulturwirt 1-Fach-Master",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C452875&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.943650",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Zusatzangebot Master Märkte und Unternehmen (auch Klausuranmeldung)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453032&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.952584",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bachelor Lehramt GyGe",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453032&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.952719",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bachelor Lehramt HRSGe",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453032&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.952835",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bachelor Angewandte Philosophie (ab WS 12/13)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453032&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.952956",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bachelor Philosophie, Politikwissenschaft und Sozioökonomie (PPE)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453032&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.953099",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master Philosophie (ab WS 12/13)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453032&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.953223",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master of Education GyGe",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453032&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.953339",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master of Education HRSGe",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453032&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.953452",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master Theorie des Sozialen A: Einstiegsschwerpunkt Soziologie",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453032&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.953577",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master Theorie des Sozialen B: Einstiegsschwerpunkt Philosophie",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453032&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.953705",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "BA Lehramt GyGe/BK",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453404&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.962597",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "BA Lehramt HRSGe",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453404&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.962719",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "BA Lehramt GS",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453404&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.962832",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "BA Lehramt SoPäd",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453404&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.962948",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bachelor mit Lehramtsoption GyGe/BK",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C455975&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.974068",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bachelor mit Lehramtsoption HRSGe",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C455975&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.974198",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bachelor mit Lehramtsoption GS",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C455975&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.974317",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bachelor mit Lehramtsoption SoPäd",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C455975&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.974439",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bachelor Christliche Studien",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C455975&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.974557",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master of Education GyGe/BK",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C455975&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.974673",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master of Education GS-vertieft",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C455975&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.974904",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master of Education GS-nicht vertieft",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C455975&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.975035",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master of Education SoPäd",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C455975&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.975156",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master Christliche Studien",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C455975&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.975274",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Kulturwirt Bachelor",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453600&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.984746",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Kulturwirt Master",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453600&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.984871",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Lehramt Bachelor GyGe",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453600&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.984985",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Lehramt Bachelor HRSGe",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453600&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.985109",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Lehramt Master GyGe",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453600&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.985362",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Lehramt Master HRSGe",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453600&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.985469",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Türkeistudien Bachelor",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453600&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.985712",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Türkeistudien Master (keine Neueinschreibungen)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453511%7C453600&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:02.985834",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "I. Bachelor Politikwissenschaft",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455302%7C455805&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.023615",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "II. Master Internationale Beziehungen und Entwicklungspolitik",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455302%7C455805&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.023754",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "III. Master Politikmanagement, Public Policy und öffentliche Verwaltung",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455302%7C455805&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.023902",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "IV. Master Development and Governance",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455302%7C455805&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.024039",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "V. Master Theorie und Vergleich politischer Systeme im Wandel (TuV)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455302%7C455805&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.024172",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bachelor Soziologie / Bachelor Globale und Transnationale Soziologie (alte PO: Einschreibung vor WiSe25/26; neue PO: Einschreibung ab WiSe25/26)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455302%7C453911&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.033679",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master Soziologie (zweijährig)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455302%7C453911&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.033828",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master Soziologie (einjährig)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455302%7C453911&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.033949",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master Arbeit, Organisation, Gesellschaft (AOG)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455302%7C453911&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.034085",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master Behavioural Data Science (BDS)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455302%7C453911&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.034202",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master Migration und Globalisierung (MIG)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455302%7C453911&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.034320",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master Theorie des Sozialen",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455302%7C453911&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.034435",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master Sozioökonomie",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455302%7C451875&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.042164",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Anmeldung möglich ab ... Bachelor 1. Fachsemester: 8. Oktober, 9 Uhr alle anderen Fachsemester (3./5. FS): 5. September, 10 Uhr Master alle Fachemester: 5. September, 10 Uhr",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455302%7C454688&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.055133",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bachelor Lehramt Wirtschaft-Politik/Sozialwissenschaften",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455302%7C454688&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.055243",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master Lehramt Wirtschaft-Politik/Sozialwissenschaften",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455302%7C454688&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.055369",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Vst.-Nr. Veranstaltung Vst.-Art Aktion Advanced Data Analytics and Artificial Intelligence - Cavagnini Vorlesung AEAS 1116 Institutions in Japanese Politics - Klein Seminar/Übung belegen/abmelden AEAS 2117 Economic and Business Issues of Korea - Yoon Seminar belegen/abmelden Africa´s International Relations - Hartmann , Ogunnubi Seminar Zur Zeit keine Belegung möglich AI@work - Kleemann Seminar belegen/abmelden Applied Microeconomics - Taube Vorlesung belegen/abmelden Asset Pricing - Pelster Vorlesung Contemporary Issues of East Asia 2: International Relations on the Korean Peninsula - Chang Seminar belegen/abmelden DA 1 East Asia in Political Science - Klein , Mosler , Osmani Seminar belegen/abmelden DA 1 East Asia in Sociology - Shire , Mosler , Arnostova Seminar belegen/abmelden DA2 East Asia in Economic Science: Contemporary Challenges of the Economies in East Asia - Taube , Yoon , Blind Seminar belegen/abmelden DA2 East Asia in Economic Science - The Development Issues of the Economies of East Asia - Taube , Yoon , Blind Seminar belegen/abmelden DA 3 Contemporary History of East Asia - Christiansen Seminar belegen/abmelden DA 3 Transnational Relations of East Asia - Lottanti von Mandach , Blind Seminar belegen/abmelden Democracy and Governance - Hartmann Seminar Zur Zeit keine Belegung möglich Doing research like a detective? Using the documentary method to interpret how people talk about their world (instead of summarizing what they want to tell) - Weiß Seminar belegen/abmelden Econometrics (Master) - Paul Vorlesung/Übung English for the Social Sciences - Blatt Seminar belegen/abmelden Friedens- und Konfliktforschung/Konfliktbearbeitung und Peacebuilding - Debiel Seminar belegen/abmelden Friedens- und Konfliktforschung/Konfliktbearbeitung und Peacebuilding - Debiel Seminar belegen/abmelden Global Governance and Development - Debiel Vorlesung Zur Zeit keine Belegung möglich INSPIRING ENTREPRENEURSHIP Encounter of Economy, Culture, and Politics in Global Business Context - N.N. Seminar International Financial Accounting - Köhler Vorlesung/Übung Introduction to Artificial Intelligence (ersetzt Produktionsmanagement) - Cavagnini Vorlesung Marketing II: Marketing Operations and International Marketing - Klein Vorlesung/Seminar Marketing I: Marketing Information & Strategy - Klein Vorlesung/Seminar Methods in East Asian Studies 1 (E 9): IR Theories – A Critical Introduction - Guo , Noesselt Seminar/Übung belegen/abmelden Peace and Conflict in Africa - Hartmann , Ogunnubi Seminar belegen/abmelden Peace and Conflict Studies/Conflict Management and Peacebuilding - Noel (Noël) Seminar belegen/abmelden Policy Analysis - Blätte Seminar Zur Zeit keine Belegung möglich Public Administration - Schiffers Seminar Public Administration and Gender Inequality - Friedrich Seminar belegen/abmelden Recent Developments of Korean Society and Politics - Mosler Seminar/Übung belegen/abmelden Regieren als komplexer Prozess im Mehrebenensystem: Politische Steuerung und Governance - Hoppe Seminar Zur Zeit keine Belegung möglich Research Logic and Academic Writing - Hartmann Seminar Zur Zeit keine Belegung möglich Theories and Practices of Development - Saalfeld Seminar Zur Zeit keine Belegung möglich Theories and Practices of Development - Scheper Seminar Zur Zeit keine Belegung möglich Topics in International Economics - Seidel , Wrona Vorlesung/Übung Übung zu Asset Pricing - Pelster , Kiszczuk Übung",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455302%7C454093&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.069989",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Econometrics (Master) - Paul",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455302%7C454093&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.071130",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Econometrics (Master)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=verpublish&status=init&vmfile=no&publishid=443155&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung",
+    "scraped_at": "2026-10-05T10:15:03.074033",
+    "confidence": 0.55,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bildungswissenschaften mit Bachelor of Arts / Bachelor of Science",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455468%7C452815&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.090016",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bildungswissenschaften im Master of Education",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455468%7C452815&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.090163",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bachelor Erziehungswissenschaft",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455468%7C454413&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.095458",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master Erwachsenenbildung/Weiterbildung",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455468%7C454413&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.095581",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bachelor of Science (PO 2016)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455468%7C454066&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.102141",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bachelor of Science (PO 2021)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455468%7C454066&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.102268",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bachelor of Science (PO 2023)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455468%7C454066&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.102381",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master of Science (PO 2016)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455468%7C454066&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.102494",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master of Science (PO 2021)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455468%7C454066&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.102606",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master of Science (PO 2022) - Klinische Psychologie und Psychotherapie (KLIPS)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455468%7C454066&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.102734",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master of Science (PO 2022) - Schwerpunkt Arbeit, Gesundheit und Bildung (AGB)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455468%7C454066&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.102870",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "B.Sc. Betriebswirtschaftslehre",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455855%7C455372&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.183533",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "M.Sc. Betriebswirtschaftslehre - Energy and Finance",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455855%7C455372&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.183671",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "M.A. Medizinmanagement (PO 2014)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455855%7C455960&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.202054",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "M.Sc. Gesundheitsökonomik",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455855%7C453229&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.207488",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "B.Sc. Volkswirtschaftslehre",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455855%7C453229&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.207611",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "M.Sc. Volkswirtschaftslehre",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455855%7C453229&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.207722",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "BA Lehramt Berufskolleg - Große Berufliche Fachrichtung in Verbindung mit einer Kleinen Beruflichen Fachrichtung",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455855%7C452666&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.213413",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "MA Lehramt Berufskolleg - Große Berufliche Fachrichtung in Verbindung mit einer Kleinen Beruflichen Fachrichtung",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455855%7C452666&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.213589",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "BA Lehramt Berufskolleg - Wirtschaftswissenschaften",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455855%7C452666&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.213733",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "MA Lehramt Berufskolleg - Wirtschaftswissenschaften",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C455855%7C452666&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.213862",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Vst.-Nr. Veranstaltung Vst.-Art Aktion Applied Microeconomics - Taube Vorlesung belegen/abmelden Asset Pricing - Pelster Vorlesung Übung zu Asset Pricing - Pelster , Kiszczuk Übung Marketing I: Marketing Information & Strategy - Klein Vorlesung/Seminar Marketing II: Marketing Operations and International Marketing - Klein Vorlesung/Seminar Advanced Data Analytics and Artificial Intelligence - Cavagnini Vorlesung DA 1 East Asia in Political Science - Klein , Mosler , Osmani Seminar belegen/abmelden DA 1 East Asia in Sociology - Shire , Mosler , Arnostova Seminar belegen/abmelden DA2 East Asia in Economic Science: Contemporary Challenges of the Economies in East Asia - Taube , Yoon , Blind Seminar belegen/abmelden DA2 East Asia in Economic Science - The Development Issues of the Economies of East Asia - Taube , Yoon , Blind Seminar belegen/abmelden DA 3 Contemporary History of East Asia - Christiansen Seminar belegen/abmelden DA 3 Transnational Relations of East Asia - Lottanti von Mandach , Blind Seminar belegen/abmelden Democracy and Governance - Hartmann Seminar Zur Zeit keine Belegung möglich Econometrics (Master) - Paul Vorlesung/Übung Friedens- und Konfliktforschung/Konfliktbearbeitung und Peacebuilding - Debiel Seminar belegen/abmelden Friedens- und Konfliktforschung/Konfliktbearbeitung und Peacebuilding - Debiel Seminar belegen/abmelden Global Governance and Development - Debiel Vorlesung Zur Zeit keine Belegung möglich INSPIRING ENTREPRENEURSHIP Encounter of Economy, Culture, and Politics in Global Business Context - N.N. Seminar International Financial Accounting - Köhler Vorlesung/Übung Introduction to Artificial Intelligence (ersetzt Produktionsmanagement) - Cavagnini Vorlesung Policy Analysis - Blätte Seminar Zur Zeit keine Belegung möglich Public Administration - Schiffers Seminar Theories and Practices of Development - Saalfeld Seminar Zur Zeit keine Belegung möglich Topics in International Economics - Seidel , Wrona Vorlesung/Übung",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453108%7C456280&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.285676",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Lehramt Bachelor Grundschule",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452548%7C452239&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.309388",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Lehramt Master Grundschule",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452548%7C452239&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.309511",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Lehramt Bachelor Sonderpädagogik Grundschule",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452548%7C452239&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.309635",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Lehramt Master Sonderpädagogik Grundschule",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452548%7C452239&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.309759",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Lehramt Bachelor Haupt-, Real-, Sekundar-, Gesamtschule",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452548%7C452239&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.309891",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Lehramt Master Haupt-, Real-, Sekundar-, Gesamtschule",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452548%7C452239&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.310027",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Lehramt Bachelor Sonderpädagogik Haupt-, Real-, Sekundar-, Gesamtschule",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452548%7C452239&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.310162",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Lehramt Master Sonderpädagogik Haupt-, Real-, Sekundar-, Gesamtschule",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452548%7C452239&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.310299",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Lehramt Bachelor GyGe/Bk",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452548%7C452239&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.310416",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Lehramt Master GyGe/BK",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452548%7C452239&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.310525",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Vst.-Nr. Veranstaltung Vst.-Art Aktion Einführung für das Lehramt Physik - Geller Vorkurs",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453002%7C454615&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.370825",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Einführung für das Lehramt Physik - Geller",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453002%7C454615&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.370940",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bachelor (LGr) Sachunterricht",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453002%7C454615&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.371022",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bachelor (LHRSGe)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453002%7C454615&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.371137",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master (LHRSGe)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453002%7C454615&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.371250",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bachelor (LGyGe/LBK)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453002%7C454615&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.371358",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master (LGyGe/LBK)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453002%7C454615&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.371465",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Einführung für das Lehramt Physik",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=verpublish&status=init&vmfile=no&publishid=439635&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung",
+    "scraped_at": "2026-10-05T10:15:03.372139",
+    "confidence": 0.55,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Fakultät für Chemie, Studiengang Bachelor of Science (Chemie)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453002%7C452298&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.383176",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Fakultät für Chemie, Studiengang Bachelor of Science (Wasser)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453002%7C452298&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.383320",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Fakultät f. Ingenieurwissenschaften, Studiengang Bachelor of Science Maschinenbau",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453002%7C452298&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.383579",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Fakultät f. Ingenieurwissenschaften, Studiengang Bachelor of Science Elektrotechnik u. Informationstechnik sowie Studiengang Bachelor of Science Nano-Engineering",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453002%7C452298&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.383746",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Fakultät für Ingenieurwissenschaften, Studiengang Bachelor of Science Medizintechnik",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453002%7C452298&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.383903",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Fakultät für Ingenieurwissenschaften/Master-Studiengang NanoEngineering",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453002%7C452298&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.384056",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Vst.-Nr. Veranstaltung Vst.-Art Aktion 091100811 Lehramtspraktikum (LA Ma) - Sandmann , Birk , Rolauffs , Wittmann , Meltzer , Hoffmann , Ruchter , Matena , Knauer , Bock , Lange , Beszteri , Beszteri , Lauterjung Praktikum Zur Zeit keine Belegung möglich 091104581 Ökotoxikologisches Großpraktikum - Wittmann Seminar/Praktikum 09110501 Begleitveranstaltung zum MA-Praxissemester Biologie: Schule und Unterricht forschend verstehen - Sandmann , Schmiemann , Kleinert , Linsner Praxisbegleitseminar 091105271 MA-Modul 1.1 - Teil 1: Entwicklung, Diagnose und Evaluation von Biologieunterricht - Sandmann , Linsner , Schmiemann , Kleinert , Timm geb. Lefarth Seminar Zur Zeit keine Belegung möglich 091105281 MA-Modul 1.2 - Analyse und Diagnose von Biologieunterricht - Schmiemann , Linsner , Schürmann , Timm geb. Lefarth Seminar Zur Zeit keine Belegung möglich 091105291 MA-Modul 1.1 Teil 2 - Entwicklung, Diagnose und Evaluation von Biologieunterricht - Schmiemann , Florian , Kleinert Seminar Zur Zeit keine Belegung möglich 091109503 Verhaltensbiologie - Begall Vorlesung 091109531 Ökologie heimischer Tiere & Urbanzoologie - Schmitt Vorlesung 091109730 Geländeübung (LA Master) - Schmitt , Wittmann , Bock , Leese , Bludau Exkursion Zur Zeit keine Belegung möglich 091110621 Vorlesung Ökosystem - Sures , Hering , Feld , Grabner Vorlesung Begleitmodul zur Masterarbeit: Professionelles Handeln wissenschaftsbasiert weiterentwickeln aus der Perspektive des Unterichtsfach Biologie - Marks (geb. Wodniok) Anleitung zum selbständigen Arbeiten Nachhaltigkeit in der Biologie - Wittmann , Kreft , Schmitt , Boenigk , Beermann Vorlesung Zur Zeit keine Belegung möglich",
+    "source_nc_text": "1.1",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453733%7C454874&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.528785",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Geländeübung (LA Master) - Schmitt , Wittmann , Bock , Leese , Bludau",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453733%7C454874&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.529505",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Geländeübung (LA Master)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=verpublish&status=init&vmfile=no&publishid=439903&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung",
+    "scraped_at": "2026-10-05T10:15:03.530808",
+    "confidence": 0.55,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Vst.-Nr. Veranstaltung Vst.-Art Aktion Aquatische Ökosysteme - Feld , Hering , Sures Vorlesung/Übung Diversität aquatische Organismen - Beszteri , Beszteri Seminar/Praktikum E3: Introduction to R for biologists - Lange , Kloster Vorlesung/Übung belegen/abmelden Literaturarbeit (3. Mastersemester) - Rückert Seminar Mentoring Anleitung zum selbständigen Arbeiten Mikroalgen: Ökologie, Evolution und Anwendungen Wahlpflichtveranstaltung Zuweisung Molekulare Ökologie und Molekulare Diversität - Leese , Schadewell Vorlesung/Übung Molekulare und mikrobielle Arbeitstechniken - Boenigk , Bock , Sieber Vorlesung/Seminar/Praktikum Science Slam Master AquaBio - Kloster Seminar Waterborne Diseases Master AquaBio - Sures , Nachev , Grabner , Schwelm Vorlesung",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453733%7C453925&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.569339",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Science Slam Master AquaBio - Kloster",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453733%7C453925&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.569852",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Waterborne Diseases Master AquaBio - Sures , Nachev , Grabner , Schwelm",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453733%7C453925&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.569922",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Science Slam Master AquaBio",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=verpublish&status=init&vmfile=no&publishid=439615&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung",
+    "scraped_at": "2026-10-05T10:15:03.570739",
+    "confidence": 0.55,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Waterborne Diseases Master AquaBio",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=verpublish&status=init&vmfile=no&publishid=439582&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung",
+    "scraped_at": "2026-10-05T10:15:03.570772",
+    "confidence": 0.55,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Vst.-Nr. Veranstaltung Vst.-Art Aktion 091103531 Grundlagen der Biologie, Teil Botanik (Lehramt Grundschule, BA) - Beisser , Sieber Vorlesung/Übung Zur Zeit keine Belegung möglich 091109251 Einführung in die Zoologie und Humanbiologie für medizinische Biologen - Sures , Begall , Schmitt Vorlesung 091109503 Verhaltensbiologie - Begall Vorlesung 091110741 Heimische Lebensräume - Hering Seminar 091110761 Biologie für Grundschule I ( Zoologie und Humanbiologie) (LGr alt) bzw. Grundlagen der Biologie, Teil Zoologie (Lehramt BA) - Hering Vorlesung/Übung",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453733%7C452426&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.631295",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Grundlagen der Biologie, Teil Botanik (Lehramt Grundschule, BA) - Beisser , Sieber",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453733%7C452426&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.631438",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Biologie für Grundschule I ( Zoologie und Humanbiologie) (LGr alt) bzw. Grundlagen der Biologie, Teil Zoologie (Lehramt BA) - Hering",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453733%7C452426&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.631678",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Grundlagen der Biologie, Teil Botanik (Lehramt Grundschule, BA)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=verpublish&status=init&vmfile=no&publishid=439607&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung",
+    "scraped_at": "2026-10-05T10:15:03.632313",
+    "confidence": 0.55,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Biologie für Grundschule I ( Zoologie und Humanbiologie) (LGr alt) bzw. Grundlagen der Biologie, Teil Zoologie (Lehramt BA)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=verpublish&status=init&vmfile=no&publishid=440939&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung",
+    "scraped_at": "2026-10-05T10:15:03.632426",
+    "confidence": 0.55,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Vst.-Nr. Veranstaltung Vst.-Art Aktion 091110771 Bestimmungsübungen und SE Haustiere für Master Grundschule - Hering , Januschke , Marks (geb. Wodniok) Übung",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453733%7C456254&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.636733",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bestimmungsübungen und SE Haustiere für Master Grundschule - Hering , Januschke , Marks (geb. Wodniok)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453733%7C456254&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.636858",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bestimmungsübungen und SE Haustiere für Master Grundschule",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=verpublish&status=init&vmfile=no&publishid=440373&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung",
+    "scraped_at": "2026-10-05T10:15:03.637388",
+    "confidence": 0.55,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Vst.-Nr. Veranstaltung Vst.-Art Aktion 091100713 Science communication - Birk , Leese , Hupalo Übung 091103601 Einführung in die Phylogenie und Biodiversität / Molekulare Diversität - Boenigk , Leese , Schadewell Vorlesung/Seminar 09110715 Biodiversität in Forschung und Praxis Vorlesung 091110641 E1: ArcGIS Basic Course: Around the GIS world in 5 days - Kail Übung Zur Zeit keine Belegung möglich Absolventenfeier Biodiversität - Vortkamp , Boenigk Anleitung zum selbständigen Arbeiten Mikroalgen: Ökologie, Evolution und Anwendungen Wahlpflichtveranstaltung Zuweisung Science Slam Master Biodiv - Leese , Wolany Seminar",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453733%7C452861&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.642944",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Science Slam Master Biodiv - Leese , Wolany",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453733%7C452861&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.643375",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Science Slam Master Biodiv",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=verpublish&status=init&vmfile=no&publishid=439477&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung",
+    "scraped_at": "2026-10-05T10:15:03.644115",
+    "confidence": 0.55,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Vst.-Nr. Veranstaltung Vst.-Art Aktion 091100321 Stellung der Biologie in den Naturwissenschaften Vorlesung 091100351 Grundlagen der Biotechnologie (LA Ba); Platzvergabe: 3 Präferenzen angeben - Marks (geb. Wodniok) , Meltzer , Bayer , Gunzer , Kaschani , Nalbant , Meyer , Wülling , Hasenberg , Beuck , Leese , Westermann , Kracht Seminar Zur Zeit keine Belegung möglich 091100502 Nachklausur zur Basisvorlesung Ökologie (SS) - Pfanz , Hering Klausur 091100621 Moderne Biomedizin Vorlesung 091100810 Allgemeine Methoden (Bachelor Bio) - Meltzer , Hellerschmied-Jelinek , Kaiser , Meyer , Knauer , Bayer , Vortkamp , Sures , Hering , Nalbant , Leese , Marks (geb. Wodniok) , Boos , Sieber Vorlesung 091100820 Allgemeine Methoden Praktikum (Bachelor Bio); Priorität für G1 oder G2 - Meltzer , Hellerschmied-Jelinek , Meyer , Knauer , Bayer , Vortkamp , Sures , Hering , Nalbant , Marks (geb. Wodniok) , Leese , Beermann , Sieber Übung/Praktikum belegen/abmelden 091103251 Einführung in die Botanik (LA Ba, Bio B.Sc., Aquatische Bio B.Sc. und MedBio B.Sc.) - Boenigk , Beszteri Vorlesung 091109251 Einführung in die Zoologie und Humanbiologie für medizinische Biologen - Sures , Begall , Schmitt Vorlesung Absolventenfeier Fakultät für Biologie - Ruchter ohne Veranstaltungsart ZMB Speaker Series - Schmidt Seminar",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453733%7C454903&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.672627",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Allgemeine Methoden (Bachelor Bio) - Meltzer , Hellerschmied-Jelinek , Kaiser , Meyer , Knauer , Bayer , Vortkamp , Sures , Hering , Nalbant , Leese , Marks (geb. Wodniok) , Boos , Sieber",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453733%7C454903&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.673080",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Allgemeine Methoden Praktikum (Bachelor Bio); Priorität für G1 oder G2 - Meltzer , Hellerschmied-Jelinek , Meyer , Knauer , Bayer , Vortkamp , Sures , Hering , Nalbant , Marks (geb. Wodniok) , Leese , Beermann , Sieber",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453733%7C454903&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.673214",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Einführung in die Botanik (LA Ba, Bio B.Sc., Aquatische Bio B.Sc. und MedBio B.Sc.) - Boenigk , Beszteri",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453733%7C454903&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.673299",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Allgemeine Methoden (Bachelor Bio)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=verpublish&status=init&vmfile=no&publishid=439626&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung",
+    "scraped_at": "2026-10-05T10:15:03.674342",
+    "confidence": 0.55,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Allgemeine Methoden Praktikum (Bachelor Bio); Priorität für G1 oder G2",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=verpublish&status=init&vmfile=no&publishid=440930&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung",
+    "scraped_at": "2026-10-05T10:15:03.674439",
+    "confidence": 0.55,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Einführung in die Botanik (LA Ba, Bio B.Sc., Aquatische Bio B.Sc. und MedBio B.Sc.)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=verpublish&status=init&vmfile=no&publishid=439827&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung",
+    "scraped_at": "2026-10-05T10:15:03.674541",
+    "confidence": 0.55,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Vst.-Nr. Veranstaltung Vst.-Art Aktion 091100351 Grundlagen der Biotechnologie (LA Ba); Platzvergabe: 3 Präferenzen angeben - Marks (geb. Wodniok) , Meltzer , Bayer , Gunzer , Kaschani , Nalbant , Meyer , Wülling , Hasenberg , Beuck , Leese , Westermann , Kracht Seminar Zur Zeit keine Belegung möglich 091100502 Nachklausur zur Basisvorlesung Ökologie (SS) - Pfanz , Hering Klausur 091103251 Einführung in die Botanik (LA Ba, Bio B.Sc., Aquatische Bio B.Sc. und MedBio B.Sc.) - Boenigk , Beszteri Vorlesung 091103271 Botanisches Mikroskopieren (LA Ba) Anmeldung: 3 Prioritäten angeben! - Wittmann , Beszteri , Kloster , Beszteri Übung belegen/abmelden 091103273 Allgemeine Botanik (Botanisches Mikroskopieren) für MedBio B.Sc. - Beszteri , Kloster , Beszteri Übung belegen/abmelden 091103528 Aktuelle Themen der Pflanzenbiodiversität - Boenigk Seminar/Kolloquium 091103531 Grundlagen der Biologie, Teil Botanik (Lehramt Grundschule, BA) - Beisser , Sieber Vorlesung/Übung Zur Zeit keine Belegung möglich 091103770 Mikrobielle Ökologie - Boenigk , Bock Seminar/Praktikum 091103999 Anleitung zum wissenschaftlichen Arbeiten - Boenigk Anleitung zum selbständigen Arbeiten 091104551 Vulkanische Lebensräume und Vulkanbiologie - Pfanz Vorlesung/Seminar 091104555 Biologische Phänomene und Rekorde - Pfanz Seminar 091104581 Ökotoxikologisches Großpraktikum - Wittmann Seminar/Praktikum 091104999 Anleitung zum wissenschaftlichen Arbeiten - Pfanz Anleitung zum selbständigen wiss. Arbeiten 091118330 Uptake and metabolism - Sures , Zimmermann , Wittmann Seminar",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453733%7C451777&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.687363",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Allgemeine Botanik (Botanisches Mikroskopieren) für MedBio B.Sc. - Beszteri , Kloster , Beszteri",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453733%7C451777&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.687852",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Allgemeine Botanik (Botanisches Mikroskopieren) für MedBio B.Sc.",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=verpublish&status=init&vmfile=no&publishid=439641&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung",
+    "scraped_at": "2026-10-05T10:15:03.689317",
+    "confidence": 0.55,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Vst.-Nr. Veranstaltung Vst.-Art Aktion 091100351 Grundlagen der Biotechnologie (LA Ba); Platzvergabe: 3 Präferenzen angeben - Marks (geb. Wodniok) , Meltzer , Bayer , Gunzer , Kaschani , Nalbant , Meyer , Wülling , Hasenberg , Beuck , Leese , Westermann , Kracht Seminar Zur Zeit keine Belegung möglich 091100810 Allgemeine Methoden (Bachelor Bio) - Meltzer , Hellerschmied-Jelinek , Kaiser , Meyer , Knauer , Bayer , Vortkamp , Sures , Hering , Nalbant , Leese , Marks (geb. Wodniok) , Boos , Sieber Vorlesung 091100811 Lehramtspraktikum (LA Ma) - Sandmann , Birk , Rolauffs , Wittmann , Meltzer , Hoffmann , Ruchter , Matena , Knauer , Bock , Lange , Beszteri , Beszteri , Lauterjung Praktikum Zur Zeit keine Belegung möglich 091100820 Allgemeine Methoden Praktikum (Bachelor Bio); Priorität für G1 oder G2 - Meltzer , Hellerschmied-Jelinek , Meyer , Knauer , Bayer , Vortkamp , Sures , Hering , Nalbant , Marks (geb. Wodniok) , Leese , Beermann , Sieber Übung/Praktikum belegen/abmelden 091108251 Einführung in die Mikrobiologie (3.Sem.) - Meltzer , Hellerschmied-Jelinek Vorlesung 091108253 Übungen zur Mikrobiologie und Genetik für medizinische Biologen - Meltzer , Johannes , Ehrmann , Boos , Killinger Übung Zur Zeit keine Belegung möglich 091108535 Molekulare Mikrobiologie und chemische Biologie (5.Sem. MedBio/Bio) - Hellerschmied-Jelinek , Kaiser , Meltzer Vorlesung 091108550 Aktuelle Forschung in der Mikrobiologie - Ehrmann Seminar 091108615 Einführung in die Medizinische Biologie - Kaiser , Hellerschmied-Jelinek Vorlesung/Seminar 091108730 Praktikum molekulare Mikrobiologie und chemische Biologie (MedBio/Bio) - Meltzer , Hellerschmied-Jelinek , Kaiser Blockpraktikum 091108860 Anleitung zum wissenschafltichen Arbeiten - Ehrmann Anleitung zum selbständigen wiss. Arbeiten 091117340 Einführung in die Zellbiologie (LA Ba und Bio B.Sc.) - Meltzer Vorlesung",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453733%7C455525&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.719692",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Einführung in die Zellbiologie (LA Ba und Bio B.Sc.) - Meltzer",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453733%7C455525&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.720736",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Einführung in die Zellbiologie (LA Ba und Bio B.Sc.)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=verpublish&status=init&vmfile=no&publishid=443145&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung",
+    "scraped_at": "2026-10-05T10:15:03.722152",
+    "confidence": 0.55,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Vst.-Nr. Veranstaltung Vst.-Art Aktion 091100351 Grundlagen der Biotechnologie (LA Ba); Platzvergabe: 3 Präferenzen angeben - Marks (geb. Wodniok) , Meltzer , Bayer , Gunzer , Kaschani , Nalbant , Meyer , Wülling , Hasenberg , Beuck , Leese , Westermann , Kracht Seminar Zur Zeit keine Belegung möglich 091106311 Zoologische Mikroskopierübung für LA Ba und MedBio B.Sc. - Vortkamp , Rückert , Teichwart Übung Zuweisung 091106612 Literaturseminar Progress in Developmental Biology - Vortkamp , Wülling Seminar 091106651 Modellsysteme der biologisch-medizinischen Forschung - Wülling Praktikum 091106659 Embryogenese (MedBio/Bio 5Semester) - Vortkamp , Wülling Vorlesung",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453733%7C453550&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.767796",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Zoologische Mikroskopierübung für LA Ba und MedBio B.Sc. - Vortkamp , Rückert , Teichwart",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C453733%7C453550&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.768063",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Zoologische Mikroskopierübung für LA Ba und MedBio B.Sc.",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=verpublish&status=init&vmfile=no&publishid=439735&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung",
+    "scraped_at": "2026-10-05T10:15:03.768929",
+    "confidence": 0.55,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bachelor-Studiengänge (PO 24)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452596%7C455373&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.876153",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master-Studiengänge (PO 24)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452596%7C455373&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.876402",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bachelor-Studiengänge (PO 19)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452596%7C455373&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.876627",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master-Studiengänge (PO 19)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452596%7C455373&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.876744",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bachelor of Science Medizintechnik (PO19)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452596%7C455373&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.876861",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master of Science Medizintechnik (PO19)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452596%7C455373&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.876976",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bachelor of Science Medizintechnik",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452596%7C455373&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.877217",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bachelor of Science Medizintechnik (alte PO)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452596%7C455373&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.877332",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Verzeichnis der Lehrveranstaltungen zu folgenden Studiengängen: - Bachelor of Science Maschinenbau - Master of Science Maschinenbau - Diplomstudiengang Maschinen- und Anlagenbau - ISE Bachelor of Science in Mechanical Engineering - ISE Master of Science in Mechanical Engineering - ISE Master of Science in Management and Technology of Water and Waste Water Alle Lehrveranstaltungen des Studiengang-Programms \"International Studies in Engineering (ISE)\" mit auslandsorientierten Bachelor- und Master-Studiengängen finden Sie im Internet unter der Adresse: http://www.uni-duisburg-essen.de/ise.",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452596%7C456249&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.886590",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bachelor of Science Maschinenbau (PO19)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452596%7C456249&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.886697",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bachelor of Science Maschinenbau (PO24)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452596%7C456249&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.886815",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "ISE Bachelor of Science Mechanical Engineering (PO 19)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452596%7C456249&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.886936",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "ISE Bachelor of Science Mechanical Engineering (PO 24)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452596%7C456249&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.887068",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "ISE Bachelor of Science Metallurgy and Metal Forming (PO 19)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452596%7C456249&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.887195",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "ISE Bachelor of Science Metallurgy and Metal Forming (PO 24)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452596%7C456249&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.887319",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "ISE Master of Science Management and Technology of Water and Waste Water (PO 24)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452596%7C456249&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.887452",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "ISE Master of Science Mechanical Engineering (PO 24)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452596%7C456249&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.887578",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "ISE Master of Science Metallurgy and Metal Forming (PO 24)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452596%7C456249&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.887701",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master of Science Maschinenbau (PO24)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452596%7C456249&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.887817",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master of Science Technische Logistik (PO24)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452596%7C456249&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.887931",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "ISE Bachelor of Science Metallurgy and Metal Forming (PO 08)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452596%7C456369&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.895503",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "ISE Master of Science Metallurgy and Metal Forming (PO 08)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452596%7C456369&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.895640",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bachelor (LGyGe)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452596%7C455869&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.901526",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master (LGyGe)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452596%7C455869&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.901755",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bachelor Richtung Energie und Wirtschaft (PO19)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452596%7C452811&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.909773",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bachelor Richtung Informationstechnik und Wirtschaft (PO19)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452596%7C452811&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.909906",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bachelor Richtung Maschinenbau und Wirtschaft (PO19)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452596%7C452811&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.910041",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "M-AEM (ET) Master Automotive Engineering and Management (Vertiefungsrichtung Elektrotechnik)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452596%7C452811&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.910179",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "M-AEM (MB) Master Automotive Engineering and Management (Vertiefungsrichtung Maschinenbau)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452596%7C452811&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.910326",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bachelor Richtung Elektrotechnik und Informationstechnik (PO24)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452596%7C452811&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.910459",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Bachelor Richtung Maschinenbau (PO24)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452596%7C452811&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.910578",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master of Science Automotive Engineering & Mobility Management - Vertiefung Elektrotechnik (PO24)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452596%7C452811&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.910705",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master of Science Automotive Engineering & Mobility Management - Vertiefung Maschinenbau (PO24)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452596%7C452811&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.910835",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master of Science Wirtschaftsingenieurwesen (PO24)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452596%7C452811&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.910953",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Master Computational Mechanics",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452454%7C454603&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.923183",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Lehramt Sekundarstufe II - Berufliche Fachrichtung",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452454%7C454603&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.923318",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Lehramt am Berufskolleg - Große berufliche Fachrichtung Bautechnik",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452454%7C454603&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.923455",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Lehramt am Berufskolleg - Kleine berufliche Fachrichtung Tiefbauttechnik",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452454%7C454603&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:03.923587",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Vst.-Nr. Veranstaltung Vst.-Art Aktion 143300504 Praktikum der Augenheilkunde (PV) - Bornfeld , Esser , Eckstein , Westekemper , Mitarbeiter Praktikum 143300504 Vorlesung Augenheilkunde (WA) - Bornfeld , Esser , Eckstein , Westekemper , Anastassiou , Böhme , Bopp , Effert , Heiligenhaus , Heinz , Hudde , Kremmer , Laube , Lommatzsch , Pauleikhoff , Schallenberg , Schilling , Schüler , Selbach Vorlesung 143300506 Kurs der allgemeinen klinischen Untersuchung im nichtoperativen und operativen Stoffgebiet - Augenuntersuchungskurs (PV) - Bornfeld , Esser , Eckstein , Westekemper , Mitarbeiter Übung 143300508 Ausbildung im dritten klinischen Studienabschnitt (PJ WP) - Bornfeld , Esser , Eckstein , Westekemper , Mitarbeiter Praktikum 143300510 Spezielle Augenheilkunde (WA) - Bornfeld , Esser , Eckstein , Westekemper , Mitarbeiter Vorlesung 143300512 Klinische Visite (Retinologie) (WA) - Bornfeld Übung 143300514 Klinische Visite (Erkrankungen des vorderen Augenabschnitts) (WA) - Steuhl , Westekemper Übung 143300516 Klinische Visite (Kinderophthalmologie und Strabologie) (WA) - Steuhl , Bornfeld , Esser , Eckstein Übung 143300518 Diagnose und Therapie des Retinoblastoms (WA) - Bornfeld , Mitarbeiter Übung 143300520 Histopathologie des Auges (WA) - Bornfeld , Steuhl , Mitarbeiter Übung 143300522 Klinik und Pathologie der Hirnnerven (WA) - Esser , Schrader (M.) , Schrader (V.) Vorlesung 143300524 Entzündliche Augenerkrankungen (WA) - Heiligenhaus , Heinz , Pauleikhoff Seminar/Praktikum 143300526 Repetitorium für das 2. Staatsexamen (WA) - Esser , Eckstein , Westekemper , Mitarbeiter Vorlesung",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452381%7C454597&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:04.398691",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Repetitorium für das 2. Staatsexamen (WA) - Esser , Eckstein , Westekemper , Mitarbeiter",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C452381%7C454597&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:04.399658",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Repetitorium für das 2. Staatsexamen (WA)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=verpublish&status=init&vmfile=no&publishid=442498&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung",
+    "scraped_at": "2026-10-05T10:15:04.400987",
+    "confidence": 0.55,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Angewandte Kognitions- und Medienwissenschaft (KOMEDIA), Bachelor of Science",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C454510%7C452884&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:04.498645",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Angewandte Kognitions- und Medienwissenschaft (KOMEDIA), Master of Science",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C454510%7C452884&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:04.498796",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Informatik, Bachelor of Science",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C454510%7C452868&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:04.505334",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Informatik, Master of Science",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C454510%7C452868&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:04.505458",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Cyber-Physical Systems - Informatik, Master of Science",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C454510%7C456152&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:04.510391",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Cyber-Physical Systems - Ingenieurwissenschaften, Master of Science",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C454510%7C456152&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:04.510530",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Computer Engineering (Software), Bachelor of Science",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C454510%7C452831&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:04.515472",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Computer Engineering, Master of Science",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C454510%7C452831&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:04.515597",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "MA Lehramt Gymnasium/Gesamtschule - Informatik",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C454510%7C453347&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:04.520551",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "BA Lehramt Gymnasium/Gesamtschule - Informatik",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C454510%7C453347&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:04.520678",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "B.Sc. Software Engineering (PO 2023)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C454510%7C456381&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:04.525949",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "M.Sc. Software (and Network) Engineering (PO 2016 und PO 2026)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C454510%7C456381&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:04.526103",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "B.Sc. Software Engineering (PO 2026)",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C454510%7C456381&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:04.526228",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Menschzentrierte Informatik und Psychologie, Bachelor of Science",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C454510%7C454819&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:04.532004",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "Menschzentrierte Informatik und Psychologie, Master of Science",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C454510%7C454819&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:04.532142",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "B.Sc. Wirtschaftsinformatik",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C454510%7C453277&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:04.600493",
+    "confidence": 0.65,
+    "metadata": {}
+  },
+  {
+    "source_university_name": "Universität Duisburg-Essen",
+    "source_program_name": "M.Sc. Wirtschaftsinformatik",
+    "source_nc_text": "NC",
+    "semester": null,
+    "source_url": "https://campus.uni-due.de/lsf/rds?state=wtree&search=1&trex=step&root120262=452386%7C454510%7C453277&P.vx=kurz",
+    "scraped_at": "2026-10-05T10:15:04.600623",
+    "confidence": 0.65,
+    "metadata": {}
+  }
+]

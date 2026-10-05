@@ -1296,6 +1296,11 @@
   },
   {
     "university": "University of Duisburg-Essen",
+    "program": "Econometrics (Master of Science)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
     "program": "Economics (B.Sc.)",
     "nc_threshold": null
   },
@@ -1337,11 +1342,6 @@
   {
     "university": "University of Duisburg-Essen",
     "program": "Management and Technology of Water and Waste Water, ISE (M.Sc.)",
-    "nc_threshold": null
-  },
-  {
-    "university": "University of Duisburg-Essen",
-    "program": "Maschinenbau (Master of Science)",
     "nc_threshold": null
   },
   {
@@ -1452,6 +1452,11 @@
   {
     "university": "University of Duisburg-Essen",
     "program": "Soziologie (einjährig)",
+    "nc_threshold": null
+  },
+  {
+    "university": "University of Duisburg-Essen",
+    "program": "Spanisch (M.Sc.)",
     "nc_threshold": null
   },
   {
